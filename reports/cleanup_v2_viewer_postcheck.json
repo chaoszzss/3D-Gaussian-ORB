@@ -1,0 +1,2648 @@
+{
+  "schema_version": 1,
+  "runs": [
+    {
+      "phase": "pre-delete",
+      "created_at_utc": "2026-10-09T09:20:38.253603+00:00",
+      "deletion_completed_asserted_by_caller": false,
+      "checks": {
+        "landing": {
+          "status": "FAIL"
+        },
+        "gallery": {
+          "status": "PASS",
+          "result": {
+            "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/index.html",
+            "groups": {
+              "block000_measuredseed_anneal_v1": 20,
+              "block000_measuredseed_anneal_v1_resolution": 20,
+              "block_014": 12,
+              "block_015": 20,
+              "block_016": 16,
+              "joint015_aa_cap003_resolution": 20
+            },
+            "images": 108,
+            "links": [
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/000_comparison.jpg",
+                "status": 200,
+                "bytes": 423065,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/000_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/001_comparison.jpg",
+                "status": 200,
+                "bytes": 384653,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/001_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/002_comparison.jpg",
+                "status": 200,
+                "bytes": 362292,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/002_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/003_comparison.jpg",
+                "status": 200,
+                "bytes": 342309,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/003_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/004_comparison.jpg",
+                "status": 200,
+                "bytes": 419166,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/005_comparison.jpg",
+                "status": 200,
+                "bytes": 421708,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/006_comparison.jpg",
+                "status": 200,
+                "bytes": 388440,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/007_comparison.jpg",
+                "status": 200,
+                "bytes": 444145,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/008_comparison.jpg",
+                "status": 200,
+                "bytes": 382762,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/009_comparison.jpg",
+                "status": 200,
+                "bytes": 434471,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/010_comparison.jpg",
+                "status": 200,
+                "bytes": 394218,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/011_comparison.jpg",
+                "status": 200,
+                "bytes": 460116,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/012_comparison.jpg",
+                "status": 200,
+                "bytes": 433988,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/013_comparison.jpg",
+                "status": 200,
+                "bytes": 430672,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/014_comparison.jpg",
+                "status": 200,
+                "bytes": 419294,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/015_comparison.jpg",
+                "status": 200,
+                "bytes": 429177,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/016_comparison.jpg",
+                "status": 200,
+                "bytes": 389620,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/017_comparison.jpg",
+                "status": 200,
+                "bytes": 408025,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/018_comparison.jpg",
+                "status": 200,
+                "bytes": 409618,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/019_comparison.jpg",
+                "status": 200,
+                "bytes": 431766,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/metrics.json",
+                "status": 200,
+                "bytes": 118156,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/000_comparison.jpg",
+                "status": 200,
+                "bytes": 1220972,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/000_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/001_comparison.jpg",
+                "status": 200,
+                "bytes": 1127327,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/001_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/002_comparison.jpg",
+                "status": 200,
+                "bytes": 1068852,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/002_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/003_comparison.jpg",
+                "status": 200,
+                "bytes": 1040486,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/003_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/004_comparison.jpg",
+                "status": 200,
+                "bytes": 1181485,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/005_comparison.jpg",
+                "status": 200,
+                "bytes": 1240412,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/006_comparison.jpg",
+                "status": 200,
+                "bytes": 1151801,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/007_comparison.jpg",
+                "status": 200,
+                "bytes": 1325116,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/008_comparison.jpg",
+                "status": 200,
+                "bytes": 1053588,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/009_comparison.jpg",
+                "status": 200,
+                "bytes": 1277159,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/010_comparison.jpg",
+                "status": 200,
+                "bytes": 1174542,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/011_comparison.jpg",
+                "status": 200,
+                "bytes": 1397630,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/012_comparison.jpg",
+                "status": 200,
+                "bytes": 1237654,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/013_comparison.jpg",
+                "status": 200,
+                "bytes": 1246008,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/014_comparison.jpg",
+                "status": 200,
+                "bytes": 1256144,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/015_comparison.jpg",
+                "status": 200,
+                "bytes": 1295890,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/016_comparison.jpg",
+                "status": 200,
+                "bytes": 1089161,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/017_comparison.jpg",
+                "status": 200,
+                "bytes": 1188022,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/018_comparison.jpg",
+                "status": 200,
+                "bytes": 1208484,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/019_comparison.jpg",
+                "status": 200,
+                "bytes": 1291674,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/metrics.json",
+                "status": 200,
+                "bytes": 119266,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/004_comparison.jpg",
+                "status": 200,
+                "bytes": 340720,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/005_comparison.jpg",
+                "status": 200,
+                "bytes": 364550,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/006_comparison.jpg",
+                "status": 200,
+                "bytes": 329675,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/007_comparison.jpg",
+                "status": 200,
+                "bytes": 369642,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/008_comparison.jpg",
+                "status": 200,
+                "bytes": 331637,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/009_comparison.jpg",
+                "status": 200,
+                "bytes": 338661,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/010_comparison.jpg",
+                "status": 200,
+                "bytes": 306226,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/011_comparison.jpg",
+                "status": 200,
+                "bytes": 360381,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/012_comparison.jpg",
+                "status": 200,
+                "bytes": 316896,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/013_comparison.jpg",
+                "status": 200,
+                "bytes": 336479,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/014_comparison.jpg",
+                "status": 200,
+                "bytes": 296315,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/015_comparison.jpg",
+                "status": 200,
+                "bytes": 326460,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/metrics.json",
+                "status": 200,
+                "bytes": 73747,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/000_comparison.jpg",
+                "status": 200,
+                "bytes": 329743,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/000_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/001_comparison.jpg",
+                "status": 200,
+                "bytes": 377749,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/001_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/002_comparison.jpg",
+                "status": 200,
+                "bytes": 293636,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/002_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/003_comparison.jpg",
+                "status": 200,
+                "bytes": 345524,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/003_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/004_comparison.jpg",
+                "status": 200,
+                "bytes": 288590,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/005_comparison.jpg",
+                "status": 200,
+                "bytes": 316602,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/006_comparison.jpg",
+                "status": 200,
+                "bytes": 289549,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/007_comparison.jpg",
+                "status": 200,
+                "bytes": 292462,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/008_comparison.jpg",
+                "status": 200,
+                "bytes": 302152,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/009_comparison.jpg",
+                "status": 200,
+                "bytes": 332832,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/010_comparison.jpg",
+                "status": 200,
+                "bytes": 301929,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/011_comparison.jpg",
+                "status": 200,
+                "bytes": 307464,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/012_comparison.jpg",
+                "status": 200,
+                "bytes": 313613,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/013_comparison.jpg",
+                "status": 200,
+                "bytes": 350330,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/014_comparison.jpg",
+                "status": 200,
+                "bytes": 305693,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/015_comparison.jpg",
+                "status": 200,
+                "bytes": 314562,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/016_comparison.jpg",
+                "status": 200,
+                "bytes": 323202,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/017_comparison.jpg",
+                "status": 200,
+                "bytes": 357819,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/018_comparison.jpg",
+                "status": 200,
+                "bytes": 296282,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/019_comparison.jpg",
+                "status": 200,
+                "bytes": 315401,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/metrics.json",
+                "status": 200,
+                "bytes": 118405,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/004_comparison.jpg",
+                "status": 200,
+                "bytes": 339370,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/005_comparison.jpg",
+                "status": 200,
+                "bytes": 357800,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/006_comparison.jpg",
+                "status": 200,
+                "bytes": 275482,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/007_comparison.jpg",
+                "status": 200,
+                "bytes": 363317,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/008_comparison.jpg",
+                "status": 200,
+                "bytes": 341877,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/009_comparison.jpg",
+                "status": 200,
+                "bytes": 361302,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/010_comparison.jpg",
+                "status": 200,
+                "bytes": 303579,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/011_comparison.jpg",
+                "status": 200,
+                "bytes": 351875,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/012_comparison.jpg",
+                "status": 200,
+                "bytes": 320813,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/013_comparison.jpg",
+                "status": 200,
+                "bytes": 373251,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/014_comparison.jpg",
+                "status": 200,
+                "bytes": 335444,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/015_comparison.jpg",
+                "status": 200,
+                "bytes": 381366,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/016_comparison.jpg",
+                "status": 200,
+                "bytes": 333681,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/017_comparison.jpg",
+                "status": 200,
+                "bytes": 386798,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/018_comparison.jpg",
+                "status": 200,
+                "bytes": 350212,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/019_comparison.jpg",
+                "status": 200,
+                "bytes": 393030,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/metrics.json",
+                "status": 200,
+                "bytes": 95811,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/000_comparison.jpg",
+                "status": 200,
+                "bytes": 941143,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/000_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/001_comparison.jpg",
+                "status": 200,
+                "bytes": 1107069,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/001_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/002_comparison.jpg",
+                "status": 200,
+                "bytes": 860847,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/002_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/003_comparison.jpg",
+                "status": 200,
+                "bytes": 972235,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/003_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/004_comparison.jpg",
+                "status": 200,
+                "bytes": 839673,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/005_comparison.jpg",
+                "status": 200,
+                "bytes": 920323,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/006_comparison.jpg",
+                "status": 200,
+                "bytes": 878900,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/007_comparison.jpg",
+                "status": 200,
+                "bytes": 829321,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/008_comparison.jpg",
+                "status": 200,
+                "bytes": 870129,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/009_comparison.jpg",
+                "status": 200,
+                "bytes": 962392,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/010_comparison.jpg",
+                "status": 200,
+                "bytes": 909097,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/011_comparison.jpg",
+                "status": 200,
+                "bytes": 855643,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/012_comparison.jpg",
+                "status": 200,
+                "bytes": 893500,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/013_comparison.jpg",
+                "status": 200,
+                "bytes": 1016000,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/014_comparison.jpg",
+                "status": 200,
+                "bytes": 906286,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/015_comparison.jpg",
+                "status": 200,
+                "bytes": 874068,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/016_comparison.jpg",
+                "status": 200,
+                "bytes": 928801,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/017_comparison.jpg",
+                "status": 200,
+                "bytes": 1025460,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/018_comparison.jpg",
+                "status": 200,
+                "bytes": 862949,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/019_comparison.jpg",
+                "status": 200,
+                "bytes": 873354,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/metrics.json",
+                "status": 200,
+                "bytes": 119219,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/reports/full_preview_v2/",
+                "status": 200,
+                "bytes": 7760,
+                "path": "reports/full_preview_v2/index.html"
+              }
+            ],
+            "html_sha256": "7acc2efd223104ca16e53c860e7e6ebbce9c55c11496388f51bf2da7427fd413",
+            "image_check": "HEAD/disk byte lengths and local JPEG magic; no full image/body SHA or quality scoring"
+          }
+        },
+        "models": {
+          "status": "PASS",
+          "result": [
+            {
+              "port": 8768,
+              "manifest": "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+              "manifest_sha256": "15f2b22fa7ebe5427cd77807fc8e567da58e6c883a4478a864f2b39eee7af9e1",
+              "models": [
+                {
+                  "url": "http://127.0.0.1:8768/api/blocks/block_000/model",
+                  "status": 200,
+                  "bytes": 618943622,
+                  "id": "block_000",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_000.ply",
+                  "gaussians": 2495734,
+                  "range_status": 206,
+                  "header_bytes": 1590,
+                  "bytes_downloaded": 1838,
+                  "header_and_first_record_sha256": "1bc205cc549df7fc7b6cae534559a3989bd56ae1dc909ca7f3f23bbaf35bf158",
+                  "declared_ply_sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                }
+              ],
+              "total_gaussians": 2495734
+            },
+            {
+              "port": 8769,
+              "manifest": "maps/garage_fidelity_v2_full_preview/overview_manifest.json",
+              "manifest_sha256": "ac1ac0f329ea91e4638d52026bdf259067f2614431e2af0d0f04fbd58be08b7c",
+              "models": [
+                {
+                  "url": "http://127.0.0.1:8769/api/blocks/garage_overview/model",
+                  "status": 200,
+                  "bytes": 297601595,
+                  "id": "garage_overview",
+                  "path": "maps/garage_fidelity_v2_full_preview/gaussians_overview.ply",
+                  "gaussians": 1200000,
+                  "range_status": 206,
+                  "header_bytes": 1595,
+                  "bytes_downloaded": 1843,
+                  "header_and_first_record_sha256": "b01521d713e6fc8156c2b000d63ecd467efc7877bf35a1f575f687ba5e714276",
+                  "declared_ply_sha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 0
+                }
+              ],
+              "total_gaussians": 1200000
+            },
+            {
+              "port": 8770,
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "manifest_sha256": "eed2c46fd390d45be7d101a7abf068f04e85af027d7302fdddccf1608d0822ec",
+              "models": [
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_000/model",
+                  "status": 200,
+                  "bytes": 618943622,
+                  "id": "block_000",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_000.ply",
+                  "gaussians": 2495734,
+                  "range_status": 206,
+                  "header_bytes": 1590,
+                  "bytes_downloaded": 1838,
+                  "header_and_first_record_sha256": "1bc205cc549df7fc7b6cae534559a3989bd56ae1dc909ca7f3f23bbaf35bf158",
+                  "declared_ply_sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_001/model",
+                  "status": 200,
+                  "bytes": 85034589,
+                  "id": "block_001",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_001.ply",
+                  "gaussians": 342875,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "1f3a0ead20edea1a725270d1d8867d4d13bdeddbe8696ec391a28fbacdda041c",
+                  "declared_ply_sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_002/model",
+                  "status": 200,
+                  "bytes": 90492077,
+                  "id": "block_002",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_002.ply",
+                  "gaussians": 364881,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "1da3f3595cfe4bcf679b51837a5cc5dd15a0974785580969efb29b8f24444a7b",
+                  "declared_ply_sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_003/model",
+                  "status": 200,
+                  "bytes": 91487797,
+                  "id": "block_003",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_003.ply",
+                  "gaussians": 368896,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "bb66db79cce870b0221485ab9cf024b677a4651905f09f99a70c34d95919cf94",
+                  "declared_ply_sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_004/model",
+                  "status": 200,
+                  "bytes": 95308981,
+                  "id": "block_004",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_004.ply",
+                  "gaussians": 384304,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "2f3249da2d6f9ba238ee6b55238b120bd9bdf6547c1d3bd954b2088f46e38d15",
+                  "declared_ply_sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_005/model",
+                  "status": 200,
+                  "bytes": 101507493,
+                  "id": "block_005",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_005.ply",
+                  "gaussians": 409298,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "ab5323c5688ed12f27879b517153fb1514e8b67f8b8219b1b3f1869bd6128654",
+                  "declared_ply_sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_006/model",
+                  "status": 200,
+                  "bytes": 99249205,
+                  "id": "block_006",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_006.ply",
+                  "gaussians": 400192,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "c25f19fb13e611e2c84e13fffc4944f09bec8615cc86df17dac58d5b24224617",
+                  "declared_ply_sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_007/model",
+                  "status": 200,
+                  "bytes": 96656117,
+                  "id": "block_007",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_007.ply",
+                  "gaussians": 389736,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "b2213d8c42dd7fd20e3f47ce918da2f847044ca64cbc144bce9e33c3ecb2a8a2",
+                  "declared_ply_sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_008/model",
+                  "status": 200,
+                  "bytes": 93760717,
+                  "id": "block_008",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_008.ply",
+                  "gaussians": 378061,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "71b51f27946d3f6f96d8983c9b58fbe88cf64b1084b98604ae894b1e5ba8a133",
+                  "declared_ply_sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_009/model",
+                  "status": 200,
+                  "bytes": 93886205,
+                  "id": "block_009",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_009.ply",
+                  "gaussians": 378567,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "13289c2066b5bb1b9aaa71695b1a509c63e454a4b0fbc08af8defabab4e74cee",
+                  "declared_ply_sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_010/model",
+                  "status": 200,
+                  "bytes": 89539757,
+                  "id": "block_010",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_010.ply",
+                  "gaussians": 361041,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "e7ae8260bcc4d9bd3c82441da7f5bb67c3e9a9f7ac45173eb90fde3f6b4b4493",
+                  "declared_ply_sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_011/model",
+                  "status": 200,
+                  "bytes": 91748197,
+                  "id": "block_011",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_011.ply",
+                  "gaussians": 369946,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "5ec59b2aa9a579e1d10cfeec845070c58b0c30736fc2a319529d7fcaff4fb656",
+                  "declared_ply_sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_012/model",
+                  "status": 200,
+                  "bytes": 91946349,
+                  "id": "block_012",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_012.ply",
+                  "gaussians": 370745,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "51e066b0a04102c060f3ca9d44b00114e9c195af7e62f27a9af3f0e72d5f09fe",
+                  "declared_ply_sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_013/model",
+                  "status": 200,
+                  "bytes": 91414637,
+                  "id": "block_013",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_013.ply",
+                  "gaussians": 368601,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "c7e97e3b9970dc504f8540d2c0c7049f82cdeec9451d65d774f16700633929c3",
+                  "declared_ply_sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_015/model",
+                  "status": 200,
+                  "bytes": 619713166,
+                  "id": "block_015",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_015.ply",
+                  "gaussians": 2498837,
+                  "range_status": 206,
+                  "header_bytes": 1590,
+                  "bytes_downloaded": 1838,
+                  "header_and_first_record_sha256": "d55f07dd084a311c6839be591f63a47b2b9caa7d0594993c37fc13800c80f714",
+                  "declared_ply_sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_017/model",
+                  "status": 200,
+                  "bytes": 88792781,
+                  "id": "block_017",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_017.ply",
+                  "gaussians": 358029,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "c5ec5c042a2cc66119d0c3d998441836ce7d51ce48a6c5a590c040be97aeb1d8",
+                  "declared_ply_sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_018/model",
+                  "status": 200,
+                  "bytes": 85075757,
+                  "id": "block_018",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_018.ply",
+                  "gaussians": 343041,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "52d458d95dbdff47e5cc1623a90562a59aa8ab728410c5fac8d22cd5596cabed",
+                  "declared_ply_sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_019/model",
+                  "status": 200,
+                  "bytes": 75151293,
+                  "id": "block_019",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_019.ply",
+                  "gaussians": 303023,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "8b839cf0c6a02746bf868954a81594a7c1f97e2722b6b761790f6843606aae68",
+                  "declared_ply_sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_020/model",
+                  "status": 200,
+                  "bytes": 90364853,
+                  "id": "block_020",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_020.ply",
+                  "gaussians": 364368,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "d232e7fa6340da4add7821aacbfc9e700473fcdc2dc1b913c574840c05d278ad",
+                  "declared_ply_sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_021/model",
+                  "status": 200,
+                  "bytes": 85111717,
+                  "id": "block_021",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_021.ply",
+                  "gaussians": 343186,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "0cf84d50fd2e823b134695bfae91af45a581830985b8d6f416422f4b079c1cb7",
+                  "declared_ply_sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_022/model",
+                  "status": 200,
+                  "bytes": 89361693,
+                  "id": "block_022",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_022.ply",
+                  "gaussians": 360323,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "b5c3f259df5e87530e8a8b6467d47743f503b97824d3d5c4c91195b8f2fb3faf",
+                  "declared_ply_sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_023/model",
+                  "status": 200,
+                  "bytes": 89929117,
+                  "id": "block_023",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_023.ply",
+                  "gaussians": 362611,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "f2f4cb708fa2cfd9efcd57dcc7824b87264c7e68d96efec616da7801615994f2",
+                  "declared_ply_sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_024/model",
+                  "status": 200,
+                  "bytes": 82325437,
+                  "id": "block_024",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_024.ply",
+                  "gaussians": 331951,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "f796e908ab06219aef405df25d809d784514ddad4a9336394e1df57104a949b4",
+                  "declared_ply_sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_025/model",
+                  "status": 200,
+                  "bytes": 100681405,
+                  "id": "block_025",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_025.ply",
+                  "gaussians": 405967,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "eb56d6f40688747879208f6413d694b40378f01c995b4947b0816d7dc849138a",
+                  "declared_ply_sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_026/model",
+                  "status": 200,
+                  "bytes": 97042997,
+                  "id": "block_026",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_026.ply",
+                  "gaussians": 391296,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "6429aa0c89d62849cf1d4c5464d41cf0838ad6fce1dd818406641c7f7cbd3759",
+                  "declared_ply_sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_027/model",
+                  "status": 200,
+                  "bytes": 58465853,
+                  "id": "block_027",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_027.ply",
+                  "gaussians": 235743,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "ae55484f8d9cd729ac09bca7ca46c05a883a8bd3317e784298ca591f2b541287",
+                  "declared_ply_sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                }
+              ],
+              "total_gaussians": 13681252
+            }
+          ]
+        },
+        "static": {
+          "status": "PASS",
+          "result": {
+            "files": [
+              {
+                "path": "viewer/index.html",
+                "sha256": "24b9233242debded319028f600eb7f0d10195422bdc4023acff42190ace246a5",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/app.js",
+                "sha256": "bccfe4d8f7a3b1add35d8b426eb68ba0e1571eabaa89c351934766d241687e3d",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/style.css",
+                "sha256": "46d37b1d62ded9d409917cf325b2a98e34894ea1f8541bbcacfe843441c8fb56",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/gaussian_sh_restore.js",
+                "sha256": "3e6b3321273a4da87440db8c4dbccedd7f2a56045a8c07716c21545dae1218b7",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/gaussian_direction_support.js",
+                "sha256": "1a04304943ec9ba37501557d6b8fcd6e49132b2d55c6b48f84be65875aa8bb9d",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js",
+                "sha256": "2de375d5e489692f976abe3199c8435ecc00f97fabaf35e489eb7d368e1f6f60",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/build/three.module.js",
+                "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/build/three.core.js",
+                "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/examples/jsm/controls/OrbitControls.js",
+                "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/examples/jsm/loaders/PLYLoader.js",
+                "sha256": "b824a6dda90cbfb37cabf8e5462ed1673e7693852bc1a6a7bab0465d7b634dfb",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/examples/jsm/postprocessing/Pass.js",
+                "sha256": "444b409c235ead986893c472e720da1b779a56985c7d10b279c7944b52bd61c5",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              }
+            ],
+            "unique_static_files": 11,
+            "server_and_reference_source_unchanged": true
+          }
+        }
+      },
+      "errors": [
+        {
+          "check": "landing",
+          "error": "HTTP Error 404: File not found"
+        }
+      ],
+      "audit_sha256": "9135fb6ca2a41a78629ebd9758f1da6f5917da9d46ca95f6378caf2ffa4d4070",
+      "script_sha256": "507e5bb47dfbbbcc2ac6bb4611e88f770096d5d4be7e5d081612757be04181d3",
+      "scope": "CPU/HTTP only; no GPU/browser/server lifecycle changes; no large-model download/full SHA; no new quality or native parity claim.",
+      "status": "PRE_DELETE_BASELINE_FAIL",
+      "elapsed_s": 0.18776508700102568
+    },
+    {
+      "phase": "post-delete",
+      "created_at_utc": "2026-10-09T09:22:54.539904+00:00",
+      "deletion_completed_asserted_by_caller": true,
+      "checks": {
+        "landing": {
+          "status": "PASS",
+          "result": {
+            "links": [
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/assembly.json",
+                "status": 200,
+                "bytes": 31005,
+                "path": "maps/garage_fidelity_v2_full_preview/assembly.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/",
+                "status": 200,
+                "bytes": 27558,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/index.html"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/gaussians_full.ply",
+                "status": 200,
+                "bytes": 3392952092,
+                "path": "maps/garage_fidelity_v2_full_preview/gaussians_full.ply"
+              },
+              {
+                "url": "http://127.0.0.1:8767/reports/cleanup_v2_summary.md",
+                "status": 200,
+                "bytes": 3480,
+                "path": "reports/cleanup_v2_summary.md"
+              },
+              {
+                "url": "http://127.0.0.1:8767/reports/full_preview_v2/f6_block_027.png",
+                "status": 200,
+                "bytes": 897322,
+                "path": "reports/full_preview_v2/f6_block_027.png"
+              },
+              {
+                "url": "http://127.0.0.1:8767/reports/full_preview_v2/overview.png",
+                "status": 200,
+                "bytes": 201239,
+                "path": "reports/full_preview_v2/overview.png"
+              },
+              {
+                "url": "http://127.0.0.1:8767/reports/full_preview_v2/overview_side.png",
+                "status": 200,
+                "bytes": 151930,
+                "path": "reports/full_preview_v2/overview_side.png"
+              },
+              {
+                "url": "http://127.0.0.1:8767/reports/full_preview_v2_viewer.json",
+                "status": 200,
+                "bytes": 53607,
+                "path": "reports/full_preview_v2_viewer.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/reports/full_preview_v2_viewer.md",
+                "status": 200,
+                "bytes": 4617,
+                "path": "reports/full_preview_v2_viewer.md"
+              },
+              {
+                "url": "http://127.0.0.1:8769/",
+                "status": 200,
+                "bytes": 4130
+              },
+              {
+                "url": "http://127.0.0.1:8770/",
+                "status": 200,
+                "bytes": 4130
+              }
+            ],
+            "gallery_link_present": true,
+            "html_sha256": "a6fd599541b660bf67520a2e2ef344a39c4fe6bcd4eeafc953d2a2b48debc06f",
+            "historical_browser_evidence_only": true
+          }
+        },
+        "gallery": {
+          "status": "PASS",
+          "result": {
+            "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/index.html",
+            "groups": {
+              "block000_measuredseed_anneal_v1": 20,
+              "block000_measuredseed_anneal_v1_resolution": 20,
+              "block_014": 12,
+              "block_015": 20,
+              "block_016": 16,
+              "joint015_aa_cap003_resolution": 20
+            },
+            "images": 108,
+            "links": [
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/000_comparison.jpg",
+                "status": 200,
+                "bytes": 423065,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/000_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/001_comparison.jpg",
+                "status": 200,
+                "bytes": 384653,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/001_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/002_comparison.jpg",
+                "status": 200,
+                "bytes": 362292,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/002_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/003_comparison.jpg",
+                "status": 200,
+                "bytes": 342309,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/003_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/004_comparison.jpg",
+                "status": 200,
+                "bytes": 419166,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/005_comparison.jpg",
+                "status": 200,
+                "bytes": 421708,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/006_comparison.jpg",
+                "status": 200,
+                "bytes": 388440,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/007_comparison.jpg",
+                "status": 200,
+                "bytes": 444145,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/008_comparison.jpg",
+                "status": 200,
+                "bytes": 382762,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/009_comparison.jpg",
+                "status": 200,
+                "bytes": 434471,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/010_comparison.jpg",
+                "status": 200,
+                "bytes": 394218,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/011_comparison.jpg",
+                "status": 200,
+                "bytes": 460116,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/012_comparison.jpg",
+                "status": 200,
+                "bytes": 433988,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/013_comparison.jpg",
+                "status": 200,
+                "bytes": 430672,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/014_comparison.jpg",
+                "status": 200,
+                "bytes": 419294,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/015_comparison.jpg",
+                "status": 200,
+                "bytes": 429177,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/016_comparison.jpg",
+                "status": 200,
+                "bytes": 389620,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/017_comparison.jpg",
+                "status": 200,
+                "bytes": 408025,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/018_comparison.jpg",
+                "status": 200,
+                "bytes": 409618,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/019_comparison.jpg",
+                "status": 200,
+                "bytes": 431766,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/metrics.json",
+                "status": 200,
+                "bytes": 118156,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/000_comparison.jpg",
+                "status": 200,
+                "bytes": 1220972,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/000_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/001_comparison.jpg",
+                "status": 200,
+                "bytes": 1127327,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/001_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/002_comparison.jpg",
+                "status": 200,
+                "bytes": 1068852,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/002_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/003_comparison.jpg",
+                "status": 200,
+                "bytes": 1040486,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/003_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/004_comparison.jpg",
+                "status": 200,
+                "bytes": 1181485,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/005_comparison.jpg",
+                "status": 200,
+                "bytes": 1240412,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/006_comparison.jpg",
+                "status": 200,
+                "bytes": 1151801,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/007_comparison.jpg",
+                "status": 200,
+                "bytes": 1325116,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/008_comparison.jpg",
+                "status": 200,
+                "bytes": 1053588,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/009_comparison.jpg",
+                "status": 200,
+                "bytes": 1277159,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/010_comparison.jpg",
+                "status": 200,
+                "bytes": 1174542,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/011_comparison.jpg",
+                "status": 200,
+                "bytes": 1397630,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/012_comparison.jpg",
+                "status": 200,
+                "bytes": 1237654,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/013_comparison.jpg",
+                "status": 200,
+                "bytes": 1246008,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/014_comparison.jpg",
+                "status": 200,
+                "bytes": 1256144,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/015_comparison.jpg",
+                "status": 200,
+                "bytes": 1295890,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/016_comparison.jpg",
+                "status": 200,
+                "bytes": 1089161,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/017_comparison.jpg",
+                "status": 200,
+                "bytes": 1188022,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/018_comparison.jpg",
+                "status": 200,
+                "bytes": 1208484,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/019_comparison.jpg",
+                "status": 200,
+                "bytes": 1291674,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/metrics.json",
+                "status": 200,
+                "bytes": 119266,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/004_comparison.jpg",
+                "status": 200,
+                "bytes": 340720,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/005_comparison.jpg",
+                "status": 200,
+                "bytes": 364550,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/006_comparison.jpg",
+                "status": 200,
+                "bytes": 329675,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/007_comparison.jpg",
+                "status": 200,
+                "bytes": 369642,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/008_comparison.jpg",
+                "status": 200,
+                "bytes": 331637,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/009_comparison.jpg",
+                "status": 200,
+                "bytes": 338661,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/010_comparison.jpg",
+                "status": 200,
+                "bytes": 306226,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/011_comparison.jpg",
+                "status": 200,
+                "bytes": 360381,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/012_comparison.jpg",
+                "status": 200,
+                "bytes": 316896,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/013_comparison.jpg",
+                "status": 200,
+                "bytes": 336479,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/014_comparison.jpg",
+                "status": 200,
+                "bytes": 296315,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/015_comparison.jpg",
+                "status": 200,
+                "bytes": 326460,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/metrics.json",
+                "status": 200,
+                "bytes": 73747,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/000_comparison.jpg",
+                "status": 200,
+                "bytes": 329743,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/000_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/001_comparison.jpg",
+                "status": 200,
+                "bytes": 377749,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/001_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/002_comparison.jpg",
+                "status": 200,
+                "bytes": 293636,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/002_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/003_comparison.jpg",
+                "status": 200,
+                "bytes": 345524,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/003_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/004_comparison.jpg",
+                "status": 200,
+                "bytes": 288590,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/005_comparison.jpg",
+                "status": 200,
+                "bytes": 316602,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/006_comparison.jpg",
+                "status": 200,
+                "bytes": 289549,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/007_comparison.jpg",
+                "status": 200,
+                "bytes": 292462,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/008_comparison.jpg",
+                "status": 200,
+                "bytes": 302152,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/009_comparison.jpg",
+                "status": 200,
+                "bytes": 332832,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/010_comparison.jpg",
+                "status": 200,
+                "bytes": 301929,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/011_comparison.jpg",
+                "status": 200,
+                "bytes": 307464,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/012_comparison.jpg",
+                "status": 200,
+                "bytes": 313613,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/013_comparison.jpg",
+                "status": 200,
+                "bytes": 350330,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/014_comparison.jpg",
+                "status": 200,
+                "bytes": 305693,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/015_comparison.jpg",
+                "status": 200,
+                "bytes": 314562,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/016_comparison.jpg",
+                "status": 200,
+                "bytes": 323202,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/017_comparison.jpg",
+                "status": 200,
+                "bytes": 357819,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/018_comparison.jpg",
+                "status": 200,
+                "bytes": 296282,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/019_comparison.jpg",
+                "status": 200,
+                "bytes": 315401,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/metrics.json",
+                "status": 200,
+                "bytes": 118405,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/004_comparison.jpg",
+                "status": 200,
+                "bytes": 339370,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/005_comparison.jpg",
+                "status": 200,
+                "bytes": 357800,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/006_comparison.jpg",
+                "status": 200,
+                "bytes": 275482,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/007_comparison.jpg",
+                "status": 200,
+                "bytes": 363317,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/008_comparison.jpg",
+                "status": 200,
+                "bytes": 341877,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/009_comparison.jpg",
+                "status": 200,
+                "bytes": 361302,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/010_comparison.jpg",
+                "status": 200,
+                "bytes": 303579,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/011_comparison.jpg",
+                "status": 200,
+                "bytes": 351875,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/012_comparison.jpg",
+                "status": 200,
+                "bytes": 320813,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/013_comparison.jpg",
+                "status": 200,
+                "bytes": 373251,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/014_comparison.jpg",
+                "status": 200,
+                "bytes": 335444,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/015_comparison.jpg",
+                "status": 200,
+                "bytes": 381366,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/016_comparison.jpg",
+                "status": 200,
+                "bytes": 333681,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/017_comparison.jpg",
+                "status": 200,
+                "bytes": 386798,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/018_comparison.jpg",
+                "status": 200,
+                "bytes": 350212,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/019_comparison.jpg",
+                "status": 200,
+                "bytes": 393030,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/metrics.json",
+                "status": 200,
+                "bytes": 95811,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/000_comparison.jpg",
+                "status": 200,
+                "bytes": 941143,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/000_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/001_comparison.jpg",
+                "status": 200,
+                "bytes": 1107069,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/001_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/002_comparison.jpg",
+                "status": 200,
+                "bytes": 860847,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/002_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/003_comparison.jpg",
+                "status": 200,
+                "bytes": 972235,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/003_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/004_comparison.jpg",
+                "status": 200,
+                "bytes": 839673,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/004_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/005_comparison.jpg",
+                "status": 200,
+                "bytes": 920323,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/005_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/006_comparison.jpg",
+                "status": 200,
+                "bytes": 878900,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/006_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/007_comparison.jpg",
+                "status": 200,
+                "bytes": 829321,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/007_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/008_comparison.jpg",
+                "status": 200,
+                "bytes": 870129,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/008_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/009_comparison.jpg",
+                "status": 200,
+                "bytes": 962392,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/009_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/010_comparison.jpg",
+                "status": 200,
+                "bytes": 909097,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/010_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/011_comparison.jpg",
+                "status": 200,
+                "bytes": 855643,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/011_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/012_comparison.jpg",
+                "status": 200,
+                "bytes": 893500,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/012_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/013_comparison.jpg",
+                "status": 200,
+                "bytes": 1016000,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/013_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/014_comparison.jpg",
+                "status": 200,
+                "bytes": 906286,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/014_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/015_comparison.jpg",
+                "status": 200,
+                "bytes": 874068,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/015_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/016_comparison.jpg",
+                "status": 200,
+                "bytes": 928801,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/016_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/017_comparison.jpg",
+                "status": 200,
+                "bytes": 1025460,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/017_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/018_comparison.jpg",
+                "status": 200,
+                "bytes": 862949,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/018_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/019_comparison.jpg",
+                "status": 200,
+                "bytes": 873354,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/019_comparison.jpg"
+              },
+              {
+                "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/metrics.json",
+                "status": 200,
+                "bytes": 119219,
+                "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/metrics.json"
+              },
+              {
+                "url": "http://127.0.0.1:8767/reports/full_preview_v2/",
+                "status": 200,
+                "bytes": 7760,
+                "path": "reports/full_preview_v2/index.html"
+              }
+            ],
+            "html_sha256": "7acc2efd223104ca16e53c860e7e6ebbce9c55c11496388f51bf2da7427fd413",
+            "image_check": "HEAD/disk byte lengths and local JPEG magic; no full image/body SHA or quality scoring"
+          }
+        },
+        "models": {
+          "status": "PASS",
+          "result": [
+            {
+              "port": 8768,
+              "manifest": "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+              "manifest_sha256": "15f2b22fa7ebe5427cd77807fc8e567da58e6c883a4478a864f2b39eee7af9e1",
+              "models": [
+                {
+                  "url": "http://127.0.0.1:8768/api/blocks/block_000/model",
+                  "status": 200,
+                  "bytes": 618943622,
+                  "id": "block_000",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_000.ply",
+                  "gaussians": 2495734,
+                  "range_status": 206,
+                  "header_bytes": 1590,
+                  "bytes_downloaded": 1838,
+                  "header_and_first_record_sha256": "1bc205cc549df7fc7b6cae534559a3989bd56ae1dc909ca7f3f23bbaf35bf158",
+                  "declared_ply_sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                }
+              ],
+              "total_gaussians": 2495734
+            },
+            {
+              "port": 8769,
+              "manifest": "maps/garage_fidelity_v2_full_preview/overview_manifest.json",
+              "manifest_sha256": "ac1ac0f329ea91e4638d52026bdf259067f2614431e2af0d0f04fbd58be08b7c",
+              "models": [
+                {
+                  "url": "http://127.0.0.1:8769/api/blocks/garage_overview/model",
+                  "status": 200,
+                  "bytes": 297601595,
+                  "id": "garage_overview",
+                  "path": "maps/garage_fidelity_v2_full_preview/gaussians_overview.ply",
+                  "gaussians": 1200000,
+                  "range_status": 206,
+                  "header_bytes": 1595,
+                  "bytes_downloaded": 1843,
+                  "header_and_first_record_sha256": "b01521d713e6fc8156c2b000d63ecd467efc7877bf35a1f575f687ba5e714276",
+                  "declared_ply_sha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 0
+                }
+              ],
+              "total_gaussians": 1200000
+            },
+            {
+              "port": 8770,
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "manifest_sha256": "eed2c46fd390d45be7d101a7abf068f04e85af027d7302fdddccf1608d0822ec",
+              "models": [
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_000/model",
+                  "status": 200,
+                  "bytes": 618943622,
+                  "id": "block_000",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_000.ply",
+                  "gaussians": 2495734,
+                  "range_status": 206,
+                  "header_bytes": 1590,
+                  "bytes_downloaded": 1838,
+                  "header_and_first_record_sha256": "1bc205cc549df7fc7b6cae534559a3989bd56ae1dc909ca7f3f23bbaf35bf158",
+                  "declared_ply_sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_001/model",
+                  "status": 200,
+                  "bytes": 85034589,
+                  "id": "block_001",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_001.ply",
+                  "gaussians": 342875,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "1f3a0ead20edea1a725270d1d8867d4d13bdeddbe8696ec391a28fbacdda041c",
+                  "declared_ply_sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_002/model",
+                  "status": 200,
+                  "bytes": 90492077,
+                  "id": "block_002",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_002.ply",
+                  "gaussians": 364881,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "1da3f3595cfe4bcf679b51837a5cc5dd15a0974785580969efb29b8f24444a7b",
+                  "declared_ply_sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_003/model",
+                  "status": 200,
+                  "bytes": 91487797,
+                  "id": "block_003",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_003.ply",
+                  "gaussians": 368896,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "bb66db79cce870b0221485ab9cf024b677a4651905f09f99a70c34d95919cf94",
+                  "declared_ply_sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_004/model",
+                  "status": 200,
+                  "bytes": 95308981,
+                  "id": "block_004",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_004.ply",
+                  "gaussians": 384304,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "2f3249da2d6f9ba238ee6b55238b120bd9bdf6547c1d3bd954b2088f46e38d15",
+                  "declared_ply_sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_005/model",
+                  "status": 200,
+                  "bytes": 101507493,
+                  "id": "block_005",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_005.ply",
+                  "gaussians": 409298,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "ab5323c5688ed12f27879b517153fb1514e8b67f8b8219b1b3f1869bd6128654",
+                  "declared_ply_sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_006/model",
+                  "status": 200,
+                  "bytes": 99249205,
+                  "id": "block_006",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_006.ply",
+                  "gaussians": 400192,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "c25f19fb13e611e2c84e13fffc4944f09bec8615cc86df17dac58d5b24224617",
+                  "declared_ply_sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_007/model",
+                  "status": 200,
+                  "bytes": 96656117,
+                  "id": "block_007",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_007.ply",
+                  "gaussians": 389736,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "b2213d8c42dd7fd20e3f47ce918da2f847044ca64cbc144bce9e33c3ecb2a8a2",
+                  "declared_ply_sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_008/model",
+                  "status": 200,
+                  "bytes": 93760717,
+                  "id": "block_008",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_008.ply",
+                  "gaussians": 378061,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "71b51f27946d3f6f96d8983c9b58fbe88cf64b1084b98604ae894b1e5ba8a133",
+                  "declared_ply_sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_009/model",
+                  "status": 200,
+                  "bytes": 93886205,
+                  "id": "block_009",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_009.ply",
+                  "gaussians": 378567,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "13289c2066b5bb1b9aaa71695b1a509c63e454a4b0fbc08af8defabab4e74cee",
+                  "declared_ply_sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_010/model",
+                  "status": 200,
+                  "bytes": 89539757,
+                  "id": "block_010",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_010.ply",
+                  "gaussians": 361041,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "e7ae8260bcc4d9bd3c82441da7f5bb67c3e9a9f7ac45173eb90fde3f6b4b4493",
+                  "declared_ply_sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_011/model",
+                  "status": 200,
+                  "bytes": 91748197,
+                  "id": "block_011",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_011.ply",
+                  "gaussians": 369946,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "5ec59b2aa9a579e1d10cfeec845070c58b0c30736fc2a319529d7fcaff4fb656",
+                  "declared_ply_sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_012/model",
+                  "status": 200,
+                  "bytes": 91946349,
+                  "id": "block_012",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_012.ply",
+                  "gaussians": 370745,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "51e066b0a04102c060f3ca9d44b00114e9c195af7e62f27a9af3f0e72d5f09fe",
+                  "declared_ply_sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_013/model",
+                  "status": 200,
+                  "bytes": 91414637,
+                  "id": "block_013",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_013.ply",
+                  "gaussians": 368601,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "c7e97e3b9970dc504f8540d2c0c7049f82cdeec9451d65d774f16700633929c3",
+                  "declared_ply_sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_015/model",
+                  "status": 200,
+                  "bytes": 619713166,
+                  "id": "block_015",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_015.ply",
+                  "gaussians": 2498837,
+                  "range_status": 206,
+                  "header_bytes": 1590,
+                  "bytes_downloaded": 1838,
+                  "header_and_first_record_sha256": "d55f07dd084a311c6839be591f63a47b2b9caa7d0594993c37fc13800c80f714",
+                  "declared_ply_sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_017/model",
+                  "status": 200,
+                  "bytes": 88792781,
+                  "id": "block_017",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_017.ply",
+                  "gaussians": 358029,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "c5ec5c042a2cc66119d0c3d998441836ce7d51ce48a6c5a590c040be97aeb1d8",
+                  "declared_ply_sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_018/model",
+                  "status": 200,
+                  "bytes": 85075757,
+                  "id": "block_018",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_018.ply",
+                  "gaussians": 343041,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "52d458d95dbdff47e5cc1623a90562a59aa8ab728410c5fac8d22cd5596cabed",
+                  "declared_ply_sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_019/model",
+                  "status": 200,
+                  "bytes": 75151293,
+                  "id": "block_019",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_019.ply",
+                  "gaussians": 303023,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "8b839cf0c6a02746bf868954a81594a7c1f97e2722b6b761790f6843606aae68",
+                  "declared_ply_sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_020/model",
+                  "status": 200,
+                  "bytes": 90364853,
+                  "id": "block_020",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_020.ply",
+                  "gaussians": 364368,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "d232e7fa6340da4add7821aacbfc9e700473fcdc2dc1b913c574840c05d278ad",
+                  "declared_ply_sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_021/model",
+                  "status": 200,
+                  "bytes": 85111717,
+                  "id": "block_021",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_021.ply",
+                  "gaussians": 343186,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "0cf84d50fd2e823b134695bfae91af45a581830985b8d6f416422f4b079c1cb7",
+                  "declared_ply_sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_022/model",
+                  "status": 200,
+                  "bytes": 89361693,
+                  "id": "block_022",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_022.ply",
+                  "gaussians": 360323,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "b5c3f259df5e87530e8a8b6467d47743f503b97824d3d5c4c91195b8f2fb3faf",
+                  "declared_ply_sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_023/model",
+                  "status": 200,
+                  "bytes": 89929117,
+                  "id": "block_023",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_023.ply",
+                  "gaussians": 362611,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "f2f4cb708fa2cfd9efcd57dcc7824b87264c7e68d96efec616da7801615994f2",
+                  "declared_ply_sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_024/model",
+                  "status": 200,
+                  "bytes": 82325437,
+                  "id": "block_024",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_024.ply",
+                  "gaussians": 331951,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "f796e908ab06219aef405df25d809d784514ddad4a9336394e1df57104a949b4",
+                  "declared_ply_sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_025/model",
+                  "status": 200,
+                  "bytes": 100681405,
+                  "id": "block_025",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_025.ply",
+                  "gaussians": 405967,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "eb56d6f40688747879208f6413d694b40378f01c995b4947b0816d7dc849138a",
+                  "declared_ply_sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_026/model",
+                  "status": 200,
+                  "bytes": 97042997,
+                  "id": "block_026",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_026.ply",
+                  "gaussians": 391296,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "6429aa0c89d62849cf1d4c5464d41cf0838ad6fce1dd818406641c7f7cbd3759",
+                  "declared_ply_sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                },
+                {
+                  "url": "http://127.0.0.1:8770/api/blocks/block_027/model",
+                  "status": 200,
+                  "bytes": 58465853,
+                  "id": "block_027",
+                  "path": "maps/garage_fidelity_v2_full_preview/blocks/block_027.ply",
+                  "gaussians": 235743,
+                  "range_status": 206,
+                  "header_bytes": 1589,
+                  "bytes_downloaded": 1837,
+                  "header_and_first_record_sha256": "ae55484f8d9cd729ac09bca7ca46c05a883a8bd3317e784298ca591f2b541287",
+                  "declared_ply_sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+                  "full_ply_sha_recomputed": false,
+                  "reference_views": 4
+                }
+              ],
+              "total_gaussians": 13681252
+            }
+          ]
+        },
+        "static": {
+          "status": "PASS",
+          "result": {
+            "files": [
+              {
+                "path": "viewer/index.html",
+                "sha256": "24b9233242debded319028f600eb7f0d10195422bdc4023acff42190ace246a5",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/app.js",
+                "sha256": "bccfe4d8f7a3b1add35d8b426eb68ba0e1571eabaa89c351934766d241687e3d",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/style.css",
+                "sha256": "46d37b1d62ded9d409917cf325b2a98e34894ea1f8541bbcacfe843441c8fb56",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/gaussian_sh_restore.js",
+                "sha256": "3e6b3321273a4da87440db8c4dbccedd7f2a56045a8c07716c21545dae1218b7",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/gaussian_direction_support.js",
+                "sha256": "1a04304943ec9ba37501557d6b8fcd6e49132b2d55c6b48f84be65875aa8bb9d",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js",
+                "sha256": "2de375d5e489692f976abe3199c8435ecc00f97fabaf35e489eb7d368e1f6f60",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/build/three.module.js",
+                "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/build/three.core.js",
+                "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/examples/jsm/controls/OrbitControls.js",
+                "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/examples/jsm/loaders/PLYLoader.js",
+                "sha256": "b824a6dda90cbfb37cabf8e5462ed1673e7693852bc1a6a7bab0465d7b634dfb",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              },
+              {
+                "path": "viewer/node_modules/three/examples/jsm/postprocessing/Pass.js",
+                "sha256": "444b409c235ead986893c472e720da1b779a56985c7d10b279c7944b52bd61c5",
+                "ports_passed": [
+                  8768,
+                  8769,
+                  8770
+                ]
+              }
+            ],
+            "unique_static_files": 11,
+            "server_and_reference_source_unchanged": true
+          }
+        }
+      },
+      "errors": [],
+      "audit_sha256": "9135fb6ca2a41a78629ebd9758f1da6f5917da9d46ca95f6378caf2ffa4d4070",
+      "script_sha256": "6039f0f23f61d4b4ce4c250812a750b1e2e2ad7a0cb02c00ee515457e1c0510d",
+      "scope": "CPU/HTTP only; no GPU/browser/server lifecycle changes; no large-model download/full SHA; no new quality or native parity claim.",
+      "status": "POST_DELETE_HTTP_PASS",
+      "elapsed_s": 0.20243424299769686
+    }
+  ],
+  "status": "POST_DELETE_HTTP_PASS",
+  "latest_phase": "post-delete",
+  "post_delete_verified": true
+}

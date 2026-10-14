@@ -1,0 +1,13 @@
+{
+  "original_job_input_sha256": "24a6e11aab2fe335753acec1ae0aa31ff0b277f219a335b1d2fd646eede1859a",
+  "resume_checkpoint": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/fidelity_v2/jobs/block000_measuredseed_anneal_v1/recovery_allocator_v1/step-000002000.ckpt",
+  "resume_checkpoint_sha256": "db5cdcbaccf50368dba7fa07ab27f013e9b0b115ab74dd065fda172442d80f86",
+  "recovery_sources": {
+    "scripts/resume_lidar_block.py": "4fd67a93ecf4e100d47dfe68a0cd464ea2e5ffac8a1638bf00be4c50d6c0a5d3",
+    "runtime/recover_block000_measuredseed_anneal.py": "92b90d6668e9f4579c5b2971d8a8c2be8dfcd8e98f565ab508791788a05421fd",
+    "tests/test_resume_optimizer_binding.py": "c2ceb1c67a7766aaae863bdaa5adfd2076ea9270df533eee2447f91b1223e145"
+  },
+  "allocator": "expandable_segments:True",
+  "reason": "Split allocation OOM; preserve final count2.5M and original loss/scale schedule",
+  "resume_semantics": "Restore live model, Adam, schedulers and scaler. Upstream does not store sampling RNG or strategy gradient accumulators; these restart. Real next step2001, total target15000. No claim bitwise-continuous training."
+}

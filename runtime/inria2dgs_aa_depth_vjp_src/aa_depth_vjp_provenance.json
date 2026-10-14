@@ -1,0 +1,48 @@
+{
+  "status": "BUILT_GPU_VERIFICATION_PENDING",
+  "package": "diff_surfel_rasterization_aa_depth_vjp",
+  "created_utc": "2026-10-09T03:47:51.183617+00:00",
+  "original_source_sha256": {
+    "cuda_rasterizer/forward.cu": "5f99ca4953baf8ce3699e0ded25f9c10ab94f3e3a697ff87e2502a36559cce53",
+    "cuda_rasterizer/backward.cu": "fccec0f96fcf71aee4e412138bb30777913d672f3b2b17e6260dcadb1658489f",
+    "cuda_rasterizer/rasterizer_impl.cu": "3fb83843fb8b0725d0265f22a72f80e3a330cfd122514af0e7ea26590a55ddd7",
+    "cuda_rasterizer/auxiliary.h": "dfef626b19f0828b6ebf3fb486a95a386db5f72a1b04a40031643c27eaa41442",
+    "rasterize_points.cu": "38a02baf5bf43f76b40749d0663d7ffb16b5845d90342393d93bab8bc24e1b37",
+    "rasterize_points.h": "7a5d6b93e25887fc8edefe166907178fd169cd6b9afacb18e14d13388f84ab11",
+    "ext.cpp": "102d6ca2a07cf57717e5828c49a7100841cc0147f7373de768070f06bc4909ef",
+    "setup.py": "b72115d8346aeac7b4c41623d184cd55da4ce2ea800c5341424b27b1578ee1bd",
+    "LICENSE.md": "cd5c95b3cfff3acc1bd412420c770f88809331c3db6872df11a970147aa8e81f"
+  },
+  "candidate_source_sha256": {
+    "cuda_rasterizer/forward.cu": "5f99ca4953baf8ce3699e0ded25f9c10ab94f3e3a697ff87e2502a36559cce53",
+    "cuda_rasterizer/backward.cu": "2cc8e3b0a53bda733875bcf6a9a45e1ec2097514bd745a33b530622e6be0485e",
+    "cuda_rasterizer/rasterizer_impl.cu": "3fb83843fb8b0725d0265f22a72f80e3a330cfd122514af0e7ea26590a55ddd7",
+    "cuda_rasterizer/auxiliary.h": "dfef626b19f0828b6ebf3fb486a95a386db5f72a1b04a40031643c27eaa41442",
+    "rasterize_points.cu": "38a02baf5bf43f76b40749d0663d7ffb16b5845d90342393d93bab8bc24e1b37",
+    "rasterize_points.h": "7a5d6b93e25887fc8edefe166907178fd169cd6b9afacb18e14d13388f84ab11",
+    "ext.cpp": "102d6ca2a07cf57717e5828c49a7100841cc0147f7373de768070f06bc4909ef",
+    "setup.py": "1a67565d6982bc9124114c0d2260ec232b72cca26f21ec114dd6d18304585185",
+    "LICENSE.md": "cd5c95b3cfff3acc1bd412420c770f88809331c3db6872df11a970147aa8e81f"
+  },
+  "original_provenance_sha256": "5861bd5d4824772a65103e635d8593f10086b049b666d13d8013d998690946fd",
+  "build_script_sha256": "66f7df93617181c2254b993d58d4ab1481491b29e9ac2b273cc816373a8ae047",
+  "forward_byte_identical": true,
+  "installed_original_replaced": false,
+  "change": "Only complete s(T) chain rule for AA depth; low-pass color/coverage VJP unchanged.",
+  "limitation": "Not scene quality evidence. Red-wall nine rays have zero composed AA weight.",
+  "build_command": [
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/.venv-train/bin/python",
+    "setup.py",
+    "build_ext",
+    "--inplace"
+  ],
+  "build_environment": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "CUDA_HOME": "/usr/local/cuda-12.8",
+    "TORCH_CUDA_ARCH_LIST": "8.9",
+    "MAX_JOBS": "2"
+  },
+  "build_returncode": 0,
+  "candidate_extension": "runtime/inria2dgs_aa_depth_vjp_src/diff_surfel_rasterization_aa_depth_vjp/_C.cpython-310-x86_64-linux-gnu.so",
+  "candidate_extension_sha256": "b13ddb468db970047c47d0620b2e6cc68a69cc073156ef04476d8c6d91cd0f16"
+}

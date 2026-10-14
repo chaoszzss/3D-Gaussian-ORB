@@ -1,0 +1,23 @@
+{
+  "status": "PASS_FULL_FILE_SHA256_EQUAL",
+  "files": [
+    {
+      "path": "/home/chaoszzss/dataset/rosbag/orbvi_4vl_data_czy_all.bag",
+      "bytes": 24545241324,
+      "mtime_ns": 1786006108000000000,
+      "inode": 110765085,
+      "sha256": "c0e602ec6f8eb866e62c60aab7c0ff68759470f818262e3a2e00e4d07faebfc1"
+    },
+    {
+      "path": "/home/chaoszzss/dataset/CZY_Dataset/all/orbvi_4vl_data_czy_all.bag",
+      "bytes": 24545241324,
+      "mtime_ns": 1786006108000000000,
+      "inode": 11950573,
+      "sha256": "c0e602ec6f8eb866e62c60aab7c0ff68759470f818262e3a2e00e4d07faebfc1"
+    }
+  ],
+  "method": "Two independent sha256sum processes completed successfully over entire files",
+  "checked_at": "2026-10-09T15:46:26.859814+08:00",
+  "gpu_used": false,
+  "meaning": "Historical gravity-probe bag and requested bag contain identical bytes; physical calibration/coverage accuracy is a separate question."
+}

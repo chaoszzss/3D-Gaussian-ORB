@@ -1,0 +1,1525 @@
+{
+  "schema_version": 1,
+  "status": "PASS_LOSSLESS_ASSEMBLY_AND_EXACT_OVERVIEW_SAMPLING",
+  "created_at_utc": "2026-10-09T08:50:35.499795+00:00",
+  "assembly": {
+    "path": "maps/garage_fidelity_v2_full_preview/assembly.json",
+    "sha256": "6ef93513474e48e39e418052305fac64d71d54232e21168cc4048e4bddbb04bc"
+  },
+  "independent_source_audit": {
+    "path": "reports/full_preview_v2_source_audit.json",
+    "sha256": "fc64b3305be0b6bca0264c0fb3d9f1fe9f6c1f647a7a935e347c7bb4f43d1bf3"
+  },
+  "manifest": {
+    "path": "maps/garage_fidelity_v2_full_preview/manifest.json",
+    "sha256": "b75c1f983608cba43cc2393ccf2c03b45183b3000584a610d3d288a6c7440ecb"
+  },
+  "overview_manifest": {
+    "path": "maps/garage_fidelity_v2_full_preview/overview_manifest.json",
+    "sha256": "ac1ac0f329ea91e4638d52026bdf259067f2614431e2af0d0f04fbd58be08b7c"
+  },
+  "assets_verified": 26,
+  "source_blocks_verified": [
+    "block_000",
+    "block_001",
+    "block_002",
+    "block_003",
+    "block_004",
+    "block_005",
+    "block_006",
+    "block_007",
+    "block_008",
+    "block_009",
+    "block_010",
+    "block_011",
+    "block_012",
+    "block_013",
+    "block_014",
+    "block_015",
+    "block_016",
+    "block_017",
+    "block_018",
+    "block_019",
+    "block_020",
+    "block_021",
+    "block_022",
+    "block_023",
+    "block_024",
+    "block_025",
+    "block_026",
+    "block_027"
+  ],
+  "source_coverage_duplicate_count": 0,
+  "full": {
+    "path": "maps/garage_fidelity_v2_full_preview/gaussians_full.ply",
+    "sha256": "d1f458d96d4b33865c817e5eb1b5e1db80720ec1eaba8fdcdeeb184fa66c0c83",
+    "gaussians": 13681252,
+    "file_bytes": 3392952092,
+    "header_bytes": 1596,
+    "payload_bytes_compared": 3392950496,
+    "bbox_m": {
+      "min": [
+        -38.333412170410156,
+        -71.57218170166016,
+        -12.985081672668457
+      ],
+      "max": [
+        104.46508026123047,
+        80.49833679199219,
+        21.970640182495117
+      ]
+    },
+    "exact_all_source_records_preserved": true,
+    "attributes_modified": false,
+    "cropping_or_deduplication": false
+  },
+  "overview": {
+    "path": "maps/garage_fidelity_v2_full_preview/gaussians_overview.ply",
+    "sha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+    "gaussians": 1200000,
+    "file_bytes": 297601595,
+    "header_bytes": 1595,
+    "payload_bytes_compared": 297600000,
+    "sampling_formula": "source_index=floor((2*j+1)*count/(2*quota)), j=0..quota-1; integer arithmetic",
+    "regional_quota": {
+      "block_000": 42858,
+      "block_001": 42858,
+      "block_002": 42858,
+      "block_003": 42858,
+      "block_004": 42857,
+      "block_005": 42857,
+      "block_006": 42857,
+      "block_007": 42857,
+      "block_008": 42857,
+      "block_009": 42857,
+      "block_010": 42857,
+      "block_011": 42857,
+      "block_012": 42857,
+      "block_013": 42857,
+      "block_014": 42857,
+      "block_015": 42857,
+      "block_016": 42857,
+      "block_017": 42857,
+      "block_018": 42857,
+      "block_019": 42857,
+      "block_020": 42857,
+      "block_021": 42857,
+      "block_022": 42857,
+      "block_023": 42857,
+      "block_024": 42857,
+      "block_025": 42857,
+      "block_026": 42857,
+      "block_027": 42857
+    },
+    "all_selected_attributes_bitexact": true,
+    "actual_sampled_bbox_m": {
+      "min": [
+        -38.333412170410156,
+        -71.10166931152344,
+        -11.911044120788574
+      ],
+      "max": [
+        104.46508026123047,
+        80.288818359375,
+        21.79330825805664
+      ]
+    },
+    "manifest_fit_bbox_m": {
+      "min": [
+        -38.333412170410156,
+        -71.57218170166016,
+        -12.985081672668457
+      ],
+      "max": [
+        104.46508026123047,
+        80.49833679199219,
+        21.970640182495117
+      ]
+    },
+    "bbox_scope": "Fit uses full-source bbox; actual sample bbox can shrink. No requirement that every extremal source record be sampled."
+  },
+  "sources": [
+    {
+      "source_index": 0,
+      "id": "block_000",
+      "source_blocks": [
+        "block_000"
+      ],
+      "generation": "current_round",
+      "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply",
+      "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+      "gaussians": 2495734,
+      "source_header_bytes": 1590,
+      "record_stride_bytes": 248,
+      "full_row_start": 0,
+      "full_row_stop": 2495734,
+      "overview_row_start": 0,
+      "overview_row_stop": 42858,
+      "overview_gaussians": 42858,
+      "bbox_m": {
+        "min": [
+          -18.11477279663086,
+          -35.53653335571289,
+          -8.240885734558105
+        ],
+        "max": [
+          39.13062286376953,
+          18.43965721130371,
+          6.196407794952393
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 618942032,
+      "full_payload_sha256": "454ecdc4bd2401e2c7eeabf802fdd83694e2950b3f1de580c6a97653e4e85e5c",
+      "overview_records_compared": 42858,
+      "overview_payload_bytes_compared": 10628784,
+      "overview_payload_sha256": "d9b865c2115d0c8f071bcae5ad8d7af0efa7421fa3dc10beb455abb96249c64b",
+      "overview_source_indices_sha256_int64_le": "418d4871c937cd19ebe56a40d650d054e1a1ae845b18b4978eab4e7ec1094231",
+      "overview_first_source_index": 29,
+      "overview_last_source_index": 2495704,
+      "sampled_bbox_m": {
+        "min": [
+          -17.98816680908203,
+          -33.34378433227539,
+          -7.912395477294922
+        ],
+        "max": [
+          39.05622863769531,
+          18.24356460571289,
+          5.798819065093994
+        ]
+      }
+    },
+    {
+      "source_index": 1,
+      "id": "block_001",
+      "source_blocks": [
+        "block_001"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply",
+      "sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+      "gaussians": 342875,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 2495734,
+      "full_row_stop": 2838609,
+      "overview_row_start": 42858,
+      "overview_row_stop": 85716,
+      "overview_gaussians": 42858,
+      "bbox_m": {
+        "min": [
+          -1.9823193550109863,
+          -34.31306838989258,
+          -9.033573150634766
+        ],
+        "max": [
+          59.66202163696289,
+          15.91005802154541,
+          6.086302280426025
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 85033000,
+      "full_payload_sha256": "bb8b0dc52ba01c886e7b60423e2a3d5e97c8c1e4753d3cb3c61649e960088d58",
+      "overview_records_compared": 42858,
+      "overview_payload_bytes_compared": 10628784,
+      "overview_payload_sha256": "224c3820bf8645359461263cee808900ae760bec14c9012e006679308cfa9747",
+      "overview_source_indices_sha256_int64_le": "e5f80258a2a439b1bd14e36f23a525325871570a79572518b48d593baa7c2224",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 342870,
+      "sampled_bbox_m": {
+        "min": [
+          -1.7795730829238892,
+          -32.302616119384766,
+          -7.288243293762207
+        ],
+        "max": [
+          59.2872428894043,
+          15.844500541687012,
+          5.861765384674072
+        ]
+      }
+    },
+    {
+      "source_index": 2,
+      "id": "block_002",
+      "source_blocks": [
+        "block_002"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply",
+      "sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+      "gaussians": 364881,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 2838609,
+      "full_row_stop": 3203490,
+      "overview_row_start": 85716,
+      "overview_row_stop": 128574,
+      "overview_gaussians": 42858,
+      "bbox_m": {
+        "min": [
+          17.759521484375,
+          -23.3091983795166,
+          -10.218432426452637
+        ],
+        "max": [
+          66.07740020751953,
+          35.06171417236328,
+          5.587801933288574
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 90490488,
+      "full_payload_sha256": "d086e4560145ff078c9afce89813b44b2214808ea9435754554b35af9c231081",
+      "overview_records_compared": 42858,
+      "overview_payload_bytes_compared": 10628784,
+      "overview_payload_sha256": "0db676b648527b970947a168281ff0e4df516d12643928191dfb17254f93d903",
+      "overview_source_indices_sha256_int64_le": "2a43390b2ae59a4de2bc3f19a22463bf33d39e683146bc3558f67bd7dcc3e8d4",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 364876,
+      "sampled_bbox_m": {
+        "min": [
+          18.800371170043945,
+          -23.057674407958984,
+          -9.81098461151123
+        ],
+        "max": [
+          65.9208984375,
+          34.76776885986328,
+          5.080256938934326
+        ]
+      }
+    },
+    {
+      "source_index": 3,
+      "id": "block_003",
+      "source_blocks": [
+        "block_003"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply",
+      "sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+      "gaussians": 368896,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 3203490,
+      "full_row_stop": 3572386,
+      "overview_row_start": 128574,
+      "overview_row_stop": 171432,
+      "overview_gaussians": 42858,
+      "bbox_m": {
+        "min": [
+          10.036152839660645,
+          -5.876007556915283,
+          -12.985081672668457
+        ],
+        "max": [
+          65.49835205078125,
+          54.42396545410156,
+          5.23167085647583
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 91486208,
+      "full_payload_sha256": "b8036374e0782f712a147ee56a286625a9327dbfdc72b4af0c227861a14795f2",
+      "overview_records_compared": 42858,
+      "overview_payload_bytes_compared": 10628784,
+      "overview_payload_sha256": "f8a318f5ae11ee7d53a09cc4a3a2e1049a0386648ee88fc7a3539dd7fd45b495",
+      "overview_source_indices_sha256_int64_le": "96cbdfb61ea77045f37d63acdca122cbd72da4a1ad108e51e6fe5e968ce9f73b",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 368891,
+      "sampled_bbox_m": {
+        "min": [
+          10.568509101867676,
+          -5.7079668045043945,
+          -11.911044120788574
+        ],
+        "max": [
+          65.10355377197266,
+          54.338626861572266,
+          4.399693012237549
+        ]
+      }
+    },
+    {
+      "source_index": 4,
+      "id": "block_004",
+      "source_blocks": [
+        "block_004"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply",
+      "sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+      "gaussians": 384304,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 3572386,
+      "full_row_stop": 3956690,
+      "overview_row_start": 171432,
+      "overview_row_stop": 214289,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          -4.985466957092285,
+          14.290349006652832,
+          -10.795706748962402
+        ],
+        "max": [
+          50.713558197021484,
+          74.81734466552734,
+          4.340959072113037
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 95307392,
+      "full_payload_sha256": "46d873605b547a6bf8aa255de3fe4230917b052c274327be33c6307003024119",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "a6e24c23e3ba5835b819a27768e5d33ea26ac1e60e12962a8cce8a7075161a33",
+      "overview_source_indices_sha256_int64_le": "7343095ed1a751c38bfe3c70e0d7d223d0db1975b243920feb4e0907457a4f7f",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 384299,
+      "sampled_bbox_m": {
+        "min": [
+          -4.940732002258301,
+          14.726999282836914,
+          -10.795706748962402
+        ],
+        "max": [
+          50.52442169189453,
+          74.43671417236328,
+          3.6973843574523926
+        ]
+      }
+    },
+    {
+      "source_index": 5,
+      "id": "block_005",
+      "source_blocks": [
+        "block_005"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply",
+      "sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+      "gaussians": 409298,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 3956690,
+      "full_row_stop": 4365988,
+      "overview_row_start": 214289,
+      "overview_row_stop": 257146,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          -25.592201232910156,
+          31.91602325439453,
+          -12.152267456054688
+        ],
+        "max": [
+          34.0390625,
+          80.49833679199219,
+          4.809344291687012
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 101505904,
+      "full_payload_sha256": "7a06097a780732db0f9e096130d1bc91feff779d65166739b606b045df36b652",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "46257528cd30a74f81e7d776e445d58081762d76e8854e103e349f1d660bf1c1",
+      "overview_source_indices_sha256_int64_le": "442017d0cbe5bb7abe096b1e6f5044ce8e17cf5ce0700c6ab18eaa5635eb31ee",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 409293,
+      "sampled_bbox_m": {
+        "min": [
+          -25.41636085510254,
+          32.413509368896484,
+          -10.293731689453125
+        ],
+        "max": [
+          33.9076042175293,
+          80.288818359375,
+          4.716183185577393
+        ]
+      }
+    },
+    {
+      "source_index": 6,
+      "id": "block_006",
+      "source_blocks": [
+        "block_006"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply",
+      "sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+      "gaussians": 400192,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 4365988,
+      "full_row_stop": 4766180,
+      "overview_row_start": 257146,
+      "overview_row_stop": 300003,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          -37.53485870361328,
+          16.245384216308594,
+          -6.7923102378845215
+        ],
+        "max": [
+          14.578248023986816,
+          71.28409576416016,
+          7.565046787261963
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 99247616,
+      "full_payload_sha256": "2d0a6e719f9009c3fa1a33242f5043df8053463977d91b7858f4ad5255ac8451",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "83a1023ee409e90238bbef7212ebb0f9d53e7e6be0f659aa64ae690ab3d52870",
+      "overview_source_indices_sha256_int64_le": "612d4201f192343cbe56ad4436717221c6f2485f813537de6e8f8cba6ff8b8d7",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 400187,
+      "sampled_bbox_m": {
+        "min": [
+          -36.532615661621094,
+          16.589033126831055,
+          -6.201840400695801
+        ],
+        "max": [
+          14.568541526794434,
+          71.11245727539062,
+          7.017189979553223
+        ]
+      }
+    },
+    {
+      "source_index": 7,
+      "id": "block_007",
+      "source_blocks": [
+        "block_007"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply",
+      "sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+      "gaussians": 389736,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 4766180,
+      "full_row_stop": 5155916,
+      "overview_row_start": 300003,
+      "overview_row_stop": 342860,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          -38.333412170410156,
+          -5.135754585266113,
+          -6.876668453216553
+        ],
+        "max": [
+          6.564744472503662,
+          56.52000045776367,
+          8.391730308532715
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 96654528,
+      "full_payload_sha256": "ef09144231e2944fefc137225673eaa775f3d714df288e2c3cea024080794db9",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "77e4295965ca1082efad18156ccd3bef831442ff0f811b003f358c6a2fc99ced",
+      "overview_source_indices_sha256_int64_le": "6cfbb301ead94bd58934f4a13b4ea57f753bf9500df8301f33fc1815202710a6",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 389731,
+      "sampled_bbox_m": {
+        "min": [
+          -38.333412170410156,
+          -4.992519378662109,
+          -6.876668453216553
+        ],
+        "max": [
+          6.37501335144043,
+          56.51772689819336,
+          7.757235050201416
+        ]
+      }
+    },
+    {
+      "source_index": 8,
+      "id": "block_008",
+      "source_blocks": [
+        "block_008"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply",
+      "sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+      "gaussians": 378061,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 5155916,
+      "full_row_stop": 5533977,
+      "overview_row_start": 342860,
+      "overview_row_stop": 385717,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          -32.447181701660156,
+          -23.892885208129883,
+          -4.561399459838867
+        ],
+        "max": [
+          22.78948211669922,
+          34.42271423339844,
+          9.060698509216309
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 93759128,
+      "full_payload_sha256": "519ae1d1ca237cf50f5f84331afa50cbd96ab7cceecf6b61ee8c1c74619b5fca",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "baf34935eb6d68e6722658df1ed5da8e1d49eb60d677659b63e999afa968d6fc",
+      "overview_source_indices_sha256_int64_le": "8999bece83152ef2ccb530b56ac53b4c08791c3a2c5fbb0b595af801a9cfffbf",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 378056,
+      "sampled_bbox_m": {
+        "min": [
+          -31.5975399017334,
+          -23.89147186279297,
+          -4.1839423179626465
+        ],
+        "max": [
+          22.671098709106445,
+          34.31814956665039,
+          8.21608829498291
+        ]
+      }
+    },
+    {
+      "source_index": 9,
+      "id": "block_009",
+      "source_blocks": [
+        "block_009"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply",
+      "sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+      "gaussians": 378567,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 5533977,
+      "full_row_stop": 5912544,
+      "overview_row_start": 385717,
+      "overview_row_stop": 428574,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          -16.065542221069336,
+          -37.18428421020508,
+          -4.745182514190674
+        ],
+        "max": [
+          41.446414947509766,
+          16.113544464111328,
+          8.753780364990234
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 93884616,
+      "full_payload_sha256": "fbfc6b3d5ef14d20f30c79bca3eb0dc6acb8c4ca79152f1532197d4e7fdb6a5a",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "b0168478c9136e46ae86a038b28512fae3b6fce7ae6090758f14163531fd3c15",
+      "overview_source_indices_sha256_int64_le": "61ee5737ab87bf679ad54ed7a4a7a0b9ea347aaf426cb2e9db112cbbd6f63461",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 378562,
+      "sampled_bbox_m": {
+        "min": [
+          -15.930192947387695,
+          -37.18428421020508,
+          -4.137688159942627
+        ],
+        "max": [
+          41.446414947509766,
+          15.43721866607666,
+          8.503376960754395
+        ]
+      }
+    },
+    {
+      "source_index": 10,
+      "id": "block_010",
+      "source_blocks": [
+        "block_010"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply",
+      "sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+      "gaussians": 361041,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 5912544,
+      "full_row_stop": 6273585,
+      "overview_row_start": 428574,
+      "overview_row_stop": 471431,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          0.9733340740203857,
+          -37.216609954833984,
+          -3.502840995788574
+        ],
+        "max": [
+          60.84852600097656,
+          15.7317533493042,
+          10.87178897857666
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 89538168,
+      "full_payload_sha256": "2e8eba3244fd866a460639b49f56e2961d4d3b08791b5f0760f6c84eed5e06c1",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "d82e9aa83a3e1aa58f29cc70e8f1da29835b59f53921ccc2800cd05bce00734a",
+      "overview_source_indices_sha256_int64_le": "da83244cf54c72f038438bcc066c340c7bb50d66cc75382aef7c6e3c3c309d0f",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 361036,
+      "sampled_bbox_m": {
+        "min": [
+          0.9895220994949341,
+          -37.20914077758789,
+          -2.934368848800659
+        ],
+        "max": [
+          60.7712287902832,
+          15.630229949951172,
+          10.87178897857666
+        ]
+      }
+    },
+    {
+      "source_index": 11,
+      "id": "block_011",
+      "source_blocks": [
+        "block_011"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply",
+      "sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+      "gaussians": 369946,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 6273585,
+      "full_row_stop": 6643531,
+      "overview_row_start": 471431,
+      "overview_row_stop": 514288,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          19.317394256591797,
+          -23.282344818115234,
+          -1.328276515007019
+        ],
+        "max": [
+          68.3692855834961,
+          34.723236083984375,
+          11.90961742401123
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 91746608,
+      "full_payload_sha256": "0ff968242687733d0369d8068ab3cdcc34e32216cf6d4d1360b36a455172609a",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "aeb9e5a8244cb582ea6a675aa744fa6996a9cd9bb0d1238c11777938f3181b19",
+      "overview_source_indices_sha256_int64_le": "c7e6d544f05603e7707435014554267af079108fd60507c0a2b08962a4fd4a16",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 369941,
+      "sampled_bbox_m": {
+        "min": [
+          20.135587692260742,
+          -23.265382766723633,
+          -1.2210966348648071
+        ],
+        "max": [
+          68.36222076416016,
+          34.56515121459961,
+          11.29232406616211
+        ]
+      }
+    },
+    {
+      "source_index": 12,
+      "id": "block_012",
+      "source_blocks": [
+        "block_012"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply",
+      "sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+      "gaussians": 370745,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 6643531,
+      "full_row_stop": 7014276,
+      "overview_row_start": 514288,
+      "overview_row_stop": 557145,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          2.9133782386779785,
+          -14.931038856506348,
+          -1.6091797351837158
+        ],
+        "max": [
+          64.94224548339844,
+          35.14246368408203,
+          12.700745582580566
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 91944760,
+      "full_payload_sha256": "221933299433f5045015b979ff3a22239a6377570aac1fa38f04bd8be97c9ba5",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "23643340ee989eb7f022130baefcc3511ff0a9dbb3302be3c0772a92e6ad0571",
+      "overview_source_indices_sha256_int64_le": "658e7eaef7b740dc45a6905cb360ac6175d854edc64325596834dc1f16e81392",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 370740,
+      "sampled_bbox_m": {
+        "min": [
+          3.7405452728271484,
+          -14.669076919555664,
+          -1.1586220264434814
+        ],
+        "max": [
+          64.94224548339844,
+          35.011192321777344,
+          11.83468246459961
+        ]
+      }
+    },
+    {
+      "source_index": 13,
+      "id": "block_013",
+      "source_blocks": [
+        "block_013"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply",
+      "sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+      "gaussians": 368601,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 7014276,
+      "full_row_stop": 7382877,
+      "overview_row_start": 557145,
+      "overview_row_stop": 600002,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          -8.427299499511719,
+          -31.99431037902832,
+          -2.887692451477051
+        ],
+        "max": [
+          45.37727355957031,
+          25.778532028198242,
+          13.112592697143555
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 91413048,
+      "full_payload_sha256": "3bc77a0a80cb200a92ad3582c153c301f1429530c07eea0fa08b5c3b69a1c990",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "10cc5ed672fbad9ba8299d84b1d9895f1bef01777c57552cff5ce50a45780794",
+      "overview_source_indices_sha256_int64_le": "53ffa2ee9967681071d791ce3a9b9ac870e85fe4b73d202a6f69f5ebc5cc6b74",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 368596,
+      "sampled_bbox_m": {
+        "min": [
+          -8.317193984985352,
+          -31.99431037902832,
+          -1.9660749435424805
+        ],
+        "max": [
+          45.37727355957031,
+          25.048364639282227,
+          12.050559043884277
+        ]
+      }
+    },
+    {
+      "source_index": 14,
+      "id": "block_015",
+      "source_blocks": [
+        "block_014",
+        "block_015",
+        "block_016"
+      ],
+      "generation": "current_round",
+      "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply",
+      "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+      "gaussians": 2498837,
+      "source_header_bytes": 1590,
+      "record_stride_bytes": 248,
+      "full_row_start": 7382877,
+      "full_row_stop": 9881714,
+      "overview_row_start": 600002,
+      "overview_row_stop": 728573,
+      "overview_gaussians": 128571,
+      "bbox_m": {
+        "min": [
+          -8.268549919128418,
+          -37.52289962768555,
+          0.07083074748516083
+        ],
+        "max": [
+          75.393798828125,
+          22.864910125732422,
+          16.262300491333008
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 619711576,
+      "full_payload_sha256": "e40015d6c443af1f47b075ef72a332e7688811e21933a20345e06e0cbe54b70a",
+      "overview_records_compared": 128571,
+      "overview_payload_bytes_compared": 31885608,
+      "overview_payload_sha256": "47199540006dc8135e2611e4580528b4e588c07032857cc9a79a56f552d3b60b",
+      "overview_source_indices_sha256_int64_le": "b5f9f3afa8b4f657247d4cb1e5dea26a5cab83f97cca0fa6038ca7543d2decd2",
+      "overview_first_source_index": 9,
+      "overview_last_source_index": 2498827,
+      "sampled_bbox_m": {
+        "min": [
+          -8.13040828704834,
+          -37.448368072509766,
+          0.5122331380844116
+        ],
+        "max": [
+          75.36102294921875,
+          22.189376831054688,
+          15.651493072509766
+        ]
+      }
+    },
+    {
+      "source_index": 15,
+      "id": "block_017",
+      "source_blocks": [
+        "block_017"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply",
+      "sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+      "gaussians": 358029,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 9881714,
+      "full_row_stop": 10239743,
+      "overview_row_start": 728573,
+      "overview_row_stop": 771430,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          14.640751838684082,
+          -48.67228317260742,
+          -0.47197628021240234
+        ],
+        "max": [
+          69.34644317626953,
+          10.422117233276367,
+          17.157894134521484
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 88791192,
+      "full_payload_sha256": "28eef408ff9cfafdc1252fff73e5e91b10ba5a053ab95b1181e11389bfdc3d41",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "e5037ad0c94299c9db040aada655c61b49c1a6ec0a53554949aead66e9043ad8",
+      "overview_source_indices_sha256_int64_le": "bcb51a1f942927958f0837ae2ce1039eead8790049455d8944fe8c2414797b96",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 358024,
+      "sampled_bbox_m": {
+        "min": [
+          15.27647590637207,
+          -48.4525260925293,
+          -0.18616372346878052
+        ],
+        "max": [
+          69.34644317626953,
+          10.396183967590332,
+          16.245946884155273
+        ]
+      }
+    },
+    {
+      "source_index": 16,
+      "id": "block_018",
+      "source_blocks": [
+        "block_018"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply",
+      "sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+      "gaussians": 343041,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 10239743,
+      "full_row_stop": 10582784,
+      "overview_row_start": 771430,
+      "overview_row_stop": 814287,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          15.680351257324219,
+          -57.146766662597656,
+          -1.5028390884399414
+        ],
+        "max": [
+          74.39090728759766,
+          -5.86411714553833,
+          17.464143753051758
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 85074168,
+      "full_payload_sha256": "15dab984825b7df4e2fdb287ecc5df3172125ca987948aefae5519651e7911ab",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "383d9409507251370912bed17a783b3f0e25ee3cb8904aff803f076f16ff24ed",
+      "overview_source_indices_sha256_int64_le": "28c480d8beddb07e33e04bf68aad4f41d82dc5f2a9cfce3fe7500d60658950e4",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 343036,
+      "sampled_bbox_m": {
+        "min": [
+          15.95239543914795,
+          -56.651180267333984,
+          -0.8904462456703186
+        ],
+        "max": [
+          73.86798095703125,
+          -6.7470855712890625,
+          16.68973159790039
+        ]
+      }
+    },
+    {
+      "source_index": 17,
+      "id": "block_019",
+      "source_blocks": [
+        "block_019"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply",
+      "sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+      "gaussians": 303023,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 10582784,
+      "full_row_stop": 10885807,
+      "overview_row_start": 814287,
+      "overview_row_stop": 857144,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          32.77766418457031,
+          -58.0687141418457,
+          3.3295257091522217
+        ],
+        "max": [
+          93.0791244506836,
+          -4.554839134216309,
+          20.765220642089844
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 75149704,
+      "full_payload_sha256": "58aa6c9778cdefeaf06cc254bff01527a55092315f04fe491e39684034e9548e",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "7ae35b7fa3c2549324722ca702e1e7cafb41206ebb570775fddc6b04e803e9f6",
+      "overview_source_indices_sha256_int64_le": "f246126240307a7a1de849c57ac0614b83229eb3a99c5bb41a2f15f0a3991bb7",
+      "overview_first_source_index": 3,
+      "overview_last_source_index": 303019,
+      "sampled_bbox_m": {
+        "min": [
+          32.79835510253906,
+          -58.023284912109375,
+          5.033564567565918
+        ],
+        "max": [
+          93.0791244506836,
+          -4.93041467666626,
+          20.316009521484375
+        ]
+      }
+    },
+    {
+      "source_index": 18,
+      "id": "block_020",
+      "source_blocks": [
+        "block_020"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply",
+      "sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+      "gaussians": 364368,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 10885807,
+      "full_row_stop": 11250175,
+      "overview_row_start": 857144,
+      "overview_row_stop": 900001,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          49.15387725830078,
+          -44.02594757080078,
+          3.279677152633667
+        ],
+        "max": [
+          97.76348876953125,
+          13.16529655456543,
+          20.04109001159668
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 90363264,
+      "full_payload_sha256": "43fa28474e90eeac1bc657d82a87c29f0e8bb95109ecf41680f3ba38b1226563",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "3abf629ce2328d005a15f3cba4f46cef25dea3bf91852489319f45d77a6d33d6",
+      "overview_source_indices_sha256_int64_le": "894b2a2c16f4b94a25593f1fa6f75b8e5b8ef180316eb0d26702a34b2a784621",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 364363,
+      "sampled_bbox_m": {
+        "min": [
+          49.318084716796875,
+          -44.02594757080078,
+          3.932607412338257
+        ],
+        "max": [
+          97.6507339477539,
+          12.98227310180664,
+          20.04109001159668
+        ]
+      }
+    },
+    {
+      "source_index": 19,
+      "id": "block_021",
+      "source_blocks": [
+        "block_021"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply",
+      "sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+      "gaussians": 343186,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 11250175,
+      "full_row_stop": 11593361,
+      "overview_row_start": 900001,
+      "overview_row_stop": 942858,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          32.07360076904297,
+          -38.65790557861328,
+          5.4833173751831055
+        ],
+        "max": [
+          92.5337905883789,
+          12.804177284240723,
+          21.174484252929688
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 85110128,
+      "full_payload_sha256": "e3c3551705dda6c84e6aa5a476afac358ccf68607c11b71cc5200ed247d2956f",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "51be9e9c8014df7f4a81ed238aee388979b249b4c73effff534924416de037c2",
+      "overview_source_indices_sha256_int64_le": "dcb18bc49d1303d6c17c4955ab7dee36b6f9b58bd124e95be1c452268dc96149",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 343181,
+      "sampled_bbox_m": {
+        "min": [
+          32.07841873168945,
+          -38.4442138671875,
+          5.909711837768555
+        ],
+        "max": [
+          92.45272064208984,
+          12.668837547302246,
+          21.06731414794922
+        ]
+      }
+    },
+    {
+      "source_index": 20,
+      "id": "block_022",
+      "source_blocks": [
+        "block_022"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply",
+      "sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+      "gaussians": 360323,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 11593361,
+      "full_row_stop": 11953684,
+      "overview_row_start": 942858,
+      "overview_row_stop": 985715,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          21.268455505371094,
+          -56.956878662109375,
+          5.726810455322266
+        ],
+        "max": [
+          73.06891632080078,
+          1.1942983865737915,
+          21.018529891967773
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 89360104,
+      "full_payload_sha256": "030366b6ed07aa4536f85cca68c7e9cb1160a74642dde7fb3fc49458f0375070",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "cf55a5f0c2eeddba056b4491bb42587b9e7c74c04210dbfae7b15c9e9714e28c",
+      "overview_source_indices_sha256_int64_le": "808b5c857ab008246f9be884bb68f27e207b5dac95f2981d0d86764027e0a71b",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 360318,
+      "sampled_bbox_m": {
+        "min": [
+          21.357337951660156,
+          -56.913307189941406,
+          6.094723701477051
+        ],
+        "max": [
+          72.60743713378906,
+          0.6342650055885315,
+          19.889596939086914
+        ]
+      }
+    },
+    {
+      "source_index": 21,
+      "id": "block_023",
+      "source_blocks": [
+        "block_023"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply",
+      "sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+      "gaussians": 362611,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 11953684,
+      "full_row_stop": 12316295,
+      "overview_row_start": 985715,
+      "overview_row_stop": 1028572,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          22.47509002685547,
+          -59.1802864074707,
+          7.891026496887207
+        ],
+        "max": [
+          83.2613525390625,
+          -11.972832679748535,
+          21.370481491088867
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 89927528,
+      "full_payload_sha256": "15f8cb3fa6ddfb353600304816eeae67ecc4064b86ef97db0855bb842ddba793",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "6e4ada0501fde1c90b6bbd834cf5bfb65db74afdc66af473bb60d6b9a920d1d9",
+      "overview_source_indices_sha256_int64_le": "1b740d4ecf91becf8849e5b3d5d37693c339a7f75bbfefbac03f14c019ed4548",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 362606,
+      "sampled_bbox_m": {
+        "min": [
+          22.85256004333496,
+          -59.06631088256836,
+          8.187583923339844
+        ],
+        "max": [
+          82.82781982421875,
+          -12.194368362426758,
+          21.0710506439209
+        ]
+      }
+    },
+    {
+      "source_index": 22,
+      "id": "block_024",
+      "source_blocks": [
+        "block_024"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply",
+      "sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+      "gaussians": 331951,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 12316295,
+      "full_row_stop": 12648246,
+      "overview_row_start": 1028572,
+      "overview_row_stop": 1071429,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          41.94602584838867,
+          -51.657081604003906,
+          9.640694618225098
+        ],
+        "max": [
+          102.53736877441406,
+          -0.2644761800765991,
+          21.710636138916016
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 82323848,
+      "full_payload_sha256": "283270a37256de1a718222101b89bb9d1fded70dc46d18ba439c2efd1208b9c0",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "9a6793518a5662fa6ab98243cc81540adec9595ee162a5943c2b2425146a3f77",
+      "overview_source_indices_sha256_int64_le": "ec2d3f9464b11a173a11a380a0a3dbd476d34ae336082e3b3582001561f8bb3f",
+      "overview_first_source_index": 3,
+      "overview_last_source_index": 331947,
+      "sampled_bbox_m": {
+        "min": [
+          42.6365966796875,
+          -51.48826599121094,
+          9.903892517089844
+        ],
+        "max": [
+          102.2159423828125,
+          -0.3052426278591156,
+          21.417877197265625
+        ]
+      }
+    },
+    {
+      "source_index": 23,
+      "id": "block_025",
+      "source_blocks": [
+        "block_025"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply",
+      "sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+      "gaussians": 405967,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 12648246,
+      "full_row_stop": 13054213,
+      "overview_row_start": 1071429,
+      "overview_row_stop": 1114286,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          52.9168586730957,
+          -55.495819091796875,
+          8.124939918518066
+        ],
+        "max": [
+          104.46508026123047,
+          -0.24396003782749176,
+          21.894739151000977
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 100679816,
+      "full_payload_sha256": "0714f12776e6737230c9371a4219c0b6393743eb91343c77290d3d5734ecd9e5",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "1a22ac68a482fffa701cba59b0fe77af212a443fa53e75ac5ae9d131914eeb4a",
+      "overview_source_indices_sha256_int64_le": "301e6b49b055d7b98422bdb715f7dbdc7e0c53c4077215841e581e5220ec0db6",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 405962,
+      "sampled_bbox_m": {
+        "min": [
+          53.48122024536133,
+          -55.38593673706055,
+          8.304210662841797
+        ],
+        "max": [
+          104.46508026123047,
+          -0.3848031461238861,
+          20.936878204345703
+        ]
+      }
+    },
+    {
+      "source_index": 24,
+      "id": "block_026",
+      "source_blocks": [
+        "block_026"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply",
+      "sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+      "gaussians": 391296,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 13054213,
+      "full_row_stop": 13445509,
+      "overview_row_start": 1114286,
+      "overview_row_stop": 1157143,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          34.267940521240234,
+          -70.69023132324219,
+          7.591407299041748
+        ],
+        "max": [
+          95.02444458007812,
+          -15.378768920898438,
+          21.970640182495117
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 97041408,
+      "full_payload_sha256": "ebfa4fdd74ad733477f417b56d9aa9dd746260eb0ea06b775438975c29cc9235",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "9b31fea6e8b61a600082a96b80900e1fce1d1cdb586b178ed2abe2ef5e19fe4d",
+      "overview_source_indices_sha256_int64_le": "efcf1eed07a67bfc65b66eaf35408bc1ac61a22912f50ddec87e04ab4048f563",
+      "overview_first_source_index": 4,
+      "overview_last_source_index": 391291,
+      "sampled_bbox_m": {
+        "min": [
+          34.42634963989258,
+          -70.5872573852539,
+          7.875614166259766
+        ],
+        "max": [
+          94.5866470336914,
+          -15.378768920898438,
+          21.79330825805664
+        ]
+      }
+    },
+    {
+      "source_index": 25,
+      "id": "block_027",
+      "source_blocks": [
+        "block_027"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply",
+      "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+      "gaussians": 235743,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 13445509,
+      "full_row_stop": 13681252,
+      "overview_row_start": 1157143,
+      "overview_row_stop": 1200000,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          33.75968551635742,
+          -71.57218170166016,
+          10.187739372253418
+        ],
+        "max": [
+          74.22704315185547,
+          -31.65999984741211,
+          21.471588134765625
+        ]
+      },
+      "status": "PASS_ALL_FULL_AND_SAMPLED_RECORD_BYTES",
+      "full_payload_bytes_compared": 58464264,
+      "full_payload_sha256": "585c0911cc29fbd616ef6e012dfe241620645f6ada5ff1ec68917cfa75168158",
+      "overview_records_compared": 42857,
+      "overview_payload_bytes_compared": 10628536,
+      "overview_payload_sha256": "d897fc7bae16bf0f67aab81fd9b4b3b16ec4c8a57caa752c6ff678a6396d8101",
+      "overview_source_indices_sha256_int64_le": "c877b1046720f711004d88b4c032f1b7be624c2a25a4a6c79d259bb0180fede5",
+      "overview_first_source_index": 2,
+      "overview_last_source_index": 235740,
+      "sampled_bbox_m": {
+        "min": [
+          33.75968551635742,
+          -71.10166931152344,
+          10.919878005981445
+        ],
+        "max": [
+          74.05437469482422,
+          -31.65999984741211,
+          21.471588134765625
+        ]
+      }
+    }
+  ],
+  "input_sha256": {
+    "reports/full_preview_v2_assembly_audit.py": "4590901df89baaf607dfb78e15012079c344233ab4f46c18d02f7bc988c43d02",
+    "reports/full_preview_v2_source_audit.py": "6a80c2476f25020b5d4003bafc97e303e953d2d46e61d777548017f14f478ce6",
+    "reports/full_preview_v2_source_audit.json": "fc64b3305be0b6bca0264c0fb3d9f1fe9f6c1f647a7a935e347c7bb4f43d1bf3",
+    "maps/garage_fidelity_v2_full_preview/assembly.json": "6ef93513474e48e39e418052305fac64d71d54232e21168cc4048e4bddbb04bc",
+    "maps/garage_fidelity_v2_full_preview/manifest.json": "b75c1f983608cba43cc2393ccf2c03b45183b3000584a610d3d288a6c7440ecb",
+    "maps/garage_fidelity_v2_full_preview/overview_manifest.json": "ac1ac0f329ea91e4638d52026bdf259067f2614431e2af0d0f04fbd58be08b7c",
+    "maps/garage_fidelity_v2_viewer/manifest.json": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16",
+    "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json": "53b70f4e4576ab34ab9390fe5f3bc5c50426ff3d9ecb89fd7444b9ac21c58a9c",
+    "maps/garage_fidelity_v2_joint015_diagnostic/manifest.json": "fba737d74523bc0eb96be1fa262b5cefa9e554701905de5e2ea6e16aff9515cf",
+    "reports/viewer_parity_v2_delivery_source_inventory.json": "8e2ac669328ab14ef17c708505af2d1fa954f34667bf5a36b1904bfb1de8aca0",
+    "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+    "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+    "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+    "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+    "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+    "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+    "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+    "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+    "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+    "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+    "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+    "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+    "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+    "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+    "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+    "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+    "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+    "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+    "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+    "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+    "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+    "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+    "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+    "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+    "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+    "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+    "maps/garage_fidelity_v2_full_preview/gaussians_full.ply": "d1f458d96d4b33865c817e5eb1b5e1db80720ec1eaba8fdcdeeb184fa66c0c83",
+    "maps/garage_fidelity_v2_full_preview/gaussians_overview.ply": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18"
+  },
+  "high_fidelity_accepted": false,
+  "full_scene_metrics": null,
+  "scope": "Exact records and coverage of existing models only. No new training, native full-scene image evaluation, floor survey, calibration proof or unobserved-space completeness claim.",
+  "attribute_scope": "Every one of62 float32 fields compared as raw bytes, including XYZ/normals/SH colour coefficients/opacity/log scales/quaternions. No assembly-created or altered records found.",
+  "historical_block006": "Loop step11999 / declared12000; six Adam counters11001. Do not claim12000 Adam updates or no training. Checkpoint optimizer tensors not reread in this coverage audit.",
+  "resource_usage": {
+    "cpu_threads_max": 3,
+    "gpu_used": false,
+    "elapsed_seconds": 9.880083406002086,
+    "peak_rss_bytes": 452116480,
+    "chunk_source_records": 32768
+  },
+  "command": "CUDA_VISIBLE_DEVICES='' .venv-train/bin/python -B reports/full_preview_v2_assembly_audit.py",
+  "report_id": "2806c163ebc6639d1f4c507df3620b8f4f30e830eb76aaa32b76b7f735f42fd0"
+}

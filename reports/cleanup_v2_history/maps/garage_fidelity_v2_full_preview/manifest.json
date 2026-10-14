@@ -1,0 +1,1277 @@
+{
+  "schema_version": 1,
+  "coordinates": "camera_init",
+  "units": "m",
+  "camera_up": [
+    0,
+    0,
+    1
+  ],
+  "dataset_kind": "real",
+  "renderer": {
+    "schema_version": 1,
+    "mode": "inria_2dgs_v3"
+  },
+  "status": "mixed_generation_preview",
+  "high_fidelity_accepted": false,
+  "rollout_allowed": false,
+  "diagnostic_only": true,
+  "calibration_verified": false,
+  "native_fullscope_evaluated": false,
+  "unobserved_building_complete": false,
+  "floor_assignment": "inherited_unverified",
+  "lidar_overlay_enabled": false,
+  "direction_support_enabled": false,
+  "coverage": {
+    "expected_source_blocks": [
+      "block_000",
+      "block_001",
+      "block_002",
+      "block_003",
+      "block_004",
+      "block_005",
+      "block_006",
+      "block_007",
+      "block_008",
+      "block_009",
+      "block_010",
+      "block_011",
+      "block_012",
+      "block_013",
+      "block_014",
+      "block_015",
+      "block_016",
+      "block_017",
+      "block_018",
+      "block_019",
+      "block_020",
+      "block_021",
+      "block_022",
+      "block_023",
+      "block_024",
+      "block_025",
+      "block_026",
+      "block_027"
+    ],
+    "covered_source_blocks": [
+      "block_000",
+      "block_001",
+      "block_002",
+      "block_003",
+      "block_004",
+      "block_005",
+      "block_006",
+      "block_007",
+      "block_008",
+      "block_009",
+      "block_010",
+      "block_011",
+      "block_012",
+      "block_013",
+      "block_014",
+      "block_015",
+      "block_016",
+      "block_017",
+      "block_018",
+      "block_019",
+      "block_020",
+      "block_021",
+      "block_022",
+      "block_023",
+      "block_024",
+      "block_025",
+      "block_026",
+      "block_027"
+    ],
+    "covered_source_block_count": 28,
+    "model_asset_count": 26,
+    "source_coverage_complete": true,
+    "new_source_blocks": [
+      "block_000",
+      "block_014",
+      "block_015",
+      "block_016"
+    ],
+    "historical_source_block_count": 24,
+    "floor_labels_verified": false,
+    "scope": "All 28 prepared collection regions, not every raw bag message or unobserved building surface"
+  },
+  "summary": {
+    "covered_source_blocks": 28,
+    "model_assets": 26,
+    "full_gaussians": 13681252,
+    "current_round_source_blocks": 4,
+    "historical_source_blocks": 24,
+    "high_fidelity_accepted": false,
+    "full_scene_metrics": null
+  },
+  "title": "六层全场 · 新旧模型拼接 · 原始分区细节",
+  "description": "覆盖全部28个采集区块；000及014–016为本轮模型，其余24块为历史模型。按需加载原始高斯；未通过高保真验收。",
+  "blocks": [
+    {
+      "id": "block_000",
+      "label": "000 · 本轮新模型",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -18.11477279663086,
+          -35.53653335571289,
+          -8.240885734558105
+        ],
+        "max": [
+          39.13062286376953,
+          18.43965721130371,
+          6.196407794952393
+        ]
+      },
+      "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply",
+      "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+      "source_blocks": [
+        "block_000"
+      ],
+      "high_fidelity_accepted": false,
+      "quality_status": "not_accepted_diagnostic_only",
+      "training": {
+        "status": "trained",
+        "iterations": 15000,
+        "checkpoint_step": 14999,
+        "gaussians": 2495734,
+        "checkpoint_gaussians": 2495766,
+        "calibration_verified": false,
+        "algorithm": "Measured-surface seed; tangent scale cap annealing 0.12m to 0.03m; warm_opacity_cap remains 1.0; native 2DGS AA-depth-VJP",
+        "report": "runs/fidelity_v2/train_block000_measuredseed_anneal_v1/training_result.json",
+        "checkpoint_sha256": "cfb20371011a5d4c7832183fef5e9a0cdd9403566ecd576f374418379d6241cf",
+        "tangent_scale_cap_annealing_m": {
+          "initial": 0.12,
+          "final": 0.03
+        },
+        "warm_opacity_cap": 1.0
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "dev",
+        "psnr_db": 22.357799072008326,
+        "ssim": 0.7196403414011001,
+        "report": "runs/fidelity_v2/block000_measuredseed_anneal_v1/metrics.json",
+        "images": 20,
+        "primary_protocol": "ego_v2",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope": "Native checkpoint on fixed block000 DEV20 at 640x540. Browser parity is a separate single-frame smoke, not full20. Checkpoint has 32 more records than the existing exported PLY.",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "model_generation": "current_round"
+    },
+    {
+      "id": "block_001",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -1.9823193550109863,
+          -34.31306838989258,
+          -9.033573150634766
+        ],
+        "max": [
+          59.66202163696289,
+          15.91005802154541,
+          6.086302280426025
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 342875,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.996818907075475,
+        "ssim": 0.7446999897559484,
+        "initializer_surface_p95_m": 1.862069237625661,
+        "report": "runs/garage_surface_v1/block_001/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_001_prepare.log",
+      "label": "001 · 历史模型",
+      "sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+      "source_blocks": [
+        "block_001"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_002",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          17.759521484375,
+          -23.3091983795166,
+          -10.218432426452637
+        ],
+        "max": [
+          66.07740020751953,
+          35.06171417236328,
+          5.587801933288574
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 364881,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.003908530875236,
+        "ssim": 0.7009675465524197,
+        "initializer_surface_p95_m": 2.002203184647952,
+        "report": "runs/garage_surface_v1/block_002/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_002_prepare.log",
+      "label": "002 · 历史模型",
+      "sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+      "source_blocks": [
+        "block_002"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_003",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          10.036152839660645,
+          -5.876007556915283,
+          -12.985081672668457
+        ],
+        "max": [
+          65.49835205078125,
+          54.42396545410156,
+          5.23167085647583
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 368896,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.424950629752466,
+        "ssim": 0.7444008626043797,
+        "initializer_surface_p95_m": 2.0835103550086727,
+        "report": "runs/garage_surface_v1/block_003/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_003_prepare.log",
+      "label": "003 · 历史模型",
+      "sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+      "source_blocks": [
+        "block_003"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_004",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -4.985466957092285,
+          14.290349006652832,
+          -10.795706748962402
+        ],
+        "max": [
+          50.713558197021484,
+          74.81734466552734,
+          4.340959072113037
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 384304,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 21.80157819582916,
+        "ssim": 0.7330133706331253,
+        "initializer_surface_p95_m": 1.5520864199464477,
+        "report": "runs/garage_surface_v1/block_004/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_004_prepare.log",
+      "label": "004 · 历史模型",
+      "sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+      "source_blocks": [
+        "block_004"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_005",
+      "floor_id": "坡道 F1-F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -25.592201232910156,
+          31.91602325439453,
+          -12.152267456054688
+        ],
+        "max": [
+          34.0390625,
+          80.49833679199219,
+          4.809344291687012
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 409298,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.430920064551227,
+        "ssim": 0.7610297441482544,
+        "initializer_surface_p95_m": 0.7380715973787777,
+        "report": "runs/garage_surface_v1/block_005/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_005_prepare.log",
+      "label": "005 · 历史模型",
+      "sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+      "source_blocks": [
+        "block_005"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_006",
+      "floor_id": "坡道 F1-F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -37.53485870361328,
+          16.245384216308594,
+          -6.7923102378845215
+        ],
+        "max": [
+          14.578248023986816,
+          71.28409576416016,
+          7.565046787261963
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 400192,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto",
+        "actual_adam_updates_verified": 11001,
+        "historical_resume_correction": "reports/historical_block006_resume_audit.json"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.66933230305043,
+        "ssim": 0.7872766479849815,
+        "initializer_surface_p95_m": 0.5464125454366695,
+        "report": "runs/garage_surface_v1/block_006/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_006_prepare.log",
+      "label": "006 · 历史模型",
+      "sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+      "source_blocks": [
+        "block_006"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_007",
+      "floor_id": "F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -38.333412170410156,
+          -5.135754585266113,
+          -6.876668453216553
+        ],
+        "max": [
+          6.564744472503662,
+          56.52000045776367,
+          8.391730308532715
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 389736,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.447294861238976,
+        "ssim": 0.7354839170972506,
+        "initializer_surface_p95_m": 0.9987634097415236,
+        "report": "runs/garage_surface_v1/block_007/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_007_prepare.log",
+      "label": "007 · 历史模型",
+      "sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+      "source_blocks": [
+        "block_007"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_008",
+      "floor_id": "F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -32.447181701660156,
+          -23.892885208129883,
+          -4.561399459838867
+        ],
+        "max": [
+          22.78948211669922,
+          34.42271423339844,
+          9.060698509216309
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 378061,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.978541884436783,
+        "ssim": 0.7632603794336319,
+        "initializer_surface_p95_m": 0.5730063230259081,
+        "report": "runs/garage_surface_v1/block_008/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_008_prepare.log",
+      "label": "008 · 历史模型",
+      "sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+      "source_blocks": [
+        "block_008"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_009",
+      "floor_id": "F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -16.065542221069336,
+          -37.18428421020508,
+          -4.745182514190674
+        ],
+        "max": [
+          41.446414947509766,
+          16.113544464111328,
+          8.753780364990234
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 378567,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.820770169975617,
+        "ssim": 0.7463120855391026,
+        "initializer_surface_p95_m": 0.45625743213988046,
+        "report": "runs/garage_surface_v1/block_009/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_009_prepare.log",
+      "label": "009 · 历史模型",
+      "sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+      "source_blocks": [
+        "block_009"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_010",
+      "floor_id": "坡道 F2-F3",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          0.9733340740203857,
+          -37.216609954833984,
+          -3.502840995788574
+        ],
+        "max": [
+          60.84852600097656,
+          15.7317533493042,
+          10.87178897857666
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 361041,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 25.08356809825989,
+        "ssim": 0.7892414070665836,
+        "initializer_surface_p95_m": 0.42267149911382856,
+        "report": "runs/garage_surface_v1/block_010/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_010_prepare.log",
+      "label": "010 · 历史模型",
+      "sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+      "source_blocks": [
+        "block_010"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_011",
+      "floor_id": "坡道 F2-F3",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          19.317394256591797,
+          -23.282344818115234,
+          -1.328276515007019
+        ],
+        "max": [
+          68.3692855834961,
+          34.723236083984375,
+          11.90961742401123
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 369946,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.68631352186224,
+        "ssim": 0.750416275858879,
+        "initializer_surface_p95_m": 0.7186039020791898,
+        "report": "runs/garage_surface_v1/block_011/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_011_prepare.log",
+      "label": "011 · 历史模型",
+      "sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+      "source_blocks": [
+        "block_011"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_012",
+      "floor_id": "F3",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          2.9133782386779785,
+          -14.931038856506348,
+          -1.6091797351837158
+        ],
+        "max": [
+          64.94224548339844,
+          35.14246368408203,
+          12.700745582580566
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 370745,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.751255873281746,
+        "ssim": 0.7602110020816326,
+        "initializer_surface_p95_m": 0.9147517244766405,
+        "report": "runs/garage_surface_v1/block_012/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_012_prepare.log",
+      "label": "012 · 历史模型",
+      "sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+      "source_blocks": [
+        "block_012"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_013",
+      "floor_id": "F3",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -8.427299499511719,
+          -31.99431037902832,
+          -2.887692451477051
+        ],
+        "max": [
+          45.37727355957031,
+          25.778532028198242,
+          13.112592697143555
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 368601,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 26.065324387914465,
+        "ssim": 0.8031518943607807,
+        "initializer_surface_p95_m": 0.5403590902267754,
+        "report": "runs/garage_surface_v1/block_013/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_013_prepare.log",
+      "label": "013 · 历史模型",
+      "sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+      "source_blocks": [
+        "block_013"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_015",
+      "label": "014–016 · 本轮联合模型",
+      "floor_id": "坡道 F3-F4 / F4",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -8.268549919128418,
+          -37.52289962768555,
+          0.07083074748516083
+        ],
+        "max": [
+          75.393798828125,
+          22.864910125732422,
+          16.262300491333008
+        ]
+      },
+      "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply",
+      "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+      "source_blocks": [
+        "block_014",
+        "block_015",
+        "block_016"
+      ],
+      "high_fidelity_accepted": false,
+      "quality_status": "failed_not_promoted",
+      "training": {
+        "status": "trained",
+        "iterations": 15000,
+        "checkpoint_step": 14999,
+        "gaussians": 2498837,
+        "checkpoint_gaussians": 2498842,
+        "calibration_verified": false,
+        "algorithm": "Joint native 2DGS AA-depth-VJP, metric depth, 3cm tangent radius cap",
+        "report": "runs/fidelity_v2/train_joint015_depthv3_aa_metric_cap003/training_result.json",
+        "checkpoint_sha256": "8c969f712d8d3b3588a9ef3fbfe4a8cd8612e79daf6a9ceed0da9979436dc3fa"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "dev",
+        "psnr_db": 27.17422244182101,
+        "ssim": 0.7750555247068405,
+        "report": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json",
+        "images": 20,
+        "primary_protocol": "ego_v2",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope": "Native checkpoint on fixed block015 DEV20; not a browser parity measurement or final TEST; checkpoint has 5 more records than exported PLY.",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "model_generation": "current_round"
+    },
+    {
+      "id": "block_017",
+      "floor_id": "F4",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          14.640751838684082,
+          -48.67228317260742,
+          -0.47197628021240234
+        ],
+        "max": [
+          69.34644317626953,
+          10.422117233276367,
+          17.157894134521484
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 358029,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.810503653368368,
+        "ssim": 0.7396926656365395,
+        "initializer_surface_p95_m": 2.0475864670467887,
+        "report": "runs/garage_surface_v1/block_017/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_017_prepare.log",
+      "label": "017 · 历史模型",
+      "sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+      "source_blocks": [
+        "block_017"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_018",
+      "floor_id": "坡道 F4-F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          15.680351257324219,
+          -57.146766662597656,
+          -1.5028390884399414
+        ],
+        "max": [
+          74.39090728759766,
+          -5.86411714553833,
+          17.464143753051758
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 343041,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 21.834814482781375,
+        "ssim": 0.7450660765171051,
+        "initializer_surface_p95_m": 1.4392949561611605,
+        "report": "runs/garage_surface_v1/block_018/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_018_prepare.log",
+      "label": "018 · 历史模型",
+      "sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+      "source_blocks": [
+        "block_018"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_019",
+      "floor_id": "坡道 F4-F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          32.77766418457031,
+          -58.0687141418457,
+          3.3295257091522217
+        ],
+        "max": [
+          93.0791244506836,
+          -4.554839134216309,
+          20.765220642089844
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 303023,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 28.237014721388622,
+        "ssim": 0.8541914174954096,
+        "initializer_surface_p95_m": 0.7952943358557218,
+        "report": "runs/garage_surface_v1/block_019/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_019_prepare.log",
+      "label": "019 · 历史模型",
+      "sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+      "source_blocks": [
+        "block_019"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_020",
+      "floor_id": "坡道 F4-F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          49.15387725830078,
+          -44.02594757080078,
+          3.279677152633667
+        ],
+        "max": [
+          97.76348876953125,
+          13.16529655456543,
+          20.04109001159668
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 364368,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.467262300997934,
+        "ssim": 0.7562913708388805,
+        "initializer_surface_p95_m": 1.101661880279604,
+        "report": "runs/garage_surface_v1/block_020/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_020_prepare.log",
+      "label": "020 · 历史模型",
+      "sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+      "source_blocks": [
+        "block_020"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_021",
+      "floor_id": "F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          32.07360076904297,
+          -38.65790557861328,
+          5.4833173751831055
+        ],
+        "max": [
+          92.5337905883789,
+          12.804177284240723,
+          21.174484252929688
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 343186,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.649997436850448,
+        "ssim": 0.7674403756856918,
+        "initializer_surface_p95_m": 0.8857516426349811,
+        "report": "runs/garage_surface_v1/block_021/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_021_prepare.log",
+      "label": "021 · 历史模型",
+      "sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+      "source_blocks": [
+        "block_021"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_022",
+      "floor_id": "F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          21.268455505371094,
+          -56.956878662109375,
+          5.726810455322266
+        ],
+        "max": [
+          73.06891632080078,
+          1.1942983865737915,
+          21.018529891967773
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 360323,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 25.298149947169442,
+        "ssim": 0.7983706504106521,
+        "initializer_surface_p95_m": 0.4654880554748353,
+        "report": "runs/garage_surface_v1/block_022/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_022_prepare.log",
+      "label": "022 · 历史模型",
+      "sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+      "source_blocks": [
+        "block_022"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_023",
+      "floor_id": "坡道 F5-F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          22.47509002685547,
+          -59.1802864074707,
+          7.891026496887207
+        ],
+        "max": [
+          83.2613525390625,
+          -11.972832679748535,
+          21.370481491088867
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 362611,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 24.94530229726547,
+        "ssim": 0.8159380815923214,
+        "initializer_surface_p95_m": 0.2833625096004451,
+        "report": "runs/garage_surface_v1/block_023/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_023_prepare.log",
+      "label": "023 · 历史模型",
+      "sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+      "source_blocks": [
+        "block_023"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_024",
+      "floor_id": "坡道 F5-F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          41.94602584838867,
+          -51.657081604003906,
+          9.640694618225098
+        ],
+        "max": [
+          102.53736877441406,
+          -0.2644761800765991,
+          21.710636138916016
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 331951,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 24.72127623436636,
+        "ssim": 0.833443570137024,
+        "initializer_surface_p95_m": 0.3102954296339762,
+        "report": "runs/garage_surface_v1/block_024/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_024_prepare.log",
+      "label": "024 · 历史模型",
+      "sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+      "source_blocks": [
+        "block_024"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_025",
+      "floor_id": "F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          52.9168586730957,
+          -55.495819091796875,
+          8.124939918518066
+        ],
+        "max": [
+          104.46508026123047,
+          -0.24396003782749176,
+          21.894739151000977
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 405967,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 21.778187572555517,
+        "ssim": 0.7487307250499725,
+        "initializer_surface_p95_m": 1.0432525244035877,
+        "report": "runs/garage_surface_v1/block_025/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_025_prepare.log",
+      "label": "025 · 历史模型",
+      "sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+      "source_blocks": [
+        "block_025"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_026",
+      "floor_id": "F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          34.267940521240234,
+          -70.69023132324219,
+          7.591407299041748
+        ],
+        "max": [
+          95.02444458007812,
+          -15.378768920898438,
+          21.970640182495117
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 391296,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.820697800104163,
+        "ssim": 0.8049367219209671,
+        "initializer_surface_p95_m": 0.9415556255897114,
+        "report": "runs/garage_surface_v1/block_026/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_026_prepare.log",
+      "label": "026 · 历史模型",
+      "sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+      "source_blocks": [
+        "block_026"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    },
+    {
+      "id": "block_027",
+      "floor_id": "F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          33.75968551635742,
+          -71.57218170166016,
+          10.187739372253418
+        ],
+        "max": [
+          74.22704315185547,
+          -31.65999984741211,
+          21.471588134765625
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 235743,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.2794229468605,
+        "ssim": 0.7873132675886154,
+        "initializer_surface_p95_m": 1.5791490722988448,
+        "report": "runs/garage_surface_v1/block_027/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope_note": "Source-only score; not the mixed full-scene or overview score"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_027_prepare.log",
+      "label": "027 · 历史模型",
+      "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+      "source_blocks": [
+        "block_027"
+      ],
+      "model_generation": "historical",
+      "high_fidelity_accepted": false
+    }
+  ]
+}

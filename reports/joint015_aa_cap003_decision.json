@@ -1,0 +1,75 @@
+{
+  "status": "PILOT_NOT_PROMOTED",
+  "high_fidelity_accepted": false,
+  "rollout_allowed": false,
+  "training_complete": true,
+  "checkpoint_verified": true,
+  "completed_iterations": 15000,
+  "gaussians": 2498842,
+  "geometric_evidence": "reports/surface_quality_v2_joint015_aa_cap003.json",
+  "paired_appearance_evidence": "reports/joint015_aa_cap003_paired_comparison.json",
+  "actual_viewer_parity_evidence": "reports/viewer_parity_v2_aa015_full_result.json",
+  "reasons": [
+    "Fixed-reference floor wrong/missing reduction23.89% and wall5.85%, below30% each",
+    "Conditioned bidirectional p50 .173646m exceeds .15m",
+    "Three blocks lose3.12/4.81/4.30dB relative to original single-block models",
+    "2cm occupied-voxel multiplicity median1, below frozen2 requirement",
+    "Complete408candidate/fullscene/boundary acceptance not performed; local pilot insufficient"
+  ],
+  "gate_evidence": {
+    "G3": {
+      "status": "known",
+      "opacity_median": 0.999988317489624,
+      "opacity_frac_lt_0_5": 0.03864677848134952,
+      "voxel_2cm_multiplicity_median": 1.0,
+      "voxel_size_m": 0.02
+    },
+    "G4": {
+      "status": "known",
+      "candidate_p50_m": 0.17364604771137238,
+      "baseline_p50_m": 0.36551379412412643,
+      "ratio": 0.47507385631635873,
+      "independent_ground_truth": false,
+      "reference_sha256": "7a70275da62adee30b7e2cbbc81255630aca0b0e68a2200eca03076dbd490727",
+      "shared_reference": true,
+      "candidate_points": 610476,
+      "baseline_points": 618933
+    },
+    "G5": {
+      "status": "known",
+      "floor_relative_reduction": 0.23889644638552776,
+      "wall_relative_reduction": 0.058451184914997456,
+      "reference_sha256": "7a70275da62adee30b7e2cbbc81255630aca0b0e68a2200eca03076dbd490727",
+      "shared_reference": true,
+      "fixed_denominator": true,
+      "fixed_denominator_id": "1174c1fe5664d5067780bdeff9ceb06738c8f2168278240b2fb4f306880bd8c4",
+      "floor": {
+        "baseline_hole_rate": 0.7456490016727765,
+        "candidate_hole_rate": 0.5675161049222337,
+        "relative_reduction": 0.23889644638552776,
+        "status": "known",
+        "eligible_pixels": 56194,
+        "candidate_hole_pixels": 31891,
+        "baseline_hole_pixels": 41901
+      },
+      "wall": {
+        "baseline_hole_rate": 0.7864587046690795,
+        "candidate_hole_rate": 0.7404892614944578,
+        "relative_reduction": 0.058451184914997456,
+        "status": "known",
+        "eligible_pixels": 238441,
+        "candidate_hole_pixels": 176563,
+        "baseline_hole_pixels": 187524
+      }
+    },
+    "G7": {
+      "status": "known",
+      "tangential_radius_p95_m": 0.029999998676496453,
+      "tangential_radius_max_m": 0.029999998676496453,
+      "seam_gap_db": null,
+      "seam_status": "unknown: requires separate fixed boundary photometric evaluation"
+    }
+  },
+  "scope": "Pilot decision, not a fabricated complete G1-G8 whole-building evaluation",
+  "next_action": "Diagnose measured visibility and initialization before additional training; floor seeds alone cannot resolve dominant wrong-depth occluders"
+}

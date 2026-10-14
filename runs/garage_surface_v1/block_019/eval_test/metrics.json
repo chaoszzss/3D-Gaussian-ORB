@@ -1,0 +1,191 @@
+{
+  "status": "evaluated",
+  "split": "test",
+  "config": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/block_019/block_019/splatfacto/2026-10-07_105453/config.yml",
+  "checkpoint": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/block_019/block_019/splatfacto/2026-10-07_105453/nerfstudio_models/step-000011999.ckpt",
+  "step": 11999,
+  "images": 12,
+  "frames": [
+    {
+      "file_path": "images/1720268460745530105_camera_2_center.png",
+      "group_id": "1720268460745530105",
+      "camera_id": "camera_2",
+      "psnr_db": 33.312700223424784,
+      "ssim_valid_pixels": 0.8973956108093262,
+      "valid_fraction": 0.9621643518518519,
+      "render_seconds": 1.0375210009997318,
+      "map_projected_depth_median_abs_m": 0.6942334175109863,
+      "map_projected_depth_rmse_m": 7.3172454833984375,
+      "map_depth_compared_pixels": 10278
+    },
+    {
+      "file_path": "images/1720268460745530105_camera_3_center.png",
+      "group_id": "1720268460745530105",
+      "camera_id": "camera_3",
+      "psnr_db": 20.082599708928008,
+      "ssim_valid_pixels": 0.8050310015678406,
+      "valid_fraction": 1.0,
+      "render_seconds": 0.0664238090002982,
+      "map_projected_depth_median_abs_m": 1.0052120685577393,
+      "map_projected_depth_rmse_m": 7.0596089363098145,
+      "map_depth_compared_pixels": 35458
+    },
+    {
+      "file_path": "images/1720268460745530105_camera_4_center.png",
+      "group_id": "1720268460745530105",
+      "camera_id": "camera_4",
+      "psnr_db": 24.313239679239697,
+      "ssim_valid_pixels": 0.8474503755569458,
+      "valid_fraction": 0.9672858796296296,
+      "render_seconds": 0.06064790899927175,
+      "map_projected_depth_median_abs_m": 1.8715643882751465,
+      "map_projected_depth_rmse_m": 4.483325958251953,
+      "map_depth_compared_pixels": 41450
+    },
+    {
+      "file_path": "images/1720268460745530105_camera_5_center.png",
+      "group_id": "1720268460745530105",
+      "camera_id": "camera_5",
+      "psnr_db": 32.520417926621825,
+      "ssim_valid_pixels": 0.86481112241745,
+      "valid_fraction": 0.9420833333333334,
+      "render_seconds": 0.061400059000334295,
+      "map_projected_depth_median_abs_m": 3.118619918823242,
+      "map_projected_depth_rmse_m": 9.234726905822754,
+      "map_depth_compared_pixels": 43101
+    },
+    {
+      "file_path": "images/1720268468745603418_camera_2_center.png",
+      "group_id": "1720268468745603418",
+      "camera_id": "camera_2",
+      "psnr_db": 34.222940179984455,
+      "ssim_valid_pixels": 0.9076859354972839,
+      "valid_fraction": 0.9621643518518519,
+      "render_seconds": 0.0620218690000911,
+      "map_projected_depth_median_abs_m": 1.011606216430664,
+      "map_projected_depth_rmse_m": 7.539465427398682,
+      "map_depth_compared_pixels": 9935
+    },
+    {
+      "file_path": "images/1720268468745603418_camera_3_center.png",
+      "group_id": "1720268468745603418",
+      "camera_id": "camera_3",
+      "psnr_db": 21.91115881564444,
+      "ssim_valid_pixels": 0.8066514730453491,
+      "valid_fraction": 1.0,
+      "render_seconds": 0.06116999099958775,
+      "map_projected_depth_median_abs_m": 0.9601860046386719,
+      "map_projected_depth_rmse_m": 5.905588150024414,
+      "map_depth_compared_pixels": 30314
+    },
+    {
+      "file_path": "images/1720268468745603418_camera_4_center.png",
+      "group_id": "1720268468745603418",
+      "camera_id": "camera_4",
+      "psnr_db": 25.852062874544004,
+      "ssim_valid_pixels": 0.8379477858543396,
+      "valid_fraction": 0.9672858796296296,
+      "render_seconds": 0.06163410400040448,
+      "map_projected_depth_median_abs_m": 2.4432921409606934,
+      "map_projected_depth_rmse_m": 6.327481269836426,
+      "map_depth_compared_pixels": 47740
+    },
+    {
+      "file_path": "images/1720268468745603418_camera_5_center.png",
+      "group_id": "1720268468745603418",
+      "camera_id": "camera_5",
+      "psnr_db": 32.6255045402148,
+      "ssim_valid_pixels": 0.8597912788391113,
+      "valid_fraction": 0.9420833333333334,
+      "render_seconds": 0.06425067100008164,
+      "map_projected_depth_median_abs_m": 2.479623794555664,
+      "map_projected_depth_rmse_m": 9.356494903564453,
+      "map_depth_compared_pixels": 39545
+    },
+    {
+      "file_path": "images/1720268476745383801_camera_2_center.png",
+      "group_id": "1720268476745383801",
+      "camera_id": "camera_2",
+      "psnr_db": 33.267252411786345,
+      "ssim_valid_pixels": 0.9123334288597107,
+      "valid_fraction": 0.9621643518518519,
+      "render_seconds": 0.06141506199946889,
+      "map_projected_depth_median_abs_m": 1.4894084930419922,
+      "map_projected_depth_rmse_m": 6.719366550445557,
+      "map_depth_compared_pixels": 10439
+    },
+    {
+      "file_path": "images/1720268476745383801_camera_3_center.png",
+      "group_id": "1720268476745383801",
+      "camera_id": "camera_3",
+      "psnr_db": 20.314720822624786,
+      "ssim_valid_pixels": 0.7818491458892822,
+      "valid_fraction": 1.0,
+      "render_seconds": 0.05994431999988592,
+      "map_projected_depth_median_abs_m": 0.8104405403137207,
+      "map_projected_depth_rmse_m": 3.765044927597046,
+      "map_depth_compared_pixels": 25328
+    },
+    {
+      "file_path": "images/1720268476745383801_camera_4_center.png",
+      "group_id": "1720268476745383801",
+      "camera_id": "camera_4",
+      "psnr_db": 27.25188126487631,
+      "ssim_valid_pixels": 0.8482764959335327,
+      "valid_fraction": 0.9672858796296296,
+      "render_seconds": 0.06346226400000887,
+      "map_projected_depth_median_abs_m": 2.2774133682250977,
+      "map_projected_depth_rmse_m": 7.391726970672607,
+      "map_depth_compared_pixels": 46264
+    },
+    {
+      "file_path": "images/1720268476745383801_camera_5_center.png",
+      "group_id": "1720268476745383801",
+      "camera_id": "camera_5",
+      "psnr_db": 33.16969820877405,
+      "ssim_valid_pixels": 0.8810733556747437,
+      "valid_fraction": 0.9420833333333334,
+      "render_seconds": 0.06480742699932307,
+      "map_projected_depth_median_abs_m": 2.5910606384277344,
+      "map_projected_depth_rmse_m": 8.371331214904785,
+      "map_depth_compared_pixels": 32017
+    }
+  ],
+  "gaussian_filter": {
+    "original_count": 303024,
+    "surface_distance_max_m": 0.0,
+    "opacity_min": 0.0
+  },
+  "psnr_db_mean": 28.237014721388622,
+  "ssim_valid_mean": 0.8541914174954096,
+  "gaussians": 303024,
+  "gaussian_to_initializer_median_m": 0.1215821654186755,
+  "gaussian_to_initializer_p95_m": 0.7952943358557218,
+  "gaussian_to_measured_map_median_m": 0.020964723740596727,
+  "gaussian_to_measured_map_p95_m": 0.371470565636316,
+  "measured_reference_points": 400000,
+  "gpu_peak_allocated_bytes": 309089792,
+  "world_parser_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -0.0
+    ]
+  ],
+  "world_parser_scale": 1.0,
+  "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+  "calibration_status": false
+}

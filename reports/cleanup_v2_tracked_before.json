@@ -1,0 +1,310 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "84cbec2008a5845e0152f3076657ea9f9544a5ea75a44d0d7b4960badbff127a"
+  },
+  {
+    "path": "configs/all_lio_candidate.unverified.yaml",
+    "sha256": "be9671e897bfeb72ad57e0e3ba5e07db4c4ec241bbac53f4a647db989e4d1dbf"
+  },
+  {
+    "path": "configs/board_candidate.unverified.yaml",
+    "sha256": "b9999f5cc70221b88d5e8175033086b567d60899a330cae649286466de6d8bc4"
+  },
+  {
+    "path": "configs/calibration.template.yaml",
+    "sha256": "489c2f6fc42e75eb47662117f963340fbc9d12af6c90323261118ac223a1682b"
+  },
+  {
+    "path": "configs/direct_lio_board.experimental.yaml",
+    "sha256": "1842c8129c570d236f800ef29bcd61e3e38501f793b2c93bc800932cb09b147d"
+  },
+  {
+    "path": "configs/direct_lio_refined.ego_v2.experimental.yaml",
+    "sha256": "3e43f7eab0a828c7eac751eb25f05a6b13556c37a12b2ebb9e31da661238e817"
+  },
+  {
+    "path": "configs/direct_lio_refined.experimental.yaml",
+    "sha256": "c5200c2bb2df1ed5e4b8330eb501b2f5c7d6211615cfd711c9dede02f3f2a1fa"
+  },
+  {
+    "path": "configs/source_masks/camera_2.png",
+    "sha256": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e"
+  },
+  {
+    "path": "configs/source_masks/camera_3.png",
+    "sha256": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e"
+  },
+  {
+    "path": "configs/source_masks/camera_4.png",
+    "sha256": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e"
+  },
+  {
+    "path": "configs/source_masks/camera_5.png",
+    "sha256": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e"
+  },
+  {
+    "path": "configs/source_masks_v2/camera_2.png",
+    "sha256": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e"
+  },
+  {
+    "path": "configs/source_masks_v2/camera_3.png",
+    "sha256": "faaa891a933fd00482ac8e42a972e9d0e4959fcd67460d2a8986b6997d218f72"
+  },
+  {
+    "path": "configs/source_masks_v2/camera_4.png",
+    "sha256": "5a43bf96277f2093e13d9d2bc79120f73cf7ff1a87651c979c24e02e5b4c2b3d"
+  },
+  {
+    "path": "configs/source_masks_v2/camera_5.png",
+    "sha256": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e"
+  },
+  {
+    "path": "configs/training.constraints.txt",
+    "sha256": "76b222d7244ea0988f0ff658935d481cf3bcd3aaa6a2df9516aefb793996b3f0"
+  },
+  {
+    "path": "configs/v6_board_candidate.unverified.yaml",
+    "sha256": "082104ead63d718c9956a19a8d756ea5d14d5d9212d2fca1da128f079053d28f"
+  },
+  {
+    "path": "docs/DATA_AUDIT.md",
+    "sha256": "5da7b7d67c8eb7270a62d458c08cee07806b8bb907d442b239dd22ffb555542a"
+  },
+  {
+    "path": "docs/IMPLEMENTATION_STATUS.md",
+    "sha256": "5a3c9a468adc8ef88eb56966064eab55e9a23a5544d440131acf56bee1460ce3"
+  },
+  {
+    "path": "docs/LIDAR_SPLATFACTO.md",
+    "sha256": "7d456c88b108319017d5cc4471f5bdbdf12b3a527dfe65cbdd005725aa46c065"
+  },
+  {
+    "path": "docs/OPTIMIZATION_PROTOCOL.md",
+    "sha256": "1a19329b6b4d26e0be66f1a261ac0c8db4402f979e6fa55a1d601cd7012a1390"
+  },
+  {
+    "path": "docs/RECONSTRUCTION_PLAN.md",
+    "sha256": "774739722f5e615de16f073d966513a8eac97a451843187b0cb362d49383548a"
+  },
+  {
+    "path": "docs/SOURCES.md",
+    "sha256": "c13ff4768693bf764d6a9eca6c1dc0ca87036169764597cdbceda1be3eef7996"
+  },
+  {
+    "path": "reports/DEPTH_PIPELINE_REVIEW.md",
+    "sha256": "34842550fdda4202a9d205f622f516260cd6c1770ce791685eaf2ca5f11bfa1b"
+  },
+  {
+    "path": "reports/INRIA_SURFACE_BACKEND.md",
+    "sha256": "69debb17c978a4172cb8942816ae251cd51af0b17d4986b7e4c64b9367a16b02"
+  },
+  {
+    "path": "reports/RIG_OPTIMIZER_INTEGRATION.md",
+    "sha256": "f57155d9b06f0f4e54b3d35b3552ca60ab91b9ee82c00d5ab6b6d2f27abeb663"
+  },
+  {
+    "path": "reports/RIG_SOURCE_EVIDENCE.md",
+    "sha256": "4d599bc14cf05d282041de5d96f7223416c9209e19e485316a862f7be5301d05"
+  },
+  {
+    "path": "reports/TRAINING_ENVIRONMENT.md",
+    "sha256": "3af9cd026a5aa1348ec21b67fe7eb85ab6112ea306269e42a7355bf6e481b729"
+  },
+  {
+    "path": "reports/VISUAL_QUALITY_REVIEW.md",
+    "sha256": "7d640c8cb12ef9f5791dadaf87bd2a0b4fd898e3daa98b80550c851d075d9ab8"
+  },
+  {
+    "path": "reports/rig_source_evidence.json",
+    "sha256": "af7833a19c392ff5ba471bb4d2c97d777ee39e7ff713a624312dd5e527a8022b"
+  },
+  {
+    "path": "reports/visual_quality_annotations.json",
+    "sha256": "6b3fd21e4510aeab23c39528daeafd51f5948ea66ae6d416ac06abc433220d85"
+  },
+  {
+    "path": "scripts/audit_bag.py",
+    "sha256": "ceed3ca507e3fd59283b2b81278a41cea1dc2481dbdf0803f2c5a546e1a7d74f"
+  },
+  {
+    "path": "scripts/bootstrap_training.sh",
+    "sha256": "48acc534ab291321df02a3b9380eb1481af890e35903e62ad291ec1af46709e4"
+  },
+  {
+    "path": "scripts/calibrate_rig.py",
+    "sha256": "46e188c99abc4bffd930e5f3628e1350bda4590a379912fb9d9298fd228e0a80"
+  },
+  {
+    "path": "scripts/diagnose_depth_pipeline.py",
+    "sha256": "72ed57ea499f7d81c4335099105b1ebc3ff860fc93dd4856779d80140bd124e1"
+  },
+  {
+    "path": "scripts/evaluate_reconstruction.py",
+    "sha256": "688a245108d2ae8b7ebcbe451586a56bc320798d6d5330e017a416c6a02dab1d"
+  },
+  {
+    "path": "scripts/fix_depth_visibility.py",
+    "sha256": "9551134080e4ea053d30ad0fb9e7956099856e639143e77c55e4c944f2b0ffc9"
+  },
+  {
+    "path": "scripts/gpu_preflight.py",
+    "sha256": "d78c01c6ababa29b6823cc85b299d232a2648a15b738b7d578b19f1d345d7813"
+  },
+  {
+    "path": "scripts/orbvi_pipeline.py",
+    "sha256": "af1429e1f0157d5473ad430a0466564b7336b1fd3b7840a29e96770b7ed49f58"
+  },
+  {
+    "path": "scripts/preflight_inria_surface.py",
+    "sha256": "d50ee8c3164da121fd963c290abd0fb8a41471226597ab75af00f6187cb15112"
+  },
+  {
+    "path": "scripts/reconstruct_garage.py",
+    "sha256": "31a6a3e102b8c7bde430625f6b05b399692679af691f5b96d4cc1f5bb78df789"
+  },
+  {
+    "path": "scripts/refine_scene_calibration.py",
+    "sha256": "a41a19c1d4f3627909bade3955b757ef324e871d5da361cf82c3da25357f1499"
+  },
+  {
+    "path": "scripts/run_splatfacto.py",
+    "sha256": "cfaf2ca43b5b985cd2628f1db54d4b3cd8f753ee990b2c53a2fcc9d99b55f9f5"
+  },
+  {
+    "path": "scripts/serve_map.py",
+    "sha256": "df987b06d999c933b8f9397a372101a544119d2dc96189327e499dc8783f69ec"
+  },
+  {
+    "path": "scripts/train_block.py",
+    "sha256": "c190d0f59daa82e2402873fba351a4408db29ee04693ed649c9ecd1b9b0b0159"
+  },
+  {
+    "path": "scripts/train_lidar_block.py",
+    "sha256": "b6eb5d1a718c05c51d8888e047d94d49cc3e360ee46dcdc8f2cf6bbeac54500f"
+  },
+  {
+    "path": "src/orbvi_gaussian/__init__.py",
+    "sha256": "59287f1974577adab1aee5b22875a1205f5b32405290860cf50409489be41829"
+  },
+  {
+    "path": "src/orbvi_gaussian/bounded_strategy.py",
+    "sha256": "f49e0740746defbbaac2ea42ac352e8af10562ddfe0e1f9c6f329c4628690cdd"
+  },
+  {
+    "path": "src/orbvi_gaussian/calibration.py",
+    "sha256": "ddb5631e86db0ee89327131683503852132299d1a38fadd9dd36991d4d1e5e8e"
+  },
+  {
+    "path": "src/orbvi_gaussian/colors.py",
+    "sha256": "812b4f963a7dc285962c919ef054d28b3713f4713e79dea0c25c65d13712a918"
+  },
+  {
+    "path": "src/orbvi_gaussian/dataset.py",
+    "sha256": "3fec043907c7fa53809b4caba567add7d88e5cda73ac9cb3aad04a7da72ef7b6"
+  },
+  {
+    "path": "src/orbvi_gaussian/geometry.py",
+    "sha256": "845de57832b144f1166e8f2a28d6dc6eb0983880c9077ffd8eef3209967dc868"
+  },
+  {
+    "path": "src/orbvi_gaussian/inria_surfel_backend.py",
+    "sha256": "9338aba492af4fee756156659ef4c6c1ba37f02a6d9c1ca46e37a772ba608382"
+  },
+  {
+    "path": "src/orbvi_gaussian/io.py",
+    "sha256": "179359c3036f335f5e736305636174d374d811b708d2bf9923992cfc25252102"
+  },
+  {
+    "path": "src/orbvi_gaussian/lidar_splatfacto.py",
+    "sha256": "82e7228f03ae11b681d3116d8cdec2403514027e6a5e9c3d81c617ba897254d4"
+  },
+  {
+    "path": "src/orbvi_gaussian/points.py",
+    "sha256": "4aefa918a69fa00598b62dd5fc6582baeb6c56690e8afd8d20784d4db644e65e"
+  },
+  {
+    "path": "src/orbvi_gaussian/rig_optimizer.py",
+    "sha256": "e1a262a07f4fd9d1e5acf7d889c2ca606c3b4e02cf805e9521cb24d91e2890ab"
+  },
+  {
+    "path": "src/orbvi_gaussian/surfels.py",
+    "sha256": "d67f597aaeac27f32d63969bc13186a14aeb33d400ba63e4e4d37e6c77fbf363"
+  },
+  {
+    "path": "src/orbvi_gaussian/training.py",
+    "sha256": "a6a92141f1a3d8e8e8d60182e81c8bc21792bc2fafaea03ef98e6cbae0baff7c"
+  },
+  {
+    "path": "src/orbvi_gaussian/trajectory.py",
+    "sha256": "b90691ec89283a894ee738057c413afe4fede5ffa76f143c126805ba9c24d030"
+  },
+  {
+    "path": "src/orbvi_gaussian/workflow.py",
+    "sha256": "92e607536b34e4c6d57f1d6ffb46ebbf4e4c28aa5f7b96be0e54f7d4e3530384"
+  },
+  {
+    "path": "tests/conftest.py",
+    "sha256": "70b65e441046405f1d91c8dc8cd5b5c8204afeb424f1338f47eccb76cf0cc78e"
+  },
+  {
+    "path": "tests/test_colors_training_trajectory.py",
+    "sha256": "cc2ec4ccbb15dec5aec1dcde182dd63bcaff228a8a89cb555e5437070372c4b6"
+  },
+  {
+    "path": "tests/test_dataset.py",
+    "sha256": "f175731e042f89c0d7778e619c3a660109e216fc13cd34508ff54d0853f2f1e5"
+  },
+  {
+    "path": "tests/test_geometry.py",
+    "sha256": "2b3ea932e3c757be67f14d02aafb0808afda0d91a1f8dc6cf49ddf7035a39c4e"
+  },
+  {
+    "path": "tests/test_lidar_splatfacto.py",
+    "sha256": "b01d6868b12b7a4da290917b9a43a7994b642d25b7fcc08f2335bcbd7eea390c"
+  },
+  {
+    "path": "tests/test_pipeline.py",
+    "sha256": "3af8ddaeac12c66153c20f2ec344f7516e23a9e65bbf243775edc83002d3a4be"
+  },
+  {
+    "path": "tests/test_points.py",
+    "sha256": "ea82c60f2d80def2e73f2f1bac39318cc5074161b026bbee27a15efb6c7aae97"
+  },
+  {
+    "path": "tests/test_rig_optimizer.py",
+    "sha256": "685e5089c1387255a706081c14c737f1618fb908c3eccc343e3e546582f07032"
+  },
+  {
+    "path": "tests/test_surfels.py",
+    "sha256": "21758d2a884d3e7d7f8bcbd52b079f6ab3fb803aa605e73719f84ce65f34f6d7"
+  },
+  {
+    "path": "viewer/README.md",
+    "sha256": "3cac59f4634526c79e14a2838921816cc9fc21b0f6178b8026450ce16129f518"
+  },
+  {
+    "path": "viewer/VERIFICATION.md",
+    "sha256": "37e3a00278799b5ac257bf8a0e259ec3012c4da6306601da5e8514c2dfbea970"
+  },
+  {
+    "path": "viewer/app.js",
+    "sha256": "bccfe4d8f7a3b1add35d8b426eb68ba0e1571eabaa89c351934766d241687e3d"
+  },
+  {
+    "path": "viewer/index.html",
+    "sha256": "24b9233242debded319028f600eb7f0d10195422bdc4023acff42190ace246a5"
+  },
+  {
+    "path": "viewer/manifest.schema.json",
+    "sha256": "3f1e8a05edc89b307364a5f50fda7acc9396f2b5fd0d3e5227f78f1a76e1288c"
+  },
+  {
+    "path": "viewer/package-lock.json",
+    "sha256": "b1a474f10f157385a3c72b91b9352d7c3fae08774867e73d65decffa98a946fb"
+  },
+  {
+    "path": "viewer/package.json",
+    "sha256": "92a69a389a266c9797a694f9b49cbd17e29fcb96560b320702de3d325b03a804"
+  }
+]

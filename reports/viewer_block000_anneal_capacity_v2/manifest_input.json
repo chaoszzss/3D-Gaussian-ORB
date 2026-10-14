@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "coordinates": "camera_init",
+  "units": "m",
+  "camera_up": [
+    0,
+    0,
+    1
+  ],
+  "dataset_kind": "real",
+  "title": "block000 measuredseed+anneal 15k真实模型 · 未验收诊断入口",
+  "status": "not_accepted_diagnostic_only",
+  "high_fidelity_accepted": false,
+  "rollout_allowed": false,
+  "diagnostic_only": true,
+  "run_id": "train_block000_measuredseed_anneal_v1",
+  "calibration_verified": false,
+  "floor_assignment": "Estimated temporal floor schedule; not independently surveyed",
+  "renderer": {
+    "schema_version": 1,
+    "mode": "inria_2dgs_v3"
+  },
+  "description": "引用已导出的单块000真实15000步训练模型：切向尺度上限0.12m至0.03m退火，warm_opacity_cap恒为1.0。仅诊断审阅，不替换原28块交付。",
+  "blocks": [
+    {
+      "id": "block_000",
+      "label": "measuredseed anneal 15k · 诊断未验收",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -18.11477279663086,
+          -35.53653335571289,
+          -8.240885734558105
+        ],
+        "max": [
+          39.13062286376953,
+          18.43965721130371,
+          6.196407794952393
+        ]
+      },
+      "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply",
+      "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+      "source_blocks": [
+        "block_000"
+      ],
+      "high_fidelity_accepted": false,
+      "quality_status": "not_accepted_diagnostic_only",
+      "training": {
+        "status": "trained",
+        "iterations": 15000,
+        "checkpoint_step": 14999,
+        "gaussians": 2495734,
+        "checkpoint_gaussians": 2495766,
+        "calibration_verified": false,
+        "algorithm": "Measured-surface seed; tangent scale cap annealing 0.12m to 0.03m; warm_opacity_cap remains 1.0; native 2DGS AA-depth-VJP",
+        "report": "runs/fidelity_v2/train_block000_measuredseed_anneal_v1/training_result.json",
+        "checkpoint_sha256": "cfb20371011a5d4c7832183fef5e9a0cdd9403566ecd576f374418379d6241cf",
+        "tangent_scale_cap_annealing_m": {
+          "initial": 0.12,
+          "final": 0.03
+        },
+        "warm_opacity_cap": 1.0
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "dev",
+        "psnr_db": 22.357799072008326,
+        "ssim": 0.7196403414011001,
+        "report": "runs/fidelity_v2/block000_measuredseed_anneal_v1/metrics.json",
+        "images": 20,
+        "primary_protocol": "ego_v2",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope": "Native checkpoint fixed block000 DEV20 at 640x540; no browser/native parity measurement yet; checkpoint has 32 more records than exported PLY."
+      }
+    }
+  ],
+  "source_export": {
+    "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply",
+    "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+    "gaussians": 2495734,
+    "file_bytes": 618943622,
+    "sh_degree": 3
+  },
+  "training_result": {
+    "path": "runs/fidelity_v2/train_block000_measuredseed_anneal_v1/training_result.json",
+    "sha256": "f930d7f2c7202bae88e02f73fdc1af5e1e94324a7a57a765ac1ead1285189e1d"
+  },
+  "evaluation_report": {
+    "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/metrics.json",
+    "sha256": "35c7959aa8529be6ecb33fd5bcc2136ead454da98f9dd61cd27c1dae81c47358"
+  },
+  "resolution_evaluation_report": {
+    "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1_resolution/metrics.json",
+    "sha256": "b985119fe403b6cc32e5334c5a0107ea2b79c0b42b9794449f358573fa91f8db"
+  },
+  "checkpoint_export_proof": {
+    "path": "reports/block000_measuredseed_anneal_v1_checkpoint.json",
+    "sha256": "ef51f8c011d404ba2d3b6ca95a51bcd1d534ca162d1f3a8592206301b746b699"
+  },
+  "geometry_report": {
+    "path": "reports/surface_quality_v2_block000_measuredseed_anneal_v1.json",
+    "sha256": "d0cc1b47be61f2bf1189ff86cb51cfc3c63b614b6d9b5a8d84e1beb1f3576eac"
+  },
+  "geometry_summary": {
+    "high_fidelity_pass": false,
+    "conditioned_p50_m": 0.12143945507705212,
+    "floor_wrong_or_missing_rate": 0.8013793103448276,
+    "wall_wrong_or_missing_rate": 0.6391570204695572,
+    "floor_relative_reduction": 0.0964230171073095,
+    "wall_relative_reduction": 0.1825944775039623,
+    "independent_ground_truth": false
+  },
+  "export_filter": {
+    "checkpoint_gaussians": 2495766,
+    "ply_gaussians": 2495734,
+    "omitted_records": 32,
+    "existing_predicate": "finite attributes AND opacity_logit >= -5.5373",
+    "note": "Existing export retained unchanged; 32 below-opacity-threshold records were omitted by the exporter."
+  },
+  "viewer_validation": {
+    "this_export_browser_tested": false,
+    "native_browser_parity_measured": false,
+    "frames": 0,
+    "scope": "CPU manifest/source verification only. No reuse of original015 or joint015 model parity results."
+  },
+  "recommended_server_limits": {
+    "max_splats": 2500000,
+    "max_file_bytes": 671088640,
+    "max_loaded_blocks": 1
+  },
+  "server_limit_note": "Explicit CLI limits are required; this manifest does not raise the server defaults.",
+  "lidar_overlay_enabled": false,
+  "direction_support_enabled": false,
+  "summary": {
+    "models": 1,
+    "ply_gaussians": 2495734,
+    "checkpoint_gaussians": 2495766,
+    "completed_iterations": 15000,
+    "high_fidelity_accepted": false,
+    "metric_split": "dev",
+    "metric_scope": "block000 fixed20 native, not whole-building acceptance",
+    "primary_protocol": "ego_v2",
+    "psnr_db_mean": 22.357799072008326,
+    "ssim_valid_mean": 0.7196403414011001,
+    "resolution_1280_psnr_db_mean": 21.899616701954116,
+    "resolution_note": "Separate 1280x1080 plan; not mixed into the fixed640 page comparison."
+  }
+}

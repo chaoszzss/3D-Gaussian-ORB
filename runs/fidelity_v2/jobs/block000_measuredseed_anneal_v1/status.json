@@ -1,0 +1,6 @@
+{
+  "stage": "failed",
+  "updated_at": "2026-10-09T15:11:46.418859+08:00",
+  "high_fidelity_accepted": false,
+  "error": "CalledProcessError(1, ['/home/chaoszzss/dataset/rosbag/3D-Gaussian/.venv-train/bin/python', '-B', 'scripts/train_lidar_block.py', '--dataset', '/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000', '--output', '/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/fidelity_v2/train_block000_measuredseed_anneal_v1', '--iterations', '15000', '--allow-candidate-calibration', '--surface-splats', '--renderer-inria', '--inria-backend', 'aa-depth-vjp', '--warm-ply', '/home/chaoszzss/dataset/rosbag/3D-Gaussian/maps/garage_block000_measuredseed_v2_20261009/gaussians.ply', '--warm-opacity-cap', '1.0', '--max-gaussians', '2500000', '--refine-every', '100', '--stop-split-at', '14000', '--stop-screen-size-at', '14000', '--split-screen-size', '0.02', '--gaussian-max-scale-m', '0.03', '--gaussian-initial-max-scale-m', '0.12', '--gaussian-scale-anneal-start', '1000', '--gaussian-scale-anneal-end', '10000', '--tangent-scale-target-m', '0.03', '--tangent-scale-weight', '0.001', '--depth-weight', '0.5', '--alpha-weight', '0.1', '--metric-depth-weight', '0.05', '--metric-depth-delta-m', '0.15', '--save-every', '2000', '--vis', 'tensorboard'])"
+}

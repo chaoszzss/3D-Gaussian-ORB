@@ -1,0 +1,5463 @@
+{
+  "schema_version": 1,
+  "status": "PASS_SOURCE_COVERAGE_AND_IDENTITY_ONLY",
+  "created_at_utc": "2026-10-09T08:48:02.839832+00:00",
+  "asset_count": 26,
+  "source_blocks": [
+    "block_000",
+    "block_001",
+    "block_002",
+    "block_003",
+    "block_004",
+    "block_005",
+    "block_006",
+    "block_007",
+    "block_008",
+    "block_009",
+    "block_010",
+    "block_011",
+    "block_012",
+    "block_013",
+    "block_014",
+    "block_015",
+    "block_016",
+    "block_017",
+    "block_018",
+    "block_019",
+    "block_020",
+    "block_021",
+    "block_022",
+    "block_023",
+    "block_024",
+    "block_025",
+    "block_026",
+    "block_027"
+  ],
+  "source_block_count": 28,
+  "new_assets": 2,
+  "new_source_blocks": [
+    "block_000",
+    "block_014",
+    "block_015",
+    "block_016"
+  ],
+  "historical_assets": 24,
+  "sum_source_ply_gaussians": 13681252,
+  "bbox_m": {
+    "min": [
+      -38.333412170410156,
+      -71.57218170166016,
+      -12.985081672668457
+    ],
+    "max": [
+      104.46508026123047,
+      80.49833679199219,
+      21.970640182495117
+    ]
+  },
+  "coordinates": "camera_init",
+  "units": "m",
+  "all_parsers_identity": true,
+  "source_properties": [
+    "x",
+    "y",
+    "z",
+    "nx",
+    "ny",
+    "nz",
+    "f_dc_0",
+    "f_dc_1",
+    "f_dc_2",
+    "f_rest_0",
+    "f_rest_1",
+    "f_rest_2",
+    "f_rest_3",
+    "f_rest_4",
+    "f_rest_5",
+    "f_rest_6",
+    "f_rest_7",
+    "f_rest_8",
+    "f_rest_9",
+    "f_rest_10",
+    "f_rest_11",
+    "f_rest_12",
+    "f_rest_13",
+    "f_rest_14",
+    "f_rest_15",
+    "f_rest_16",
+    "f_rest_17",
+    "f_rest_18",
+    "f_rest_19",
+    "f_rest_20",
+    "f_rest_21",
+    "f_rest_22",
+    "f_rest_23",
+    "f_rest_24",
+    "f_rest_25",
+    "f_rest_26",
+    "f_rest_27",
+    "f_rest_28",
+    "f_rest_29",
+    "f_rest_30",
+    "f_rest_31",
+    "f_rest_32",
+    "f_rest_33",
+    "f_rest_34",
+    "f_rest_35",
+    "f_rest_36",
+    "f_rest_37",
+    "f_rest_38",
+    "f_rest_39",
+    "f_rest_40",
+    "f_rest_41",
+    "f_rest_42",
+    "f_rest_43",
+    "f_rest_44",
+    "opacity",
+    "scale_0",
+    "scale_1",
+    "scale_2",
+    "rot_0",
+    "rot_1",
+    "rot_2",
+    "rot_3"
+  ],
+  "assets": [
+    {
+      "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply",
+      "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+      "gaussians": 2495734,
+      "file_bytes": 618943622,
+      "source_header_bytes": 1590,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -18.11477279663086,
+          -35.53653335571289,
+          -8.240885734558105
+        ],
+        "max": [
+          39.13062286376953,
+          18.43965721130371,
+          6.196407794952393
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_000",
+      "source_blocks": [
+        "block_000"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+        "sha256": "53b70f4e4576ab34ab9390fe5f3bc5c50426ff3d9ecb89fd7444b9ac21c58a9c"
+      },
+      "generation": "current_round",
+      "floor_label_unverified": "F1",
+      "evaluation_metadata": {
+        "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/metrics.json",
+        "sha256": "35c7959aa8529be6ecb33fd5bcc2136ead454da98f9dd61cd27c1dae81c47358"
+      },
+      "config": {
+        "path": "runs/fidelity_v2/train_block000_measuredseed_anneal_v1/block_000/splatfacto/2026-10-09_150023/config.yml",
+        "sha256": "4503231b5f34bbdb82cdb336253907964ffcbef8a2299ba5f01f64f392763ee3"
+      },
+      "training_result": {
+        "path": "runs/fidelity_v2/train_block000_measuredseed_anneal_v1/training_result.json",
+        "sha256": "f930d7f2c7202bae88e02f73fdc1af5e1e94324a7a57a765ac1ead1285189e1d"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_fidelity_depthv3/block_000/transforms.json",
+          "sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd"
+        },
+        "frames": 312,
+        "splits": {
+          "train": {
+            "images": 276,
+            "groups": 69,
+            "group_time": {
+              "min_ns": 1720267881750246842,
+              "max_ns": 1720267920250103766,
+              "span_s": 38.499856924
+            },
+            "actual_header_time": {
+              "min_ns": 1720267881750246842,
+              "max_ns": 1720267920250103766,
+              "span_s": 38.499856924
+            }
+          },
+          "val": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720267884750228828,
+              "max_ns": 1720267916749964569,
+              "span_s": 31.999735741
+            },
+            "actual_header_time": {
+              "min_ns": 1720267884750228828,
+              "max_ns": 1720267916749964569,
+              "span_s": 31.999735741
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720267888750127279,
+              "max_ns": 1720267912749981248,
+              "span_s": 23.999853969
+            },
+            "actual_header_time": {
+              "min_ns": 1720267888750127279,
+              "max_ns": 1720267912749981248,
+              "span_s": 23.999853969
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": {
+        "checkpoint_gaussians": 2495766,
+        "ply_gaussians": 2495734,
+        "omitted_records": 32,
+        "existing_predicate": "finite attributes AND opacity_logit >= -5.5373",
+        "note": "Existing export retained unchanged; 32 below-opacity-threshold records were omitted by the exporter."
+      },
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply",
+      "sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+      "gaussians": 342875,
+      "file_bytes": 85034589,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -1.9823193550109863,
+          -34.31306838989258,
+          -9.033573150634766
+        ],
+        "max": [
+          59.66202163696289,
+          15.91005802154541,
+          6.086302280426025
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_001",
+      "source_blocks": [
+        "block_001"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F1",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_001/eval_dev/metrics.json",
+        "sha256": "fef094ebf8b6cdefc6f99a8c60021a579bc13af60721907caf58be7eaede8292"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_001/block_001/splatfacto/2026-10-06_205549/config.yml",
+        "sha256": "67611882074de8d494779f513f61d6280645f3dfcd594b649ba8b5271a4d3c9f"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_001/training_result.json",
+        "sha256": "72fefdbd201e6e9fb8c6d613c0801e54b305880095a4e0460a75cfe6cd08c485"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_001/transforms.json",
+          "sha256": "59ec6d0a6eafcc15f8468ecb521b3ab767ab43bdb44270ad892105d7888cee40"
+        },
+        "frames": 240,
+        "splits": {
+          "train": {
+            "images": 212,
+            "groups": 53,
+            "group_time": {
+              "min_ns": 1720267914250001940,
+              "max_ns": 1720267943749716151,
+              "span_s": 29.499714211
+            },
+            "actual_header_time": {
+              "min_ns": 1720267914250001940,
+              "max_ns": 1720267943749716151,
+              "span_s": 29.499714211
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720267916749964569,
+              "max_ns": 1720267940749889191,
+              "span_s": 23.999924622
+            },
+            "actual_header_time": {
+              "min_ns": 1720267916749964569,
+              "max_ns": 1720267940749889191,
+              "span_s": 23.999924622
+            }
+          },
+          "test": {
+            "images": 12,
+            "groups": 3,
+            "group_time": {
+              "min_ns": 1720267920749949620,
+              "max_ns": 1720267936749920772,
+              "span_s": 15.999971152
+            },
+            "actual_header_time": {
+              "min_ns": 1720267920749949620,
+              "max_ns": 1720267936749920772,
+              "span_s": 15.999971152
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply",
+      "sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+      "gaussians": 364881,
+      "file_bytes": 90492077,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          17.759521484375,
+          -23.3091983795166,
+          -10.218432426452637
+        ],
+        "max": [
+          66.07740020751953,
+          35.06171417236328,
+          5.587801933288574
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_002",
+      "source_blocks": [
+        "block_002"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F1",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_002/eval_dev/metrics.json",
+        "sha256": "4e55537000d52b6e43eaad93c7db3b738bb75dccbc4840a207800608fd1f2a1a"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_002/block_002/splatfacto/2026-10-06_210412/config.yml",
+        "sha256": "8be142d86ec3b33c31d7e2fffd2b11758131343c0764647132957641b791fc4a"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_002/training_result.json",
+        "sha256": "47dea4113bf71cc79c70db6560f41faee73a36d1128acec6ca1b15651c56e038"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_002/transforms.json",
+          "sha256": "6b9ac93937d42144261046e98274f5d6d8f1ba5332ca119770df092b021252c2"
+        },
+        "frames": 256,
+        "splits": {
+          "train": {
+            "images": 224,
+            "groups": 56,
+            "group_time": {
+              "min_ns": 1720267939249846254,
+              "max_ns": 1720267970749575766,
+              "span_s": 31.499729512
+            },
+            "actual_header_time": {
+              "min_ns": 1720267939249846254,
+              "max_ns": 1720267970749575766,
+              "span_s": 31.499729512
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720267940749889191,
+              "max_ns": 1720267964749719769,
+              "span_s": 23.999830578
+            },
+            "actual_header_time": {
+              "min_ns": 1720267940749889191,
+              "max_ns": 1720267964749719769,
+              "span_s": 23.999830578
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720267944749658767,
+              "max_ns": 1720267968749491746,
+              "span_s": 23.999832979
+            },
+            "actual_header_time": {
+              "min_ns": 1720267944749658767,
+              "max_ns": 1720267968749491746,
+              "span_s": 23.999832979
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply",
+      "sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+      "gaussians": 368896,
+      "file_bytes": 91487797,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          10.036152839660645,
+          -5.876007556915283,
+          -12.985081672668457
+        ],
+        "max": [
+          65.49835205078125,
+          54.42396545410156,
+          5.23167085647583
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_003",
+      "source_blocks": [
+        "block_003"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F1",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_003/eval_dev/metrics.json",
+        "sha256": "ed5282b822f8f4b7aa94f6b78ea06165b55577476a2b3742da4d20bdae0b378b"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_003/block_003/splatfacto/2026-10-06_211241/config.yml",
+        "sha256": "68fe735f097d05cb753bfb4455ab412b4e878b7e1280f0cc6a7b4fc28e06989a"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_003/training_result.json",
+        "sha256": "1a65153b42b0389530485c71bcd20ede9870b37087489a80bbf684ac5c36d27c"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_003/transforms.json",
+          "sha256": "147d76322c94a7a9c6590cc4a654e2ba93583923b15341e457e3328ed87e41e1"
+        },
+        "frames": 264,
+        "splits": {
+          "train": {
+            "images": 232,
+            "groups": 58,
+            "group_time": {
+              "min_ns": 1720267965749663779,
+              "max_ns": 1720267998249328463,
+              "span_s": 32.499664684
+            },
+            "actual_header_time": {
+              "min_ns": 1720267965749663779,
+              "max_ns": 1720267998249328463,
+              "span_s": 32.499664684
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720267972749462147,
+              "max_ns": 1720267996749295121,
+              "span_s": 23.999832974
+            },
+            "actual_header_time": {
+              "min_ns": 1720267972749462147,
+              "max_ns": 1720267996749295121,
+              "span_s": 23.999832974
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720267968749491746,
+              "max_ns": 1720267992749278260,
+              "span_s": 23.999786514
+            },
+            "actual_header_time": {
+              "min_ns": 1720267968749491746,
+              "max_ns": 1720267992749278260,
+              "span_s": 23.999786514
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply",
+      "sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+      "gaussians": 384304,
+      "file_bytes": 95308981,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -4.985466957092285,
+          14.290349006652832,
+          -10.795706748962402
+        ],
+        "max": [
+          50.713558197021484,
+          74.81734466552734,
+          4.340959072113037
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_004",
+      "source_blocks": [
+        "block_004"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F1",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_004/eval_dev/metrics.json",
+        "sha256": "19bfcdac5d78e6ed1c7cb73bbfc729ae82dcd3d8976e0e45b3fa208ce3aa634f"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_004/block_004/splatfacto/2026-10-06_212148/config.yml",
+        "sha256": "423fe64814ac942dd0b916c579ab73784975ecd51ad650dd849103158e6cb80a"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_004/training_result.json",
+        "sha256": "7d6a2b08d02cdd77b03fee7cef3871252f2e41e389fd5a516ea4a158157b5fac"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_004/transforms.json",
+          "sha256": "8725adcb59cbb039765ef1a1a77672a0801a0a9ad3f648ace3ac388069a31060"
+        },
+        "frames": 292,
+        "splits": {
+          "train": {
+            "images": 252,
+            "groups": 63,
+            "group_time": {
+              "min_ns": 1720267993249370469,
+              "max_ns": 1720268028249209576,
+              "span_s": 34.999839107
+            },
+            "actual_header_time": {
+              "min_ns": 1720267993249370469,
+              "max_ns": 1720268028249209576,
+              "span_s": 34.999839107
+            }
+          },
+          "val": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720267996749295121,
+              "max_ns": 1720268028749057722,
+              "span_s": 31.999762601
+            },
+            "actual_header_time": {
+              "min_ns": 1720267996749295121,
+              "max_ns": 1720268028749057722,
+              "span_s": 31.999762601
+            }
+          },
+          "test": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720267992749278260,
+              "max_ns": 1720268024749045975,
+              "span_s": 31.999767715
+            },
+            "actual_header_time": {
+              "min_ns": 1720267992749278260,
+              "max_ns": 1720268024749045975,
+              "span_s": 31.999767715
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply",
+      "sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+      "gaussians": 409298,
+      "file_bytes": 101507493,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -25.592201232910156,
+          31.91602325439453,
+          -12.152267456054688
+        ],
+        "max": [
+          34.0390625,
+          80.49833679199219,
+          4.809344291687012
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_005",
+      "source_blocks": [
+        "block_005"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "坡道 F1-F2",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_005/eval_dev/metrics.json",
+        "sha256": "27c8013a192285b919f7b2d8c18d695d0a41bdb37e3338c79fed9e97a09a24a1"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_005/block_005/splatfacto/2026-10-06_213145/config.yml",
+        "sha256": "7d66dc4bb0315e611ce0635e1f8788853211e11863914f7c7eef9501443aded9"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_005/training_result.json",
+        "sha256": "a5215703404a42e1242b5e4dc1491a8ae68f8330589b1f358979e3bccfc03a9c"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_005/transforms.json",
+          "sha256": "ac6d57c8e478a7a6a6dff9018d586d5ee3bf21352243aec140b955ad0b312889"
+        },
+        "frames": 296,
+        "splits": {
+          "train": {
+            "images": 260,
+            "groups": 65,
+            "group_time": {
+              "min_ns": 1720268022749163511,
+              "max_ns": 1720268059248789017,
+              "span_s": 36.499625506
+            },
+            "actual_header_time": {
+              "min_ns": 1720268022749163511,
+              "max_ns": 1720268059248789017,
+              "span_s": 36.499625506
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268028749057722,
+              "max_ns": 1720268052748854539,
+              "span_s": 23.999796817
+            },
+            "actual_header_time": {
+              "min_ns": 1720268028749057722,
+              "max_ns": 1720268052748854539,
+              "span_s": 23.999796817
+            }
+          },
+          "test": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268024749045975,
+              "max_ns": 1720268056748839989,
+              "span_s": 31.999794014
+            },
+            "actual_header_time": {
+              "min_ns": 1720268024749045975,
+              "max_ns": 1720268056748839989,
+              "span_s": 31.999794014
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply",
+      "sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+      "gaussians": 400192,
+      "file_bytes": 99249205,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -37.53485870361328,
+          16.245384216308594,
+          -6.7923102378845215
+        ],
+        "max": [
+          14.578248023986816,
+          71.28409576416016,
+          7.565046787261963
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_006",
+      "source_blocks": [
+        "block_006"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "坡道 F1-F2",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_006/eval_dev/metrics.json",
+        "sha256": "308f78c5cc3c296ac2f94919974bdf43756056c6100d0614764d820bbe290061"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_006/block_006/splatfacto/2026-10-06_214143/config.yml",
+        "sha256": "3ee54e2db958be887689a0f0ec56fc931d01410b0db938f33a96f10c94df345a"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_006/training_result.json",
+        "sha256": "39f72a6e1f68c23b68075a425498d9bb3ea8dd1cbdd0da1ac687100a0b61c44a"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_006/transforms.json",
+          "sha256": "0c5bec6acc2300d8fd694fa2a5c5eadfef194239a0deaef6405bd935cef636cf"
+        },
+        "frames": 260,
+        "splits": {
+          "train": {
+            "images": 228,
+            "groups": 57,
+            "group_time": {
+              "min_ns": 1720268053748788975,
+              "max_ns": 1720268085743557375,
+              "span_s": 31.9947684
+            },
+            "actual_header_time": {
+              "min_ns": 1720268053748788975,
+              "max_ns": 1720268085748560375,
+              "span_s": 31.9997714
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268060748813989,
+              "max_ns": 1720268084748629261,
+              "span_s": 23.999815272
+            },
+            "actual_header_time": {
+              "min_ns": 1720268060748813989,
+              "max_ns": 1720268084748629261,
+              "span_s": 23.999815272
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268056748839989,
+              "max_ns": 1720268080748704738,
+              "span_s": 23.999864749
+            },
+            "actual_header_time": {
+              "min_ns": 1720268056748839989,
+              "max_ns": 1720268080748704738,
+              "span_s": 23.999864749
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply",
+      "sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+      "gaussians": 389736,
+      "file_bytes": 96656117,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -38.333412170410156,
+          -5.135754585266113,
+          -6.876668453216553
+        ],
+        "max": [
+          6.564744472503662,
+          56.52000045776367,
+          8.391730308532715
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_007",
+      "source_blocks": [
+        "block_007"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F2",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_007/eval_dev/metrics.json",
+        "sha256": "48d3293dd2a2e9e007ae7d3da24783f983cec969a845a649473b6bd710b88836"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_007/block_007/splatfacto/2026-10-07_091010/config.yml",
+        "sha256": "10a9299964d55d4bcc1530ca397c23f1004dad7b9fa02e38bda049844821a5a2"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_007/training_result.json",
+        "sha256": "bcfb1f6a270780bc2ce98197fe91f93a80ddf4f71f681a6ab0e1cbd92612f544"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_007/transforms.json",
+          "sha256": "3287ef37200140ba6a3e19fbb1eb9a91a149f87f79a897c75a7acf3aca69d77e"
+        },
+        "frames": 368,
+        "splits": {
+          "train": {
+            "images": 320,
+            "groups": 80,
+            "group_time": {
+              "min_ns": 1720268079748773602,
+              "max_ns": 1720268125248288653,
+              "span_s": 45.499515051
+            },
+            "actual_header_time": {
+              "min_ns": 1720268079748773602,
+              "max_ns": 1720268125248288653,
+              "span_s": 45.499515051
+            }
+          },
+          "val": {
+            "images": 24,
+            "groups": 6,
+            "group_time": {
+              "min_ns": 1720268084748629261,
+              "max_ns": 1720268124748205166,
+              "span_s": 39.999575905
+            },
+            "actual_header_time": {
+              "min_ns": 1720268084743626261,
+              "max_ns": 1720268124748205166,
+              "span_s": 40.004578905
+            }
+          },
+          "test": {
+            "images": 24,
+            "groups": 6,
+            "group_time": {
+              "min_ns": 1720268080748704738,
+              "max_ns": 1720268120748255038,
+              "span_s": 39.9995503
+            },
+            "actual_header_time": {
+              "min_ns": 1720268080748704738,
+              "max_ns": 1720268120748255038,
+              "span_s": 39.9995503
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply",
+      "sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+      "gaussians": 378061,
+      "file_bytes": 93760717,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -32.447181701660156,
+          -23.892885208129883,
+          -4.561399459838867
+        ],
+        "max": [
+          22.78948211669922,
+          34.42271423339844,
+          9.060698509216309
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_008",
+      "source_blocks": [
+        "block_008"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F2",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_008/eval_dev/metrics.json",
+        "sha256": "6188fd8bd39aaa5c9d3507836de52957447f467b10ced0558d841300dbb3914e"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_008/block_008/splatfacto/2026-10-07_091907/config.yml",
+        "sha256": "767c2129e484f93185f731dd2accd9d3741587e61657d0c43edd727992a124c1"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_008/training_result.json",
+        "sha256": "154814c9e3bb7b65a13b6f424cf6024c5f4211046d023b25ab7918e973362fb9"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_008/transforms.json",
+          "sha256": "c8adc8d6856666b69d3e8b5c56aaa6822446b6927c4a55212592e9bf9ec7d6cd"
+        },
+        "frames": 344,
+        "splits": {
+          "train": {
+            "images": 300,
+            "groups": 75,
+            "group_time": {
+              "min_ns": 1720268113248471909,
+              "max_ns": 1720268155248083446,
+              "span_s": 41.999611537
+            },
+            "actual_header_time": {
+              "min_ns": 1720268113248471909,
+              "max_ns": 1720268155248083446,
+              "span_s": 41.999611537
+            }
+          },
+          "val": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268116748299326,
+              "max_ns": 1720268148748152400,
+              "span_s": 31.999853074
+            },
+            "actual_header_time": {
+              "min_ns": 1720268116748299326,
+              "max_ns": 1720268148748152400,
+              "span_s": 31.999853074
+            }
+          },
+          "test": {
+            "images": 24,
+            "groups": 6,
+            "group_time": {
+              "min_ns": 1720268112748386864,
+              "max_ns": 1720268152748132028,
+              "span_s": 39.999745164
+            },
+            "actual_header_time": {
+              "min_ns": 1720268112748386864,
+              "max_ns": 1720268152748132028,
+              "span_s": 39.999745164
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply",
+      "sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+      "gaussians": 378567,
+      "file_bytes": 93886205,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -16.065542221069336,
+          -37.18428421020508,
+          -4.745182514190674
+        ],
+        "max": [
+          41.446414947509766,
+          16.113544464111328,
+          8.753780364990234
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_009",
+      "source_blocks": [
+        "block_009"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F2",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_009/eval_dev/metrics.json",
+        "sha256": "c760bfb1f091695bb4b5aff35ad3e7d78521dc3ea10f74ec77ce8252b0fbf6da"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_009/block_009/splatfacto/2026-10-07_092747/config.yml",
+        "sha256": "c1107ed65dc13f80d0a57d30ecbec80ec6413ef32c2066e30c7a8b77803234df"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_009/training_result.json",
+        "sha256": "786db19147f768e2bfbff228dd2e3224390f3a6fee59e382a08bd205e16d4ecd"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_009/transforms.json",
+          "sha256": "35f2c28801a38c1202138a7c68e43228b70c48556de4f3f12b1b27b311e864d2"
+        },
+        "frames": 252,
+        "splits": {
+          "train": {
+            "images": 220,
+            "groups": 55,
+            "group_time": {
+              "min_ns": 1720268150748017538,
+              "max_ns": 1720268181747951491,
+              "span_s": 30.999933953
+            },
+            "actual_header_time": {
+              "min_ns": 1720268150748017538,
+              "max_ns": 1720268181747951491,
+              "span_s": 30.999933953
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268156748111730,
+              "max_ns": 1720268180747765290,
+              "span_s": 23.99965356
+            },
+            "actual_header_time": {
+              "min_ns": 1720268156748111730,
+              "max_ns": 1720268180747765290,
+              "span_s": 23.99965356
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268152748132028,
+              "max_ns": 1720268176747809229,
+              "span_s": 23.999677201
+            },
+            "actual_header_time": {
+              "min_ns": 1720268152748132028,
+              "max_ns": 1720268176747809229,
+              "span_s": 23.999677201
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply",
+      "sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+      "gaussians": 361041,
+      "file_bytes": 89539757,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          0.9733340740203857,
+          -37.216609954833984,
+          -3.502840995788574
+        ],
+        "max": [
+          60.84852600097656,
+          15.7317533493042,
+          10.87178897857666
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_010",
+      "source_blocks": [
+        "block_010"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "坡道 F2-F3",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_010/eval_dev/metrics.json",
+        "sha256": "51f6e20941aa491bb248369aa734649a16aed91eb919ff683b317fbb0b0bc910"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_010/block_010/splatfacto/2026-10-07_093634/config.yml",
+        "sha256": "3d95f23255529acaa024030939f9bd0d468db6c5139da36ef107f383fd65c326"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_010/training_result.json",
+        "sha256": "fd7ec020f678896b17bb9e5fca62554864610582bca75287a829ae7996553e58"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_010/transforms.json",
+          "sha256": "f42e6caa1899e6fc75ce4a788225ddf7a49d228da91f501d4a9afca9b4bd3824"
+        },
+        "frames": 248,
+        "splits": {
+          "train": {
+            "images": 216,
+            "groups": 54,
+            "group_time": {
+              "min_ns": 1720268175747868676,
+              "max_ns": 1720268206247785847,
+              "span_s": 30.499917171
+            },
+            "actual_header_time": {
+              "min_ns": 1720268175747868676,
+              "max_ns": 1720268206247785847,
+              "span_s": 30.499917171
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268180747765290,
+              "max_ns": 1720268204747752471,
+              "span_s": 23.999987181
+            },
+            "actual_header_time": {
+              "min_ns": 1720268180747765290,
+              "max_ns": 1720268204747752471,
+              "span_s": 23.999987181
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268176747809229,
+              "max_ns": 1720268200747732518,
+              "span_s": 23.999923289
+            },
+            "actual_header_time": {
+              "min_ns": 1720268176747809229,
+              "max_ns": 1720268200747732518,
+              "span_s": 23.999923289
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply",
+      "sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+      "gaussians": 369946,
+      "file_bytes": 91748197,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          19.317394256591797,
+          -23.282344818115234,
+          -1.328276515007019
+        ],
+        "max": [
+          68.3692855834961,
+          34.723236083984375,
+          11.90961742401123
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_011",
+      "source_blocks": [
+        "block_011"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "坡道 F2-F3",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_011/eval_dev/metrics.json",
+        "sha256": "5a5faf5cfc66d3500aebb8c618420cc61ab4844b5df8300f34ebc4b18e4fe46f"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_011/block_011/splatfacto/2026-10-07_094515/config.yml",
+        "sha256": "a70785c84696e99bdf3c6349651d2e2315d2b3ac72daf60b158c5590bf5657ba"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_011/training_result.json",
+        "sha256": "2751f2a942dae0a092a1a28ca93779662131ea39843bfcad04c96de860e16b0e"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_011/transforms.json",
+          "sha256": "33037717a06616e6d7678a3d6bda0a30b9d6ea6334bb88a555f1836c9a0c4d47"
+        },
+        "frames": 272,
+        "splits": {
+          "train": {
+            "images": 236,
+            "groups": 59,
+            "group_time": {
+              "min_ns": 1720268201247825062,
+              "max_ns": 1720268234247547286,
+              "span_s": 32.999722224
+            },
+            "actual_header_time": {
+              "min_ns": 1720268201247825062,
+              "max_ns": 1720268234247547286,
+              "span_s": 32.999722224
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268204747752471,
+              "max_ns": 1720268228747542803,
+              "span_s": 23.999790332
+            },
+            "actual_header_time": {
+              "min_ns": 1720268204747752471,
+              "max_ns": 1720268228747542803,
+              "span_s": 23.999790332
+            }
+          },
+          "test": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268200747732518,
+              "max_ns": 1720268232747511384,
+              "span_s": 31.999778866
+            },
+            "actual_header_time": {
+              "min_ns": 1720268200747732518,
+              "max_ns": 1720268232747511384,
+              "span_s": 31.999778866
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply",
+      "sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+      "gaussians": 370745,
+      "file_bytes": 91946349,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          2.9133782386779785,
+          -14.931038856506348,
+          -1.6091797351837158
+        ],
+        "max": [
+          64.94224548339844,
+          35.14246368408203,
+          12.700745582580566
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_012",
+      "source_blocks": [
+        "block_012"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F3",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_012/eval_dev/metrics.json",
+        "sha256": "22254aaea3ba9f9299397475ef00a76c10e76e0a28cb7fdbaf2cafa0fed1d555"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_012/block_012/splatfacto/2026-10-07_095400/config.yml",
+        "sha256": "a7598b5e6dc4363bee95a56d8cc9901d5b08f920f1e184f086e71ab640c80235"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_012/training_result.json",
+        "sha256": "0d7650d8841813ee2bfbc50516929cddaf64a864bf98c5adfbeccb746b9a2c49"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_012/transforms.json",
+          "sha256": "f0969552f042924e35ac82a7bfa518674ca5a61596984f86baf424ee6f0aaf82"
+        },
+        "frames": 284,
+        "splits": {
+          "train": {
+            "images": 252,
+            "groups": 63,
+            "group_time": {
+              "min_ns": 1720268229247584558,
+              "max_ns": 1720268264247204920,
+              "span_s": 34.999620362
+            },
+            "actual_header_time": {
+              "min_ns": 1720268229247584558,
+              "max_ns": 1720268264247204920,
+              "span_s": 34.999620362
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268236747536187,
+              "max_ns": 1720268260747339508,
+              "span_s": 23.999803321
+            },
+            "actual_header_time": {
+              "min_ns": 1720268236747536187,
+              "max_ns": 1720268260747339508,
+              "span_s": 23.999803321
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268232747511384,
+              "max_ns": 1720268256747329514,
+              "span_s": 23.99981813
+            },
+            "actual_header_time": {
+              "min_ns": 1720268232747511384,
+              "max_ns": 1720268256747329514,
+              "span_s": 23.99981813
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply",
+      "sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+      "gaussians": 368601,
+      "file_bytes": 91414637,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -8.427299499511719,
+          -31.99431037902832,
+          -2.887692451477051
+        ],
+        "max": [
+          45.37727355957031,
+          25.778532028198242,
+          13.112592697143555
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_013",
+      "source_blocks": [
+        "block_013"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F3",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_013/eval_dev/metrics.json",
+        "sha256": "445c65c6659f23b1341e5dee09b5826400c7e8fcd6e786cb7ed9d9ff1279b021"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_013/block_013/splatfacto/2026-10-07_100243/config.yml",
+        "sha256": "d49e1b65c52807baf76e16e332bc4a211c81889f2adf7a96f446b7a7f77f9fcb"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_013/training_result.json",
+        "sha256": "98ab5ec899b1fa827f624f5e1dced6fcfbfccbf0742c14b69cc3ff1a11d97279"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_013/transforms.json",
+          "sha256": "717dd23c58d5018edd3f75467899288b0472d0c570762271de55eb3d996db607"
+        },
+        "frames": 296,
+        "splits": {
+          "train": {
+            "images": 260,
+            "groups": 65,
+            "group_time": {
+              "min_ns": 1720268259247299866,
+              "max_ns": 1720268295746835973,
+              "span_s": 36.499536107
+            },
+            "actual_header_time": {
+              "min_ns": 1720268259247299866,
+              "max_ns": 1720268295746835973,
+              "span_s": 36.499536107
+            }
+          },
+          "val": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268260747339508,
+              "max_ns": 1720268292747073036,
+              "span_s": 31.999733528
+            },
+            "actual_header_time": {
+              "min_ns": 1720268260747339508,
+              "max_ns": 1720268292747073036,
+              "span_s": 31.999733528
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268264747304774,
+              "max_ns": 1720268288747068258,
+              "span_s": 23.999763484
+            },
+            "actual_header_time": {
+              "min_ns": 1720268264747304774,
+              "max_ns": 1720268288747068258,
+              "span_s": 23.999763484
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply",
+      "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+      "gaussians": 2498837,
+      "file_bytes": 619713166,
+      "source_header_bytes": 1590,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          -8.268549919128418,
+          -37.52289962768555,
+          0.07083074748516083
+        ],
+        "max": [
+          75.393798828125,
+          22.864910125732422,
+          16.262300491333008
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_015",
+      "source_blocks": [
+        "block_014",
+        "block_015",
+        "block_016"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_joint015_diagnostic/manifest.json",
+        "sha256": "fba737d74523bc0eb96be1fa262b5cefa9e554701905de5e2ea6e16aff9515cf"
+      },
+      "generation": "current_round",
+      "floor_label_unverified": "坡道 F3-F4 / F4",
+      "evaluation_metadata": {
+        "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json",
+        "sha256": "a26aae2c1eab6ec9b931e6ef8af03f3ccf9506a27afa2c5dd03f8933c14f29bc"
+      },
+      "config": {
+        "path": "runs/fidelity_v2/train_joint015_depthv3_aa_metric_cap003/core_015/splatfacto/2026-10-09_121414/config.yml",
+        "sha256": "6ca082b02790129188521fef722d860b96c22c3e863d4da60302a4cd107960da"
+      },
+      "training_result": {
+        "path": "runs/fidelity_v2/train_joint015_depthv3_aa_metric_cap003/training_result.json",
+        "sha256": "6fdd4812f66b191f077bc5fe8ebfe3afddca7c3e32554cf00d90a0829a5c90d4"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_fidelity_depthv3_joint/core_015/transforms.json",
+          "sha256": "7becd98194ab6e1bc8c8fd6b582def0a85c43c8781701c7fe47673c19fe16aa3"
+        },
+        "frames": 840,
+        "splits": {
+          "train": {
+            "images": 732,
+            "groups": 183,
+            "group_time": {
+              "min_ns": 1720268289246910156,
+              "max_ns": 1720268405246135510,
+              "span_s": 115.999225354
+            },
+            "actual_header_time": {
+              "min_ns": 1720268289246910156,
+              "max_ns": 1720268405246135510,
+              "span_s": 115.999225354
+            }
+          },
+          "val": {
+            "images": 52,
+            "groups": 13,
+            "group_time": {
+              "min_ns": 1720268292747073036,
+              "max_ns": 1720268400746041790,
+              "span_s": 107.998968754
+            },
+            "actual_header_time": {
+              "min_ns": 1720268292747073036,
+              "max_ns": 1720268400746041790,
+              "span_s": 107.998968754
+            }
+          },
+          "test": {
+            "images": 56,
+            "groups": 14,
+            "group_time": {
+              "min_ns": 1720268288747068258,
+              "max_ns": 1720268404746044559,
+              "span_s": 115.998976301
+            },
+            "actual_header_time": {
+              "min_ns": 1720268288747068258,
+              "max_ns": 1720268404746044559,
+              "span_s": 115.998976301
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": {
+        "checkpoint_gaussians": 2498842,
+        "ply_gaussians": 2498837,
+        "omitted_records": 5,
+        "existing_exporter": "scripts/evaluate_reconstruction.py:export_ply",
+        "existing_predicate": "finite attributes AND opacity_logit >= -5.5373",
+        "note": "Uses the existing final export unchanged; no new alpha edit, PLY rewrite or camera adjustment."
+      },
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply",
+      "sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+      "gaussians": 358029,
+      "file_bytes": 88792781,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          14.640751838684082,
+          -48.67228317260742,
+          -0.47197628021240234
+        ],
+        "max": [
+          69.34644317626953,
+          10.422117233276367,
+          17.157894134521484
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_017",
+      "source_blocks": [
+        "block_017"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F4",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_017/eval_dev/metrics.json",
+        "sha256": "5f328166cf080982f1094ac4f0df8510886b345019d7d8a86b3c964b38642ab9"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_017/block_017/splatfacto/2026-10-07_103743/config.yml",
+        "sha256": "283525fecb167b9484886fa015238023e6b83f3273f59b31e6292d39eab9f9e5"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_017/training_result.json",
+        "sha256": "33ca12db99dff49f24a862ab0f366a9c849f9e8e80cb55d957e2f3b55a771469"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_017/transforms.json",
+          "sha256": "bf79ed65254df09059b3a6ab7e8baa00355a828a786c91358d024c46ca8da7bf"
+        },
+        "frames": 256,
+        "splits": {
+          "train": {
+            "images": 224,
+            "groups": 56,
+            "group_time": {
+              "min_ns": 1720268401246131833,
+              "max_ns": 1720268432240741474,
+              "span_s": 30.994609641
+            },
+            "actual_header_time": {
+              "min_ns": 1720268401246131833,
+              "max_ns": 1720268432245744474,
+              "span_s": 30.999612641
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268408746007444,
+              "max_ns": 1720268432740843474,
+              "span_s": 23.99483603
+            },
+            "actual_header_time": {
+              "min_ns": 1720268408746007444,
+              "max_ns": 1720268432745846474,
+              "span_s": 23.99983903
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268404746044559,
+              "max_ns": 1720268428740809506,
+              "span_s": 23.994764947
+            },
+            "actual_header_time": {
+              "min_ns": 1720268404746044559,
+              "max_ns": 1720268428745812506,
+              "span_s": 23.999767947
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply",
+      "sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+      "gaussians": 343041,
+      "file_bytes": 85075757,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          15.680351257324219,
+          -57.146766662597656,
+          -1.5028390884399414
+        ],
+        "max": [
+          74.39090728759766,
+          -5.86411714553833,
+          17.464143753051758
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_018",
+      "source_blocks": [
+        "block_018"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "坡道 F4-F5",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_018/eval_dev/metrics.json",
+        "sha256": "d8a06000288d04fd9a0eb4132ea8379058aced163b2f009fb678e6ebdcfe885d"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_018/block_018/splatfacto/2026-10-07_104619/config.yml",
+        "sha256": "0eb2efec2b2dd1bc6a5af2554f97afd3173372cd6c000cb978cf5daa9af7f7d3"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_018/training_result.json",
+        "sha256": "372561a9c5f168638e387c4e54384b7b3bcc440321b4ba36d258c173344b1600"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_018/transforms.json",
+          "sha256": "57c684836e0b14e51c788fb3d8e092f2e648bece2e04b3df1fbf297e2c0483e4"
+        },
+        "frames": 248,
+        "splits": {
+          "train": {
+            "images": 216,
+            "groups": 54,
+            "group_time": {
+              "min_ns": 1720268428240957360,
+              "max_ns": 1720268458745635522,
+              "span_s": 30.504678162
+            },
+            "actual_header_time": {
+              "min_ns": 1720268428240957360,
+              "max_ns": 1720268458745635522,
+              "span_s": 30.504678162
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268432740843474,
+              "max_ns": 1720268456745789837,
+              "span_s": 24.004946363
+            },
+            "actual_header_time": {
+              "min_ns": 1720268432740843474,
+              "max_ns": 1720268456745789837,
+              "span_s": 24.004946363
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268428740809506,
+              "max_ns": 1720268452745747840,
+              "span_s": 24.004938334
+            },
+            "actual_header_time": {
+              "min_ns": 1720268428740809506,
+              "max_ns": 1720268452745747840,
+              "span_s": 24.004938334
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply",
+      "sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+      "gaussians": 303023,
+      "file_bytes": 75151293,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          32.77766418457031,
+          -58.0687141418457,
+          3.3295257091522217
+        ],
+        "max": [
+          93.0791244506836,
+          -4.554839134216309,
+          20.765220642089844
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_019",
+      "source_blocks": [
+        "block_019"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "坡道 F4-F5",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_019/eval_dev/metrics.json",
+        "sha256": "00402b51842fb49372624ec5551b2663c31be137e1dc3df15ac1c5d23741aa85"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_019/block_019/splatfacto/2026-10-07_105453/config.yml",
+        "sha256": "caaebd006b1aaf74181dbada7433e2e5e11096ad39f550d9d999a8a9bb90f9dd"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_019/training_result.json",
+        "sha256": "d6ff4a0348af877d0e75ba76c2e328dc07dc2959a3fc83d72076a255bfed5554"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_019/transforms.json",
+          "sha256": "a12a9e84ebaa62a016e8c8c45d51c3da28fbf407c966b131b918698f5142ed3a"
+        },
+        "frames": 240,
+        "splits": {
+          "train": {
+            "images": 212,
+            "groups": 53,
+            "group_time": {
+              "min_ns": 1720268453745695596,
+              "max_ns": 1720268483245415429,
+              "span_s": 29.499719833
+            },
+            "actual_header_time": {
+              "min_ns": 1720268453745695596,
+              "max_ns": 1720268483245415429,
+              "span_s": 29.499719833
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268456745789837,
+              "max_ns": 1720268480745425758,
+              "span_s": 23.999635921
+            },
+            "actual_header_time": {
+              "min_ns": 1720268456745789837,
+              "max_ns": 1720268480745425758,
+              "span_s": 23.999635921
+            }
+          },
+          "test": {
+            "images": 12,
+            "groups": 3,
+            "group_time": {
+              "min_ns": 1720268460745530105,
+              "max_ns": 1720268476745383801,
+              "span_s": 15.999853696
+            },
+            "actual_header_time": {
+              "min_ns": 1720268460745530105,
+              "max_ns": 1720268476745383801,
+              "span_s": 15.999853696
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply",
+      "sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+      "gaussians": 364368,
+      "file_bytes": 90364853,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          49.15387725830078,
+          -44.02594757080078,
+          3.279677152633667
+        ],
+        "max": [
+          97.76348876953125,
+          13.16529655456543,
+          20.04109001159668
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_020",
+      "source_blocks": [
+        "block_020"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "坡道 F4-F5",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_020/eval_dev/metrics.json",
+        "sha256": "3dee9716766298f2f695f2309f9d0a8feee8f2cd4f7581f3da6d46dc5c632f57"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_020/block_020/splatfacto/2026-10-07_110316/config.yml",
+        "sha256": "af1f63437e858ccfec5b71ad318062c11b811728f67a896e0e160e0dd8f2cfd5"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_020/training_result.json",
+        "sha256": "d50500c19eec1495faeb289f869e7527a9799c087075c9740158336b2f377166"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_020/transforms.json",
+          "sha256": "f616659d9d30e31d14a4f33ccf46061f6f05bb99028811e6638eff5792a3e20d"
+        },
+        "frames": 260,
+        "splits": {
+          "train": {
+            "images": 228,
+            "groups": 57,
+            "group_time": {
+              "min_ns": 1720268478745530912,
+              "max_ns": 1720268510740214115,
+              "span_s": 31.994683203
+            },
+            "actual_header_time": {
+              "min_ns": 1720268478745530912,
+              "max_ns": 1720268510745217115,
+              "span_s": 31.999686203
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268480745425758,
+              "max_ns": 1720268504745343082,
+              "span_s": 23.999917324
+            },
+            "actual_header_time": {
+              "min_ns": 1720268480745425758,
+              "max_ns": 1720268504745343082,
+              "span_s": 23.999917324
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268484745465209,
+              "max_ns": 1720268508740321812,
+              "span_s": 23.994856603
+            },
+            "actual_header_time": {
+              "min_ns": 1720268484745465209,
+              "max_ns": 1720268508745324812,
+              "span_s": 23.999859603
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply",
+      "sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+      "gaussians": 343186,
+      "file_bytes": 85111717,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          32.07360076904297,
+          -38.65790557861328,
+          5.4833173751831055
+        ],
+        "max": [
+          92.5337905883789,
+          12.804177284240723,
+          21.174484252929688
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_021",
+      "source_blocks": [
+        "block_021"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F5",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_021/eval_dev/metrics.json",
+        "sha256": "e572b1c9673a696b2b3c6586de9313d871451a968b5461d823d66be472928435"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_021/block_021/splatfacto/2026-10-07_111153/config.yml",
+        "sha256": "28972f9be732593ed10fb07f381298029e0c499873dc649ede129ddd0e32fa63"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_021/training_result.json",
+        "sha256": "5a285eef7b8698412d349f19c0ead0f70d3180c8554852ecc480358e20316c8a"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_021/transforms.json",
+          "sha256": "444d993e1222a87c5b34c0c0dd2732308d1f893d6255c0ba503099782b04e80b"
+        },
+        "frames": 284,
+        "splits": {
+          "train": {
+            "images": 248,
+            "groups": 62,
+            "group_time": {
+              "min_ns": 1720268505745288624,
+              "max_ns": 1720268540245018013,
+              "span_s": 34.499729389
+            },
+            "actual_header_time": {
+              "min_ns": 1720268505740285624,
+              "max_ns": 1720268540245018013,
+              "span_s": 34.504732389
+            }
+          },
+          "val": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268512740109800,
+              "max_ns": 1720268536745080262,
+              "span_s": 24.004970462
+            },
+            "actual_header_time": {
+              "min_ns": 1720268512740109800,
+              "max_ns": 1720268536745080262,
+              "span_s": 24.004970462
+            }
+          },
+          "test": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268508740321812,
+              "max_ns": 1720268540744871013,
+              "span_s": 32.004549201
+            },
+            "actual_header_time": {
+              "min_ns": 1720268508740321812,
+              "max_ns": 1720268540744871013,
+              "span_s": 32.004549201
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply",
+      "sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+      "gaussians": 360323,
+      "file_bytes": 89361693,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          21.268455505371094,
+          -56.956878662109375,
+          5.726810455322266
+        ],
+        "max": [
+          73.06891632080078,
+          1.1942983865737915,
+          21.018529891967773
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_022",
+      "source_blocks": [
+        "block_022"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F5",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_022/eval_dev/metrics.json",
+        "sha256": "ef35bb0c9ff2431b5f375c1d21baa47307703d8fe67ccf45f8d5fbf24a115a73"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_022/block_022/splatfacto/2026-10-07_112025/config.yml",
+        "sha256": "8b29eb7880f7c44de631cbde658822dbd7f78804db791cf3a1c6dfa00cbc27e8"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_022/training_result.json",
+        "sha256": "14b14fd5a4b778a1da28134caf84300699ecfcc4db6d71dc06eebd664f4e09cd"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_022/transforms.json",
+          "sha256": "f5d709499361e817b54385e631240492d7555d46f59aa33f7a593422b7775d68"
+        },
+        "frames": 308,
+        "splits": {
+          "train": {
+            "images": 268,
+            "groups": 67,
+            "group_time": {
+              "min_ns": 1720268535245031657,
+              "max_ns": 1720268573244692796,
+              "span_s": 37.999661139
+            },
+            "actual_header_time": {
+              "min_ns": 1720268535245031657,
+              "max_ns": 1720268573244692796,
+              "span_s": 37.999661139
+            }
+          },
+          "val": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268536745080262,
+              "max_ns": 1720268568744809737,
+              "span_s": 31.999729475
+            },
+            "actual_header_time": {
+              "min_ns": 1720268536745080262,
+              "max_ns": 1720268568744809737,
+              "span_s": 31.999729475
+            }
+          },
+          "test": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268540744871013,
+              "max_ns": 1720268572744847940,
+              "span_s": 31.999976927
+            },
+            "actual_header_time": {
+              "min_ns": 1720268540744871013,
+              "max_ns": 1720268572744847940,
+              "span_s": 31.999976927
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply",
+      "sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+      "gaussians": 362611,
+      "file_bytes": 89929117,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          22.47509002685547,
+          -59.1802864074707,
+          7.891026496887207
+        ],
+        "max": [
+          83.2613525390625,
+          -11.972832679748535,
+          21.370481491088867
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_023",
+      "source_blocks": [
+        "block_023"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "坡道 F5-F6",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_023/eval_dev/metrics.json",
+        "sha256": "e6df2c247a37fe0b35bc14eb436f1e8ab6066c2aa3a0604862404d913575ed41"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_023/block_023/splatfacto/2026-10-07_112918/config.yml",
+        "sha256": "05dc7fdd3878321ced88812c321cbd8663738266443e9bca7a790f1d1a7a4f9b"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_023/training_result.json",
+        "sha256": "822dc5e249720bd94a2139e9ab579b461db6602e922d9d0e2be1299525c0a4ec"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_023/transforms.json",
+          "sha256": "1d7f24bb2689234c5a3f501f52b1740c98d828807174c641e59c121aa13c5aaa"
+        },
+        "frames": 280,
+        "splits": {
+          "train": {
+            "images": 244,
+            "groups": 61,
+            "group_time": {
+              "min_ns": 1720268567244759948,
+              "max_ns": 1720268601744570630,
+              "span_s": 34.499810682
+            },
+            "actual_header_time": {
+              "min_ns": 1720268567244759948,
+              "max_ns": 1720268601744570630,
+              "span_s": 34.499810682
+            }
+          },
+          "val": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268568744809737,
+              "max_ns": 1720268600744607619,
+              "span_s": 31.999797882
+            },
+            "actual_header_time": {
+              "min_ns": 1720268568744809737,
+              "max_ns": 1720268600744607619,
+              "span_s": 31.999797882
+            }
+          },
+          "test": {
+            "images": 16,
+            "groups": 4,
+            "group_time": {
+              "min_ns": 1720268572744847940,
+              "max_ns": 1720268596744545070,
+              "span_s": 23.99969713
+            },
+            "actual_header_time": {
+              "min_ns": 1720268572744847940,
+              "max_ns": 1720268596744545070,
+              "span_s": 23.99969713
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply",
+      "sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+      "gaussians": 331951,
+      "file_bytes": 82325437,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          41.94602584838867,
+          -51.657081604003906,
+          9.640694618225098
+        ],
+        "max": [
+          102.53736877441406,
+          -0.2644761800765991,
+          21.710636138916016
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_024",
+      "source_blocks": [
+        "block_024"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "坡道 F5-F6",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_024/eval_dev/metrics.json",
+        "sha256": "f380b8e700658f537930010b0f617ca87a750cbcb011cbd67aa1424a20d000a3"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_024/block_024/splatfacto/2026-10-07_113810/config.yml",
+        "sha256": "79402bb21e42be21d2dc5af48fa76b2e161eb89e90c86400b2fb787e5dea15b2"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_024/training_result.json",
+        "sha256": "b7ba475d1477d6ed0ea5a669bcdef97d2ec98439e2ac5d831d4909e3a4514d04"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_024/transforms.json",
+          "sha256": "4e60801c0b7b876556858e0e424770e7e5123f11e14a0d3963d525c4f57ebf0e"
+        },
+        "frames": 304,
+        "splits": {
+          "train": {
+            "images": 264,
+            "groups": 66,
+            "group_time": {
+              "min_ns": 1720268596244438924,
+              "max_ns": 1720268633739099700,
+              "span_s": 37.494660776
+            },
+            "actual_header_time": {
+              "min_ns": 1720268596244438924,
+              "max_ns": 1720268633744102700,
+              "span_s": 37.499663776
+            }
+          },
+          "val": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268600744607619,
+              "max_ns": 1720268632739149757,
+              "span_s": 31.994542138
+            },
+            "actual_header_time": {
+              "min_ns": 1720268600744607619,
+              "max_ns": 1720268632744152757,
+              "span_s": 31.999545138
+            }
+          },
+          "test": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268596744545070,
+              "max_ns": 1720268628744353398,
+              "span_s": 31.999808328
+            },
+            "actual_header_time": {
+              "min_ns": 1720268596744545070,
+              "max_ns": 1720268628744353398,
+              "span_s": 31.999808328
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply",
+      "sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+      "gaussians": 405967,
+      "file_bytes": 100681405,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          52.9168586730957,
+          -55.495819091796875,
+          8.124939918518066
+        ],
+        "max": [
+          104.46508026123047,
+          -0.24396003782749176,
+          21.894739151000977
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_025",
+      "source_blocks": [
+        "block_025"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F6",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_025/eval_dev/metrics.json",
+        "sha256": "8d85f20462faab41137f67c4f5e5bf3116976e20258ccbf414388417905b38d8"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_025/block_025/splatfacto/2026-10-07_114647/config.yml",
+        "sha256": "1ed0752c770f7678f08cd7328f53a360c6836dc73fa0d6329abdccc9860691d9"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_025/training_result.json",
+        "sha256": "87fe951f578178018d876a91827bfd7afc948e2fc51a5c37bc7ef57300eb71a6"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_025/transforms.json",
+          "sha256": "b5105854d69192bf6d3a328e463cc7b1f652f9b85123a45acdd15bd366a65db8"
+        },
+        "frames": 320,
+        "splits": {
+          "train": {
+            "images": 280,
+            "groups": 70,
+            "group_time": {
+              "min_ns": 1720268628244249543,
+              "max_ns": 1720268667744000249,
+              "span_s": 39.499750706
+            },
+            "actual_header_time": {
+              "min_ns": 1720268628239246543,
+              "max_ns": 1720268667744000249,
+              "span_s": 39.504753706
+            }
+          },
+          "val": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268632739149757,
+              "max_ns": 1720268664743896688,
+              "span_s": 32.004746931
+            },
+            "actual_header_time": {
+              "min_ns": 1720268632739149757,
+              "max_ns": 1720268664743896688,
+              "span_s": 32.004746931
+            }
+          },
+          "test": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268628744353398,
+              "max_ns": 1720268660744092788,
+              "span_s": 31.99973939
+            },
+            "actual_header_time": {
+              "min_ns": 1720268628739350398,
+              "max_ns": 1720268660744092788,
+              "span_s": 32.00474239
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply",
+      "sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+      "gaussians": 391296,
+      "file_bytes": 97042997,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          34.267940521240234,
+          -70.69023132324219,
+          7.591407299041748
+        ],
+        "max": [
+          95.02444458007812,
+          -15.378768920898438,
+          21.970640182495117
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_026",
+      "source_blocks": [
+        "block_026"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F6",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_026/eval_dev/metrics.json",
+        "sha256": "bf6377a0570a3de80be0cf3bd2d385396708618e3117f658ce137f06fc2925be"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_026/block_026/splatfacto/2026-10-07_115554/config.yml",
+        "sha256": "9fefdfbb4af8c8ba03fb655ed566e1c1156d4da19f07ee4fbc8c842108b6d362"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_026/training_result.json",
+        "sha256": "8ddab9146c20d3e549196b271b5f7f2194130ea96d5a811ea2b6718852c745b6"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_026/transforms.json",
+          "sha256": "6808b7c58be819c7cb642f885b9d2ac1696edc4034f5e98f4bcd23aefb03643b"
+        },
+        "frames": 320,
+        "splits": {
+          "train": {
+            "images": 280,
+            "groups": 70,
+            "group_time": {
+              "min_ns": 1720268661744043637,
+              "max_ns": 1720268701243681265,
+              "span_s": 39.499637628
+            },
+            "actual_header_time": {
+              "min_ns": 1720268661739040637,
+              "max_ns": 1720268701243681265,
+              "span_s": 39.504640628
+            }
+          },
+          "val": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268664743896688,
+              "max_ns": 1720268696743771042,
+              "span_s": 31.999874354
+            },
+            "actual_header_time": {
+              "min_ns": 1720268664743896688,
+              "max_ns": 1720268696743771042,
+              "span_s": 31.999874354
+            }
+          },
+          "test": {
+            "images": 20,
+            "groups": 5,
+            "group_time": {
+              "min_ns": 1720268668743951382,
+              "max_ns": 1720268700743584308,
+              "span_s": 31.999632926
+            },
+            "actual_header_time": {
+              "min_ns": 1720268668743951382,
+              "max_ns": 1720268700743584308,
+              "span_s": 31.999632926
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    },
+    {
+      "path": "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply",
+      "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+      "gaussians": 235743,
+      "file_bytes": 58465853,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "bbox_m": {
+        "min": [
+          33.75968551635742,
+          -71.57218170166016,
+          10.187739372253418
+        ],
+        "max": [
+          74.22704315185547,
+          -31.65999984741211,
+          21.471588134765625
+        ]
+      },
+      "all_attributes_finite": true,
+      "sh_degree": 3,
+      "coordinates": "camera_init",
+      "units": "m",
+      "id": "block_027",
+      "source_blocks": [
+        "block_027"
+      ],
+      "source_manifest": {
+        "path": "maps/garage_fidelity_v2_viewer/manifest.json",
+        "sha256": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16"
+      },
+      "generation": "historical",
+      "floor_label_unverified": "F6",
+      "evaluation_metadata": {
+        "path": "runs/garage_surface_v1/block_027/eval_dev/metrics.json",
+        "sha256": "9565aee1bb0e3e512d2ab27eb79348c0fe8dced19e753a6e33a57ce92b31f719"
+      },
+      "config": {
+        "path": "runs/garage_surface_v1/block_027/block_027/splatfacto/2026-10-07_120457/config.yml",
+        "sha256": "0abdb2f59e8299d9e9014c40474ec3061cf46487987b4a097b6ca898037d028f"
+      },
+      "training_result": {
+        "path": "runs/garage_surface_v1/block_027/training_result.json",
+        "sha256": "f53ab6ddb0ca24124cd64361786cfe38b0ea3e983c113ca7f46cfb6df66eb787"
+      },
+      "training_dataset": {
+        "artifact": {
+          "path": "data/garage_surface_v1/block_027/transforms.json",
+          "sha256": "65e442a14139baf12950801d5d0e10ac464c095b296f325f380c6ed664c25aa2"
+        },
+        "frames": 92,
+        "splits": {
+          "train": {
+            "images": 80,
+            "groups": 20,
+            "group_time": {
+              "min_ns": 1720268694243758384,
+              "max_ns": 1720268705243734726,
+              "span_s": 10.999976342
+            },
+            "actual_header_time": {
+              "min_ns": 1720268694243758384,
+              "max_ns": 1720268705243734726,
+              "span_s": 10.999976342
+            }
+          },
+          "val": {
+            "images": 8,
+            "groups": 2,
+            "group_time": {
+              "min_ns": 1720268696743771042,
+              "max_ns": 1720268704743639860,
+              "span_s": 7.999868818
+            },
+            "actual_header_time": {
+              "min_ns": 1720268696738768042,
+              "max_ns": 1720268704743639860,
+              "span_s": 8.004871818
+            }
+          },
+          "test": {
+            "images": 4,
+            "groups": 1,
+            "group_time": {
+              "min_ns": 1720268700743584308,
+              "max_ns": 1720268700743584308,
+              "span_s": 0.0
+            },
+            "actual_header_time": {
+              "min_ns": 1720268700738581308,
+              "max_ns": 1720268700743584308,
+              "span_s": 0.005003
+            }
+          }
+        },
+        "splits_disjoint": true,
+        "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata"
+      },
+      "source_split_union_exact": true,
+      "world_parser_scale": 1.0,
+      "world_parser_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ]
+      ],
+      "export_filter_recorded": null,
+      "quality_scope": "Existing diagnostic/historical PLY; neither manifest inclusion nor source coverage certifies fidelity"
+    }
+  ],
+  "prepared_blocks": [
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_000/transforms.json",
+        "sha256": "3ca4b4989c9dd6d25af02595fc43ec7711c02630430c6b4fecae2a7a3ad380bb"
+      },
+      "frames": 312,
+      "splits": {
+        "train": {
+          "images": 276,
+          "groups": 69,
+          "group_time": {
+            "min_ns": 1720267881750246842,
+            "max_ns": 1720267920250103766,
+            "span_s": 38.499856924
+          },
+          "actual_header_time": {
+            "min_ns": 1720267881750246842,
+            "max_ns": 1720267920250103766,
+            "span_s": 38.499856924
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720267884750228828,
+            "max_ns": 1720267916749964569,
+            "span_s": 31.999735741
+          },
+          "actual_header_time": {
+            "min_ns": 1720267884750228828,
+            "max_ns": 1720267916749964569,
+            "span_s": 31.999735741
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720267888750127279,
+            "max_ns": 1720267912749981248,
+            "span_s": 23.999853969
+          },
+          "actual_header_time": {
+            "min_ns": 1720267888750127279,
+            "max_ns": 1720267912749981248,
+            "span_s": 23.999853969
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_000",
+      "floor_label_unverified": "F1"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_001/transforms.json",
+        "sha256": "59ec6d0a6eafcc15f8468ecb521b3ab767ab43bdb44270ad892105d7888cee40"
+      },
+      "frames": 240,
+      "splits": {
+        "train": {
+          "images": 212,
+          "groups": 53,
+          "group_time": {
+            "min_ns": 1720267914250001940,
+            "max_ns": 1720267943749716151,
+            "span_s": 29.499714211
+          },
+          "actual_header_time": {
+            "min_ns": 1720267914250001940,
+            "max_ns": 1720267943749716151,
+            "span_s": 29.499714211
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720267916749964569,
+            "max_ns": 1720267940749889191,
+            "span_s": 23.999924622
+          },
+          "actual_header_time": {
+            "min_ns": 1720267916749964569,
+            "max_ns": 1720267940749889191,
+            "span_s": 23.999924622
+          }
+        },
+        "test": {
+          "images": 12,
+          "groups": 3,
+          "group_time": {
+            "min_ns": 1720267920749949620,
+            "max_ns": 1720267936749920772,
+            "span_s": 15.999971152
+          },
+          "actual_header_time": {
+            "min_ns": 1720267920749949620,
+            "max_ns": 1720267936749920772,
+            "span_s": 15.999971152
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_001",
+      "floor_label_unverified": "F1"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_002/transforms.json",
+        "sha256": "6b9ac93937d42144261046e98274f5d6d8f1ba5332ca119770df092b021252c2"
+      },
+      "frames": 256,
+      "splits": {
+        "train": {
+          "images": 224,
+          "groups": 56,
+          "group_time": {
+            "min_ns": 1720267939249846254,
+            "max_ns": 1720267970749575766,
+            "span_s": 31.499729512
+          },
+          "actual_header_time": {
+            "min_ns": 1720267939249846254,
+            "max_ns": 1720267970749575766,
+            "span_s": 31.499729512
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720267940749889191,
+            "max_ns": 1720267964749719769,
+            "span_s": 23.999830578
+          },
+          "actual_header_time": {
+            "min_ns": 1720267940749889191,
+            "max_ns": 1720267964749719769,
+            "span_s": 23.999830578
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720267944749658767,
+            "max_ns": 1720267968749491746,
+            "span_s": 23.999832979
+          },
+          "actual_header_time": {
+            "min_ns": 1720267944749658767,
+            "max_ns": 1720267968749491746,
+            "span_s": 23.999832979
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_002",
+      "floor_label_unverified": "F1"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_003/transforms.json",
+        "sha256": "147d76322c94a7a9c6590cc4a654e2ba93583923b15341e457e3328ed87e41e1"
+      },
+      "frames": 264,
+      "splits": {
+        "train": {
+          "images": 232,
+          "groups": 58,
+          "group_time": {
+            "min_ns": 1720267965749663779,
+            "max_ns": 1720267998249328463,
+            "span_s": 32.499664684
+          },
+          "actual_header_time": {
+            "min_ns": 1720267965749663779,
+            "max_ns": 1720267998249328463,
+            "span_s": 32.499664684
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720267972749462147,
+            "max_ns": 1720267996749295121,
+            "span_s": 23.999832974
+          },
+          "actual_header_time": {
+            "min_ns": 1720267972749462147,
+            "max_ns": 1720267996749295121,
+            "span_s": 23.999832974
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720267968749491746,
+            "max_ns": 1720267992749278260,
+            "span_s": 23.999786514
+          },
+          "actual_header_time": {
+            "min_ns": 1720267968749491746,
+            "max_ns": 1720267992749278260,
+            "span_s": 23.999786514
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_003",
+      "floor_label_unverified": "F1"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_004/transforms.json",
+        "sha256": "8725adcb59cbb039765ef1a1a77672a0801a0a9ad3f648ace3ac388069a31060"
+      },
+      "frames": 292,
+      "splits": {
+        "train": {
+          "images": 252,
+          "groups": 63,
+          "group_time": {
+            "min_ns": 1720267993249370469,
+            "max_ns": 1720268028249209576,
+            "span_s": 34.999839107
+          },
+          "actual_header_time": {
+            "min_ns": 1720267993249370469,
+            "max_ns": 1720268028249209576,
+            "span_s": 34.999839107
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720267996749295121,
+            "max_ns": 1720268028749057722,
+            "span_s": 31.999762601
+          },
+          "actual_header_time": {
+            "min_ns": 1720267996749295121,
+            "max_ns": 1720268028749057722,
+            "span_s": 31.999762601
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720267992749278260,
+            "max_ns": 1720268024749045975,
+            "span_s": 31.999767715
+          },
+          "actual_header_time": {
+            "min_ns": 1720267992749278260,
+            "max_ns": 1720268024749045975,
+            "span_s": 31.999767715
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_004",
+      "floor_label_unverified": "F1"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_005/transforms.json",
+        "sha256": "ac6d57c8e478a7a6a6dff9018d586d5ee3bf21352243aec140b955ad0b312889"
+      },
+      "frames": 296,
+      "splits": {
+        "train": {
+          "images": 260,
+          "groups": 65,
+          "group_time": {
+            "min_ns": 1720268022749163511,
+            "max_ns": 1720268059248789017,
+            "span_s": 36.499625506
+          },
+          "actual_header_time": {
+            "min_ns": 1720268022749163511,
+            "max_ns": 1720268059248789017,
+            "span_s": 36.499625506
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268028749057722,
+            "max_ns": 1720268052748854539,
+            "span_s": 23.999796817
+          },
+          "actual_header_time": {
+            "min_ns": 1720268028749057722,
+            "max_ns": 1720268052748854539,
+            "span_s": 23.999796817
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268024749045975,
+            "max_ns": 1720268056748839989,
+            "span_s": 31.999794014
+          },
+          "actual_header_time": {
+            "min_ns": 1720268024749045975,
+            "max_ns": 1720268056748839989,
+            "span_s": 31.999794014
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_005",
+      "floor_label_unverified": "坡道 F1-F2"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_006/transforms.json",
+        "sha256": "0c5bec6acc2300d8fd694fa2a5c5eadfef194239a0deaef6405bd935cef636cf"
+      },
+      "frames": 260,
+      "splits": {
+        "train": {
+          "images": 228,
+          "groups": 57,
+          "group_time": {
+            "min_ns": 1720268053748788975,
+            "max_ns": 1720268085743557375,
+            "span_s": 31.9947684
+          },
+          "actual_header_time": {
+            "min_ns": 1720268053748788975,
+            "max_ns": 1720268085748560375,
+            "span_s": 31.9997714
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268060748813989,
+            "max_ns": 1720268084748629261,
+            "span_s": 23.999815272
+          },
+          "actual_header_time": {
+            "min_ns": 1720268060748813989,
+            "max_ns": 1720268084748629261,
+            "span_s": 23.999815272
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268056748839989,
+            "max_ns": 1720268080748704738,
+            "span_s": 23.999864749
+          },
+          "actual_header_time": {
+            "min_ns": 1720268056748839989,
+            "max_ns": 1720268080748704738,
+            "span_s": 23.999864749
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_006",
+      "floor_label_unverified": "坡道 F1-F2"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_007/transforms.json",
+        "sha256": "3287ef37200140ba6a3e19fbb1eb9a91a149f87f79a897c75a7acf3aca69d77e"
+      },
+      "frames": 368,
+      "splits": {
+        "train": {
+          "images": 320,
+          "groups": 80,
+          "group_time": {
+            "min_ns": 1720268079748773602,
+            "max_ns": 1720268125248288653,
+            "span_s": 45.499515051
+          },
+          "actual_header_time": {
+            "min_ns": 1720268079748773602,
+            "max_ns": 1720268125248288653,
+            "span_s": 45.499515051
+          }
+        },
+        "val": {
+          "images": 24,
+          "groups": 6,
+          "group_time": {
+            "min_ns": 1720268084748629261,
+            "max_ns": 1720268124748205166,
+            "span_s": 39.999575905
+          },
+          "actual_header_time": {
+            "min_ns": 1720268084743626261,
+            "max_ns": 1720268124748205166,
+            "span_s": 40.004578905
+          }
+        },
+        "test": {
+          "images": 24,
+          "groups": 6,
+          "group_time": {
+            "min_ns": 1720268080748704738,
+            "max_ns": 1720268120748255038,
+            "span_s": 39.9995503
+          },
+          "actual_header_time": {
+            "min_ns": 1720268080748704738,
+            "max_ns": 1720268120748255038,
+            "span_s": 39.9995503
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_007",
+      "floor_label_unverified": "F2"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_008/transforms.json",
+        "sha256": "c8adc8d6856666b69d3e8b5c56aaa6822446b6927c4a55212592e9bf9ec7d6cd"
+      },
+      "frames": 344,
+      "splits": {
+        "train": {
+          "images": 300,
+          "groups": 75,
+          "group_time": {
+            "min_ns": 1720268113248471909,
+            "max_ns": 1720268155248083446,
+            "span_s": 41.999611537
+          },
+          "actual_header_time": {
+            "min_ns": 1720268113248471909,
+            "max_ns": 1720268155248083446,
+            "span_s": 41.999611537
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268116748299326,
+            "max_ns": 1720268148748152400,
+            "span_s": 31.999853074
+          },
+          "actual_header_time": {
+            "min_ns": 1720268116748299326,
+            "max_ns": 1720268148748152400,
+            "span_s": 31.999853074
+          }
+        },
+        "test": {
+          "images": 24,
+          "groups": 6,
+          "group_time": {
+            "min_ns": 1720268112748386864,
+            "max_ns": 1720268152748132028,
+            "span_s": 39.999745164
+          },
+          "actual_header_time": {
+            "min_ns": 1720268112748386864,
+            "max_ns": 1720268152748132028,
+            "span_s": 39.999745164
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_008",
+      "floor_label_unverified": "F2"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_009/transforms.json",
+        "sha256": "35f2c28801a38c1202138a7c68e43228b70c48556de4f3f12b1b27b311e864d2"
+      },
+      "frames": 252,
+      "splits": {
+        "train": {
+          "images": 220,
+          "groups": 55,
+          "group_time": {
+            "min_ns": 1720268150748017538,
+            "max_ns": 1720268181747951491,
+            "span_s": 30.999933953
+          },
+          "actual_header_time": {
+            "min_ns": 1720268150748017538,
+            "max_ns": 1720268181747951491,
+            "span_s": 30.999933953
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268156748111730,
+            "max_ns": 1720268180747765290,
+            "span_s": 23.99965356
+          },
+          "actual_header_time": {
+            "min_ns": 1720268156748111730,
+            "max_ns": 1720268180747765290,
+            "span_s": 23.99965356
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268152748132028,
+            "max_ns": 1720268176747809229,
+            "span_s": 23.999677201
+          },
+          "actual_header_time": {
+            "min_ns": 1720268152748132028,
+            "max_ns": 1720268176747809229,
+            "span_s": 23.999677201
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_009",
+      "floor_label_unverified": "F2"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_010/transforms.json",
+        "sha256": "f42e6caa1899e6fc75ce4a788225ddf7a49d228da91f501d4a9afca9b4bd3824"
+      },
+      "frames": 248,
+      "splits": {
+        "train": {
+          "images": 216,
+          "groups": 54,
+          "group_time": {
+            "min_ns": 1720268175747868676,
+            "max_ns": 1720268206247785847,
+            "span_s": 30.499917171
+          },
+          "actual_header_time": {
+            "min_ns": 1720268175747868676,
+            "max_ns": 1720268206247785847,
+            "span_s": 30.499917171
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268180747765290,
+            "max_ns": 1720268204747752471,
+            "span_s": 23.999987181
+          },
+          "actual_header_time": {
+            "min_ns": 1720268180747765290,
+            "max_ns": 1720268204747752471,
+            "span_s": 23.999987181
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268176747809229,
+            "max_ns": 1720268200747732518,
+            "span_s": 23.999923289
+          },
+          "actual_header_time": {
+            "min_ns": 1720268176747809229,
+            "max_ns": 1720268200747732518,
+            "span_s": 23.999923289
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_010",
+      "floor_label_unverified": "坡道 F2-F3"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_011/transforms.json",
+        "sha256": "33037717a06616e6d7678a3d6bda0a30b9d6ea6334bb88a555f1836c9a0c4d47"
+      },
+      "frames": 272,
+      "splits": {
+        "train": {
+          "images": 236,
+          "groups": 59,
+          "group_time": {
+            "min_ns": 1720268201247825062,
+            "max_ns": 1720268234247547286,
+            "span_s": 32.999722224
+          },
+          "actual_header_time": {
+            "min_ns": 1720268201247825062,
+            "max_ns": 1720268234247547286,
+            "span_s": 32.999722224
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268204747752471,
+            "max_ns": 1720268228747542803,
+            "span_s": 23.999790332
+          },
+          "actual_header_time": {
+            "min_ns": 1720268204747752471,
+            "max_ns": 1720268228747542803,
+            "span_s": 23.999790332
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268200747732518,
+            "max_ns": 1720268232747511384,
+            "span_s": 31.999778866
+          },
+          "actual_header_time": {
+            "min_ns": 1720268200747732518,
+            "max_ns": 1720268232747511384,
+            "span_s": 31.999778866
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_011",
+      "floor_label_unverified": "坡道 F2-F3"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_012/transforms.json",
+        "sha256": "f0969552f042924e35ac82a7bfa518674ca5a61596984f86baf424ee6f0aaf82"
+      },
+      "frames": 284,
+      "splits": {
+        "train": {
+          "images": 252,
+          "groups": 63,
+          "group_time": {
+            "min_ns": 1720268229247584558,
+            "max_ns": 1720268264247204920,
+            "span_s": 34.999620362
+          },
+          "actual_header_time": {
+            "min_ns": 1720268229247584558,
+            "max_ns": 1720268264247204920,
+            "span_s": 34.999620362
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268236747536187,
+            "max_ns": 1720268260747339508,
+            "span_s": 23.999803321
+          },
+          "actual_header_time": {
+            "min_ns": 1720268236747536187,
+            "max_ns": 1720268260747339508,
+            "span_s": 23.999803321
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268232747511384,
+            "max_ns": 1720268256747329514,
+            "span_s": 23.99981813
+          },
+          "actual_header_time": {
+            "min_ns": 1720268232747511384,
+            "max_ns": 1720268256747329514,
+            "span_s": 23.99981813
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_012",
+      "floor_label_unverified": "F3"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_013/transforms.json",
+        "sha256": "717dd23c58d5018edd3f75467899288b0472d0c570762271de55eb3d996db607"
+      },
+      "frames": 296,
+      "splits": {
+        "train": {
+          "images": 260,
+          "groups": 65,
+          "group_time": {
+            "min_ns": 1720268259247299866,
+            "max_ns": 1720268295746835973,
+            "span_s": 36.499536107
+          },
+          "actual_header_time": {
+            "min_ns": 1720268259247299866,
+            "max_ns": 1720268295746835973,
+            "span_s": 36.499536107
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268260747339508,
+            "max_ns": 1720268292747073036,
+            "span_s": 31.999733528
+          },
+          "actual_header_time": {
+            "min_ns": 1720268260747339508,
+            "max_ns": 1720268292747073036,
+            "span_s": 31.999733528
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268264747304774,
+            "max_ns": 1720268288747068258,
+            "span_s": 23.999763484
+          },
+          "actual_header_time": {
+            "min_ns": 1720268264747304774,
+            "max_ns": 1720268288747068258,
+            "span_s": 23.999763484
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_013",
+      "floor_label_unverified": "F3"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_014/transforms.json",
+        "sha256": "099f9c44fc161e28236b174695d9d1a0df78e2a992f2f0ee95742bd625a1e869"
+      },
+      "frames": 284,
+      "splits": {
+        "train": {
+          "images": 248,
+          "groups": 62,
+          "group_time": {
+            "min_ns": 1720268289246910156,
+            "max_ns": 1720268323736979134,
+            "span_s": 34.490068978
+          },
+          "actual_header_time": {
+            "min_ns": 1720268289246910156,
+            "max_ns": 1720268323736979134,
+            "span_s": 34.490068978
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268292747073036,
+            "max_ns": 1720268316726159475,
+            "span_s": 23.979086439
+          },
+          "actual_header_time": {
+            "min_ns": 1720268292747073036,
+            "max_ns": 1720268316726159475,
+            "span_s": 23.979086439
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268288747068258,
+            "max_ns": 1720268320733244035,
+            "span_s": 31.986175777
+          },
+          "actual_header_time": {
+            "min_ns": 1720268288747068258,
+            "max_ns": 1720268320733244035,
+            "span_s": 31.986175777
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_014",
+      "floor_label_unverified": "坡道 F3-F4"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_015/transforms.json",
+        "sha256": "c504d5e8432edca832c3ccffad91e138c7c6ab95eb6c89b57809af13fb945324"
+      },
+      "frames": 320,
+      "splits": {
+        "train": {
+          "images": 280,
+          "groups": 70,
+          "group_time": {
+            "min_ns": 1720268321234685945,
+            "max_ns": 1720268372246204510,
+            "span_s": 51.011518565
+          },
+          "actual_header_time": {
+            "min_ns": 1720268321234685945,
+            "max_ns": 1720268372246204510,
+            "span_s": 51.011518565
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268324737907057,
+            "max_ns": 1720268368746301959,
+            "span_s": 44.008394902
+          },
+          "actual_header_time": {
+            "min_ns": 1720268324737907057,
+            "max_ns": 1720268368746301959,
+            "span_s": 44.008394902
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268320733244035,
+            "max_ns": 1720268364746293222,
+            "span_s": 44.013049187
+          },
+          "actual_header_time": {
+            "min_ns": 1720268320733244035,
+            "max_ns": 1720268364746293222,
+            "span_s": 44.013049187
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_015",
+      "floor_label_unverified": "坡道 F3-F4"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_016/transforms.json",
+        "sha256": "4091d790e9b0ed73268d5c026c89d18377cd38c3a61a418fd6c19a69e8e68c57"
+      },
+      "frames": 312,
+      "splits": {
+        "train": {
+          "images": 272,
+          "groups": 68,
+          "group_time": {
+            "min_ns": 1720268366746174849,
+            "max_ns": 1720268405246135510,
+            "span_s": 38.499960661
+          },
+          "actual_header_time": {
+            "min_ns": 1720268366746174849,
+            "max_ns": 1720268405246135510,
+            "span_s": 38.499960661
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268368746301959,
+            "max_ns": 1720268400746041790,
+            "span_s": 31.999739831
+          },
+          "actual_header_time": {
+            "min_ns": 1720268368746301959,
+            "max_ns": 1720268400746041790,
+            "span_s": 31.999739831
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268372746298364,
+            "max_ns": 1720268404746044559,
+            "span_s": 31.999746195
+          },
+          "actual_header_time": {
+            "min_ns": 1720268372746298364,
+            "max_ns": 1720268404746044559,
+            "span_s": 31.999746195
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_016",
+      "floor_label_unverified": "F4"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_017/transforms.json",
+        "sha256": "bf79ed65254df09059b3a6ab7e8baa00355a828a786c91358d024c46ca8da7bf"
+      },
+      "frames": 256,
+      "splits": {
+        "train": {
+          "images": 224,
+          "groups": 56,
+          "group_time": {
+            "min_ns": 1720268401246131833,
+            "max_ns": 1720268432240741474,
+            "span_s": 30.994609641
+          },
+          "actual_header_time": {
+            "min_ns": 1720268401246131833,
+            "max_ns": 1720268432245744474,
+            "span_s": 30.999612641
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268408746007444,
+            "max_ns": 1720268432740843474,
+            "span_s": 23.99483603
+          },
+          "actual_header_time": {
+            "min_ns": 1720268408746007444,
+            "max_ns": 1720268432745846474,
+            "span_s": 23.99983903
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268404746044559,
+            "max_ns": 1720268428740809506,
+            "span_s": 23.994764947
+          },
+          "actual_header_time": {
+            "min_ns": 1720268404746044559,
+            "max_ns": 1720268428745812506,
+            "span_s": 23.999767947
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_017",
+      "floor_label_unverified": "F4"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_018/transforms.json",
+        "sha256": "57c684836e0b14e51c788fb3d8e092f2e648bece2e04b3df1fbf297e2c0483e4"
+      },
+      "frames": 248,
+      "splits": {
+        "train": {
+          "images": 216,
+          "groups": 54,
+          "group_time": {
+            "min_ns": 1720268428240957360,
+            "max_ns": 1720268458745635522,
+            "span_s": 30.504678162
+          },
+          "actual_header_time": {
+            "min_ns": 1720268428240957360,
+            "max_ns": 1720268458745635522,
+            "span_s": 30.504678162
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268432740843474,
+            "max_ns": 1720268456745789837,
+            "span_s": 24.004946363
+          },
+          "actual_header_time": {
+            "min_ns": 1720268432740843474,
+            "max_ns": 1720268456745789837,
+            "span_s": 24.004946363
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268428740809506,
+            "max_ns": 1720268452745747840,
+            "span_s": 24.004938334
+          },
+          "actual_header_time": {
+            "min_ns": 1720268428740809506,
+            "max_ns": 1720268452745747840,
+            "span_s": 24.004938334
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_018",
+      "floor_label_unverified": "坡道 F4-F5"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_019/transforms.json",
+        "sha256": "a12a9e84ebaa62a016e8c8c45d51c3da28fbf407c966b131b918698f5142ed3a"
+      },
+      "frames": 240,
+      "splits": {
+        "train": {
+          "images": 212,
+          "groups": 53,
+          "group_time": {
+            "min_ns": 1720268453745695596,
+            "max_ns": 1720268483245415429,
+            "span_s": 29.499719833
+          },
+          "actual_header_time": {
+            "min_ns": 1720268453745695596,
+            "max_ns": 1720268483245415429,
+            "span_s": 29.499719833
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268456745789837,
+            "max_ns": 1720268480745425758,
+            "span_s": 23.999635921
+          },
+          "actual_header_time": {
+            "min_ns": 1720268456745789837,
+            "max_ns": 1720268480745425758,
+            "span_s": 23.999635921
+          }
+        },
+        "test": {
+          "images": 12,
+          "groups": 3,
+          "group_time": {
+            "min_ns": 1720268460745530105,
+            "max_ns": 1720268476745383801,
+            "span_s": 15.999853696
+          },
+          "actual_header_time": {
+            "min_ns": 1720268460745530105,
+            "max_ns": 1720268476745383801,
+            "span_s": 15.999853696
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_019",
+      "floor_label_unverified": "坡道 F4-F5"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_020/transforms.json",
+        "sha256": "f616659d9d30e31d14a4f33ccf46061f6f05bb99028811e6638eff5792a3e20d"
+      },
+      "frames": 260,
+      "splits": {
+        "train": {
+          "images": 228,
+          "groups": 57,
+          "group_time": {
+            "min_ns": 1720268478745530912,
+            "max_ns": 1720268510740214115,
+            "span_s": 31.994683203
+          },
+          "actual_header_time": {
+            "min_ns": 1720268478745530912,
+            "max_ns": 1720268510745217115,
+            "span_s": 31.999686203
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268480745425758,
+            "max_ns": 1720268504745343082,
+            "span_s": 23.999917324
+          },
+          "actual_header_time": {
+            "min_ns": 1720268480745425758,
+            "max_ns": 1720268504745343082,
+            "span_s": 23.999917324
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268484745465209,
+            "max_ns": 1720268508740321812,
+            "span_s": 23.994856603
+          },
+          "actual_header_time": {
+            "min_ns": 1720268484745465209,
+            "max_ns": 1720268508745324812,
+            "span_s": 23.999859603
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_020",
+      "floor_label_unverified": "坡道 F4-F5"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_021/transforms.json",
+        "sha256": "444d993e1222a87c5b34c0c0dd2732308d1f893d6255c0ba503099782b04e80b"
+      },
+      "frames": 284,
+      "splits": {
+        "train": {
+          "images": 248,
+          "groups": 62,
+          "group_time": {
+            "min_ns": 1720268505745288624,
+            "max_ns": 1720268540245018013,
+            "span_s": 34.499729389
+          },
+          "actual_header_time": {
+            "min_ns": 1720268505740285624,
+            "max_ns": 1720268540245018013,
+            "span_s": 34.504732389
+          }
+        },
+        "val": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268512740109800,
+            "max_ns": 1720268536745080262,
+            "span_s": 24.004970462
+          },
+          "actual_header_time": {
+            "min_ns": 1720268512740109800,
+            "max_ns": 1720268536745080262,
+            "span_s": 24.004970462
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268508740321812,
+            "max_ns": 1720268540744871013,
+            "span_s": 32.004549201
+          },
+          "actual_header_time": {
+            "min_ns": 1720268508740321812,
+            "max_ns": 1720268540744871013,
+            "span_s": 32.004549201
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_021",
+      "floor_label_unverified": "F5"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_022/transforms.json",
+        "sha256": "f5d709499361e817b54385e631240492d7555d46f59aa33f7a593422b7775d68"
+      },
+      "frames": 308,
+      "splits": {
+        "train": {
+          "images": 268,
+          "groups": 67,
+          "group_time": {
+            "min_ns": 1720268535245031657,
+            "max_ns": 1720268573244692796,
+            "span_s": 37.999661139
+          },
+          "actual_header_time": {
+            "min_ns": 1720268535245031657,
+            "max_ns": 1720268573244692796,
+            "span_s": 37.999661139
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268536745080262,
+            "max_ns": 1720268568744809737,
+            "span_s": 31.999729475
+          },
+          "actual_header_time": {
+            "min_ns": 1720268536745080262,
+            "max_ns": 1720268568744809737,
+            "span_s": 31.999729475
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268540744871013,
+            "max_ns": 1720268572744847940,
+            "span_s": 31.999976927
+          },
+          "actual_header_time": {
+            "min_ns": 1720268540744871013,
+            "max_ns": 1720268572744847940,
+            "span_s": 31.999976927
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_022",
+      "floor_label_unverified": "F5"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_023/transforms.json",
+        "sha256": "1d7f24bb2689234c5a3f501f52b1740c98d828807174c641e59c121aa13c5aaa"
+      },
+      "frames": 280,
+      "splits": {
+        "train": {
+          "images": 244,
+          "groups": 61,
+          "group_time": {
+            "min_ns": 1720268567244759948,
+            "max_ns": 1720268601744570630,
+            "span_s": 34.499810682
+          },
+          "actual_header_time": {
+            "min_ns": 1720268567244759948,
+            "max_ns": 1720268601744570630,
+            "span_s": 34.499810682
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268568744809737,
+            "max_ns": 1720268600744607619,
+            "span_s": 31.999797882
+          },
+          "actual_header_time": {
+            "min_ns": 1720268568744809737,
+            "max_ns": 1720268600744607619,
+            "span_s": 31.999797882
+          }
+        },
+        "test": {
+          "images": 16,
+          "groups": 4,
+          "group_time": {
+            "min_ns": 1720268572744847940,
+            "max_ns": 1720268596744545070,
+            "span_s": 23.99969713
+          },
+          "actual_header_time": {
+            "min_ns": 1720268572744847940,
+            "max_ns": 1720268596744545070,
+            "span_s": 23.99969713
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_023",
+      "floor_label_unverified": "坡道 F5-F6"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_024/transforms.json",
+        "sha256": "4e60801c0b7b876556858e0e424770e7e5123f11e14a0d3963d525c4f57ebf0e"
+      },
+      "frames": 304,
+      "splits": {
+        "train": {
+          "images": 264,
+          "groups": 66,
+          "group_time": {
+            "min_ns": 1720268596244438924,
+            "max_ns": 1720268633739099700,
+            "span_s": 37.494660776
+          },
+          "actual_header_time": {
+            "min_ns": 1720268596244438924,
+            "max_ns": 1720268633744102700,
+            "span_s": 37.499663776
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268600744607619,
+            "max_ns": 1720268632739149757,
+            "span_s": 31.994542138
+          },
+          "actual_header_time": {
+            "min_ns": 1720268600744607619,
+            "max_ns": 1720268632744152757,
+            "span_s": 31.999545138
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268596744545070,
+            "max_ns": 1720268628744353398,
+            "span_s": 31.999808328
+          },
+          "actual_header_time": {
+            "min_ns": 1720268596744545070,
+            "max_ns": 1720268628744353398,
+            "span_s": 31.999808328
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_024",
+      "floor_label_unverified": "坡道 F5-F6"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_025/transforms.json",
+        "sha256": "b5105854d69192bf6d3a328e463cc7b1f652f9b85123a45acdd15bd366a65db8"
+      },
+      "frames": 320,
+      "splits": {
+        "train": {
+          "images": 280,
+          "groups": 70,
+          "group_time": {
+            "min_ns": 1720268628244249543,
+            "max_ns": 1720268667744000249,
+            "span_s": 39.499750706
+          },
+          "actual_header_time": {
+            "min_ns": 1720268628239246543,
+            "max_ns": 1720268667744000249,
+            "span_s": 39.504753706
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268632739149757,
+            "max_ns": 1720268664743896688,
+            "span_s": 32.004746931
+          },
+          "actual_header_time": {
+            "min_ns": 1720268632739149757,
+            "max_ns": 1720268664743896688,
+            "span_s": 32.004746931
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268628744353398,
+            "max_ns": 1720268660744092788,
+            "span_s": 31.99973939
+          },
+          "actual_header_time": {
+            "min_ns": 1720268628739350398,
+            "max_ns": 1720268660744092788,
+            "span_s": 32.00474239
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_025",
+      "floor_label_unverified": "F6"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_026/transforms.json",
+        "sha256": "6808b7c58be819c7cb642f885b9d2ac1696edc4034f5e98f4bcd23aefb03643b"
+      },
+      "frames": 320,
+      "splits": {
+        "train": {
+          "images": 280,
+          "groups": 70,
+          "group_time": {
+            "min_ns": 1720268661744043637,
+            "max_ns": 1720268701243681265,
+            "span_s": 39.499637628
+          },
+          "actual_header_time": {
+            "min_ns": 1720268661739040637,
+            "max_ns": 1720268701243681265,
+            "span_s": 39.504640628
+          }
+        },
+        "val": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268664743896688,
+            "max_ns": 1720268696743771042,
+            "span_s": 31.999874354
+          },
+          "actual_header_time": {
+            "min_ns": 1720268664743896688,
+            "max_ns": 1720268696743771042,
+            "span_s": 31.999874354
+          }
+        },
+        "test": {
+          "images": 20,
+          "groups": 5,
+          "group_time": {
+            "min_ns": 1720268668743951382,
+            "max_ns": 1720268700743584308,
+            "span_s": 31.999632926
+          },
+          "actual_header_time": {
+            "min_ns": 1720268668743951382,
+            "max_ns": 1720268700743584308,
+            "span_s": 31.999632926
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_026",
+      "floor_label_unverified": "F6"
+    },
+    {
+      "artifact": {
+        "path": "data/garage_surface_v1/block_027/transforms.json",
+        "sha256": "65e442a14139baf12950801d5d0e10ac464c095b296f325f380c6ed664c25aa2"
+      },
+      "frames": 92,
+      "splits": {
+        "train": {
+          "images": 80,
+          "groups": 20,
+          "group_time": {
+            "min_ns": 1720268694243758384,
+            "max_ns": 1720268705243734726,
+            "span_s": 10.999976342
+          },
+          "actual_header_time": {
+            "min_ns": 1720268694243758384,
+            "max_ns": 1720268705243734726,
+            "span_s": 10.999976342
+          }
+        },
+        "val": {
+          "images": 8,
+          "groups": 2,
+          "group_time": {
+            "min_ns": 1720268696743771042,
+            "max_ns": 1720268704743639860,
+            "span_s": 7.999868818
+          },
+          "actual_header_time": {
+            "min_ns": 1720268696738768042,
+            "max_ns": 1720268704743639860,
+            "span_s": 8.004871818
+          }
+        },
+        "test": {
+          "images": 4,
+          "groups": 1,
+          "group_time": {
+            "min_ns": 1720268700743584308,
+            "max_ns": 1720268700743584308,
+            "span_s": 0.0
+          },
+          "actual_header_time": {
+            "min_ns": 1720268700738581308,
+            "max_ns": 1720268700743584308,
+            "span_s": 0.005003
+          }
+        }
+      },
+      "splits_disjoint": true,
+      "source_image_index_time_binding": "All camera/header/bag timestamps match saved image metadata",
+      "block_id": "block_027",
+      "floor_label_unverified": "F6"
+    }
+  ],
+  "bag_identity": {
+    "evidence": {
+      "path": "reports/raw_bag_full_identity.json",
+      "sha256": "2ea1abfa827971b9c8d01527cc675b06ce57bff076a23ee050c3606ba6d95d0b"
+    },
+    "recorded_method": "Two independent sha256sum processes completed successfully over entire files",
+    "files": [
+      {
+        "path": "/home/chaoszzss/dataset/rosbag/orbvi_4vl_data_czy_all.bag",
+        "bytes": 24545241324,
+        "mtime_ns": 1786006108000000000,
+        "inode": 110765085,
+        "sha256": "c0e602ec6f8eb866e62c60aab7c0ff68759470f818262e3a2e00e4d07faebfc1",
+        "current_stat_matches_recorded_identity": true
+      },
+      {
+        "path": "/home/chaoszzss/dataset/CZY_Dataset/all/orbvi_4vl_data_czy_all.bag",
+        "bytes": 24545241324,
+        "mtime_ns": 1786006108000000000,
+        "inode": 11950573,
+        "sha256": "c0e602ec6f8eb866e62c60aab7c0ff68759470f818262e3a2e00e4d07faebfc1",
+        "current_stat_matches_recorded_identity": true
+      }
+    ],
+    "bag_payload_reopened_or_rehashed": false,
+    "scope": "Prior full-file hash evidence pinned; current size/mtime/inode checked only"
+  },
+  "time_and_split_coverage": {
+    "extraction_manifest": {
+      "path": "data/keyframes_2hz/manifest.json",
+      "sha256": "68f5a2d364ddd35f4fed9ecfed1450a23dbf7bd5be289da3b6988d3394baf8c1"
+    },
+    "source_metadata": {
+      "path": "data/keyframes_2hz/source.json",
+      "sha256": "50bf4c311d1229ebc0ba851f868853a9cb01e55f3e07a82f00da84bfdf59737a"
+    },
+    "time_basis": "Header time for capture; bag time for later recording. These clocks are not interchangeable.",
+    "existing_message_index_topics": {
+      "/orbvi/imu": {
+        "count": 154657,
+        "header_min_ns": 1720267880961423842,
+        "header_max_ns": 1720268705903942526,
+        "bag_min_ns": 1786005282615559683,
+        "bag_max_ns": 1786006107538330060
+      },
+      "/orbvi/depth/points": {
+        "count": 8061,
+        "header_min_ns": 1720267880750337299,
+        "header_max_ns": 1720268705638603580,
+        "bag_min_ns": 1786005282654873429,
+        "bag_max_ns": 1786006107516268153
+      },
+      "/orbvi/lidar/custom": {
+        "count": 8250,
+        "header_min_ns": 1720267880900444269,
+        "header_max_ns": 1720268705800410986,
+        "bag_min_ns": 1786005282655041814,
+        "bag_max_ns": 1786006107548651688
+      },
+      "/orbvi/vio/odometry": {
+        "count": 8055,
+        "header_min_ns": 1720267880850305796,
+        "header_max_ns": 1720268705738584757,
+        "bag_min_ns": 1786005282662273274,
+        "bag_max_ns": 1786006107515841238
+      },
+      "/orbvi/vio/path": {
+        "count": 5431,
+        "header_min_ns": 1720267880850305796,
+        "header_max_ns": 1720268705738584757,
+        "bag_min_ns": 1786005282662293116,
+        "bag_max_ns": 1786006107516251890
+      },
+      "/orbvi/raw/camera_3/image/compressed": {
+        "count": 16234,
+        "header_min_ns": 1720267880900293988,
+        "header_max_ns": 1720268705788574726,
+        "bag_min_ns": 1786005282683016359,
+        "bag_max_ns": 1786006107513726165
+      },
+      "/orbvi/raw/camera_2/image/compressed": {
+        "count": 16234,
+        "header_min_ns": 1720267880900293988,
+        "header_max_ns": 1720268705793577726,
+        "bag_min_ns": 1786005282683024167,
+        "bag_max_ns": 1786006107513730712
+      },
+      "/orbvi/raw/camera_4/image/compressed": {
+        "count": 16234,
+        "header_min_ns": 1720267880900293988,
+        "header_max_ns": 1720268705793577726,
+        "bag_min_ns": 1786005282683412880,
+        "bag_max_ns": 1786006107513743524
+      },
+      "/orbvi/raw/camera_5/image/compressed": {
+        "count": 16234,
+        "header_min_ns": 1720267880900293988,
+        "header_max_ns": 1720268705793577726,
+        "bag_min_ns": 1786005282683455427,
+        "bag_max_ns": 1786006107513755641
+      },
+      "/orbvi/ipm/image": {
+        "count": 3556,
+        "header_min_ns": 1720267880900293988,
+        "header_max_ns": 1720268705638603580,
+        "bag_min_ns": 1786005282684466860,
+        "bag_max_ns": 1786006107390961277
+      }
+    },
+    "saved_camera_images": 6508,
+    "saved_ipm_images": 164,
+    "keyframe_camera_header_time": {
+      "min_ns": 1720267880900293988,
+      "max_ns": 1720268705743587726,
+      "span_s": 824.843293738
+    },
+    "prepared_unique_images": 6496,
+    "selected_actual_header_time": {
+      "min_ns": 1720267881750246842,
+      "max_ns": 1720268705243734726,
+      "span_s": 823.493487884
+    },
+    "splits": {
+      "train": {
+        "unique_images": 5684,
+        "header_time": {
+          "min_ns": 1720267881750246842,
+          "max_ns": 1720268705243734726,
+          "span_s": 823.493487884
+        },
+        "bag_record_time": {
+          "min_ns": 1786005283521294554,
+          "max_ns": 1786006106965846672,
+          "span_s": 823.444552118
+        }
+      },
+      "val": {
+        "unique_images": 408,
+        "header_time": {
+          "min_ns": 1720267884750228828,
+          "max_ns": 1720268704743639860,
+          "span_s": 819.993411032
+        },
+        "bag_record_time": {
+          "min_ns": 1786005286519232511,
+          "max_ns": 1786006106466655134,
+          "span_s": 819.947422623
+        }
+      },
+      "test": {
+        "unique_images": 404,
+        "header_time": {
+          "min_ns": 1720267888750127279,
+          "max_ns": 1720268700743584308,
+          "span_s": 811.993457029
+        },
+        "bag_record_time": {
+          "min_ns": 1786005290475587951,
+          "max_ns": 1786006102454372331,
+          "span_s": 811.97878438
+        }
+      }
+    },
+    "global_splits_disjoint": true,
+    "replacement_split_unions_equal_historical_regions": true,
+    "unused_saved_camera_keyframes": [
+      {
+        "camera_id": "camera_3",
+        "index": "0",
+        "header_ns": "1720267880900293988",
+        "bag_ns": "1786005282683016359",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_3",
+        "file_path": "images/camera_3/000000_1720267880900293988.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "192.47928382334769",
+        "mean_luma": "49.771846788194445"
+      },
+      {
+        "camera_id": "camera_2",
+        "index": "0",
+        "header_ns": "1720267880900293988",
+        "bag_ns": "1786005282683024167",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_2",
+        "file_path": "images/camera_2/000000_1720267880900293988.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "215.24256497028912",
+        "mean_luma": "49.91311559606481"
+      },
+      {
+        "camera_id": "camera_5",
+        "index": "0",
+        "header_ns": "1720267880900293988",
+        "bag_ns": "1786005282683455427",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_5",
+        "file_path": "images/camera_5/000000_1720267880900293988.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "199.90206838525367",
+        "mean_luma": "47.233854890046295"
+      },
+      {
+        "camera_id": "camera_4",
+        "index": "0",
+        "header_ns": "1720267880900293988",
+        "bag_ns": "1786005282683412880",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_4",
+        "file_path": "images/camera_4/000000_1720267880900293988.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "122.85971279363847",
+        "mean_luma": "52.78081958912037"
+      },
+      {
+        "camera_id": "camera_3",
+        "index": "7",
+        "header_ns": "1720267881250161696",
+        "bag_ns": "1786005282972656918",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_3",
+        "file_path": "images/camera_3/000007_1720267881250161696.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "193.12901074473638",
+        "mean_luma": "49.890436197916664"
+      },
+      {
+        "camera_id": "camera_2",
+        "index": "7",
+        "header_ns": "1720267881250161696",
+        "bag_ns": "1786005282972702600",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_2",
+        "file_path": "images/camera_2/000007_1720267881250161696.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "215.40501542807786",
+        "mean_luma": "49.89138888888889"
+      },
+      {
+        "camera_id": "camera_4",
+        "index": "7",
+        "header_ns": "1720267881250161696",
+        "bag_ns": "1786005282972694017",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_4",
+        "file_path": "images/camera_4/000007_1720267881250161696.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "123.16024248957798",
+        "mean_luma": "52.816905381944444"
+      },
+      {
+        "camera_id": "camera_5",
+        "index": "7",
+        "header_ns": "1720267881250161696",
+        "bag_ns": "1786005282972727446",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_5",
+        "file_path": "images/camera_5/000007_1720267881250161696.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "200.6737867560492",
+        "mean_luma": "47.192551359953704"
+      },
+      {
+        "camera_id": "camera_3",
+        "index": "16232",
+        "header_ns": "1720268705738584726",
+        "bag_ns": "1786006107469320598",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_3",
+        "file_path": "images/camera_3/016232_1720268705738584726.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "349.81236257293233",
+        "mean_luma": "53.22355975115741"
+      },
+      {
+        "camera_id": "camera_2",
+        "index": "16232",
+        "header_ns": "1720268705743587726",
+        "bag_ns": "1786006107469337532",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_2",
+        "file_path": "images/camera_2/016232_1720268705743587726.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "271.3808394539205",
+        "mean_luma": "42.534851707175925"
+      },
+      {
+        "camera_id": "camera_4",
+        "index": "16232",
+        "header_ns": "1720268705743587726",
+        "bag_ns": "1786006107469350441",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_4",
+        "file_path": "images/camera_4/016232_1720268705743587726.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "135.51431615607274",
+        "mean_luma": "65.93904079861112"
+      },
+      {
+        "camera_id": "camera_5",
+        "index": "16232",
+        "header_ns": "1720268705743587726",
+        "bag_ns": "1786006107469392225",
+        "frame_id": "orbvi/raw_fisheye_stream/camera_5",
+        "file_path": "images/camera_5/016232_1720268705743587726.jpg",
+        "width": "1280",
+        "height": "1080",
+        "laplacian_variance": "293.44979548504307",
+        "mean_luma": "55.01822771990741"
+      }
+    ],
+    "unused_saved_camera_keyframe_count": 12,
+    "scope": "Declared training split membership verified from actual saved config/transforms, not proof of how often every image was sampled by SGD. No image pixels read."
+  },
+  "historical_block006_correction": {
+    "artifact": {
+      "path": "reports/historical_block006_resume_audit.json",
+      "sha256": "9c40e2f2b2ff39bcd91c2b7be93695e41c471be550c1e5e2fe39b47121f4121b"
+    },
+    "recorded": {
+      "status": "HISTORICAL_RESUME_ADAM_COUNTER_AUDIT",
+      "block_id": "block_006",
+      "training_result_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/block_006/training_result.json",
+      "training_result_sha256": "39f72a6e1f68c23b68075a425498d9bb3ea8dd1cbdd0da1ac687100a0b61c44a",
+      "checkpoint": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/block_006/block_006/splatfacto/2026-10-06_214143/nerfstudio_models/step-000011999.ckpt",
+      "checkpoint_sha256": "82183b9795621cf806b5f8979fd5a786b26edca447fd942e0e5b2fe8aee2b21a",
+      "checkpoint_step": 11999,
+      "declared_iterations": 12000,
+      "resumed_from": {
+        "status": "checkpoint_verified",
+        "checkpoint": "runs/garage_surface_v1/block_006/block_006/splatfacto/2026-10-06_214143/nerfstudio_models/step-000011000.ckpt",
+        "sha256": "0cdc13b00f513e8f641c98e552860ccb6fc3d8c29118ab43a81a17663d547d0e",
+        "checkpoint_step": 11000,
+        "target_iterations": 12000,
+        "remaining_iterations": 999,
+        "optimizer_groups": [
+          "features_dc",
+          "features_rest",
+          "means",
+          "opacities",
+          "quats",
+          "scales"
+        ],
+        "scheduler_groups": [
+          "means"
+        ],
+        "note": "Restores model/optimizers/schedulers/scaler; image shuffle RNG is reseeded."
+      },
+      "optimizers": {
+        "means": [
+          {
+            "step": 11001,
+            "exp_avg_shape": [
+              400192,
+              3
+            ]
+          }
+        ],
+        "scales": [
+          {
+            "step": 11001,
+            "exp_avg_shape": [
+              400192,
+              3
+            ]
+          }
+        ],
+        "quats": [
+          {
+            "step": 11001,
+            "exp_avg_shape": [
+              400192,
+              4
+            ]
+          }
+        ],
+        "features_dc": [
+          {
+            "step": 11001,
+            "exp_avg_shape": [
+              400192,
+              3
+            ]
+          }
+        ],
+        "features_rest": [
+          {
+            "step": 11001,
+            "exp_avg_shape": [
+              400192,
+              15,
+              3
+            ]
+          }
+        ],
+        "opacities": [
+          {
+            "step": 11001,
+            "exp_avg_shape": [
+              400192,
+              1
+            ]
+          }
+        ]
+      },
+      "all_optimizer_steps_match_final_iteration": false,
+      "all_optimizer_steps_unchanged_from_resume": true,
+      "gpu_used": false,
+      "original_files_modified": false,
+      "peak_rss_mb": 677.40234375,
+      "script_sha256": "ae0175f913811df8a5ead18e71e72b58927df88dc422b6b4cbbf317a9dd8b207",
+      "interpretation": "Frozen historical appearance measurements and exported parameter equality remain valid. Completed loop count alone does not prove optimizer progress. Compare exact Adam counters with saved step; hard surface projection may still mutate means/quats without Adam updates.",
+      "scope": "Only historical training_result.json files explicitly marking resumed_from were searched; one original block006 matched. No claim that every possible undocumented resume is detected."
+    },
+    "retained_statement": "Loop step11999 / declared12000; six Adam counters11001. Do not claim12000 Adam updates or no training. Checkpoint optimizer tensors not reread in this coverage audit."
+  },
+  "full_scene_metrics": null,
+  "high_fidelity_accepted": false,
+  "floor_labels_verified": false,
+  "scope_limits": [
+    "F1-F6 and ramps are inherited temporal labels, not independently validated physical floors.",
+    "Complete means all28 prepared collection regions represented once; spatial overlap among distinct regions remains.",
+    "Neither every bag message was used for training nor unobserved space proven complete.",
+    "No scores from different blocks or generations averaged into a full-scene score.",
+    "Source audit does not by itself verify assembler output bytes; separate assembly audit follows."
+  ],
+  "input_sha256": {
+    "scripts/verify_training_checkpoint.py": "c255ea9542505c103d0eeeeb16fecd954f097a647ab52acf1b4967edd37759ac",
+    "reports/full_preview_v2_source_audit.py": "6a80c2476f25020b5d4003bafc97e303e953d2d46e61d777548017f14f478ce6",
+    "maps/garage_fidelity_v2_viewer/manifest.json": "e55f5312342eaefa594031734b56e449c5ca053014e4917d7b99dc8db081ad16",
+    "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json": "53b70f4e4576ab34ab9390fe5f3bc5c50426ff3d9ecb89fd7444b9ac21c58a9c",
+    "maps/garage_fidelity_v2_joint015_diagnostic/manifest.json": "fba737d74523bc0eb96be1fa262b5cefa9e554701905de5e2ea6e16aff9515cf",
+    "reports/viewer_parity_v2_delivery_source_inventory.json": "8e2ac669328ab14ef17c708505af2d1fa954f34667bf5a36b1904bfb1de8aca0",
+    "data/keyframes_2hz/indexes/images.csv": "cfd5b5ca62a75f9fa28da66c0a236969af2152195a09a58dce193ff2c6a4ef91",
+    "data/garage_surface_v1/block_000/transforms.json": "3ca4b4989c9dd6d25af02595fc43ec7711c02630430c6b4fecae2a7a3ad380bb",
+    "data/garage_surface_v1/block_001/transforms.json": "59ec6d0a6eafcc15f8468ecb521b3ab767ab43bdb44270ad892105d7888cee40",
+    "data/garage_surface_v1/block_002/transforms.json": "6b9ac93937d42144261046e98274f5d6d8f1ba5332ca119770df092b021252c2",
+    "data/garage_surface_v1/block_003/transforms.json": "147d76322c94a7a9c6590cc4a654e2ba93583923b15341e457e3328ed87e41e1",
+    "data/garage_surface_v1/block_004/transforms.json": "8725adcb59cbb039765ef1a1a77672a0801a0a9ad3f648ace3ac388069a31060",
+    "data/garage_surface_v1/block_005/transforms.json": "ac6d57c8e478a7a6a6dff9018d586d5ee3bf21352243aec140b955ad0b312889",
+    "data/garage_surface_v1/block_006/transforms.json": "0c5bec6acc2300d8fd694fa2a5c5eadfef194239a0deaef6405bd935cef636cf",
+    "data/garage_surface_v1/block_007/transforms.json": "3287ef37200140ba6a3e19fbb1eb9a91a149f87f79a897c75a7acf3aca69d77e",
+    "data/garage_surface_v1/block_008/transforms.json": "c8adc8d6856666b69d3e8b5c56aaa6822446b6927c4a55212592e9bf9ec7d6cd",
+    "data/garage_surface_v1/block_009/transforms.json": "35f2c28801a38c1202138a7c68e43228b70c48556de4f3f12b1b27b311e864d2",
+    "data/garage_surface_v1/block_010/transforms.json": "f42e6caa1899e6fc75ce4a788225ddf7a49d228da91f501d4a9afca9b4bd3824",
+    "data/garage_surface_v1/block_011/transforms.json": "33037717a06616e6d7678a3d6bda0a30b9d6ea6334bb88a555f1836c9a0c4d47",
+    "data/garage_surface_v1/block_012/transforms.json": "f0969552f042924e35ac82a7bfa518674ca5a61596984f86baf424ee6f0aaf82",
+    "data/garage_surface_v1/block_013/transforms.json": "717dd23c58d5018edd3f75467899288b0472d0c570762271de55eb3d996db607",
+    "data/garage_surface_v1/block_014/transforms.json": "099f9c44fc161e28236b174695d9d1a0df78e2a992f2f0ee95742bd625a1e869",
+    "data/garage_surface_v1/block_015/transforms.json": "c504d5e8432edca832c3ccffad91e138c7c6ab95eb6c89b57809af13fb945324",
+    "data/garage_surface_v1/block_016/transforms.json": "4091d790e9b0ed73268d5c026c89d18377cd38c3a61a418fd6c19a69e8e68c57",
+    "data/garage_surface_v1/block_017/transforms.json": "bf79ed65254df09059b3a6ab7e8baa00355a828a786c91358d024c46ca8da7bf",
+    "data/garage_surface_v1/block_018/transforms.json": "57c684836e0b14e51c788fb3d8e092f2e648bece2e04b3df1fbf297e2c0483e4",
+    "data/garage_surface_v1/block_019/transforms.json": "a12a9e84ebaa62a016e8c8c45d51c3da28fbf407c966b131b918698f5142ed3a",
+    "data/garage_surface_v1/block_020/transforms.json": "f616659d9d30e31d14a4f33ccf46061f6f05bb99028811e6638eff5792a3e20d",
+    "data/garage_surface_v1/block_021/transforms.json": "444d993e1222a87c5b34c0c0dd2732308d1f893d6255c0ba503099782b04e80b",
+    "data/garage_surface_v1/block_022/transforms.json": "f5d709499361e817b54385e631240492d7555d46f59aa33f7a593422b7775d68",
+    "data/garage_surface_v1/block_023/transforms.json": "1d7f24bb2689234c5a3f501f52b1740c98d828807174c641e59c121aa13c5aaa",
+    "data/garage_surface_v1/block_024/transforms.json": "4e60801c0b7b876556858e0e424770e7e5123f11e14a0d3963d525c4f57ebf0e",
+    "data/garage_surface_v1/block_025/transforms.json": "b5105854d69192bf6d3a328e463cc7b1f652f9b85123a45acdd15bd366a65db8",
+    "data/garage_surface_v1/block_026/transforms.json": "6808b7c58be819c7cb642f885b9d2ac1696edc4034f5e98f4bcd23aefb03643b",
+    "data/garage_surface_v1/block_027/transforms.json": "65e442a14139baf12950801d5d0e10ac464c095b296f325f380c6ed664c25aa2",
+    "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+    "runs/fidelity_v2/block000_measuredseed_anneal_v1/metrics.json": "35c7959aa8529be6ecb33fd5bcc2136ead454da98f9dd61cd27c1dae81c47358",
+    "runs/fidelity_v2/train_block000_measuredseed_anneal_v1/training_result.json": "f930d7f2c7202bae88e02f73fdc1af5e1e94324a7a57a765ac1ead1285189e1d",
+    "runs/fidelity_v2/train_block000_measuredseed_anneal_v1/block_000/splatfacto/2026-10-09_150023/config.yml": "4503231b5f34bbdb82cdb336253907964ffcbef8a2299ba5f01f64f392763ee3",
+    "data/garage_fidelity_depthv3/block_000/transforms.json": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+    "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+    "runs/garage_surface_v1/block_001/eval_dev/metrics.json": "fef094ebf8b6cdefc6f99a8c60021a579bc13af60721907caf58be7eaede8292",
+    "runs/garage_surface_v1/block_001/training_result.json": "72fefdbd201e6e9fb8c6d613c0801e54b305880095a4e0460a75cfe6cd08c485",
+    "runs/garage_surface_v1/block_001/block_001/splatfacto/2026-10-06_205549/config.yml": "67611882074de8d494779f513f61d6280645f3dfcd594b649ba8b5271a4d3c9f",
+    "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+    "runs/garage_surface_v1/block_002/eval_dev/metrics.json": "4e55537000d52b6e43eaad93c7db3b738bb75dccbc4840a207800608fd1f2a1a",
+    "runs/garage_surface_v1/block_002/training_result.json": "47dea4113bf71cc79c70db6560f41faee73a36d1128acec6ca1b15651c56e038",
+    "runs/garage_surface_v1/block_002/block_002/splatfacto/2026-10-06_210412/config.yml": "8be142d86ec3b33c31d7e2fffd2b11758131343c0764647132957641b791fc4a",
+    "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+    "runs/garage_surface_v1/block_003/eval_dev/metrics.json": "ed5282b822f8f4b7aa94f6b78ea06165b55577476a2b3742da4d20bdae0b378b",
+    "runs/garage_surface_v1/block_003/training_result.json": "1a65153b42b0389530485c71bcd20ede9870b37087489a80bbf684ac5c36d27c",
+    "runs/garage_surface_v1/block_003/block_003/splatfacto/2026-10-06_211241/config.yml": "68fe735f097d05cb753bfb4455ab412b4e878b7e1280f0cc6a7b4fc28e06989a",
+    "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+    "runs/garage_surface_v1/block_004/eval_dev/metrics.json": "19bfcdac5d78e6ed1c7cb73bbfc729ae82dcd3d8976e0e45b3fa208ce3aa634f",
+    "runs/garage_surface_v1/block_004/training_result.json": "7d6a2b08d02cdd77b03fee7cef3871252f2e41e389fd5a516ea4a158157b5fac",
+    "runs/garage_surface_v1/block_004/block_004/splatfacto/2026-10-06_212148/config.yml": "423fe64814ac942dd0b916c579ab73784975ecd51ad650dd849103158e6cb80a",
+    "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+    "runs/garage_surface_v1/block_005/eval_dev/metrics.json": "27c8013a192285b919f7b2d8c18d695d0a41bdb37e3338c79fed9e97a09a24a1",
+    "runs/garage_surface_v1/block_005/training_result.json": "a5215703404a42e1242b5e4dc1491a8ae68f8330589b1f358979e3bccfc03a9c",
+    "runs/garage_surface_v1/block_005/block_005/splatfacto/2026-10-06_213145/config.yml": "7d66dc4bb0315e611ce0635e1f8788853211e11863914f7c7eef9501443aded9",
+    "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+    "runs/garage_surface_v1/block_006/eval_dev/metrics.json": "308f78c5cc3c296ac2f94919974bdf43756056c6100d0614764d820bbe290061",
+    "runs/garage_surface_v1/block_006/training_result.json": "39f72a6e1f68c23b68075a425498d9bb3ea8dd1cbdd0da1ac687100a0b61c44a",
+    "runs/garage_surface_v1/block_006/block_006/splatfacto/2026-10-06_214143/config.yml": "3ee54e2db958be887689a0f0ec56fc931d01410b0db938f33a96f10c94df345a",
+    "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+    "runs/garage_surface_v1/block_007/eval_dev/metrics.json": "48d3293dd2a2e9e007ae7d3da24783f983cec969a845a649473b6bd710b88836",
+    "runs/garage_surface_v1/block_007/training_result.json": "bcfb1f6a270780bc2ce98197fe91f93a80ddf4f71f681a6ab0e1cbd92612f544",
+    "runs/garage_surface_v1/block_007/block_007/splatfacto/2026-10-07_091010/config.yml": "10a9299964d55d4bcc1530ca397c23f1004dad7b9fa02e38bda049844821a5a2",
+    "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+    "runs/garage_surface_v1/block_008/eval_dev/metrics.json": "6188fd8bd39aaa5c9d3507836de52957447f467b10ced0558d841300dbb3914e",
+    "runs/garage_surface_v1/block_008/training_result.json": "154814c9e3bb7b65a13b6f424cf6024c5f4211046d023b25ab7918e973362fb9",
+    "runs/garage_surface_v1/block_008/block_008/splatfacto/2026-10-07_091907/config.yml": "767c2129e484f93185f731dd2accd9d3741587e61657d0c43edd727992a124c1",
+    "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+    "runs/garage_surface_v1/block_009/eval_dev/metrics.json": "c760bfb1f091695bb4b5aff35ad3e7d78521dc3ea10f74ec77ce8252b0fbf6da",
+    "runs/garage_surface_v1/block_009/training_result.json": "786db19147f768e2bfbff228dd2e3224390f3a6fee59e382a08bd205e16d4ecd",
+    "runs/garage_surface_v1/block_009/block_009/splatfacto/2026-10-07_092747/config.yml": "c1107ed65dc13f80d0a57d30ecbec80ec6413ef32c2066e30c7a8b77803234df",
+    "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+    "runs/garage_surface_v1/block_010/eval_dev/metrics.json": "51f6e20941aa491bb248369aa734649a16aed91eb919ff683b317fbb0b0bc910",
+    "runs/garage_surface_v1/block_010/training_result.json": "fd7ec020f678896b17bb9e5fca62554864610582bca75287a829ae7996553e58",
+    "runs/garage_surface_v1/block_010/block_010/splatfacto/2026-10-07_093634/config.yml": "3d95f23255529acaa024030939f9bd0d468db6c5139da36ef107f383fd65c326",
+    "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+    "runs/garage_surface_v1/block_011/eval_dev/metrics.json": "5a5faf5cfc66d3500aebb8c618420cc61ab4844b5df8300f34ebc4b18e4fe46f",
+    "runs/garage_surface_v1/block_011/training_result.json": "2751f2a942dae0a092a1a28ca93779662131ea39843bfcad04c96de860e16b0e",
+    "runs/garage_surface_v1/block_011/block_011/splatfacto/2026-10-07_094515/config.yml": "a70785c84696e99bdf3c6349651d2e2315d2b3ac72daf60b158c5590bf5657ba",
+    "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+    "runs/garage_surface_v1/block_012/eval_dev/metrics.json": "22254aaea3ba9f9299397475ef00a76c10e76e0a28cb7fdbaf2cafa0fed1d555",
+    "runs/garage_surface_v1/block_012/training_result.json": "0d7650d8841813ee2bfbc50516929cddaf64a864bf98c5adfbeccb746b9a2c49",
+    "runs/garage_surface_v1/block_012/block_012/splatfacto/2026-10-07_095400/config.yml": "a7598b5e6dc4363bee95a56d8cc9901d5b08f920f1e184f086e71ab640c80235",
+    "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+    "runs/garage_surface_v1/block_013/eval_dev/metrics.json": "445c65c6659f23b1341e5dee09b5826400c7e8fcd6e786cb7ed9d9ff1279b021",
+    "runs/garage_surface_v1/block_013/training_result.json": "98ab5ec899b1fa827f624f5e1dced6fcfbfccbf0742c14b69cc3ff1a11d97279",
+    "runs/garage_surface_v1/block_013/block_013/splatfacto/2026-10-07_100243/config.yml": "d49e1b65c52807baf76e16e332bc4a211c81889f2adf7a96f446b7a7f77f9fcb",
+    "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+    "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json": "a26aae2c1eab6ec9b931e6ef8af03f3ccf9506a27afa2c5dd03f8933c14f29bc",
+    "runs/fidelity_v2/train_joint015_depthv3_aa_metric_cap003/training_result.json": "6fdd4812f66b191f077bc5fe8ebfe3afddca7c3e32554cf00d90a0829a5c90d4",
+    "runs/fidelity_v2/train_joint015_depthv3_aa_metric_cap003/core_015/splatfacto/2026-10-09_121414/config.yml": "6ca082b02790129188521fef722d860b96c22c3e863d4da60302a4cd107960da",
+    "data/garage_fidelity_depthv3_joint/core_015/transforms.json": "7becd98194ab6e1bc8c8fd6b582def0a85c43c8781701c7fe47673c19fe16aa3",
+    "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+    "runs/garage_surface_v1/block_017/eval_dev/metrics.json": "5f328166cf080982f1094ac4f0df8510886b345019d7d8a86b3c964b38642ab9",
+    "runs/garage_surface_v1/block_017/training_result.json": "33ca12db99dff49f24a862ab0f366a9c849f9e8e80cb55d957e2f3b55a771469",
+    "runs/garage_surface_v1/block_017/block_017/splatfacto/2026-10-07_103743/config.yml": "283525fecb167b9484886fa015238023e6b83f3273f59b31e6292d39eab9f9e5",
+    "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+    "runs/garage_surface_v1/block_018/eval_dev/metrics.json": "d8a06000288d04fd9a0eb4132ea8379058aced163b2f009fb678e6ebdcfe885d",
+    "runs/garage_surface_v1/block_018/training_result.json": "372561a9c5f168638e387c4e54384b7b3bcc440321b4ba36d258c173344b1600",
+    "runs/garage_surface_v1/block_018/block_018/splatfacto/2026-10-07_104619/config.yml": "0eb2efec2b2dd1bc6a5af2554f97afd3173372cd6c000cb978cf5daa9af7f7d3",
+    "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+    "runs/garage_surface_v1/block_019/eval_dev/metrics.json": "00402b51842fb49372624ec5551b2663c31be137e1dc3df15ac1c5d23741aa85",
+    "runs/garage_surface_v1/block_019/training_result.json": "d6ff4a0348af877d0e75ba76c2e328dc07dc2959a3fc83d72076a255bfed5554",
+    "runs/garage_surface_v1/block_019/block_019/splatfacto/2026-10-07_105453/config.yml": "caaebd006b1aaf74181dbada7433e2e5e11096ad39f550d9d999a8a9bb90f9dd",
+    "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+    "runs/garage_surface_v1/block_020/eval_dev/metrics.json": "3dee9716766298f2f695f2309f9d0a8feee8f2cd4f7581f3da6d46dc5c632f57",
+    "runs/garage_surface_v1/block_020/training_result.json": "d50500c19eec1495faeb289f869e7527a9799c087075c9740158336b2f377166",
+    "runs/garage_surface_v1/block_020/block_020/splatfacto/2026-10-07_110316/config.yml": "af1f63437e858ccfec5b71ad318062c11b811728f67a896e0e160e0dd8f2cfd5",
+    "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+    "runs/garage_surface_v1/block_021/eval_dev/metrics.json": "e572b1c9673a696b2b3c6586de9313d871451a968b5461d823d66be472928435",
+    "runs/garage_surface_v1/block_021/training_result.json": "5a285eef7b8698412d349f19c0ead0f70d3180c8554852ecc480358e20316c8a",
+    "runs/garage_surface_v1/block_021/block_021/splatfacto/2026-10-07_111153/config.yml": "28972f9be732593ed10fb07f381298029e0c499873dc649ede129ddd0e32fa63",
+    "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+    "runs/garage_surface_v1/block_022/eval_dev/metrics.json": "ef35bb0c9ff2431b5f375c1d21baa47307703d8fe67ccf45f8d5fbf24a115a73",
+    "runs/garage_surface_v1/block_022/training_result.json": "14b14fd5a4b778a1da28134caf84300699ecfcc4db6d71dc06eebd664f4e09cd",
+    "runs/garage_surface_v1/block_022/block_022/splatfacto/2026-10-07_112025/config.yml": "8b29eb7880f7c44de631cbde658822dbd7f78804db791cf3a1c6dfa00cbc27e8",
+    "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+    "runs/garage_surface_v1/block_023/eval_dev/metrics.json": "e6df2c247a37fe0b35bc14eb436f1e8ab6066c2aa3a0604862404d913575ed41",
+    "runs/garage_surface_v1/block_023/training_result.json": "822dc5e249720bd94a2139e9ab579b461db6602e922d9d0e2be1299525c0a4ec",
+    "runs/garage_surface_v1/block_023/block_023/splatfacto/2026-10-07_112918/config.yml": "05dc7fdd3878321ced88812c321cbd8663738266443e9bca7a790f1d1a7a4f9b",
+    "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+    "runs/garage_surface_v1/block_024/eval_dev/metrics.json": "f380b8e700658f537930010b0f617ca87a750cbcb011cbd67aa1424a20d000a3",
+    "runs/garage_surface_v1/block_024/training_result.json": "b7ba475d1477d6ed0ea5a669bcdef97d2ec98439e2ac5d831d4909e3a4514d04",
+    "runs/garage_surface_v1/block_024/block_024/splatfacto/2026-10-07_113810/config.yml": "79402bb21e42be21d2dc5af48fa76b2e161eb89e90c86400b2fb787e5dea15b2",
+    "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+    "runs/garage_surface_v1/block_025/eval_dev/metrics.json": "8d85f20462faab41137f67c4f5e5bf3116976e20258ccbf414388417905b38d8",
+    "runs/garage_surface_v1/block_025/training_result.json": "87fe951f578178018d876a91827bfd7afc948e2fc51a5c37bc7ef57300eb71a6",
+    "runs/garage_surface_v1/block_025/block_025/splatfacto/2026-10-07_114647/config.yml": "1ed0752c770f7678f08cd7328f53a360c6836dc73fa0d6329abdccc9860691d9",
+    "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+    "runs/garage_surface_v1/block_026/eval_dev/metrics.json": "bf6377a0570a3de80be0cf3bd2d385396708618e3117f658ce137f06fc2925be",
+    "runs/garage_surface_v1/block_026/training_result.json": "8ddab9146c20d3e549196b271b5f7f2194130ea96d5a811ea2b6718852c745b6",
+    "runs/garage_surface_v1/block_026/block_026/splatfacto/2026-10-07_115554/config.yml": "9fefdfbb4af8c8ba03fb655ed566e1c1156d4da19f07ee4fbc8c842108b6d362",
+    "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+    "runs/garage_surface_v1/block_027/eval_dev/metrics.json": "9565aee1bb0e3e512d2ab27eb79348c0fe8dced19e753a6e33a57ce92b31f719",
+    "runs/garage_surface_v1/block_027/training_result.json": "f53ab6ddb0ca24124cd64361786cfe38b0ea3e983c113ca7f46cfb6df66eb787",
+    "runs/garage_surface_v1/block_027/block_027/splatfacto/2026-10-07_120457/config.yml": "0abdb2f59e8299d9e9014c40474ec3061cf46487987b4a097b6ca898037d028f",
+    "reports/raw_bag_full_identity.json": "2ea1abfa827971b9c8d01527cc675b06ce57bff076a23ee050c3606ba6d95d0b",
+    "data/keyframes_2hz/manifest.json": "68f5a2d364ddd35f4fed9ecfed1450a23dbf7bd5be289da3b6988d3394baf8c1",
+    "data/keyframes_2hz/source.json": "50bf4c311d1229ebc0ba851f868853a9cb01e55f3e07a82f00da84bfdf59737a",
+    "data/keyframes_2hz/indexes/messages.csv": "f48f217c8f22af199eb2f68c318bf9e877019e074e6c5c6a1b6374e1602ea579",
+    "reports/historical_block006_resume_audit.json": "9c40e2f2b2ff39bcd91c2b7be93695e41c471be550c1e5e2fe39b47121f4121b"
+  },
+  "resource_usage": {
+    "cpu_threads_max": 3,
+    "gpu_used": false,
+    "elapsed_seconds": 4.4046338650005055,
+    "peak_rss_bytes": 452116480
+  },
+  "report_id": "8b7cc3279b9de6966ab4351c3152447d587260705bfbab506acbd9feeaf5dbe4"
+}

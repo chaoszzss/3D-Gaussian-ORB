@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>车库全场预览 · 已有模型拼接</title>
+<style>
+:root{color-scheme:light;--ink:#183239;--muted:#52666c;--line:#cedcdd;--accent:#006e68}*{box-sizing:border-box}body{margin:0;background:#f1f5f3;color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Microsoft YaHei",sans-serif}main{max-width:1160px;margin:auto;padding:42px 24px 64px}header{padding:34px;border-radius:18px;background:#173d42;color:#f5fffc}.eyebrow{font-size:13px;letter-spacing:2px;color:#a9d3ca}h1{font-size:clamp(28px,5vw,44px);line-height:1.2;margin:14px 0}header p{max-width:830px;color:#d5e6e4}h2{font-size:24px;margin:0 0 10px}.badge{display:inline-block;font-size:13px;border:1px solid #91bcb3;border-radius:99px;padding:3px 12px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0}.stat{padding:16px;background:white;border:1px solid var(--line);border-radius:10px}.stat strong{display:block;font-size:25px}.stat span{font-size:13px;color:var(--muted)}.choices{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{padding:28px;background:#fff;border:1px solid var(--line);border-radius:14px}.card:first-child{border:2px solid var(--accent)}.card p{color:var(--muted)}.button{display:inline-block;background:var(--accent);color:white;text-decoration:none;border-radius:8px;padding:12px 22px;font-weight:650}.secondary{background:#243f4b}.small{font-size:14px;color:var(--muted)}a{color:var(--accent)}.note{background:#fff5de;border-left:4px solid #b98b26;padding:16px 20px;margin:24px 0}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;background:white;margin:20px 0}th,td{padding:14px;text-align:left;border:1px solid var(--line)}th{background:#e5eeeb}.status{padding:10px 0;font-size:14px;color:var(--muted)}figure{margin:24px 0}figure img{width:100%;border-radius:12px;border:1px solid var(--line)}figcaption{font-size:13px;color:var(--muted)}footer{margin-top:32px;border-top:1px solid var(--line);padding-top:18px;font-size:13px;color:var(--muted)}@media(max-width:760px){main{padding:20px 16px}.choices{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}header{padding:24px}.card{padding:22px}}
+</style>
+<main>
+<header><div class="eyebrow">GARAGE · LOCAL PREVIEW</div><h1>已有模型拼接，全场先看起来</h1><p>新模型替换对应来源区域，其余区域保留历史模型。26份模型资产覆盖原28个区域；这是混合来源预览，覆盖28区不等于全场重新训练。</p><span class="badge">混合来源 · 楼层暂定 · 未通过高保真验收</span></header>
+<div class="stats"><div class="stat"><strong>28</strong><span>原始区域覆盖</span></div><div class="stat"><strong>26</strong><span>实际模型资产</span></div><div class="stat"><strong id="full-count">13,681,252</strong><span>完整拼接高斯</span></div><div class="stat"><strong id="overview-count">1,200,000</strong><span>真实抽样总览高斯</span></div></div>
+<div class="choices">
+<article class="card"><h2>① 先看全场总览</h2><p>从每份来源中分层抽取真实高斯，约120万点，覆盖所有来源。用于先看整场布局、上下层关系与各区域位置。</p><a class="button" href="http://127.0.0.1:8769/" target="_blank" rel="noopener">打开全场总览 →</a><p class="small">打开后点“加载”，再用“适配已显示区块”、俯视或侧视观察。总览经过精简，局部稀疏处应到详图核对。</p></article>
+<article class="card"><h2>② 按区域查看完整细节</h2><p>按需加载26份原始资产。每份保留完整记录，选择楼层索引和对应区块，可进入已有区域参考视角。</p><a class="button secondary" href="http://127.0.0.1:8770/" target="_blank" rel="noopener">打开原始分区详图 →</a><p class="small">F6可选择025／026／027历史块。更换000与joint015这类大模型前先“卸载”；隐藏仍占内存。</p></article>
+</div>
+<p id="verification" class="status" role="status">实际查看器验收通过：总览加载1,200,000点，F6历史块027加载235,743点。用户服务保持运行。</p>
+<figure id="overview-figure"><a href="overview.png" target="_blank" rel="noopener"><img src="overview.png" alt="实际浏览器全场总览截图" id="overview-image"></a><figcaption>实际浏览器斜视截图。相机按完整模型范围适配，轮廓较小；打开查看器后可滚轮放大。<a href="overview_side.png">查看实际侧视截图</a> · <a href="f6_block_027.png">查看F6历史块027的区域参考视角</a>。截图用于确认加载与浏览，不能替代质量验收。</figcaption></figure>
+<h2>本次拼接用了哪些模型</h2>
+<div class="table-wrap"><table><thead><tr><th>原区域</th><th>实际使用来源</th><th>在详图中的组织方式</th></tr></thead><tbody>
+<tr><td>000</td><td>最新measuredseed＋切向尺度上限退火，15k实际训练模型</td><td>单资产；切向上限0.12m→0.03m，warm opacity cap恒为1.0</td></tr>
+<tr><td>014／015／016</td><td>joint015联合训练模型</td><td>由一份联合资产替换这三个历史来源，不重复放三份</td></tr>
+<tr><td>其余24个区域</td><td>原有已训练模型</td><td>逐资产保留原数据，包含较高楼层的历史块</td></tr>
+</tbody></table></div>
+<div class="note"><strong>完整数据与总览不同。</strong>完整PLY包含所选26份资产的全部高斯，没有ownership裁剪、去重、颜色或尺度改写；因此来源之间原有重叠也会保留。总览采用真实分层抽样，没有保证极值点全部入样，实际采样包围盒可略内缩；查看相机按完整场景范围适配。楼层划分仍是暂定索引。</div>
+<p><a href="../../maps/garage_fidelity_v2_full_preview/evaluation/">查看本轮最终模型的原生渲染对照图</a> · <a href="../cleanup_v2_summary.md">成果保留与空间清理记录</a></p>
+<p><a href="../../maps/garage_fidelity_v2_full_preview/gaussians_full.ply" download>下载完整拼接PLY（约3.16 GiB）</a> · <a href="../../maps/garage_fidelity_v2_full_preview/assembly.json">来源与拼接记录</a> · <a href="../full_preview_v2_viewer.md">查看器验收说明</a></p>
+<p class="small">完整文件用于保存全部记录；浏览器优先使用精简总览与按需详图。本轮是快速查看工程交付，不能据此认定几何、颜色或六层重建已经验收。</p>
+<footer>本地入口：8769全场总览 · 8770分区详图。验收测试仅关闭自己启动的浏览器，用户现有浏览器与主代理服务保持运行。</footer>
+</main>
+<script>
+async function refreshEvidence(){try{const response=await fetch('../full_preview_v2_viewer.json',{cache:'no-store'});if(!response.ok)return;const report=await response.json();if(report.cpu?.full?.gaussians)document.querySelector('#full-count').textContent=report.cpu.full.gaussians.toLocaleString();if(report.cpu?.overview?.gaussians)document.querySelector('#overview-count').textContent=report.cpu.overview.gaussians.toLocaleString();const el=document.querySelector('#verification');if(report.gpu?.status==='PASS'){el.textContent='独立验收已完成：实际总览加载计数、完整视域适配和F6历史块加载通过。用户服务保持运行。';document.querySelector('#overview-image').src='overview.png';document.querySelector('#overview-figure').hidden=false;}else if(report.cpu?.status==='PASS')el.textContent='26资产与总览CPU/路由检查通过；实际浏览器检查'+(report.gpu?.status==='FAILED'?'未通过，详情见验收说明。':'待完成。');}catch{}}
+refreshEvidence();setInterval(refreshEvidence,10000);
+</script>
+</html>

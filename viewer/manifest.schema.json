@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Garage metric Gaussian map manifest v1",
+  "type": "object",
+  "required": ["schema_version", "coordinates", "units", "blocks"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "title": {"type": "string"},
+    "dataset_kind": {"enum": ["real", "synthetic"], "default": "real"},
+    "coordinates": {"const": "camera_init"},
+    "units": {"const": "m"},
+    "camera_up": {"$ref": "#/$defs/vector", "default": [0, 0, 1]},
+    "blocks": {"type": "array", "maxItems": 10000, "items": {"$ref": "#/$defs/block"}}
+  },
+  "$defs": {
+    "vector": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "number"}},
+    "projectPly": {"type": "string", "description": "Project-relative POSIX path. Server rejects absolute paths, '..', hidden components, backslashes, colons, symlinks and nonregular files.", "pattern": "^[^\\\\:]+\\.[pP][lL][yY]$"},
+    "bbox": {"type": "object", "required": ["min", "max"], "properties": {"min": {"$ref": "#/$defs/vector"}, "max": {"$ref": "#/$defs/vector"}}},
+    "training": {
+      "type": "object",
+      "properties": {
+        "status": {"type": "string", "description": "Recommended: pending, trained, failed, synthetic. An object can be empty if genuinely unknown."},
+        "method": {"type": "string"}, "iterations": {"type": "integer", "minimum": 0},
+        "calibration_verified": {"type": "boolean"}, "source": {"type": "string"}, "not_real_data": {"type": "boolean"}
+      }
+    },
+    "eval": {
+      "type": "object",
+      "properties": {
+        "status": {"type": "string", "description": "Recommended: not_evaluated, evaluated"},
+        "psnr_db": {"type": ["number", "null"]}, "ssim": {"type": ["number", "null"]},
+        "lpips": {"type": ["number", "null"]}, "geometry_rmse_m": {"type": ["number", "null"]},
+        "split": {"type": "string"}, "report_path": {"type": "string"}, "note": {"type": "string"}
+      }
+    },
+    "lidar": {
+      "type": "object", "required": ["path", "coordinates", "alignment_verified"],
+      "properties": {
+        "path": {"$ref": "#/$defs/projectPly"}, "coordinates": {"const": "camera_init"},
+        "alignment_verified": {"const": true}, "source": {"type": "string"}
+      }
+    },
+    "block": {
+      "type": "object", "required": ["id", "floor_id", "path", "coordinates", "bbox_m", "training", "eval"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[A-Za-z0-9_-]{1,96}$"},
+        "label": {"type": "string"},
+        "floor_id": {"oneOf": [{"type": "null"}, {"type": "string", "minLength": 1, "maxLength": 96}]},
+        "floor_verified": {"type": "boolean", "default": false},
+        "path": {"$ref": "#/$defs/projectPly"}, "coordinates": {"const": "camera_init"},
+        "bbox_m": {"$ref": "#/$defs/bbox"}, "training": {"$ref": "#/$defs/training"},
+        "eval": {"$ref": "#/$defs/eval"}, "lidar": {"$ref": "#/$defs/lidar"}
+      }
+    }
+  },
+  "description": "Additional metadata allowed. Server additionally checks unique IDs, finite values, nonzero camera_up, min<=max, confined paths and model compatibility. Geometry is exported directly in a shared metric world frame; no per-block transforms are applied. Never use unknown height bands as verified floor labels."
+}

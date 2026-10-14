@@ -1,0 +1,1924 @@
+{
+  "protocol": "nvidia-smi whole-device samples every10s; includes desktop allocations, sampled peak only; training torch allocator exact peak separate",
+  "samples": [
+    {
+      "time": "2026-10-09T12:24:47.573998+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 69.0,
+      "temperature_c": 62.0,
+      "power_w": 51.55
+    },
+    {
+      "time": "2026-10-09T12:24:57.624592+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 65.0,
+      "temperature_c": 59.0,
+      "power_w": 52.01
+    },
+    {
+      "time": "2026-10-09T12:25:07.690642+08:00",
+      "device_memory_used_mib": 6979.0,
+      "utilization_percent": 94.0,
+      "temperature_c": 56.0,
+      "power_w": 18.86
+    },
+    {
+      "time": "2026-10-09T12:25:17.739972+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 66.0,
+      "temperature_c": 58.0,
+      "power_w": 51.28
+    },
+    {
+      "time": "2026-10-09T12:25:27.829168+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 62.0,
+      "temperature_c": 58.0,
+      "power_w": 52.28
+    },
+    {
+      "time": "2026-10-09T12:25:37.856278+08:00",
+      "device_memory_used_mib": 6167.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 50.0,
+      "power_w": 11.91
+    },
+    {
+      "time": "2026-10-09T12:25:47.911364+08:00",
+      "device_memory_used_mib": 7007.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 59.0,
+      "power_w": 52.38
+    },
+    {
+      "time": "2026-10-09T12:25:57.966761+08:00",
+      "device_memory_used_mib": 7007.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 52.16
+    },
+    {
+      "time": "2026-10-09T12:26:08.057844+08:00",
+      "device_memory_used_mib": 7113.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 59.0,
+      "power_w": 53.41
+    },
+    {
+      "time": "2026-10-09T12:26:18.116859+08:00",
+      "device_memory_used_mib": 7113.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 60.0,
+      "power_w": 54.13
+    },
+    {
+      "time": "2026-10-09T12:26:28.145344+08:00",
+      "device_memory_used_mib": 7101.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 59.0,
+      "power_w": 32.16
+    },
+    {
+      "time": "2026-10-09T12:26:38.205548+08:00",
+      "device_memory_used_mib": 7101.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 60.0,
+      "power_w": 53.69
+    },
+    {
+      "time": "2026-10-09T12:26:48.263682+08:00",
+      "device_memory_used_mib": 7101.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 60.0,
+      "power_w": 55.0
+    },
+    {
+      "time": "2026-10-09T12:26:58.338479+08:00",
+      "device_memory_used_mib": 6861.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 53.46
+    },
+    {
+      "time": "2026-10-09T12:27:08.396954+08:00",
+      "device_memory_used_mib": 6861.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.59
+    },
+    {
+      "time": "2026-10-09T12:27:18.482569+08:00",
+      "device_memory_used_mib": 6811.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 54.11
+    },
+    {
+      "time": "2026-10-09T12:27:28.576616+08:00",
+      "device_memory_used_mib": 6811.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 53.27
+    },
+    {
+      "time": "2026-10-09T12:27:38.624847+08:00",
+      "device_memory_used_mib": 6917.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 53.21
+    },
+    {
+      "time": "2026-10-09T12:27:48.690965+08:00",
+      "device_memory_used_mib": 6917.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 54.26
+    },
+    {
+      "time": "2026-10-09T12:27:58.841542+08:00",
+      "device_memory_used_mib": 6829.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 54.23
+    },
+    {
+      "time": "2026-10-09T12:28:08.896039+08:00",
+      "device_memory_used_mib": 6829.0,
+      "utilization_percent": 89.0,
+      "temperature_c": 60.0,
+      "power_w": 52.54
+    },
+    {
+      "time": "2026-10-09T12:28:18.981453+08:00",
+      "device_memory_used_mib": 6237.0,
+      "utilization_percent": 96.0,
+      "temperature_c": 62.0,
+      "power_w": 53.88
+    },
+    {
+      "time": "2026-10-09T12:28:29.050066+08:00",
+      "device_memory_used_mib": 6811.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 54.03
+    },
+    {
+      "time": "2026-10-09T12:28:39.088058+08:00",
+      "device_memory_used_mib": 6811.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 53.48
+    },
+    {
+      "time": "2026-10-09T12:28:49.141118+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 54.08
+    },
+    {
+      "time": "2026-10-09T12:28:59.181270+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 87.0,
+      "temperature_c": 58.0,
+      "power_w": 54.22
+    },
+    {
+      "time": "2026-10-09T12:29:09.226957+08:00",
+      "device_memory_used_mib": 6197.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 53.0,
+      "power_w": 26.77
+    },
+    {
+      "time": "2026-10-09T12:29:19.300139+08:00",
+      "device_memory_used_mib": 7037.0,
+      "utilization_percent": 89.0,
+      "temperature_c": 57.0,
+      "power_w": 53.6
+    },
+    {
+      "time": "2026-10-09T12:29:29.353603+08:00",
+      "device_memory_used_mib": 7037.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 53.98
+    },
+    {
+      "time": "2026-10-09T12:29:39.419581+08:00",
+      "device_memory_used_mib": 6995.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 59.0,
+      "power_w": 53.45
+    },
+    {
+      "time": "2026-10-09T12:29:49.507647+08:00",
+      "device_memory_used_mib": 6995.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 54.01
+    },
+    {
+      "time": "2026-10-09T12:29:59.564856+08:00",
+      "device_memory_used_mib": 6955.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 56.0,
+      "power_w": 18.75
+    },
+    {
+      "time": "2026-10-09T12:30:09.615609+08:00",
+      "device_memory_used_mib": 6959.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 60.0,
+      "power_w": 54.62
+    },
+    {
+      "time": "2026-10-09T12:30:19.664345+08:00",
+      "device_memory_used_mib": 6959.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 53.5
+    },
+    {
+      "time": "2026-10-09T12:30:29.716343+08:00",
+      "device_memory_used_mib": 6889.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 59.0,
+      "power_w": 53.96
+    },
+    {
+      "time": "2026-10-09T12:30:39.796769+08:00",
+      "device_memory_used_mib": 6889.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 59.0,
+      "power_w": 53.87
+    },
+    {
+      "time": "2026-10-09T12:30:49.848717+08:00",
+      "device_memory_used_mib": 7087.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 57.0,
+      "power_w": 53.91
+    },
+    {
+      "time": "2026-10-09T12:30:59.916817+08:00",
+      "device_memory_used_mib": 7087.0,
+      "utilization_percent": 97.0,
+      "temperature_c": 58.0,
+      "power_w": 54.07
+    },
+    {
+      "time": "2026-10-09T12:31:09.965570+08:00",
+      "device_memory_used_mib": 6997.0,
+      "utilization_percent": 74.0,
+      "temperature_c": 58.0,
+      "power_w": 53.43
+    },
+    {
+      "time": "2026-10-09T12:31:20.028388+08:00",
+      "device_memory_used_mib": 6997.0,
+      "utilization_percent": 90.0,
+      "temperature_c": 58.0,
+      "power_w": 54.19
+    },
+    {
+      "time": "2026-10-09T12:31:30.219742+08:00",
+      "device_memory_used_mib": 6993.0,
+      "utilization_percent": 90.0,
+      "temperature_c": 56.0,
+      "power_w": 30.09
+    },
+    {
+      "time": "2026-10-09T12:31:40.261577+08:00",
+      "device_memory_used_mib": 6993.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 57.0,
+      "power_w": 53.3
+    },
+    {
+      "time": "2026-10-09T12:31:50.315823+08:00",
+      "device_memory_used_mib": 6993.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.91
+    },
+    {
+      "time": "2026-10-09T12:32:00.401511+08:00",
+      "device_memory_used_mib": 6987.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 53.43
+    },
+    {
+      "time": "2026-10-09T12:32:10.499217+08:00",
+      "device_memory_used_mib": 6987.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 54.28
+    },
+    {
+      "time": "2026-10-09T12:32:20.542684+08:00",
+      "device_memory_used_mib": 6951.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.78
+    },
+    {
+      "time": "2026-10-09T12:32:30.689455+08:00",
+      "device_memory_used_mib": 6951.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 54.04
+    },
+    {
+      "time": "2026-10-09T12:32:40.775697+08:00",
+      "device_memory_used_mib": 6945.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 60.0,
+      "power_w": 54.11
+    },
+    {
+      "time": "2026-10-09T12:32:50.846322+08:00",
+      "device_memory_used_mib": 6945.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 54.2
+    },
+    {
+      "time": "2026-10-09T12:33:00.919819+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 96.0,
+      "temperature_c": 57.0,
+      "power_w": 53.78
+    },
+    {
+      "time": "2026-10-09T12:33:10.973291+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 58.0,
+      "power_w": 54.0
+    },
+    {
+      "time": "2026-10-09T12:33:21.011073+08:00",
+      "device_memory_used_mib": 6441.0,
+      "utilization_percent": 3.0,
+      "temperature_c": 53.0,
+      "power_w": 19.09
+    },
+    {
+      "time": "2026-10-09T12:33:31.078003+08:00",
+      "device_memory_used_mib": 6991.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.17
+    },
+    {
+      "time": "2026-10-09T12:33:41.153896+08:00",
+      "device_memory_used_mib": 6991.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 53.81
+    },
+    {
+      "time": "2026-10-09T12:33:51.212502+08:00",
+      "device_memory_used_mib": 7005.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 53.22
+    },
+    {
+      "time": "2026-10-09T12:34:01.304519+08:00",
+      "device_memory_used_mib": 7005.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 60.0,
+      "power_w": 53.72
+    },
+    {
+      "time": "2026-10-09T12:34:11.337309+08:00",
+      "device_memory_used_mib": 7135.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 60.0,
+      "power_w": 52.58
+    },
+    {
+      "time": "2026-10-09T12:34:21.393475+08:00",
+      "device_memory_used_mib": 7135.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 60.0,
+      "power_w": 53.57
+    },
+    {
+      "time": "2026-10-09T12:34:31.447811+08:00",
+      "device_memory_used_mib": 6965.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 57.0,
+      "power_w": 54.15
+    },
+    {
+      "time": "2026-10-09T12:34:41.496059+08:00",
+      "device_memory_used_mib": 6965.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 58.0,
+      "power_w": 53.33
+    },
+    {
+      "time": "2026-10-09T12:34:51.552383+08:00",
+      "device_memory_used_mib": 6975.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 40.01
+    },
+    {
+      "time": "2026-10-09T12:35:01.629206+08:00",
+      "device_memory_used_mib": 6977.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 54.19
+    },
+    {
+      "time": "2026-10-09T12:35:11.660095+08:00",
+      "device_memory_used_mib": 6977.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 54.81
+    },
+    {
+      "time": "2026-10-09T12:35:21.712867+08:00",
+      "device_memory_used_mib": 7061.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 53.53
+    },
+    {
+      "time": "2026-10-09T12:35:31.760453+08:00",
+      "device_memory_used_mib": 7061.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 53.56
+    },
+    {
+      "time": "2026-10-09T12:35:41.817851+08:00",
+      "device_memory_used_mib": 6977.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 54.65
+    },
+    {
+      "time": "2026-10-09T12:35:51.867968+08:00",
+      "device_memory_used_mib": 6977.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 54.08
+    },
+    {
+      "time": "2026-10-09T12:36:01.915948+08:00",
+      "device_memory_used_mib": 6195.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 53.0,
+      "power_w": 16.12
+    },
+    {
+      "time": "2026-10-09T12:36:11.945473+08:00",
+      "device_memory_used_mib": 6913.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 54.37
+    },
+    {
+      "time": "2026-10-09T12:36:21.995785+08:00",
+      "device_memory_used_mib": 6913.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.59
+    },
+    {
+      "time": "2026-10-09T12:36:32.108431+08:00",
+      "device_memory_used_mib": 7027.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 57.0,
+      "power_w": 53.56
+    },
+    {
+      "time": "2026-10-09T12:36:42.204638+08:00",
+      "device_memory_used_mib": 7027.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.24
+    },
+    {
+      "time": "2026-10-09T12:36:52.272147+08:00",
+      "device_memory_used_mib": 6997.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.6
+    },
+    {
+      "time": "2026-10-09T12:37:02.448983+08:00",
+      "device_memory_used_mib": 6997.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.64
+    },
+    {
+      "time": "2026-10-09T12:37:12.495435+08:00",
+      "device_memory_used_mib": 7111.0,
+      "utilization_percent": 94.0,
+      "temperature_c": 58.0,
+      "power_w": 53.45
+    },
+    {
+      "time": "2026-10-09T12:37:22.555256+08:00",
+      "device_memory_used_mib": 7111.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 61.0,
+      "power_w": 53.67
+    },
+    {
+      "time": "2026-10-09T12:37:32.595134+08:00",
+      "device_memory_used_mib": 6105.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 56.0,
+      "power_w": 34.58
+    },
+    {
+      "time": "2026-10-09T12:37:42.688927+08:00",
+      "device_memory_used_mib": 6965.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 53.53
+    },
+    {
+      "time": "2026-10-09T12:37:52.736964+08:00",
+      "device_memory_used_mib": 6965.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 53.45
+    },
+    {
+      "time": "2026-10-09T12:38:02.891220+08:00",
+      "device_memory_used_mib": 6957.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.58
+    },
+    {
+      "time": "2026-10-09T12:38:12.983789+08:00",
+      "device_memory_used_mib": 6957.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 58.0,
+      "power_w": 53.98
+    },
+    {
+      "time": "2026-10-09T12:38:23.080462+08:00",
+      "device_memory_used_mib": 7039.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 53.72
+    },
+    {
+      "time": "2026-10-09T12:38:33.153701+08:00",
+      "device_memory_used_mib": 7039.0,
+      "utilization_percent": 86.0,
+      "temperature_c": 57.0,
+      "power_w": 53.33
+    },
+    {
+      "time": "2026-10-09T12:38:43.200962+08:00",
+      "device_memory_used_mib": 6989.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 53.55
+    },
+    {
+      "time": "2026-10-09T12:38:53.280302+08:00",
+      "device_memory_used_mib": 6991.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 54.08
+    },
+    {
+      "time": "2026-10-09T12:39:03.328204+08:00",
+      "device_memory_used_mib": 7007.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 22.82
+    },
+    {
+      "time": "2026-10-09T12:39:13.382705+08:00",
+      "device_memory_used_mib": 7009.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 53.81
+    },
+    {
+      "time": "2026-10-09T12:39:23.422756+08:00",
+      "device_memory_used_mib": 7009.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 61.0,
+      "power_w": 53.35
+    },
+    {
+      "time": "2026-10-09T12:39:33.615275+08:00",
+      "device_memory_used_mib": 7037.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 59.0,
+      "power_w": 54.26
+    },
+    {
+      "time": "2026-10-09T12:39:43.674398+08:00",
+      "device_memory_used_mib": 7037.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 54.25
+    },
+    {
+      "time": "2026-10-09T12:39:53.711251+08:00",
+      "device_memory_used_mib": 6987.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 58.0,
+      "power_w": 53.72
+    },
+    {
+      "time": "2026-10-09T12:40:03.844133+08:00",
+      "device_memory_used_mib": 6987.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 54.85
+    },
+    {
+      "time": "2026-10-09T12:40:13.911347+08:00",
+      "device_memory_used_mib": 7011.0,
+      "utilization_percent": 79.0,
+      "temperature_c": 59.0,
+      "power_w": 54.45
+    },
+    {
+      "time": "2026-10-09T12:40:23.964261+08:00",
+      "device_memory_used_mib": 7011.0,
+      "utilization_percent": 91.0,
+      "temperature_c": 57.0,
+      "power_w": 53.78
+    },
+    {
+      "time": "2026-10-09T12:40:34.004447+08:00",
+      "device_memory_used_mib": 6119.0,
+      "utilization_percent": 2.0,
+      "temperature_c": 53.0,
+      "power_w": 26.13
+    },
+    {
+      "time": "2026-10-09T12:40:44.053199+08:00",
+      "device_memory_used_mib": 6989.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 54.33
+    },
+    {
+      "time": "2026-10-09T12:40:54.109942+08:00",
+      "device_memory_used_mib": 6989.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 59.0,
+      "power_w": 53.79
+    },
+    {
+      "time": "2026-10-09T12:41:04.166697+08:00",
+      "device_memory_used_mib": 7087.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 54.16
+    },
+    {
+      "time": "2026-10-09T12:41:14.381534+08:00",
+      "device_memory_used_mib": 7087.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 53.81
+    },
+    {
+      "time": "2026-10-09T12:41:24.435909+08:00",
+      "device_memory_used_mib": 6989.0,
+      "utilization_percent": 84.0,
+      "temperature_c": 60.0,
+      "power_w": 54.12
+    },
+    {
+      "time": "2026-10-09T12:41:34.491892+08:00",
+      "device_memory_used_mib": 6989.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 61.0,
+      "power_w": 53.83
+    },
+    {
+      "time": "2026-10-09T12:41:44.547542+08:00",
+      "device_memory_used_mib": 7061.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 53.99
+    },
+    {
+      "time": "2026-10-09T12:41:54.580846+08:00",
+      "device_memory_used_mib": 7061.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 53.38
+    },
+    {
+      "time": "2026-10-09T12:42:04.627170+08:00",
+      "device_memory_used_mib": 6231.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 53.0,
+      "power_w": 29.35
+    },
+    {
+      "time": "2026-10-09T12:42:14.756837+08:00",
+      "device_memory_used_mib": 7167.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 57.0,
+      "power_w": 53.77
+    },
+    {
+      "time": "2026-10-09T12:42:24.804150+08:00",
+      "device_memory_used_mib": 7167.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 57.0,
+      "power_w": 53.24
+    },
+    {
+      "time": "2026-10-09T12:42:34.884514+08:00",
+      "device_memory_used_mib": 7013.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 54.09
+    },
+    {
+      "time": "2026-10-09T12:42:45.135234+08:00",
+      "device_memory_used_mib": 7013.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 53.55
+    },
+    {
+      "time": "2026-10-09T12:42:55.193274+08:00",
+      "device_memory_used_mib": 6963.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 53.78
+    },
+    {
+      "time": "2026-10-09T12:43:05.231530+08:00",
+      "device_memory_used_mib": 6963.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 53.57
+    },
+    {
+      "time": "2026-10-09T12:43:15.319887+08:00",
+      "device_memory_used_mib": 6997.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 53.88
+    },
+    {
+      "time": "2026-10-09T12:43:25.353373+08:00",
+      "device_memory_used_mib": 6997.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 53.27
+    },
+    {
+      "time": "2026-10-09T12:43:35.405255+08:00",
+      "device_memory_used_mib": 6219.0,
+      "utilization_percent": 97.0,
+      "temperature_c": 58.0,
+      "power_w": 54.67
+    },
+    {
+      "time": "2026-10-09T12:43:45.480067+08:00",
+      "device_memory_used_mib": 6883.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 52.82
+    },
+    {
+      "time": "2026-10-09T12:43:55.532471+08:00",
+      "device_memory_used_mib": 6883.0,
+      "utilization_percent": 86.0,
+      "temperature_c": 58.0,
+      "power_w": 53.7
+    },
+    {
+      "time": "2026-10-09T12:44:05.584627+08:00",
+      "device_memory_used_mib": 7059.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 59.0,
+      "power_w": 53.88
+    },
+    {
+      "time": "2026-10-09T12:44:15.730668+08:00",
+      "device_memory_used_mib": 7059.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 60.0,
+      "power_w": 53.97
+    },
+    {
+      "time": "2026-10-09T12:44:25.760511+08:00",
+      "device_memory_used_mib": 6153.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 54.0,
+      "power_w": 20.45
+    },
+    {
+      "time": "2026-10-09T12:44:35.816255+08:00",
+      "device_memory_used_mib": 6993.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 53.75
+    },
+    {
+      "time": "2026-10-09T12:44:45.887578+08:00",
+      "device_memory_used_mib": 6993.0,
+      "utilization_percent": 92.0,
+      "temperature_c": 57.0,
+      "power_w": 53.2
+    },
+    {
+      "time": "2026-10-09T12:44:55.957953+08:00",
+      "device_memory_used_mib": 6955.0,
+      "utilization_percent": 77.0,
+      "temperature_c": 58.0,
+      "power_w": 53.32
+    },
+    {
+      "time": "2026-10-09T12:45:05.986598+08:00",
+      "device_memory_used_mib": 6955.0,
+      "utilization_percent": 86.0,
+      "temperature_c": 57.0,
+      "power_w": 54.07
+    },
+    {
+      "time": "2026-10-09T12:45:16.047342+08:00",
+      "device_memory_used_mib": 6965.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 54.36
+    },
+    {
+      "time": "2026-10-09T12:45:26.123654+08:00",
+      "device_memory_used_mib": 6965.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 54.22
+    },
+    {
+      "time": "2026-10-09T12:45:36.159108+08:00",
+      "device_memory_used_mib": 7033.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 53.81
+    },
+    {
+      "time": "2026-10-09T12:45:46.208758+08:00",
+      "device_memory_used_mib": 7033.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 54.2
+    },
+    {
+      "time": "2026-10-09T12:45:56.312944+08:00",
+      "device_memory_used_mib": 6127.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 54.0,
+      "power_w": 23.08
+    },
+    {
+      "time": "2026-10-09T12:46:06.408121+08:00",
+      "device_memory_used_mib": 6957.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 61.0,
+      "power_w": 53.89
+    },
+    {
+      "time": "2026-10-09T12:46:16.465243+08:00",
+      "device_memory_used_mib": 6957.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 54.12
+    },
+    {
+      "time": "2026-10-09T12:46:26.527783+08:00",
+      "device_memory_used_mib": 7123.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 59.0,
+      "power_w": 53.44
+    },
+    {
+      "time": "2026-10-09T12:46:36.578884+08:00",
+      "device_memory_used_mib": 7123.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 53.78
+    },
+    {
+      "time": "2026-10-09T12:46:46.614034+08:00",
+      "device_memory_used_mib": 6887.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 54.38
+    },
+    {
+      "time": "2026-10-09T12:46:56.799255+08:00",
+      "device_memory_used_mib": 6887.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 53.5
+    },
+    {
+      "time": "2026-10-09T12:47:06.829288+08:00",
+      "device_memory_used_mib": 6951.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 59.0,
+      "power_w": 53.71
+    },
+    {
+      "time": "2026-10-09T12:47:16.877525+08:00",
+      "device_memory_used_mib": 6951.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.83
+    },
+    {
+      "time": "2026-10-09T12:47:26.931551+08:00",
+      "device_memory_used_mib": 6073.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 53.0,
+      "power_w": 20.41
+    },
+    {
+      "time": "2026-10-09T12:47:36.963159+08:00",
+      "device_memory_used_mib": 6885.0,
+      "utilization_percent": 84.0,
+      "temperature_c": 57.0,
+      "power_w": 54.14
+    },
+    {
+      "time": "2026-10-09T12:47:47.038213+08:00",
+      "device_memory_used_mib": 6885.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 58.0,
+      "power_w": 54.1
+    },
+    {
+      "time": "2026-10-09T12:47:57.087942+08:00",
+      "device_memory_used_mib": 6983.0,
+      "utilization_percent": 84.0,
+      "temperature_c": 58.0,
+      "power_w": 53.72
+    },
+    {
+      "time": "2026-10-09T12:48:07.162796+08:00",
+      "device_memory_used_mib": 6983.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 60.0,
+      "power_w": 54.12
+    },
+    {
+      "time": "2026-10-09T12:48:17.221365+08:00",
+      "device_memory_used_mib": 6989.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 59.0,
+      "power_w": 53.97
+    },
+    {
+      "time": "2026-10-09T12:48:27.323508+08:00",
+      "device_memory_used_mib": 6989.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 59.0,
+      "power_w": 54.14
+    },
+    {
+      "time": "2026-10-09T12:48:37.393936+08:00",
+      "device_memory_used_mib": 7055.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 53.61
+    },
+    {
+      "time": "2026-10-09T12:48:47.447898+08:00",
+      "device_memory_used_mib": 7055.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 54.46
+    },
+    {
+      "time": "2026-10-09T12:48:57.522971+08:00",
+      "device_memory_used_mib": 6997.0,
+      "utilization_percent": 89.0,
+      "temperature_c": 59.0,
+      "power_w": 39.68
+    },
+    {
+      "time": "2026-10-09T12:49:07.687325+08:00",
+      "device_memory_used_mib": 6999.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 54.51
+    },
+    {
+      "time": "2026-10-09T12:49:17.736557+08:00",
+      "device_memory_used_mib": 6999.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 59.0,
+      "power_w": 53.77
+    },
+    {
+      "time": "2026-10-09T12:49:27.793160+08:00",
+      "device_memory_used_mib": 7013.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 54.06
+    },
+    {
+      "time": "2026-10-09T12:49:37.887464+08:00",
+      "device_memory_used_mib": 7013.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 61.0,
+      "power_w": 54.4
+    },
+    {
+      "time": "2026-10-09T12:49:47.918285+08:00",
+      "device_memory_used_mib": 7039.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.83
+    },
+    {
+      "time": "2026-10-09T12:49:57.946085+08:00",
+      "device_memory_used_mib": 7039.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 62.0,
+      "power_w": 53.98
+    },
+    {
+      "time": "2026-10-09T12:50:08.104990+08:00",
+      "device_memory_used_mib": 6975.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 60.0,
+      "power_w": 54.06
+    },
+    {
+      "time": "2026-10-09T12:50:18.158340+08:00",
+      "device_memory_used_mib": 6975.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 53.41
+    },
+    {
+      "time": "2026-10-09T12:50:28.207817+08:00",
+      "device_memory_used_mib": 6873.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 29.39
+    },
+    {
+      "time": "2026-10-09T12:50:38.300335+08:00",
+      "device_memory_used_mib": 6875.0,
+      "utilization_percent": 91.0,
+      "temperature_c": 57.0,
+      "power_w": 53.98
+    },
+    {
+      "time": "2026-10-09T12:50:48.352376+08:00",
+      "device_memory_used_mib": 6875.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 60.0,
+      "power_w": 54.31
+    },
+    {
+      "time": "2026-10-09T12:50:58.388906+08:00",
+      "device_memory_used_mib": 6847.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 52.89
+    },
+    {
+      "time": "2026-10-09T12:51:08.420587+08:00",
+      "device_memory_used_mib": 6847.0,
+      "utilization_percent": 84.0,
+      "temperature_c": 59.0,
+      "power_w": 53.3
+    },
+    {
+      "time": "2026-10-09T12:51:18.449057+08:00",
+      "device_memory_used_mib": 6257.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 51.0,
+      "power_w": 12.71
+    },
+    {
+      "time": "2026-10-09T12:51:28.507964+08:00",
+      "device_memory_used_mib": 6801.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 54.16
+    },
+    {
+      "time": "2026-10-09T12:51:38.558397+08:00",
+      "device_memory_used_mib": 6801.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 53.72
+    },
+    {
+      "time": "2026-10-09T12:51:48.600184+08:00",
+      "device_memory_used_mib": 6863.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 54.01
+    },
+    {
+      "time": "2026-10-09T12:51:58.650885+08:00",
+      "device_memory_used_mib": 6863.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 53.9
+    },
+    {
+      "time": "2026-10-09T12:52:08.704537+08:00",
+      "device_memory_used_mib": 6763.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.95
+    },
+    {
+      "time": "2026-10-09T12:52:18.758477+08:00",
+      "device_memory_used_mib": 6763.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 53.88
+    },
+    {
+      "time": "2026-10-09T12:52:28.789916+08:00",
+      "device_memory_used_mib": 6779.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 54.3
+    },
+    {
+      "time": "2026-10-09T12:52:38.863229+08:00",
+      "device_memory_used_mib": 6779.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 54.04
+    },
+    {
+      "time": "2026-10-09T12:52:48.971678+08:00",
+      "device_memory_used_mib": 6583.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 54.0,
+      "power_w": 46.16
+    },
+    {
+      "time": "2026-10-09T12:52:59.009044+08:00",
+      "device_memory_used_mib": 7047.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 54.76
+    },
+    {
+      "time": "2026-10-09T12:53:09.030618+08:00",
+      "device_memory_used_mib": 7047.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 60.0,
+      "power_w": 53.97
+    },
+    {
+      "time": "2026-10-09T12:53:19.205516+08:00",
+      "device_memory_used_mib": 6947.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 53.48
+    },
+    {
+      "time": "2026-10-09T12:53:29.263969+08:00",
+      "device_memory_used_mib": 6947.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 61.0,
+      "power_w": 54.71
+    },
+    {
+      "time": "2026-10-09T12:53:39.322842+08:00",
+      "device_memory_used_mib": 7285.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 60.0,
+      "power_w": 54.38
+    },
+    {
+      "time": "2026-10-09T12:53:49.405433+08:00",
+      "device_memory_used_mib": 7285.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 59.0,
+      "power_w": 53.81
+    },
+    {
+      "time": "2026-10-09T12:53:59.454993+08:00",
+      "device_memory_used_mib": 6827.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 53.13
+    },
+    {
+      "time": "2026-10-09T12:54:09.509489+08:00",
+      "device_memory_used_mib": 6827.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 59.0,
+      "power_w": 52.9
+    },
+    {
+      "time": "2026-10-09T12:54:19.594057+08:00",
+      "device_memory_used_mib": 6285.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 55.0,
+      "power_w": 50.4
+    },
+    {
+      "time": "2026-10-09T12:54:29.663568+08:00",
+      "device_memory_used_mib": 6897.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 57.0,
+      "power_w": 53.17
+    },
+    {
+      "time": "2026-10-09T12:54:39.702395+08:00",
+      "device_memory_used_mib": 6897.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 53.36
+    },
+    {
+      "time": "2026-10-09T12:54:49.732950+08:00",
+      "device_memory_used_mib": 6787.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 53.51
+    },
+    {
+      "time": "2026-10-09T12:54:59.917535+08:00",
+      "device_memory_used_mib": 6787.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 53.19
+    },
+    {
+      "time": "2026-10-09T12:55:09.968005+08:00",
+      "device_memory_used_mib": 7205.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 60.0,
+      "power_w": 53.43
+    },
+    {
+      "time": "2026-10-09T12:55:20.217654+08:00",
+      "device_memory_used_mib": 7205.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 53.86
+    },
+    {
+      "time": "2026-10-09T12:55:30.607569+08:00",
+      "device_memory_used_mib": 6243.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 54.0,
+      "power_w": 34.39
+    },
+    {
+      "time": "2026-10-09T12:55:40.656129+08:00",
+      "device_memory_used_mib": 6747.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 61.0,
+      "power_w": 54.35
+    },
+    {
+      "time": "2026-10-09T12:55:50.708915+08:00",
+      "device_memory_used_mib": 6747.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 54.08
+    },
+    {
+      "time": "2026-10-09T12:56:00.762008+08:00",
+      "device_memory_used_mib": 6757.0,
+      "utilization_percent": 93.0,
+      "temperature_c": 60.0,
+      "power_w": 53.56
+    },
+    {
+      "time": "2026-10-09T12:56:10.835352+08:00",
+      "device_memory_used_mib": 6757.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 54.12
+    },
+    {
+      "time": "2026-10-09T12:56:20.887636+08:00",
+      "device_memory_used_mib": 6757.0,
+      "utilization_percent": 91.0,
+      "temperature_c": 58.0,
+      "power_w": 54.21
+    },
+    {
+      "time": "2026-10-09T12:56:30.933458+08:00",
+      "device_memory_used_mib": 6757.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 54.2
+    },
+    {
+      "time": "2026-10-09T12:56:40.999135+08:00",
+      "device_memory_used_mib": 6677.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 54.28
+    },
+    {
+      "time": "2026-10-09T12:56:51.071788+08:00",
+      "device_memory_used_mib": 6677.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 57.0,
+      "power_w": 53.61
+    },
+    {
+      "time": "2026-10-09T12:57:01.119959+08:00",
+      "device_memory_used_mib": 6175.0,
+      "utilization_percent": 40.0,
+      "temperature_c": 53.0,
+      "power_w": 26.31
+    },
+    {
+      "time": "2026-10-09T12:57:11.184815+08:00",
+      "device_memory_used_mib": 6877.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 53.71
+    },
+    {
+      "time": "2026-10-09T12:57:21.319241+08:00",
+      "device_memory_used_mib": 6877.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 60.0,
+      "power_w": 53.69
+    },
+    {
+      "time": "2026-10-09T12:57:31.387643+08:00",
+      "device_memory_used_mib": 6747.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 60.0,
+      "power_w": 53.78
+    },
+    {
+      "time": "2026-10-09T12:57:41.475033+08:00",
+      "device_memory_used_mib": 6747.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 53.84
+    },
+    {
+      "time": "2026-10-09T12:57:51.546375+08:00",
+      "device_memory_used_mib": 6787.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 59.0,
+      "power_w": 54.89
+    },
+    {
+      "time": "2026-10-09T12:58:01.619779+08:00",
+      "device_memory_used_mib": 6787.0,
+      "utilization_percent": 83.0,
+      "temperature_c": 58.0,
+      "power_w": 54.14
+    },
+    {
+      "time": "2026-10-09T12:58:11.713440+08:00",
+      "device_memory_used_mib": 6911.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 53.62
+    },
+    {
+      "time": "2026-10-09T12:58:21.807367+08:00",
+      "device_memory_used_mib": 6911.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 59.0,
+      "power_w": 54.32
+    },
+    {
+      "time": "2026-10-09T12:58:31.855200+08:00",
+      "device_memory_used_mib": 6349.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 54.0,
+      "power_w": 38.14
+    },
+    {
+      "time": "2026-10-09T12:58:41.904297+08:00",
+      "device_memory_used_mib": 6811.0,
+      "utilization_percent": 97.0,
+      "temperature_c": 57.0,
+      "power_w": 53.64
+    },
+    {
+      "time": "2026-10-09T12:58:51.937288+08:00",
+      "device_memory_used_mib": 6811.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 57.0,
+      "power_w": 53.85
+    },
+    {
+      "time": "2026-10-09T12:59:01.983686+08:00",
+      "device_memory_used_mib": 6777.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 50.0,
+      "power_w": 11.89
+    },
+    {
+      "time": "2026-10-09T12:59:12.059421+08:00",
+      "device_memory_used_mib": 7239.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 54.11
+    },
+    {
+      "time": "2026-10-09T12:59:22.154070+08:00",
+      "device_memory_used_mib": 7239.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 54.63
+    },
+    {
+      "time": "2026-10-09T12:59:32.205372+08:00",
+      "device_memory_used_mib": 6751.0,
+      "utilization_percent": 87.0,
+      "temperature_c": 60.0,
+      "power_w": 53.52
+    },
+    {
+      "time": "2026-10-09T12:59:42.262380+08:00",
+      "device_memory_used_mib": 6751.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 54.33
+    },
+    {
+      "time": "2026-10-09T12:59:52.339414+08:00",
+      "device_memory_used_mib": 6805.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 54.29
+    },
+    {
+      "time": "2026-10-09T13:00:02.388745+08:00",
+      "device_memory_used_mib": 6805.0,
+      "utilization_percent": 96.0,
+      "temperature_c": 58.0,
+      "power_w": 53.43
+    },
+    {
+      "time": "2026-10-09T13:00:12.447203+08:00",
+      "device_memory_used_mib": 7173.0,
+      "utilization_percent": 94.0,
+      "temperature_c": 58.0,
+      "power_w": 53.4
+    },
+    {
+      "time": "2026-10-09T13:00:22.608183+08:00",
+      "device_memory_used_mib": 7173.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 53.39
+    },
+    {
+      "time": "2026-10-09T13:00:32.657198+08:00",
+      "device_memory_used_mib": 6991.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 58.0,
+      "power_w": 30.77
+    },
+    {
+      "time": "2026-10-09T13:00:42.753690+08:00",
+      "device_memory_used_mib": 6993.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 57.0,
+      "power_w": 54.16
+    },
+    {
+      "time": "2026-10-09T13:00:52.841595+08:00",
+      "device_memory_used_mib": 6993.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.7
+    },
+    {
+      "time": "2026-10-09T13:01:02.918957+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 56.0,
+      "power_w": 54.19
+    },
+    {
+      "time": "2026-10-09T13:01:12.977402+08:00",
+      "device_memory_used_mib": 6981.0,
+      "utilization_percent": 97.0,
+      "temperature_c": 59.0,
+      "power_w": 53.53
+    },
+    {
+      "time": "2026-10-09T13:01:23.028885+08:00",
+      "device_memory_used_mib": 6837.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 60.0,
+      "power_w": 53.98
+    },
+    {
+      "time": "2026-10-09T13:01:33.061418+08:00",
+      "device_memory_used_mib": 6837.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 60.0,
+      "power_w": 53.93
+    },
+    {
+      "time": "2026-10-09T13:01:43.131827+08:00",
+      "device_memory_used_mib": 7145.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 53.6
+    },
+    {
+      "time": "2026-10-09T13:01:53.188455+08:00",
+      "device_memory_used_mib": 7145.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 59.0,
+      "power_w": 53.35
+    },
+    {
+      "time": "2026-10-09T13:02:03.220104+08:00",
+      "device_memory_used_mib": 6215.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 53.0,
+      "power_w": 18.62
+    },
+    {
+      "time": "2026-10-09T13:02:13.287531+08:00",
+      "device_memory_used_mib": 6827.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 53.81
+    },
+    {
+      "time": "2026-10-09T13:02:23.339114+08:00",
+      "device_memory_used_mib": 6827.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 54.15
+    },
+    {
+      "time": "2026-10-09T13:02:33.409967+08:00",
+      "device_memory_used_mib": 7169.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 53.87
+    },
+    {
+      "time": "2026-10-09T13:02:43.490141+08:00",
+      "device_memory_used_mib": 7169.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 58.0,
+      "power_w": 53.91
+    },
+    {
+      "time": "2026-10-09T13:02:53.528193+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 54.51
+    },
+    {
+      "time": "2026-10-09T13:03:03.602339+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 58.0,
+      "power_w": 53.51
+    },
+    {
+      "time": "2026-10-09T13:03:13.658489+08:00",
+      "device_memory_used_mib": 6729.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 60.0,
+      "power_w": 53.96
+    },
+    {
+      "time": "2026-10-09T13:03:23.699048+08:00",
+      "device_memory_used_mib": 6729.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 60.0,
+      "power_w": 54.04
+    },
+    {
+      "time": "2026-10-09T13:03:33.778743+08:00",
+      "device_memory_used_mib": 6187.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 55.0,
+      "power_w": 36.44
+    },
+    {
+      "time": "2026-10-09T13:03:43.813172+08:00",
+      "device_memory_used_mib": 6959.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 54.07
+    },
+    {
+      "time": "2026-10-09T13:03:53.861100+08:00",
+      "device_memory_used_mib": 6959.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 53.95
+    },
+    {
+      "time": "2026-10-09T13:04:03.932915+08:00",
+      "device_memory_used_mib": 6869.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 58.0,
+      "power_w": 54.06
+    },
+    {
+      "time": "2026-10-09T13:04:13.989594+08:00",
+      "device_memory_used_mib": 6869.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 58.0,
+      "power_w": 53.49
+    },
+    {
+      "time": "2026-10-09T13:04:24.019320+08:00",
+      "device_memory_used_mib": 7187.0,
+      "utilization_percent": 84.0,
+      "temperature_c": 58.0,
+      "power_w": 53.69
+    },
+    {
+      "time": "2026-10-09T13:04:34.074695+08:00",
+      "device_memory_used_mib": 7187.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 53.38
+    },
+    {
+      "time": "2026-10-09T13:04:44.150936+08:00",
+      "device_memory_used_mib": 6843.0,
+      "utilization_percent": 86.0,
+      "temperature_c": 57.0,
+      "power_w": 52.44
+    },
+    {
+      "time": "2026-10-09T13:04:54.203673+08:00",
+      "device_memory_used_mib": 6843.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.89
+    },
+    {
+      "time": "2026-10-09T13:05:04.270451+08:00",
+      "device_memory_used_mib": 6271.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 55.0,
+      "power_w": 44.11
+    },
+    {
+      "time": "2026-10-09T13:05:14.421969+08:00",
+      "device_memory_used_mib": 6773.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 54.11
+    },
+    {
+      "time": "2026-10-09T13:05:24.454670+08:00",
+      "device_memory_used_mib": 6773.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 62.0,
+      "power_w": 54.36
+    },
+    {
+      "time": "2026-10-09T13:05:34.505343+08:00",
+      "device_memory_used_mib": 6789.0,
+      "utilization_percent": 79.0,
+      "temperature_c": 59.0,
+      "power_w": 53.31
+    },
+    {
+      "time": "2026-10-09T13:05:44.585365+08:00",
+      "device_memory_used_mib": 6789.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 53.15
+    },
+    {
+      "time": "2026-10-09T13:05:54.655870+08:00",
+      "device_memory_used_mib": 6789.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.55
+    },
+    {
+      "time": "2026-10-09T13:06:04.711651+08:00",
+      "device_memory_used_mib": 6789.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 54.01
+    },
+    {
+      "time": "2026-10-09T13:06:14.763313+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 53.16
+    },
+    {
+      "time": "2026-10-09T13:06:24.798441+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 84.0,
+      "temperature_c": 57.0,
+      "power_w": 54.16
+    },
+    {
+      "time": "2026-10-09T13:06:34.867629+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 97.0,
+      "temperature_c": 58.0,
+      "power_w": 54.38
+    },
+    {
+      "time": "2026-10-09T13:06:44.936050+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 57.0,
+      "power_w": 54.1
+    },
+    {
+      "time": "2026-10-09T13:06:54.993275+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 60.0,
+      "power_w": 54.14
+    },
+    {
+      "time": "2026-10-09T13:07:05.042516+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 53.85
+    },
+    {
+      "time": "2026-10-09T13:07:15.138387+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 60.0,
+      "power_w": 53.96
+    },
+    {
+      "time": "2026-10-09T13:07:25.205578+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 54.14
+    },
+    {
+      "time": "2026-10-09T13:07:35.276707+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 97.0,
+      "temperature_c": 58.0,
+      "power_w": 54.13
+    },
+    {
+      "time": "2026-10-09T13:07:45.306112+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 81.0,
+      "temperature_c": 59.0,
+      "power_w": 53.09
+    },
+    {
+      "time": "2026-10-09T13:07:55.503640+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 58.0,
+      "power_w": 53.54
+    },
+    {
+      "time": "2026-10-09T13:08:05.555747+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 91.0,
+      "temperature_c": 58.0,
+      "power_w": 54.47
+    },
+    {
+      "time": "2026-10-09T13:08:15.608989+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 58.0,
+      "power_w": 53.52
+    },
+    {
+      "time": "2026-10-09T13:08:25.670022+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 58.0,
+      "power_w": 53.94
+    },
+    {
+      "time": "2026-10-09T13:08:35.720901+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 60.0,
+      "power_w": 54.05
+    },
+    {
+      "time": "2026-10-09T13:08:45.819978+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 57.0,
+      "power_w": 53.49
+    },
+    {
+      "time": "2026-10-09T13:08:55.865393+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 54.3
+    },
+    {
+      "time": "2026-10-09T13:09:05.916182+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 59.0,
+      "power_w": 54.53
+    },
+    {
+      "time": "2026-10-09T13:09:15.968047+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 100.0,
+      "temperature_c": 59.0,
+      "power_w": 54.67
+    },
+    {
+      "time": "2026-10-09T13:09:26.027852+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 60.0,
+      "power_w": 53.92
+    },
+    {
+      "time": "2026-10-09T13:09:36.096544+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 98.0,
+      "temperature_c": 61.0,
+      "power_w": 53.81
+    },
+    {
+      "time": "2026-10-09T13:09:46.172175+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 99.0,
+      "temperature_c": 59.0,
+      "power_w": 53.89
+    },
+    {
+      "time": "2026-10-09T13:09:56.224178+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 84.0,
+      "temperature_c": 60.0,
+      "power_w": 22.89
+    },
+    {
+      "time": "2026-10-09T13:10:06.254475+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 80.0,
+      "temperature_c": 58.0,
+      "power_w": 53.84
+    },
+    {
+      "time": "2026-10-09T13:10:16.305133+08:00",
+      "device_memory_used_mib": 6749.0,
+      "utilization_percent": 82.0,
+      "temperature_c": 58.0,
+      "power_w": 53.74
+    },
+    {
+      "time": "2026-10-09T13:10:26.352457+08:00",
+      "device_memory_used_mib": 943.0,
+      "utilization_percent": 1.0,
+      "temperature_c": 50.0,
+      "power_w": 14.14
+    }
+  ],
+  "sampled_device_peak_mib": 7285.0,
+  "last": {
+    "time": "2026-10-09T13:10:26.352457+08:00",
+    "device_memory_used_mib": 943.0,
+    "utilization_percent": 1.0,
+    "temperature_c": 50.0,
+    "power_w": 14.14
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "title": "车库 Gaussian 地图（待训练示例）",
+  "dataset_kind": "real",
+  "coordinates": "camera_init",
+  "units": "m",
+  "camera_up": [0, 0, 1],
+  "blocks": [
+    {
+      "id": "block_000",
+      "label": "待训练区块 000",
+      "floor_id": null,
+      "floor_verified": false,
+      "path": "runs/block_000/gaussians.ply",
+      "coordinates": "camera_init",
+      "bbox_m": {"min": [-5, -5, -2], "max": [5, 5, 3]},
+      "training": {"status": "pending", "method": "splatfacto", "calibration_verified": false, "source": "示例，不代表真实训练记录"},
+      "eval": {"status": "not_evaluated", "note": "包围盒及模型路径仅为接口示例，请由实际训练产物替换。"}
+    }
+  ]
+}

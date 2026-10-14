@@ -1,0 +1,1444 @@
+{
+  "status": "PAIRED_DESCRIPTIVE_COMPARISON",
+  "high_fidelity_accepted": false,
+  "scope": "Fixed DEV views and ego_v2 protocol; geometry/whole-scene acceptance separate",
+  "comparisons": [
+    {
+      "comparison": "block_014_vs_original_single",
+      "candidate": {
+        "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_014/metrics.json",
+        "sha256": "c38eba81a4b1d1890cf49ad429cda7e669cc813976dac7fcd63da9652ed3865a"
+      },
+      "baseline": {
+        "path": "runs/fidelity_v2/original_single_blocks/block_014/metrics.json",
+        "sha256": "539f62bb85460b78461aeea5f98ce52b2af903f8cd252184bd26bab08af5dea0"
+      },
+      "images": 12,
+      "acceptance_plan_id": "88c1efd22ff3a2daa682315e311d8934f85a06bca3d8471c2245382df96cc03d",
+      "candidate_psnr_db": 23.591997192938404,
+      "baseline_psnr_db": 26.716410628487886,
+      "paired_delta_db_mean": -3.1244134355494797,
+      "paired_delta_db_median": -3.3450183045550066,
+      "frames_below_minus_1db": 10,
+      "frames_improved": 1,
+      "paired_delta_db_min": -5.074817934424026,
+      "paired_delta_db_max": 0.6627166723404798,
+      "rows": [
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268300747032211",
+          "camera_id": "camera_2",
+          "dataset_index": 4,
+          "candidate_psnr_db": 22.951547397890337,
+          "baseline_psnr_db": 28.026365332314363,
+          "paired_delta_db": -5.074817934424026,
+          "candidate_ssim": 0.7007139921188354,
+          "baseline_ssim": 0.7906571626663208
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268300747032211",
+          "camera_id": "camera_3",
+          "dataset_index": 5,
+          "candidate_psnr_db": 17.527829082116916,
+          "baseline_psnr_db": 22.55088156864454,
+          "paired_delta_db": -5.023052486527625,
+          "candidate_ssim": 0.6441273093223572,
+          "baseline_ssim": 0.7749278545379639
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268300747032211",
+          "camera_id": "camera_4",
+          "dataset_index": 6,
+          "candidate_psnr_db": 27.042758211812803,
+          "baseline_psnr_db": 28.664416138389953,
+          "paired_delta_db": -1.62165792657715,
+          "candidate_ssim": 0.7303705811500549,
+          "baseline_ssim": 0.8080735206604004
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268300747032211",
+          "camera_id": "camera_5",
+          "dataset_index": 7,
+          "candidate_psnr_db": 20.780493795748733,
+          "baseline_psnr_db": 23.289203635469654,
+          "paired_delta_db": -2.5087098397209218,
+          "candidate_ssim": 0.6520167589187622,
+          "baseline_ssim": 0.7621475458145142
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268308748952151",
+          "camera_id": "camera_2",
+          "dataset_index": 8,
+          "candidate_psnr_db": 26.331594654244054,
+          "baseline_psnr_db": 29.05480743679893,
+          "paired_delta_db": -2.723212782554878,
+          "candidate_ssim": 0.7133069634437561,
+          "baseline_ssim": 0.8299917578697205
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268308748952151",
+          "camera_id": "camera_3",
+          "dataset_index": 9,
+          "candidate_psnr_db": 16.75639044440025,
+          "baseline_psnr_db": 16.09367377205977,
+          "paired_delta_db": 0.6627166723404798,
+          "candidate_ssim": 0.6036409735679626,
+          "baseline_ssim": 0.6812546253204346
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268308748952151",
+          "camera_id": "camera_4",
+          "dataset_index": 10,
+          "candidate_psnr_db": 27.77779429848948,
+          "baseline_psnr_db": 28.516807846826644,
+          "paired_delta_db": -0.7390135483371658,
+          "candidate_ssim": 0.7493813633918762,
+          "baseline_ssim": 0.8043836355209351
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268308748952151",
+          "camera_id": "camera_5",
+          "dataset_index": 11,
+          "candidate_psnr_db": 20.770203893337296,
+          "baseline_psnr_db": 25.52431354132439,
+          "paired_delta_db": -4.754109647987093,
+          "candidate_ssim": 0.6868573427200317,
+          "baseline_ssim": 0.7860671877861023
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268316726159475",
+          "camera_id": "camera_2",
+          "dataset_index": 12,
+          "candidate_psnr_db": 29.064051005484266,
+          "baseline_psnr_db": 33.41859724808208,
+          "paired_delta_db": -4.354546242597813,
+          "candidate_ssim": 0.7661029100418091,
+          "baseline_ssim": 0.8588464260101318
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268316726159475",
+          "camera_id": "camera_3",
+          "dataset_index": 13,
+          "candidate_psnr_db": 17.310357813592027,
+          "baseline_psnr_db": 20.683426489967726,
+          "paired_delta_db": -3.3730686763756985,
+          "candidate_ssim": 0.7109317183494568,
+          "baseline_ssim": 0.8028615713119507
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268316726159475",
+          "camera_id": "camera_4",
+          "dataset_index": 14,
+          "candidate_psnr_db": 28.50817455063296,
+          "baseline_psnr_db": 31.825142483367273,
+          "paired_delta_db": -3.3169679327343147,
+          "candidate_ssim": 0.7725879549980164,
+          "baseline_ssim": 0.8190100193023682
+        },
+        {
+          "comparison": "block_014_vs_original_single",
+          "group_id": "1720268316726159475",
+          "camera_id": "camera_5",
+          "dataset_index": 15,
+          "candidate_psnr_db": 28.282771167511736,
+          "baseline_psnr_db": 32.94929204860929,
+          "paired_delta_db": -4.666520881097551,
+          "candidate_ssim": 0.7498475909233093,
+          "baseline_ssim": 0.8403840661048889
+        }
+      ]
+    },
+    {
+      "comparison": "block_014_vs_old_whole_scene",
+      "candidate": {
+        "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_014/metrics.json",
+        "sha256": "c38eba81a4b1d1890cf49ad429cda7e669cc813976dac7fcd63da9652ed3865a"
+      },
+      "baseline": {
+        "path": "runs/fidelity_v2/baseline_old_all28/block_014/metrics.json",
+        "sha256": "19c101fba4bd5f23337382f786e803d45ad672d8d224372b8cc8961999742a45"
+      },
+      "images": 12,
+      "acceptance_plan_id": "88c1efd22ff3a2daa682315e311d8934f85a06bca3d8471c2245382df96cc03d",
+      "candidate_psnr_db": 23.591997192938404,
+      "baseline_psnr_db": 19.426969456580377,
+      "paired_delta_db_mean": 4.165027736358028,
+      "paired_delta_db_median": 2.8011285672752493,
+      "frames_below_minus_1db": 0,
+      "frames_improved": 12,
+      "paired_delta_db_min": 0.5265995186082684,
+      "paired_delta_db_max": 12.098172499744354,
+      "rows": [
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268300747032211",
+          "camera_id": "camera_2",
+          "dataset_index": 4,
+          "candidate_psnr_db": 22.951547397890337,
+          "baseline_psnr_db": 22.42494787928207,
+          "paired_delta_db": 0.5265995186082684,
+          "candidate_ssim": 0.7007139921188354,
+          "baseline_ssim": 0.7127916216850281
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268300747032211",
+          "camera_id": "camera_3",
+          "dataset_index": 5,
+          "candidate_psnr_db": 17.527829082116916,
+          "baseline_psnr_db": 15.512377095327984,
+          "paired_delta_db": 2.015451986788932,
+          "candidate_ssim": 0.6441273093223572,
+          "baseline_ssim": 0.6768369078636169
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268300747032211",
+          "camera_id": "camera_4",
+          "dataset_index": 6,
+          "candidate_psnr_db": 27.042758211812803,
+          "baseline_psnr_db": 22.634726360258803,
+          "paired_delta_db": 4.408031851554,
+          "candidate_ssim": 0.7303705811500549,
+          "baseline_ssim": 0.7225131988525391
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268300747032211",
+          "camera_id": "camera_5",
+          "dataset_index": 7,
+          "candidate_psnr_db": 20.780493795748733,
+          "baseline_psnr_db": 18.649962019163183,
+          "paired_delta_db": 2.130531776585549,
+          "candidate_ssim": 0.6520167589187622,
+          "baseline_ssim": 0.6626913547515869
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268308748952151",
+          "camera_id": "camera_2",
+          "dataset_index": 8,
+          "candidate_psnr_db": 26.331594654244054,
+          "baseline_psnr_db": 21.526527836065362,
+          "paired_delta_db": 4.805066818178691,
+          "candidate_ssim": 0.7133069634437561,
+          "baseline_ssim": 0.7607752680778503
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268308748952151",
+          "camera_id": "camera_3",
+          "dataset_index": 9,
+          "candidate_psnr_db": 16.75639044440025,
+          "baseline_psnr_db": 14.883177159929302,
+          "paired_delta_db": 1.873213284470948,
+          "candidate_ssim": 0.6036409735679626,
+          "baseline_ssim": 0.6026510000228882
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268308748952151",
+          "camera_id": "camera_4",
+          "dataset_index": 10,
+          "candidate_psnr_db": 27.77779429848948,
+          "baseline_psnr_db": 24.30606894052453,
+          "paired_delta_db": 3.4717253579649494,
+          "candidate_ssim": 0.7493813633918762,
+          "baseline_ssim": 0.7166011333465576
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268308748952151",
+          "camera_id": "camera_5",
+          "dataset_index": 11,
+          "candidate_psnr_db": 20.770203893337296,
+          "baseline_psnr_db": 19.44450235007499,
+          "paired_delta_db": 1.325701543262305,
+          "candidate_ssim": 0.6868573427200317,
+          "baseline_ssim": 0.6890084147453308
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268316726159475",
+          "camera_id": "camera_2",
+          "dataset_index": 12,
+          "candidate_psnr_db": 29.064051005484266,
+          "baseline_psnr_db": 16.965878505739912,
+          "paired_delta_db": 12.098172499744354,
+          "candidate_ssim": 0.7661029100418091,
+          "baseline_ssim": 0.61934494972229
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268316726159475",
+          "camera_id": "camera_3",
+          "dataset_index": 13,
+          "candidate_psnr_db": 17.310357813592027,
+          "baseline_psnr_db": 15.487872250432297,
+          "paired_delta_db": 1.8224855631597308,
+          "candidate_ssim": 0.7109317183494568,
+          "baseline_ssim": 0.659650444984436
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268316726159475",
+          "camera_id": "camera_4",
+          "dataset_index": 14,
+          "candidate_psnr_db": 28.50817455063296,
+          "baseline_psnr_db": 18.78352341319474,
+          "paired_delta_db": 9.724651137438219,
+          "candidate_ssim": 0.7725879549980164,
+          "baseline_ssim": 0.7132797241210938
+        },
+        {
+          "comparison": "block_014_vs_old_whole_scene",
+          "group_id": "1720268316726159475",
+          "camera_id": "camera_5",
+          "dataset_index": 15,
+          "candidate_psnr_db": 28.282771167511736,
+          "baseline_psnr_db": 22.504069668971347,
+          "paired_delta_db": 5.778701498540389,
+          "candidate_ssim": 0.7498475909233093,
+          "baseline_ssim": 0.7800961136817932
+        }
+      ]
+    },
+    {
+      "comparison": "block_015_vs_original_single",
+      "candidate": {
+        "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json",
+        "sha256": "a26aae2c1eab6ec9b931e6ef8af03f3ccf9506a27afa2c5dd03f8933c14f29bc"
+      },
+      "baseline": {
+        "path": "runs/fidelity_v2/original_single_blocks/block_015/metrics.json",
+        "sha256": "d3d8facf34bdd904b94b2fae292fdded58b7ce0a73c9bcde2fb19d9dbdee693c"
+      },
+      "images": 20,
+      "acceptance_plan_id": "88c1efd22ff3a2daa682315e311d8934f85a06bca3d8471c2245382df96cc03d",
+      "candidate_psnr_db": 27.174222441821005,
+      "baseline_psnr_db": 31.983895757089034,
+      "paired_delta_db_mean": -4.80967331526803,
+      "paired_delta_db_median": -4.3191708809721625,
+      "frames_below_minus_1db": 20,
+      "frames_improved": 0,
+      "paired_delta_db_min": -10.211567594456952,
+      "paired_delta_db_max": -2.453540470947061,
+      "rows": [
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_2",
+          "dataset_index": 0,
+          "candidate_psnr_db": 27.39838503765035,
+          "baseline_psnr_db": 31.715841067872695,
+          "paired_delta_db": -4.3174560302223455,
+          "candidate_ssim": 0.7428768873214722,
+          "baseline_ssim": 0.8646050691604614
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_3",
+          "dataset_index": 1,
+          "candidate_psnr_db": 17.839304678603938,
+          "baseline_psnr_db": 22.41340696757337,
+          "paired_delta_db": -4.574102288969431,
+          "candidate_ssim": 0.643305778503418,
+          "baseline_ssim": 0.7860362529754639
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_4",
+          "dataset_index": 2,
+          "candidate_psnr_db": 28.389480567889454,
+          "baseline_psnr_db": 30.879714680571617,
+          "paired_delta_db": -2.490234112682163,
+          "candidate_ssim": 0.7767911553382874,
+          "baseline_ssim": 0.8444474935531616
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_5",
+          "dataset_index": 3,
+          "candidate_psnr_db": 27.923823237323298,
+          "baseline_psnr_db": 32.8843947976088,
+          "paired_delta_db": -4.960571560285501,
+          "candidate_ssim": 0.7114079594612122,
+          "baseline_ssim": 0.8511437177658081
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_2",
+          "dataset_index": 4,
+          "candidate_psnr_db": 34.44112376041118,
+          "baseline_psnr_db": 37.75452739656183,
+          "paired_delta_db": -3.313403636150653,
+          "candidate_ssim": 0.877211332321167,
+          "baseline_ssim": 0.9136204719543457
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_3",
+          "dataset_index": 5,
+          "candidate_psnr_db": 21.091001285627303,
+          "baseline_psnr_db": 31.302568880084255,
+          "paired_delta_db": -10.211567594456952,
+          "candidate_ssim": 0.8473985195159912,
+          "baseline_ssim": 0.9119155406951904
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_4",
+          "dataset_index": 6,
+          "candidate_psnr_db": 31.97717126275772,
+          "baseline_psnr_db": 37.5015494382345,
+          "paired_delta_db": -5.524378175476777,
+          "candidate_ssim": 0.8447607159614563,
+          "baseline_ssim": 0.9047274589538574
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_5",
+          "dataset_index": 7,
+          "candidate_psnr_db": 32.94107901494733,
+          "baseline_psnr_db": 37.0054638067593,
+          "paired_delta_db": -4.064384791811975,
+          "candidate_ssim": 0.8688604831695557,
+          "baseline_ssim": 0.9076427817344666
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_2",
+          "dataset_index": 8,
+          "candidate_psnr_db": 32.22514631621091,
+          "baseline_psnr_db": 35.11657247750565,
+          "paired_delta_db": -2.8914261612947385,
+          "candidate_ssim": 0.8190497159957886,
+          "baseline_ssim": 0.8641226291656494
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_3",
+          "dataset_index": 9,
+          "candidate_psnr_db": 20.738653480640586,
+          "baseline_psnr_db": 29.257292914162306,
+          "paired_delta_db": -8.51863943352172,
+          "candidate_ssim": 0.7751502394676208,
+          "baseline_ssim": 0.8441683053970337
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_4",
+          "dataset_index": 10,
+          "candidate_psnr_db": 31.265183879583162,
+          "baseline_psnr_db": 35.39252695045742,
+          "paired_delta_db": -4.127343070874261,
+          "candidate_ssim": 0.78435218334198,
+          "baseline_ssim": 0.8500186800956726
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_5",
+          "dataset_index": 11,
+          "candidate_psnr_db": 30.083253665253302,
+          "baseline_psnr_db": 32.53679413620036,
+          "paired_delta_db": -2.453540470947061,
+          "candidate_ssim": 0.7886794209480286,
+          "baseline_ssim": 0.8312515020370483
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_2",
+          "dataset_index": 12,
+          "candidate_psnr_db": 27.410376742791193,
+          "baseline_psnr_db": 34.079151790561134,
+          "paired_delta_db": -6.668775047769941,
+          "candidate_ssim": 0.7828493118286133,
+          "baseline_ssim": 0.8671661615371704
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_3",
+          "dataset_index": 13,
+          "candidate_psnr_db": 18.56587180386558,
+          "baseline_psnr_db": 24.305370202419766,
+          "paired_delta_db": -5.739498398554186,
+          "candidate_ssim": 0.7078697681427002,
+          "baseline_ssim": 0.8129916191101074
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_4",
+          "dataset_index": 14,
+          "candidate_psnr_db": 30.831388349341132,
+          "baseline_psnr_db": 33.96380501181278,
+          "paired_delta_db": -3.1324166624716483,
+          "candidate_ssim": 0.761542022228241,
+          "baseline_ssim": 0.8369027972221375
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_5",
+          "dataset_index": 15,
+          "candidate_psnr_db": 28.89521753180422,
+          "baseline_psnr_db": 33.0576680793523,
+          "paired_delta_db": -4.162450547548076,
+          "candidate_ssim": 0.7639147043228149,
+          "baseline_ssim": 0.844813346862793
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_2",
+          "dataset_index": 16,
+          "candidate_psnr_db": 26.012468109006477,
+          "baseline_psnr_db": 32.43144593232452,
+          "paired_delta_db": -6.418977823318045,
+          "candidate_ssim": 0.7768147587776184,
+          "baseline_ssim": 0.8608216047286987
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_3",
+          "dataset_index": 17,
+          "candidate_psnr_db": 17.953060312660764,
+          "baseline_psnr_db": 23.73947437378596,
+          "paired_delta_db": -5.786414061125196,
+          "candidate_ssim": 0.694445788860321,
+          "baseline_ssim": 0.7720412015914917
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_4",
+          "dataset_index": 18,
+          "candidate_psnr_db": 29.027608842659816,
+          "baseline_psnr_db": 33.348494574381796,
+          "paired_delta_db": -4.3208857317219795,
+          "candidate_ssim": 0.7701603174209595,
+          "baseline_ssim": 0.8316575288772583
+        },
+        {
+          "comparison": "block_015_vs_original_single",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_5",
+          "dataset_index": 19,
+          "candidate_psnr_db": 28.474850957392356,
+          "baseline_psnr_db": 30.99185166355031,
+          "paired_delta_db": -2.5170007061579547,
+          "candidate_ssim": 0.7636694312095642,
+          "baseline_ssim": 0.8340453505516052
+        }
+      ]
+    },
+    {
+      "comparison": "block_015_vs_old_whole_scene",
+      "candidate": {
+        "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json",
+        "sha256": "a26aae2c1eab6ec9b931e6ef8af03f3ccf9506a27afa2c5dd03f8933c14f29bc"
+      },
+      "baseline": {
+        "path": "runs/fidelity_v2/baseline_old_all28/block_015/metrics.json",
+        "sha256": "0469997b88771d87160a47cba81e7dafd185961d1b47eb38c12ff747a9e22b20"
+      },
+      "images": 20,
+      "acceptance_plan_id": "88c1efd22ff3a2daa682315e311d8934f85a06bca3d8471c2245382df96cc03d",
+      "candidate_psnr_db": 27.174222441821005,
+      "baseline_psnr_db": 19.08392842969482,
+      "paired_delta_db_mean": 8.090294012126186,
+      "paired_delta_db_median": 9.085192580543609,
+      "frames_below_minus_1db": 0,
+      "frames_improved": 20,
+      "paired_delta_db_min": 0.3579693602140388,
+      "paired_delta_db_max": 14.443662850198884,
+      "rows": [
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_2",
+          "dataset_index": 0,
+          "candidate_psnr_db": 27.39838503765035,
+          "baseline_psnr_db": 20.68778536519915,
+          "paired_delta_db": 6.710599672451199,
+          "candidate_ssim": 0.7428768873214722,
+          "baseline_ssim": 0.7014785408973694
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_3",
+          "dataset_index": 1,
+          "candidate_psnr_db": 17.839304678603938,
+          "baseline_psnr_db": 17.066302172354575,
+          "paired_delta_db": 0.7730025062493624,
+          "candidate_ssim": 0.643305778503418,
+          "baseline_ssim": 0.6920958161354065
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_4",
+          "dataset_index": 2,
+          "candidate_psnr_db": 28.389480567889454,
+          "baseline_psnr_db": 17.19804262345759,
+          "paired_delta_db": 11.191437944431865,
+          "candidate_ssim": 0.7767911553382874,
+          "baseline_ssim": 0.6959957480430603
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_5",
+          "dataset_index": 3,
+          "candidate_psnr_db": 27.923823237323298,
+          "baseline_psnr_db": 18.50178524752954,
+          "paired_delta_db": 9.422037989793758,
+          "candidate_ssim": 0.7114079594612122,
+          "baseline_ssim": 0.7391787767410278
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_2",
+          "dataset_index": 4,
+          "candidate_psnr_db": 34.44112376041118,
+          "baseline_psnr_db": 21.340440884718074,
+          "paired_delta_db": 13.100682875693106,
+          "candidate_ssim": 0.877211332321167,
+          "baseline_ssim": 0.7640533447265625
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_3",
+          "dataset_index": 5,
+          "candidate_psnr_db": 21.091001285627303,
+          "baseline_psnr_db": 17.114420183781633,
+          "paired_delta_db": 3.976581101845671,
+          "candidate_ssim": 0.8473985195159912,
+          "baseline_ssim": 0.7653375267982483
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_4",
+          "dataset_index": 6,
+          "candidate_psnr_db": 31.97717126275772,
+          "baseline_psnr_db": 19.31242325052964,
+          "paired_delta_db": 12.664748012228081,
+          "candidate_ssim": 0.8447607159614563,
+          "baseline_ssim": 0.7125568985939026
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_5",
+          "dataset_index": 7,
+          "candidate_psnr_db": 32.94107901494733,
+          "baseline_psnr_db": 19.295325573293617,
+          "paired_delta_db": 13.64575344165371,
+          "candidate_ssim": 0.8688604831695557,
+          "baseline_ssim": 0.7415746450424194
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_2",
+          "dataset_index": 8,
+          "candidate_psnr_db": 32.22514631621091,
+          "baseline_psnr_db": 21.456331248677554,
+          "paired_delta_db": 10.768815067533357,
+          "candidate_ssim": 0.8190497159957886,
+          "baseline_ssim": 0.7494808435440063
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_3",
+          "dataset_index": 9,
+          "candidate_psnr_db": 20.738653480640586,
+          "baseline_psnr_db": 16.9371369098019,
+          "paired_delta_db": 3.801516570838686,
+          "candidate_ssim": 0.7751502394676208,
+          "baseline_ssim": 0.7228954434394836
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_4",
+          "dataset_index": 10,
+          "candidate_psnr_db": 31.265183879583162,
+          "baseline_psnr_db": 19.308052238838805,
+          "paired_delta_db": 11.957131640744358,
+          "candidate_ssim": 0.78435218334198,
+          "baseline_ssim": 0.6837764382362366
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_5",
+          "dataset_index": 11,
+          "candidate_psnr_db": 30.083253665253302,
+          "baseline_psnr_db": 19.41271594673978,
+          "paired_delta_db": 10.670537718513522,
+          "candidate_ssim": 0.7886794209480286,
+          "baseline_ssim": 0.7083733081817627
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_2",
+          "dataset_index": 12,
+          "candidate_psnr_db": 27.410376742791193,
+          "baseline_psnr_db": 22.485397038834,
+          "paired_delta_db": 4.924979703957192,
+          "candidate_ssim": 0.7828493118286133,
+          "baseline_ssim": 0.7780733108520508
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_3",
+          "dataset_index": 13,
+          "candidate_psnr_db": 18.56587180386558,
+          "baseline_psnr_db": 16.240395536466437,
+          "paired_delta_db": 2.325476267399143,
+          "candidate_ssim": 0.7078697681427002,
+          "baseline_ssim": 0.7096959352493286
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_4",
+          "dataset_index": 14,
+          "candidate_psnr_db": 30.831388349341132,
+          "baseline_psnr_db": 16.38772549914225,
+          "paired_delta_db": 14.443662850198884,
+          "candidate_ssim": 0.761542022228241,
+          "baseline_ssim": 0.6732320785522461
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_5",
+          "dataset_index": 15,
+          "candidate_psnr_db": 28.89521753180422,
+          "baseline_psnr_db": 20.14687036051076,
+          "paired_delta_db": 8.74834717129346,
+          "candidate_ssim": 0.7639147043228149,
+          "baseline_ssim": 0.7317396998405457
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_2",
+          "dataset_index": 16,
+          "candidate_psnr_db": 26.012468109006477,
+          "baseline_psnr_db": 23.63569844433403,
+          "paired_delta_db": 2.376769664672448,
+          "candidate_ssim": 0.7768147587776184,
+          "baseline_ssim": 0.7880665063858032
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_3",
+          "dataset_index": 17,
+          "candidate_psnr_db": 17.953060312660764,
+          "baseline_psnr_db": 17.595090952446725,
+          "paired_delta_db": 0.3579693602140388,
+          "candidate_ssim": 0.694445788860321,
+          "baseline_ssim": 0.7133612036705017
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_4",
+          "dataset_index": 18,
+          "candidate_psnr_db": 29.027608842659816,
+          "baseline_psnr_db": 16.007105770337606,
+          "paired_delta_db": 13.02050307232221,
+          "candidate_ssim": 0.7701603174209595,
+          "baseline_ssim": 0.7045318484306335
+        },
+        {
+          "comparison": "block_015_vs_old_whole_scene",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_5",
+          "dataset_index": 19,
+          "candidate_psnr_db": 28.474850957392356,
+          "baseline_psnr_db": 21.549523346902696,
+          "paired_delta_db": 6.92532761048966,
+          "candidate_ssim": 0.7636694312095642,
+          "baseline_ssim": 0.7259306907653809
+        }
+      ]
+    },
+    {
+      "comparison": "block_016_vs_original_single",
+      "candidate": {
+        "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_016/metrics.json",
+        "sha256": "d48c5c1c89fe114f52127c31b6b48b69cc60db0654f50944242cf8deb1589425"
+      },
+      "baseline": {
+        "path": "runs/fidelity_v2/original_single_blocks/block_016/metrics.json",
+        "sha256": "b3f432c9d2ff2a2b00d84046e6f44b32de879ecc8dd4234c3eadbcb524b09336"
+      },
+      "images": 16,
+      "acceptance_plan_id": "88c1efd22ff3a2daa682315e311d8934f85a06bca3d8471c2245382df96cc03d",
+      "candidate_psnr_db": 21.26578688195967,
+      "baseline_psnr_db": 25.566813026886784,
+      "paired_delta_db_mean": -4.301026144927112,
+      "paired_delta_db_median": -3.294717410369124,
+      "frames_below_minus_1db": 15,
+      "frames_improved": 0,
+      "paired_delta_db_min": -9.754823217970241,
+      "paired_delta_db_max": -0.813884554037589,
+      "rows": [
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268376746230592",
+          "camera_id": "camera_2",
+          "dataset_index": 4,
+          "candidate_psnr_db": 22.904913055583606,
+          "baseline_psnr_db": 25.409661277132777,
+          "paired_delta_db": -2.504748221549171,
+          "candidate_ssim": 0.7293131947517395,
+          "baseline_ssim": 0.795802891254425
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268376746230592",
+          "camera_id": "camera_3",
+          "dataset_index": 5,
+          "candidate_psnr_db": 18.49809979373491,
+          "baseline_psnr_db": 20.19600067214597,
+          "paired_delta_db": -1.6979008784110619,
+          "candidate_ssim": 0.671161413192749,
+          "baseline_ssim": 0.7278186678886414
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268376746230592",
+          "camera_id": "camera_4",
+          "dataset_index": 6,
+          "candidate_psnr_db": 29.44962792109073,
+          "baseline_psnr_db": 32.93435033355682,
+          "paired_delta_db": -3.484722412466091,
+          "candidate_ssim": 0.8089456558227539,
+          "baseline_ssim": 0.8437477946281433
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268376746230592",
+          "camera_id": "camera_5",
+          "dataset_index": 7,
+          "candidate_psnr_db": 18.171142079861028,
+          "baseline_psnr_db": 27.92596529783127,
+          "paired_delta_db": -9.754823217970241,
+          "candidate_ssim": 0.6973651647567749,
+          "baseline_ssim": 0.8205534219741821
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268384746169041",
+          "camera_id": "camera_2",
+          "dataset_index": 8,
+          "candidate_psnr_db": 19.796269584275198,
+          "baseline_psnr_db": 22.47442850593112,
+          "paired_delta_db": -2.678158921655921,
+          "candidate_ssim": 0.7126480340957642,
+          "baseline_ssim": 0.7686229348182678
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268384746169041",
+          "camera_id": "camera_3",
+          "dataset_index": 9,
+          "candidate_psnr_db": 16.97539463006114,
+          "baseline_psnr_db": 17.789279184098728,
+          "paired_delta_db": -0.813884554037589,
+          "candidate_ssim": 0.6218872666358948,
+          "baseline_ssim": 0.684505820274353
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268384746169041",
+          "camera_id": "camera_4",
+          "dataset_index": 10,
+          "candidate_psnr_db": 24.401809707983624,
+          "baseline_psnr_db": 27.50652211625578,
+          "paired_delta_db": -3.1047124082721567,
+          "candidate_ssim": 0.7605266571044922,
+          "baseline_ssim": 0.8147253394126892
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268384746169041",
+          "camera_id": "camera_5",
+          "dataset_index": 11,
+          "candidate_psnr_db": 22.0028833241502,
+          "baseline_psnr_db": 24.711537421598987,
+          "paired_delta_db": -2.708654097448786,
+          "candidate_ssim": 0.6818324327468872,
+          "baseline_ssim": 0.7704808115959167
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268392746065326",
+          "camera_id": "camera_2",
+          "dataset_index": 12,
+          "candidate_psnr_db": 25.223632157583083,
+          "baseline_psnr_db": 30.422738678746114,
+          "paired_delta_db": -5.199106521163031,
+          "candidate_ssim": 0.767906129360199,
+          "baseline_ssim": 0.8427009582519531
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268392746065326",
+          "camera_id": "camera_3",
+          "dataset_index": 13,
+          "candidate_psnr_db": 15.95049454420562,
+          "baseline_psnr_db": 21.112364240561504,
+          "paired_delta_db": -5.161869696355884,
+          "candidate_ssim": 0.6228397488594055,
+          "baseline_ssim": 0.7265974283218384
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268392746065326",
+          "camera_id": "camera_4",
+          "dataset_index": 14,
+          "candidate_psnr_db": 23.67663869553195,
+          "baseline_psnr_db": 26.687125857490003,
+          "paired_delta_db": -3.0104871619580535,
+          "candidate_ssim": 0.6949132680892944,
+          "baseline_ssim": 0.8020135164260864
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268392746065326",
+          "camera_id": "camera_5",
+          "dataset_index": 15,
+          "candidate_psnr_db": 22.14879287384253,
+          "baseline_psnr_db": 26.492331072287957,
+          "paired_delta_db": -4.343538198445426,
+          "candidate_ssim": 0.6061527132987976,
+          "baseline_ssim": 0.7596662640571594
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268400746041790",
+          "camera_id": "camera_2",
+          "dataset_index": 16,
+          "candidate_psnr_db": 25.746548411036056,
+          "baseline_psnr_db": 32.6736949227001,
+          "paired_delta_db": -6.927146511664045,
+          "candidate_ssim": 0.7639150619506836,
+          "baseline_ssim": 0.8540582656860352
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268400746041790",
+          "camera_id": "camera_3",
+          "dataset_index": 17,
+          "candidate_psnr_db": 15.512902724186194,
+          "baseline_psnr_db": 23.313060155505422,
+          "paired_delta_db": -7.800157431319228,
+          "candidate_ssim": 0.6302770972251892,
+          "baseline_ssim": 0.7590065002441406
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268400746041790",
+          "camera_id": "camera_4",
+          "dataset_index": 18,
+          "candidate_psnr_db": 21.56900973122059,
+          "baseline_psnr_db": 24.258628650949262,
+          "paired_delta_db": -2.689618919728673,
+          "candidate_ssim": 0.679559588432312,
+          "baseline_ssim": 0.7718523144721985
+        },
+        {
+          "comparison": "block_016_vs_original_single",
+          "group_id": "1720268400746041790",
+          "camera_id": "camera_5",
+          "dataset_index": 19,
+          "candidate_psnr_db": 18.224430877008288,
+          "baseline_psnr_db": 25.161320043396724,
+          "paired_delta_db": -6.936889166388436,
+          "candidate_ssim": 0.6224063634872437,
+          "baseline_ssim": 0.7837603688240051
+        }
+      ]
+    },
+    {
+      "comparison": "block_016_vs_old_whole_scene",
+      "candidate": {
+        "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_016/metrics.json",
+        "sha256": "d48c5c1c89fe114f52127c31b6b48b69cc60db0654f50944242cf8deb1589425"
+      },
+      "baseline": {
+        "path": "runs/fidelity_v2/baseline_old_all28/block_016/metrics.json",
+        "sha256": "e5bce1febc99a90466e584dbde4e7836debcde777c4ca08c05d653fbc2db5f4f"
+      },
+      "images": 16,
+      "acceptance_plan_id": "88c1efd22ff3a2daa682315e311d8934f85a06bca3d8471c2245382df96cc03d",
+      "candidate_psnr_db": 21.26578688195967,
+      "baseline_psnr_db": 17.937007445814245,
+      "paired_delta_db_mean": 3.3287794361454255,
+      "paired_delta_db_median": 2.8567279273937807,
+      "frames_below_minus_1db": 0,
+      "frames_improved": 15,
+      "paired_delta_db_min": -0.1872935014169741,
+      "paired_delta_db_max": 8.694018464059475,
+      "rows": [
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268376746230592",
+          "camera_id": "camera_2",
+          "dataset_index": 4,
+          "candidate_psnr_db": 22.904913055583606,
+          "baseline_psnr_db": 20.08911996848903,
+          "paired_delta_db": 2.815793087094576,
+          "candidate_ssim": 0.7293131947517395,
+          "baseline_ssim": 0.7299695611000061
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268376746230592",
+          "camera_id": "camera_3",
+          "dataset_index": 5,
+          "candidate_psnr_db": 18.49809979373491,
+          "baseline_psnr_db": 18.38538546308405,
+          "paired_delta_db": 0.11271433065086,
+          "candidate_ssim": 0.671161413192749,
+          "baseline_ssim": 0.6842251420021057
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268376746230592",
+          "camera_id": "camera_4",
+          "dataset_index": 6,
+          "candidate_psnr_db": 29.44962792109073,
+          "baseline_psnr_db": 20.755609457031255,
+          "paired_delta_db": 8.694018464059475,
+          "candidate_ssim": 0.8089456558227539,
+          "baseline_ssim": 0.7183861136436462
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268376746230592",
+          "camera_id": "camera_5",
+          "dataset_index": 7,
+          "candidate_psnr_db": 18.171142079861028,
+          "baseline_psnr_db": 16.65119807909605,
+          "paired_delta_db": 1.5199440007649763,
+          "candidate_ssim": 0.6973651647567749,
+          "baseline_ssim": 0.6376582384109497
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268384746169041",
+          "camera_id": "camera_2",
+          "dataset_index": 8,
+          "candidate_psnr_db": 19.796269584275198,
+          "baseline_psnr_db": 16.640969918604835,
+          "paired_delta_db": 3.1552996656703627,
+          "candidate_ssim": 0.7126480340957642,
+          "baseline_ssim": 0.682960033416748
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268384746169041",
+          "camera_id": "camera_3",
+          "dataset_index": 9,
+          "candidate_psnr_db": 16.97539463006114,
+          "baseline_psnr_db": 14.360573893297966,
+          "paired_delta_db": 2.614820736763173,
+          "candidate_ssim": 0.6218872666358948,
+          "baseline_ssim": 0.6027355194091797
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268384746169041",
+          "camera_id": "camera_4",
+          "dataset_index": 10,
+          "candidate_psnr_db": 24.401809707983624,
+          "baseline_psnr_db": 19.649130502800375,
+          "paired_delta_db": 4.752679205183249,
+          "candidate_ssim": 0.7605266571044922,
+          "baseline_ssim": 0.6956326961517334
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268384746169041",
+          "camera_id": "camera_5",
+          "dataset_index": 11,
+          "candidate_psnr_db": 22.0028833241502,
+          "baseline_psnr_db": 22.190176825567175,
+          "paired_delta_db": -0.1872935014169741,
+          "candidate_ssim": 0.6818324327468872,
+          "baseline_ssim": 0.7218253016471863
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268392746065326",
+          "camera_id": "camera_2",
+          "dataset_index": 12,
+          "candidate_psnr_db": 25.223632157583083,
+          "baseline_psnr_db": 18.7581801465053,
+          "paired_delta_db": 6.465452011077783,
+          "candidate_ssim": 0.767906129360199,
+          "baseline_ssim": 0.740120530128479
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268392746065326",
+          "camera_id": "camera_3",
+          "dataset_index": 13,
+          "candidate_psnr_db": 15.95049454420562,
+          "baseline_psnr_db": 12.444482712074933,
+          "paired_delta_db": 3.506011832130687,
+          "candidate_ssim": 0.6228397488594055,
+          "baseline_ssim": 0.5643888115882874
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268392746065326",
+          "camera_id": "camera_4",
+          "dataset_index": 14,
+          "candidate_psnr_db": 23.67663869553195,
+          "baseline_psnr_db": 20.778975927838964,
+          "paired_delta_db": 2.897662767692985,
+          "candidate_ssim": 0.6949132680892944,
+          "baseline_ssim": 0.7062275409698486
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268392746065326",
+          "camera_id": "camera_5",
+          "dataset_index": 15,
+          "candidate_psnr_db": 22.14879287384253,
+          "baseline_psnr_db": 19.005248614917317,
+          "paired_delta_db": 3.143544258925214,
+          "candidate_ssim": 0.6061527132987976,
+          "baseline_ssim": 0.6200581192970276
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268400746041790",
+          "camera_id": "camera_2",
+          "dataset_index": 16,
+          "candidate_psnr_db": 25.746548411036056,
+          "baseline_psnr_db": 18.67271283218122,
+          "paired_delta_db": 7.073835578854837,
+          "candidate_ssim": 0.7639150619506836,
+          "baseline_ssim": 0.7375298142433167
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268400746041790",
+          "camera_id": "camera_3",
+          "dataset_index": 17,
+          "candidate_psnr_db": 15.512902724186194,
+          "baseline_psnr_db": 13.46780997523737,
+          "paired_delta_db": 2.0450927489488233,
+          "candidate_ssim": 0.6302770972251892,
+          "baseline_ssim": 0.6115742325782776
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268400746041790",
+          "camera_id": "camera_4",
+          "dataset_index": 18,
+          "candidate_psnr_db": 21.56900973122059,
+          "baseline_psnr_db": 19.373934355553455,
+          "paired_delta_db": 2.195075375667134,
+          "candidate_ssim": 0.679559588432312,
+          "baseline_ssim": 0.6769194006919861
+        },
+        {
+          "comparison": "block_016_vs_old_whole_scene",
+          "group_id": "1720268400746041790",
+          "camera_id": "camera_5",
+          "dataset_index": 19,
+          "candidate_psnr_db": 18.224430877008288,
+          "baseline_psnr_db": 15.768610460748642,
+          "paired_delta_db": 2.4558204162596464,
+          "candidate_ssim": 0.6224063634872437,
+          "baseline_ssim": 0.6363264322280884
+        }
+      ]
+    },
+    {
+      "comparison": "block_015_1280_vs_original_single",
+      "candidate": {
+        "path": "runs/fidelity_v2/joint015_aa_cap003_resolution/metrics.json",
+        "sha256": "19561f603e835262d7dbf2e3c992e9a4e463a0d2d760f395e2e3b00e414cea36"
+      },
+      "baseline": {
+        "path": "runs/fidelity_v2/original015_resolution_depthv3/metrics.json",
+        "sha256": "511091ba98991372fa8a7a7111db6772a0a633e54834c58c56c23ecfc0086c1e"
+      },
+      "images": 20,
+      "acceptance_plan_id": "f33aa01ee4ce9794e709d9ba66bfb9784cb94bced37bd3293669e8f0831b3080",
+      "candidate_psnr_db": 26.898636388133678,
+      "baseline_psnr_db": 31.891762929617197,
+      "paired_delta_db_mean": -4.993126541483519,
+      "paired_delta_db_median": -4.503369973472989,
+      "frames_below_minus_1db": 20,
+      "frames_improved": 0,
+      "paired_delta_db_min": -9.904178210193407,
+      "paired_delta_db_max": -2.7137873176243126,
+      "rows": [
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_2",
+          "dataset_index": 0,
+          "candidate_psnr_db": 27.52863389457768,
+          "baseline_psnr_db": 31.716762838819896,
+          "paired_delta_db": -4.188128944242216,
+          "candidate_ssim": 0.8220469951629639,
+          "baseline_ssim": 0.9224396347999573
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_3",
+          "dataset_index": 1,
+          "candidate_psnr_db": 17.616903373255994,
+          "baseline_psnr_db": 22.34372264036366,
+          "paired_delta_db": -4.726819267107665,
+          "candidate_ssim": 0.7212864756584167,
+          "baseline_ssim": 0.85117506980896
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_4",
+          "dataset_index": 2,
+          "candidate_psnr_db": 28.114770227602676,
+          "baseline_psnr_db": 30.887422282132782,
+          "paired_delta_db": -2.7726520545301057,
+          "candidate_ssim": 0.8351622819900513,
+          "baseline_ssim": 0.9047307372093201
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268324737907057",
+          "camera_id": "camera_5",
+          "dataset_index": 3,
+          "candidate_psnr_db": 27.526582380885884,
+          "baseline_psnr_db": 32.88419883778686,
+          "paired_delta_db": -5.357616456900978,
+          "candidate_ssim": 0.789986252784729,
+          "baseline_ssim": 0.9133358597755432
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_2",
+          "dataset_index": 4,
+          "candidate_psnr_db": 33.89710765709633,
+          "baseline_psnr_db": 37.74895072908178,
+          "paired_delta_db": -3.8518430719854493,
+          "candidate_ssim": 0.9085218906402588,
+          "baseline_ssim": 0.9463434219360352
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_3",
+          "dataset_index": 5,
+          "candidate_psnr_db": 20.477472355046274,
+          "baseline_psnr_db": 30.38165056523968,
+          "paired_delta_db": -9.904178210193407,
+          "candidate_ssim": 0.8821718692779541,
+          "baseline_ssim": 0.9308522939682007
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_4",
+          "dataset_index": 6,
+          "candidate_psnr_db": 31.637496006222353,
+          "baseline_psnr_db": 37.41101122225813,
+          "paired_delta_db": -5.773515216035779,
+          "candidate_ssim": 0.8717984557151794,
+          "baseline_ssim": 0.9348837733268738
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268344745357541",
+          "camera_id": "camera_5",
+          "dataset_index": 7,
+          "candidate_psnr_db": 32.459627683643774,
+          "baseline_psnr_db": 36.99796453587265,
+          "paired_delta_db": -4.538336852228873,
+          "candidate_ssim": 0.9010245203971863,
+          "baseline_ssim": 0.9396729469299316
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_2",
+          "dataset_index": 8,
+          "candidate_psnr_db": 31.81729079473528,
+          "baseline_psnr_db": 35.114132709580616,
+          "paired_delta_db": -3.296841914845338,
+          "candidate_ssim": 0.8746616244316101,
+          "baseline_ssim": 0.921079695224762
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_3",
+          "dataset_index": 9,
+          "candidate_psnr_db": 20.093330642154584,
+          "baseline_psnr_db": 28.721492498205304,
+          "paired_delta_db": -8.62816185605072,
+          "candidate_ssim": 0.832116425037384,
+          "baseline_ssim": 0.8930377960205078
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_4",
+          "dataset_index": 10,
+          "candidate_psnr_db": 30.87913368723781,
+          "baseline_psnr_db": 35.347536781954915,
+          "paired_delta_db": -4.468403094717104,
+          "candidate_ssim": 0.8330787420272827,
+          "baseline_ssim": 0.9047320485115051
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268352746144120",
+          "camera_id": "camera_5",
+          "dataset_index": 11,
+          "candidate_psnr_db": 29.81498377201917,
+          "baseline_psnr_db": 32.53577600741385,
+          "paired_delta_db": -2.7207922353946827,
+          "candidate_ssim": 0.8554320931434631,
+          "baseline_ssim": 0.8981199264526367
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_2",
+          "dataset_index": 12,
+          "candidate_psnr_db": 28.155355446181346,
+          "baseline_psnr_db": 34.08217050362941,
+          "paired_delta_db": -5.926815057448067,
+          "candidate_ssim": 0.8490154147148132,
+          "baseline_ssim": 0.9208624958992004
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_3",
+          "dataset_index": 13,
+          "candidate_psnr_db": 17.82875767088649,
+          "baseline_psnr_db": 24.27665209172887,
+          "paired_delta_db": -6.447894420842381,
+          "candidate_ssim": 0.7777062058448792,
+          "baseline_ssim": 0.8709778785705566
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_4",
+          "dataset_index": 14,
+          "candidate_psnr_db": 30.373886639596364,
+          "baseline_psnr_db": 33.913405789268005,
+          "paired_delta_db": -3.5395191496716407,
+          "candidate_ssim": 0.8183302879333496,
+          "baseline_ssim": 0.8941263556480408
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268360746263201",
+          "camera_id": "camera_5",
+          "dataset_index": 15,
+          "candidate_psnr_db": 28.611020408872314,
+          "baseline_psnr_db": 33.05577833227338,
+          "paired_delta_db": -4.444757923401063,
+          "candidate_ssim": 0.8332045078277588,
+          "baseline_ssim": 0.9060066938400269
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_2",
+          "dataset_index": 16,
+          "candidate_psnr_db": 27.033345158903384,
+          "baseline_psnr_db": 32.43039336262334,
+          "paired_delta_db": -5.397048203719958,
+          "candidate_ssim": 0.8428341746330261,
+          "baseline_ssim": 0.9140871167182922
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_3",
+          "dataset_index": 17,
+          "candidate_psnr_db": 17.011876222719042,
+          "baseline_psnr_db": 23.713112247737822,
+          "paired_delta_db": -6.70123602501878,
+          "candidate_ssim": 0.7630486488342285,
+          "baseline_ssim": 0.8402559757232666
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_4",
+          "dataset_index": 18,
+          "candidate_psnr_db": 28.81815879287184,
+          "baseline_psnr_db": 33.28234235058369,
+          "paired_delta_db": -4.4641835577118485,
+          "candidate_ssim": 0.8292144536972046,
+          "baseline_ssim": 0.8911651372909546
+        },
+        {
+          "comparison": "block_015_1280_vs_original_single",
+          "group_id": "1720268368746301959",
+          "camera_id": "camera_5",
+          "dataset_index": 19,
+          "candidate_psnr_db": 28.276994948164994,
+          "baseline_psnr_db": 30.990782265789306,
+          "paired_delta_db": -2.7137873176243126,
+          "candidate_ssim": 0.8330823183059692,
+          "baseline_ssim": 0.8975877165794373
+        }
+      ]
+    }
+  ]
+}

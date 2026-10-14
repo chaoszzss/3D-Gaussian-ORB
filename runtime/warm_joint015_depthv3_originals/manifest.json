@@ -1,0 +1,36 @@
+{
+  "status": "verified_lossless_raw_original_concatenation",
+  "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/warm_joint015_depthv3_originals/gaussians.ply",
+  "sha256": "5f1351e8b8cbd498848c6ee9326fa321a6488f181731bbd7a9a1d1827f4d055b",
+  "gaussians": 1001757,
+  "bytes": 248437331,
+  "source_audit": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/core_assembly_sources_v2_20261009/source_audit.json",
+  "source_audit_sha256": "080ad6d4fc628a287348c7e61c7bba1cf59799c40b910dab85c6990d2f21691c",
+  "sources": [
+    {
+      "block_id": "block_014",
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/block_014/eval_dev/gaussians.ply",
+      "sha256": "79df47baf06edc62b0924142cb0f30f2bdd1f3782348200b307bd194155af5ff",
+      "gaussians": 351839
+    },
+    {
+      "block_id": "block_015",
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/block_015/eval_dev/gaussians.ply",
+      "sha256": "a3957588e47a17518d195caec9dc17b31c642dcb4d8d6547f181f3394f89ea8e",
+      "gaussians": 285964
+    },
+    {
+      "block_id": "block_016",
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/block_016/eval_dev/gaussians.ply",
+      "sha256": "56f5193c1fcbef3b2dd1b030a20a43b417c7c87f05056e3d8aeaa8b6a32461a9",
+      "gaussians": 363954
+    }
+  ],
+  "all_payload_bytes_compared": true,
+  "records_modified": false,
+  "filtered": false,
+  "sampled": false,
+  "world_frame": "camera_init",
+  "units": "m",
+  "quality_accepted": false
+}

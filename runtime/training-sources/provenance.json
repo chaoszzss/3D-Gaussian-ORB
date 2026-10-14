@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-10-06T09:45:14.622955+00:00",
+  "sources": [
+    {
+      "file": "nerfstudio-1.1.5-pyproject.toml",
+      "url": "https://raw.githubusercontent.com/nerfstudio-project/nerfstudio/v1.1.5/pyproject.toml",
+      "sha256": "add52fe2129c4795fed048d2e8f59d4dd2b86dfbff59fcf49f3b37e00d0b29d6"
+    },
+    {
+      "file": "gsplat-1.4.0-backend.py",
+      "url": "https://raw.githubusercontent.com/nerfstudio-project/gsplat/v1.4.0/gsplat/cuda/_backend.py",
+      "sha256": "4eb439bf64373cfa86f0d25826aa62cd4c32fcf4b55a63f850b01e1e0694331f"
+    },
+    {
+      "file": "gsplat-1.4.0-rendering.py",
+      "url": "https://raw.githubusercontent.com/nerfstudio-project/gsplat/v1.4.0/gsplat/rendering.py",
+      "sha256": "6f598d98dc3b60208c52c5a2e7cb68f1eebc97d07e11c75dc12bf6829f87d214"
+    },
+    {
+      "file": "pytorch-2.4.0-cpp_extension.py",
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.4.0/torch/utils/cpp_extension.py",
+      "sha256": "d153b9e9530380ceb7d635fe0a54cd0091df476cb10ae0b9c4a1c21a60bb407f"
+    },
+    {
+      "file": "nerfstudio-1.1.5-pypi.json",
+      "url": "https://pypi.org/pypi/nerfstudio/1.1.5/json",
+      "sha256": "02e11e4b38264ce4fe410f9d442bd47d88f58a0639ff151a48843c4c75115e4b"
+    },
+    {
+      "file": "gsplat-1.4.0-pypi.json",
+      "url": "https://pypi.org/pypi/gsplat/1.4.0/json",
+      "sha256": "4348de6d5d5a153b9a97254d7f82b8ca6b11708af6440367497858478e0218b2"
+    }
+  ]
+}

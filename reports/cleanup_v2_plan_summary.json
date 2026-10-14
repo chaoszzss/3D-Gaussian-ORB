@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-09T09:20:18.016035+00:00",
+  "targets": [
+    "data",
+    "runs",
+    "maps",
+    "reports",
+    "runtime",
+    "viewer/runtime",
+    "experiments",
+    ".pytest_cache"
+  ],
+  "groups": {
+    "data": {
+      "files": 236995,
+      "logical_bytes": 123433233213
+    },
+    "runs": {
+      "files": 21632,
+      "logical_bytes": 96342673425
+    },
+    "maps": {
+      "files": 524,
+      "logical_bytes": 37074433968
+    },
+    "reports": {
+      "files": 1664,
+      "logical_bytes": 237799066
+    },
+    "runtime": {
+      "files": 52151,
+      "logical_bytes": 8448411803
+    },
+    "viewer/runtime": {
+      "files": 1221,
+      "logical_bytes": 1052761885
+    },
+    "experiments": {
+      "files": 115,
+      "logical_bytes": 71606522
+    },
+    ".pytest_cache": {
+      "files": 6,
+      "logical_bytes": 109293
+    }
+  },
+  "files": 314308,
+  "estimated_reclaimed_allocated_bytes_excluding_directories": 251629101056,
+  "plan_sha256": "d502bfd0fc96b050d10b758d7fec7adc988e0cb4f8565da4b0b8f5612506f63c",
+  "protected_tracked_files": true,
+  "follow_directory_symlinks": false
+}

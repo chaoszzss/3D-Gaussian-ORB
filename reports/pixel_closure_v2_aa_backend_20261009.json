@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "wrong_index_count": 0,
+  "tested_index_count": 1716,
+  "foreground_array_equal_fraction": 1.0,
+  "index_cases": [
+    {
+      "tested_indices": 286,
+      "wrong_index_count": 0,
+      "max_coordinate_error": 1.7763568394002505e-15,
+      "width": 17,
+      "height": 13,
+      "principal_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "tested_indices": 286,
+      "wrong_index_count": 0,
+      "max_coordinate_error": 1.7763568394002505e-15,
+      "width": 17,
+      "height": 13,
+      "principal_offset": [
+        0.23,
+        -0.37
+      ]
+    },
+    {
+      "tested_indices": 286,
+      "wrong_index_count": 0,
+      "max_coordinate_error": 1.1368683772161603e-13,
+      "width": 640,
+      "height": 540,
+      "principal_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "tested_indices": 286,
+      "wrong_index_count": 0,
+      "max_coordinate_error": 1.1368683772161603e-13,
+      "width": 640,
+      "height": 540,
+      "principal_offset": [
+        0.23,
+        -0.37
+      ]
+    },
+    {
+      "tested_indices": 286,
+      "wrong_index_count": 0,
+      "max_coordinate_error": 2.2737367544323206e-13,
+      "width": 1280,
+      "height": 1080,
+      "principal_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "tested_indices": 286,
+      "wrong_index_count": 0,
+      "max_coordinate_error": 2.2737367544323206e-13,
+      "width": 1280,
+      "height": 1080,
+      "principal_offset": [
+        0.23,
+        -0.37
+      ]
+    }
+  ],
+  "foreground_measurement": {
+    "tested_values": 442,
+    "equal_values": 442,
+    "mask_equal": true,
+    "layer_depths_m": [
+      3.0,
+      8.0,
+      12.0
+    ]
+  },
+  "commands": [
+    [
+      "/home/chaoszzss/dataset/rosbag/3D-Gaussian/.venv-train/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "/home/chaoszzss/dataset/rosbag/3D-Gaussian/tests/test_pixel_convention_closure.py"
+    ],
+    [
+      "tests/test_pixel_convention_closure.py",
+      "--report",
+      "reports/pixel_closure_v2_aa_backend_20261009.json"
+    ]
+  ],
+  "source_sha256": {
+    "tests/test_pixel_convention_closure.py": "81871a12f17f603e92ce4f50838d8368f0a5660c4bd14ab6a26b9ee39bbacdb3",
+    "src/orbvi_gaussian/points.py": "4aefa918a69fa00598b62dd5fc6582baeb6c56690e8afd8d20784d4db644e65e",
+    "src/orbvi_gaussian/surfels.py": "d67f597aaeac27f32d63969bc13186a14aeb33d400ba63e4e4d37e6c77fbf363",
+    "src/orbvi_gaussian/inria_surfel_backend.py": "9338aba492af4fee756156659ef4c6c1ba37f02a6d9c1ca46e37a772ba608382",
+    "runtime/inria2dgs_src/cuda_rasterizer/forward.cu": "5f99ca4953baf8ce3699e0ded25f9c10ab94f3e3a697ff87e2502a36559cce53",
+    "runtime/inria2dgs_src/cuda_rasterizer/auxiliary.h": "dfef626b19f0828b6ebf3fb486a95a386db5f72a1b04a40031643c27eaa41442"
+  },
+  "pytest_returncode": 0,
+  "pytest_stdout": ".......                                                                  [100%]\n7 passed in 1.00s\n",
+  "scope": "CPU exact pixel IDs, pose roundtrip and native ndc2pix front-layer oracle; not a CUDA render parity claim"
+}

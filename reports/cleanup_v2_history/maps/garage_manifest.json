@@ -1,0 +1,1034 @@
+{
+  "schema_version": 1,
+  "coordinates": "camera_init",
+  "units": "m",
+  "camera_up": [
+    0,
+    0,
+    1
+  ],
+  "dataset_kind": "real",
+  "title": "六层车库 · LiDAR约束Gaussian地图",
+  "status": "complete_models_pending_quality_acceptance",
+  "run_id": "garage_surface_v1",
+  "calibration_verified": false,
+  "floor_assignment": "Estimated temporal floor schedule; not independently surveyed",
+  "blocks": [
+    {
+      "id": "block_000",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -18.211755752563477,
+          -32.43082046508789,
+          -9.177433013916016
+        ],
+        "max": [
+          39.17336654663086,
+          18.236665725708008,
+          5.954904079437256
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_000/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 341368,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.132704579110147,
+        "ssim": 0.7298350594937801,
+        "initializer_surface_p95_m": 2.4085348253876595,
+        "report": "runs/garage_surface_v1/block_000/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_000_prepare.log"
+    },
+    {
+      "id": "block_001",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -1.9823193550109863,
+          -34.31306838989258,
+          -9.033573150634766
+        ],
+        "max": [
+          59.66202163696289,
+          15.91005802154541,
+          6.086302280426025
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 342875,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.996818907075475,
+        "ssim": 0.7446999897559484,
+        "initializer_surface_p95_m": 1.862069237625661,
+        "report": "runs/garage_surface_v1/block_001/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_001_prepare.log"
+    },
+    {
+      "id": "block_002",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          17.759521484375,
+          -23.3091983795166,
+          -10.218432426452637
+        ],
+        "max": [
+          66.07740020751953,
+          35.06171417236328,
+          5.587801933288574
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 364881,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.003908530875236,
+        "ssim": 0.7009675465524197,
+        "initializer_surface_p95_m": 2.002203184647952,
+        "report": "runs/garage_surface_v1/block_002/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_002_prepare.log"
+    },
+    {
+      "id": "block_003",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          10.036152839660645,
+          -5.876007556915283,
+          -12.985081672668457
+        ],
+        "max": [
+          65.49835205078125,
+          54.42396545410156,
+          5.23167085647583
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 368896,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.424950629752466,
+        "ssim": 0.7444008626043797,
+        "initializer_surface_p95_m": 2.0835103550086727,
+        "report": "runs/garage_surface_v1/block_003/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_003_prepare.log"
+    },
+    {
+      "id": "block_004",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -4.985466957092285,
+          14.290349006652832,
+          -10.795706748962402
+        ],
+        "max": [
+          50.713558197021484,
+          74.81734466552734,
+          4.340959072113037
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 384304,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 21.80157819582916,
+        "ssim": 0.7330133706331253,
+        "initializer_surface_p95_m": 1.5520864199464477,
+        "report": "runs/garage_surface_v1/block_004/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_004_prepare.log"
+    },
+    {
+      "id": "block_005",
+      "floor_id": "坡道 F1-F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -25.592201232910156,
+          31.91602325439453,
+          -12.152267456054688
+        ],
+        "max": [
+          34.0390625,
+          80.49833679199219,
+          4.809344291687012
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 409298,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.430920064551227,
+        "ssim": 0.7610297441482544,
+        "initializer_surface_p95_m": 0.7380715973787777,
+        "report": "runs/garage_surface_v1/block_005/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_005_prepare.log"
+    },
+    {
+      "id": "block_006",
+      "floor_id": "坡道 F1-F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -37.53485870361328,
+          16.245384216308594,
+          -6.7923102378845215
+        ],
+        "max": [
+          14.578248023986816,
+          71.28409576416016,
+          7.565046787261963
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 400192,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.66933230305043,
+        "ssim": 0.7872766479849815,
+        "initializer_surface_p95_m": 0.5464125454366695,
+        "report": "runs/garage_surface_v1/block_006/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_006_prepare.log"
+    },
+    {
+      "id": "block_007",
+      "floor_id": "F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -38.333412170410156,
+          -5.135754585266113,
+          -6.876668453216553
+        ],
+        "max": [
+          6.564744472503662,
+          56.52000045776367,
+          8.391730308532715
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 389736,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.447294861238976,
+        "ssim": 0.7354839170972506,
+        "initializer_surface_p95_m": 0.9987634097415236,
+        "report": "runs/garage_surface_v1/block_007/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_007_prepare.log"
+    },
+    {
+      "id": "block_008",
+      "floor_id": "F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -32.447181701660156,
+          -23.892885208129883,
+          -4.561399459838867
+        ],
+        "max": [
+          22.78948211669922,
+          34.42271423339844,
+          9.060698509216309
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 378061,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.978541884436783,
+        "ssim": 0.7632603794336319,
+        "initializer_surface_p95_m": 0.5730063230259081,
+        "report": "runs/garage_surface_v1/block_008/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_008_prepare.log"
+    },
+    {
+      "id": "block_009",
+      "floor_id": "F2",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -16.065542221069336,
+          -37.18428421020508,
+          -4.745182514190674
+        ],
+        "max": [
+          41.446414947509766,
+          16.113544464111328,
+          8.753780364990234
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 378567,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.820770169975617,
+        "ssim": 0.7463120855391026,
+        "initializer_surface_p95_m": 0.45625743213988046,
+        "report": "runs/garage_surface_v1/block_009/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_009_prepare.log"
+    },
+    {
+      "id": "block_010",
+      "floor_id": "坡道 F2-F3",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          0.9733340740203857,
+          -37.216609954833984,
+          -3.502840995788574
+        ],
+        "max": [
+          60.84852600097656,
+          15.7317533493042,
+          10.87178897857666
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 361041,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 25.08356809825989,
+        "ssim": 0.7892414070665836,
+        "initializer_surface_p95_m": 0.42267149911382856,
+        "report": "runs/garage_surface_v1/block_010/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_010_prepare.log"
+    },
+    {
+      "id": "block_011",
+      "floor_id": "坡道 F2-F3",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          19.317394256591797,
+          -23.282344818115234,
+          -1.328276515007019
+        ],
+        "max": [
+          68.3692855834961,
+          34.723236083984375,
+          11.90961742401123
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 369946,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.68631352186224,
+        "ssim": 0.750416275858879,
+        "initializer_surface_p95_m": 0.7186039020791898,
+        "report": "runs/garage_surface_v1/block_011/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_011_prepare.log"
+    },
+    {
+      "id": "block_012",
+      "floor_id": "F3",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          2.9133782386779785,
+          -14.931038856506348,
+          -1.6091797351837158
+        ],
+        "max": [
+          64.94224548339844,
+          35.14246368408203,
+          12.700745582580566
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 370745,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.751255873281746,
+        "ssim": 0.7602110020816326,
+        "initializer_surface_p95_m": 0.9147517244766405,
+        "report": "runs/garage_surface_v1/block_012/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_012_prepare.log"
+    },
+    {
+      "id": "block_013",
+      "floor_id": "F3",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -8.427299499511719,
+          -31.99431037902832,
+          -2.887692451477051
+        ],
+        "max": [
+          45.37727355957031,
+          25.778532028198242,
+          13.112592697143555
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 368601,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 26.065324387914465,
+        "ssim": 0.8031518943607807,
+        "initializer_surface_p95_m": 0.5403590902267754,
+        "report": "runs/garage_surface_v1/block_013/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_013_prepare.log"
+    },
+    {
+      "id": "block_014",
+      "floor_id": "坡道 F3-F4",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -8.282978057861328,
+          -37.511959075927734,
+          0.06631892919540405
+        ],
+        "max": [
+          50.24406433105469,
+          9.698933601379395,
+          13.775115966796875
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_014/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 351839,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 26.08095940850048,
+        "ssim": 0.7880410432815552,
+        "initializer_surface_p95_m": 0.3280137493225075,
+        "report": "runs/garage_surface_v1/block_014/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_014_prepare.log"
+    },
+    {
+      "id": "block_015",
+      "floor_id": "坡道 F3-F4",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          10.136070251464844,
+          -32.091007232666016,
+          1.6963976621627808
+        ],
+        "max": [
+          68.88571166992188,
+          22.029197692871094,
+          16.039995193481445
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_015/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 285964,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 31.675706293514963,
+        "ssim": 0.8493738353252411,
+        "initializer_surface_p95_m": 0.312700282330484,
+        "report": "runs/garage_surface_v1/block_015/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_015_prepare.log"
+    },
+    {
+      "id": "block_016",
+      "floor_id": "F4",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          27.64468002319336,
+          -30.202524185180664,
+          0.10267211496829987
+        ],
+        "max": [
+          75.37348937988281,
+          22.89119529724121,
+          16.346311569213867
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_016/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 363954,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 25.512203426790457,
+        "ssim": 0.7793179988861084,
+        "initializer_surface_p95_m": 1.7716990755308253,
+        "report": "runs/garage_surface_v1/block_016/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_016_prepare.log"
+    },
+    {
+      "id": "block_017",
+      "floor_id": "F4",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          14.640751838684082,
+          -48.67228317260742,
+          -0.47197628021240234
+        ],
+        "max": [
+          69.34644317626953,
+          10.422117233276367,
+          17.157894134521484
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 358029,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.810503653368368,
+        "ssim": 0.7396926656365395,
+        "initializer_surface_p95_m": 2.0475864670467887,
+        "report": "runs/garage_surface_v1/block_017/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_017_prepare.log"
+    },
+    {
+      "id": "block_018",
+      "floor_id": "坡道 F4-F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          15.680351257324219,
+          -57.146766662597656,
+          -1.5028390884399414
+        ],
+        "max": [
+          74.39090728759766,
+          -5.86411714553833,
+          17.464143753051758
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 343041,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 21.834814482781375,
+        "ssim": 0.7450660765171051,
+        "initializer_surface_p95_m": 1.4392949561611605,
+        "report": "runs/garage_surface_v1/block_018/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_018_prepare.log"
+    },
+    {
+      "id": "block_019",
+      "floor_id": "坡道 F4-F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          32.77766418457031,
+          -58.0687141418457,
+          3.3295257091522217
+        ],
+        "max": [
+          93.0791244506836,
+          -4.554839134216309,
+          20.765220642089844
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 303023,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 28.237014721388622,
+        "ssim": 0.8541914174954096,
+        "initializer_surface_p95_m": 0.7952943358557218,
+        "report": "runs/garage_surface_v1/block_019/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_019_prepare.log"
+    },
+    {
+      "id": "block_020",
+      "floor_id": "坡道 F4-F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          49.15387725830078,
+          -44.02594757080078,
+          3.279677152633667
+        ],
+        "max": [
+          97.76348876953125,
+          13.16529655456543,
+          20.04109001159668
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 364368,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 22.467262300997934,
+        "ssim": 0.7562913708388805,
+        "initializer_surface_p95_m": 1.101661880279604,
+        "report": "runs/garage_surface_v1/block_020/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_020_prepare.log"
+    },
+    {
+      "id": "block_021",
+      "floor_id": "F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          32.07360076904297,
+          -38.65790557861328,
+          5.4833173751831055
+        ],
+        "max": [
+          92.5337905883789,
+          12.804177284240723,
+          21.174484252929688
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 343186,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.649997436850448,
+        "ssim": 0.7674403756856918,
+        "initializer_surface_p95_m": 0.8857516426349811,
+        "report": "runs/garage_surface_v1/block_021/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_021_prepare.log"
+    },
+    {
+      "id": "block_022",
+      "floor_id": "F5",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          21.268455505371094,
+          -56.956878662109375,
+          5.726810455322266
+        ],
+        "max": [
+          73.06891632080078,
+          1.1942983865737915,
+          21.018529891967773
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 360323,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 25.298149947169442,
+        "ssim": 0.7983706504106521,
+        "initializer_surface_p95_m": 0.4654880554748353,
+        "report": "runs/garage_surface_v1/block_022/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_022_prepare.log"
+    },
+    {
+      "id": "block_023",
+      "floor_id": "坡道 F5-F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          22.47509002685547,
+          -59.1802864074707,
+          7.891026496887207
+        ],
+        "max": [
+          83.2613525390625,
+          -11.972832679748535,
+          21.370481491088867
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 362611,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 24.94530229726547,
+        "ssim": 0.8159380815923214,
+        "initializer_surface_p95_m": 0.2833625096004451,
+        "report": "runs/garage_surface_v1/block_023/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_023_prepare.log"
+    },
+    {
+      "id": "block_024",
+      "floor_id": "坡道 F5-F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          41.94602584838867,
+          -51.657081604003906,
+          9.640694618225098
+        ],
+        "max": [
+          102.53736877441406,
+          -0.2644761800765991,
+          21.710636138916016
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 331951,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 24.72127623436636,
+        "ssim": 0.833443570137024,
+        "initializer_surface_p95_m": 0.3102954296339762,
+        "report": "runs/garage_surface_v1/block_024/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_024_prepare.log"
+    },
+    {
+      "id": "block_025",
+      "floor_id": "F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          52.9168586730957,
+          -55.495819091796875,
+          8.124939918518066
+        ],
+        "max": [
+          104.46508026123047,
+          -0.24396003782749176,
+          21.894739151000977
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 405967,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 21.778187572555517,
+        "ssim": 0.7487307250499725,
+        "initializer_surface_p95_m": 1.0432525244035877,
+        "report": "runs/garage_surface_v1/block_025/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_025_prepare.log"
+    },
+    {
+      "id": "block_026",
+      "floor_id": "F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          34.267940521240234,
+          -70.69023132324219,
+          7.591407299041748
+        ],
+        "max": [
+          95.02444458007812,
+          -15.378768920898438,
+          21.970640182495117
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 391296,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.820697800104163,
+        "ssim": 0.8049367219209671,
+        "initializer_surface_p95_m": 0.9415556255897114,
+        "report": "runs/garage_surface_v1/block_026/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_026_prepare.log"
+    },
+    {
+      "id": "block_027",
+      "floor_id": "F6",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          33.75968551635742,
+          -71.57218170166016,
+          10.187739372253418
+        ],
+        "max": [
+          74.22704315185547,
+          -31.65999984741211,
+          21.471588134765625
+        ]
+      },
+      "path": "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply",
+      "training": {
+        "status": "trained",
+        "iterations": 12000,
+        "gaussians": 235743,
+        "calibration_verified": false,
+        "algorithm": "LiDAR-depth-and-surface-constrained Splatfacto"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "test",
+        "psnr_db": 23.2794229468605,
+        "ssim": 0.7873132675886154,
+        "initializer_surface_p95_m": 1.5791490722988448,
+        "report": "runs/garage_surface_v1/block_027/eval_test/metrics.json",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT"
+      },
+      "error": "Command failed (1); see /home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/logs/block_027_prepare.log"
+    }
+  ],
+  "updated_at_epoch_s": 1791346325.3821883,
+  "summary": {
+    "trained_blocks": 28,
+    "requested_blocks": 28,
+    "gaussians": 10029806,
+    "test_psnr_db_mean": 23.943027876061713,
+    "test_ssim_mean": 0.7720517136777442
+  }
+}

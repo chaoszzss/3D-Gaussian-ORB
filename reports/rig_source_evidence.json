@@ -1,0 +1,2662 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-06T17:53:34.695193+08:00",
+  "status": "read_only_source_evidence_complete; scene permutation validation delegated to main agent",
+  "scope": {
+    "project_root": "/home/chaoszzss/dataset/rosbag/3D-Gaussian",
+    "outputs": [
+      "reports/RIG_SOURCE_EVIDENCE.md",
+      "reports/rig_source_evidence.json"
+    ],
+    "external_access": "read only",
+    "python_bytecode_disabled": true,
+    "TMPDIR": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/reports",
+    "package_installations": false,
+    "lidar_projection_experiments": false,
+    "image_appearance_inference": false,
+    "bounded_search": "home immediate directories and selected workspaces/package docs/source/map artifact directories, depth 2..5; prune images, labels, build, devel, caches and training datasets; no whole-home content scan",
+    "vendor_web_lookup": "official-vendor-scoped searches and opens attempted; no applicable producer source recovered; namespace API returned 404; no web source used to assert capture calibration"
+  },
+  "convention": "T_A_B maps B-coordinate column vectors into A; W=camera_init, B=published aft_mapped IMU state reference, L=bag CustomMsg numeric LiDAR frame (livox_frame), C=raw optical camera",
+  "sources": {
+    "qr_params": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/qr_params.yaml",
+      "sha256": "b5b04c2cb9b7fcdabc02f14f92c25edb59428683e74eea01483a0651e8ff804b",
+      "size_bytes": 2633,
+      "line_count": 102
+    },
+    "board_raw": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v6/maps/board-calib-backup/camera_config.yaml",
+      "sha256": "1651d01dfd2d2d949888ecf99334d551b0a5675ef5249d5bea83b80e0eb7f55f",
+      "size_bytes": 2123,
+      "line_count": 62
+    },
+    "board_virtual": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v6/maps/board-calib-backup/fisheye_8s/fisheye_stereo_imu_config.yaml",
+      "sha256": "7e8ec77c338c93ccbf3c4f87dae80a0b6a63c8119a0512abb81b40874d113745",
+      "size_bytes": 4219,
+      "line_count": 110
+    },
+    "board_mid360": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v6/maps/board-calib-backup/MID360s_config.json",
+      "sha256": "5fec6da2f9de7f0f2f43bbe57b88960268a9b5599c5e023a4c08ea8bdaf789b5",
+      "size_bytes": 802,
+      "line_count": 40
+    },
+    "runtime_params": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/maps/CZY_DATA/height_continuity_release/runtime_parameters.yaml",
+      "sha256": "c777315bc25b4ebd5bb236fa029fdac55d278cbc73b433bcc06dc8411aeb2786",
+      "size_bytes": 18539,
+      "line_count": 615
+    },
+    "runtime_manifest": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/maps/CZY_DATA/height_continuity_release/runtime_source_sha256.json",
+      "sha256": "4aabf1f9dbb6fe4b52ce5313dc9e76df9867574736535d56c1c2db5141ecf3cd",
+      "size_bytes": 6515,
+      "line_count": 59
+    },
+    "release_launch_log": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/maps/CZY_DATA/height_continuity_release/launch.log",
+      "sha256": "7e10ac1f8db82814ed570c29cfad802b98f071b296d45b451d3023b910cec957",
+      "size_bytes": 194500,
+      "line_count": 1361
+    },
+    "release_launch": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/launch/czy_lio_only.launch",
+      "sha256": "6ff0ba74f2d934271ed76f586de534701677fd69f2cb0db04e1e2112fc631fb8",
+      "size_bytes": 5553,
+      "line_count": 99
+    },
+    "release_joint_launch": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/launch/joint_mapping2.launch",
+      "sha256": "86644eba9aaa0965175173778a0d1a98eff7004e5dd6eaad237fcb8c189359be",
+      "size_bytes": 6762,
+      "line_count": 107
+    },
+    "historical_board_audit": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/scripts/audit_board_calibration.py",
+      "sha256": "6548858916dd886fc18e9cab6822999e18f077e4b592668be7c5dad93f1ef242",
+      "size_bytes": 10490,
+      "line_count": 219
+    },
+    "livmapper": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/src/LIVMapper.cpp",
+      "sha256": "6215c89cbc2f2aec0ca1c5ddeece89a6199f032ec1430e114beefc05ece0782f",
+      "size_bytes": 117569,
+      "line_count": 2617
+    },
+    "imu_processing": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/src/IMU_Processing.cpp",
+      "sha256": "7af9f9c371437691fea6c6fa4be58691d14448c9badca81c60ad7413be8d469d",
+      "size_bytes": 33189,
+      "line_count": 872
+    },
+    "vio": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/src/vio.cpp",
+      "sha256": "fd33b09bb31afc469a1f49cbc244620c034ca79bd2d0d11423eb1f254bc44d62",
+      "size_bytes": 171660,
+      "line_count": 4240
+    },
+    "preprocess": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/src/preprocess.cpp",
+      "sha256": "b9c83e979b678a5ba0ffa4438b0ba5ed31e097e9ec773e2ba9e9909d8ef00a38",
+      "size_bytes": 37232,
+      "line_count": 1203
+    },
+    "triplesphere": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/rpg_vikit/vikit_common/src/triple_sphere_camera.cpp",
+      "sha256": "149a4b0d3cf9fc075f8570c5d90366f54843fc03375454343adb46db68228b64",
+      "size_bytes": 3538,
+      "line_count": 103
+    },
+    "bridge_converter": {
+      "path": "/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge/orbvi_ros_bridge/src/frame_conversions.cpp",
+      "sha256": "eb4135118d2a5373fed2739e67152ffab137d058003a0a0ea2c414566fd92f84",
+      "size_bytes": 61072,
+      "line_count": 1781
+    },
+    "bridge_node": {
+      "path": "/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge/orbvi_ros_bridge/src/bridge_node.cpp",
+      "sha256": "1c0624b139e5101c3f117b0a779a462aeac72cfdaf11dc6454641211472b5427",
+      "size_bytes": 71387,
+      "line_count": 1776
+    },
+    "bridge_readme": {
+      "path": "/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge/README.zh-CN.md",
+      "sha256": "ddf1bbb4a104594d948003b3885c6574f24e9bae7e73a1fca9eb772730c4b1f8",
+      "size_bytes": 14595,
+      "line_count": 382
+    },
+    "sdk_rig_header": {
+      "path": "/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge/third_party/orbvi_sdk/include/orbvi_sdk/fisheye_rig.hpp",
+      "sha256": "2ec401a70d7f883e39273cea2ebfb2e304d213595c257413ccc96396e992bf06",
+      "size_bytes": 1289,
+      "line_count": 47
+    },
+    "raw_reencoder": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_raw_image_fusion_bridge/src/raw_image_fusion_bridge_node.cpp",
+      "sha256": "c75c1ce76a56c10aebe4d0e4221e1656f635155fe808831ceffe9c68904adc6c",
+      "size_bytes": 8332,
+      "line_count": 230
+    },
+    "raw_reencoder_config": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_raw_image_fusion_bridge/config/raw_image_bridge.yaml",
+      "sha256": "9bfa559c8c44f563488d5b076598d88902f6d9734a2f82b1da067a11eba70337",
+      "size_bytes": 782,
+      "line_count": 23
+    },
+    "avp_raw_bag_profile": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/config/orbvi_4vl_bag_four.yaml",
+      "sha256": "afbed25a276adac495fee681b8e1f37ff7f767a554ec2035b1505229820b94f5",
+      "size_bytes": 2122,
+      "line_count": 68
+    },
+    "avp_board_rig_profile": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/config/mid360_four_rig_anchor.yaml",
+      "sha256": "8062d19b3ec6cb2acaa0d65ee4a92227705efa7203c9b4dca4a8f77ead7493bb",
+      "size_bytes": 2182,
+      "line_count": 56
+    },
+    "upstream_livmapper_copy": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2/src/LIVMapper.cpp",
+      "sha256": "0e8ee5e63566e3677ee201f2a56429f156835e16e3e5433dbae053359a39facd",
+      "size_bytes": 99115,
+      "line_count": 2243
+    },
+    "upstream_imu_copy": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2/src/IMU_Processing.cpp",
+      "sha256": "b7f435ef3315e724db45f4f9702c974aa8de420b12967d69885ae401ff8c6f11",
+      "size_bytes": 21245,
+      "line_count": 573
+    },
+    "pose_provenance": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/all_lio_candidate/provenance.json",
+      "sha256": "046cea29f465e55853f62718aa4ca3f8a89f497864275a81b40c199709a91f53",
+      "size_bytes": 1943,
+      "line_count": 52
+    },
+    "pose_csv": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/all_lio_candidate/odometry.csv",
+      "sha256": "5a0f49cd5fce90bea63a9cd0f57bd8c8944d727695d0ccf5c9b852fe5dcb9b42",
+      "size_bytes": 1665003,
+      "line_count": 8246
+    },
+    "bag_connections_prior": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/bag_connections.json",
+      "sha256": "50bf4c311d1229ebc0ba851f868853a9cb01e55f3e07a82f00da84bfdf59737a",
+      "size_bytes": 4355,
+      "line_count": 140
+    },
+    "candidate_config_existing": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/all_lio_candidate.unverified.yaml",
+      "sha256": "be9671e897bfeb72ad57e0e3ba5e07db4c4ec241bbac53f4a647db989e4d1dbf",
+      "size_bytes": 4445,
+      "line_count": 175
+    },
+    "fast_result_0": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam0_multi_calib_result.txt",
+      "sha256": "c11fa353c4cf0db5d830b5c5899a17cab02c4c98f075352518488735aa923931",
+      "size_bytes": 190,
+      "line_count": 5
+    },
+    "fast_result_1": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam1_multi_calib_result.txt",
+      "sha256": "1c81e9541c49aad145f11f44c109256369a74df831b30791f775b881ff0d5dd2",
+      "size_bytes": 190,
+      "line_count": 5
+    },
+    "fast_result_2": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam2_multi_calib_result.txt",
+      "sha256": "697c4f03dc98272d715b0e0def27a1b99ac13e52607e4e946bd6422c8b246ce8",
+      "size_bytes": 190,
+      "line_count": 5
+    },
+    "fast_result_3": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam3_multi_calib_result.txt",
+      "sha256": "08744cc4addef692e4181144a5bfc3c35b0e8a1df7e2f3f008dc33d0cc67c60f",
+      "size_bytes": 190,
+      "line_count": 5
+    },
+    "release_tum": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/Log/result/czy_height_continuity_release3_20260925.txt",
+      "sha256": "ac457df22bb279170f6fc42351bcd1ea94aab4bbcf59ebbb6e62f005c8a7a34a",
+      "size_bytes": 705909,
+      "line_count": 8246
+    },
+    "main_agent_QR_dev_scores": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/experiments/rig_candidates/qr_dev/scores.json",
+      "sha256": "4c1cd5d39fc2576872178b40bffe14f2975b5449f89a702875303f7dd00aa0f3",
+      "size_bytes": 11081,
+      "line_count": 237
+    },
+    "main_agent_QR_dev_candidate": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/experiments/rig_candidates/qr_dev/candidate.yaml",
+      "sha256": "64126577a73fc2d1a0ae7628960049ed75e72cbcbe8ce324098ee8d698fbd5f7",
+      "size_bytes": 7789,
+      "line_count": 274
+    },
+    "sdk_image_header": {
+      "path": "/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge/third_party/orbvi_sdk/include/orbvi_sdk/image.hpp",
+      "sha256": "db569af0767b237a48256fe9838e2c568c1c8a491f5fcd3939c3e8acd686bdf4",
+      "size_bytes": 4939,
+      "line_count": 178
+    },
+    "sdk_build_cache": {
+      "path": "/home/chaoszzss/orbvi_ros1_ws/build/CMakeCache.txt",
+      "sha256": "73e054c19fff1ddba27379f26bb53e37742b1bc5371eaa7dffd6733968b889c9",
+      "size_bytes": 29437,
+      "line_count": 806
+    }
+  },
+  "evidence": {
+    "fast_declared_ids": [
+      {
+        "source_id": "qr_params",
+        "line_start": 4,
+        "line_end": 8,
+        "text": "# ORBVI mjpeg topic mapping:\n#   /rk_cam/3/mjpeg -> cam0\n#   /rk_cam/2/mjpeg -> cam1\n#   /rk_cam/4/mjpeg -> cam2\n#   /rk_cam/5/mjpeg -> cam3"
+      },
+      {
+        "source_id": "qr_params",
+        "line_start": 31,
+        "line_end": 42,
+        "text": "cameras:\n  cam0:\n    topic: \"/rk_cam/3/mjpeg\"\n    fx: 617.38977302476292\n    fy: 622.04838389900192\n    cx: 644.02209060597841\n    cy: 552.24488765399883\n    xi: -0.20389208692403207\n    lamda: -0.065891008932412801\n    alpha: 0.59248909223834112\n    b: 0.0\n    c: 0.0"
+      },
+      {
+        "source_id": "qr_params",
+        "line_start": 50,
+        "line_end": 60,
+        "text": "  cam1:\n    topic: \"/rk_cam/2/mjpeg\"\n    fx: 616.27704619825113\n    fy: 620.72672606145977\n    cx: 671.83645308739642\n    cy: 537.26102118079757\n    xi: -0.20275292068602596\n    lamda: -0.066106707013346006\n    alpha: 0.59132092805590764\n    b: 0.0\n    c: 0.0"
+      },
+      {
+        "source_id": "qr_params",
+        "line_start": 68,
+        "line_end": 78,
+        "text": "  cam2:\n    topic: \"/rk_cam/4/mjpeg\"\n    fx: 619.21466070374299\n    fy: 623.93544041568714\n    cx: 681.14447353114247\n    cy: 529.16739991092311\n    xi: -0.20083720420586834\n    lamda: -0.064204330004178897\n    alpha: 0.59208324052218919\n    b: 0.0\n    c: 0.0"
+      },
+      {
+        "source_id": "qr_params",
+        "line_start": 86,
+        "line_end": 96,
+        "text": "  cam3:\n    topic: \"/rk_cam/5/mjpeg\"\n    fx: 612.37568035081733\n    fy: 616.87921548429438\n    cx: 650.85611827015282\n    cy: 506.71509557596914\n    xi: -0.20401891759963942\n    lamda: -0.065501074588469974\n    alpha: 0.59080375284054509\n    b: 0.0\n    c: 0.0"
+      }
+    ],
+    "raw_metadata_ids": [
+      {
+        "source_id": "bridge_converter",
+        "line_start": 1031,
+        "line_end": 1067,
+        "text": "  if (bundle_type == \"RAW_MJPEG_BUNDLE\") {\n    if (!split_bundles) {\n      if (skipped_reason != nullptr) {\n        *skipped_reason = \"multi-image raw frame cannot be published as one valid CompressedImage\";\n      }\n      return outputs;\n    }\n    std::uint32_t count = 0;\n    if (!ParseU32(MetadataValue(metadata, \"camera_count\"), &count) &&\n        !ParseU32(MetadataValue(metadata, \"entry_count\"), &count)) {\n      return outputs;\n    }\n    for (std::uint32_t i = 0; i < count; ++i) {\n      std::size_t offset = 0;\n      std::size_t size = 0;\n      if (!ParseSize(MetadataValue(metadata, CameraMetadataKey(i, \"payload_offset\")), &offset) ||\n          !ParseSize(MetadataValue(metadata, CameraMetadataKey(i, \"payload_size\")), &size)) {\n        continue;\n      }\n      CompressedImageOutput output;\n      std::uint64_t timestamp_ns = 0;\n      ParseU64(MetadataValue(metadata, CameraMetadataKey(i, \"timestamp_ns\")), &timestamp_ns);\n      output.message.header = MakeHeader(\n          frame,\n          MetadataValue(metadata, CameraMetadataKey(i, \"source_frame_id\"), frame.frame_id),\n          timestamp_ns);\n      output.message.format = \"jpeg\";\n      if (!SlicePayload(frame, offset, size, &output.message.data)) {\n        continue;\n      }\n      const std::string camera_id = SanitizeTopicToken(\n          MetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\n          std::to_string(i));\n      output.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";\n      outputs.push_back(std::move(output));\n    }\n    return outputs;"
+      },
+      {
+        "source_id": "bridge_converter",
+        "line_start": 598,
+        "line_end": 617,
+        "text": "bool MakeSingleCompressedImage(\n    const orbvi_sdk::FrameView& frame,\n    const MetadataMap& metadata,\n    CompressedImageOutput* out) {\n  if (out == nullptr) {\n    return false;\n  }\n  out->message.header = MakeHeader(frame);\n  out->message.format = \"jpeg\";\n  if (!SlicePayload(frame, 0, frame.payload_size, &out->message.data)) {\n    return false;\n  }\n\n  out->topic_suffix = StreamTopicSuffix(frame.stream_id);\n  if (frame.stream_id == orbvi_sdk::StreamId::RawFisheye) {\n    const std::string camera_id =\n        SanitizeTopicToken(MetadataValue(metadata, \"camera_id\"), \"\");\n    if (!camera_id.empty()) {\n      out->topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";\n    }"
+      },
+      {
+        "source_id": "bridge_converter",
+        "line_start": 1132,
+        "line_end": 1141,
+        "text": "    output.message.header = MakeHeader(decoded.timestamp_ns, decoded.frame_id);\n    output.message.height = decoded.height;\n    output.message.width = decoded.width;\n    output.message.encoding = \"bgr8\";\n    output.message.is_bigendian = 0;\n    output.message.step = decoded.stride;\n    output.message.data.assign(decoded.data, decoded.data + decoded.data_size);\n    const std::string token = SanitizeTopicToken(decoded.camera_id, std::to_string(index));\n    if (stream == orbvi_sdk::StreamId::RawFisheye) {\n      output.topic_suffix = \"raw/camera_\" + token + \"/image\";"
+      },
+      {
+        "source_id": "bridge_node",
+        "line_start": 1324,
+        "line_end": 1335,
+        "text": "  void PublishImages(\n      const orbvi_sdk::FrameView& frame,\n      const orbvi_sdk::FrameDelivery& delivery) {\n    PublishIpm(frame, delivery);\n    CacheRectifiedLeftImages(frame, delivery);\n    if (config_.publish_compressed_images) {\n      std::string skipped_reason;\n      for (const auto& output :\n           MakeCompressedImageMessages(frame, config_.split_multi_image_frames, &skipped_reason)) {\n        Publisher<sensor_msgs::CompressedImage>(\n            JoinTopic(config_.topic_prefix, output.topic_suffix))\n            .publish(output.message);"
+      }
+    ],
+    "local_current_reference_roles": [
+      {
+        "source_id": "bridge_readme",
+        "line_start": 184,
+        "line_end": 189,
+        "text": "公开 topic 固定在 `/orbvi` 下。全景入口使用内置 `config/pano_mode2.yaml` /\n`config/pano_mode2_ros2.yaml` 默认配置。默认以 2048x1024 完整角度画布投影，\n上下各裁 200 行后发布 2048x624 图像；默认使用固定接缝、4 层 MultiBand，以及\n鱼眼旋转/平移外参和可调的 2.0 m 有限拼接半径。物理相机映射固定为\n`front=3、right=2、rear=4、left=5`。Host SDK 已将 RGB 与 rig 深度全景统一为\n`[0, 2*pi)` 方位契约，Bridge 仅复制图像，不再执行相位调整。"
+      }
+    ],
+    "raw_reencoder_pairing": [
+      {
+        "source_id": "raw_reencoder",
+        "line_start": 63,
+        "line_end": 77,
+        "text": "    const std::vector<std::string> default_inputs{\n        \"/orbvi/raw/camera_3/image\",\n        \"/orbvi/raw/camera_2/image\",\n        \"/orbvi/raw/camera_4/image\",\n        \"/orbvi/raw/camera_5/image\"};\n    const std::vector<std::string> default_outputs{\n        \"/orbvi/raw/camera_3/image/compressed\",\n        \"/orbvi/raw/camera_2/image/compressed\",\n        \"/orbvi/raw/camera_4/image/compressed\",\n        \"/orbvi/raw/camera_5/image/compressed\"};\n\n    input_topics_ = ReadStringList(&private_node_, \"input_topics\", default_inputs);\n    output_topics_ = ReadStringList(&private_node_, \"output_topics\", default_outputs);\n    if (input_topics_.empty() || input_topics_.size() != output_topics_.size()) {\n      throw std::runtime_error(\"~input_topics and ~output_topics must have equal non-zero length\");"
+      },
+      {
+        "source_id": "raw_reencoder",
+        "line_start": 105,
+        "line_end": 116,
+        "text": "    for (std::size_t index = 0; index < output_topics_.size(); ++index) {\n      publishers_.push_back(\n          node_.advertise<sensor_msgs::CompressedImage>(\n              output_topics_[index], publisher_queue_size_));\n    }\n    for (std::size_t index = 0; index < input_topics_.size(); ++index) {\n      subscribers_.push_back(\n          node_.subscribe<sensor_msgs::Image>(\n              input_topics_[index], subscriber_queue_size_,\n              std::bind(&RawImageFusionBridge::ImageCallback, this,\n                        std::placeholders::_1, index),\n              ros::VoidConstPtr(), ros::TransportHints().tcpNoDelay()));"
+      },
+      {
+        "source_id": "raw_reencoder",
+        "line_start": 161,
+        "line_end": 163,
+        "text": "    sensor_msgs::CompressedImage output;\n    output.header = message->header;\n    output.format = codec_;"
+      },
+      {
+        "source_id": "raw_reencoder",
+        "line_start": 182,
+        "line_end": 182,
+        "text": "    publishers_[camera_index].publish(output);"
+      }
+    ],
+    "lio_parameter_direction": [
+      {
+        "source_id": "livmapper",
+        "line_start": 175,
+        "line_end": 176,
+        "text": "    nh.param<vector<double>>(\"extrin_calib/extrinsic_T\", extrinT, vector<double>());\n    nh.param<vector<double>>(\"extrin_calib/extrinsic_R\", extrinR, vector<double>());"
+      },
+      {
+        "source_id": "livmapper",
+        "line_start": 446,
+        "line_end": 452,
+        "text": "void LIVMapper::initializeComponents() {\n    downSizeFilterSurf.setLeafSize(filter_size_surf_min, filter_size_surf_min, filter_size_surf_min);\n    extT << VEC_FROM_ARRAY(extrinT);\n    extR << MAT_FROM_ARRAY(extrinR);\n\n    voxelmap_manager->extT_ << VEC_FROM_ARRAY(extrinT);\n    voxelmap_manager->extR_ << MAT_FROM_ARRAY(extrinR);"
+      },
+      {
+        "source_id": "livmapper",
+        "line_start": 531,
+        "line_end": 531,
+        "text": "    p_imu->set_extrinsic(extT, extR);"
+      },
+      {
+        "source_id": "imu_processing",
+        "line_start": 96,
+        "line_end": 100,
+        "text": "void ImuProcess::set_extrinsic(const V3D &transl, const M3D &rot)\n{\n  Lid_offset_to_IMU = transl;\n  Lid_rot_to_IMU = rot;\n}"
+      }
+    ],
+    "lio_world_points": [
+      {
+        "source_id": "livmapper",
+        "line_start": 1346,
+        "line_end": 1353,
+        "text": "LIVMapper::transformLidar(const Eigen::Matrix3d rot, const Eigen::Vector3d t, const PointCloudXYZI::Ptr &input_cloud,\n                          PointCloudXYZI::Ptr &trans_cloud) {\n    PointCloudXYZI().swap(*trans_cloud);\n    trans_cloud->reserve(input_cloud->size());\n    for (size_t i = 0; i < input_cloud->size(); i++) {\n        pcl::PointXYZINormal p_c = input_cloud->points[i];\n        Eigen::Vector3d p(p_c.x, p_c.y, p_c.z);\n        p = (rot * (extR * p + extT) + t);"
+      },
+      {
+        "source_id": "livmapper",
+        "line_start": 1363,
+        "line_end": 1369,
+        "text": "void LIVMapper::pointBodyToWorld(const PointType &pi, PointType &po) {\n    V3D p_body(pi.x, pi.y, pi.z);\n    V3D p_global(_state.rot_end * (extR * p_body + extT) + _state.pos_end);\n    po.x = p_global(0);\n    po.y = p_global(1);\n    po.z = p_global(2);\n    po.intensity = pi.intensity;"
+      },
+      {
+        "source_id": "livmapper",
+        "line_start": 1389,
+        "line_end": 1395,
+        "text": "void LIVMapper::RGBpointBodyToWorld(PointType const *const pi, PointType *const po) {\n    V3D p_body(pi->x, pi->y, pi->z);\n    V3D p_global(_state.rot_end * (extR * p_body + extT) + _state.pos_end);\n    po->x = p_global(0);\n    po->y = p_global(1);\n    po->z = p_global(2);\n    po->intensity = pi->intensity;"
+      }
+    ],
+    "lio_pose": [
+      {
+        "source_id": "imu_processing",
+        "line_start": 675,
+        "line_end": 707,
+        "text": "      /* propogation of IMU attitude */\n      R_imu = R_imu * Exp_f;\n\n      /* Specific acceleration (global frame) of IMU */\n      acc_imu = R_imu * acc_avr + state_inout.gravity;\n\n      /* propogation of IMU */\n      pos_imu = pos_imu + vel_imu * dt + 0.5 * acc_imu * dt * dt;\n\n      /* velocity of IMU */\n      vel_imu = vel_imu + acc_imu * dt;\n\n      /* save the poses at each IMU measurements */\n      angvel_last = angvel_avr;\n      acc_s_last = acc_imu;\n\n      // cout<<setw(20)<<\"offset_t: \"<<offs_t<<\"tail->header.stamp.toSec():\n      // \"<<tail->header.stamp.toSec()<<endl; printf(\"[ LIO Propagation ]\n      // offs_t: %lf \\n\", offs_t);\n      IMUpose.push_back(set_pose6d(offs_t, acc_imu, angvel_avr, vel_imu, pos_imu, R_imu));\n    }\n\n    // unbiased_gyr = V3D(IMUpose.back().gyr[0], IMUpose.back().gyr[1], IMUpose.back().gyr[2]);\n    // cout<<\"prop end - start: \"<<prop_end_time - prop_beg_time<<\" dt_all: \"<<dt_all<<endl;\n    lidar_meas.last_lio_update_time = prop_end_time;\n    // dt = prop_end_time - imu_end_time;\n    // printf(\"[ LIO Propagation ] dt: %lf \\n\", dt);\n    break;\n  }\n\n  state_inout.vel_end = vel_imu;\n  state_inout.rot_end = R_imu;\n  state_inout.pos_end = pos_imu;"
+      },
+      {
+        "source_id": "livmapper",
+        "line_start": 995,
+        "line_end": 1005,
+        "text": "        Eigen::Matrix4d outT;\n        Eigen::Quaterniond q(_state.rot_end);\n        evoFile << std::fixed;\n        evoFile << LidarMeasures.last_lio_update_time << \" \" << _state.pos_end[0] << \" \" << _state.pos_end[1] << \" \"\n                << _state.pos_end[2] << \" \"\n                << q.x() << \" \" << q.y() << \" \" << q.z() << \" \" << q.w() << std::endl;\n    }\n\n    euler_cur = RotMtoEuler(_state.rot_end);\n    geoQuat = tf::createQuaternionMsgFromRollPitchYaw(euler_cur(0), euler_cur(1), euler_cur(2));\n    publish_odometry(pubOdomAftMapped);"
+      },
+      {
+        "source_id": "livmapper",
+        "line_start": 2573,
+        "line_end": 2601,
+        "text": "template<typename T>\nvoid LIVMapper::set_posestamp(T &out) {\n    out.position.x = _state.pos_end(0);\n    out.position.y = _state.pos_end(1);\n    out.position.z = _state.pos_end(2);\n    out.orientation.x = geoQuat.x;\n    out.orientation.y = geoQuat.y;\n    out.orientation.z = geoQuat.z;\n    out.orientation.w = geoQuat.w;\n}\n\nvoid LIVMapper::publish_odometry(const ros::Publisher &pubOdomAftMapped) {\n    odomAftMapped.header.frame_id = \"camera_init\";\n    odomAftMapped.child_frame_id = \"aft_mapped\";\n    odomAftMapped.header.stamp =\n            ros::Time().fromSec(LidarMeasures.last_lio_update_time);\n    set_posestamp(odomAftMapped.pose.pose);\n\n    static tf::TransformBroadcaster br;\n    tf::Transform transform;\n    tf::Quaternion q;\n    transform.setOrigin(tf::Vector3(_state.pos_end(0), _state.pos_end(1), _state.pos_end(2)));\n    q.setW(geoQuat.w);\n    q.setX(geoQuat.x);\n    q.setY(geoQuat.y);\n    q.setZ(geoQuat.z);\n    transform.setRotation(q);\n    br.sendTransform(tf::StampedTransform(transform, odomAftMapped.header.stamp, \"camera_init\", \"aft_mapped\"));\n    pubOdomAftMapped.publish(odomAftMapped);"
+      }
+    ],
+    "lio_deskew": [
+      {
+        "source_id": "imu_processing",
+        "line_start": 759,
+        "line_end": 763,
+        "text": "  if (lidar_meas.lio_vio_flg == LIO)\n  {\n    auto it_pcl = pcl_wait_proc.points.end() - 1;\n    M3D extR_Ri(Lid_rot_to_IMU.transpose() * state_inout.rot_end.transpose());\n    V3D exrR_extT(Lid_rot_to_IMU.transpose() * Lid_offset_to_IMU);"
+      },
+      {
+        "source_id": "imu_processing",
+        "line_start": 783,
+        "line_end": 796,
+        "text": "        /* Transform to the 'end' frame */\n        M3D R_i(R_imu * Exp(angvel_avr, dt));\n        V3D T_ei(pos_imu + vel_imu * dt + 0.5 * acc_imu * dt * dt - state_inout.pos_end);\n\n        V3D P_i(it_pcl->x, it_pcl->y, it_pcl->z);\n        // V3D P_compensate = Lid_rot_to_IMU.transpose() *\n        // (state_inout.rot_end.transpose() * (R_i * (Lid_rot_to_IMU * P_i +\n        // Lid_offset_to_IMU) + T_ei) - Lid_offset_to_IMU);\n        V3D P_compensate = (extR_Ri * (R_i * (Lid_rot_to_IMU * P_i + Lid_offset_to_IMU) + T_ei) - exrR_extT);\n\n        /// save Undistorted points and their rotation\n        it_pcl->x = P_compensate(0);\n        it_pcl->y = P_compensate(1);\n        it_pcl->z = P_compensate(2);"
+      }
+    ],
+    "lio_gravity_alignment": [
+      {
+        "source_id": "livmapper",
+        "line_start": 746,
+        "line_end": 757,
+        "text": "void LIVMapper::gravityAlignment() {\n    if (!p_imu->imu_need_init && !gravity_align_finished) {\n        std::cout << \"Gravity Alignment Starts\" << std::endl;\n        V3D ez(0, 0, -1), gz(_state.gravity);\n        Quaterniond G_q_I0 = Quaterniond::FromTwoVectors(gz, ez);\n        M3D G_R_I0 = G_q_I0.toRotationMatrix();\n\n        _state.pos_end = G_R_I0 * _state.pos_end;\n        _state.rot_end = G_R_I0 * _state.rot_end;\n        _state.vel_end = G_R_I0 * _state.vel_end;\n        _state.gravity = G_R_I0 * _state.gravity;\n        gravity_align_finished = true;"
+      }
+    ],
+    "runtime_extrinsics": [
+      {
+        "source_id": "runtime_params",
+        "line_start": 1,
+        "line_end": 22,
+        "text": "common:\n  camera_group_stride: 1\n  dmabuf_camera_order:\n  - 3\n  - 2\n  - 4\n  - 5\n  dmabuf_max_pending_groups: 4\n  dmabuf_raw_nv12_crop_bottom_rows: 8\n  dmabuf_reconnect_delay_ms: 200\n  dmabuf_socket_path: /run/orbvi/raw_fisheye_nv12.sock\n  dmabuf_timestamp_camera_id: 3\n  image_input_type: shm\n  image_subscriber_queue_size: 2\n  img_en: 0\n  imu_topic: /orbvi/imu\n  lid_topic: /orbvi/lidar/custom\n  lidar_en: 1\n  lidar_header_stamp_is_scan_end: false\n  max_image_buffer_age_sec: 0.2\n  max_image_buffer_frames: 4\n  ros_driver_bug_fix: false"
+      },
+      {
+        "source_id": "runtime_params",
+        "line_start": 31,
+        "line_end": 80,
+        "text": "extrin_calib:\n  cameras:\n  - Pcl:\n    - 0.013496\n    - -0.065082\n    - -0.075599\n    Rcl:\n    - 0.67942\n    - -0.733611\n    - 0.014275\n    - 0.03032\n    - 0.008633\n    - -0.999503\n    - 0.733123\n    - 0.679515\n    - 0.028109\n    cam_id: 0\n    img_topic: /rk_cam/3/shm\n    source_camera_id: 3\n  - Pcl:\n    - 0.017169\n    - -0.059131\n    - -0.07473\n    Rcl:\n    - -0.670814\n    - 0.741508\n    - 0.013195\n    - -0.012217\n    - 0.006741\n    - -0.999903\n    - -0.741525\n    - -0.67091\n    - 0.004537\n    cam_id: 1\n    img_topic: /rk_cam/4/shm\n    source_camera_id: 4\n  extrinsic_R:\n  - 1\n  - 0\n  - 0\n  - 0\n  - -1\n  - 0\n  - 0\n  - 0\n  - -1\n  extrinsic_T:\n  - -0.011\n  - -0.02329\n  - 0.04412"
+      },
+      {
+        "source_id": "runtime_params",
+        "line_start": 98,
+        "line_end": 126,
+        "text": "laserMapping:\n  cam_0:\n    cam_alpha: 0.5924890922383411\n    cam_b: 0.0\n    cam_c: 0.0\n    cam_cx: 644.0220906059784\n    cam_cy: 552.2448876539988\n    cam_fx: 617.3897730247629\n    cam_fy: 622.0483838990019\n    cam_height: 1080\n    cam_lamda: -0.0658910089324128\n    cam_model: TripleSphere\n    cam_width: 1280\n    cam_xi: -0.20389208692403207\n    scale: 1.0\n  cam_1:\n    cam_alpha: 0.5920832405221892\n    cam_b: 0.0\n    cam_c: 0.0\n    cam_cx: 681.1444735311425\n    cam_cy: 529.1673999109231\n    cam_fx: 619.214660703743\n    cam_fy: 623.9354404156871\n    cam_height: 1080\n    cam_lamda: -0.0642043300041789\n    cam_model: TripleSphere\n    cam_width: 1280\n    cam_xi: -0.20083720420586834\n    scale: 1.0"
+      }
+    ],
+    "runtime_mount_provenance": [
+      {
+        "source_id": "release_launch",
+        "line_start": 21,
+        "line_end": 28,
+        "text": "  <!-- CZY /orbvi/imu is mounted with y,z opposite the Livox frame.\n       Scan registration against IMU yaw and ascent geometry supports Rx(pi).\n       This axis alignment is a dataset-specific estimate, not a full\n       surveyed six-DOF extrinsic calibration. -->\n  <arg name=\"lidar_to_imu_rotation\" default=\"[1,0,0,0,-1,0,0,0,-1]\" />\n  <!-- Preserve the upstream Mid360 translation until a measured six-DOF\n       calibration for this CZY rig is available. -->\n  <arg name=\"lidar_to_imu_translation\" default=\"[-0.011,-0.02329,0.04412]\" />"
+      },
+      {
+        "source_id": "release_launch",
+        "line_start": 38,
+        "line_end": 47,
+        "text": "  <param name=\"common/lid_topic\" value=\"$(arg lidar_topic)\" />\n  <param name=\"common/imu_topic\" value=\"$(arg imu_topic)\" />\n  <param name=\"common/lidar_en\" value=\"1\" />\n  <!-- CZY CustomMsg header/timebase is scan-start; per-point offset_time\n       supplies the remaining ~100 ms. -->\n  <param name=\"common/lidar_header_stamp_is_scan_end\" value=\"false\" />\n  <!-- img_en is read as an integer by LIVMapper. -->\n  <param name=\"common/img_en\" value=\"0\" />\n  <param name=\"extrin_calib/extrinsic_R\" type=\"yaml\" value=\"$(arg lidar_to_imu_rotation)\" />\n  <param name=\"extrin_calib/extrinsic_T\" type=\"yaml\" value=\"$(arg lidar_to_imu_translation)\" />"
+      }
+    ],
+    "camera_lidar_direction": [
+      {
+        "source_id": "vio",
+        "line_start": 94,
+        "line_end": 108,
+        "text": "void VIOManager::setImuToLidarExtrinsic(const V3D &transl, const M3D &rot) {\n    Pli = -rot.transpose() * transl;\n    Rli = rot.transpose();\n}\n\nvoid VIOManager::setLidarToCameraExtrinsic(std::vector<std::vector<double>> &R,\n                                           std::vector<std::vector<double>> &P) {\n    Rcl_vec.resize(cams.size());\n    Pcl_vec.resize(cams.size());\n    for (size_t i = 0; i < cams.size(); i++) {\n        Rcl_vec[i] << R[i][0], R[i][1], R[i][2],\n                R[i][3], R[i][4], R[i][5],\n                R[i][6], R[i][7], R[i][8];\n        Pcl_vec[i] << P[i][0], P[i][1], P[i][2];\n    }"
+      },
+      {
+        "source_id": "vio",
+        "line_start": 149,
+        "line_end": 154,
+        "text": "    for(size_t i = 0; i < cams.size(); i++)\n    {\n        Rci_vec[i] = Rcl_vec[i] * Rli;\n        Pci_vec[i] = Rcl_vec[i] * Pli + Pcl_vec[i];\n        Jdphi_dR_vec[i] = Rci_vec[i];\n        Eigen::Vector3d Pic_i = - Rci_vec[i].transpose() * Pci_vec[i];"
+      }
+    ],
+    "lidar_coordinates_pass_through": [
+      {
+        "source_id": "bridge_converter",
+        "line_start": 1641,
+        "line_end": 1676,
+        "text": "bool MakeLivoxCustomMessage(\n    const orbvi_sdk::FrameView& frame,\n    livox_ros_driver2::CustomMsg* out) {\n  if (out == nullptr || frame.payload_data == nullptr ||\n      frame.payload_size < kLivoxCustomHeaderBytes) {\n    return false;\n  }\n  std::size_t offset = 0;\n  out->header = MakeHeader(frame);\n  if (!ReadPod(frame.payload_data, frame.payload_size, &offset, &out->timebase) ||\n      !ReadPod(frame.payload_data, frame.payload_size, &offset, &out->point_num) ||\n      !ReadPod(frame.payload_data, frame.payload_size, &offset, &out->lidar_id)) {\n    return false;\n  }\n  for (std::size_t i = 0; i < out->rsvd.size(); ++i) {\n    if (!ReadPod(frame.payload_data, frame.payload_size, &offset, &out->rsvd[i])) {\n      return false;\n    }\n  }\n  if (out->point_num > (frame.payload_size - offset) / kLivoxCustomPointBytes) {\n    return false;\n  }\n  out->points.resize(out->point_num);\n  for (std::uint32_t i = 0; i < out->point_num; ++i) {\n    auto& point = out->points[i];\n    if (!ReadPod(frame.payload_data, frame.payload_size, &offset, &point.offset_time) ||\n        !ReadPod(frame.payload_data, frame.payload_size, &offset, &point.x) ||\n        !ReadPod(frame.payload_data, frame.payload_size, &offset, &point.y) ||\n        !ReadPod(frame.payload_data, frame.payload_size, &offset, &point.z) ||\n        !ReadPod(frame.payload_data, frame.payload_size, &offset, &point.reflectivity) ||\n        !ReadPod(frame.payload_data, frame.payload_size, &offset, &point.tag) ||\n        !ReadPod(frame.payload_data, frame.payload_size, &offset, &point.line)) {\n      return false;\n    }\n  }\n  return true;"
+      },
+      {
+        "source_id": "preprocess",
+        "line_start": 159,
+        "line_end": 163,
+        "text": "                    pl_full[i].x = msg->points[i].x;\n                    pl_full[i].y = msg->points[i].y;\n                    pl_full[i].z = msg->points[i].z;\n                    pl_full[i].intensity = msg->points[i].reflectivity;\n                    pl_full[i].curvature = msg->points[i].offset_time / float(1000000); // use curvature as time of each laser points, curvature unit: ms"
+      }
+    ],
+    "board_relative_pose_local_interpretation": [
+      {
+        "source_id": "avp_board_rig_profile",
+        "line_start": 1,
+        "line_end": 9,
+        "text": "# Experimental four-fisheye extrinsics constrained by the rigid camera rig.\n#\n# cam_0 -> LiDAR uses the independently calibrated FAST-Calib result. The\n# remaining camera<-LiDAR transforms are composed from that anchor and the\n# camera poses Twc1/Twc2/Twc3 in the cam0 frame:\n#   T_cam_i_lidar = inverse(T_cam0_cam_i) * T_cam0_lidar\n# Twc translations were supplied in millimetres and converted to metres.\n# Logical/source order and all VIO resource parameters intentionally match\n# mid360_four.yaml so the extrinsic model is the only A/B variable."
+      },
+      {
+        "source_id": "historical_board_audit",
+        "line_start": 114,
+        "line_end": 121,
+        "text": "    raw_transforms, body_transforms, lidar_transforms = [], [], []\n    for i in range(4):\n        transform = np.eye(4)\n        transform[:3, :] = matrix(raw[f\"Twc{i}\"])\n        transform[:3, 3] *= 0.001  # camera_config Twc convention is millimetres.\n        raw_transforms.append(transform)\n        fast = read_yaml(fast_calib_dir / f\"cam{i}_multi_calib_result.txt\")\n        lidar_transforms.append(rigid(np.asarray(fast[\"Rcl\"]).reshape(3, 3), fast[\"Pcl\"]))"
+      },
+      {
+        "source_id": "sdk_rig_header",
+        "line_start": 30,
+        "line_end": 37,
+        "text": "struct PanoramaCameraCalibration {\n  PanoramaCameraIntrinsics intrinsics;\n  std::array<double, 9> rotation_cam_to_reference = {\n      1.0, 0.0, 0.0,\n      0.0, 1.0, 0.0,\n      0.0, 0.0, 1.0};\n  std::array<double, 3> translation_cam_in_reference_m = {0.0, 0.0, 0.0};\n  bool has_full_extrinsics = false;"
+      }
+    ],
+    "virtual_views_distinct": [
+      {
+        "source_id": "board_virtual",
+        "line_start": 10,
+        "line_end": 23,
+        "text": "cam0_calib: left0.yaml\ncam1_calib: right0.yaml\ncam2_calib: left1.yaml\ncam3_calib: right1.yaml\ncam4_calib: left2.yaml\ncam5_calib: right2.yaml\ncam6_calib: left3.yaml\ncam7_calib: right3.yaml\n\nimage_width: 320\nimage_height: 1024\n\n# Extrinsic parameter between IMU and Camera.\nestimate_extrinsic: 1  # 0  Have an accurate extrinsic parameters. We will trust the following imu^R_cam, imu^T_cam, don't change it."
+      },
+      {
+        "source_id": "historical_board_audit",
+        "line_start": 174,
+        "line_end": 188,
+        "text": "            \"rmse_per_coordinate_m\": float(np.sqrt(np.mean(fit_residual ** 2))),\n            \"singular_values\": singular_values.tolist(),\n            \"not_an_accepted_extrinsic\": True,\n            \"reason\": \"Virtual-camera origins are optimized estimates; explicit raw-to-virtual rectification rotations are absent.\",\n            \"lidar_to_body_candidates\": [transform_summary(t) for t in candidates],\n            \"candidate_disagreement\": pairwise(candidates),\n        },\n        \"fusion_runtime\": {key: config[key] for key in\n                           [\"pixel_scale\", \"pose_to_bev_ref\", \"sensor_height\", \"max_sync_gap\",\n                            \"ground_prior_max_error\", \"ground_single_floor_max_prior_deviation\"]},\n        \"findings\": [\n            \"Eight 320x256 PINHOLE stereo views and four raw TripleSphere cameras are different optical frames.\",\n            \"body_T_cam0 @ raw_camera0_T_lidar is an invalid chain without the raw-to-virtual rotation.\",\n            \"MID360 driver zero extrinsics do not define the transform to the separate visual IMU.\",\n            \"The td field belongs to image versus visual IMU timing; it must not be reused as LiDAR versus IMU timing.\","
+      }
+    ],
+    "triple_sphere_equation": [
+      {
+        "source_id": "triplesphere",
+        "line_start": 19,
+        "line_end": 48,
+        "text": "TripleSphereCamera::TripleSphereCamera(\n    int width, int height, double scale,\n    double fx, double fy, double cx, double cy,\n    double xi, double lambda, double alpha, double b, double c)\n    : AbstractCamera(static_cast<int>(width * scale),\n                     static_cast<int>(height * scale), scale),\n      fx_(fx * scale),\n      fy_(fy * scale),\n      cx_(cx * scale),\n      cy_(cy * scale),\n      xi_(xi),\n      lambda_(lambda),\n      alpha_(alpha),\n      b_(b * scale),\n      c_(c * scale) {}\n\nVector2d TripleSphereCamera::world2cam(const Vector3d& p) const {\n  const double d1 = p.norm();\n  const double z2 = p.z() + xi_ * d1;\n  const double d2 = std::sqrt(p.x() * p.x() + p.y() * p.y() + z2 * z2);\n  const double z3 = z2 + lambda_ * d2;\n  const double d3 = std::sqrt(p.x() * p.x() + p.y() * p.y() + z3 * z3);\n  const double denominator = z3 + alpha_ / (1.0 - alpha_) * d3;\n  if (!std::isfinite(denominator) || std::abs(denominator) < kEpsilon) {\n    return Vector2d::Constant(std::numeric_limits<double>::quiet_NaN());\n  }\n  const double mx = p.x() / denominator;\n  const double my = p.y() / denominator;\n  return Vector2d(fx_ * mx + b_ * my + cx_,\n                  c_ * mx + fy_ * my + cy_);"
+      }
+    ],
+    "historical_manifest_excludes_mapper": [
+      {
+        "source_id": "runtime_manifest",
+        "line_start": 50,
+        "line_end": 59,
+        "text": "  \"config/czy_all_floor_schedule.json\": \"5ac0e155ecff92cde6e6b1054563dd0fbe03a775a71c4369297892902df97cc9\",\n  \"config/semantic_refinement_v2.yaml\": \"6ec668937403a1d2a1d923af0ba415ed72a0f09ab3fbd1eca10f22db67da493b\",\n  \"config/joint_fusion.yaml\": \"82289abd6547a931b8e901977ae67801c6d93b6b60b511a7b26cc94fae006780\",\n  \"launch/czy_lio_only.launch\": \"6ff0ba74f2d934271ed76f586de534701677fd69f2cb0db04e1e2112fc631fb8\",\n  \"launch/joint_mapping_vio_height_probe.launch\": \"e2723e745ead89fa0ddcfba211d62864e7fc4e4935984bafc4836ab1a22359cf\",\n  \"launch/joint_mapping.launch\": \"2c0bf1f9e8a197dc205643365bab70cbc2e7c0616c4cf97849915fda64e1aaa4\",\n  \"launch/joint_mapping2.launch\": \"86644eba9aaa0965175173778a0d1a98eff7004e5dd6eaad237fcb8c189359be\",\n  \"launch/view_saved_mapping2.launch\": \"3767b65213db6f1bf4db6a93a15d62934ebe88210c9cd30d52cfc60c7d304e4b\",\n  \"requirements-height.txt\": \"c27c4971a5aac7e14b9dd06c71b6fde77cb8d1e7a4dcca9d46953c7dad611597\"\n}"
+      }
+    ],
+    "runtime_launch_cameras": [
+      {
+        "source_id": "release_launch_log",
+        "line_start": 545,
+        "line_end": 576,
+        "text": "[INFO] [1790343835.374197094]: Found parameter: laserMapping/cam_0/cam_cx, value: 644.022\n[INFO] [1790343835.374293477]: Found parameter: laserMapping/cam_0/cam_cy, value: 552.245\n[INFO] [1790343835.374385893]: Found parameter: laserMapping/cam_0/cam_xi, value: -0.203892\n[INFO] [1790343835.374477255]: Found parameter: laserMapping/cam_0/cam_lamda, value: -0.065891\n[INFO] [1790343835.374569472]: Found parameter: laserMapping/cam_0/cam_alpha, value: 0.592489\n[INFO] [1790343835.374663829]: Found parameter: laserMapping/cam_0/cam_b, value: 0\n[INFO] [1790343835.374754950]: Found parameter: laserMapping/cam_0/cam_c, value: 0\n[INFO] [1790343835.374762258]: Loaded camera 0 from namespace: laserMapping/cam_0\n[INFO] [1790343835.374940036]: Found parameter: laserMapping/cam_1/cam_model, value: TripleSphere\n[INFO] [1790343835.375030531]: Found parameter: laserMapping/cam_1/cam_width, value: 1280\n[INFO] [1790343835.375124251]: Found parameter: laserMapping/cam_1/cam_height, value: 1080\n[INFO] [1790343835.375214923]: Found parameter: laserMapping/cam_1/scale, value: 1\n[INFO] [1790343835.375309063]: Found parameter: laserMapping/cam_1/cam_fx, value: 619.215\n[INFO] [1790343835.375400243]: Found parameter: laserMapping/cam_1/cam_fy, value: 623.935\n[INFO] [1790343835.375490456]: Found parameter: laserMapping/cam_1/cam_cx, value: 681.144\n[INFO] [1790343835.375582286]: Found parameter: laserMapping/cam_1/cam_cy, value: 529.167\n[INFO] [1790343835.375673250]: Found parameter: laserMapping/cam_1/cam_xi, value: -0.200837\n[INFO] [1790343835.375764218]: Found parameter: laserMapping/cam_1/cam_lamda, value: -0.0642043\n[INFO] [1790343835.375857162]: Found parameter: laserMapping/cam_1/cam_alpha, value: 0.592083\n[INFO] [1790343835.375948650]: Found parameter: laserMapping/cam_1/cam_b, value: 0\n[INFO] [1790343835.376042290]: Found parameter: laserMapping/cam_1/cam_c, value: 0\n[INFO] [1790343835.376046714]: Loaded camera 1 from namespace: laserMapping/cam_1\n[INFO] [1790343835.376051349]: Loaded 2 camera(s) successfully.\n[INFO] [1790343835.376062057]: Visual pose update: disabled (camera color-only)\n[INFO] [1790343835.376085217]: [VIO] Initialized 2 camera exposure parameters (inv_expo=1.0)\n[INFO] [1790343835.376109762]: Cross-camera direct tracking disabled!\n[INFO] [1790343835.376114649]: Same-frame cross-camera photometric constraint: disabled\n[INFO] [1790343835.376119545]: Cross-camera temporal patch migration: disabled\n[INFO] [1790343835.376126140]: Cross-camera validator: geometry det=[0.100, 10.000] cond<=15.00, NCC>=0.900, occlusion_depth=0.350 m\n[INFO] [1790343835.376131608]: Visual update guard: enabled (warmup=30, rotation=2.00 deg, translation=0.250 m, vertical=0.150 m)\n[INFO] [1790343835.376136231]: Dynamic covariance disabled!\n[INFO] [1790343835.376146457]: IMU init config: window=0.200s min=30 max=128 acc_std<=0.2500 gyr_std<=0.0200 stationary=true gyro_bias=true buffer_max=4000"
+      }
+    ],
+    "upstream_same_body_chain": [
+      {
+        "source_id": "upstream_livmapper_copy",
+        "line_start": 1110,
+        "line_end": 1110,
+        "text": "    V3D p_global(_state.rot_end * (extR * p_body + extT) + _state.pos_end);"
+      },
+      {
+        "source_id": "upstream_livmapper_copy",
+        "line_start": 2200,
+        "line_end": 2215,
+        "text": "void LIVMapper::set_posestamp(T &out) {\n    out.position.x = _state.pos_end(0);\n    out.position.y = _state.pos_end(1);\n    out.position.z = _state.pos_end(2);\n    out.orientation.x = geoQuat.x;\n    out.orientation.y = geoQuat.y;\n    out.orientation.z = geoQuat.z;\n    out.orientation.w = geoQuat.w;\n}\n\nvoid LIVMapper::publish_odometry(const ros::Publisher &pubOdomAftMapped) {\n    odomAftMapped.header.frame_id = \"camera_init\";\n    odomAftMapped.child_frame_id = \"aft_mapped\";\n    odomAftMapped.header.stamp =\n            ros::Time().fromSec(LidarMeasures.last_lio_update_time);\n    set_posestamp(odomAftMapped.pose.pose);"
+      }
+    ],
+    "SDK_capture_identity_fields_not_in_ROS_compressed_message": [
+      {
+        "source_id": "sdk_image_header",
+        "line_start": 140,
+        "line_end": 163,
+        "text": "struct DecodedImageView {\n  PixelFormat pixel_format = PixelFormat::Bgr888;\n  std::uint32_t width = 0;\n  std::uint32_t height = 0;\n  std::uint32_t stride = 0;\n  std::uint64_t timestamp_ns = 0;\n  std::string frame_id;\n  std::string camera_id;\n  std::string calibration_version;\n  std::string calibration_hash;\n  const std::uint8_t* data = nullptr;\n  std::size_t data_size = 0;\n};\n\nstruct OwnedDecodedImage {\n  PixelFormat pixel_format = PixelFormat::Bgr888;\n  std::uint32_t width = 0;\n  std::uint32_t height = 0;\n  std::uint32_t stride = 0;\n  std::uint64_t timestamp_ns = 0;\n  std::string frame_id;\n  std::string camera_id;\n  std::string calibration_version;\n  std::string calibration_hash;"
+      }
+    ],
+    "SDK_current_build_uses_bundle_not_source_root": [
+      {
+        "source_id": "sdk_build_cache",
+        "line_start": 354,
+        "line_end": 366,
+        "text": "\n//Path to a file.\nORBVI_HOST_SDK_INCLUDE_DIR:PATH=/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge/third_party/orbvi_sdk/include\n\n//Path to a library.\nORBVI_HOST_SDK_LIBRARY:FILEPATH=/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge/third_party/orbvi_sdk/libs/linux-x86_64/liborbvi_sdk.so\n\n//Optional Host SDK install prefix containing include/ and lib/\nORBVI_HOST_SDK_ROOT:PATH=\n\n//Optional path to the ORBVI Host SDK C++ CMake project for development\n// builds\nORBVI_HOST_SDK_SOURCE_DIR:PATH="
+      }
+    ]
+  },
+  "topic_mapping": [
+    {
+      "raw_topic": "/orbvi/raw/camera_2/image/compressed",
+      "bag_sdk_id_token": 2,
+      "bag_sdk_id_status": "topic and source frame observed; source code uses metadata ID with entry-index fallback if absent",
+      "FAST_calib_name_under_same_physical_id_contract": "cam1",
+      "FAST_declared_physical_source_id": 2,
+      "FAST_declared_topic": "/rk_cam/2/mjpeg",
+      "FAST_mapping_declaration_proven": true,
+      "FAST_to_bag_physical_id_equivalence_verified": false,
+      "board_name": null,
+      "board_priority_hypothesis_same_logical_order": "cam1",
+      "board_alternative_existing_candidate": "cam0",
+      "board_mapping_verified": false,
+      "FAST_to_bag_mapping_evidence_status": "source declaration + stable metadata camera ID rule + actual bag source frame/caller + main-agent QR development projection corroboration",
+      "FAST_to_bag_mapping_dev_corroborated": true,
+      "observed_raw_source_frame": "orbvi/raw_fisheye_stream/camera_2",
+      "verification_boundary": "no capture firmware/calibration hash or absolute pixel residual recovered; existing candidate intentionally retains verified=false"
+    },
+    {
+      "raw_topic": "/orbvi/raw/camera_3/image/compressed",
+      "bag_sdk_id_token": 3,
+      "bag_sdk_id_status": "topic and source frame observed; source code uses metadata ID with entry-index fallback if absent",
+      "FAST_calib_name_under_same_physical_id_contract": "cam0",
+      "FAST_declared_physical_source_id": 3,
+      "FAST_declared_topic": "/rk_cam/3/mjpeg",
+      "FAST_mapping_declaration_proven": true,
+      "FAST_to_bag_physical_id_equivalence_verified": false,
+      "board_name": null,
+      "board_priority_hypothesis_same_logical_order": "cam0",
+      "board_alternative_existing_candidate": "cam1",
+      "board_mapping_verified": false,
+      "FAST_to_bag_mapping_evidence_status": "source declaration + stable metadata camera ID rule + actual bag source frame/caller + main-agent QR development projection corroboration",
+      "FAST_to_bag_mapping_dev_corroborated": true,
+      "observed_raw_source_frame": "orbvi/raw_fisheye_stream/camera_3",
+      "verification_boundary": "no capture firmware/calibration hash or absolute pixel residual recovered; existing candidate intentionally retains verified=false"
+    },
+    {
+      "raw_topic": "/orbvi/raw/camera_4/image/compressed",
+      "bag_sdk_id_token": 4,
+      "bag_sdk_id_status": "topic and source frame observed; source code uses metadata ID with entry-index fallback if absent",
+      "FAST_calib_name_under_same_physical_id_contract": "cam2",
+      "FAST_declared_physical_source_id": 4,
+      "FAST_declared_topic": "/rk_cam/4/mjpeg",
+      "FAST_mapping_declaration_proven": true,
+      "FAST_to_bag_physical_id_equivalence_verified": false,
+      "board_name": null,
+      "board_priority_hypothesis_same_logical_order": "cam2",
+      "board_alternative_existing_candidate": "cam2",
+      "board_mapping_verified": false,
+      "FAST_to_bag_mapping_evidence_status": "source declaration + stable metadata camera ID rule + actual bag source frame/caller + main-agent QR development projection corroboration",
+      "FAST_to_bag_mapping_dev_corroborated": true,
+      "observed_raw_source_frame": "orbvi/raw_fisheye_stream/camera_4",
+      "verification_boundary": "no capture firmware/calibration hash or absolute pixel residual recovered; existing candidate intentionally retains verified=false"
+    },
+    {
+      "raw_topic": "/orbvi/raw/camera_5/image/compressed",
+      "bag_sdk_id_token": 5,
+      "bag_sdk_id_status": "topic and source frame observed; source code uses metadata ID with entry-index fallback if absent",
+      "FAST_calib_name_under_same_physical_id_contract": "cam3",
+      "FAST_declared_physical_source_id": 5,
+      "FAST_declared_topic": "/rk_cam/5/mjpeg",
+      "FAST_mapping_declaration_proven": true,
+      "FAST_to_bag_physical_id_equivalence_verified": false,
+      "board_name": null,
+      "board_priority_hypothesis_same_logical_order": "cam3",
+      "board_alternative_existing_candidate": "cam3",
+      "board_mapping_verified": false,
+      "FAST_to_bag_mapping_evidence_status": "source declaration + stable metadata camera ID rule + actual bag source frame/caller + main-agent QR development projection corroboration",
+      "FAST_to_bag_mapping_dev_corroborated": true,
+      "observed_raw_source_frame": "orbvi/raw_fisheye_stream/camera_5",
+      "verification_boundary": "no capture firmware/calibration hash or absolute pixel residual recovered; existing candidate intentionally retains verified=false"
+    }
+  ],
+  "permutation_contract": {
+    "raw_topic_order": [
+      "/orbvi/raw/camera_2/image/compressed",
+      "/orbvi/raw/camera_3/image/compressed",
+      "/orbvi/raw/camera_4/image/compressed",
+      "/orbvi/raw/camera_5/image/compressed"
+    ],
+    "vector_definition": "p[k] is the model index assigned to raw topic raw_topic_order[k]",
+    "FAST_declared_order_cam0123_source_ids": [
+      3,
+      2,
+      4,
+      5
+    ],
+    "priority_raw_to_FAST": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "priority_raw_to_board_hypothesis": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "existing_unverified_config_raw_to_board": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "all_24_permutations": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0
+      ],
+      [
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        1,
+        3,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        0,
+        3,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        3
+      ],
+      [
+        2,
+        1,
+        3,
+        0
+      ],
+      [
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        2,
+        3,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1
+      ],
+      [
+        3,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        1,
+        2,
+        0
+      ],
+      [
+        3,
+        2,
+        0,
+        1
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "independence": "FAST p_F and board p_B are independent until evidence binds their physical IDs; never silently assign raw2 to boardcam0"
+  },
+  "bag_observations": {
+    "raw": {
+      "path": "/home/chaoszzss/dataset/rosbag/orbvi_4vl_data_czy_all.bag",
+      "size_bytes": 24545241324,
+      "connections": [
+        {
+          "topic": "/orbvi/raw/camera_3/image/compressed",
+          "callerid": "/orbvi_ros_bridge",
+          "latching": "0",
+          "md5sum": "8f7a12909da2c9d3332d540a0977563f",
+          "type": "sensor_msgs/CompressedImage"
+        },
+        {
+          "topic": "/orbvi/raw/camera_2/image/compressed",
+          "callerid": "/orbvi_ros_bridge",
+          "latching": "0",
+          "md5sum": "8f7a12909da2c9d3332d540a0977563f",
+          "type": "sensor_msgs/CompressedImage"
+        },
+        {
+          "topic": "/orbvi/raw/camera_4/image/compressed",
+          "callerid": "/orbvi_ros_bridge",
+          "latching": "0",
+          "md5sum": "8f7a12909da2c9d3332d540a0977563f",
+          "type": "sensor_msgs/CompressedImage"
+        },
+        {
+          "topic": "/orbvi/raw/camera_5/image/compressed",
+          "callerid": "/orbvi_ros_bridge",
+          "latching": "0",
+          "md5sum": "8f7a12909da2c9d3332d540a0977563f",
+          "type": "sensor_msgs/CompressedImage"
+        }
+      ],
+      "first_messages": [
+        {
+          "topic": "/orbvi/raw/camera_3/image/compressed",
+          "header_ns": 1720267880900293988,
+          "frame_id": "orbvi/raw_fisheye_stream/camera_3",
+          "bag_ns": 1786005282683016359,
+          "format": "jpeg",
+          "payload_first_8_hex": "ffd8ffe000104a46"
+        },
+        {
+          "topic": "/orbvi/raw/camera_2/image/compressed",
+          "header_ns": 1720267880900293988,
+          "frame_id": "orbvi/raw_fisheye_stream/camera_2",
+          "bag_ns": 1786005282683024167,
+          "format": "jpeg",
+          "payload_first_8_hex": "ffd8ffe000104a46"
+        },
+        {
+          "topic": "/orbvi/raw/camera_4/image/compressed",
+          "header_ns": 1720267880900293988,
+          "frame_id": "orbvi/raw_fisheye_stream/camera_4",
+          "bag_ns": 1786005282683412880,
+          "format": "jpeg",
+          "payload_first_8_hex": "ffd8ffe000104a46"
+        },
+        {
+          "topic": "/orbvi/raw/camera_5/image/compressed",
+          "header_ns": 1720267880900293988,
+          "frame_id": "orbvi/raw_fisheye_stream/camera_5",
+          "bag_ns": 1786005282683455427,
+          "format": "jpeg",
+          "payload_first_8_hex": "ffd8ffe000104a46"
+        }
+      ],
+      "verification_scope": "connection index and first message per selected topic; no images decoded or point projections"
+    },
+    "registered": {
+      "path": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/maps/CZY_DATA/height_continuity_release/registered_and_semantics.bag",
+      "size_bytes": 8763696415,
+      "connections": [
+        {
+          "topic": "/aft_mapped_to_init",
+          "callerid": "/laserMapping",
+          "latching": "0",
+          "md5sum": "cd5e73d190d741a2f92e81eda573aca7",
+          "type": "nav_msgs/Odometry"
+        },
+        {
+          "topic": "/cloud_registered",
+          "callerid": "/laserMapping",
+          "latching": "0",
+          "md5sum": "1158d486dd51d683ce2f1be655c3c181",
+          "type": "sensor_msgs/PointCloud2"
+        }
+      ],
+      "first_messages": [
+        {
+          "topic": "/aft_mapped_to_init",
+          "header_ns": 1720267881300294161,
+          "frame_id": "camera_init",
+          "bag_ns": 1786005282980089844,
+          "child_frame_id": "aft_mapped",
+          "position_m": [
+            -8.371993252119319e-05,
+            0.0013999061460927783,
+            -0.002910751100736841
+          ],
+          "q_xyzw": [
+            0.6027908003054441,
+            -0.7976944837440637,
+            -3.762994212998189e-05,
+            0.01807651115124351
+          ]
+        },
+        {
+          "topic": "/cloud_registered",
+          "header_ns": 1720267881300294161,
+          "frame_id": "camera_init",
+          "bag_ns": 1786005282980089844
+        }
+      ],
+      "verification_scope": "connection index and first message per selected topic; no images decoded or point projections"
+    },
+    "whole_bag_sha256_computed": false
+  },
+  "bridge_history": {
+    "repository": "/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge",
+    "vendor_remote": "https://gitee.com/orbvi/orbvi_ros_bridge.git",
+    "working_HEAD": "9bdca7ea700127dee02f3cc601ba8d4c5cd560fa",
+    "working_converter_matches_HEAD_SHA256": true,
+    "history": [
+      {
+        "commit": "270d823e5023ba5b2bc97aa7696ba83ab690f632",
+        "author_date": "2026-08-16T14:22:24+08:00",
+        "file_sha256": "684fd875b08aa21d88f6b24af4d36d0c67f1d6056c7f94b7217d2b8a6929e441",
+        "raw_bundle_camera_id_line": 1076,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";",
+        "normalized_rule_sha256": "62c524a803b1f723d1ad33fb959d9f46acbf68e51d675d54825d2985eee6137f",
+        "compressed_suffix": "image/compressed"
+      },
+      {
+        "commit": "9bdca7ea700127dee02f3cc601ba8d4c5cd560fa",
+        "author_date": "2026-07-30T09:14:56+00:00",
+        "file_sha256": "eb4135118d2a5373fed2739e67152ffab137d058003a0a0ea2c414566fd92f84",
+        "raw_bundle_camera_id_line": 1062,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";",
+        "normalized_rule_sha256": "62c524a803b1f723d1ad33fb959d9f46acbf68e51d675d54825d2985eee6137f",
+        "compressed_suffix": "image/compressed"
+      },
+      {
+        "commit": "f39dc7101273fc374720c10bdfe8d5d9cea237fe",
+        "author_date": "2026-07-28T02:02:46+00:00",
+        "file_sha256": "ec1f98bdacf20c653ae67d412d28eed3cc83fa65b998578394da11a4db127772",
+        "raw_bundle_camera_id_line": 1077,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";",
+        "normalized_rule_sha256": "62c524a803b1f723d1ad33fb959d9f46acbf68e51d675d54825d2985eee6137f",
+        "compressed_suffix": "image/compressed"
+      },
+      {
+        "commit": "19e3dbd9fa0f0831eb5428d0b37095fb5ee986e4",
+        "author_date": "2026-07-26T14:49:04+08:00",
+        "file_sha256": "2c967705f31dfaca35af72bf0be34a2d77c25f1397b428e1648f40a20d2c0296",
+        "raw_bundle_camera_id_line": 1077,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";",
+        "normalized_rule_sha256": "62c524a803b1f723d1ad33fb959d9f46acbf68e51d675d54825d2985eee6137f",
+        "compressed_suffix": "image/compressed"
+      },
+      {
+        "commit": "979ef3a9b9bbd257dba0bcd0ec788a61ee6b3884",
+        "author_date": "2026-07-21T11:42:29+08:00",
+        "file_sha256": "a1b71678a5ee2209abab29813399f0275c8f5ce154c30c2052ac1405fb0fb163",
+        "raw_bundle_camera_id_line": 1182,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";",
+        "normalized_rule_sha256": "62c524a803b1f723d1ad33fb959d9f46acbf68e51d675d54825d2985eee6137f",
+        "compressed_suffix": "image/compressed"
+      },
+      {
+        "commit": "92c372ff1a2492b53865e6eddd45fc81f314fe7e",
+        "author_date": "2026-07-07T14:48:00+08:00",
+        "file_sha256": "d4264be5d55bc1aa46c3916668841d45d78744d614979677482cb5a1bd2e8193",
+        "raw_bundle_camera_id_line": 1029,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";",
+        "normalized_rule_sha256": "62c524a803b1f723d1ad33fb959d9f46acbf68e51d675d54825d2985eee6137f",
+        "compressed_suffix": "image/compressed"
+      },
+      {
+        "commit": "2cbc37ac6e9dd535d417bb7e87a5a55f900f87ed",
+        "author_date": "2026-06-30T17:14:18+08:00",
+        "file_sha256": "0a7b9bbe950a321c09eaa70660ecd8b1c9673a0b186b767fe2bcc3274f322c42",
+        "raw_bundle_camera_id_line": 1028,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";",
+        "normalized_rule_sha256": "62c524a803b1f723d1ad33fb959d9f46acbf68e51d675d54825d2985eee6137f",
+        "compressed_suffix": "image/compressed"
+      },
+      {
+        "commit": "b4d62fa02eb0decfbd16bf08fdc843558c5ceb8a",
+        "author_date": "2026-06-18T05:57:36+00:00",
+        "file_sha256": "7b9fc5688e72a19226665f289c0fa9f0167ad27a91f30bfb8c62045e0b544c07",
+        "raw_bundle_camera_id_line": 739,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";",
+        "normalized_rule_sha256": "62c524a803b1f723d1ad33fb959d9f46acbf68e51d675d54825d2985eee6137f",
+        "compressed_suffix": "image/compressed"
+      },
+      {
+        "commit": "ac16fde516daeca6ef260ba14c421bbcc4f73ca3",
+        "author_date": "2026-06-17T15:50:33+08:00",
+        "file_sha256": "92abe2fac00241d53edc0a73d851051a4c1ffe32bf8bd401adb2cf8b8756b325",
+        "raw_bundle_camera_id_line": 728,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/image/compressed\";",
+        "normalized_rule_sha256": "62c524a803b1f723d1ad33fb959d9f46acbf68e51d675d54825d2985eee6137f",
+        "compressed_suffix": "image/compressed"
+      },
+      {
+        "commit": "e30d296cda5386c9de81aa4dd2e6c9e91e701ee7",
+        "author_date": "2026-06-15T09:36:09+00:00",
+        "file_sha256": "0f14f8d26bed861d8b498a5060b58d9ae863f37464b8d19e4b817ef0c2526ebe",
+        "raw_bundle_camera_id_line": 728,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/compressed\";",
+        "normalized_rule_sha256": "2b57392e779ecc25db1cc774e5bb206a66135541d61f56e486da23c376310c44",
+        "compressed_suffix": "compressed"
+      },
+      {
+        "commit": "1f19949bbfe19a79e3bbba10501eab831901e64e",
+        "author_date": "2026-06-15T14:27:59+08:00",
+        "file_sha256": "fbf5e840134a92f4deae37b6cb485e21daedec745afbfc27267465ecfc756a14",
+        "raw_bundle_camera_id_line": 721,
+        "rule": "const std::string camera_id = SanitizeTopicToken(\nMetadataValue(metadata, CameraMetadataKey(i, \"camera_id\")),\nstd::to_string(i));\noutput.topic_suffix = \"raw/camera_\" + camera_id + \"/compressed\";",
+        "normalized_rule_sha256": "2b57392e779ecc25db1cc774e5bb206a66135541d61f56e486da23c376310c44",
+        "compressed_suffix": "compressed"
+      }
+    ],
+    "stable_rule_since_initial_commit": "metadata camera.i.camera_id selects topic ID; only missing/empty ID falls back to entry i",
+    "image_compressed_suffix_since_commit": "ac16fde516daeca6ef260ba14c421bbcc4f73ca3",
+    "capturing_binary_revision_proven": false,
+    "note": "git author dates and current checkout do not prove which firmware/SDK binary recorded the bag; no metadata producer implementation or board per-device calibration hash recovered"
+  },
+  "release_snapshot_stability": {
+    "manifest_entries": 57,
+    "matching_current_files": 57,
+    "file_comparisons": [
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/online.py",
+        "recorded_sha256": "edd6f892722cb14af4d53ebb5f26660bc0d795a434a93de5f5cd4527be5da341",
+        "current_sha256": "edd6f892722cb14af4d53ebb5f26660bc0d795a434a93de5f5cd4527be5da341",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/semantic_refinement.py",
+        "recorded_sha256": "e6901662e015ad50ee754e830e356fafc345d47de53f12664e8150327de61654",
+        "current_sha256": "e6901662e015ad50ee754e830e356fafc345d47de53f12664e8150327de61654",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/geometry_audit.py",
+        "recorded_sha256": "4174676a453ffba20178670fd42aa998278681ccaed4f3311ea4f01bcb1230ff",
+        "current_sha256": "4174676a453ffba20178670fd42aa998278681ccaed4f3311ea4f01bcb1230ff",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/surface_refinement.py",
+        "recorded_sha256": "0e0d2bed1f46f1e9cc1a43aff27938e79d6b60b63b9e54241a427850fa4cabb7",
+        "current_sha256": "0e0d2bed1f46f1e9cc1a43aff27938e79d6b60b63b9e54241a427850fa4cabb7",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/__init__.py",
+        "recorded_sha256": "59b650dbad5f1a73ba462ae3dba55573517c25b55a7e83cec079c5650878f8a0",
+        "current_sha256": "59b650dbad5f1a73ba462ae3dba55573517c25b55a7e83cec079c5650878f8a0",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/annotations.py",
+        "recorded_sha256": "43c838e1ca7e9cece838f863e9f6449b80104d852e8e9cb7f57e9c346136c802",
+        "current_sha256": "43c838e1ca7e9cece838f863e9f6449b80104d852e8e9cb7f57e9c346136c802",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/ground_surface.py",
+        "recorded_sha256": "56dff4398d3de763916778749953e87ce8310aa437d48afe04545a6235ed41bc",
+        "current_sha256": "56dff4398d3de763916778749953e87ce8310aa437d48afe04545a6235ed41bc",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/runtime_controls.py",
+        "recorded_sha256": "ea5d02fabfed13f479b2b935039005e3556874f7683c8cc70eccf9b17880cadf",
+        "current_sha256": "ea5d02fabfed13f479b2b935039005e3556874f7683c8cc70eccf9b17880cadf",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/height_continuity.py",
+        "recorded_sha256": "c63aa0795fa3c3315d1320bde2cd74dfc46d0f3c9c49795de073e92a96f12f3e",
+        "current_sha256": "c63aa0795fa3c3315d1320bde2cd74dfc46d0f3c9c49795de073e92a96f12f3e",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/row_refinement.py",
+        "recorded_sha256": "292b47f29b2c9a841a609595e46b9f10e2ab50a7d1494adc62dfc15b412f2b0b",
+        "current_sha256": "292b47f29b2c9a841a609595e46b9f10e2ab50a7d1494adc62dfc15b412f2b0b",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/floor_levels.py",
+        "recorded_sha256": "85c7885a8c0787f2f7001d50e3ed34b3261ee780c87d73f475ca68f0a5fe0362",
+        "current_sha256": "85c7885a8c0787f2f7001d50e3ed34b3261ee780c87d73f475ca68f0a5fe0362",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/experimental_vio_height.py",
+        "recorded_sha256": "bf48dcb090a00f5473c127e65973825adbdcebcd8b042bbaca678f83cbc59d63",
+        "current_sha256": "bf48dcb090a00f5473c127e65973825adbdcebcd8b042bbaca678f83cbc59d63",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/ros_io.py",
+        "recorded_sha256": "42535e45f4e048ca34e8a7077706a4eee72ec1aa6bb6aea7ec830401448be65a",
+        "current_sha256": "42535e45f4e048ca34e8a7077706a4eee72ec1aa6bb6aea7ec830401448be65a",
+        "matches": true
+      },
+      {
+        "relative_path": "src/orbvi_omni_livo2_lioslam_fusion_czy_v2/snapshot_view.py",
+        "recorded_sha256": "1b8b54d27b7005df89249df317be52434006164776dcded1191c4b1da9713672",
+        "current_sha256": "1b8b54d27b7005df89249df317be52434006164776dcded1191c4b1da9713672",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_height_continuity.py",
+        "recorded_sha256": "f11e7d274020727a525140f8aed80705a16be3a87461ba2b261ee3a7ffa41ab4",
+        "current_sha256": "f11e7d274020727a525140f8aed80705a16be3a87461ba2b261ee3a7ffa41ab4",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/detect_floor_schedule.py",
+        "recorded_sha256": "e1421d1fa7239763a1267f191ac5b93e075d87d3f3f3c1662ebc9cc747ca7bf2",
+        "current_sha256": "e1421d1fa7239763a1267f191ac5b93e075d87d3f3f3c1662ebc9cc747ca7bf2",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/validate_lio_trajectory.py",
+        "recorded_sha256": "95d500e835ab67c8bc71221236c0ed0cc354fd1151b12c108e7184692025b56d",
+        "current_sha256": "95d500e835ab67c8bc71221236c0ed0cc354fd1151b12c108e7184692025b56d",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/online_fusion_node.py",
+        "recorded_sha256": "441756cd3cd95fe870575d0eeeadd7cefd213030f535bcfb589e6de3cefaf510",
+        "current_sha256": "441756cd3cd95fe870575d0eeeadd7cefd213030f535bcfb589e6de3cefaf510",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/refine_semantic_snapshot.py",
+        "recorded_sha256": "7ad6a00b96a96b73271080dd6570aedd3711f736699fb7125fb93a18c4f5205c",
+        "current_sha256": "7ad6a00b96a96b73271080dd6570aedd3711f736699fb7125fb93a18c4f5205c",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/compare_imu_init_ab.py",
+        "recorded_sha256": "b67e5f665527a565707147e629d487198b4d553043adc52c3045d26317f41758",
+        "current_sha256": "b67e5f665527a565707147e629d487198b4d553043adc52c3045d26317f41758",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_lidar_imu_handeye.py",
+        "recorded_sha256": "554cfd6e2dd778b0cc6f312e2963f35905444d7673a0baf531b4eec9fb40a610",
+        "current_sha256": "554cfd6e2dd778b0cc6f312e2963f35905444d7673a0baf531b4eec9fb40a610",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/replay_registered_fusion.py",
+        "recorded_sha256": "6f4dc2cf526de7b71cb530d30f1dea3fa40132b3ab8f26e7b810ae44e19c70c3",
+        "current_sha256": "6f4dc2cf526de7b71cb530d30f1dea3fa40132b3ab8f26e7b810ae44e19c70c3",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_map_geometry.py",
+        "recorded_sha256": "7dcd5de1607a637d1c648fd724faa1398de9b2a874f74ee601b9e7ce9ab80bc0",
+        "current_sha256": "7dcd5de1607a637d1c648fd724faa1398de9b2a874f74ee601b9e7ce9ab80bc0",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/rebase_floor_schedule_heights.py",
+        "recorded_sha256": "fb4905cd150482c2bd256e96402ec999f620fbf2538aa7df26fd389dd5ba0803",
+        "current_sha256": "fb4905cd150482c2bd256e96402ec999f620fbf2538aa7df26fd389dd5ba0803",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_stacked_ceiling_clearance.py",
+        "recorded_sha256": "0776ce0cbf36bd4eedacf0bdec276d2b1c28844d18fbcb150ddbaa2b116b8dda",
+        "current_sha256": "0776ce0cbf36bd4eedacf0bdec276d2b1c28844d18fbcb150ddbaa2b116b8dda",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_multifloor_map.py",
+        "recorded_sha256": "5ba1aa8bae282b15d23ec88bb446c927664fee318899c5f7e5e0f7c581ac04f8",
+        "current_sha256": "5ba1aa8bae282b15d23ec88bb446c927664fee318899c5f7e5e0f7c581ac04f8",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_dense_raw_floor_candidates.py",
+        "recorded_sha256": "198cfa4b097877e6a32676f281500d4760e67601832458e704551768cc2a855e",
+        "current_sha256": "198cfa4b097877e6a32676f281500d4760e67601832458e704551768cc2a855e",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/extract_czy_vio_height.py",
+        "recorded_sha256": "d6dc391de037287118cc8f3a06a1d91dbb383f1a935857304f89afd66dbb0a79",
+        "current_sha256": "d6dc391de037287118cc8f3a06a1d91dbb383f1a935857304f89afd66dbb0a79",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/view_saved_semantics.py",
+        "recorded_sha256": "c5eceb3ad327e84c2326f2bd24cc53a16c586f44f04b22721baed487af2c43cc",
+        "current_sha256": "c5eceb3ad327e84c2326f2bd24cc53a16c586f44f04b22721baed487af2c43cc",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/plot_fusion_result_audit.py",
+        "recorded_sha256": "f77513687cfd9dd442b207eeff65ad224f65c9f33ecf4d36253a2dbbd7d5df41",
+        "current_sha256": "f77513687cfd9dd442b207eeff65ad224f65c9f33ecf4d36253a2dbbd7d5df41",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_vio_height_semantic_support.py",
+        "recorded_sha256": "06c4bad5073cf0366ce961971325c7860c52a64a1bc08a8be5af22be383fadcc",
+        "current_sha256": "06c4bad5073cf0366ce961971325c7860c52a64a1bc08a8be5af22be383fadcc",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_board_calibration.py",
+        "recorded_sha256": "6548858916dd886fc18e9cab6822999e18f077e4b592668be7c5dad93f1ef242",
+        "current_sha256": "6548858916dd886fc18e9cab6822999e18f077e4b592668be7c5dad93f1ef242",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_semantic_v2.py",
+        "recorded_sha256": "7cd54aefb29d224843eecb82c8df9fe78d2321b12c3da6d940939052a6ac0545",
+        "current_sha256": "7cd54aefb29d224843eecb82c8df9fe78d2321b12c3da6d940939052a6ac0545",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/annotation_stream_node.py",
+        "recorded_sha256": "cc7eada799568361ceb7a40f37c17deb4e394601aad5daddabf85d490932f0f3",
+        "current_sha256": "cc7eada799568361ceb7a40f37c17deb4e394601aad5daddabf85d490932f0f3",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/correct_saved_height_map.py",
+        "recorded_sha256": "3c358c5365e4b5c718ec8b56dd27d5912b1d2d0c6e38c17f0c6865a40a81d1a9",
+        "current_sha256": "3c358c5365e4b5c718ec8b56dd27d5912b1d2d0c6e38c17f0c6865a40a81d1a9",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_fusion_result_inventory.py",
+        "recorded_sha256": "f6bde45ec266b27864881005edcf2d0cc9320f4c4df0678c2386c10a7b00cf8f",
+        "current_sha256": "f6bde45ec266b27864881005edcf2d0cc9320f4c4df0678c2386c10a7b00cf8f",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/cloud_relay_node.py",
+        "recorded_sha256": "852f9f7a1ca705dd3945e6657e05c0a99fb05f6f6450e59b576919d59ac108f1",
+        "current_sha256": "852f9f7a1ca705dd3945e6657e05c0a99fb05f6f6450e59b576919d59ac108f1",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_static_lidar_visibility.py",
+        "recorded_sha256": "2536bc56c006d7f1c0bf1442af2279941af25ab0ac4f8e15e2f4226ebcb2a5cf",
+        "current_sha256": "2536bc56c006d7f1c0bf1442af2279941af25ab0ac4f8e15e2f4226ebcb2a5cf",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/compare_czy_sensor_height_probe.py",
+        "recorded_sha256": "d0e19d46bc5f35117bc28dd7d3e0baff1bcbbd5d23c0c500021fd53ba961ea59",
+        "current_sha256": "d0e19d46bc5f35117bc28dd7d3e0baff1bcbbd5d23c0c500021fd53ba961ea59",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/extract_vio_height_probe_tum.py",
+        "recorded_sha256": "0c5b775924a6d83ca4db5dcbace89e6c898c69ec246181a6a3395f0c8076da33",
+        "current_sha256": "0c5b775924a6d83ca4db5dcbace89e6c898c69ec246181a6a3395f0c8076da33",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_dense_raw_slot_overlap.py",
+        "recorded_sha256": "63813a9eae8b9675285960daa50afb12a3783f45db145553c722a3c59228317c",
+        "current_sha256": "63813a9eae8b9675285960daa50afb12a3783f45db145553c722a3c59228317c",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/analyze_lio_state_csv.py",
+        "recorded_sha256": "92d9fa172050655d9583d0814ff3498139d55c845301e156b5f026e26641f223",
+        "current_sha256": "92d9fa172050655d9583d0814ff3498139d55c845301e156b5f026e26641f223",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/validate_outputs.py",
+        "recorded_sha256": "238efeb110dc5ecc373bdaf4661b24b3ac4741aa71426a00590f5217b82c9146",
+        "current_sha256": "238efeb110dc5ecc373bdaf4661b24b3ac4741aa71426a00590f5217b82c9146",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/plot_local_fusion_comparison.py",
+        "recorded_sha256": "d573fba98fe8cecac75fb6f69bf7852364258bcf9cebdc1f3c815a35f2459ec6",
+        "current_sha256": "d573fba98fe8cecac75fb6f69bf7852364258bcf9cebdc1f3c815a35f2459ec6",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_vio_height_probe_bag.py",
+        "recorded_sha256": "3c794c5c35a609d0aaba89f7ec39f41510c9c04534d80ffca77fde13774653aa",
+        "current_sha256": "3c794c5c35a609d0aaba89f7ec39f41510c9c04534d80ffca77fde13774653aa",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/vio_height_probe_relay.py",
+        "recorded_sha256": "c1a65a91063c2a26ad47534fe0c36d168dfdd74552019ba5922c255253d2bd3a",
+        "current_sha256": "c1a65a91063c2a26ad47534fe0c36d168dfdd74552019ba5922c255253d2bd3a",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/probe_lidar_imu_gravity.py",
+        "recorded_sha256": "6216c8a1afd6a30087fba5e27acd21bffb4cbb88198bc0a34d9cdc386af00c32",
+        "current_sha256": "6216c8a1afd6a30087fba5e27acd21bffb4cbb88198bc0a34d9cdc386af00c32",
+        "matches": true
+      },
+      {
+        "relative_path": "scripts/audit_timed_floor_surfaces.py",
+        "recorded_sha256": "2106e9180c1cc2a833b5df691b3dfc3d7b6c398769ac2405d8f0f78386eee93d",
+        "current_sha256": "2106e9180c1cc2a833b5df691b3dfc3d7b6c398769ac2405d8f0f78386eee93d",
+        "matches": true
+      },
+      {
+        "relative_path": "config/czy_all_floor_schedule.json",
+        "recorded_sha256": "5ac0e155ecff92cde6e6b1054563dd0fbe03a775a71c4369297892902df97cc9",
+        "current_sha256": "5ac0e155ecff92cde6e6b1054563dd0fbe03a775a71c4369297892902df97cc9",
+        "matches": true
+      },
+      {
+        "relative_path": "config/semantic_refinement_v2.yaml",
+        "recorded_sha256": "6ec668937403a1d2a1d923af0ba415ed72a0f09ab3fbd1eca10f22db67da493b",
+        "current_sha256": "6ec668937403a1d2a1d923af0ba415ed72a0f09ab3fbd1eca10f22db67da493b",
+        "matches": true
+      },
+      {
+        "relative_path": "config/joint_fusion.yaml",
+        "recorded_sha256": "82289abd6547a931b8e901977ae67801c6d93b6b60b511a7b26cc94fae006780",
+        "current_sha256": "82289abd6547a931b8e901977ae67801c6d93b6b60b511a7b26cc94fae006780",
+        "matches": true
+      },
+      {
+        "relative_path": "launch/czy_lio_only.launch",
+        "recorded_sha256": "6ff0ba74f2d934271ed76f586de534701677fd69f2cb0db04e1e2112fc631fb8",
+        "current_sha256": "6ff0ba74f2d934271ed76f586de534701677fd69f2cb0db04e1e2112fc631fb8",
+        "matches": true
+      },
+      {
+        "relative_path": "launch/joint_mapping_vio_height_probe.launch",
+        "recorded_sha256": "e2723e745ead89fa0ddcfba211d62864e7fc4e4935984bafc4836ab1a22359cf",
+        "current_sha256": "e2723e745ead89fa0ddcfba211d62864e7fc4e4935984bafc4836ab1a22359cf",
+        "matches": true
+      },
+      {
+        "relative_path": "launch/joint_mapping.launch",
+        "recorded_sha256": "2c0bf1f9e8a197dc205643365bab70cbc2e7c0616c4cf97849915fda64e1aaa4",
+        "current_sha256": "2c0bf1f9e8a197dc205643365bab70cbc2e7c0616c4cf97849915fda64e1aaa4",
+        "matches": true
+      },
+      {
+        "relative_path": "launch/joint_mapping2.launch",
+        "recorded_sha256": "86644eba9aaa0965175173778a0d1a98eff7004e5dd6eaad237fcb8c189359be",
+        "current_sha256": "86644eba9aaa0965175173778a0d1a98eff7004e5dd6eaad237fcb8c189359be",
+        "matches": true
+      },
+      {
+        "relative_path": "launch/view_saved_mapping2.launch",
+        "recorded_sha256": "3767b65213db6f1bf4db6a93a15d62934ebe88210c9cd30d52cfc60c7d304e4b",
+        "current_sha256": "3767b65213db6f1bf4db6a93a15d62934ebe88210c9cd30d52cfc60c7d304e4b",
+        "matches": true
+      },
+      {
+        "relative_path": "requirements-height.txt",
+        "recorded_sha256": "c27c4971a5aac7e14b9dd06c71b6fde77cb8d1e7a4dcca9d46953c7dad611597",
+        "current_sha256": "c27c4971a5aac7e14b9dd06c71b6fde77cb8d1e7a4dcca9d46953c7dad611597",
+        "matches": true
+      }
+    ],
+    "contains_AVP_mapper_CPP_or_binary_SHA": false,
+    "TUM_to_pose_csv": {
+      "csv_rows": 8245,
+      "tum_rows": 8246,
+      "compared_rows": 8245,
+      "max_timestamp_difference_s_float64": 7.152557373046875e-07,
+      "max_position_component_difference_m": 4.999821676676675e-07,
+      "max_quaternion_difference_sign_invariant_L2": 9.631680399666365e-07,
+      "extra_tum_times_s": [
+        1720268705.800401
+      ],
+      "interpretation": "first 8245 rows agree to six-decimal TUM precision (including q versus -q); TUM has one additional last pose, so it is corroboration rather than byte-identical bag export"
+    },
+    "source_semantics_proof_status": "current source chain, historical matching launch, actual message caller/frames and numerical same-run TUM corroboration; historical C++ byte identity not claimed"
+  },
+  "runtime_body_lidar": {
+    "world_frame": "camera_init",
+    "published_body_frame": "aft_mapped",
+    "body_physical_reference": "IMU state reference driven by /orbvi/imu; not SDK VIO body or virtual rectified camera",
+    "lidar_topic": "/orbvi/lidar/custom",
+    "imu_topic": "/orbvi/imu",
+    "T_body_lidar": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.011
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -0.02329
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.04412
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_lidar_body": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.011
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0,
+        -0.02329
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0,
+        0.04412
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_body_lidar_status": "actual recorded estimator transform, internally sufficient for map/camera chain; translation documented as preserved upstream value, not separately surveyed physical ground truth",
+    "imu_enabled": true,
+    "image_enabled": 0,
+    "runtime_camera_count": 2,
+    "runtime_camera_sources": [
+      {
+        "logical_cam_id": 0,
+        "source_camera_id": 3,
+        "img_topic": "/rk_cam/3/shm"
+      },
+      {
+        "logical_cam_id": 1,
+        "source_camera_id": 4,
+        "img_topic": "/rk_cam/4/shm"
+      }
+    ],
+    "runtime_dmabuf_order": [
+      3,
+      2,
+      4,
+      5
+    ],
+    "runtime_body_unknown": false,
+    "lidar_scan_header_is_end": false,
+    "odom_stamp_semantics": "LidarMeasures.last_lio_update_time, scan update/end state; per-point deskew brings points to the end LiDAR frame",
+    "gravity_alignment": "left-multiplies state by G_R_I0; no extra body transform is required",
+    "first_published_quaternion_xyzw": [
+      0.6027908003054441,
+      -0.7976944837440637,
+      -3.762994212998189e-05,
+      0.01807651115124351
+    ],
+    "manual_gravity_or_quaternion_change_required": false
+  },
+  "fast_models": {
+    "cam0": {
+      "declared_source_id": 3,
+      "declared_topic": "/rk_cam/3/mjpeg",
+      "intrinsics": {
+        "fx": 617.3897730247629,
+        "fy": 622.0483838990019,
+        "cx": 644.0220906059784,
+        "cy": 552.2448876539988,
+        "xi": -0.20389208692403207,
+        "lamda": -0.0658910089324128,
+        "alpha": 0.5924890922383411,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "T_camera_lidar_as_written": [
+        [
+          0.67942,
+          -0.733611,
+          0.014275,
+          0.013496
+        ],
+        [
+          0.03032,
+          0.008633,
+          -0.999503,
+          -0.065082
+        ],
+        [
+          0.733123,
+          0.679515,
+          0.028109,
+          -0.075599
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0000002868387101,
+      "rotation_orthogonality_error_frobenius": 1.8232768036281122e-06,
+      "rotation_handling": "retain source six-decimal coefficients and hash; any SVD projection must be a traced derived candidate with an explicit rounding bound, as handled by the main agent"
+    },
+    "cam1": {
+      "declared_source_id": 2,
+      "declared_topic": "/rk_cam/2/mjpeg",
+      "intrinsics": {
+        "fx": 616.2770461982511,
+        "fy": 620.7267260614598,
+        "cx": 671.8364530873964,
+        "cy": 537.2610211807976,
+        "xi": -0.20275292068602596,
+        "lamda": -0.066106707013346,
+        "alpha": 0.5913209280559076,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "T_camera_lidar_as_written": [
+        [
+          -0.722102,
+          -0.691669,
+          -0.012767,
+          0.007473
+        ],
+        [
+          0.014392,
+          0.00343,
+          -0.999891,
+          -0.058364
+        ],
+        [
+          0.691637,
+          -0.722206,
+          0.007478,
+          -0.07501
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0000001866932353,
+      "rotation_orthogonality_error_frobenius": 1.7688352639903389e-06,
+      "rotation_handling": "retain source six-decimal coefficients and hash; any SVD projection must be a traced derived candidate with an explicit rounding bound, as handled by the main agent"
+    },
+    "cam2": {
+      "declared_source_id": 4,
+      "declared_topic": "/rk_cam/4/mjpeg",
+      "intrinsics": {
+        "fx": 619.214660703743,
+        "fy": 623.9354404156871,
+        "cx": 681.1444735311425,
+        "cy": 529.1673999109231,
+        "xi": -0.20083720420586834,
+        "lamda": -0.0642043300041789,
+        "alpha": 0.5920832405221892,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "T_camera_lidar_as_written": [
+        [
+          -0.670814,
+          0.741508,
+          0.013195,
+          0.017169
+        ],
+        [
+          -0.012217,
+          0.006741,
+          -0.999903,
+          -0.059131
+        ],
+        [
+          -0.741525,
+          -0.67091,
+          0.004537,
+          -0.07473
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0000002441788571,
+      "rotation_orthogonality_error_frobenius": 8.310781116553387e-07,
+      "rotation_handling": "retain source six-decimal coefficients and hash; any SVD projection must be a traced derived candidate with an explicit rounding bound, as handled by the main agent"
+    },
+    "cam3": {
+      "declared_source_id": 5,
+      "declared_topic": "/rk_cam/5/mjpeg",
+      "intrinsics": {
+        "fx": 612.3756803508173,
+        "fy": 616.8792154842944,
+        "cx": 650.8561182701528,
+        "cy": 506.71509557596914,
+        "xi": -0.20401891759963942,
+        "lamda": -0.06550107458846997,
+        "alpha": 0.5908037528405451,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "T_camera_lidar_as_written": [
+        [
+          0.715485,
+          0.698557,
+          -0.009967,
+          0.000994
+        ],
+        [
+          -0.014889,
+          0.000984,
+          -0.999889,
+          -0.050428
+        ],
+        [
+          -0.698469,
+          0.715554,
+          0.011105,
+          -0.072004
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0000002316811916,
+      "rotation_orthogonality_error_frobenius": 1.158026148156842e-06,
+      "rotation_handling": "retain source six-decimal coefficients and hash; any SVD projection must be a traced derived candidate with an explicit rounding bound, as handled by the main agent"
+    }
+  },
+  "board_models": {
+    "cam0": {
+      "intrinsic_order": [
+        "fx",
+        "fy",
+        "cx",
+        "cy",
+        "xi",
+        "lambda",
+        "alpha",
+        "b",
+        "c"
+      ],
+      "intrinsic_values": [
+        619.9727239894911,
+        624.4998924652682,
+        645.7782703700892,
+        495.9183750677029,
+        -0.20175555452665106,
+        -0.06626053321791386,
+        0.5923404737884012,
+        0.0,
+        0.0
+      ],
+      "Twc_input_numbers": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "candidate_T_boardcam0_boardcam_i_metres": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_scale": 0.001,
+      "translation_unit_status": "local historical audit and rig profile document millimetres; the backup YAML itself has no unit or physical source ID fields",
+      "source_id_present": false
+    },
+    "cam1": {
+      "intrinsic_order": [
+        "fx",
+        "fy",
+        "cx",
+        "cy",
+        "xi",
+        "lambda",
+        "alpha",
+        "b",
+        "c"
+      ],
+      "intrinsic_values": [
+        619.4516369911747,
+        623.8318793772733,
+        625.4384133188223,
+        528.6066604837657,
+        -0.20534996288752175,
+        -0.06223490122989943,
+        0.5927662823683536,
+        0.0,
+        0.0
+      ],
+      "Twc_input_numbers": [
+        [
+          0.04054399644251124,
+          -0.009648690229596317,
+          0.9991311661285133,
+          68.88740213447089
+        ],
+        [
+          0.01059012642901691,
+          0.9999013566225438,
+          0.00922638860086817,
+          1.6616099782874438
+        ],
+        [
+          -0.9991216310213121,
+          0.01020685070186123,
+          0.040642177895172424,
+          -65.56941619725858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "candidate_T_boardcam0_boardcam_i_metres": [
+        [
+          0.04054399644251124,
+          -0.009648690229596317,
+          0.9991311661285133,
+          0.0688874021344709
+        ],
+        [
+          0.01059012642901691,
+          0.9999013566225438,
+          0.00922638860086817,
+          0.0016616099782874438
+        ],
+        [
+          -0.9991216310213121,
+          0.01020685070186123,
+          0.040642177895172424,
+          -0.06556941619725858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_scale": 0.001,
+      "translation_unit_status": "local historical audit and rig profile document millimetres; the backup YAML itself has no unit or physical source ID fields",
+      "source_id_present": false
+    },
+    "cam2": {
+      "intrinsic_order": [
+        "fx",
+        "fy",
+        "cx",
+        "cy",
+        "xi",
+        "lambda",
+        "alpha",
+        "b",
+        "c"
+      ],
+      "intrinsic_values": [
+        611.8474424353568,
+        616.0585479272831,
+        663.2107012959423,
+        527.4684575249128,
+        -0.2058475096185161,
+        -0.0666656732903091,
+        0.5916003663479583,
+        0.0,
+        0.0
+      ],
+      "Twc_input_numbers": [
+        [
+          -0.9996798916545364,
+          -0.006409766306530027,
+          0.02447507134759482,
+          3.0986943106459965
+        ],
+        [
+          -0.006179054799011353,
+          0.9999358736524414,
+          0.009490409091199687,
+          2.0339036312341254
+        ],
+        [
+          -0.02453433315509104,
+          0.00933613832498123,
+          -0.9996553921316143,
+          -134.2603446482213
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "candidate_T_boardcam0_boardcam_i_metres": [
+        [
+          -0.9996798916545364,
+          -0.006409766306530027,
+          0.02447507134759482,
+          0.0030986943106459967
+        ],
+        [
+          -0.006179054799011353,
+          0.9999358736524414,
+          0.009490409091199687,
+          0.0020339036312341254
+        ],
+        [
+          -0.02453433315509104,
+          0.00933613832498123,
+          -0.9996553921316143,
+          -0.13426034464822129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_scale": 0.001,
+      "translation_unit_status": "local historical audit and rig profile document millimetres; the backup YAML itself has no unit or physical source ID fields",
+      "source_id_present": false
+    },
+    "cam3": {
+      "intrinsic_order": [
+        "fx",
+        "fy",
+        "cx",
+        "cy",
+        "xi",
+        "lambda",
+        "alpha",
+        "b",
+        "c"
+      ],
+      "intrinsic_values": [
+        617.002888139925,
+        621.2673806624962,
+        673.9909251670115,
+        538.3565479494226,
+        -0.20503092348711907,
+        -0.06438105715179476,
+        0.5912882359716404,
+        0.0,
+        0.0
+      ],
+      "Twc_input_numbers": [
+        [
+          -0.031947132556818365,
+          -0.018271799768113293,
+          -0.9993225315455623,
+          -65.31955631990783
+        ],
+        [
+          -0.005329917851068538,
+          0.9998217843290985,
+          -0.018110537172581334,
+          1.245335143526756
+        ],
+        [
+          0.9994753487190658,
+          0.004747727268132048,
+          -0.03203882626891157,
+          -68.438097296118
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "candidate_T_boardcam0_boardcam_i_metres": [
+        [
+          -0.031947132556818365,
+          -0.018271799768113293,
+          -0.9993225315455623,
+          -0.06531955631990784
+        ],
+        [
+          -0.005329917851068538,
+          0.9998217843290985,
+          -0.018110537172581334,
+          0.001245335143526756
+        ],
+        [
+          0.9994753487190658,
+          0.004747727268132048,
+          -0.03203882626891157,
+          -0.06843809729611801
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_scale": 0.001,
+      "translation_unit_status": "local historical audit and rig profile document millimetres; the backup YAML itself has no unit or physical source ID fields",
+      "source_id_present": false
+    }
+  },
+  "closed_mathematical_chains": {
+    "world_lidar": "T_W_L(t) = T_W_B(t) T_B_L",
+    "body_camera": "T_B_Ci = T_B_L inverse(T_Ci_L)",
+    "world_camera": "T_W_Ci(t) = T_W_B(t) T_B_L inverse(T_Ci_L)",
+    "world_point_to_camera": "p_Ci = T_Ci_L inverse(T_B_L) inverse(T_W_B(t)) p_W",
+    "body_camera_rotation_translation": "R_B_Ci=R_B_L R_Ci_L^T; t_B_Ci=t_B_L-R_B_L R_Ci_L^T t_Ci_L",
+    "board_single_anchor": "if board camera a and FAST camera f are the same physical raw camera: T_boardj_L = inverse(Twc_j) Twc_a T_FASTf_L; then T_W_boardj=T_W_B T_B_L inverse(T_boardj_L)",
+    "board_single_anchor_special_case": "for a=0: T_boardj_L=inverse(Twc_j) T_FASTf_L, since Twc_0=I",
+    "board_Twc_interpretation": "Twc_j is locally documented as T_boardcam0_boardcamj, translation scaled 0.001 to m; this candidate requires correct physical anchor and board numbering",
+    "intrinsic_extrinsic_binding": "QR intrinsic cam i must stay attached to FAST extrinsic cam i under p_F. Board intrinsic j uses p_B independently; direct FAST extrinsics may only attach via a shared physical raw camera. Changing the model family alone does not authorize renumbering physical cameras.",
+    "projection": "d1=||p_C||; z2=z+xi*d1; d2=sqrt(x^2+y^2+z2^2); z3=z2+lambda*d2; d3=sqrt(x^2+y^2+z3^2); den=z3+alpha/(1-alpha)*d3; u=fx*x/den+b*y/den+cx; v=c*x/den+fy*y/den+cy",
+    "virtual_VINS_chain_required": false
+  },
+  "remaining_scene_validation_items": [
+    {
+      "id": "bag_sdk_vs_FAST_physical_identity",
+      "status": "source-supported mapping corroborated on main-agent QR dev; capture identity archive and held-out validation remain separate evidence limits",
+      "source_limit": "ROS topic naming and stable bridge metadata rule are established; vendor/device metadata generation and capture firmware/calibration hash are not recorded in this bag evidence",
+      "resolve_with_original_bag": "score raw topics against all four FAST model/extrinsic pairs on multiple separated scenes; hold out frames to require one stable global permutation",
+      "priority_permutation_raw_2345_to_FAST": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "fallback_permutations": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          0,
+          3,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "blocks_source_report_completion": false,
+      "dev_mapping_corroborated": true,
+      "dev_source_id": "main_agent_QR_dev_scores"
+    },
+    {
+      "id": "board_physical_ids_and_capture_model",
+      "status": "candidate to verify by existing main-agent board-versus-QR pixel experiment",
+      "source_limit": "camera_config.yaml has only cam0..3/Twc0..3, no raw/source-camera IDs; board and qr intrinsics differ",
+      "resolve_with_original_bag": "compare QR and board intrinsic families across the same raw images; retain independent raw-to-board permutation and rig anchor association, validate with held-out scene pixels",
+      "priority_permutations_raw_2345_to_board": [
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "fallback_permutations": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          0,
+          3,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "blocks_source_report_completion": false
+    },
+    {
+      "id": "historical_mapper_build_identity",
+      "status": "historical archive limitation, not a new body-frame unknown",
+      "source_limit": "V2 runtime_source_sha256.json covers fusion Python/config/launch files, but omits AVP LIVMapper.cpp/IMU_Processing.cpp and mapper executable; AVP and workspace .git directories do not provide usable history in this mount",
+      "resolve_with_original_bag": "the already-derived T_WB/T_BL chain can be checked against same-run registered cloud and original scan geometry, independent of exact historical binary identification",
+      "corroboration": "release launch hash matches; release log caller/node and params agree; 8245 pose CSV rows agree to the release TUM output precision; upstream mapper copy has the same body chain",
+      "blocks_source_report_completion": false,
+      "blocks_training_for_absolute_body_unknown": false
+    },
+    {
+      "id": "timing_capture_and_metric_registration",
+      "status": "scene validation item",
+      "source_limit": "same header basis and first synchronized raw stamps are observed; visual-IMU td from virtual VINS is not a raw camera/LiDAR time calibration",
+      "resolve_with_original_bag": "main-agent scene registration can test image-to-LIO header offset, motion windows, candidate extrinsics and map-world consistency; retain the recorded T_BL for this run",
+      "blocks_source_report_completion": false
+    }
+  ],
+  "verification": {
+    "source_line_ranges_valid": true,
+    "permutations_complete_24_unique": true,
+    "T_BL_inverse_checked": true,
+    "all_8245_csv_frames_checked": true,
+    "original_bag_connections_and_first_frames_checked": true,
+    "release_TUM_agreement_checked": true,
+    "all_hashed_sources_stable_after_reads": true,
+    "main_agent_QR_dev_provenance_hashes_match": true
+  },
+  "main_agent_scene_evidence": {
+    "source": "existing main-agent artifacts read only; no experiment rerun",
+    "QR_dev": {
+      "scores_file_source_id": "main_agent_QR_dev_scores",
+      "candidate_file_source_id": "main_agent_QR_dev_candidate",
+      "status": "projection_diagnostic",
+      "split": "dev",
+      "frames": 20,
+      "mosaics": [
+        "overlay_1720267883050095370.jpg",
+        "overlay_1720267887150338306.jpg",
+        "overlay_1720267891350060818.jpg",
+        "overlay_1720267895450424066.jpg",
+        "overlay_1720267899550187812.jpg"
+      ],
+      "mean_normalized_mutual_information": 0.11549607183660497,
+      "mean_spearman": 0.2515043551074541,
+      "mapping": {
+        "camera_2": "cam1",
+        "camera_3": "cam0",
+        "camera_4": "cam2",
+        "camera_5": "cam3"
+      },
+      "time_assumption": "inherited common device time; per-point 1ms deskew bins; image timestamps unchanged",
+      "source_SHA_references_match_source_audit": {
+        "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/maps/CZY_DATA/height_continuity_release/runtime_parameters.yaml": true,
+        "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/qr_params.yaml": true,
+        "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v6/maps/board-calib-backup/camera_config.yaml": true,
+        "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam1_multi_calib_result.txt": true,
+        "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam0_multi_calib_result.txt": true,
+        "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam2_multi_calib_result.txt": true,
+        "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam3_multi_calib_result.txt": true
+      },
+      "candidate_verified_flag": false,
+      "topic_mapping_verified_flags": {
+        "camera_2": false,
+        "camera_3": false,
+        "camera_4": false,
+        "camera_5": false
+      },
+      "interpretation": "consistent development-set geometric corroboration for the recovered source mapping; NMI and reflectance-luma Spearman are cross-modality scores, not absolute pixel error or proof of full metric calibration"
+    },
+    "board_status": "ongoing at worktrees/rig-board per main-agent update; no board final result inferred",
+    "later_comparison_reported_by_user": {
+      "source": "latest user/main-agent update, not independently read artifact",
+      "board_plus_FASTchain_dev_MI_approx": 0.133,
+      "QR_dev_MI_approx": 0.1155,
+      "swapped_raw2_raw3_MI_approx": 0.1076,
+      "swapped_mapping_rho_approx": 0.276,
+      "correct_mapping_rho_approx": 0.262,
+      "conclusion": "reflection-luma correlation proxy alone cannot establish the camera permutation; MI differences are comparative diagnostics, not absolute pixel errors",
+      "dataset_and_model_status": "explicit experimental; verified stays false; held-out training validation arranged by main agent"
+    }
+  },
+  "handoff": {
+    "read_only_source_evidence_complete": true,
+    "operational_mapping_raw_2345_to_FAST": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "mapping_status": "source-supported and QR-dev-corroborated; main agent retains experimental validation boundary",
+    "body_chain_complete": true,
+    "first_pose_orientation": "preserve bag quaternion exactly; no extra gravity flip or identity reset",
+    "no_unrelated_absolute_body_calibration_gate": true,
+    "one_block_pilot": "source chain and concrete raw-to-FAST assignment are ready for main-agent pilot use under its current experiment decision; this audit performs no training and changes no verified flag",
+    "remaining_board_permutations": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0
+      ],
+      [
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        1,
+        3,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        0,
+        3,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        3
+      ],
+      [
+        2,
+        1,
+        3,
+        0
+      ],
+      [
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        2,
+        3,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1
+      ],
+      [
+        3,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        1,
+        2,
+        0
+      ],
+      [
+        3,
+        2,
+        0,
+        1
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "no_single_MI_or_rho_mapping_proof": true,
+    "experimental_verified_stays_false": true,
+    "heldout_training_owner": "main agent"
+  },
+  "additional_source_lookup": {
+    "status": "targeted producer lookup finished without recovering capture-specific metadata producer or board loader source",
+    "current_sdk_build": {
+      "include": "/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge/third_party/orbvi_sdk/include",
+      "library": "/home/chaoszzss/orbvi_ros1_ws/src/orbvi_ros_bridge/third_party/orbvi_sdk/libs/linux-x86_64/liborbvi_sdk.so",
+      "ORBVI_HOST_SDK_SOURCE_DIR": "",
+      "evidence_source_id": "sdk_build_cache"
+    },
+    "sdk_bundle_git_provenance": {
+      "bridge_commit": "ac3edb04b641d6512e2acc426188c0294dc453e0",
+      "commit_subject": "chore: sync ORBVI Host SDK 0daaf911",
+      "SDK_source_revision_hint": "0daaf911",
+      "SDK_source_objects_recovered": false
+    },
+    "historical_reference_role_declarations": [
+      {
+        "commit": "ac3edb04b641d6512e2acc426188c0294dc453e0",
+        "file_sha256": "7a89bb7135ace987dd8ca365deb105c58b8e45748caadd39f94cc6eb27f7ab07",
+        "physical_id_declaration_line": 172,
+        "declaration": "`front=3、right=2、rear=4、left=5`。"
+      },
+      {
+        "commit": "9bdca7ea700127dee02f3cc601ba8d4c5cd560fa",
+        "file_sha256": "ddf1bbb4a104594d948003b3885c6574f24e9bae7e73a1fca9eb772730c4b1f8",
+        "physical_id_declaration_line": 188,
+        "declaration": "`front=3、right=2、rear=4、left=5`。Host SDK 已将 RGB 与 rig 深度全景统一为"
+      },
+      {
+        "commit": "270d823e5023ba5b2bc97aa7696ba83ab690f632",
+        "file_sha256": "09de64f74f6304b9748fa2285c6f5b8b0dec15f068f616970007434efd7cb86a",
+        "physical_id_declaration_line": 189,
+        "declaration": "`front=3、right=2、rear=4、left=5`。Host SDK 已将 RGB 与 rig 深度全景统一为"
+      }
+    ],
+    "SDK_decoded_identity_fields": [
+      "frame_id",
+      "camera_id",
+      "calibration_version",
+      "calibration_hash"
+    ],
+    "ROS_CompressedImage_retains": [
+      "header.frame_id",
+      "header.stamp",
+      "format",
+      "data"
+    ],
+    "ROS_CompressedImage_has_no_field_for": [
+      "calibration_version",
+      "calibration_hash",
+      "camera.i.camera_id original metadata record"
+    ],
+    "official_vendor_web_attempts": {
+      "gitee_vendor_namespace_and_repo_pages": "web open internal error",
+      "gitee_api_vendor_namespace_repos": "HTTP 404",
+      "additional_search": "no matching ORBVI producer/board-loader source; unrelated Orbbec results explicitly discarded"
+    },
+    "evidence_boundary": "stable ID token transport and historical physical-role reference are established; equality between capture hardware channels and FAST/board calibration entries is not proven by a producer implementation",
+    "blocks_experimental_warmup": false
+  }
+}

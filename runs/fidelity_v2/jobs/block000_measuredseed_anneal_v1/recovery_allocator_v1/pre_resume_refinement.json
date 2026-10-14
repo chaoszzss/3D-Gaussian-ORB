@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "initial_gaussians": 558010,
+  "events": [
+    {
+      "step": 600,
+      "before": 558010,
+      "after": 815928,
+      "duplicated": 0,
+      "split": 287147,
+      "pruned": 29229
+    },
+    {
+      "step": 700,
+      "before": 815928,
+      "after": 1053297,
+      "duplicated": 6,
+      "split": 273129,
+      "pruned": 35766
+    },
+    {
+      "step": 800,
+      "before": 1053297,
+      "after": 1258987,
+      "duplicated": 17,
+      "split": 237587,
+      "pruned": 31914
+    },
+    {
+      "step": 900,
+      "before": 1258987,
+      "after": 1377459,
+      "duplicated": 27,
+      "split": 149298,
+      "pruned": 30853
+    },
+    {
+      "step": 1000,
+      "before": 1377459,
+      "after": 1497614,
+      "duplicated": 32,
+      "split": 141954,
+      "pruned": 21831
+    },
+    {
+      "step": 1100,
+      "before": 1497614,
+      "after": 1598605,
+      "duplicated": 20,
+      "split": 123011,
+      "pruned": 22040
+    },
+    {
+      "step": 1200,
+      "before": 1598605,
+      "after": 1662480,
+      "duplicated": 46,
+      "split": 83429,
+      "pruned": 19600
+    },
+    {
+      "step": 1300,
+      "before": 1662480,
+      "after": 1731912,
+      "duplicated": 67,
+      "split": 87159,
+      "pruned": 17794
+    },
+    {
+      "step": 1400,
+      "before": 1731912,
+      "after": 1788952,
+      "duplicated": 46,
+      "split": 75277,
+      "pruned": 18283
+    },
+    {
+      "step": 1500,
+      "before": 1788952,
+      "after": 1834468,
+      "duplicated": 30,
+      "split": 63095,
+      "pruned": 17609
+    },
+    {
+      "step": 1600,
+      "before": 1834468,
+      "after": 1885836,
+      "duplicated": 45,
+      "split": 67850,
+      "pruned": 16527
+    },
+    {
+      "step": 1700,
+      "before": 1885836,
+      "after": 1927022,
+      "duplicated": 187,
+      "split": 59631,
+      "pruned": 18632
+    },
+    {
+      "step": 1800,
+      "before": 1927022,
+      "after": 1967059,
+      "duplicated": 123,
+      "split": 55079,
+      "pruned": 15165
+    },
+    {
+      "step": 1900,
+      "before": 1967059,
+      "after": 2009778,
+      "duplicated": 15,
+      "split": 59017,
+      "pruned": 16313
+    },
+    {
+      "step": 2000,
+      "before": 2009778,
+      "after": 2045315,
+      "duplicated": 118,
+      "split": 51099,
+      "pruned": 15680
+    },
+    {
+      "step": 2100,
+      "before": 2045315,
+      "after": 2081960,
+      "duplicated": 17,
+      "split": 52406,
+      "pruned": 15778
+    },
+    {
+      "step": 2200,
+      "before": 2081960,
+      "after": 2120369,
+      "duplicated": 30,
+      "split": 53133,
+      "pruned": 14754
+    },
+    {
+      "step": 2300,
+      "before": 2120369,
+      "after": 2143602,
+      "duplicated": 26,
+      "split": 39078,
+      "pruned": 15871
+    },
+    {
+      "step": 2400,
+      "before": 2143602,
+      "after": 2178795,
+      "duplicated": 39,
+      "split": 50032,
+      "pruned": 14878
+    },
+    {
+      "step": 2500,
+      "before": 2178795,
+      "after": 2216790,
+      "duplicated": 49,
+      "split": 52572,
+      "pruned": 14626
+    },
+    {
+      "step": 2600,
+      "before": 2216790,
+      "after": 2243417,
+      "duplicated": 87,
+      "split": 40684,
+      "pruned": 14144
+    },
+    {
+      "step": 2700,
+      "before": 2243417,
+      "after": 2274054,
+      "duplicated": 20,
+      "split": 45155,
+      "pruned": 14538
+    },
+    {
+      "step": 2800,
+      "before": 2274054,
+      "after": 2306895,
+      "duplicated": 26,
+      "split": 47932,
+      "pruned": 15117
+    },
+    {
+      "step": 2900,
+      "before": 2306895,
+      "after": 2329568,
+      "duplicated": 40,
+      "split": 36727,
+      "pruned": 14094
+    },
+    {
+      "step": 3000,
+      "before": 2329568,
+      "after": 2361133,
+      "duplicated": 18,
+      "split": 45464,
+      "pruned": 13917
+    },
+    {
+      "step": 3100,
+      "before": 2361133,
+      "after": 2386513,
+      "duplicated": 30,
+      "split": 39256,
+      "pruned": 13906
+    },
+    {
+      "step": 3200,
+      "before": 2386513,
+      "after": 2412007,
+      "duplicated": 38,
+      "split": 39135,
+      "pruned": 13679
+    },
+    {
+      "step": 3300,
+      "before": 2412007,
+      "after": 2441114,
+      "duplicated": 54,
+      "split": 43434,
+      "pruned": 14381
+    }
+  ],
+  "enabled": true,
+  "opacity_resets_enabled": false,
+  "last_callback_step": 3300,
+  "final_gaussians": 2441114,
+  "refine_events": 28,
+  "duplicated_total": 1253,
+  "split_total": 2398770,
+  "pruned_total": 516919
+}

@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-10-09T17:23:53.017765+08:00",
+  "status": "final_outputs_retained_intermediates_cleaned",
+  "current_phase": "Permanent cleanup, retained-output SHA, native environment imports and live HTTP verification completed",
+  "high_fidelity_accepted": false,
+  "training_running": false,
+  "model_assets": 26,
+  "covered_source_blocks": 28,
+  "full_gaussians": 13681252,
+  "current_delivery": "maps/garage_fidelity_v2_full_preview",
+  "checkpoints": "maps/garage_fidelity_v2_full_preview/checkpoints",
+  "viewer_urls": [
+    "http://127.0.0.1:8767/reports/full_preview_v2/",
+    "http://127.0.0.1:8769/",
+    "http://127.0.0.1:8770/"
+  ],
+  "cleanup_report": "reports/cleanup_v2_summary.md",
+  "previous_state_archive": "reports/cleanup_v2_history/reports/CURRENT_RECONSTRUCTION_STATE.json",
+  "raw_inputs_untouched": true,
+  "training_requires_input_regeneration": true,
+  "cleanup_integrity": "PASS",
+  "cleanup_http": "POST_DELETE_HTTP_PASS"
+}

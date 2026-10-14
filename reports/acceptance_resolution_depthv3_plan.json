@@ -1,0 +1,2497 @@
+{
+  "schema_version": 1,
+  "split": "dev",
+  "expected_blocks": 2,
+  "expected_unique_frames": 40,
+  "unique_frames": 40,
+  "source_observations": 40,
+  "duplicate_observation_count": 0,
+  "canonical_policy": "First block in ascending block ID; original val_filenames order; never average depth teachers",
+  "mask_revision": "ego_v2_rev2",
+  "revision_config": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/direct_lio_refined.ego_v3.experimental.yaml",
+  "revision_sha256": "2d03615e533c7fd197a68e57d4c1d32efc440a032c1c692d54b8f81e5fa5fc32",
+  "raw_masks": {
+    "camera_2": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/source_masks_v2/camera_2.png",
+      "sha256": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e"
+    },
+    "camera_3": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/source_masks_v2/camera_3.png",
+      "sha256": "faaa891a933fd00482ac8e42a972e9d0e4959fcd67460d2a8986b6997d218f72"
+    },
+    "camera_4": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/source_masks_v2/camera_4.png",
+      "sha256": "5a43bf96277f2093e13d9d2bc79120f73cf7ff1a87651c979c24e02e5b4c2b3d"
+    },
+    "camera_5": {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/source_masks_v2/camera_5.png",
+      "sha256": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e"
+    }
+  },
+  "mask_valid_pixels": {
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png": 1330108,
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png": 1227066,
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png": 1201181,
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png": 1302346
+  },
+  "protocols": {
+    "raw": "All rectangular RGB pixels; no background fill or colour fitting.",
+    "legacy": "Prepared full-resolution RGB validity mask (already ego_v2). This pilot is distinct from the 408-frame legacy benchmark.",
+    "ego_v2": "Prepared full-resolution validity intersected with the same frozen raw-camera ego_v2 rev2 polygons rectified at 1280x1080."
+  },
+  "primary_protocol": "ego_v2",
+  "floor_verified": false,
+  "geometry_reference_independent": false,
+  "frames": [
+    {
+      "block_id": "block_000",
+      "dataset_index": 0,
+      "group_id": "1720267884750228828",
+      "camera_id": "camera_2",
+      "file_path": "images/1720267884750228828_camera_2_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267884750228828,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.4749407569886521,
+            0.03166871809476754,
+            0.8794477640231281,
+            -0.04626823249974515
+          ],
+          [
+            0.8800011506022443,
+            0.023233072011229473,
+            0.4744029925112682,
+            -0.030796769786216635
+          ],
+          [
+            -0.005408538598510552,
+            0.9992283606159076,
+            -0.03890284116967873,
+            -0.10403279920858438
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267884750228828_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267884750228828_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267884750228828_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267884750228828_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "c65e00fc536a854002b8ca91d2d624a2d4af947f30069f71dc8cb748cf18afa5",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "47953d087cfe987210d4b2b8efd5c601d05918e8a78766d98facd818527378c5",
+        "source_lidar_support_path": "04855e2095fd6eaa7916eadbdef77958726c027bd6ecf54df1c044bda8ebbf9b",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 1,
+      "group_id": "1720267884750228828",
+      "camera_id": "camera_3",
+      "file_path": "images/1720267884750228828_camera_3_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267884750228828,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            -0.8895254053327192,
+            0.031839463775831786,
+            -0.455774946452884,
+            0.06264024357532205
+          ],
+          [
+            -0.45479258783528503,
+            0.03367388966888642,
+            0.8899605447460305,
+            -0.05168984010614332
+          ],
+          [
+            0.043683581787058445,
+            0.9989255816631355,
+            -0.015473428230947429,
+            -0.11240431014600741
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267884750228828_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267884750228828_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267884750228828_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267884750228828_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "a648f5b9c6ca7741459a9e75ac2b7de79defbe376551a0e55a279beb7dbd73b0",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "621fc5a377a5325310a79f8ee52b60e55f12bc48b0147f3cfefee827e3db12f2",
+        "source_lidar_support_path": "147c74e81c99b2ad62b8575abfe0c8672166a94ac519fad4205960fb1d230b37",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 2,
+      "group_id": "1720267884750228828",
+      "camera_id": "camera_4",
+      "file_path": "images/1720267884750228828_camera_4_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267884750228828,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            0.891303770043025,
+            0.02886609487053896,
+            0.4524868374594061,
+            -0.03141702062256496
+          ],
+          [
+            0.4523206585133697,
+            0.012421785811153344,
+            -0.8917688720286738,
+            0.0716967256583294
+          ],
+          [
+            -0.03136257943986014,
+            0.9995061019344438,
+            -0.0019851465164038296,
+            -0.10822125058015872
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267884750228828_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267884750228828_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267884750228828_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267884750228828_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "ce071dda706573b426511e2bdef0e39c80313714aec72b1a2ce79dceb34cfef9",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "82e411548d0da48978c396050549bef0fbf0d61d3e3a1b84afb82277d521fb88",
+        "source_lidar_support_path": "6988836fdd72a2a82fbd1bb6b9de10a62ed70c9f382c6079ed2421ec8a3ad521",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 3,
+      "group_id": "1720267884750228828",
+      "camera_id": "camera_5",
+      "file_path": "images/1720267884750228828_camera_5_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267884750228828,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.4788579634945214,
+            0.019761368154143956,
+            -0.8776699488569468,
+            0.0798142262773029
+          ],
+          [
+            -0.8778917191709356,
+            0.009541923794164967,
+            -0.4787641184355874,
+            0.04776199330118095
+          ],
+          [
+            -0.001086374234978144,
+            0.9997591910150074,
+            0.021917567657905174,
+            -0.1017673999703091
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267884750228828_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267884750228828_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267884750228828_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267884750228828_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "8871c935dc0b33541cb3376a08442cf62a0fcd50701419f3b3074cd3b52df057",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "05375d0c80ffec5920ae1e689bff99c334b9b860416dcef1393034387dce73c3",
+        "source_lidar_support_path": "caaa5a0f5fa120de7ff0861a5b2f08c8f7d7907a118ef7fb9a73de063d6aefdb",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 4,
+      "group_id": "1720267892750245855",
+      "camera_id": "camera_2",
+      "file_path": "images/1720267892750245855_camera_2_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267892750245855,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.4804117806999407,
+            0.03450688395396002,
+            0.8763639631594281,
+            3.33283654572896
+          ],
+          [
+            0.877041201320286,
+            0.020956159778173777,
+            0.47995788414612034,
+            -4.285703583106764
+          ],
+          [
+            -0.0018033722247841482,
+            0.9991847248267655,
+            -0.040331544992465725,
+            -0.05744868647029616
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267892750245855_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267892750245855_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267892750245855_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267892750245855_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "7527fb75af147983cfce230c63d7203a98c27e378457da4a02b54b92f1f623d8",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "6135579317d7141ef1eebdafc8c29aca1ccc30dfe3ed29139d2cd5931ef58e2f",
+        "source_lidar_support_path": "3f6131e6f621707a486e0a2c37363b35a614d6da8b19c964114cce4fb597b39d",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 5,
+      "group_id": "1720267892750245855",
+      "camera_id": "camera_3",
+      "file_path": "images/1720267892750245855_camera_3_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267892750245855,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            -0.8865489027329285,
+            0.03461186814784816,
+            -0.46133833749901676,
+            3.4418472199278924
+          ],
+          [
+            -0.4604224244355554,
+            0.03139855485707932,
+            0.8871444763000961,
+            -4.305898169571981
+          ],
+          [
+            0.04519108473942803,
+            0.9989074778657941,
+            -0.011900274109067627,
+            -0.06619570493119926
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267892750245855_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267892750245855_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267892750245855_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267892750245855_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "c7c3d4ae003cd0af3053dbb6f74c40b5bb26d2894ff1c1497829381b621fe7a0",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "61aada4b1d5b7a7651533fbdd5ab4e4ff8b222840ee11399c00b09c1f8eafbac",
+        "source_lidar_support_path": "9083b2afbccbd3a5cfe10cfedf456002921fd7df3f239fc2a17d76811728ba2c",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 6,
+      "group_id": "1720267892750245855",
+      "camera_id": "camera_4",
+      "file_path": "images/1720267892750245855_camera_4_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267892750245855,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            0.8883793644579959,
+            0.031772311146758686,
+            0.4580094158962245,
+            3.3470382584965006
+          ],
+          [
+            0.4579311124864108,
+            0.010126998966113973,
+            -0.8889299973051301,
+            -4.1831096575316336
+          ],
+          [
+            -0.032881621343317506,
+            0.999443827404189,
+            -0.005552912884316669,
+            -0.061425622113118625
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267892750245855_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267892750245855_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267892750245855_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267892750245855_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "7f0f9b2088b9d0fc6b58b0e4295dbb7566136249aafdc466c62634344ef285c6",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "b1180cff520c64c488aa425a3850997ae2461b3f106f7e9eed9f499305bd0d0d",
+        "source_lidar_support_path": "e830007c07945c4506782e67fb32f9e2528fdbeb95d8683e11d839272e4ba4e1",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 7,
+      "group_id": "1720267892750245855",
+      "camera_id": "camera_5",
+      "file_path": "images/1720267892750245855_camera_5_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267892750245855,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.48429640058904755,
+            0.022686444616380586,
+            -0.8746098110627165,
+            3.458434803370481
+          ],
+          [
+            -0.8748913797913258,
+            0.0071899533390997784,
+            -0.48426581351341724,
+            -4.20636808918316
+          ],
+          [
+            -0.004697865826418808,
+            0.9997167747925656,
+            0.023330243355514126,
+            -0.05536187452169171
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267892750245855_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267892750245855_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267892750245855_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267892750245855_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "669430d3f510e6594fe541ccb164d2099933e783ad7f33eabecc127e073d0dff",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "ccb2a2602c06c53cc5d92c1974d260a9a3c4a55f4a6f96b805dd48187be15143",
+        "source_lidar_support_path": "f7b05cded6c0867039b190625d655ca1540719a426205039aec0841abede4e85",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 8,
+      "group_id": "1720267900750125641",
+      "camera_id": "camera_2",
+      "file_path": "images/1720267900750125641_camera_2_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267900750125641,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.4663345122539239,
+            0.03282195295273438,
+            0.8839993450706078,
+            7.973430055617314
+          ],
+          [
+            0.8846039978888005,
+            0.02047554624114795,
+            0.46589324842207974,
+            -10.21071144307842
+          ],
+          [
+            -0.0028088431864315777,
+            0.9992514555458478,
+            -0.03858288467000533,
+            0.003003180767308891
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267900750125641_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267900750125641_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267900750125641_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267900750125641_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "e28c4ce63b45860822d2b25c82b01dd957bb9a89c1426900851f354dce18c046",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "83012db3c08f53c9afc1045c51efe7dc4fc256d9b98139d1a59908107cc5ac71",
+        "source_lidar_support_path": "1146d82c0687a8e96aa32533e05353bbd91c930477ab7a6b620d046d78ec1602",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 9,
+      "group_id": "1720267900750125641",
+      "camera_id": "camera_3",
+      "file_path": "images/1720267900750125641_camera_3_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267900750125641,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            -0.8938806727132801,
+            0.03309430724625905,
+            -0.4470817707953933,
+            8.082121615366916
+          ],
+          [
+            -0.44619721487559366,
+            0.030914911126950866,
+            0.8944005331546242,
+            -10.232645603079783
+          ],
+          [
+            0.043421059256057076,
+            0.9989739912019244,
+            -0.012867653833512465,
+            -0.005523026361049926
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267900750125641_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267900750125641_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267900750125641_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267900750125641_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "0af04e595c697c40522fef43f4405edc33dedac0ba86d4201903ebf65dddc79c",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "eebb769ad790c9d8d82df9d58dd59dd86a01f53eb69775cc0c12b016ae66848d",
+        "source_lidar_support_path": "a4905d7f846738108a55e0c26f74048467cb95db49f3ae77ec7f2fdc1c430395",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 10,
+      "group_id": "1720267900750125641",
+      "camera_id": "camera_4",
+      "file_path": "images/1720267900750125641_camera_4_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267900750125641,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            0.8956462698272238,
+            0.029914208725239335,
+            0.4437599570273582,
+            7.989276957540465
+          ],
+          [
+            0.4436778815492277,
+            0.009691472855560984,
+            -0.8961339256929626,
+            -10.108357783056372
+          ],
+          [
+            -0.031107824876862963,
+            0.9995054854628032,
+            -0.004592141243220802,
+            -0.000949313012978667
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267900750125641_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267900750125641_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267900750125641_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267900750125641_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "3cfe23210274584eef5bcd73b600b94bbe6d9ce6dfcca21a64d04a209dfe1ce5",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "104239ad52cdf261112fc1fee80db6b627d0e1a9bef697620ed8d24e52fbb8e0",
+        "source_lidar_support_path": "fa2d5702de569f1e9c8c1235a15b7495ed3301dcb52768ae290dc8125d17b367",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 11,
+      "group_id": "1720267900750125641",
+      "camera_id": "camera_5",
+      "file_path": "images/1720267900750125641_camera_5_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267900750125641,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.47026608566974637,
+            0.02078204835714343,
+            -0.8822799528125618,
+            8.100275259872026
+          ],
+          [
+            -0.8825169868949295,
+            0.006899974082919012,
+            -0.47022989930410697,
+            -10.13339242596875
+          ],
+          [
+            -0.0036846316980269226,
+            0.9997602196645639,
+            0.021585334500848152,
+            0.005340156071365398
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267900750125641_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267900750125641_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267900750125641_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267900750125641_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "e0cc8a6acbf83741311e61c75b3a4118325fab4f535610476764837771fdb66f",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "397307e905ca0d9e4f3eb6bdb95d8283094df92fd955a9385fb7a87f33a1b63f",
+        "source_lidar_support_path": "cd072165e4acdcf40d7dda85693833dd28f39b2749800a5c37d7a17f47316b66",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 12,
+      "group_id": "1720267908750005454",
+      "camera_id": "camera_2",
+      "file_path": "images/1720267908750005454_camera_2_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267908750005454,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.4581164412318166,
+            0.03485023837603914,
+            0.8882087520162301,
+            12.450129137090597
+          ],
+          [
+            0.88888714036451,
+            0.021329243982142455,
+            0.4576294516808926,
+            -16.23675505387337
+          ],
+          [
+            -0.002996325699853191,
+            0.999164913433355,
+            -0.040749206078363145,
+            0.050144782339305485
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267908750005454_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267908750005454_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267908750005454_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267908750005454_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "5e924bd133b070bb0b558be36fa3e4abf4b3c6dfc294b7934064a73d6248e352",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "f8d6f64b9da841ee44014a6f40a97e7bc6c8ea95152a58d6966e418830ddedc0",
+        "source_lidar_support_path": "a969f36084b74b3c33518250ed0ffceeb7860b18f41e6ec91090302399157663",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 13,
+      "group_id": "1720267908750005454",
+      "camera_id": "camera_3",
+      "file_path": "images/1720267908750005454_camera_3_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267908750005454,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            -0.8978981001529494,
+            0.03521886761026902,
+            -0.4387922436711651,
+            12.558596758527296
+          ],
+          [
+            -0.4378370220035902,
+            0.031765305067969526,
+            0.8984930203162218,
+            -16.259706210118633
+          ],
+          [
+            0.04558227621294177,
+            0.998874665189877,
+            -0.013101882958490137,
+            0.04144545646700132
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267908750005454_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267908750005454_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267908750005454_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267908750005454_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "491d619395e3b27fc208fe9024559fdf982195cd224e51186fe906658018415d",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "401c4813038b4228e3b366e88924e9ef3922cf3471eca44455cb6083f414e208",
+        "source_lidar_support_path": "6a2c2b8eb756ac19d5472abe801fde4b43477be841d2c283b47ad8cee9b189a2",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 14,
+      "group_id": "1720267908750005454",
+      "camera_id": "camera_4",
+      "file_path": "images/1720267908750005454_camera_4_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267908750005454,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            0.8996629301213623,
+            0.03184309754459123,
+            0.43542235737753604,
+            12.466917117662762
+          ],
+          [
+            0.435315705352766,
+            0.010572904323835418,
+            -0.9002157798924565,
+            -16.134557422115453
+          ],
+          [
+            -0.03326933781530732,
+            0.999436956907701,
+            -0.004349750384366238,
+            0.046042831713599006
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267908750005454_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267908750005454_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267908750005454_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267908750005454_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "5bd67a6ddd26a0b91ba61b27ffd5df099eb66e470a88782809b7b058df4f5bf2",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "be10635460b7b812553e922fa819e772b5aa2f2c81a2cb64dfacade8d130355d",
+        "source_lidar_support_path": "5f0c3a3e9ebf4cbafb9b961ae326d50ed34d2c8a9a16e374a1c09a0bdda5ec97",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 15,
+      "group_id": "1720267908750005454",
+      "camera_id": "camera_5",
+      "file_path": "images/1720267908750005454_camera_5_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267908750005454,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.46205523431396045,
+            0.022685930379438588,
+            -0.8865609448909255,
+            12.577689909379865
+          ],
+          [
+            -0.8868442156836289,
+            0.007866519608425257,
+            -0.46200157464855063,
+            -16.160613135584835
+          ],
+          [
+            -0.003506786500619495,
+            0.9997116916551843,
+            0.02375365269531311,
+            0.052158573565779964
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267908750005454_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267908750005454_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267908750005454_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267908750005454_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "c824febf10fc77f8d8297040dca2f36da8e491866afeaa871282f154a787708f",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "8c38e3270b0f3745a00577a72d7a09132041cefdecc682e381a2c0bddce9f007",
+        "source_lidar_support_path": "d0c17c72704fc786d7799c3a1adf851454b2e00f8221dc5cecd5964cdee80b0e",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 16,
+      "group_id": "1720267916749964569",
+      "camera_id": "camera_2",
+      "file_path": "images/1720267916749964569_camera_2_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267916749964569,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.9793313989299508,
+            0.024255981022006195,
+            0.20080253597643083,
+            18.101138906646394
+          ],
+          [
+            0.20156639666717616,
+            0.03476120406963856,
+            0.9788578274837666,
+            -18.55537309825954
+          ],
+          [
+            0.01676301895591087,
+            0.9991012491616098,
+            -0.038931929302241805,
+            0.026590326087053376
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267916749964569_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267916749964569_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267916749964569_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267916749964569_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "1c5a7a46b22ff863dc2c8b41fe221fbb68bcd7d2c81ba79f56c28726812560dd",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "897e4b533a8e2b73fd3684392646698c68bd7854bb6e409b136c4fb52803d788",
+        "source_lidar_support_path": "82e9c1b771b91b4d24028766e08e129ca0013f0de19531404ddc0b7c4979d912",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 17,
+      "group_id": "1720267916749964569",
+      "camera_id": "camera_3",
+      "file_path": "images/1720267916749964569_camera_3_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267916749964569,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            -0.2221947827347924,
+            0.016361566103530803,
+            -0.9748650048494294,
+            18.18693327502882
+          ],
+          [
+            -0.9739999079163798,
+            0.04160222156323611,
+            0.2226958341323162,
+            -18.485312811476327
+          ],
+          [
+            0.04420020253712867,
+            0.999000277435218,
+            0.006692367296678487,
+            0.01666352834172355
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267916749964569_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267916749964569_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267916749964569_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267916749964569_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "e01c8e0aa3cff3425454230a03c3d5842903d39b2de0b272a8f9b7d6b233baa1",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "a3acaba8641a7d92d97ab4a075b861c812da67afc42db63e35a83250dd30de2a",
+        "source_lidar_support_path": "a27a02c548a78bdf4b3850894a9f6f4b059037dd585c79d70d167843d6b90810",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 18,
+      "group_id": "1720267916749964569",
+      "camera_id": "camera_4",
+      "file_path": "images/1720267916749964569_camera_4_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267916749964569,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            0.22549846806908264,
+            0.030742677028055214,
+            0.9737583523172709,
+            18.032080871367462
+          ],
+          [
+            0.973719512878692,
+            0.02566564431972279,
+            -0.22629976787645403,
+            -18.478117022320518
+          ],
+          [
+            -0.031949196199284075,
+            0.99919775946046,
+            -0.0241471810242416,
+            0.024244111801916796
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267916749964569_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267916749964569_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267916749964569_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267916749964569_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "911dab5979418851eb4e4fbdc911e147ff71d711918e475454fe3026339e989c",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "3cd1d3ec3faa901c44e8b9de5ce4a72123306cb8fd3224d887977a864e53e398",
+        "source_lidar_support_path": "3b85f053ed53b9b4a41e95cf11632d165619cab9a1ce6e7f93325c5b58a2eadc",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_000",
+      "dataset_index": 19,
+      "group_id": "1720267916749964569",
+      "camera_id": "camera_5",
+      "file_path": "images/1720267916749964569_camera_5_center.png",
+      "floor_id": "F1",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720267916749964569,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.9800912737784435,
+            0.02710443744000543,
+            -0.19668869955950538,
+            18.12201950804197
+          ],
+          [
+            -0.19718069536013136,
+            0.01683778761658671,
+            -0.9802225575273578,
+            -18.408297190845005
+          ],
+          [
+            -0.023256578438016776,
+            0.9994907895419747,
+            0.021847040534517,
+            0.029055208710465116
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267916749964569_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267916749964569_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267916749964569_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267916749964569_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "6492dd8990d6b48ce0a7cca588cb49e512f61329affd7ab6ec8592e4265e5ea7",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "62d2575644362332b12f2166362e46cb341cc4638c6519001b9e713151b687f9",
+        "source_lidar_support_path": "fdc643c188a19e8e763290bcf2c5b0f1f71638e0361227adedb052acb9726df0",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 0,
+      "group_id": "1720268324737907057",
+      "camera_id": "camera_2",
+      "file_path": "images/1720268324737907057_camera_2_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268324737907057,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.8713637792758814,
+            -0.0947978995107288,
+            -0.48139227498414106,
+            32.537769725751374
+          ],
+          [
+            -0.476810835530301,
+            -0.06767164056482583,
+            0.8763971566499752,
+            -10.187319600173057
+          ],
+          [
+            -0.11565721459100334,
+            0.9931937914181797,
+            0.013765950800137596,
+            8.281523689001114
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268324737907057_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268324737907057_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268324737907057_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268324737907057_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "297a30dc7fc54011bbef6de0da5a024ce88bde914a4399e82b7d1cb3afe3c889",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "ddc774fe7de4b471763fe7efdb5f6869f31da6a0bdf003c58e13215835f00352",
+        "source_lidar_support_path": "83e9a5a51b7fa99eda56471a1ab4bd697a3ce3633b368370a4c6364b3f385d8b",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 1,
+      "group_id": "1720268324737907057",
+      "camera_id": "camera_3",
+      "file_path": "images/1720268324737907057_camera_3_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268324737907057,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            0.46161863092863537,
+            -0.105191889749383,
+            -0.8808194513693063,
+            32.557841738630124
+          ],
+          [
+            -0.8870048593609735,
+            -0.0675281120158202,
+            -0.45679572410170255,
+            -10.078006453556714
+          ],
+          [
+            -0.011428869130083338,
+            0.9921565503581234,
+            -0.12447795199100525,
+            8.285449121409341
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268324737907057_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268324737907057_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268324737907057_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268324737907057_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "fca741e988822b0b9c1e1d1906cd5a860f5ab1a612e6af8fe5d1f9815ee6a71a",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "164fce56ea3289e5764592944df28d3adeb6465e6ca992abbfd2520319a695ec",
+        "source_lidar_support_path": "3aecf6bf8f60f0357ecc3d5ee30b72d66dc13abac3ff542d592b3f575b64c9a4",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 2,
+      "group_id": "1720268324737907057",
+      "camera_id": "camera_4",
+      "file_path": "images/1720268324737907057_camera_4_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268324737907057,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            -0.46005373648934594,
+            -0.08399968871015427,
+            0.8839087123899103,
+            32.43565772213659
+          ],
+          [
+            0.887566346870128,
+            -0.0704295605015198,
+            0.4552643813337236,
+            -10.172680095323198
+          ],
+          [
+            0.024011235824231827,
+            0.9939737065456814,
+            0.10695667931472602,
+            8.271432017034615
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268324737907057_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268324737907057_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268324737907057_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268324737907057_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "679194b2351a8f3d9e56023cbe5e25beff3997e21258c28a00be71d23f04c9a9",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "7de117d8509330c2cd3a40c60d950a0a9c9b31f5a418c98eedcff487c9f1198d",
+        "source_lidar_support_path": "9a47df463d1bf9fa808f1e207ddb5e43317f48d72e683eb656a790d7eaa1a7fe",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 3,
+      "group_id": "1720268324737907057",
+      "camera_id": "camera_5",
+      "file_path": "images/1720268324737907057_camera_5_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268324737907057,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.8696738408137642,
+            -0.08103147188690875,
+            0.4869304993200542,
+            32.457677532850276
+          ],
+          [
+            0.4813411683167699,
+            -0.07949884010583938,
+            -0.8729207375846179,
+            -10.062508937182617
+          ],
+          [
+            0.10944446211518918,
+            0.9935360260129812,
+            -0.03013427826661227,
+            8.290520174035708
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268324737907057_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268324737907057_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268324737907057_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268324737907057_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "dffab2b6700cc2898ace053d4e123085cc91e83dddee465a05cc42e462987109",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "aac689195618a454bd35b2cc4c4dc2a1dd6e9260ace89eafdf0423b8947b8d0b",
+        "source_lidar_support_path": "f9e5ee684446e6d6bcf2510e5face037940d174bdff6b832ed485f230ca44527",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 4,
+      "group_id": "1720268344745357541",
+      "camera_id": "camera_2",
+      "file_path": "images/1720268344745357541_camera_2_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268344745357541,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.8623965944829517,
+            -0.09659594973578202,
+            -0.49693192322374424,
+            38.6074790515536
+          ],
+          [
+            -0.4938642065289317,
+            -0.055131727581867074,
+            0.8677895125682191,
+            -5.210020130895371
+          ],
+          [
+            -0.11122166755518317,
+            0.9937956103286434,
+            -0.00015986795560654372,
+            9.007227891094171
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268344745357541_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268344745357541_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268344745357541_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268344745357541_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "d9923abfb69e274b5d121d95f355419cda8d265f483799128bac8c7158dac07f",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "cc207208f18eab17e6f29c8023f688165e723789c9128dbc2da2a089ee720e1d",
+        "source_lidar_support_path": "5cf439e790cce47ec5203f7e83de33404da06142c2d419ccbd77ef852eaca259",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 5,
+      "group_id": "1720268344745357541",
+      "camera_id": "camera_3",
+      "file_path": "images/1720268344745357541_camera_3_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268344745357541,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            0.47734292564526204,
+            -0.10698765127613179,
+            -0.8721796683085649,
+            38.62559307138321
+          ],
+          [
+            -0.8787132651679743,
+            -0.055188242412972495,
+            -0.4741489802975479,
+            -5.100321782351391
+          ],
+          [
+            0.002594022794729119,
+            0.9927275055994887,
+            -0.1203551854801309,
+            9.009638981324368
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268344745357541_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268344745357541_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268344745357541_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268344745357541_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "39901d80445df14fa3549134323c63a24b5743727b585b1dd575c873a32dd3a1",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "d51ade032851d5a723785efccc76c15ee0bf39c99ad9c300cc5d8a22a7ad78f7",
+        "source_lidar_support_path": "da1a251723ceed60e4fcf411b8abf0893e357a8cc871ede72f45bb1a45bc6307",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 6,
+      "group_id": "1720268344745357541",
+      "camera_id": "camera_4",
+      "file_path": "images/1720268344745357541_camera_4_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268344745357541,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            -0.4758264756069534,
+            -0.0857528466265734,
+            0.8753488529762893,
+            38.505154108242
+          ],
+          [
+            0.8794825177763859,
+            -0.0576854024800221,
+            0.4724223695660768,
+            -5.1973479270089715
+          ],
+          [
+            0.009983287894000728,
+            0.9946450842567703,
+            0.10286637121366837,
+            8.996643022058851
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268344745357541_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268344745357541_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268344745357541_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268344745357541_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "e0a60338600bc740775343a1b079ff320eb41d8757d785365bc47c817ad0c289",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "2ea88a229e265deb2b3177a1a788aaab40414ea15a075a1d47319bd2fbcb48e8",
+        "source_lidar_support_path": "bec74dd1a7f5416549371f389a1cc9994119e6357cb609d05945f3f9ece96a4a",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 7,
+      "group_id": "1720268344745357541",
+      "camera_id": "camera_5",
+      "file_path": "images/1720268344745357541_camera_5_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268344745357541,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.8606452808886386,
+            -0.08262259595806988,
+            0.5024571694396115,
+            38.52515431301525
+          ],
+          [
+            0.4982743563347417,
+            -0.0667056992462993,
+            -0.86444954480135,
+            -5.086540137156312
+          ],
+          [
+            0.10493982229504498,
+            0.994345943987912,
+            -0.016241224444991372,
+            9.014208311825861
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268344745357541_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268344745357541_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268344745357541_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268344745357541_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "03df470f503c01e416b19e99d3a5e10c0de48bba5d6b59b6733384a504fd36ff",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "0b96aabb683d1a35cac7dfffbaa7a73ac92b2aa4ec4564782d2fd6387dbbf9c5",
+        "source_lidar_support_path": "b53499401660747bad70c3c98c50897efe5b37295bb677a406f1b54441be18db",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 8,
+      "group_id": "1720268352746144120",
+      "camera_id": "camera_2",
+      "file_path": "images/1720268352746144120_camera_2_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268352746144120,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.8624036041221989,
+            -0.09652188815636503,
+            -0.49693414926302965,
+            38.77740671493348
+          ],
+          [
+            -0.4936369442976239,
+            -0.05717405586041968,
+            0.8677866641986232,
+            -5.073327785960202
+          ],
+          [
+            -0.11217214815427914,
+            0.9936874017734145,
+            0.0016603419089648644,
+            9.03016309534133
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268352746144120_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268352746144120_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268352746144120_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268352746144120_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "9d26f50ab6cc8fc7a805c76931bdd6f0096b45f22a6882fa2c980683e32a809c",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "223accde6ab19365fb307dce66317b5fba9a4c4761b497a851000165541f4d70",
+        "source_lidar_support_path": "a4c1eb2041b6405484517fadffc5127066c0c000d140bad356f2a22a23763769",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 9,
+      "group_id": "1720268352746144120",
+      "camera_id": "camera_3",
+      "file_path": "images/1720268352746144120_camera_3_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268352746144120,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            0.47734536068529965,
+            -0.10691366897146944,
+            -0.872187407624806,
+            38.795520633987586
+          ],
+          [
+            -0.8787154487651474,
+            -0.05722840380766611,
+            -0.4739030173981724,
+            -4.963634574644905
+          ],
+          [
+            0.0007528171671754335,
+            0.9926199560681241,
+            -0.12126440566640785,
+            9.032798255981772
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268352746144120_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268352746144120_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268352746144120_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268352746144120_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "c8e78008815451b4573f4391dd737d804666c621cf6af2652cc0a3089c5e176a",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "710e1cb8da2481b510b2e5b0a4ce8136d3795208563cc4d4c5d0bd8d34e27ddf",
+        "source_lidar_support_path": "e7fce2ace9488e2aaadf262c6f70701e28b34d86e44bfe8d3a989fa21c76deae",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 10,
+      "group_id": "1720268352746144120",
+      "camera_id": "camera_4",
+      "file_path": "images/1720268352746144120_camera_4_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268352746144120,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            -0.47582797708896424,
+            -0.08567871537187179,
+            0.8753552958380099,
+            38.67508095222803
+          ],
+          [
+            0.8794588583231367,
+            -0.059729441638249885,
+            0.47221235722770727,
+            -5.060634134516158
+          ],
+          [
+            0.011825934905495971,
+            0.9945308198008793,
+            0.10377184459092095,
+            9.019611899801552
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268352746144120_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268352746144120_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268352746144120_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268352746144120_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "7dc37f838df80b108a47ed9c586bb89fddbfc74a23f60d7332045ca26f2d3e11",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "f120baadcbb7f5f3eeb6cab5b6c5058cac919cfe08c82dae38ad7f381b749a8b",
+        "source_lidar_support_path": "452a943e60c5851bfafeb2d80dddfde8e60a43a6af8414708a87be4e149fb730",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 11,
+      "group_id": "1720268352746144120",
+      "camera_id": "camera_5",
+      "file_path": "images/1720268352746144120_camera_5_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268352746144120,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.8606518120167889,
+            -0.08254846393328795,
+            0.5024581669895242,
+            38.69508218058853
+          ],
+          [
+            0.49805998882357255,
+            -0.06874909617588562,
+            -0.8644129853883858,
+            -4.949862619994093
+          ],
+          [
+            0.10589950899452094,
+            0.9942129112404713,
+            -0.018054947174275787,
+            9.037403367480218
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268352746144120_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268352746144120_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268352746144120_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268352746144120_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "5cf76b6b46ff4318a4f9389294c4bbdf27e961350fab8f1c29216043a34e4226",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "e5d6cfffda29d00242cdaffea4d2122914fcc6693997cbed5b64ae0997061d2e",
+        "source_lidar_support_path": "2540aec9ff2b871a928f025f8d15999d82fac114f15f60899ee72805238d8c9a",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 12,
+      "group_id": "1720268360746263201",
+      "camera_id": "camera_2",
+      "file_path": "images/1720268360746263201_camera_2_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268360746263201,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.8393727311679356,
+            -0.10117763776556621,
+            -0.5340566484820315,
+            42.539335523082855
+          ],
+          [
+            -0.5317772500583011,
+            -0.05057926801230838,
+            0.8453725178687618,
+            -1.8313893465753892
+          ],
+          [
+            -0.11254498874721804,
+            0.9935818150829446,
+            -0.011349107646401395,
+            9.580285286470522
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268360746263201_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268360746263201_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268360746263201_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268360746263201_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "02cb05a6acdf3dc64e95c77087740ece97b3f10c92aa2a9409834115a0d4e94a",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "9507890018e8db903d557f9ea7cb40e6f6fdf7d8f081032fa4b89852cf7b3b5e",
+        "source_lidar_support_path": "3a6f397245534aa0a0603abe3519872fde8ec33515f0f108756fefa45bd23365",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 13,
+      "group_id": "1720268360746263201",
+      "camera_id": "camera_3",
+      "file_path": "images/1720268360746263201_camera_3_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268360746263201,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            0.5149426211093167,
+            -0.11154927355190382,
+            -0.8499357955369976,
+            42.552661206189065
+          ],
+          [
+            -0.8571143612103205,
+            -0.0510960263433924,
+            -0.5125857663834803,
+            -1.7209913769900411
+          ],
+          [
+            0.013750228074173117,
+            0.992444434546316,
+            -0.12192200607745282,
+            9.581825813960588
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268360746263201_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268360746263201_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268360746263201_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268360746263201_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "9c77b20342cd3de0a8a416af2c857ada5a802d22bf59929e39f7b899608705ca",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "f591b6195f13fc971db4826e1b049d5a35be9c27fb70d811353255fe657d70cf",
+        "source_lidar_support_path": "d9137ff5abf62f9a3a7a49f585ab77ee3f1303b9c7f7f35c9bb46d2d46485c74",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 14,
+      "group_id": "1720268360746263201",
+      "camera_id": "camera_4",
+      "file_path": "images/1720268360746263201_camera_4_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268360746263201,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            -0.5135503696447402,
+            -0.0902403705175438,
+            0.8533010567007446,
+            42.43663538363939
+          ],
+          [
+            0.8580586505681925,
+            -0.052652463364810206,
+            0.510845446575292,
+            -1.8232626238887977
+          ],
+          [
+            -0.0011704797490647333,
+            0.9945272211611276,
+            0.10447122257676157,
+            9.568898629181307
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268360746263201_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268360746263201_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268360746263201_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268360746263201_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "17d634a57487e04832a8d29d1c9d68b05fff1ac25a7014d88cf4fae1f3fd0de7",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "aeefe18d270b87f24fd171aa76c4d8a0155808df436b8bb1006a9f668571d070",
+        "source_lidar_support_path": "02d330b6bd4629bc1d4b7c13ad8dc6dfd04842ab7fb0eacdebcef46d64de9762",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 15,
+      "group_id": "1720268360746263201",
+      "camera_id": "camera_5",
+      "file_path": "images/1720268360746263201_camera_5_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268360746263201,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.8374766471673925,
+            -0.08672012302198337,
+            0.5395484090536411,
+            42.45168963780342
+          ],
+          [
+            0.5360521444904027,
+            -0.061530692659509244,
+            -0.8419394706557481,
+            -1.711541930971872
+          ],
+          [
+            0.10621188180473683,
+            0.9943307267322543,
+            -0.005044010269967147,
+            9.585595038775255
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268360746263201_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268360746263201_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268360746263201_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268360746263201_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "ae77d618cafc38e5aaddf2e57ff272bc5d730d15a2529c8a07096fccd25bc5a8",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "820992731f6c9fa15ed8fe2d2544f7aba3620b1e5fbd96752f9903633b4e0de8",
+        "source_lidar_support_path": "9fb6876ea9aa5afc47bd7fec5ba0bace1fd14fe76f6fc1c8fc247abdc9b705f6",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 16,
+      "group_id": "1720268368746301959",
+      "camera_id": "camera_2",
+      "file_path": "images/1720268368746301959_camera_2_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268368746301959,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 2,
+        "camera_to_worlds_ns": [
+          [
+            -0.8953527392610491,
+            -0.06071042749359365,
+            -0.44120031311330804,
+            47.64634112400181
+          ],
+          [
+            -0.44106434434740116,
+            -0.016349513833894977,
+            0.8973265501158386,
+            2.6064832616851663
+          ],
+          [
+            -0.061690489081648904,
+            0.9980215114870725,
+            -0.012138622900748013,
+            10.206807759661048
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268368746301959_camera_2_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268368746301959_camera_2_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268368746301959_camera_2_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268368746301959_camera_2_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png",
+      "asset_sha256": {
+        "source_image_path": "68dfef7136e9e6334a791c0e2ac67df6a00500678a2d4b0b198b7003b07e098f",
+        "source_mask_path": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+        "source_lidar_depth_path": "8b9398112a0f0144aa597d5ee34a003165e66ab30476ed69573240135e2f81f5",
+        "source_lidar_support_path": "f8d81bbaee3ee94d12cf0ecd3fc6fedaa97c663924302a68eb2862d1606c0a58",
+        "mask_path": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 17,
+      "group_id": "1720268368746301959",
+      "camera_id": "camera_3",
+      "file_path": "images/1720268368746301959_camera_3_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268368746301959,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 3,
+        "camera_to_worlds_ns": [
+          [
+            0.42107620744896246,
+            -0.07111919484072274,
+            -0.9042327618736259,
+            47.67137409431743
+          ],
+          [
+            -0.90688970230911,
+            -0.01577613383483894,
+            -0.4210726557815405,
+            2.7148185622455734
+          ],
+          [
+            0.015681051179464195,
+            0.9973430571906701,
+            -0.07114022004094818,
+            10.204693098121785
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268368746301959_camera_3_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268368746301959_camera_3_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268368746301959_camera_3_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268368746301959_camera_3_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png",
+      "asset_sha256": {
+        "source_image_path": "914a623930d2c7c7ff67c49877d7d7967581398fe2833ea61feb7efcc72cfeb5",
+        "source_mask_path": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+        "source_lidar_depth_path": "9314d5e8e36395ef879ffdf47afe6bb2eda9c66d15fc953c33d54866040570ab",
+        "source_lidar_support_path": "3fd3b399f41aa9afec34d7ce2bc05c780e18caba8a8debaff523f6b4cf914bf8",
+        "mask_path": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 18,
+      "group_id": "1720268368746301959",
+      "camera_id": "camera_4",
+      "file_path": "images/1720268368746301959_camera_4_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268368746301959,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 4,
+        "camera_to_worlds_ns": [
+          [
+            -0.4190211781289417,
+            -0.05002364823571924,
+            0.9065974227277639,
+            47.54467440433794
+          ],
+          [
+            0.9079708087726776,
+            -0.01956235604975483,
+            0.41857654573861736,
+            2.625321547921615
+          ],
+          [
+            -0.003203544306560468,
+            0.9985564324778908,
+            0.05361705382529181,
+            10.199595595490962
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268368746301959_camera_4_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268368746301959_camera_4_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268368746301959_camera_4_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268368746301959_camera_4_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png",
+      "asset_sha256": {
+        "source_image_path": "ff4e5d347ab7eab983efa71ef06b9fe2a1d2cb682c02d76d6d727ead6c820b39",
+        "source_mask_path": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+        "source_lidar_depth_path": "390386fdbb4c1f40e102d60ac7cda45b0f14a4dba4ccb256ed856249b1e8c16f",
+        "source_lidar_support_path": "59ae04664c2f66f5ae9a6ccc9783dd8214a316ee4c59e7a5618e658d3aa60daa",
+        "mask_path": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb"
+      }
+    },
+    {
+      "block_id": "block_015",
+      "dataset_index": 19,
+      "group_id": "1720268368746301959",
+      "camera_id": "camera_5",
+      "file_path": "images/1720268368746301959_camera_5_center.png",
+      "floor_id": "ramp_F3_F4",
+      "floor_verified": false,
+      "view_id": "center",
+      "timestamp_ns": 1720268368746301959,
+      "camera": {
+        "fl_x": 640.0000000000001,
+        "fl_y": 640.0000000000001,
+        "cx": 640.0,
+        "cy": 540.0,
+        "w": 1280,
+        "h": 1080,
+        "physical_camera_id": 5,
+        "camera_to_worlds_ns": [
+          [
+            0.8936355690037673,
+            -0.047478954735640275,
+            0.44627482414822006,
+            47.57225376402885
+          ],
+          [
+            0.445369925267085,
+            -0.02876933839853339,
+            -0.8948843248351722,
+            2.7351377900097793
+          ],
+          [
+            0.055327203787149296,
+            0.9984578478961053,
+            -0.004563605567263689,
+            10.21250628022396
+          ]
+        ]
+      },
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "source_image_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268368746301959_camera_5_center.png",
+      "source_mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268368746301959_camera_5_center.png",
+      "source_lidar_depth_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268368746301959_camera_5_center.npy",
+      "source_lidar_support_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268368746301959_camera_5_center.png",
+      "mask_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png",
+      "asset_sha256": {
+        "source_image_path": "79c0677b98bf994c456fb28ddea1b5c1908edd011455be66797085a5846f9fbc",
+        "source_mask_path": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+        "source_lidar_depth_path": "cc79213b0b40b95cce8d4a028029f48e3856fc1ca8a0ab9e6cab821fdfcd0094",
+        "source_lidar_support_path": "0d8941d1f0b1a3ed0c4b47ceb1b12960a6b65483fd7aa0fba8281948f67d295d",
+        "mask_path": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41"
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "block_id": "block_000",
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json",
+      "transforms_sha256": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+      "split_images": 20,
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "block_id": "block_015",
+      "transforms": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json",
+      "transforms_sha256": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+      "split_images": 20,
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "duplicate_observations": [],
+  "inputs": {
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/acceptance_resolution_depthv3.experimental.yaml": "a9b27310fa605e65764080836cefaffe3aaff00d2a5b22feba8b234ac29c41a5",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/direct_lio_refined.ego_v3.experimental.yaml": "2d03615e533c7fd197a68e57d4c1d32efc440a032c1c692d54b8f81e5fa5fc32",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/source_masks_v2/camera_2.png": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/source_masks_v2/camera_3.png": "faaa891a933fd00482ac8e42a972e9d0e4959fcd67460d2a8986b6997d218f72",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/source_masks_v2/camera_4.png": "5a43bf96277f2093e13d9d2bc79120f73cf7ff1a87651c979c24e02e5b4c2b3d",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/configs/source_masks_v2/camera_5.png": "625601b628c21dbc8825feda661cf008540bfb5f85b93ca0f651b75988e30b6e",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/transforms.json": "a00c1664056b5f31f30b96a25624b97aa77ad7c4c3fe25f75e195e9bebd604dd",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/preparation.json": "a8204803b15fb0f7c36b30023ad7b634b085124e002e6e9c97c651f10440c80f",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267884750228828_camera_2_center.png": "c65e00fc536a854002b8ca91d2d624a2d4af947f30069f71dc8cb748cf18afa5",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267884750228828_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267884750228828_camera_2_center.npy": "47953d087cfe987210d4b2b8efd5c601d05918e8a78766d98facd818527378c5",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267884750228828_camera_2_center.png": "04855e2095fd6eaa7916eadbdef77958726c027bd6ecf54df1c044bda8ebbf9b",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_2_center_ac069ccbb966e4c3.png": "a70e8ecd072995ab576c84d93ee31cf64d8474319ba059413c540d6fa44df920",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267884750228828_camera_3_center.png": "a648f5b9c6ca7741459a9e75ac2b7de79defbe376551a0e55a279beb7dbd73b0",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267884750228828_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267884750228828_camera_3_center.npy": "621fc5a377a5325310a79f8ee52b60e55f12bc48b0147f3cfefee827e3db12f2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267884750228828_camera_3_center.png": "147c74e81c99b2ad62b8575abfe0c8672166a94ac519fad4205960fb1d230b37",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_3_center_0678ff4ec78a1659.png": "f064bf0511cad294f3041fdfbd10908ed25dcff126d36bf8f950d73d71a5df13",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267884750228828_camera_4_center.png": "ce071dda706573b426511e2bdef0e39c80313714aec72b1a2ce79dceb34cfef9",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267884750228828_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267884750228828_camera_4_center.npy": "82e411548d0da48978c396050549bef0fbf0d61d3e3a1b84afb82277d521fb88",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267884750228828_camera_4_center.png": "6988836fdd72a2a82fbd1bb6b9de10a62ed70c9f382c6079ed2421ec8a3ad521",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_4_center_11858965a74ea12d.png": "3f92d36fce95f09e2d45e9fe6db906d316849fc2bee60daba80fe3f38b97b5bb",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267884750228828_camera_5_center.png": "8871c935dc0b33541cb3376a08442cf62a0fcd50701419f3b3074cd3b52df057",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267884750228828_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267884750228828_camera_5_center.npy": "05375d0c80ffec5920ae1e689bff99c334b9b860416dcef1393034387dce73c3",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267884750228828_camera_5_center.png": "caaa5a0f5fa120de7ff0861a5b2f08c8f7d7907a118ef7fb9a73de063d6aefdb",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/acceptance_resolution_depthv3/masks/camera_5_center_ba2c15389ae74f86.png": "aa2623ca736541655b7c86031d6e3a11b279e8c89d1bb63fbecf99cde423ab41",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267892750245855_camera_2_center.png": "7527fb75af147983cfce230c63d7203a98c27e378457da4a02b54b92f1f623d8",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267892750245855_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267892750245855_camera_2_center.npy": "6135579317d7141ef1eebdafc8c29aca1ccc30dfe3ed29139d2cd5931ef58e2f",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267892750245855_camera_2_center.png": "3f6131e6f621707a486e0a2c37363b35a614d6da8b19c964114cce4fb597b39d",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267892750245855_camera_3_center.png": "c7c3d4ae003cd0af3053dbb6f74c40b5bb26d2894ff1c1497829381b621fe7a0",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267892750245855_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267892750245855_camera_3_center.npy": "61aada4b1d5b7a7651533fbdd5ab4e4ff8b222840ee11399c00b09c1f8eafbac",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267892750245855_camera_3_center.png": "9083b2afbccbd3a5cfe10cfedf456002921fd7df3f239fc2a17d76811728ba2c",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267892750245855_camera_4_center.png": "7f0f9b2088b9d0fc6b58b0e4295dbb7566136249aafdc466c62634344ef285c6",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267892750245855_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267892750245855_camera_4_center.npy": "b1180cff520c64c488aa425a3850997ae2461b3f106f7e9eed9f499305bd0d0d",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267892750245855_camera_4_center.png": "e830007c07945c4506782e67fb32f9e2528fdbeb95d8683e11d839272e4ba4e1",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267892750245855_camera_5_center.png": "669430d3f510e6594fe541ccb164d2099933e783ad7f33eabecc127e073d0dff",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267892750245855_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267892750245855_camera_5_center.npy": "ccb2a2602c06c53cc5d92c1974d260a9a3c4a55f4a6f96b805dd48187be15143",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267892750245855_camera_5_center.png": "f7b05cded6c0867039b190625d655ca1540719a426205039aec0841abede4e85",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267900750125641_camera_2_center.png": "e28c4ce63b45860822d2b25c82b01dd957bb9a89c1426900851f354dce18c046",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267900750125641_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267900750125641_camera_2_center.npy": "83012db3c08f53c9afc1045c51efe7dc4fc256d9b98139d1a59908107cc5ac71",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267900750125641_camera_2_center.png": "1146d82c0687a8e96aa32533e05353bbd91c930477ab7a6b620d046d78ec1602",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267900750125641_camera_3_center.png": "0af04e595c697c40522fef43f4405edc33dedac0ba86d4201903ebf65dddc79c",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267900750125641_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267900750125641_camera_3_center.npy": "eebb769ad790c9d8d82df9d58dd59dd86a01f53eb69775cc0c12b016ae66848d",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267900750125641_camera_3_center.png": "a4905d7f846738108a55e0c26f74048467cb95db49f3ae77ec7f2fdc1c430395",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267900750125641_camera_4_center.png": "3cfe23210274584eef5bcd73b600b94bbe6d9ce6dfcca21a64d04a209dfe1ce5",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267900750125641_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267900750125641_camera_4_center.npy": "104239ad52cdf261112fc1fee80db6b627d0e1a9bef697620ed8d24e52fbb8e0",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267900750125641_camera_4_center.png": "fa2d5702de569f1e9c8c1235a15b7495ed3301dcb52768ae290dc8125d17b367",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267900750125641_camera_5_center.png": "e0cc8a6acbf83741311e61c75b3a4118325fab4f535610476764837771fdb66f",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267900750125641_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267900750125641_camera_5_center.npy": "397307e905ca0d9e4f3eb6bdb95d8283094df92fd955a9385fb7a87f33a1b63f",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267900750125641_camera_5_center.png": "cd072165e4acdcf40d7dda85693833dd28f39b2749800a5c37d7a17f47316b66",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267908750005454_camera_2_center.png": "5e924bd133b070bb0b558be36fa3e4abf4b3c6dfc294b7934064a73d6248e352",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267908750005454_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267908750005454_camera_2_center.npy": "f8d6f64b9da841ee44014a6f40a97e7bc6c8ea95152a58d6966e418830ddedc0",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267908750005454_camera_2_center.png": "a969f36084b74b3c33518250ed0ffceeb7860b18f41e6ec91090302399157663",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267908750005454_camera_3_center.png": "491d619395e3b27fc208fe9024559fdf982195cd224e51186fe906658018415d",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267908750005454_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267908750005454_camera_3_center.npy": "401c4813038b4228e3b366e88924e9ef3922cf3471eca44455cb6083f414e208",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267908750005454_camera_3_center.png": "6a2c2b8eb756ac19d5472abe801fde4b43477be841d2c283b47ad8cee9b189a2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267908750005454_camera_4_center.png": "5bd67a6ddd26a0b91ba61b27ffd5df099eb66e470a88782809b7b058df4f5bf2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267908750005454_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267908750005454_camera_4_center.npy": "be10635460b7b812553e922fa819e772b5aa2f2c81a2cb64dfacade8d130355d",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267908750005454_camera_4_center.png": "5f0c3a3e9ebf4cbafb9b961ae326d50ed34d2c8a9a16e374a1c09a0bdda5ec97",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267908750005454_camera_5_center.png": "c824febf10fc77f8d8297040dca2f36da8e491866afeaa871282f154a787708f",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267908750005454_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267908750005454_camera_5_center.npy": "8c38e3270b0f3745a00577a72d7a09132041cefdecc682e381a2c0bddce9f007",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267908750005454_camera_5_center.png": "d0c17c72704fc786d7799c3a1adf851454b2e00f8221dc5cecd5964cdee80b0e",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267916749964569_camera_2_center.png": "1c5a7a46b22ff863dc2c8b41fe221fbb68bcd7d2c81ba79f56c28726812560dd",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267916749964569_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267916749964569_camera_2_center.npy": "897e4b533a8e2b73fd3684392646698c68bd7854bb6e409b136c4fb52803d788",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267916749964569_camera_2_center.png": "82e9c1b771b91b4d24028766e08e129ca0013f0de19531404ddc0b7c4979d912",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267916749964569_camera_3_center.png": "e01c8e0aa3cff3425454230a03c3d5842903d39b2de0b272a8f9b7d6b233baa1",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267916749964569_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267916749964569_camera_3_center.npy": "a3acaba8641a7d92d97ab4a075b861c812da67afc42db63e35a83250dd30de2a",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267916749964569_camera_3_center.png": "a27a02c548a78bdf4b3850894a9f6f4b059037dd585c79d70d167843d6b90810",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267916749964569_camera_4_center.png": "911dab5979418851eb4e4fbdc911e147ff71d711918e475454fe3026339e989c",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267916749964569_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267916749964569_camera_4_center.npy": "3cd1d3ec3faa901c44e8b9de5ce4a72123306cb8fd3224d887977a864e53e398",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267916749964569_camera_4_center.png": "3b85f053ed53b9b4a41e95cf11632d165619cab9a1ce6e7f93325c5b58a2eadc",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/images/1720267916749964569_camera_5_center.png": "6492dd8990d6b48ce0a7cca588cb49e512f61329affd7ab6ec8592e4265e5ea7",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/masks/1720267916749964569_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth/1720267916749964569_camera_5_center.npy": "62d2575644362332b12f2166362e46cb341cc4638c6519001b9e713151b687f9",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_000/depth_masks/1720267916749964569_camera_5_center.png": "fdc643c188a19e8e763290bcf2c5b0f1f71638e0361227adedb052acb9726df0",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/transforms.json": "a70338cf0a16fbc072e2250d661d544252e66455dd4ef22cebe81898ec7aad4f",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/preparation.json": "eacd482f4ee222edc863cfbd5733d7c79bb9cc50a7c0b626a9968d0dd5c08fad",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268324737907057_camera_2_center.png": "297a30dc7fc54011bbef6de0da5a024ce88bde914a4399e82b7d1cb3afe3c889",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268324737907057_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268324737907057_camera_2_center.npy": "ddc774fe7de4b471763fe7efdb5f6869f31da6a0bdf003c58e13215835f00352",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268324737907057_camera_2_center.png": "83e9a5a51b7fa99eda56471a1ab4bd697a3ce3633b368370a4c6364b3f385d8b",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268324737907057_camera_3_center.png": "fca741e988822b0b9c1e1d1906cd5a860f5ab1a612e6af8fe5d1f9815ee6a71a",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268324737907057_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268324737907057_camera_3_center.npy": "164fce56ea3289e5764592944df28d3adeb6465e6ca992abbfd2520319a695ec",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268324737907057_camera_3_center.png": "3aecf6bf8f60f0357ecc3d5ee30b72d66dc13abac3ff542d592b3f575b64c9a4",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268324737907057_camera_4_center.png": "679194b2351a8f3d9e56023cbe5e25beff3997e21258c28a00be71d23f04c9a9",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268324737907057_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268324737907057_camera_4_center.npy": "7de117d8509330c2cd3a40c60d950a0a9c9b31f5a418c98eedcff487c9f1198d",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268324737907057_camera_4_center.png": "9a47df463d1bf9fa808f1e207ddb5e43317f48d72e683eb656a790d7eaa1a7fe",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268324737907057_camera_5_center.png": "dffab2b6700cc2898ace053d4e123085cc91e83dddee465a05cc42e462987109",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268324737907057_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268324737907057_camera_5_center.npy": "aac689195618a454bd35b2cc4c4dc2a1dd6e9260ace89eafdf0423b8947b8d0b",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268324737907057_camera_5_center.png": "f9e5ee684446e6d6bcf2510e5face037940d174bdff6b832ed485f230ca44527",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268344745357541_camera_2_center.png": "d9923abfb69e274b5d121d95f355419cda8d265f483799128bac8c7158dac07f",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268344745357541_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268344745357541_camera_2_center.npy": "cc207208f18eab17e6f29c8023f688165e723789c9128dbc2da2a089ee720e1d",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268344745357541_camera_2_center.png": "5cf439e790cce47ec5203f7e83de33404da06142c2d419ccbd77ef852eaca259",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268344745357541_camera_3_center.png": "39901d80445df14fa3549134323c63a24b5743727b585b1dd575c873a32dd3a1",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268344745357541_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268344745357541_camera_3_center.npy": "d51ade032851d5a723785efccc76c15ee0bf39c99ad9c300cc5d8a22a7ad78f7",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268344745357541_camera_3_center.png": "da1a251723ceed60e4fcf411b8abf0893e357a8cc871ede72f45bb1a45bc6307",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268344745357541_camera_4_center.png": "e0a60338600bc740775343a1b079ff320eb41d8757d785365bc47c817ad0c289",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268344745357541_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268344745357541_camera_4_center.npy": "2ea88a229e265deb2b3177a1a788aaab40414ea15a075a1d47319bd2fbcb48e8",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268344745357541_camera_4_center.png": "bec74dd1a7f5416549371f389a1cc9994119e6357cb609d05945f3f9ece96a4a",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268344745357541_camera_5_center.png": "03df470f503c01e416b19e99d3a5e10c0de48bba5d6b59b6733384a504fd36ff",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268344745357541_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268344745357541_camera_5_center.npy": "0b96aabb683d1a35cac7dfffbaa7a73ac92b2aa4ec4564782d2fd6387dbbf9c5",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268344745357541_camera_5_center.png": "b53499401660747bad70c3c98c50897efe5b37295bb677a406f1b54441be18db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268352746144120_camera_2_center.png": "9d26f50ab6cc8fc7a805c76931bdd6f0096b45f22a6882fa2c980683e32a809c",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268352746144120_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268352746144120_camera_2_center.npy": "223accde6ab19365fb307dce66317b5fba9a4c4761b497a851000165541f4d70",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268352746144120_camera_2_center.png": "a4c1eb2041b6405484517fadffc5127066c0c000d140bad356f2a22a23763769",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268352746144120_camera_3_center.png": "c8e78008815451b4573f4391dd737d804666c621cf6af2652cc0a3089c5e176a",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268352746144120_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268352746144120_camera_3_center.npy": "710e1cb8da2481b510b2e5b0a4ce8136d3795208563cc4d4c5d0bd8d34e27ddf",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268352746144120_camera_3_center.png": "e7fce2ace9488e2aaadf262c6f70701e28b34d86e44bfe8d3a989fa21c76deae",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268352746144120_camera_4_center.png": "7dc37f838df80b108a47ed9c586bb89fddbfc74a23f60d7332045ca26f2d3e11",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268352746144120_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268352746144120_camera_4_center.npy": "f120baadcbb7f5f3eeb6cab5b6c5058cac919cfe08c82dae38ad7f381b749a8b",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268352746144120_camera_4_center.png": "452a943e60c5851bfafeb2d80dddfde8e60a43a6af8414708a87be4e149fb730",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268352746144120_camera_5_center.png": "5cf76b6b46ff4318a4f9389294c4bbdf27e961350fab8f1c29216043a34e4226",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268352746144120_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268352746144120_camera_5_center.npy": "e5d6cfffda29d00242cdaffea4d2122914fcc6693997cbed5b64ae0997061d2e",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268352746144120_camera_5_center.png": "2540aec9ff2b871a928f025f8d15999d82fac114f15f60899ee72805238d8c9a",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268360746263201_camera_2_center.png": "02cb05a6acdf3dc64e95c77087740ece97b3f10c92aa2a9409834115a0d4e94a",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268360746263201_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268360746263201_camera_2_center.npy": "9507890018e8db903d557f9ea7cb40e6f6fdf7d8f081032fa4b89852cf7b3b5e",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268360746263201_camera_2_center.png": "3a6f397245534aa0a0603abe3519872fde8ec33515f0f108756fefa45bd23365",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268360746263201_camera_3_center.png": "9c77b20342cd3de0a8a416af2c857ada5a802d22bf59929e39f7b899608705ca",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268360746263201_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268360746263201_camera_3_center.npy": "f591b6195f13fc971db4826e1b049d5a35be9c27fb70d811353255fe657d70cf",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268360746263201_camera_3_center.png": "d9137ff5abf62f9a3a7a49f585ab77ee3f1303b9c7f7f35c9bb46d2d46485c74",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268360746263201_camera_4_center.png": "17d634a57487e04832a8d29d1c9d68b05fff1ac25a7014d88cf4fae1f3fd0de7",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268360746263201_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268360746263201_camera_4_center.npy": "aeefe18d270b87f24fd171aa76c4d8a0155808df436b8bb1006a9f668571d070",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268360746263201_camera_4_center.png": "02d330b6bd4629bc1d4b7c13ad8dc6dfd04842ab7fb0eacdebcef46d64de9762",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268360746263201_camera_5_center.png": "ae77d618cafc38e5aaddf2e57ff272bc5d730d15a2529c8a07096fccd25bc5a8",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268360746263201_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268360746263201_camera_5_center.npy": "820992731f6c9fa15ed8fe2d2544f7aba3620b1e5fbd96752f9903633b4e0de8",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268360746263201_camera_5_center.png": "9fb6876ea9aa5afc47bd7fec5ba0bace1fd14fe76f6fc1c8fc247abdc9b705f6",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268368746301959_camera_2_center.png": "68dfef7136e9e6334a791c0e2ac67df6a00500678a2d4b0b198b7003b07e098f",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268368746301959_camera_2_center.png": "4fcc87c75e8ec708c532177d6000e6b9f94bb9f8ce3394f43f692c91e9e6ce53",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268368746301959_camera_2_center.npy": "8b9398112a0f0144aa597d5ee34a003165e66ab30476ed69573240135e2f81f5",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268368746301959_camera_2_center.png": "f8d81bbaee3ee94d12cf0ecd3fc6fedaa97c663924302a68eb2862d1606c0a58",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268368746301959_camera_3_center.png": "914a623930d2c7c7ff67c49877d7d7967581398fe2833ea61feb7efcc72cfeb5",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268368746301959_camera_3_center.png": "ea6e3d3c90c9a1350ff5c4992195d4197c56eb6321d54c739e1f249d1a1e6a52",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268368746301959_camera_3_center.npy": "9314d5e8e36395ef879ffdf47afe6bb2eda9c66d15fc953c33d54866040570ab",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268368746301959_camera_3_center.png": "3fd3b399f41aa9afec34d7ce2bc05c780e18caba8a8debaff523f6b4cf914bf8",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268368746301959_camera_4_center.png": "ff4e5d347ab7eab983efa71ef06b9fe2a1d2cb682c02d76d6d727ead6c820b39",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268368746301959_camera_4_center.png": "70dc67af3005bc95e7e9220accdb58ce16d46df9723e63274121e90d8e7406e2",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268368746301959_camera_4_center.npy": "390386fdbb4c1f40e102d60ac7cda45b0f14a4dba4ccb256ed856249b1e8c16f",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268368746301959_camera_4_center.png": "59ae04664c2f66f5ae9a6ccc9783dd8214a316ee4c59e7a5618e658d3aa60daa",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/images/1720268368746301959_camera_5_center.png": "79c0677b98bf994c456fb28ddea1b5c1908edd011455be66797085a5846f9fbc",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/masks/1720268368746301959_camera_5_center.png": "9b3e79d5adb6927aae7d10acd77f529e846586360a6d4b09f01a8235a66590db",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth/1720268368746301959_camera_5_center.npy": "cc79213b0b40b95cce8d4a028029f48e3856fc1ca8a0ab9e6cab821fdfcd0094",
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/garage_fidelity_depthv3/block_015/depth_masks/1720268368746301959_camera_5_center.png": "0d8941d1f0b1a3ed0c4b47ceb1b12960a6b65483fd7aa0fba8281948f67d295d"
+  },
+  "gate_thresholds": {
+    "G1": {
+      "max_repeat_psnr_difference_db": 1e-06
+    },
+    "G2": {
+      "f1_blocks": [
+        "block_000",
+        "block_001",
+        "block_002",
+        "block_003",
+        "block_004"
+      ],
+      "min_improved_blocks": 4,
+      "min_paired_gain_db": 2.0,
+      "min_block_psnr_median_db": 23.0
+    },
+    "G3": {
+      "opacity_median_min": 0.7,
+      "opacity_below_half_fraction_max": 0.15,
+      "voxel_size_m": 0.02,
+      "voxel_multiplicity_median_min": 2.0
+    },
+    "G4": {
+      "chamfer_p50_ratio_max": 0.7,
+      "chamfer_p50_m_max": 0.15
+    },
+    "G5": {
+      "hole_rate_ratio_max": 0.7
+    },
+    "G6": {
+      "max_block_loss_db": 1.0
+    },
+    "G7": {
+      "tangent_radius_p95_m_max": 0.03,
+      "tangent_radius_max_m_max": 0.12,
+      "seam_gap_db_max": 0.7
+    },
+    "G8": {
+      "min_completed_iterations": 12000,
+      "min_refine_events": 1
+    }
+  },
+  "evaluation_contract": {
+    "metric_domain": "float_renderer",
+    "report_frame_protocol_key": "protocols",
+    "required_protocols": [
+      "raw",
+      "legacy",
+      "ego_v2"
+    ],
+    "colour_fit": false,
+    "missing_measurement": "BLOCKED",
+    "incomplete_frame_set": "FAIL"
+  },
+  "plan_id": "f33aa01ee4ce9794e709d9ba66bfb9784cb94bced37bd3293669e8f0831b3080"
+}

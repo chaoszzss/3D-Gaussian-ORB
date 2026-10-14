@@ -1,0 +1,72 @@
+{
+  "status": "CAPACITY_CAPTURE_PASS",
+  "high_fidelity_accepted": false,
+  "frames": 1,
+  "model_id": "block000_measuredseed_anneal_v1",
+  "manifest": "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+  "job": "reports/viewer_block000_anneal_capacity_v2_job.json",
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2, OpenGL 4.5.0)",
+    "vendor": "Google Inc. (NVIDIA Corporation)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+  },
+  "loaded_gaussians": 2495734,
+  "native_checkpoint_gaussians": 2495766,
+  "existing_export_omitted_low_alpha_records": 32,
+  "export_source_ply_sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+  "input_sha256": {
+    "manifest": "de7df72bf036bf62e487eeb9dc72f92fe29dc54048c535e6f2a1b66a71d79bd9",
+    "metrics": "35c7959aa8529be6ecb33fd5bcc2136ead454da98f9dd61cd27c1dae81c47358",
+    "native_float": "44b686d39ea57f765adcc8ec57fa77a9c9be537fe721571ea081467e748b1123",
+    "config": "4503231b5f34bbdb82cdb336253907964ffcbef8a2299ba5f01f64f392763ee3",
+    "installed_splatfacto": "85aa04d985e970955a2d9fff1a70daf7bf2ef7273885a92a54b9ae2c96faa070",
+    "browser_harness": "e784e6b5e8b60fc7bdd6e660df780b25c2a78584c4c73fe90d31ae1e65440336"
+  },
+  "native_step": 14999,
+  "SH": 3,
+  "viewport": [
+    640,
+    540
+  ],
+  "native_camera_pose_exact": true,
+  "native_intrinsic_projection_exact": true,
+  "SH_background_export_SHA_match": true,
+  "model_comparison_scope": "Browser uses the verified existing PLY export. Native uses its source checkpoint; 32 below-opacity-cutoff records were omitted by the existing exporter.",
+  "js_shader_console_errors": [],
+  "gl_error_scope": "Page and console shader errors; gl.getError not separately instrumented.",
+  "native_vs_gt": {
+    "mse": 0.003282773298382982,
+    "psnr_db": 24.83759107724754
+  },
+  "browser_vs_gt": {
+    "mse": 0.003283313399736559,
+    "psnr_db": 24.83687660895359
+  },
+  "psnr_delta_db": -0.0007144682939497216,
+  "single_frame_abs_delta_le_1db": true,
+  "browser_vs_native_masked": {
+    "mse": 1.3932718207406146e-06,
+    "psnr_db": 58.559641465111085
+  },
+  "browser_vs_native_full_image": {
+    "mse": 1.3845683586269444e-06,
+    "psnr_db": 58.58685597490389
+  },
+  "sampled_board_memory_max_mib": 1559,
+  "sampled_board_memory_start_mib": 1054,
+  "lifecycle_s": 22.390654268001526,
+  "GPU_lock_held_entire_browser_lifecycle": true,
+  "browser_and_temporary_server_closed": true,
+  "GPU_lock_released_before_scoring": true,
+  "lock_identity": {
+    "owner_pid": 179765,
+    "inode": "13665980"
+  },
+  "source_sha256": {
+    "viewer/app.js": "bccfe4d8f7a3b1add35d8b426eb68ba0e1571eabaa89c351934766d241687e3d",
+    "viewer/gaussian_direction_support.js": "1a04304943ec9ba37501557d6b8fcd6e49132b2d55c6b48f84be65875aa8bb9d",
+    "viewer/gaussian_sh_restore.js": "3e6b3321273a4da87440db8c4dbccedd7f2a56045a8c07716c21545dae1218b7",
+    "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js": "2de375d5e489692f976abe3199c8435ecc00f97fabaf35e489eb7d368e1f6f60"
+  },
+  "scope": "One actual new block000 frame capacity/parity smoke only; not original015 evidence, full20, fullscene, or geometry acceptance."
+}

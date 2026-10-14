@@ -1,0 +1,33 @@
+experiment_name: block_015
+max_num_iterations: 12000
+optimizers:
+  features_dc:
+    scheduler: null
+  features_rest:
+    scheduler: null
+  means:
+    scheduler: {}
+  opacities:
+    scheduler: null
+  quats:
+    scheduler: null
+  scales:
+    scheduler: null
+output_dir: /home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/trajectory_calibration_v2_checkpoint_tests_disposition_tmp/test_eval_report_must_describe3/run
+pipeline:
+  datamanager:
+    data: /home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/trajectory_calibration_v2_checkpoint_tests_disposition_tmp/test_eval_report_must_describe3/data
+    dataparser:
+      auto_scale_poses: false
+      center_method: none
+      data: /home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/trajectory_calibration_v2_checkpoint_tests_disposition_tmp/test_eval_report_must_describe3/data
+      orientation_method: none
+      scale_factor: 1.0
+  model:
+    enable_refinement: true
+    gaussian_initialization_path: /home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/trajectory_calibration_v2_checkpoint_tests_disposition_tmp/test_eval_report_must_describe3/warm.ply
+    max_gaussians: 20
+    sh_degree: 3
+    training_audit_path: /home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/trajectory_calibration_v2_checkpoint_tests_disposition_tmp/test_eval_report_must_describe3/run/refinement.json
+    warm_opacity_cap: 1.0
+relative_model_dir: nerfstudio_models

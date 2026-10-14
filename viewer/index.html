@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>车库 · 三维地图</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="importmap">
+    {"imports":{"three":"/vendor/three/build/three.module.js","three/addons/":"/vendor/three/addons/","@sparkjsdev/spark":"/vendor/spark.js"}}
+  </script>
+</head>
+<body>
+  <header class="header">
+    <div class="brand"><span class="brand-mark">▧</span><div><h1>车库三维地图</h1><p>空间浏览 · 统一米制坐标</p></div></div>
+    <div class="header-meta"><span class="local-dot"></span>本地查看<span class="pill">3D Gaussian</span></div>
+  </header>
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="section-heading"><h2>地图区块</h2><button id="refresh" class="text-button" type="button">刷新清单</button></div>
+      <div class="map-progress"><p id="map-progress-text" role="status">正在读取生成进度…</p><progress id="map-progress" max="1" value="0" aria-label="可查看区域进度"></progress></div>
+      <label for="floor">楼层索引</label>
+      <select id="floor"><option value="all">全部楼层</option></select>
+      <p id="floor-note" class="note">楼层归属以清单为准；未核验区块单独列出。</p>
+      <div class="nearby"><button id="nearby" class="primary" type="button" disabled>加载观察中心附近区块</button><label class="count-label" for="near-count">数量<select id="near-count"><option>1</option><option selected>2</option><option>3</option></select></label></div>
+      <p class="note">默认按需加载。隐藏保留内存；卸载释放模型。</p>
+      <div id="budget" class="budget">已加载 0 / 3 块</div>
+      <div id="blocks" class="block-list" aria-label="区块列表"></div>
+      <div class="sidebar-foot"><strong>数据说明</strong><p>Gaussian 表达外观与结构，几何准确度须结合独立评估。楼层筛选不改变模型坐标。</p><p>LiDAR 点云作为辅层单独标识，不代表 Gaussian 重建结果。</p></div>
+    </aside>
+    <section class="viewport-wrap" aria-label="三维地图观察区">
+      <div id="banner" class="banner">当前没有训练好的实景模型；等待清单中的模型就绪。</div>
+      <div class="toolbar">
+        <div class="view-buttons" role="group" aria-label="观察角度">
+          <button data-view="oblique" type="button">斜视</button><button data-view="top" type="button">俯视</button><button data-view="front" type="button">正视</button><button data-view="side" type="button">侧视</button><button id="fit" type="button">适配已显示区块</button><button id="reference" type="button" disabled>进入区域</button><select id="reference-view" aria-label="区域内观察方向" disabled><option value="0">视角1</option><option value="1" selected>视角2</option><option value="2">视角3</option><option value="3">视角4</option></select>
+        </div>
+        <label class="toggle"><input id="helpers" type="checkbox" checked>米制网格</label>
+      </div>
+      <div id="viewport"><div id="empty" class="empty"><span class="empty-icon">▧</span><h2>选择区块，开始观察</h2><p>实景训练模型就绪后，可按楼层选择和加载。</p></div></div>
+      <div class="viewport-footer"><span id="status" role="status" aria-live="polite">正在读取地图清单…</span><span class="gesture">左键旋转 · 右键平移 · 滚轮缩放</span></div>
+      <div class="legend"><span><i class="legend-gaussian"></i>Gaussian 外观</span><span><i class="legend-lidar"></i>LiDAR 几何辅层</span><span id="coordinates">camera_init · 米</span></div>
+    </section>
+  </main>
+  <script type="module" src="/app.js"></script>
+  <script type="module">
+    // Keep dependency failures readable without putting engineering logs into the UI.
+    setTimeout(() => {
+      if (!window.__garageStarted) document.querySelector('#status').textContent = '查看器尚未启动，请检查本地依赖是否已安装。';
+    }, 12000);
+  </script>
+</body>
+</html>

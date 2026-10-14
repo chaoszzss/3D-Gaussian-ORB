@@ -1,0 +1,494 @@
+{
+  "goal": "实际交付高保真六层车库地图，未完成时保持active",
+  "status": "current_round_complete_optimization_deferred",
+  "updated_epoch_s": 1791385062.5324302,
+  "current_phase": "Full28 training, assembly, whole-model DEV/TEST and actual browser delivery complete; targeted optimization deferred to next round by user",
+  "current_training_run": "runs/core_joint_v1",
+  "training_session": null,
+  "current_training_log": "runtime/garage_inria_training.log",
+  "prepared_all_blocks": "data/garage_surface_v1",
+  "blocks": 28,
+  "depth_visibility_fixed_all": true,
+  "visibility_log": "runtime/fix_garage_depth_visibility.log",
+  "next_actions": [
+    "Await next-round optimization instruction; preserve this frozen delivered model",
+    "Investigate native-confirmed floor/side-wall gaps and contamination using saved source/GT/mask/depth/provenance",
+    "Only then plan coverage/texture/seam optimization; do not silently resume training or rerun completed current-round tests"
+  ],
+  "key_files": [
+    "reports/DEPTH_PIPELINE_REVIEW.md",
+    "runtime/depth_pipeline_diagnostic.json",
+    "reports/INRIA_SURFACE_BACKEND.md",
+    "runtime/inria2dgs_preflight.json"
+  ],
+  "last_best_visual_dev": {
+    "RGB7500_psnr": 24.65,
+    "ssim": 0.779,
+    "geometry": "insufficient; not accepted"
+  },
+  "root_constraints": "Only write inside project. Original bag, calibration and oldmap READONLY. allcalibration provenance retained, experimental false flag not laundered.",
+  "goal_completion": "Current round dataset reconstruction and visualization delivered; original high-fidelity acceptance remains unachieved and targeted optimization is deferred",
+  "user_priority": "Complete this round full six-floor dataset reconstruction loop and show actual results; targeted optimization next round",
+  "full_training_session": null,
+  "current_block": null,
+  "last_pause": {
+    "requested_by": "user",
+    "paused_at_local": "2026-10-07T15:45:30.056829+08:00",
+    "paused_at_epoch_s": 1791359130.0568643,
+    "live_training_or_preparation_jobs": [],
+    "agent_checkpoint_inspection_session23953": "handle missing; project processes confirm no inspection job remains",
+    "agents_closed": [
+      "01a11546-c944-7392-be0c-ce09ea1a16b8",
+      "01a11546-c975-73b1-aa06-374490f33295"
+    ],
+    "original_map_trained_blocks": 28,
+    "original_map_gaussians": 10029806,
+    "joint_checkpoint_step": 999,
+    "joint_checkpoint": "runs/joint_overlap_v1/joint_overlap_v1/splatfacto/2026-10-07_145736/nerfstudio_models/step-000000999.ckpt",
+    "joint_model": "runs/joint_overlap_v1/eval_dev/gaussians.ply",
+    "joint_model_gaussians": 938067,
+    "incomplete_dataset": "data/joint_overlap_ego_v2",
+    "incomplete_reason": "All copied/updated masks saved, but preparation final publication failed: write_json(open x) refuses copied existing preparation.json; INCOMPLETE.json remains",
+    "read_only_viewers_kept": [
+      {
+        "pid": 106696,
+        "url": "http://127.0.0.1:8765/"
+      },
+      {
+        "pid": 106697,
+        "url": "http://127.0.0.1:8766/"
+      },
+      {
+        "pid": 114198,
+        "url": "http://127.0.0.1:8767/"
+      }
+    ],
+    "drafts": {
+      "scripts/assemble_core_gaussians.py": {
+        "sha256": "1b198788d6e3c085093122dd99a754ea5af09d5761b64750e02672f844d9d979",
+        "bytes": 38487,
+        "syntax_ok": true
+      },
+      "scripts/train_core_joint_batch.py": {
+        "sha256": "3b7a2b2104261bb54208521853605d870905dbfd1ad6281adc490173b48edabc",
+        "bytes": 49115,
+        "syntax_ok": true
+      },
+      "scripts/apply_ego_mask_revision.py": {
+        "sha256": "44f843ab3264f92c7b0d6bbccbe60a96b1781cd6b4c090438f0318ea772eb842",
+        "bytes": 8100,
+        "syntax_ok": true
+      },
+      "scripts/evaluate_gaussian_ply.py": {
+        "sha256": "0b62e2846afdeed9265a59174cea842d63ebfe2a521a21abcf824a43a8645159",
+        "bytes": 32540,
+        "syntax_ok": true
+      },
+      "tests/test_evaluate_gaussian_ply.py": {
+        "sha256": "15e909fc577123207128e36cd5692c5a047c0fdeb2c1b7874abd03d22ad52c1d",
+        "bytes": 22995,
+        "syntax_ok": true
+      },
+      "tests/test_ego_mask_revision.py": {
+        "sha256": "9e5248c3386d3d8584832a49d75703d7a94238d0a27a63d60951d0e5d2fbf6c5",
+        "bytes": 1482,
+        "syntax_ok": true
+      }
+    },
+    "resume_requires_explicit_user_request": true,
+    "pause_document": "reports/PAUSE_20261007.md",
+    "unverified_drafts": [
+      "scripts/assemble_core_gaussians.py",
+      "scripts/train_core_joint_batch.py"
+    ],
+    "missing_files": [
+      "tests/test_core_gaussian_assembly.py",
+      "docs/CORE_GAUSSIAN_ASSEMBLY.md",
+      "tests/test_core_joint_batch.py",
+      "docs/CORE_JOINT_TRAINING.md"
+    ]
+  },
+  "trained_blocks": 28,
+  "resumed_checkpoint_verified_gpu": true,
+  "resumed_block_006_completed": {
+    "checkpoint_step": 11999,
+    "test_psnr_db": 23.66933230305043,
+    "test_ssim": 0.7872766479849815,
+    "gaussians": 400192
+  },
+  "packaging_tool": "scripts/package_garage.py; 3x4 NS rigid transform compatible; full28 required",
+  "browser_real_asset_check": {
+    "status": "real_gpu_browser_pass",
+    "block": "block_006",
+    "real_gaussians": 400192,
+    "renderer": "ANGLE NVIDIA RTX4060 Laptop OpenGL4.5",
+    "js_errors": 0,
+    "evidence": "viewer/runtime/real_progress/verification.json",
+    "screenshot": "viewer/runtime/real_progress/ramp_block006_oblique.png",
+    "scope": "Actual trained ramp rendered. Remaining floors and full overview still pending.",
+    "screenshot_inside": "viewer/runtime/real_progress/ramp_block006_inside.png",
+    "pose_navigation": "Actual midpoint camera_3 c2w, same metric world, loaded model preserved"
+  },
+  "full_training_process_pid": null,
+  "viewer_session": null,
+  "packaging_test_result": "74 passed in 1.89s; actual NS 3x4 transform accepted",
+  "packaging_current_precheck": "All28 strict audit passed; full+overview package complete, output hashes rechecked",
+  "active_agents": [],
+  "completion_watcher_pid": null,
+  "completion_watcher_session": null,
+  "completion_watcher_state": "artifacts_ready_viewer_checked_with_limits",
+  "completion_watcher_log": "runtime/garage_completion.log",
+  "audit_tool_verified": {
+    "tool": "scripts/audit_complete_map.py",
+    "tests_cpu": 35,
+    "actual_evidence": "8 actual finalized blocks passed CPU checkpoint-to-PLY and prepared-coordinate checks; live next block correctly classified incomplete; full-run remains partial",
+    "full_scope": "28 prepared blocks, 8245 retained LIO poses, 6 estimated floors and 5 ramps; 3 image groups outside retained LIO boundary disclosed"
+  },
+  "reference_camera_navigation": {
+    "poses": 112,
+    "blocks": 28,
+    "metadata": "maps/garage_reference_views.json",
+    "kind": "camera poses only, not a model",
+    "world": "unchanged camera_init meters",
+    "actual_browser_inside_pass": true,
+    "screenshot": "viewer/runtime/real_progress/ramp_block006_inside.png",
+    "server_protocol_tests": "9 passed"
+  },
+  "write_scope_exception": "reports/WRITE_SCOPE_EXCEPTION_20261007.md; NVIDIA driver and early Triton compiler cache outside project documented; browser and future training cache variables corrected",
+  "corrected_cache_probe": "viewer/runtime/confined_browser_cache_verification.json: no external NVIDIA cache metadata changes during corrected probe",
+  "gaussians_exported": 10029806,
+  "floor_3_browser_review": {
+    "block": "block_013",
+    "renderer": "NVIDIA RTX4060/OpenGL4.5",
+    "js_errors": 0,
+    "screenshot": "viewer/runtime/real_block_013/block_013_inside.png",
+    "quality": "Recognizable structure; bright haze and blurred floor/near pillars; not high-fidelity accepted"
+  },
+  "completion_scope": "All28 real trained blocks, six estimated floor visits and five ramps, all retained LIO intervals covered; unseen building areas excluded",
+  "floor_4_browser_review": {
+    "block": "block_016",
+    "actual_gpu_pass": true,
+    "js_errors": 0,
+    "screenshot": "viewer/runtime/real_block_016/block_016_inside.png",
+    "quality": "Parking lines/edges and bright floor reflections blurred; limits recorded"
+  },
+  "full_overview_browser_check": "viewer/runtime/full_overview/verification.json",
+  "reviewed_representative_floor_blocks": [
+    "block_000",
+    "block_008",
+    "block_013",
+    "block_016",
+    "block_021",
+    "block_025"
+  ],
+  "actual_gpu_rendering_floors_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "remaining_render_scope": "Seamless multi-block composition needs fixing; actual all28 overview and five neighboring ramp samples reviewed",
+  "floor_5_browser_review": {
+    "block": "block_021",
+    "actual_nvidia_gpu_pass": true,
+    "js_errors": 0,
+    "screenshot": "viewer/runtime/real_block_021/block_021_inside.png",
+    "quality": "Recognizable pillars/walls/vehicles, blurred floor/reflections/sign detail; first-version limits retained"
+  },
+  "training_status": "finished_all_28",
+  "first_delivery": {
+    "updated_epoch_s": 1791353293.0895555,
+    "strict_audit_complete": true,
+    "trained_blocks": 28,
+    "full_gaussians": 10029806,
+    "overview_gaussians": 1200000,
+    "full_file_bytes": 2487393484,
+    "overview_file_bytes": 297601595,
+    "package_file_sha256_rechecked": true,
+    "sampling_sources": 28,
+    "renderer": "NVIDIA RTX4060 Laptop/OpenGL4.5",
+    "scope": "Complete first file delivery of recorded trajectory; seamless composition and high fidelity remain unaccepted",
+    "coverage_gaps": [],
+    "reviewed_floor_blocks": [
+      "block_000",
+      "block_008",
+      "block_013",
+      "block_016",
+      "block_021",
+      "block_025"
+    ],
+    "visual_limitations": [
+      "Ground/detail blur and bright haze",
+      "Adjacent block floating occluders/ghosting; F3-F4 sample severe"
+    ],
+    "overview_browser_report": "viewer/runtime/full_overview/verification.json",
+    "ramp_browser_report": "viewer/runtime/garage_regions/verification.json",
+    "viewer_8765": {
+      "url": "http://127.0.0.1:8765/",
+      "available_assets": 28
+    },
+    "viewer_8766": {
+      "url": "http://127.0.0.1:8766/",
+      "available_assets": 1
+    }
+  },
+  "first_delivery_report": "reports/FIRST_MAP_DELIVERY_20261007.md",
+  "floor_6_browser_review": {
+    "block": "block_025",
+    "actual_nvidia_gpu_pass": true,
+    "js_errors": 0,
+    "screenshot": "viewer/runtime/real_block_025/block_025_inside.png",
+    "quality": "Recognizable structure/cars; arrows/detail lost, floor blur and bright haze"
+  },
+  "overlap_optimization_report": "reports/OVERLAP_OPTIMIZATION_20261007.md",
+  "joint_warm_preflight": {
+    "session": null,
+    "run": "runs/warm_joint_preflight_v1",
+    "log": "runtime/warm_joint_preflight_v1.log",
+    "requested_iterations": 5,
+    "source_gaussians": 938111,
+    "scope": "F/B and parameter/optimizer preflight only; not a finalmap or qualityresult",
+    "status": "passed",
+    "verification": "reports/warm_joint_preflight_20261007.json"
+  },
+  "candidate_evaluator_parity": {
+    "frames": 20,
+    "max_psnr_difference_db": 4.91138479219444e-07,
+    "max_ssim_difference": 1.7881393432617188e-07,
+    "report": "runs/gaussian_ply_dev_v1/original015_parity/parity_check.json"
+  },
+  "last_candidate_decision": "Joint1000 improves allthree sourceDEV sets and retains>99.95%depthcoverage; localrecipevalidated, not complete-six-flooracceptance",
+  "joint_overlap_v1": {
+    "training_status": "finished",
+    "iterations": 1000,
+    "checkpoint_step": 999,
+    "checkpoint_verification": "reports/joint_overlap_v1_checkpoint_verification.json",
+    "dataset": "data/joint_overlap_v1",
+    "frames": 840,
+    "measured_reference_records": 634018,
+    "model": "runs/joint_overlap_v1/eval_dev/gaussians.ply",
+    "exported_gaussians": 938067,
+    "source_blocks": [
+      "block_014",
+      "block_015",
+      "block_016"
+    ],
+    "test_used_for_new_candidates": false,
+    "viewer_url": "http://127.0.0.1:8767/",
+    "gpu_browser": "viewer/runtime/joint_overlap_v1/verification.json"
+  },
+  "joint_comparison": {
+    "014": {
+      "dev_frames": 16,
+      "raw_psnr_db": 22.27658547549945,
+      "joint_psnr_db": 25.832374416845465,
+      "raw_ssim": 0.7193072102963924,
+      "joint_ssim": 0.7987671419978142,
+      "raw_depth_coverage": 0.999986280051587,
+      "joint_depth_coverage": 0.9999216002947829,
+      "raw_fixed_denominator_depth_error": 0.4739679685940173,
+      "joint_fixed_denominator_depth_error": 0.31119431421835114
+    },
+    "015": {
+      "dev_frames": 20,
+      "raw_psnr_db": 18.016026055297218,
+      "joint_psnr_db": 29.665424995135005,
+      "raw_ssim": 0.6555356130003929,
+      "joint_ssim": 0.8387322306632996,
+      "raw_depth_coverage": 1.0,
+      "joint_depth_coverage": 0.9995825337187356,
+      "raw_fixed_denominator_depth_error": 0.5536213572912098,
+      "joint_fixed_denominator_depth_error": 0.3088058922200721
+    },
+    "016": {
+      "dev_frames": 20,
+      "raw_psnr_db": 17.904473951018485,
+      "joint_psnr_db": 24.21446778636231,
+      "raw_ssim": 0.6662418097257614,
+      "joint_ssim": 0.7662157386541366,
+      "raw_depth_coverage": 1.0,
+      "joint_depth_coverage": 0.9998716938843458,
+      "raw_fixed_denominator_depth_error": 0.4571919951320267,
+      "joint_fixed_denominator_depth_error": 0.28822921624320924
+    }
+  },
+  "viewer_processes": "runtime/viewer_processes_after_sh_fix.json",
+  "viewer_sh_restoration": {
+    "implemented": true,
+    "preserved_geometry": true,
+    "cpu_report": "runtime/gaussian_sh_restore_cpu_verification.log",
+    "real_gpu_checked": true,
+    "independent_fidelity_acceptance": false
+  },
+  "paused": true,
+  "resumed_after_pause": {
+    "goal_status_verified": "active",
+    "resume_time_epoch_s": 1791373231,
+    "previous_pause": "reports/PAUSE_20261007.md"
+  },
+  "core_candidate": {
+    "path": "maps/garage_core_joint014_016_v1/gaussians_full.ply",
+    "assembly": "maps/garage_core_joint014_016_v1/assembly.json",
+    "cores": 28,
+    "gaussians": 4935977,
+    "status": "candidate_pending_native_fullscope_evaluation"
+  },
+  "native_visibility_prepass": {
+    "real20framepixelparity_zero": true,
+    "parity_report": "reports/native_visibility_real_parity_v1.json",
+    "full_source_limit": 12000000,
+    "active_gpu_limit": 4000000,
+    "purpose": "Whole-source exactnativevisibility; no filecroppingorGaussiansampling"
+  },
+  "full_native_first_pose": {
+    "original10029806_psnr": 12.978207232848929,
+    "core4935977_psnr": 16.527515692116705,
+    "core_depth_coverage": 0.9974631522869682,
+    "scope": "Onefirstpose; not fullscope acceptance"
+  },
+  "ego_mask_revision_ready": {
+    "dataset": "data/joint_overlap_ego_v2_ready",
+    "audit": "reports/ego_mask_revision_v2_ready_audit.json",
+    "real_RGB_pose_split_hashes_match": true,
+    "current_trial_train": "runs/joint_overlap_ego_v2",
+    "conditional_same_mask_dev_improved": true
+  },
+  "core_joint_boundary_trial": {
+    "pid": null,
+    "session": null,
+    "selected_core_ids": [
+      14,
+      15,
+      16
+    ],
+    "full_planned_cores": 28,
+    "status": "complete3_selected; full28stillincomplete",
+    "status_file": "runs/core_joint_v1/status.json",
+    "log": "runtime/core_joint_v1_boundary_trial.log"
+  },
+  "core_fusion_progress": "reports/CORE_FUSION_PROGRESS_20261007.json",
+  "core_joint_all": {
+    "verified_cores": 28,
+    "planned_cores": 28,
+    "training_complete": true,
+    "controller_pid": null,
+    "status_path": "runs/core_joint_v1/status.json",
+    "source_plan": "runs/core_joint_v1/source_plan.json"
+  },
+  "core_candidate_v2": {
+    "path": "maps/garage_core_boundary_v2/gaussians_full.ply",
+    "assembly": "maps/garage_core_boundary_v2/assembly.json",
+    "cores": 28,
+    "gaussians": 5004738,
+    "native_four_source_views": "runs/full_core_boundary_native_v2/metrics.json",
+    "high_fidelity_accepted": false
+  },
+  "viewer_sessions": {
+    "original_detail": 31701,
+    "original_overview": 26413,
+    "core_candidate_overview": 63202
+  },
+  "viewer_urls": {
+    "original_detail": "http://127.0.0.1:8765/",
+    "original_overview": "http://127.0.0.1:8766/",
+    "core_candidate": "http://127.0.0.1:8768/"
+  },
+  "full_core_completion_follower": {
+    "pid": 11500,
+    "session": 62541,
+    "state": "runtime/finish_core_scene_state.json",
+    "log": "runtime/finish_core_scene.log",
+    "actions_after_actual_batch_terminal": [
+      "requireall28actualtrained/exportedsourceplan",
+      "CPUassemblemaps/garage_core_all_v1",
+      "nativeall28fixedDEV pluswholeoriginal10Mbaseline"
+    ],
+    "high_fidelity_acceptance": "manualfullscopeauditpending"
+  },
+  "full_scene_evaluator": {
+    "script": "scripts/evaluate_full_scene.py",
+    "CPU_tests_reported": 45,
+    "all28_frozen_split_required": true,
+    "paired_whole_baseline": true,
+    "source_visibility_exact": true,
+    "independent_geometry_acceptance": false,
+    "main_regression": "runtime/pytest_full_scene_follower_v1.log (48 passed)"
+  },
+  "core_overview_verification_script": "viewer/runtime/verify_core_overview.mjs; syntaxchecked, realGPUrunaftertraining/evaluation terminal",
+  "core_joint_visual_review": "reports/CORE_JOINT_VISUAL_REVIEW_20261007.md",
+  "core_visual_findings": "Valid-ground arrows/parkinglines lost, darkbluefloor areas needalpha/depthdistinction, lamp/highlightblur; nohighfidelityacceptance",
+  "diagnostic_dump_script": "scripts/render_gaussian_diagnostics.py: syntaxchecked; realGPUrun deferred until active controller terminal",
+  "core_visual_acceptance": "notaccepted: floor markings/reflections and lamps stillblur; actualalpha/depthdiagnostics needed afterfullscopeevaluation",
+  "current_run_closed_loop_complete": false,
+  "targeted_optimization_deferred_by_user": true,
+  "complete_current_map": "maps/garage_core_all_v1/gaussians_full.ply",
+  "current_map_gaussians": 6780816,
+  "current_fullscope_evaluation": "runs/full_scene_core_all_v1_final_dev",
+  "final_viewers": {
+    "overview": "http://127.0.0.1:8769/",
+    "detail": "http://127.0.0.1:8770/"
+  },
+  "visual_capture_reports": [
+    "viewer/runtime/core_all_overview/verification.json",
+    "viewer/runtime/core_all_inside/verification.json"
+  ],
+  "first_fullscope_evaluation_failure": {
+    "path": "runs/full_scene_core_all_v1/summary.json",
+    "reason": "Old10M baseline at a fixed source camera exceeded 4M exact-visible guard; full candidate block000 complete, no silent source sampling; original failure retained",
+    "models_changed": false
+  },
+  "final_test_evaluation": "runs/full_scene_core_all_v1_final_test",
+  "dev_native_assessed_cores": 28,
+  "high_fidelity_accepted": false,
+  "whole_old_baseline_comparison_complete": false,
+  "evaluation_recovery": {
+    "partial_old_baseline_attempts_preserved": [
+      "runs/full_scene_core_all_v1",
+      "runs/full_scene_core_all_v1_budget6m"
+    ],
+    "reason": "Old baseline exact active set exceeds even 6M budget; candidate all28 assessed independently without sampling",
+    "compatible_candidate_reports_reused": 4
+  },
+  "training_pid": null,
+  "current_round_closed_loop_complete": true,
+  "live_project_compute": [],
+  "final_delivery": {
+    "completed_at_local": "2026-10-07T22:53:34.583971+08:00",
+    "report": "reports/CURRENT_ROUND_DELIVERY_20261007.md",
+    "visual_report": "reports/CURRENT_ROUND_DELIVERY_20261007.html",
+    "audit": "reports/CURRENT_ROUND_DELIVERY_20261007.json",
+    "viewer_instructions": "docs/VIEW_CURRENT_MAP.md",
+    "full_map": {
+      "path": "maps/garage_core_all_v1/gaussians_full.ply",
+      "gaussians": 6780816,
+      "file_bytes": 1681643963,
+      "sha256": "0cce3452e3fc3a7cf3d81f5eddbbf689bd21666de886afd845e5e67ae3ddf5cc"
+    },
+    "overview": {
+      "path": "maps/garage_core_all_v1/gaussians_overview.ply",
+      "gaussians": 1200000,
+      "file_bytes": 297601595,
+      "sha256": "acc778ee6b70d952225ba0abc3c9133360fc6cd0f47d067a520e9948f572ba64"
+    },
+    "evaluations": {
+      "dev": "runs/full_scene_core_all_v1_final_dev/summary.json",
+      "test": "runs/full_scene_core_all_v1_final_test/summary.json"
+    },
+    "quality_acceptance": false,
+    "viewer_urls": {
+      "overview": "http://127.0.0.1:8769/",
+      "inside": "http://127.0.0.1:8770/"
+    },
+    "legacy_follower_failure_recovered_manually": true,
+    "failed_attempts_retained": true
+  },
+  "next_round_deferral": {
+    "user_instruction": "下一轮再针对性进行优化",
+    "current_round_finished": true,
+    "targeted_optimization_not_started": true,
+    "resume_requires_explicit_user_request": true,
+    "saved_epoch_s": 1791385062.5324354
+  }
+}

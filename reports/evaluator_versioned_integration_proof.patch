@@ -1,0 +1,26 @@
+--- a/scripts/evaluate_gaussian_ply.py
++++ b/scripts/evaluate_gaussian_ply.py
+@@ -403,6 +403,8 @@
+     parser.add_argument('--block-id')
+     parser.add_argument('--save-float-arrays', action='store_true', help='Preserve unquantized RGB/alpha/depth for exact rescoring')
+     parser.add_argument('--direction-support', type=Path, help='Hash-bound TRAIN observation-side metadata; explicitly changes the model representation')
++    parser.add_argument("--renderer-integration-proof", type=Path,
++                        help="Explicit project-local real-model integration evidence for this evaluator revision")
+     args = parser.parse_args(argv)
+     config_path = confined_path(args.config, file=True)
+     if config_path.stat().st_size > MAX_JSON_BYTES:
+@@ -646,6 +648,14 @@
+         report["shared_rig_correction_ns_local"] = as_numpy(pipeline.model.shared_rig.correction_matrices()).tolist()
+         report["shared_rig_effective_delta_rotfirst"] = as_numpy(pipeline.model.shared_rig.effective_delta()).tolist()
+         report["camera_protocol"] = "Fixed checkpoint rig correction applied by loaded backend; source depth/support unchanged"
++    if args.renderer_integration_proof is not None:
++        proof_path = confined_path(args.renderer_integration_proof, file=True)
++        if report['backend'] != 'hbb1-aa-depth-vjp-2dgs':
++            raise ValueError('Explicit integration proof requires the AA depth VJP backend')
++        report['renderer_integration_proof'] = {
++            'path': str(proof_path), 'sha256': sha256_file(proof_path)}
++        from measure_surface_quality import validate_renderer_provenance
++        validate_renderer_provenance(report)
+     preparation = confined_path(data_root / "preparation.json")
+     if acceptance_info:
+         from acceptance_evaluation import summarize_protocols

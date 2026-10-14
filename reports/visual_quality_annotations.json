@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-06T13:10:25.800877+00:00",
+  "root": "/home/chaoszzss/dataset/rosbag/3D-Gaussian",
+  "scope": "Independent block_000 visual audit during active all28 training; no full-map acceptance",
+  "decision": "high_fidelity_scope_not_met",
+  "gpu_used": false,
+  "selection": {
+    "frozen_before_first_visual_open": true,
+    "rule": "Four cameras in chronological middle dev group (third of five), and four cameras in final test group (fourth of four). No replacement after visual inspection.",
+    "dev_indices": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "test_indices": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "sample_is_not_exhaustive_or_random": true
+  },
+  "panel_layout": [
+    "rectified_heldout_GT",
+    "trained_render",
+    "absolute_error"
+  ],
+  "coordinates": {
+    "reference": "one GT/render panel",
+    "width": 640,
+    "height": 540,
+    "format": "approximate [x0,y0,x1,y1] pixels, x1/y1 exclusive",
+    "same_region_applies_to_GT_and_render": true
+  },
+  "rubric": {
+    "3": "close to GT",
+    "2": "recognizable with detail loss",
+    "1": "major degradation",
+    "0": "erased or destructive mismatch",
+    "null": "not assessable in this crop",
+    "ego_exclusion": "static-environment exclusion quality, not similarity to GT vehicle",
+    "scores_are_subjective_ordinal_not_physical_accuracy": true
+  },
+  "pairs": [
+    {
+      "split": "dev",
+      "evaluation_index": 8,
+      "camera_id": "camera_2",
+      "group_id": "1720267900750125641",
+      "comparison_path": "runs/inria_surface_block000_12000/eval_dev/008_comparison.jpg",
+      "render_path": "runs/inria_surface_block000_12000/eval_dev/008_render.png",
+      "rectified_gt_path": "data/garage_surface_v1/block_000/images/1720267900750125641_camera_2_center.png",
+      "image_mask_path": "data/garage_surface_v1/block_000/masks/1720267900750125641_camera_2_center.png",
+      "original_photo_path": "data/keyframes_2hz/images/camera_2/000397_1720267900750125641.jpg",
+      "original_photo_visually_inspected": true,
+      "view_image_original_resolution": true,
+      "scores": {
+        "fine_lines_parking_text": 2,
+        "pillar_roof_pipes": 2,
+        "colours_materials": 2,
+        "lights_glare": null,
+        "contours_completeness": 2,
+        "ego_exclusion": null
+      },
+      "observed": "Service doors retained; fittings soften and overhead pipes merge.",
+      "regions": [
+        {
+          "feature": "roof_pipes",
+          "bbox_xyxy": [
+            0,
+            40,
+            640,
+            235
+          ],
+          "observation": "merged thin pipes/soft roof edges"
+        },
+        {
+          "feature": "door_fittings",
+          "bbox_xyxy": [
+            290,
+            255,
+            640,
+            485
+          ],
+          "observation": "small fittings soften"
+        }
+      ],
+      "existing_metrics": {
+        "psnr_db": 24.39722027018538,
+        "ssim_valid_pixels": 0.7711347937583923,
+        "valid_fraction": 0.9621643518518519,
+        "map_projected_depth_median_abs_m": 2.210555076599121
+      },
+      "test_role": "development_failure_evidence"
+    },
+    {
+      "split": "dev",
+      "evaluation_index": 9,
+      "camera_id": "camera_3",
+      "group_id": "1720267900750125641",
+      "comparison_path": "runs/inria_surface_block000_12000/eval_dev/009_comparison.jpg",
+      "render_path": "runs/inria_surface_block000_12000/eval_dev/009_render.png",
+      "rectified_gt_path": "data/garage_surface_v1/block_000/images/1720267900750125641_camera_3_center.png",
+      "image_mask_path": "data/garage_surface_v1/block_000/masks/1720267900750125641_camera_3_center.png",
+      "original_photo_path": "data/keyframes_2hz/images/camera_3/000397_1720267900750125641.jpg",
+      "original_photo_visually_inspected": true,
+      "view_image_original_resolution": true,
+      "scores": {
+        "fine_lines_parking_text": 1,
+        "pillar_roof_pipes": 2,
+        "colours_materials": 1,
+        "lights_glare": 1,
+        "contours_completeness": 1,
+        "ego_exclusion": 0
+      },
+      "observed": "Turn arrow erased; floor haze and hood streaking.",
+      "regions": [
+        {
+          "feature": "turn_arrow",
+          "bbox_xyxy": [
+            210,
+            345,
+            275,
+            420
+          ],
+          "observation": "clear GT arrow absent"
+        },
+        {
+          "feature": "roof_pipes",
+          "bbox_xyxy": [
+            350,
+            90,
+            635,
+            220
+          ],
+          "observation": "thickened/merged contours"
+        },
+        {
+          "feature": "ego_and_floor",
+          "bbox_xyxy": [
+            100,
+            435,
+            430,
+            540
+          ],
+          "observation": "valid GT hood; rendered haze/streaks"
+        }
+      ],
+      "existing_metrics": {
+        "psnr_db": 21.340445290456785,
+        "ssim_valid_pixels": 0.729995608329773,
+        "valid_fraction": 1.0,
+        "map_projected_depth_median_abs_m": 2.5394625663757324
+      },
+      "test_role": "development_failure_evidence"
+    },
+    {
+      "split": "dev",
+      "evaluation_index": 10,
+      "camera_id": "camera_4",
+      "group_id": "1720267900750125641",
+      "comparison_path": "runs/inria_surface_block000_12000/eval_dev/010_comparison.jpg",
+      "render_path": "runs/inria_surface_block000_12000/eval_dev/010_render.png",
+      "rectified_gt_path": "data/garage_surface_v1/block_000/images/1720267900750125641_camera_4_center.png",
+      "image_mask_path": "data/garage_surface_v1/block_000/masks/1720267900750125641_camera_4_center.png",
+      "original_photo_path": "data/keyframes_2hz/images/camera_4/000397_1720267900750125641.jpg",
+      "original_photo_visually_inspected": true,
+      "view_image_original_resolution": true,
+      "scores": {
+        "fine_lines_parking_text": 1,
+        "pillar_roof_pipes": 2,
+        "colours_materials": 1,
+        "lights_glare": 2,
+        "contours_completeness": 1,
+        "ego_exclusion": 0
+      },
+      "observed": "Small arrow loses shape, pipes fuse, hood becomes floor texture.",
+      "regions": [
+        {
+          "feature": "small_arrow",
+          "bbox_xyxy": [
+            235,
+            310,
+            285,
+            355
+          ],
+          "observation": "arrow loses shape"
+        },
+        {
+          "feature": "roof_pipes",
+          "bbox_xyxy": [
+            10,
+            85,
+            640,
+            255
+          ],
+          "observation": "merged contours"
+        },
+        {
+          "feature": "ego_and_floor",
+          "bbox_xyxy": [
+            100,
+            435,
+            425,
+            500
+          ],
+          "observation": "hood/road boundary smeared"
+        }
+      ],
+      "existing_metrics": {
+        "psnr_db": 23.31970951784813,
+        "ssim_valid_pixels": 0.7329887747764587,
+        "valid_fraction": 0.9672858796296296,
+        "map_projected_depth_median_abs_m": 2.741825580596924
+      },
+      "test_role": "development_failure_evidence"
+    },
+    {
+      "split": "dev",
+      "evaluation_index": 11,
+      "camera_id": "camera_5",
+      "group_id": "1720267900750125641",
+      "comparison_path": "runs/inria_surface_block000_12000/eval_dev/011_comparison.jpg",
+      "render_path": "runs/inria_surface_block000_12000/eval_dev/011_render.png",
+      "rectified_gt_path": "data/garage_surface_v1/block_000/images/1720267900750125641_camera_5_center.png",
+      "image_mask_path": "data/garage_surface_v1/block_000/masks/1720267900750125641_camera_5_center.png",
+      "original_photo_path": "data/keyframes_2hz/images/camera_5/000397_1720267900750125641.jpg",
+      "original_photo_visually_inspected": true,
+      "view_image_original_resolution": true,
+      "scores": {
+        "fine_lines_parking_text": 1,
+        "pillar_roof_pipes": 2,
+        "colours_materials": 2,
+        "lights_glare": 1,
+        "contours_completeness": 1,
+        "ego_exclusion": null
+      },
+      "observed": "Pillar and parked-car silhouette retained; arrow/centre line and text degraded.",
+      "regions": [
+        {
+          "feature": "left_arrow",
+          "bbox_xyxy": [
+            0,
+            380,
+            90,
+            445
+          ],
+          "observation": "GT arrow absent/degraded"
+        },
+        {
+          "feature": "centre_line",
+          "bbox_xyxy": [
+            165,
+            300,
+            265,
+            495
+          ],
+          "observation": "GT line lost/displaced into isolated streaks"
+        },
+        {
+          "feature": "parking_text",
+          "bbox_xyxy": [
+            515,
+            460,
+            640,
+            505
+          ],
+          "observation": "eroded lettering"
+        },
+        {
+          "feature": "pillar",
+          "bbox_xyxy": [
+            315,
+            175,
+            385,
+            435
+          ],
+          "observation": "gross pillar shape retained"
+        }
+      ],
+      "existing_metrics": {
+        "psnr_db": 22.311122617952876,
+        "ssim_valid_pixels": 0.752816379070282,
+        "valid_fraction": 0.9420833333333334,
+        "map_projected_depth_median_abs_m": 4.236405849456787
+      },
+      "test_role": "development_failure_evidence"
+    },
+    {
+      "split": "test",
+      "evaluation_index": 12,
+      "camera_id": "camera_2",
+      "group_id": "1720267912749981248",
+      "comparison_path": "runs/inria_surface_block000_12000/eval_test/012_comparison.jpg",
+      "render_path": "runs/inria_surface_block000_12000/eval_test/012_render.png",
+      "rectified_gt_path": "data/garage_surface_v1/block_000/images/1720267912749981248_camera_2_center.png",
+      "image_mask_path": "data/garage_surface_v1/block_000/masks/1720267912749981248_camera_2_center.png",
+      "original_photo_path": "data/keyframes_2hz/images/camera_2/000637_1720267912749981248.jpg",
+      "original_photo_visually_inspected": false,
+      "view_image_original_resolution": true,
+      "scores": {
+        "fine_lines_parking_text": 1,
+        "pillar_roof_pipes": 2,
+        "colours_materials": 1,
+        "lights_glare": 1,
+        "contours_completeness": 1,
+        "ego_exclusion": null
+      },
+      "observed": "Parking number fragmented; fixture contours broaden; extra lamp haze.",
+      "regions": [
+        {
+          "feature": "parking_number",
+          "bbox_xyxy": [
+            145,
+            435,
+            240,
+            478
+          ],
+          "observation": "GT label becomes smeared fragments"
+        },
+        {
+          "feature": "pillar_fixture",
+          "bbox_xyxy": [
+            330,
+            170,
+            485,
+            445
+          ],
+          "observation": "broadened edges"
+        },
+        {
+          "feature": "lamp",
+          "bbox_xyxy": [
+            35,
+            160,
+            210,
+            265
+          ],
+          "observation": "GT already saturated; added diffuse spread"
+        }
+      ],
+      "existing_metrics": {
+        "psnr_db": 20.80381822303497,
+        "ssim_valid_pixels": 0.6817134618759155,
+        "valid_fraction": 0.9621643518518519,
+        "map_projected_depth_median_abs_m": 1.8026843070983887
+      },
+      "test_role": "final_inspection_only"
+    },
+    {
+      "split": "test",
+      "evaluation_index": 13,
+      "camera_id": "camera_3",
+      "group_id": "1720267912749981248",
+      "comparison_path": "runs/inria_surface_block000_12000/eval_test/013_comparison.jpg",
+      "render_path": "runs/inria_surface_block000_12000/eval_test/013_render.png",
+      "rectified_gt_path": "data/garage_surface_v1/block_000/images/1720267912749981248_camera_3_center.png",
+      "image_mask_path": "data/garage_surface_v1/block_000/masks/1720267912749981248_camera_3_center.png",
+      "original_photo_path": "data/keyframes_2hz/images/camera_3/000637_1720267912749981248.jpg",
+      "original_photo_visually_inspected": false,
+      "view_image_original_resolution": true,
+      "scores": {
+        "fine_lines_parking_text": 1,
+        "pillar_roof_pipes": 1,
+        "colours_materials": 0,
+        "lights_glare": 0,
+        "contours_completeness": 0,
+        "ego_exclusion": 0
+      },
+      "observed": "Large floor/wall haze; broken roof contours; illumination shape and hood lost.",
+      "regions": [
+        {
+          "feature": "floor_wall_haze",
+          "bbox_xyxy": [
+            0,
+            290,
+            640,
+            540
+          ],
+          "observation": "large mismatch/material haze"
+        },
+        {
+          "feature": "wall_illumination",
+          "bbox_xyxy": [
+            100,
+            310,
+            430,
+            365
+          ],
+          "observation": "pink-white shape fragmented and displaced"
+        },
+        {
+          "feature": "roof_pipes",
+          "bbox_xyxy": [
+            10,
+            160,
+            640,
+            250
+          ],
+          "observation": "broken/thickened contours"
+        },
+        {
+          "feature": "ego",
+          "bbox_xyxy": [
+            70,
+            435,
+            500,
+            540
+          ],
+          "observation": "GT hood replaced by haze"
+        }
+      ],
+      "existing_metrics": {
+        "psnr_db": 19.361217690033982,
+        "ssim_valid_pixels": 0.6628108024597168,
+        "valid_fraction": 1.0,
+        "map_projected_depth_median_abs_m": 0.9379913806915283
+      },
+      "test_role": "final_inspection_only"
+    },
+    {
+      "split": "test",
+      "evaluation_index": 14,
+      "camera_id": "camera_4",
+      "group_id": "1720267912749981248",
+      "comparison_path": "runs/inria_surface_block000_12000/eval_test/014_comparison.jpg",
+      "render_path": "runs/inria_surface_block000_12000/eval_test/014_render.png",
+      "rectified_gt_path": "data/garage_surface_v1/block_000/images/1720267912749981248_camera_4_center.png",
+      "image_mask_path": "data/garage_surface_v1/block_000/masks/1720267912749981248_camera_4_center.png",
+      "original_photo_path": "data/keyframes_2hz/images/camera_4/000637_1720267912749981248.jpg",
+      "original_photo_visually_inspected": false,
+      "view_image_original_resolution": true,
+      "scores": {
+        "fine_lines_parking_text": 1,
+        "pillar_roof_pipes": 2,
+        "colours_materials": 1,
+        "lights_glare": 1,
+        "contours_completeness": 1,
+        "ego_exclusion": 0
+      },
+      "observed": "Foreground dash erased; roof/lane edges smear; hood becomes road streaks.",
+      "regions": [
+        {
+          "feature": "foreground_dash",
+          "bbox_xyxy": [
+            295,
+            390,
+            330,
+            438
+          ],
+          "observation": "GT road dash absent"
+        },
+        {
+          "feature": "ego_and_floor",
+          "bbox_xyxy": [
+            110,
+            430,
+            445,
+            503
+          ],
+          "observation": "hood replaced with streaks"
+        },
+        {
+          "feature": "roof_pipes",
+          "bbox_xyxy": [
+            0,
+            120,
+            640,
+            265
+          ],
+          "observation": "merged/displaced contours"
+        }
+      ],
+      "existing_metrics": {
+        "psnr_db": 20.50406272472746,
+        "ssim_valid_pixels": 0.6942317485809326,
+        "valid_fraction": 0.9672858796296296,
+        "map_projected_depth_median_abs_m": 1.739966630935669
+      },
+      "test_role": "final_inspection_only"
+    },
+    {
+      "split": "test",
+      "evaluation_index": 15,
+      "camera_id": "camera_5",
+      "group_id": "1720267912749981248",
+      "comparison_path": "runs/inria_surface_block000_12000/eval_test/015_comparison.jpg",
+      "render_path": "runs/inria_surface_block000_12000/eval_test/015_render.png",
+      "rectified_gt_path": "data/garage_surface_v1/block_000/images/1720267912749981248_camera_5_center.png",
+      "image_mask_path": "data/garage_surface_v1/block_000/masks/1720267912749981248_camera_5_center.png",
+      "original_photo_path": "data/keyframes_2hz/images/camera_5/000637_1720267912749981248.jpg",
+      "original_photo_visually_inspected": false,
+      "view_image_original_resolution": true,
+      "scores": {
+        "fine_lines_parking_text": 1,
+        "pillar_roof_pipes": 2,
+        "colours_materials": 1,
+        "lights_glare": 1,
+        "contours_completeness": 1,
+        "ego_exclusion": null
+      },
+      "observed": "Foreground pillar retained; right parking lines/reflections and distant objects smear.",
+      "regions": [
+        {
+          "feature": "pillar",
+          "bbox_xyxy": [
+            225,
+            185,
+            405,
+            445
+          ],
+          "observation": "gross pillar shape retained"
+        },
+        {
+          "feature": "right_parking_floor",
+          "bbox_xyxy": [
+            395,
+            340,
+            640,
+            480
+          ],
+          "observation": "lines/reflections smear"
+        },
+        {
+          "feature": "roof_pipes",
+          "bbox_xyxy": [
+            0,
+            130,
+            640,
+            250
+          ],
+          "observation": "thickened/merged contours"
+        }
+      ],
+      "existing_metrics": {
+        "psnr_db": 21.92052856247713,
+        "ssim_valid_pixels": 0.7446404099464417,
+        "valid_fraction": 0.9420833333333334,
+        "map_projected_depth_median_abs_m": 2.629894256591797
+      },
+      "test_role": "final_inspection_only"
+    }
+  ],
+  "rgb_baseline": {
+    "visually_inspected_paths": [
+      "runs/stock_refined_global_7500/eval_dev/008_comparison.jpg",
+      "runs/stock_refined_global_7500/eval_dev/009_comparison.jpg",
+      "runs/stock_refined_global_7500/eval_dev/010_comparison.jpg",
+      "runs/stock_refined_global_7500/eval_dev/011_comparison.jpg"
+    ],
+    "comparison": "Shared dev009 arrow loss and dev010 hood smear; stock dev011 preserves left arrow/centre line better. Not a controlled renderer-only ablation.",
+    "existing_all_frame_mean_psnr_db": 24.651902216783803,
+    "existing_all_frame_mean_ssim": 0.7794334709644317
+  },
+  "raw_photo_examples_visually_inspected": [
+    "data/keyframes_2hz/images/camera_2/000397_1720267900750125641.jpg",
+    "data/keyframes_2hz/images/camera_3/000397_1720267900750125641.jpg",
+    "data/keyframes_2hz/images/camera_4/000397_1720267900750125641.jpg",
+    "data/keyframes_2hz/images/camera_5/000397_1720267900750125641.jpg"
+  ],
+  "mask_observation": {
+    "group_id": "1720267900750125641",
+    "bbox_xyxy": [
+      100,
+      450,
+      430,
+      490
+    ],
+    "camera_3_roi_valid_fraction": 1.0,
+    "camera_4_roi_valid_fraction": 1.0,
+    "camera_3_whole_image_valid_fraction": 1.0,
+    "interpretation": "Ego pixels remain valid. Their causal contribution to all haze is not isolated."
+  },
+  "limitations": [
+    "No independent target geometry GT. Same LIO/map conditions geometry comparisons.",
+    "Black bottom cutouts are validity masks, not measured holes.",
+    "No moving-actor leakage established from stills; parked cars are not proof of dynamics.",
+    "Saturated input lamps cannot supply lost highlight detail.",
+    "Only two temporal groups reviewed; no floor/ramp/seam completeness inference.",
+    "Test was inspected for final failure reporting, never fitted or used for candidate selection."
+  ],
+  "next_candidate": {
+    "hypothesis": "Residual camera-to-map alignment averages static edges across views; valid ego pixels amplify foreground floor haze.",
+    "fit_split": "train only",
+    "validation_split": "dev only",
+    "test_role": "preserve existing final inspection; no optimization",
+    "action": "Correct training-photo ego masks and regenerate masks/initial colours/targets consistently; compare mask-only vs mask+bounded shared four-camera rig correction on static train features, with measured map/trajectory/geometry fixed.",
+    "dev_targets": [
+      {
+        "index": 9,
+        "feature": "turn_arrow",
+        "bbox_xyxy": [
+          210,
+          345,
+          275,
+          420
+        ]
+      },
+      {
+        "index": 11,
+        "feature": "left_arrow",
+        "bbox_xyxy": [
+          0,
+          380,
+          90,
+          445
+        ]
+      },
+      {
+        "index": 11,
+        "feature": "centre_line",
+        "bbox_xyxy": [
+          165,
+          300,
+          265,
+          495
+        ]
+      },
+      {
+        "index": 8,
+        "feature": "roof_pipes",
+        "bbox_xyxy": [
+          0,
+          40,
+          640,
+          235
+        ]
+      },
+      {
+        "index": 10,
+        "feature": "roof_pipes",
+        "bbox_xyxy": [
+          10,
+          85,
+          640,
+          255
+        ]
+      }
+    ],
+    "proposed_gate": "At least 25% lower median static-edge reprojection discrepancy, recover dev009 arrow and dev011 arrow/centre-line continuity, no pillar/pipe regression camera2/4 and no new contour/colour failures in other dev groups. Not an observed outcome.",
+    "falsifiers": [
+      "No held-out dev edge improvement",
+      "Correction hits bounds",
+      "Improvement confined to hood region",
+      "Residual depends on image radius: rig-only scope does not fix intrinsic ray field"
+    ],
+    "implementation_risks": [
+      "Original2DGS camera gradients unsupported; calibrate through supported 3D differentiable path then freeze.",
+      "Use actual filename/source physical camera IDs; same frozen corrections must apply in eval.",
+      "Changed poses require regenerated depth/support; bypass stale projected depth/alpha terms during calibration.",
+      "Preserve provenance, metric world and verified=false."
+    ]
+  },
+  "input_sha256": {
+    "runs/inria_surface_block000_12000/eval_dev/008_comparison.jpg": "7f90705dd9f0d9adcc76da3fe3ac92d092050742ac12d76b0ab4e7d219fe8c8b",
+    "runs/inria_surface_block000_12000/eval_dev/009_comparison.jpg": "23b85b9d8d17d7b8f73786a4a4be4baf48fcd108c287bc5140367621c1890591",
+    "runs/inria_surface_block000_12000/eval_dev/010_comparison.jpg": "7be376bb1cfea4253a4338ba321cc8ec44bc31084929aa53f02ae23e7dc3aa19",
+    "runs/inria_surface_block000_12000/eval_dev/011_comparison.jpg": "118df45ee1c34cf875d2aab12705cc147450aca0255fc5bccba14f38b633df66",
+    "runs/inria_surface_block000_12000/eval_test/012_comparison.jpg": "21fe65b6a1dd143d0374010dd5c62454a970e4a9334cfd1a0746caf4b6985bfe",
+    "runs/inria_surface_block000_12000/eval_test/013_comparison.jpg": "bec4c9c88d4a120e93b397774744710021445a2fd602a008cd47e2f85b0aa6ee",
+    "runs/inria_surface_block000_12000/eval_test/014_comparison.jpg": "35da21b32b731088f66792adc2d2c221682ff18e66a9616cc89a2b40870450da",
+    "runs/inria_surface_block000_12000/eval_test/015_comparison.jpg": "e21342d53227817d1d4cf58d2f98492962c4e3aed704e0783128c1e74fb53375",
+    "data/keyframes_2hz/images/camera_2/000397_1720267900750125641.jpg": "63dda851dfb470aae57ee67b5b1331e258e4bb1e91501335b16fbf4c7654b625",
+    "data/keyframes_2hz/images/camera_3/000397_1720267900750125641.jpg": "9578148ab9a17adaa9f0b662a60d03a0af9296351898257dbe1e4388d312d151",
+    "data/keyframes_2hz/images/camera_4/000397_1720267900750125641.jpg": "ba2c0fa5d46eeee1874252a6ede105715bfecbeaf51cedfc37431a8ba0c7f199",
+    "data/keyframes_2hz/images/camera_5/000397_1720267900750125641.jpg": "cc2e4fa50f901ca968bfd396ed106c2555acd0ec4152e89f8322621469940c1d",
+    "runs/stock_refined_global_7500/eval_dev/008_comparison.jpg": "872ab5f9531c6fc96ac07d4b4bb227f68583968a3bf254d5bb528f98d463cb51",
+    "runs/stock_refined_global_7500/eval_dev/009_comparison.jpg": "9f78eecfa68f1154ef8ff6f14e488991c0e8ba8d82b26575e7665977c80a1692",
+    "runs/stock_refined_global_7500/eval_dev/010_comparison.jpg": "6bea9c07de69aa2e55d71955f0aaebd2a621c74131d5432ec7281f7a97b695b7",
+    "runs/stock_refined_global_7500/eval_dev/011_comparison.jpg": "1a8b01c1e0e9fc206fd6ca4800899fa779df8e0f5f6ba62f1f87d24561945a45",
+    "runs/inria_surface_block000_12000/eval_dev/metrics.json": "1947fa74544f49f4308c44219810c3b0e0f48b651ec622f66e8878a93653d435",
+    "runs/inria_surface_block000_12000/eval_test/metrics.json": "6ae65110a2e810c0b82c613002b2b397a02acfd9d76c44825478616b1513d15b",
+    "runs/stock_refined_global_7500/eval_dev/metrics.json": "12b8dc3003cdd07b12646a17ce4b04a81afe7a0157f12774806b2fa471d1e812",
+    "configs/direct_lio_refined.experimental.yaml": "c5200c2bb2df1ed5e4b8330eb501b2f5c7d6211615cfd711c9dede02f3f2a1fa",
+    "data/garage_surface_v1/block_000/preparation.json": "3e0281ba3361e7546d36b9a3a87f14696a17c12d7c8b41e2f3ae9948c83a9b81",
+    "data/garage_surface_v1/block_000/transforms.json": "3ca4b4989c9dd6d25af02595fc43ec7711c02630430c6b4fecae2a7a3ad380bb",
+    "data/garage_surface_v1/block_000/DEPTH_VISIBILITY_FIXED.json": "2973067f453c67f6bf97b8a61b230bcdd3f4bb060c2b1f612d1ad82798476060",
+    "docs/OPTIMIZATION_PROTOCOL.md": "1a19329b6b4d26e0be66f1a261ac0c8db4402f979e6fa55a1d601cd7012a1390",
+    "data/garage_surface_v1/block_000/masks/1720267900750125641_camera_2_center.png": "a69fc9b050d96e919c421e61b03de60d5ad1d565d1d2b360d7b2f18779b7ac44",
+    "data/garage_surface_v1/block_000/masks/1720267900750125641_camera_3_center.png": "c7834c5f5e3b85077806a6990df737ce8f41c9705e9e2769d2b2bc9b255f049f",
+    "data/garage_surface_v1/block_000/masks/1720267900750125641_camera_4_center.png": "d05a93e469e8c33204440655d232e99a6dd34a5f817022d981d2929c48925661",
+    "data/garage_surface_v1/block_000/masks/1720267900750125641_camera_5_center.png": "884f1aa616e1e788052df640ee2404acbb6c46f90bd8a474633de9aba24be12a",
+    "data/garage_surface_v1/block_000/masks/1720267912749981248_camera_2_center.png": "a69fc9b050d96e919c421e61b03de60d5ad1d565d1d2b360d7b2f18779b7ac44",
+    "data/garage_surface_v1/block_000/masks/1720267912749981248_camera_3_center.png": "c7834c5f5e3b85077806a6990df737ce8f41c9705e9e2769d2b2bc9b255f049f",
+    "data/garage_surface_v1/block_000/masks/1720267912749981248_camera_4_center.png": "d05a93e469e8c33204440655d232e99a6dd34a5f817022d981d2929c48925661",
+    "data/garage_surface_v1/block_000/masks/1720267912749981248_camera_5_center.png": "884f1aa616e1e788052df640ee2404acbb6c46f90bd8a474633de9aba24be12a"
+  }
+}

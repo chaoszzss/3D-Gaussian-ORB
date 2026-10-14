@@ -1,0 +1,115 @@
+{
+  "status": "PASS_RESUMED_PARAMETER_AND_ADAM_PROGRESS_NOT_FIDELITY",
+  "checkpoints": [
+    {
+      "checkpoint": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/fidelity_v2/jobs/block000_measuredseed_anneal_v1/recovery_allocator_v1/step-000002000.ckpt",
+      "step": 2000,
+      "gaussians": 2045315,
+      "parameters": {
+        "features_dc": "7a70b5e72d7d4f488984aad88268b3777105ad9e23dc907771d5960673db6f04",
+        "features_rest": "6ce3247bd42871743fb030ac5c0ae996bcd8d74afcff0c8699076f9f1165385f",
+        "means": "44458a05416dd6b49320be5cbc18384c94771db13c0e91bc5480ad65dbcf1cf3",
+        "opacities": "500ade0f41db724e09dfb7c8b2ce89a75b84dc3aea0c8186aa462c568c39dfd7",
+        "quats": "584b0c5bb7772b2b794e209d59afc4249274397d3d7339dd9affb69518fb5822",
+        "scales": "2350e4a6c9a20cc1a64580e0913a9eb1784c67a9ecfcea1b8b86c8ee4cd838fb"
+      },
+      "optimizers": {
+        "means": {
+          "step": 2001,
+          "exp_avg_sha256": "fb6860294b6c7265d6c8b8c993860d4d31ad319aaa4a6462871fd32651cb4044",
+          "exp_avg_sq_sha256": "ab51c4cb0b729e5036e2a739e335cc7f16a818ed37582aa528cac00dc8bd6f27"
+        },
+        "scales": {
+          "step": 2001,
+          "exp_avg_sha256": "94369cb9a8f3b992b738b42fed536b6faa350a8691cc5738e3f06015e1cfa14e",
+          "exp_avg_sq_sha256": "fc0271f48785869add86258f97179be6163e135b076745f4275ed475512d7f70"
+        },
+        "quats": {
+          "step": 2001,
+          "exp_avg_sha256": "c3f6c6db25f198b9492f06d945a92250660e5edb541fe555c48ac0373f9303cc",
+          "exp_avg_sq_sha256": "86ed6c51c2bf146f9c675a0962522053b08c126a7dcb0fce21233c4dcec98a8d"
+        },
+        "features_dc": {
+          "step": 2001,
+          "exp_avg_sha256": "59dba1dd85d136a4bb6fbd0b5f7febd2425a3ef0e73fc32ffef6498ac9d0608d",
+          "exp_avg_sq_sha256": "6c743edaac3fbbeca746dfe54186121e7a8f50cbcbfad8925efeae43ea15ae05"
+        },
+        "features_rest": {
+          "step": 2001,
+          "exp_avg_sha256": "73d15fd68da61a7c92bb30da4dd1434ef620622bdf4f802afed3751dfe72a8cf",
+          "exp_avg_sq_sha256": "3ee431d97313b6b6cb7a2342646187d1201057185c9b0e1adf86f7e1d7fff286"
+        },
+        "opacities": {
+          "step": 2001,
+          "exp_avg_sha256": "6177044c913760d7fdb7e73db540b9a71540e283aedb22f6cc4a2180c6208e24",
+          "exp_avg_sq_sha256": "cbb6f00159298ade0b8ed2e49a37d410fcfbf88fb6802d90e53af0ff150780b0"
+        }
+      },
+      "checkpoint_sha256": "db5cdcbaccf50368dba7fa07ab27f013e9b0b115ab74dd065fda172442d80f86"
+    },
+    {
+      "checkpoint": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/fidelity_v2/train_block000_measuredseed_anneal_v1/block_000/splatfacto/2026-10-09_150023/nerfstudio_models/step-000004000.ckpt",
+      "step": 4000,
+      "gaussians": 2488750,
+      "parameters": {
+        "features_dc": "95e7a489e932911d6bbf2bb52bedda0b9628fb470de9837f70d0502db54855ea",
+        "features_rest": "b61c3577bddea14f2402d839ef3e657563c63b833faf641a431fe83695dd961c",
+        "means": "11240866e8646a891f93ba1657b92fb9911dc328bc43020b9090b94f277e48ac",
+        "opacities": "0b1d9adf3af45b4e8e512e96697a1c22c91d35dd6176ed8a162e705782224855",
+        "quats": "5baa66a551c8fe594b95bba90506c82d72c2b561eb976485fb417007b4d7933c",
+        "scales": "b03ee404d89cb3c89e4e77601d90c3844e028713b69fa7a246fa1e0e4773d741"
+      },
+      "optimizers": {
+        "means": {
+          "step": 4001,
+          "exp_avg_sha256": "63164c41f29a429cd70e522ebb58bd4508416a312095bf2fb5232a1a5e282288",
+          "exp_avg_sq_sha256": "bbb9c0b3c46b400a3aedbe96e6e069bfb517cff590079e53ee4780652eb9137f"
+        },
+        "scales": {
+          "step": 4001,
+          "exp_avg_sha256": "687ab541e12c25b5c1434cbb4eb1b54dde3db31a7c8afe19563dc1735a1ff9da",
+          "exp_avg_sq_sha256": "4d50d8030b95a27c7d8784cf44375e8e29ea8f4581daf42316deca9fb41bde83"
+        },
+        "quats": {
+          "step": 4001,
+          "exp_avg_sha256": "2b7c4339114d598f81ab3e0c7c277f9ae80819c4908fe66f540f9f067e1dab3f",
+          "exp_avg_sq_sha256": "8adaec70853452ef06a9139b723b34dbcf554fb6f7d81f505569d80417947b09"
+        },
+        "features_dc": {
+          "step": 4001,
+          "exp_avg_sha256": "5e1fe0d7dc1467834b49598e8eb78d5d4cc80d933b857b8bedd60210a155914a",
+          "exp_avg_sq_sha256": "4787609014648e1eeae5e585aa9dfa870b10311e304a09ba18918931a02636fb"
+        },
+        "features_rest": {
+          "step": 4001,
+          "exp_avg_sha256": "1e9829789147459728b8e492b7671f0cb05fe2877ef2a88591f054c55835bdf5",
+          "exp_avg_sq_sha256": "4605ec751b5e5efee955c4c2a414710b8247edbbda6fe9ec6eba1dc2d0254b71"
+        },
+        "opacities": {
+          "step": 4001,
+          "exp_avg_sha256": "c2440e0df319b4a90bcf516e9f67e17100b2540673d707e34dde4cddac359b19",
+          "exp_avg_sq_sha256": "87f31199d2c7c17d7a1ae6116253521cc83a7a2610f5cc0c40074c8352af0958"
+        }
+      },
+      "checkpoint_sha256": "b2a737677fb5f7980963606d587105e7751f10c95b760f36b6b6b09fb3f492cb"
+    }
+  ],
+  "all_six_parameter_families_changed": {
+    "features_dc": true,
+    "features_rest": true,
+    "means": true,
+    "opacities": true,
+    "quats": true,
+    "scales": true
+  },
+  "adam_steps_advance_2001_to_4001": true,
+  "restored_binding_log": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/fidelity_v2/train_block000_measuredseed_anneal_v1/resume_events.jsonl",
+  "source_script_sha256": "5e87178f1b7252d1716edb7c16ded88fb2382372c2ea1d55b6de62de8b0f3668",
+  "gpu_used": false,
+  "peak_rss_mb": 2087.734375,
+  "limitations": [
+    "Parameter order/count changes through refinement; hashes establish change, not corresponding-row geometric displacement.",
+    "Midrun checkpoint4000 may be removed by upstream latest-only checkpoint saving; hashes and scalar evidence retained.",
+    "This is recovery validation, not the final15k training/heldout fidelity acceptance."
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source_manifest": {
+    "path": "maps/garage_manifest.json",
+    "sha256": "31ed136caf3c5822cdbeb9d33b81fa299e599b1e405d4f9d6cd27e4c46540734"
+  },
+  "all_28_match_fixed_DEV408_source_hashes": true,
+  "sources": [
+    {
+      "id": "block_000",
+      "path": "runs/garage_surface_v1/block_000/eval_dev/gaussians.ply",
+      "sha256": "e3ea69917c31fe947c3cc8c1897f4bf3fba57d97743bcad2d76cec20ecd08162",
+      "vertex_count": 341368,
+      "file_bytes": 84660853,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 341368
+    },
+    {
+      "id": "block_001",
+      "path": "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply",
+      "sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+      "vertex_count": 342875,
+      "file_bytes": 85034589,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 342875
+    },
+    {
+      "id": "block_002",
+      "path": "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply",
+      "sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+      "vertex_count": 364881,
+      "file_bytes": 90492077,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 364881
+    },
+    {
+      "id": "block_003",
+      "path": "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply",
+      "sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+      "vertex_count": 368896,
+      "file_bytes": 91487797,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 368896
+    },
+    {
+      "id": "block_004",
+      "path": "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply",
+      "sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+      "vertex_count": 384304,
+      "file_bytes": 95308981,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 384304
+    },
+    {
+      "id": "block_005",
+      "path": "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply",
+      "sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+      "vertex_count": 409298,
+      "file_bytes": 101507493,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 409298
+    },
+    {
+      "id": "block_006",
+      "path": "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply",
+      "sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+      "vertex_count": 400192,
+      "file_bytes": 99249205,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 400192
+    },
+    {
+      "id": "block_007",
+      "path": "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply",
+      "sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+      "vertex_count": 389736,
+      "file_bytes": 96656117,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 389736
+    },
+    {
+      "id": "block_008",
+      "path": "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply",
+      "sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+      "vertex_count": 378061,
+      "file_bytes": 93760717,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 378061
+    },
+    {
+      "id": "block_009",
+      "path": "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply",
+      "sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+      "vertex_count": 378567,
+      "file_bytes": 93886205,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 378567
+    },
+    {
+      "id": "block_010",
+      "path": "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply",
+      "sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+      "vertex_count": 361041,
+      "file_bytes": 89539757,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 361041
+    },
+    {
+      "id": "block_011",
+      "path": "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply",
+      "sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+      "vertex_count": 369946,
+      "file_bytes": 91748197,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 369946
+    },
+    {
+      "id": "block_012",
+      "path": "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply",
+      "sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+      "vertex_count": 370745,
+      "file_bytes": 91946349,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 370745
+    },
+    {
+      "id": "block_013",
+      "path": "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply",
+      "sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+      "vertex_count": 368601,
+      "file_bytes": 91414637,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 368601
+    },
+    {
+      "id": "block_014",
+      "path": "runs/garage_surface_v1/block_014/eval_dev/gaussians.ply",
+      "sha256": "79df47baf06edc62b0924142cb0f30f2bdd1f3782348200b307bd194155af5ff",
+      "vertex_count": 351839,
+      "file_bytes": 87257661,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 351839
+    },
+    {
+      "id": "block_015",
+      "path": "runs/garage_surface_v1/block_015/eval_dev/gaussians.ply",
+      "sha256": "a3957588e47a17518d195caec9dc17b31c642dcb4d8d6547f181f3394f89ea8e",
+      "vertex_count": 285964,
+      "file_bytes": 70920661,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 285964
+    },
+    {
+      "id": "block_016",
+      "path": "runs/garage_surface_v1/block_016/eval_dev/gaussians.ply",
+      "sha256": "56f5193c1fcbef3b2dd1b030a20a43b417c7c87f05056e3d8aeaa8b6a32461a9",
+      "vertex_count": 363954,
+      "file_bytes": 90262181,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 363954
+    },
+    {
+      "id": "block_017",
+      "path": "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply",
+      "sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+      "vertex_count": 358029,
+      "file_bytes": 88792781,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 358029
+    },
+    {
+      "id": "block_018",
+      "path": "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply",
+      "sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+      "vertex_count": 343041,
+      "file_bytes": 85075757,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 343041
+    },
+    {
+      "id": "block_019",
+      "path": "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply",
+      "sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+      "vertex_count": 303023,
+      "file_bytes": 75151293,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 303023
+    },
+    {
+      "id": "block_020",
+      "path": "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply",
+      "sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+      "vertex_count": 364368,
+      "file_bytes": 90364853,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 364368
+    },
+    {
+      "id": "block_021",
+      "path": "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply",
+      "sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+      "vertex_count": 343186,
+      "file_bytes": 85111717,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 343186
+    },
+    {
+      "id": "block_022",
+      "path": "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply",
+      "sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+      "vertex_count": 360323,
+      "file_bytes": 89361693,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 360323
+    },
+    {
+      "id": "block_023",
+      "path": "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply",
+      "sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+      "vertex_count": 362611,
+      "file_bytes": 89929117,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 362611
+    },
+    {
+      "id": "block_024",
+      "path": "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply",
+      "sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+      "vertex_count": 331951,
+      "file_bytes": 82325437,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 331951
+    },
+    {
+      "id": "block_025",
+      "path": "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply",
+      "sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+      "vertex_count": 405967,
+      "file_bytes": 100681405,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 405967
+    },
+    {
+      "id": "block_026",
+      "path": "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply",
+      "sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+      "vertex_count": 391296,
+      "file_bytes": 97042997,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 391296
+    },
+    {
+      "id": "block_027",
+      "path": "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply",
+      "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+      "vertex_count": 235743,
+      "file_bytes": 58465853,
+      "sh_degree": 3,
+      "format": "binary_little_endian",
+      "preflight": "header_and_first_vertex",
+      "historical_training_gaussians": 235743
+    }
+  ]
+}

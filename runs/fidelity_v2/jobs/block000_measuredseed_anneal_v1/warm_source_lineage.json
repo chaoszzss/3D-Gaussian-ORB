@@ -1,0 +1,8 @@
+{
+  "initialization_ply": "maps/garage_block000_measuredseed_v2_20261009/gaussians.ply",
+  "original_trained_gaussians": 341368,
+  "new_untrained_measured_surface_gaussians": 216642,
+  "total": 558010,
+  "legacy_cli_origin_label": "warm_trained_ply",
+  "interpretation": "Source contains trained records and newly appended observed surface seeds; the legacy generic warm label does not imply all records were previously trained. Full15k pilot updates the complete combined model."
+}

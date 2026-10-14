@@ -1,0 +1,23 @@
+{
+  "status": "PASS_AFTER_FIXES_MAIN_CONFIRMED",
+  "created_at": "2026-10-09T09:25:58.365903+00:00",
+  "report_author": "main agent; incorporates Maxwell read-only findings reported in messages",
+  "independent_agent_findings": [
+    "Original 314316-file plan had zero conflict with migrated model/checkpoint/reference/metadata preservation set",
+    "Python interpreter and native AA backend/provenance dependencies retained",
+    "Found empty .git directory deletion in rmdir loop; main fixed directory protection",
+    "Found eight handwritten viewer/runtime scripts among cache; main removed them from plan before any unlink"
+  ],
+  "main_final_verification": {
+    "frozen_plan_sha256": "d502bfd0fc96b050d10b758d7fec7adc988e0cb4f8565da4b0b8f5612506f63c",
+    "deleted_plan_entries": 314308,
+    "protected_paths_checked": 1823,
+    "protected_delete_conflicts": [],
+    "protected_missing_after_cleanup": [],
+    "eight_viewer_scripts_present": true,
+    "git_empty_directories_present": true,
+    "all_migrated_hashes_and_native_imports": "reports/cleanup_v2_integrity.json",
+    "live_http_verification": "reports/cleanup_v2_viewer_postcheck.json"
+  },
+  "scope": "Independent findings were relayed before cleanup. Final plan intersection, retained presence, final hash/environment and execution completion were verified by main; no claim of independent post-delete full-model rehash."
+}

@@ -1,0 +1,9 @@
+candidate_640: verified20 saved float frames
+candidate_1280: verified20 saved float frames
+original_640: verified20 saved float frames
+original_1280: verified20 saved float frames
+oldwhole_640: verified20 saved float frames
+directseed_640: verified20 saved float frames
+directseed_1280: verified20 saved float frames
+{"status": "LOCAL_PILOT_REVIEW_ONLY", "files": ["reports/block000_measuredseed_anneal_v1_paired_comparison.json", "reports/block000_measuredseed_anneal_v1_paired_comparison.csv", "reports/block000_measuredseed_anneal_v1_decision.json"], "csv_rows": 300, "high_fidelity_accepted": false}
+{"postwrite_artifact_check": "PASS", "csv_unique_rows": 300, "comparison_report_id": "937880759c704ed85cff9bef6b94ac18388b6e99469c1dc1c67f7156ded530f9", "decision_status": "LOCAL_PILOT_REVIEW_ONLY", "final_report_sha256": "7bfc532ba504e1fc095965468251367316ba3a60c11de14ca2ebe91c65714b51", "final_decision_sha256": "c707fd89da81964b50044b0e1b835011240f6a0dfc95d9e0219c6896b8ede9b1", "script_changed_in_this_execution": false, "frozen_source_modified": false}

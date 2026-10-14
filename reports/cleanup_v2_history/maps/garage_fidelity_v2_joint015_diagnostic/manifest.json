@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "coordinates": "camera_init",
+  "units": "m",
+  "camera_up": [
+    0,
+    0,
+    1
+  ],
+  "dataset_kind": "real",
+  "title": "joint015最终训练模型 · 质量未通过 · v3诊断审阅",
+  "status": "quality_failed_diagnostic_only",
+  "high_fidelity_accepted": false,
+  "rollout_allowed": false,
+  "diagnostic_only": true,
+  "run_id": "train_joint015_depthv3_aa_metric_cap003",
+  "calibration_verified": false,
+  "floor_assignment": "Estimated temporal floor schedule; not independently surveyed",
+  "renderer": {
+    "schema_version": 1,
+    "mode": "inria_2dgs_v3"
+  },
+  "description": "仅供审阅已完成15000步的joint014/015/016局部模型；不作为通过验收的新高保真地图。",
+  "blocks": [
+    {
+      "id": "block_015",
+      "label": "joint015 · 质量未通过（仅审阅）",
+      "floor_id": "坡道 F3-F4 / F4",
+      "floor_verified": false,
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -8.268549919128418,
+          -37.52289962768555,
+          0.07083074748516083
+        ],
+        "max": [
+          75.393798828125,
+          22.864910125732422,
+          16.262300491333008
+        ]
+      },
+      "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply",
+      "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+      "source_blocks": [
+        "block_014",
+        "block_015",
+        "block_016"
+      ],
+      "high_fidelity_accepted": false,
+      "quality_status": "failed_not_promoted",
+      "training": {
+        "status": "trained",
+        "iterations": 15000,
+        "checkpoint_step": 14999,
+        "gaussians": 2498837,
+        "checkpoint_gaussians": 2498842,
+        "calibration_verified": false,
+        "algorithm": "Joint native 2DGS AA-depth-VJP, metric depth, 3cm tangent radius cap",
+        "report": "runs/fidelity_v2/train_joint015_depthv3_aa_metric_cap003/training_result.json",
+        "checkpoint_sha256": "8c969f712d8d3b3588a9ef3fbfe4a8cd8612e79daf6a9ceed0da9979436dc3fa"
+      },
+      "eval": {
+        "status": "evaluated",
+        "split": "dev",
+        "psnr_db": 27.17422244182101,
+        "ssim": 0.7750555247068405,
+        "report": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json",
+        "images": 20,
+        "primary_protocol": "ego_v2",
+        "geometry_protocol": "Conditioned on same LIO/map used by initialization; not independent measurement GT",
+        "scope": "Native checkpoint on fixed block015 DEV20; not a browser parity measurement or final TEST; checkpoint has 5 more records than exported PLY."
+      }
+    }
+  ],
+  "source_export": {
+    "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply",
+    "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+    "gaussians": 2498837,
+    "file_bytes": 619713166,
+    "sh_degree": 3
+  },
+  "training_result": {
+    "path": "runs/fidelity_v2/train_joint015_depthv3_aa_metric_cap003/training_result.json",
+    "sha256": "6fdd4812f66b191f077bc5fe8ebfe3afddca7c3e32554cf00d90a0829a5c90d4"
+  },
+  "evaluation_report": {
+    "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json",
+    "sha256": "a26aae2c1eab6ec9b931e6ef8af03f3ccf9506a27afa2c5dd03f8933c14f29bc"
+  },
+  "quality_decision": {
+    "path": "reports/joint015_aa_cap003_decision.json",
+    "sha256": "4f0d57d957c398fa31c0d8253cfb1d19b79c4373ea0b3bc340b25eeb96218ef4"
+  },
+  "quality_failure_reasons": [
+    "Fixed-reference floor wrong/missing reduction23.89% and wall5.85%, below30% each",
+    "Conditioned bidirectional p50 .173646m exceeds .15m",
+    "Three blocks lose3.12/4.81/4.30dB relative to original single-block models",
+    "2cm occupied-voxel multiplicity median1, below frozen2 requirement",
+    "Complete408candidate/fullscene/boundary acceptance not performed; local pilot insufficient"
+  ],
+  "export_filter": {
+    "checkpoint_gaussians": 2498842,
+    "ply_gaussians": 2498837,
+    "omitted_records": 5,
+    "existing_exporter": "scripts/evaluate_reconstruction.py:export_ply",
+    "existing_predicate": "finite attributes AND opacity_logit >= -5.5373",
+    "note": "Uses the existing final export unchanged; no new alpha edit, PLY rewrite or camera adjustment."
+  },
+  "viewer_parity": {
+    "result": {
+      "path": "reports/viewer_parity_v2_aa015_full_result.json",
+      "sha256": "ae6d85da92288ebc04d28ab0997033b9984f2c6ca22d41afe1fdf89b7daf96b3"
+    },
+    "audit": {
+      "path": "reports/viewer_parity_v2_aa015_full_audit.json",
+      "sha256": "55c2aa6ae6a96ee4624db43aed2149bfa5e8040ebaca5ddf3ba25acec3a85758"
+    },
+    "scope": "Original block_015 only; step11999, SH3, 640x540, identical native cameras/background; no side gate or opaque helper layers.",
+    "frames": 20,
+    "all_abs_psnr_delta_le_1db": true,
+    "abs_psnr_delta_max_db": 0.03567164986416316,
+    "not_full_scene_or_joint_model_validation": true
+  },
+  "viewer_validation": {
+    "this_joint_export_browser_tested": true,
+    "full_scene_browser_tested": false,
+    "cpu_delivery_validation": "reports/viewer_parity_v2_delivery_validation.json",
+    "frames": 1,
+    "scope": "Final block015 native frame0 only; capacity and appearance parity smoke, not full20 or geometry acceptance.",
+    "actual_gpu_result": {
+      "path": "reports/viewer_joint015_capacity_v2_result.json",
+      "sha256": "4c33939ed439e2d91154682995799573204cbc1ef72fec7a7ef43d9cabe716ad"
+    },
+    "psnr_delta_db": -0.011003552342867096,
+    "sampled_board_memory_max_mib": 1519
+  },
+  "recommended_server_limits": {
+    "max_splats": 2500000,
+    "max_file_bytes": 671088640,
+    "max_loaded_blocks": 1
+  },
+  "server_limit_note": "Explicit process CLI options are required; manifest metadata does not raise server defaults.",
+  "lidar_overlay_enabled": false,
+  "direction_support_enabled": false,
+  "summary": {
+    "models": 1,
+    "ply_gaussians": 2498837,
+    "checkpoint_gaussians": 2498842,
+    "completed_iterations": 15000,
+    "high_fidelity_accepted": false,
+    "quality_status": "failed_not_promoted",
+    "metric_split": "dev",
+    "metric_scope": "block015 DEV20, native checkpoint; not whole-building DEV408",
+    "psnr_db_mean": 27.17422244182101,
+    "ssim_valid_mean": 0.7750555247068405,
+    "evaluation_report": {
+      "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json",
+      "sha256": "a26aae2c1eab6ec9b931e6ef8af03f3ccf9506a27afa2c5dd03f8933c14f29bc"
+    },
+    "acceptance_plan": {
+      "path": "reports/acceptance_plan_v1.json",
+      "sha256": "150ef4619734eebcedc64162e5e4d63eb853d86e1e8d67bd5a484397be769101",
+      "plan_id": "88c1efd22ff3a2daa682315e311d8934f85a06bca3d8471c2245382df96cc03d"
+    }
+  }
+}

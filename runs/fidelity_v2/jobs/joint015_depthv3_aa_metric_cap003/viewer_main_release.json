@@ -1,0 +1,5 @@
+{
+  "released_at": "2026-10-09T13:10:44.633694+08:00",
+  "condition": "Training held GPU lock through process exit; completed step14999 verified after acquiring released lock",
+  "checkpoint_sha256": "8c969f712d8d3b3588a9ef3fbfe4a8cd8612e79daf6a9ceed0da9979436dc3fa"
+}

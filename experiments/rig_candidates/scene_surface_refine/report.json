@@ -1,0 +1,130 @@
+{
+  "camera_2": {
+    "rotation_delta_deg": [
+      -0.06515208060684421,
+      -0.36470308744390434,
+      -0.007833659948531402
+    ],
+    "train_before": {
+      "tracks": 1187,
+      "median_measured_surface_nn_m": 0.22113606663789842,
+      "p95_measured_surface_nn_m": 1.1099059045172486,
+      "median_ray_gap_m": 0.011392287525495022
+    },
+    "train_after": {
+      "tracks": 1185,
+      "median_measured_surface_nn_m": 0.21755468016817567,
+      "p95_measured_surface_nn_m": 1.1031083793537124,
+      "median_ray_gap_m": 0.011240229811621134
+    },
+    "dev_before": {
+      "tracks": 627,
+      "median_measured_surface_nn_m": 0.2175261497608993,
+      "p95_measured_surface_nn_m": 1.3341614343087207,
+      "median_ray_gap_m": 0.012478081929563548
+    },
+    "dev_after": {
+      "tracks": 626,
+      "median_measured_surface_nn_m": 0.22335548345506406,
+      "p95_measured_surface_nn_m": 1.3414875008118987,
+      "median_ray_gap_m": 0.012031774008127483
+    },
+    "nfev": 20
+  },
+  "camera_3": {
+    "rotation_delta_deg": [
+      0.1631080590933455,
+      0.05217194819609714,
+      0.04729421656191044
+    ],
+    "train_before": {
+      "tracks": 3384,
+      "median_measured_surface_nn_m": 0.5621372406490759,
+      "p95_measured_surface_nn_m": 2.315957598799746,
+      "median_ray_gap_m": 0.018697795188365646
+    },
+    "train_after": {
+      "tracks": 3390,
+      "median_measured_surface_nn_m": 0.5571339199367258,
+      "p95_measured_surface_nn_m": 2.2546963795207966,
+      "median_ray_gap_m": 0.018904390485650346
+    },
+    "dev_before": {
+      "tracks": 1541,
+      "median_measured_surface_nn_m": 0.5602696676266178,
+      "p95_measured_surface_nn_m": 2.397753734852078,
+      "median_ray_gap_m": 0.01890040948403639
+    },
+    "dev_after": {
+      "tracks": 1545,
+      "median_measured_surface_nn_m": 0.5646947455854654,
+      "p95_measured_surface_nn_m": 2.3319509833091208,
+      "median_ray_gap_m": 0.018965820682669114
+    },
+    "nfev": 18
+  },
+  "camera_4": {
+    "rotation_delta_deg": [
+      0.27826385035031825,
+      0.07351764008994942,
+      0.037691766563528524
+    ],
+    "train_before": {
+      "tracks": 2758,
+      "median_measured_surface_nn_m": 0.4161827783615299,
+      "p95_measured_surface_nn_m": 2.0909849013803323,
+      "median_ray_gap_m": 0.018032161703924854
+    },
+    "train_after": {
+      "tracks": 2760,
+      "median_measured_surface_nn_m": 0.4001123645005365,
+      "p95_measured_surface_nn_m": 2.031942880190323,
+      "median_ray_gap_m": 0.018590158505493434
+    },
+    "dev_before": {
+      "tracks": 1440,
+      "median_measured_surface_nn_m": 0.42339165919612226,
+      "p95_measured_surface_nn_m": 2.227975594954828,
+      "median_ray_gap_m": 0.01900427197654301
+    },
+    "dev_after": {
+      "tracks": 1442,
+      "median_measured_surface_nn_m": 0.41650909653070123,
+      "p95_measured_surface_nn_m": 2.2051470156582513,
+      "median_ray_gap_m": 0.019468930180503146
+    },
+    "nfev": 16
+  },
+  "camera_5": {
+    "rotation_delta_deg": [
+      0.4051987647976166,
+      -0.04806951518429034,
+      -0.4321579255618611
+    ],
+    "train_before": {
+      "tracks": 1337,
+      "median_measured_surface_nn_m": 0.3746992881256165,
+      "p95_measured_surface_nn_m": 1.7804230853150411,
+      "median_ray_gap_m": 0.01613801893279567
+    },
+    "train_after": {
+      "tracks": 1340,
+      "median_measured_surface_nn_m": 0.36971509338723346,
+      "p95_measured_surface_nn_m": 1.6899870635691845,
+      "median_ray_gap_m": 0.018594140979027996
+    },
+    "dev_before": {
+      "tracks": 709,
+      "median_measured_surface_nn_m": 0.40924142534397423,
+      "p95_measured_surface_nn_m": 1.7190019197167072,
+      "median_ray_gap_m": 0.012629317101042002
+    },
+    "dev_after": {
+      "tracks": 708,
+      "median_measured_surface_nn_m": 0.39310093633851995,
+      "p95_measured_surface_nn_m": 1.6887737552626259,
+      "median_ray_gap_m": 0.012689417383006227
+    },
+    "nfev": 15
+  }
+}

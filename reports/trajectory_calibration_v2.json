@@ -1,0 +1,305 @@
+{
+  "status": "stage4_small_sample_completed_no_promotion",
+  "production_trajectory_changed": false,
+  "calibration_verified": false,
+  "topic_mapping_verified": false,
+  "gpu_used": false,
+  "actual_lio_quality": {
+    "poses": 8245,
+    "start_header_ns": 1720267881300294161,
+    "end_header_ns": 1720268705700001001,
+    "duration_s": 824.39970684,
+    "all_finite": true,
+    "local_nonincreasing_pairs": 0,
+    "clock_order_within_tolerance": true,
+    "max_header_lateness_ns": 0,
+    "thresholds": {
+      "max_speed_m_s": 20.0,
+      "max_step_m": 5.0,
+      "max_displacement_m": 2000.0,
+      "reorder_tolerance_ns": 1000000
+    },
+    "note": "Plausibility screening is not pose accuracy or external ground truth. Speed checks omit intervals <10ms so timestamp jitter cannot masquerade as large motion.",
+    "status": "motion_plausible_unverified",
+    "arc_length_m": 680.9206724421455,
+    "max_step_m": 0.17510923918444996,
+    "max_speed_m_s": 1.752493791029434,
+    "max_displacement_m": 91.34772050178526,
+    "bbox_min_m": [
+      -24.145901676060944,
+      -53.118335302217105,
+      -1.9167107630868543
+    ],
+    "bbox_max_m": [
+      86.467321651159,
+      60.20166655265675,
+      18.30932648570288
+    ],
+    "last_position_m": [
+      51.76067431058237,
+      -53.11724096032212,
+      18.268029873226837
+    ],
+    "bad_motion_intervals": 0,
+    "first_bad_motion_header_ns": null,
+    "first_bad_motion_relative_s": null
+  },
+  "device_vio_source": "/orbvi/vio/odometry, not used for block015 training",
+  "actual_lio_source": "/aft_mapped_to_init, data/all_lio_candidate/odometry.csv",
+  "block015_camera_chain_closure": {
+    "frames": 320,
+    "max_element_abs_error": 0.0,
+    "chain": "T_world_body @ T_body_camera @ diag(1,-1,-1,1); OpenCV to OpenGL camera-axis conversion; world unchanged"
+  },
+  "source_map_exact_subset_probe": {
+    "passed": true,
+    "sampled": 128,
+    "exact_matches": 128,
+    "source": "/home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/maps/CZY_DATA/height_continuity_release/czy_joint_raw_map.pcd",
+    "source_points": 19199150,
+    "note": "exact subset provenance only; same-run reference is not independent ground truth"
+  },
+  "same_capture_same_lio_map": true,
+  "independent_geometry_validation": false,
+  "extraction": {
+    "native_scans": 20,
+    "icp_windows": 3,
+    "mapping_scans": 5,
+    "bag_size_bytes": 24545241324,
+    "raw_bag": "/home/chaoszzss/dataset/rosbag/orbvi_4vl_data_czy_all.bag",
+    "method": "exact indexed bag_ns seek, matched header_ns; 20 Livox payloads, no full extraction"
+  },
+  "icp_local_candidates": [
+    {
+      "path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/trajectory_calibration_v2_icp_repro/window_00_candidate.csv",
+      "poses": 5,
+      "header_ns": [
+        1720268321200346470,
+        1720268321300286770,
+        1720268321400252104,
+        1720268321500251770,
+        1720268321600151777
+      ],
+      "max_actual_translation_m": 0.023746805353908055,
+      "max_actual_vertical_m": 0.023708235939189137,
+      "original_csv_unchanged": true,
+      "global_use_supported": false
+    }
+  ],
+  "icp_summary": [
+    {
+      "window": 0,
+      "accepted_local_candidate": true,
+      "before_plane_rmse_m": 0.0336364930909533,
+      "after_plane_rmse_m": 0.03270804380563175,
+      "before_nn_median_m": 0.08747860445950092,
+      "after_nn_median_m": 0.08704401761815155,
+      "improvement_fraction": 0.02760244008824031,
+      "holdout_points": 3668,
+      "local_translation_m": 0.02195508108048516,
+      "rotation_deg": 0.32442087116071644,
+      "reasons": []
+    },
+    {
+      "window": 1,
+      "accepted_local_candidate": false,
+      "before_plane_rmse_m": 0.030792835026515992,
+      "after_plane_rmse_m": 0.031157765857656367,
+      "before_nn_median_m": 0.0859153813294186,
+      "after_nn_median_m": 0.08600580493759451,
+      "improvement_fraction": -0.011851160532186489,
+      "holdout_points": 2452,
+      "local_translation_m": 0.018082998833924824,
+      "rotation_deg": 0.2991076428387735,
+      "reasons": [
+        "holdout_plane_improvement_below_two_percent"
+      ]
+    },
+    {
+      "window": 2,
+      "accepted_local_candidate": false,
+      "before_plane_rmse_m": 0.043230580852510934,
+      "after_plane_rmse_m": 0.04304192399492882,
+      "before_nn_median_m": 0.09150962488176312,
+      "after_nn_median_m": 0.09136002900576931,
+      "improvement_fraction": 0.004363967678938874,
+      "holdout_points": 5986,
+      "local_translation_m": 0.006206988567231295,
+      "rotation_deg": 0.12041272256025648,
+      "reasons": [
+        "holdout_plane_improvement_below_two_percent"
+      ]
+    }
+  ],
+  "mapping_gate": {
+    "verified": false,
+    "topic_mapping_verified": false,
+    "status": "insufficient_evidence",
+    "selected_on_train": "mapping_00",
+    "reasons": [
+      "fewer_than_two_independent_static_locations",
+      "no_independent_2d_3d_correspondence_or_capture_binding_evidence"
+    ],
+    "absolute_pixel_reprojection_error_available": false
+  },
+  "mapping_candidates": 24,
+  "mapping_valid_static_groups": 4,
+  "mapping_static_locations": 1,
+  "mapping_top5": [
+    {
+      "id": "mapping_00",
+      "mapping": {
+        "camera_2": "cam1",
+        "camera_3": "cam0",
+        "camera_4": "cam2",
+        "camera_5": "cam3"
+      },
+      "train_nmi": 0.23969526257110688,
+      "train_groups": 2,
+      "validation_nmi": 0.2409932859033504,
+      "validation_groups": 2
+    },
+    {
+      "id": "mapping_21",
+      "mapping": {
+        "camera_2": "cam3",
+        "camera_3": "cam0",
+        "camera_4": "cam2",
+        "camera_5": "cam1"
+      },
+      "train_nmi": 0.2263197821515277,
+      "train_groups": 2,
+      "validation_nmi": 0.22777573407943064,
+      "validation_groups": 2
+    },
+    {
+      "id": "mapping_02",
+      "mapping": {
+        "camera_2": "cam1",
+        "camera_3": "cam2",
+        "camera_4": "cam0",
+        "camera_5": "cam3"
+      },
+      "train_nmi": 0.21196231460781847,
+      "train_groups": 2,
+      "validation_nmi": 0.2150928653008201,
+      "validation_groups": 2
+    },
+    {
+      "id": "mapping_05",
+      "mapping": {
+        "camera_2": "cam1",
+        "camera_3": "cam3",
+        "camera_4": "cam2",
+        "camera_5": "cam0"
+      },
+      "train_nmi": 0.21064312424002854,
+      "train_groups": 2,
+      "validation_nmi": 0.21179894107833075,
+      "validation_groups": 2
+    },
+    {
+      "id": "mapping_06",
+      "mapping": {
+        "camera_2": "cam0",
+        "camera_3": "cam1",
+        "camera_4": "cam2",
+        "camera_5": "cam3"
+      },
+      "train_nmi": 0.20626286012146003,
+      "train_groups": 2,
+      "validation_nmi": 0.2077921258434365,
+      "validation_groups": 2
+    }
+  ],
+  "mapping_current_negative_controls": [
+    {
+      "candidate_id": "mapping_00",
+      "shift_px": -120,
+      "image_header_ns": 1720268343245511610,
+      "valid": true,
+      "nmi": 0.1985878528307795
+    },
+    {
+      "candidate_id": "mapping_00",
+      "shift_px": 120,
+      "image_header_ns": 1720268343245511610,
+      "valid": true,
+      "nmi": 0.21048164150118315
+    },
+    {
+      "candidate_id": "mapping_00",
+      "shift_px": -120,
+      "image_header_ns": 1720268347245843740,
+      "valid": true,
+      "nmi": 0.19945979011140624
+    },
+    {
+      "candidate_id": "mapping_00",
+      "shift_px": 120,
+      "image_header_ns": 1720268347245843740,
+      "valid": true,
+      "nmi": 0.20975132926303078
+    }
+  ],
+  "scan_image_delta_ns": [
+    5083552,
+    4769418,
+    4829929,
+    4493308
+  ],
+  "time_offset_inference": "Scan midpoint versus image is a synchronization residual, not an estimated physical exposure offset. All configured offsets remain unchanged.",
+  "reproducibility": {
+    "icp_comparison": [
+      {
+        "window": 0,
+        "correction_max_abs_delta": 0.0,
+        "metrics_max_abs_delta": 0.0,
+        "acceptance_equal": true
+      },
+      {
+        "window": 1,
+        "correction_max_abs_delta": 0.0,
+        "metrics_max_abs_delta": 0.0,
+        "acceptance_equal": true
+      },
+      {
+        "window": 2,
+        "correction_max_abs_delta": 0.0,
+        "metrics_max_abs_delta": 0.0,
+        "acceptance_equal": true
+      }
+    ],
+    "icp_tolerance": 1e-09,
+    "mapping_max_nmi_difference": 0.0,
+    "mapping_tolerance": 1e-12
+  },
+  "tests": {
+    "passed": 42,
+    "failed": 0,
+    "junit": "reports/trajectory_calibration_v2_tests.xml",
+    "new_tests": 15,
+    "command": "CUDA_VISIBLE_DEVICES='' OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 PYTHONDONTWRITEBYTECODE=1 .venv-train/bin/python -m pytest -q -p no:cacheprovider tests/test_optimize_trajectory_icp.py tests/test_calibration_mapping.py tests/test_colors_training_trajectory.py tests/test_geometry.py --basetemp=reports/trajectory_calibration_v2_test_final_tmp --junitxml=reports/trajectory_calibration_v2_tests.xml"
+  },
+  "authoritative_reports": {
+    "icp": "reports/trajectory_calibration_v2_icp_repro/quality.json",
+    "mapping": "reports/trajectory_calibration_v2_mapping_repro/mapping_quality.json",
+    "samples": "reports/trajectory_calibration_v2_samples/samples.json"
+  },
+  "preliminary_reports_note": "icp/ used mismatched source/target height support; superseded by common_support/ and icp_repro/. mapping/ lacked the explicit location-diversity gate; superseded by mapping_gated/ and mapping_repro/. All versions kept verified=false.",
+  "required_before_promotion": [
+    "Stationary LiDAR/image correspondences from multiple physical locations or capture-time physical channel binding evidence.",
+    "Independent geometry reference or scans excluded from reference-map construction for evaluating pose accuracy.",
+    "Continuity/loop validation before producing any full revised trajectory; local isolated CSVs cannot be spliced blindly.",
+    "Paired block015 full-parameter old/new trajectory training evaluation under frozen acceptance frames; >=+0.5 dB plus geometry/non-regression checks. Not performed by this CPU-only task."
+  ],
+  "files_sha256": {
+    "scripts/optimize_trajectory_icp.py": "87030af8f3ac4be428f0aa21b10fb9e90e495aa68853b791b652511e6ef607eb",
+    "scripts/calibrate_rig.py": "46e188c99abc4bffd930e5f3628e1350bda4590a379912fb9d9298fd228e0a80",
+    "tests/test_optimize_trajectory_icp.py": "9da20f39b861f84dd241e8e2691a2fa082612ee4d4c91d518b64f9e6217701f7",
+    "tests/test_calibration_mapping.py": "b02f2e8c7b650cd9d6c80740a7371ecfd8cd1df3305d4f46a94ef29c156b0a60",
+    "configs/direct_lio_refined.ego_v2.experimental.yaml": "3e43f7eab0a828c7eac751eb25f05a6b13556c37a12b2ebb9e31da661238e817",
+    "data/all_lio_candidate/odometry.csv": "5a0f49cd5fce90bea63a9cd0f57bd8c8944d727695d0ccf5c9b852fe5dcb9b42",
+    "data/reference_map_voxel01.npz": "7d1fe2a0e5bceb80d1f3c9cec53b39e08fe77057249fa8ebeed0742907e7733c"
+  }
+}

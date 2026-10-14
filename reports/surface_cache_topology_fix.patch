@@ -1,0 +1,16 @@
+--- a/src/orbvi_gaussian/lidar_splatfacto.py
++++ b/src/orbvi_gaussian/lidar_splatfacto.py
+@@ -334,6 +334,13 @@
+                     self.scales[:, 2].clamp_(max=math.log(self.config.surface_thickness_m))
+         if event:
+             duplicate, split = strategy.last_growth
++            if duplicate or split or strategy.last_pruned:
++                # Topology changes invalidate index-aligned references even when
++                # growth and pruning cancel out to the same Gaussian count.
++                self._nearest_surface = None
++                self._nearest_normal = None
++                self._nearest_normal_valid = None
++                self._last_surface_update = -1
+             self.refinement_audit['events'].append(dict(step=int(step), before=before,
+                 after=len(self.means), duplicated=duplicate, split=split, pruned=strategy.last_pruned))
+         entries=self.refinement_audit.get('events',[])

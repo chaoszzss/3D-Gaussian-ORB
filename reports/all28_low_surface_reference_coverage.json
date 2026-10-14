@@ -1,0 +1,5177 @@
+{
+  "schema_version": 1,
+  "status": "BOUNDED_REFERENCE_COVERAGE_SCREEN_COMPLETE",
+  "created_at_utc": "2026-10-09T07:30:03.847762+00:00",
+  "high_fidelity_accepted": false,
+  "geometric_acceptance": false,
+  "method": {
+    "camera": "camera_3",
+    "split": "TRAIN",
+    "normal_valid_required": true,
+    "normal_normalized": true,
+    "abs_unit_normal_z_min": 0.85,
+    "relative_world_z_band_m": [
+      -3.3,
+      -2.0
+    ],
+    "xy_radii_m": [
+      3,
+      6,
+      8,
+      12
+    ],
+    "boundaries": "inclusive",
+    "distance": "nearest_eligible_xy_m is exact XY distance across all eligible reference rows in that block; nearest_eligible_3d_m is a separate minimum. No eligible point -> null, not zero.",
+    "points": "existing lidar_reference.npz only; all stored rows examined; no extra sampling; no image/PCD/bag reads",
+    "time_relation": "group_id is the recorded grouping anchor; camera_timestamp_ns/source_header_ns/source_bag_ns are retained separately. Each group's sole TRAIN camera3 pose is used, never an interpolated group-anchor pose.",
+    "height_hint": {
+      "value_m": 2.65,
+      "measured": false,
+      "sensor": "unspecified LiDAR or camera",
+      "used_as_fixed_height": false
+    },
+    "floor_assignment": "unassigned; world Z bands and block IDs are not measured floor labels"
+  },
+  "overall": {
+    "blocks": 28,
+    "block_group_rows": 1708,
+    "unique_camera3_timegroups": 1421,
+    "repeated_block_group_rows": 287,
+    "max_repeated_group_camera_xyz_spread_m": 0.0,
+    "radius_support_block_group_weighted": {
+      "3": {
+        "groups_with_support": 1120,
+        "groups_without_support": 588,
+        "with_support_fraction": 0.6557377049180327,
+        "without_support_fraction": 0.3442622950819672,
+        "point_count_per_group": {
+          "count": 1708,
+          "min": 0.0,
+          "median": 11.0,
+          "p95": 1532.3999999999978,
+          "max": 2711.0,
+          "mean": 266.7757611241218
+        }
+      },
+      "6": {
+        "groups_with_support": 1445,
+        "groups_without_support": 263,
+        "with_support_fraction": 0.8460187353629977,
+        "without_support_fraction": 0.15398126463700235,
+        "point_count_per_group": {
+          "count": 1708,
+          "min": 0.0,
+          "median": 70.5,
+          "p95": 4320.549999999994,
+          "max": 8603.0,
+          "mean": 857.2341920374707
+        }
+      },
+      "8": {
+        "groups_with_support": 1611,
+        "groups_without_support": 97,
+        "with_support_fraction": 0.9432084309133489,
+        "without_support_fraction": 0.056791569086651054,
+        "point_count_per_group": {
+          "count": 1708,
+          "min": 0.0,
+          "median": 277.5,
+          "p95": 6191.449999999998,
+          "max": 12143.0,
+          "mean": 1353.02868852459
+        }
+      },
+      "12": {
+        "groups_with_support": 1678,
+        "groups_without_support": 30,
+        "with_support_fraction": 0.9824355971896955,
+        "without_support_fraction": 0.01756440281030445,
+        "point_count_per_group": {
+          "count": 1708,
+          "min": 0.0,
+          "median": 720.0,
+          "p95": 9788.699999999997,
+          "max": 17609.0,
+          "mean": 2643.5210772833725
+        }
+      }
+    },
+    "block_categories_by_radius": {
+      "3": {
+        "all_groups_without_support": [
+          "block_000",
+          "block_003",
+          "block_017"
+        ],
+        "some_groups_without_support": [
+          "block_001",
+          "block_002",
+          "block_004",
+          "block_005",
+          "block_006",
+          "block_007",
+          "block_010",
+          "block_011",
+          "block_012",
+          "block_016",
+          "block_018",
+          "block_020",
+          "block_021",
+          "block_025",
+          "block_026"
+        ],
+        "all_groups_with_support": [
+          "block_008",
+          "block_009",
+          "block_013",
+          "block_014",
+          "block_015",
+          "block_019",
+          "block_022",
+          "block_023",
+          "block_024",
+          "block_027"
+        ]
+      },
+      "6": {
+        "all_groups_without_support": [
+          "block_003"
+        ],
+        "some_groups_without_support": [
+          "block_000",
+          "block_001",
+          "block_002",
+          "block_004",
+          "block_005",
+          "block_011",
+          "block_012",
+          "block_017",
+          "block_018",
+          "block_025"
+        ],
+        "all_groups_with_support": [
+          "block_006",
+          "block_007",
+          "block_008",
+          "block_009",
+          "block_010",
+          "block_013",
+          "block_014",
+          "block_015",
+          "block_016",
+          "block_019",
+          "block_020",
+          "block_021",
+          "block_022",
+          "block_023",
+          "block_024",
+          "block_026",
+          "block_027"
+        ]
+      },
+      "8": {
+        "all_groups_without_support": [],
+        "some_groups_without_support": [
+          "block_000",
+          "block_002",
+          "block_003",
+          "block_004",
+          "block_005",
+          "block_011",
+          "block_017"
+        ],
+        "all_groups_with_support": [
+          "block_001",
+          "block_006",
+          "block_007",
+          "block_008",
+          "block_009",
+          "block_010",
+          "block_012",
+          "block_013",
+          "block_014",
+          "block_015",
+          "block_016",
+          "block_018",
+          "block_019",
+          "block_020",
+          "block_021",
+          "block_022",
+          "block_023",
+          "block_024",
+          "block_025",
+          "block_026",
+          "block_027"
+        ]
+      },
+      "12": {
+        "all_groups_without_support": [],
+        "some_groups_without_support": [
+          "block_000",
+          "block_003",
+          "block_004"
+        ],
+        "all_groups_with_support": [
+          "block_001",
+          "block_002",
+          "block_005",
+          "block_006",
+          "block_007",
+          "block_008",
+          "block_009",
+          "block_010",
+          "block_011",
+          "block_012",
+          "block_013",
+          "block_014",
+          "block_015",
+          "block_016",
+          "block_017",
+          "block_018",
+          "block_019",
+          "block_020",
+          "block_021",
+          "block_022",
+          "block_023",
+          "block_024",
+          "block_025",
+          "block_026",
+          "block_027"
+        ]
+      }
+    },
+    "nearest_eligible_xy_m": {
+      "count": 1708,
+      "min": 0.010017962530387288,
+      "median": 1.4384287401546612,
+      "p95": 8.284005485711893,
+      "max": 18.35275844420693,
+      "mean": 2.7570428455718967
+    },
+    "camera3_timestamp_differs_from_group_rows": 115,
+    "camera3_timestamp_minus_group_ns": {
+      "count": 1708,
+      "min": -5003000.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 5003000.0,
+      "mean": -137670.37470725997
+    },
+    "source_header_equals_camera_timestamp_all": true,
+    "camera3_z_range_m": [
+      -2.0220455679968183,
+      18.19816715835109
+    ],
+    "reference_rows_total_not_unique": 11200000
+  },
+  "blocks": [
+    {
+      "block_id": "block_000",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_000/lidar_reference.npz",
+      "reference_sha256": "2548a3c95307709c60560e56372949f4a75c7018908ae02c20977d19dd76261f",
+      "transforms_path": "data/garage_surface_v1/block_000/transforms.json",
+      "transforms_sha256": "3ca4b4989c9dd6d25af02595fc43ec7711c02630430c6b4fecae2a7a3ad380bb",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 287191,
+      "trusted_finite_normal_points": 287191,
+      "trusted_horizontal_points": 104621,
+      "reference_xyz_range_m": {
+        "x": [
+          -18.010478973388672,
+          38.73544692993164
+        ],
+        "y": [
+          -35.53125,
+          18.013689041137695
+        ],
+        "z": [
+          -3.865673065185547,
+          5.162424087524414
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -18.010459899902344,
+          38.73529815673828
+        ],
+        "y": [
+          -35.53125,
+          18.01361846923828
+        ],
+        "z": [
+          -3.0373353958129883,
+          5.162382125854492
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 207,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          6.127493381500244,
+          38.672706604003906
+        ],
+        "y": [
+          -19.31605339050293,
+          11.051490783691406
+        ],
+        "z": [
+          -3.0373353958129883,
+          -2.0927536487579346
+        ]
+      },
+      "train_frames": 276,
+      "train_groups": 69,
+      "train_camera3_groups": 69,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          0.05774529950491116,
+          20.809595911524983
+        ],
+        "y": [
+          -18.612881732958684,
+          -0.047961654721557404
+        ],
+        "z": [
+          -0.11335510345610214,
+          0.053741262406556814
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720267881750246842",
+        "1720267920250103766"
+      ],
+      "group_id_range": [
+        "1720267881750246842",
+        "1720267920250103766"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 69,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 0,
+          "groups_without_support": 69,
+          "with_support_fraction": 0.0,
+          "without_support_fraction": 1.0,
+          "point_count_per_group": {
+            "count": 69,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        },
+        "6": {
+          "groups_with_support": 8,
+          "groups_without_support": 61,
+          "with_support_fraction": 0.11594202898550725,
+          "without_support_fraction": 0.8840579710144928,
+          "point_count_per_group": {
+            "count": 69,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 1.0,
+            "max": 2.0,
+            "mean": 0.13043478260869565
+          }
+        },
+        "8": {
+          "groups_with_support": 36,
+          "groups_without_support": 33,
+          "with_support_fraction": 0.5217391304347826,
+          "without_support_fraction": 0.4782608695652174,
+          "point_count_per_group": {
+            "count": 69,
+            "min": 0.0,
+            "median": 1.0,
+            "p95": 6.0,
+            "max": 7.0,
+            "mean": 1.608695652173913
+          }
+        },
+        "12": {
+          "groups_with_support": 47,
+          "groups_without_support": 22,
+          "with_support_fraction": 0.6811594202898551,
+          "without_support_fraction": 0.3188405797101449,
+          "point_count_per_group": {
+            "count": 69,
+            "min": 0.0,
+            "median": 26.0,
+            "p95": 55.99999999999997,
+            "max": 82.0,
+            "mean": 20.52173913043478
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 69,
+        "min": 5.160215945990969,
+        "median": 7.371869858223487,
+        "p95": 18.350624823304738,
+        "max": 18.35275844420693,
+        "mean": 10.079478565531236
+      },
+      "nearest_eligible_3d_m": {
+        "count": 69,
+        "min": 5.548689105986915,
+        "median": 7.668165258592492,
+        "p95": 18.473223898264624,
+        "max": 18.475350399975156,
+        "mean": 10.333940960894651
+      }
+    },
+    {
+      "block_id": "block_001",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_001/lidar_reference.npz",
+      "reference_sha256": "d9e3c48273961334d3c5363306ff6834c5428e5cda3dd14ca04b7fe2671e9725",
+      "transforms_path": "data/garage_surface_v1/block_001/transforms.json",
+      "transforms_sha256": "59ec6d0a6eafcc15f8468ecb521b3ab767ab43bdb44270ad892105d7888cee40",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 286695,
+      "trusted_finite_normal_points": 286695,
+      "trusted_horizontal_points": 102922,
+      "reference_xyz_range_m": {
+        "x": [
+          -1.8286550045013428,
+          58.33088684082031
+        ],
+        "y": [
+          -35.53125,
+          15.60572624206543
+        ],
+        "z": [
+          -5.2929253578186035,
+          5.1496992111206055
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -1.8286020755767822,
+          58.32910919189453
+        ],
+        "y": [
+          -35.53125,
+          15.605464935302734
+        ],
+        "z": [
+          -3.347024440765381,
+          5.1496992111206055
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 237,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          6.127493381500244,
+          51.04557418823242
+        ],
+        "y": [
+          -19.31605339050293,
+          12.030580520629883
+        ],
+        "z": [
+          -3.347024440765381,
+          -2.0158212184906006
+        ]
+      },
+      "train_frames": 212,
+      "train_groups": 53,
+      "train_camera3_groups": 53,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          16.25947578447839,
+          40.38670353709645
+        ],
+        "y": [
+          -18.612881732958684,
+          -2.3257510051944483
+        ],
+        "z": [
+          -0.6980755133196812,
+          0.040339401850540677
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720267914250001940",
+        "1720267943749716151"
+      ],
+      "group_id_range": [
+        "1720267914250001940",
+        "1720267943749716151"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 53,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 9,
+          "groups_without_support": 44,
+          "with_support_fraction": 0.16981132075471697,
+          "without_support_fraction": 0.8301886792452831,
+          "point_count_per_group": {
+            "count": 53,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 2.0,
+            "max": 2.0,
+            "mean": 0.2641509433962264
+          }
+        },
+        "6": {
+          "groups_with_support": 49,
+          "groups_without_support": 4,
+          "with_support_fraction": 0.9245283018867925,
+          "without_support_fraction": 0.07547169811320754,
+          "point_count_per_group": {
+            "count": 53,
+            "min": 0.0,
+            "median": 3.0,
+            "p95": 20.4,
+            "max": 22.0,
+            "mean": 6.09433962264151
+          }
+        },
+        "8": {
+          "groups_with_support": 53,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 53,
+            "min": 2.0,
+            "median": 21.0,
+            "p95": 41.0,
+            "max": 44.0,
+            "mean": 19.69811320754717
+          }
+        },
+        "12": {
+          "groups_with_support": 53,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 53,
+            "min": 26.0,
+            "median": 49.0,
+            "p95": 134.0,
+            "max": 136.0,
+            "mean": 71.60377358490567
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 53,
+        "min": 2.3977675935585276,
+        "median": 4.3506788529949345,
+        "p95": 6.062956073258032,
+        "max": 6.312455106311052,
+        "mean": 4.354811177592367
+      },
+      "nearest_eligible_3d_m": {
+        "count": 53,
+        "min": 3.199306027236069,
+        "median": 4.796298540589197,
+        "p95": 6.44323461660969,
+        "max": 6.663120547592295,
+        "mean": 4.858931278059024
+      }
+    },
+    {
+      "block_id": "block_002",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_002/lidar_reference.npz",
+      "reference_sha256": "5d4e64df00c81e1a06ab5231a5411a485419dd5f1b54bdd684c132a4e0be617c",
+      "transforms_path": "data/garage_surface_v1/block_002/transforms.json",
+      "transforms_sha256": "6b9ac93937d42144261046e98274f5d6d8f1ba5332ca119770df092b021252c2",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 289642,
+      "trusted_finite_normal_points": 289642,
+      "trusted_horizontal_points": 100766,
+      "reference_xyz_range_m": {
+        "x": [
+          18.8104190826416,
+          65.98323059082031
+        ],
+        "y": [
+          -23.275901794433594,
+          34.70762252807617
+        ],
+        "z": [
+          -5.878025531768799,
+          4.54229211807251
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          18.810636520385742,
+          63.4152717590332
+        ],
+        "y": [
+          -23.272062301635742,
+          34.707313537597656
+        ],
+        "z": [
+          -3.646360397338867,
+          4.542274475097656
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 206,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          19.609344482421875,
+          63.02185821533203
+        ],
+        "y": [
+          -11.66557788848877,
+          30.86770248413086
+        ],
+        "z": [
+          -3.646360397338867,
+          -2.570463180541992
+        ]
+      },
+      "train_frames": 224,
+      "train_groups": 56,
+      "train_camera3_groups": 56,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          36.86656508912565,
+          49.77137478645506
+        ],
+        "y": [
+          -5.20786796200035,
+          16.76576685599318
+        ],
+        "z": [
+          -1.2399986851402611,
+          -0.5686805041925325
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720267939249846254",
+        "1720267970749575766"
+      ],
+      "group_id_range": [
+        "1720267939249846254",
+        "1720267970749575766"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 56,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 6,
+          "groups_without_support": 50,
+          "with_support_fraction": 0.10714285714285714,
+          "without_support_fraction": 0.8928571428571429,
+          "point_count_per_group": {
+            "count": 56,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 1.75,
+            "max": 7.0,
+            "mean": 0.3392857142857143
+          }
+        },
+        "6": {
+          "groups_with_support": 38,
+          "groups_without_support": 18,
+          "with_support_fraction": 0.6785714285714286,
+          "without_support_fraction": 0.32142857142857145,
+          "point_count_per_group": {
+            "count": 56,
+            "min": 0.0,
+            "median": 1.0,
+            "p95": 7.0,
+            "max": 19.0,
+            "mean": 2.107142857142857
+          }
+        },
+        "8": {
+          "groups_with_support": 52,
+          "groups_without_support": 4,
+          "with_support_fraction": 0.9285714285714286,
+          "without_support_fraction": 0.07142857142857142,
+          "point_count_per_group": {
+            "count": 56,
+            "min": 0.0,
+            "median": 7.0,
+            "p95": 24.0,
+            "max": 31.0,
+            "mean": 9.125
+          }
+        },
+        "12": {
+          "groups_with_support": 56,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 56,
+            "min": 6.0,
+            "median": 15.5,
+            "p95": 37.5,
+            "max": 49.0,
+            "mean": 19.071428571428573
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 56,
+        "min": 1.6801977492095752,
+        "median": 4.72560163459759,
+        "p95": 8.359038223440377,
+        "max": 9.09012659820966,
+        "mean": 5.045664802764092
+      },
+      "nearest_eligible_3d_m": {
+        "count": 56,
+        "min": 2.629381331798399,
+        "median": 5.138743390337227,
+        "p95": 8.597973393515225,
+        "max": 9.317841471888013,
+        "mean": 5.512760284194129
+      }
+    },
+    {
+      "block_id": "block_003",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_003/lidar_reference.npz",
+      "reference_sha256": "1e23307aa395ad4e3b3244f7bad1af6675e244b5296cbcaae675ba9c703b48ec",
+      "transforms_path": "data/garage_surface_v1/block_003/transforms.json",
+      "transforms_sha256": "147d76322c94a7a9c6590cc4a654e2ba93583923b15341e457e3328ed87e41e1",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 290835,
+      "trusted_finite_normal_points": 290835,
+      "trusted_horizontal_points": 107274,
+      "reference_xyz_range_m": {
+        "x": [
+          10.63174057006836,
+          65.13484954833984
+        ],
+        "y": [
+          -4.90219259262085,
+          54.381187438964844
+        ],
+        "z": [
+          -6.256010055541992,
+          3.911097288131714
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          10.635879516601562,
+          63.4152717590332
+        ],
+        "y": [
+          -4.900648593902588,
+          54.381187438964844
+        ],
+        "z": [
+          -3.6836862564086914,
+          3.9109134674072266
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 72,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          12.605587005615234,
+          53.76022720336914
+        ],
+        "y": [
+          16.62859535217285,
+          42.22105026245117
+        ],
+        "z": [
+          -3.6836862564086914,
+          -3.2021656036376953
+        ]
+      },
+      "train_frames": 232,
+      "train_groups": 58,
+      "train_camera3_groups": 58,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          28.559747745781177,
+          47.068594442936764
+        ],
+        "y": [
+          13.158509454677015,
+          36.436573387454644
+        ],
+        "z": [
+          -1.488952721453006,
+          -1.197716636736488
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720267965749663779",
+        "1720267998249328463"
+      ],
+      "group_id_range": [
+        "1720267965749663779",
+        "1720267998249328463"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 58,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 0,
+          "groups_without_support": 58,
+          "with_support_fraction": 0.0,
+          "without_support_fraction": 1.0,
+          "point_count_per_group": {
+            "count": 58,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        },
+        "6": {
+          "groups_with_support": 0,
+          "groups_without_support": 58,
+          "with_support_fraction": 0.0,
+          "without_support_fraction": 1.0,
+          "point_count_per_group": {
+            "count": 58,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        },
+        "8": {
+          "groups_with_support": 35,
+          "groups_without_support": 23,
+          "with_support_fraction": 0.603448275862069,
+          "without_support_fraction": 0.39655172413793105,
+          "point_count_per_group": {
+            "count": 58,
+            "min": 0.0,
+            "median": 1.0,
+            "p95": 8.149999999999999,
+            "max": 9.0,
+            "mean": 2.086206896551724
+          }
+        },
+        "12": {
+          "groups_with_support": 57,
+          "groups_without_support": 1,
+          "with_support_fraction": 0.9827586206896551,
+          "without_support_fraction": 0.017241379310344827,
+          "point_count_per_group": {
+            "count": 58,
+            "min": 0.0,
+            "median": 3.0,
+            "p95": 12.0,
+            "max": 13.0,
+            "mean": 5.258620689655173
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 58,
+        "min": 7.097082706100466,
+        "median": 7.654046187738791,
+        "p95": 10.67839824226597,
+        "max": 12.296897292033917,
+        "mean": 8.222890302551823
+      },
+      "nearest_eligible_3d_m": {
+        "count": 58,
+        "min": 7.447530402168514,
+        "median": 7.946277850794393,
+        "p95": 10.91233193707917,
+        "max": 12.5039573955633,
+        "mean": 8.506293840161277
+      }
+    },
+    {
+      "block_id": "block_004",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_004/lidar_reference.npz",
+      "reference_sha256": "1189884dc11b3ca589a5dd6a2a9a57bd85a26fbc7806b8b29c93876709a0a721",
+      "transforms_path": "data/garage_surface_v1/block_004/transforms.json",
+      "transforms_sha256": "8725adcb59cbb039765ef1a1a77672a0801a0a9ad3f648ace3ac388069a31060",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 295661,
+      "trusted_finite_normal_points": 295661,
+      "trusted_horizontal_points": 111541,
+      "reference_xyz_range_m": {
+        "x": [
+          -4.892268180847168,
+          49.602691650390625
+        ],
+        "y": [
+          14.727935791015625,
+          73.93364715576172
+        ],
+        "z": [
+          -6.758784294128418,
+          3.6835834980010986
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -4.892268180847168,
+          49.597599029541016
+        ],
+        "y": [
+          14.728096008300781,
+          73.8284683227539
+        ],
+        "z": [
+          -4.7114787101745605,
+          3.6685357093811035
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 902,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          -4.889970779418945,
+          47.8758430480957
+        ],
+        "y": [
+          23.942716598510742,
+          72.88042449951172
+        ],
+        "z": [
+          -4.7114787101745605,
+          -3.4327259063720703
+        ]
+      },
+      "train_frames": 252,
+      "train_groups": 63,
+      "train_camera3_groups": 63,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          13.227117495538632,
+          31.269531070219827
+        ],
+        "y": [
+          33.10989763415147,
+          55.73907016122682
+        ],
+        "z": [
+          -1.9180315057980322,
+          -1.430310761646785
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720267993249370469",
+        "1720268028249209576"
+      ],
+      "group_id_range": [
+        "1720267993249370469",
+        "1720268028249209576"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 63,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 16,
+          "groups_without_support": 47,
+          "with_support_fraction": 0.25396825396825395,
+          "without_support_fraction": 0.746031746031746,
+          "point_count_per_group": {
+            "count": 63,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 1.0,
+            "max": 1.0,
+            "mean": 0.25396825396825395
+          }
+        },
+        "6": {
+          "groups_with_support": 32,
+          "groups_without_support": 31,
+          "with_support_fraction": 0.5079365079365079,
+          "without_support_fraction": 0.49206349206349204,
+          "point_count_per_group": {
+            "count": 63,
+            "min": 0.0,
+            "median": 1.0,
+            "p95": 1.0,
+            "max": 1.0,
+            "mean": 0.5079365079365079
+          }
+        },
+        "8": {
+          "groups_with_support": 40,
+          "groups_without_support": 23,
+          "with_support_fraction": 0.6349206349206349,
+          "without_support_fraction": 0.36507936507936506,
+          "point_count_per_group": {
+            "count": 63,
+            "min": 0.0,
+            "median": 1.0,
+            "p95": 9.099999999999987,
+            "max": 74.0,
+            "mean": 3.3015873015873014
+          }
+        },
+        "12": {
+          "groups_with_support": 56,
+          "groups_without_support": 7,
+          "with_support_fraction": 0.8888888888888888,
+          "without_support_fraction": 0.1111111111111111,
+          "point_count_per_group": {
+            "count": 63,
+            "min": 0.0,
+            "median": 1.0,
+            "p95": 325.29999999999995,
+            "max": 366.0,
+            "mean": 44.22222222222222
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 63,
+        "min": 0.37549570195644466,
+        "median": 5.857271602315365,
+        "p95": 14.231161539030774,
+        "max": 15.751827960297192,
+        "mean": 6.5920789925803
+      },
+      "nearest_eligible_3d_m": {
+        "count": 63,
+        "min": 2.1247824639669313,
+        "median": 6.249170071713304,
+        "p95": 14.421065148010028,
+        "max": 15.92683077150905,
+        "mean": 7.113757983213957
+      }
+    },
+    {
+      "block_id": "block_005",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_005/lidar_reference.npz",
+      "reference_sha256": "2ea008e5055fd687253405d70c0003470e35512ea098bcafbf8a110b3031e474",
+      "transforms_path": "data/garage_surface_v1/block_005/transforms.json",
+      "transforms_sha256": "ac6d57c8e478a7a6a6dff9018d586d5ee3bf21352243aec140b955ad0b312889",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 305891,
+      "trusted_finite_normal_points": 305891,
+      "trusted_horizontal_points": 106983,
+      "reference_xyz_range_m": {
+        "x": [
+          -25.15865707397461,
+          34.04545211791992
+        ],
+        "y": [
+          32.9683837890625,
+          78.19853210449219
+        ],
+        "z": [
+          -6.869602203369141,
+          4.645104885101318
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -25.158430099487305,
+          34.04084777832031
+        ],
+        "y": [
+          32.968589782714844,
+          76.62459564208984
+        ],
+        "z": [
+          -4.7114787101745605,
+          4.645063400268555
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 3622,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          -17.147123336791992,
+          33.872825622558594
+        ],
+        "y": [
+          32.97864532470703,
+          75.67919921875
+        ],
+        "z": [
+          -4.7114787101745605,
+          -2.4448938369750977
+        ]
+      },
+      "train_frames": 260,
+      "train_groups": 65,
+      "train_camera3_groups": 65,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          -7.231451704111982,
+          15.974790481016887
+        ],
+        "y": [
+          50.8860189172549,
+          60.208471601437616
+        ],
+        "z": [
+          -2.0220455679968183,
+          -0.4447437748138948
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268022749163511",
+        "1720268059248789017"
+      ],
+      "group_id_range": [
+        "1720268022749163511",
+        "1720268059248789017"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 65,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 51,
+          "groups_without_support": 14,
+          "with_support_fraction": 0.7846153846153846,
+          "without_support_fraction": 0.2153846153846154,
+          "point_count_per_group": {
+            "count": 65,
+            "min": 0.0,
+            "median": 129.0,
+            "p95": 982.1999999999999,
+            "max": 1022.0,
+            "mean": 199.15384615384616
+          }
+        },
+        "6": {
+          "groups_with_support": 60,
+          "groups_without_support": 5,
+          "with_support_fraction": 0.9230769230769231,
+          "without_support_fraction": 0.07692307692307693,
+          "point_count_per_group": {
+            "count": 65,
+            "min": 0.0,
+            "median": 320.0,
+            "p95": 1802.7999999999997,
+            "max": 2197.0,
+            "mean": 443.4769230769231
+          }
+        },
+        "8": {
+          "groups_with_support": 64,
+          "groups_without_support": 1,
+          "with_support_fraction": 0.9846153846153847,
+          "without_support_fraction": 0.015384615384615385,
+          "point_count_per_group": {
+            "count": 65,
+            "min": 0.0,
+            "median": 388.0,
+            "p95": 1907.3999999999999,
+            "max": 2306.0,
+            "mean": 536.0153846153846
+          }
+        },
+        "12": {
+          "groups_with_support": 65,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 65,
+            "min": 72.0,
+            "median": 453.0,
+            "p95": 2031.6,
+            "max": 2321.0,
+            "mean": 682.9538461538461
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 65,
+        "min": 0.014801893021437655,
+        "median": 0.6554555191094936,
+        "p95": 6.856142306228048,
+        "max": 8.285516271377094,
+        "mean": 1.6227782210216017
+      },
+      "nearest_eligible_3d_m": {
+        "count": 65,
+        "min": 2.012946589793058,
+        "median": 2.1764073129534562,
+        "p95": 7.197071896144619,
+        "max": 8.575049013880484,
+        "mean": 3.03333135590496
+      }
+    },
+    {
+      "block_id": "block_006",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_006/lidar_reference.npz",
+      "reference_sha256": "9c71a1d88ae6de2fe30db81171e0ec351a33b0fc8f3866dc67e30ad26dbcfa7a",
+      "transforms_path": "data/garage_surface_v1/block_006/transforms.json",
+      "transforms_sha256": "0c5bec6acc2300d8fd694fa2a5c5eadfef194239a0deaef6405bd935cef636cf",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 293723,
+      "trusted_finite_normal_points": 293723,
+      "trusted_horizontal_points": 96629,
+      "reference_xyz_range_m": {
+        "x": [
+          -41.40168380737305,
+          14.577751159667969
+        ],
+        "y": [
+          16.613134384155273,
+          71.8427505493164
+        ],
+        "z": [
+          -6.0670294761657715,
+          7.301231861114502
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -31.815454483032227,
+          14.577751159667969
+        ],
+        "y": [
+          16.613134384155273,
+          71.79523468017578
+        ],
+        "z": [
+          -4.7114787101745605,
+          5.084173679351807
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 41235,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          -23.764684677124023,
+          14.577751159667969
+        ],
+        "y": [
+          17.08556365966797,
+          71.79523468017578
+        ],
+        "z": [
+          -4.4681477546691895,
+          0.598069965839386
+        ]
+      },
+      "train_frames": 228,
+      "train_groups": 57,
+      "train_camera3_groups": 57,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          -24.1460066197897,
+          -3.494841524521935
+        ],
+        "y": [
+          34.52252825388559,
+          53.7648969327105
+        ],
+        "z": [
+          -1.244759743210937,
+          2.5992097277976223
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268053748788975",
+        "1720268085743557375"
+      ],
+      "group_id_range": [
+        "1720268053748788975",
+        "1720268085743557375"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 57,
+        "min": -5003000.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": -175543.8596491228
+      },
+      "camera3_timestamp_differs_from_group_rows": 2,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 43,
+          "groups_without_support": 14,
+          "with_support_fraction": 0.7543859649122807,
+          "without_support_fraction": 0.24561403508771928,
+          "point_count_per_group": {
+            "count": 57,
+            "min": 0.0,
+            "median": 51.0,
+            "p95": 1022.5999999999999,
+            "max": 1055.0,
+            "mean": 266.4561403508772
+          }
+        },
+        "6": {
+          "groups_with_support": 57,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 57,
+            "min": 2.0,
+            "median": 438.0,
+            "p95": 2289.7999999999997,
+            "max": 2395.0,
+            "mean": 781.3508771929825
+          }
+        },
+        "8": {
+          "groups_with_support": 57,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 57,
+            "min": 48.0,
+            "median": 787.0,
+            "p95": 2716.2,
+            "max": 2803.0,
+            "mean": 1067.719298245614
+          }
+        },
+        "12": {
+          "groups_with_support": 57,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 57,
+            "min": 339.0,
+            "median": 1060.0,
+            "p95": 2748.6,
+            "max": 2822.0,
+            "mean": 1289.0701754385964
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 57,
+        "min": 0.014801893021437655,
+        "median": 1.6760774731751533,
+        "p95": 4.885237604852215,
+        "max": 5.842823074566318,
+        "mean": 1.903219720658886
+      },
+      "nearest_eligible_3d_m": {
+        "count": 57,
+        "min": 2.0044142048120412,
+        "median": 2.6638609156760173,
+        "p95": 5.293218487034754,
+        "max": 6.179620712129169,
+        "mean": 3.0622247611339954
+      }
+    },
+    {
+      "block_id": "block_007",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_007/lidar_reference.npz",
+      "reference_sha256": "56ccfbe80ff5d7000bfd702a87686eff1b07c3f29a28277fb7aee0994a1686b7",
+      "transforms_path": "data/garage_surface_v1/block_007/transforms.json",
+      "transforms_sha256": "3287ef37200140ba6a3e19fbb1eb9a91a149f87f79a897c75a7acf3aca69d77e",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 294662,
+      "trusted_finite_normal_points": 294662,
+      "trusted_horizontal_points": 105107,
+      "reference_xyz_range_m": {
+        "x": [
+          -41.40168380737305,
+          6.394439220428467
+        ],
+        "y": [
+          -5.048259258270264,
+          56.53694152832031
+        ],
+        "z": [
+          -2.5528268814086914,
+          7.866678237915039
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -31.518877029418945,
+          6.39352560043335
+        ],
+        "y": [
+          -5.048200607299805,
+          56.536556243896484
+        ],
+        "z": [
+          -2.5528268814086914,
+          7.535651683807373
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 12021,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          -23.764684677124023,
+          6.39352560043335
+        ],
+        "y": [
+          -5.041739463806152,
+          56.536556243896484
+        ],
+        "z": [
+          -0.9513130784034729,
+          0.759540319442749
+        ]
+      },
+      "train_frames": 320,
+      "train_groups": 80,
+      "train_camera3_groups": 80,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          -24.1460066197897,
+          -11.527314598967866
+        ],
+        "y": [
+          12.904931987847938,
+          38.45328699106204
+        ],
+        "z": [
+          2.348444929315197,
+          2.760045665525554
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268079748773602",
+        "1720268125248288653"
+      ],
+      "group_id_range": [
+        "1720268079748773602",
+        "1720268125248288653"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 80,
+        "min": -5003000.0,
+        "median": 0.0,
+        "p95": 5003000.0,
+        "max": 5003000.0,
+        "mean": 375225.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 10,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 59,
+          "groups_without_support": 21,
+          "with_support_fraction": 0.7375,
+          "without_support_fraction": 0.2625,
+          "point_count_per_group": {
+            "count": 80,
+            "min": 0.0,
+            "median": 11.0,
+            "p95": 19.0,
+            "max": 21.0,
+            "mean": 8.15
+          }
+        },
+        "6": {
+          "groups_with_support": 80,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 80,
+            "min": 1.0,
+            "median": 25.0,
+            "p95": 41.05,
+            "max": 75.0,
+            "mean": 26.175
+          }
+        },
+        "8": {
+          "groups_with_support": 80,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 80,
+            "min": 16.0,
+            "median": 47.5,
+            "p95": 130.54999999999995,
+            "max": 199.0,
+            "mean": 52.0875
+          }
+        },
+        "12": {
+          "groups_with_support": 80,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 80,
+            "min": 38.0,
+            "median": 115.5,
+            "p95": 358.4,
+            "max": 418.0,
+            "mean": 139.9
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 80,
+        "min": 0.1772636860731401,
+        "median": 1.4446442869006262,
+        "p95": 5.514635946709904,
+        "max": 5.842823074566318,
+        "mean": 2.069119020355567
+      },
+      "nearest_eligible_3d_m": {
+        "count": 80,
+        "min": 2.0335814522974363,
+        "median": 2.7241966583151287,
+        "p95": 6.041796236379758,
+        "max": 6.434585023121141,
+        "mean": 3.2256096883046865
+      }
+    },
+    {
+      "block_id": "block_008",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_008/lidar_reference.npz",
+      "reference_sha256": "70a6eacef62f16784deb68f4d8f071363f2811945dcd9341e5817b7c9c9c0653",
+      "transforms_path": "data/garage_surface_v1/block_008/transforms.json",
+      "transforms_sha256": "c8adc8d6856666b69d3e8b5c56aaa6822446b6927c4a55212592e9bf9ec7d6cd",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 290751,
+      "trusted_finite_normal_points": 290751,
+      "trusted_horizontal_points": 109205,
+      "reference_xyz_range_m": {
+        "x": [
+          -32.814693450927734,
+          22.551300048828125
+        ],
+        "y": [
+          -23.89716339111328,
+          34.3575553894043
+        ],
+        "z": [
+          -2.3016955852508545,
+          7.8686323165893555
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -29.940994262695312,
+          22.55069351196289
+        ],
+        "y": [
+          -23.89716339111328,
+          34.35519027709961
+        ],
+        "z": [
+          -2.2950501441955566,
+          7.8686323165893555
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 3952,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          -23.271318435668945,
+          22.55020523071289
+        ],
+        "y": [
+          -23.881107330322266,
+          34.343875885009766
+        ],
+        "z": [
+          -0.7110486626625061,
+          0.7595494389533997
+        ]
+      },
+      "train_frames": 300,
+      "train_groups": 75,
+      "train_camera3_groups": 75,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          -14.66233929064855,
+          4.618422941452168
+        ],
+        "y": [
+          -5.957421577778105,
+          16.087698229278878
+        ],
+        "z": [
+          2.5886115095536226,
+          2.760045665525554
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268113248471909",
+        "1720268155248083446"
+      ],
+      "group_id_range": [
+        "1720268113248471909",
+        "1720268155248083446"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 75,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 75,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 75,
+            "min": 1.0,
+            "median": 13.0,
+            "p95": 285.0999999999999,
+            "max": 337.0,
+            "mean": 68.8
+          }
+        },
+        "6": {
+          "groups_with_support": 75,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 75,
+            "min": 19.0,
+            "median": 85.0,
+            "p95": 911.3,
+            "max": 936.0,
+            "mean": 281.14666666666665
+          }
+        },
+        "8": {
+          "groups_with_support": 75,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 75,
+            "min": 27.0,
+            "median": 175.0,
+            "p95": 1296.3,
+            "max": 1323.0,
+            "mean": 464.41333333333336
+          }
+        },
+        "12": {
+          "groups_with_support": 75,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 75,
+            "min": 73.0,
+            "median": 646.0,
+            "p95": 1695.6,
+            "max": 1727.0,
+            "mean": 766.3866666666667
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 75,
+        "min": 0.10167496430829201,
+        "median": 1.1587666453536067,
+        "p95": 2.496227034309975,
+        "max": 2.737833306979138,
+        "mean": 1.1225050210703016
+      },
+      "nearest_eligible_3d_m": {
+        "count": 75,
+        "min": 2.027886557382732,
+        "median": 2.5133654022471346,
+        "p95": 3.233770460795858,
+        "max": 3.40153572059857,
+        "mean": 2.504249324004008
+      }
+    },
+    {
+      "block_id": "block_009",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_009/lidar_reference.npz",
+      "reference_sha256": "26f8386714b8a273a23a02fa43538c5b96d40f769bcb116716ae87b8b44fd107",
+      "transforms_path": "data/garage_surface_v1/block_009/transforms.json",
+      "transforms_sha256": "35f2c28801a38c1202138a7c68e43228b70c48556de4f3f12b1b27b311e864d2",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 287572,
+      "trusted_finite_normal_points": 287572,
+      "trusted_horizontal_points": 102255,
+      "reference_xyz_range_m": {
+        "x": [
+          -16.077163696289062,
+          40.903804779052734
+        ],
+        "y": [
+          -37.327354431152344,
+          15.511312484741211
+        ],
+        "z": [
+          -2.600253105163574,
+          7.741065502166748
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -16.07520294189453,
+          40.90372848510742
+        ],
+        "y": [
+          -35.17768478393555,
+          15.511312484741211
+        ],
+        "z": [
+          -2.598339796066284,
+          7.741022109985352
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 4485,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          -14.120165824890137,
+          40.90284729003906
+        ],
+        "y": [
+          -29.86099624633789,
+          15.511225700378418
+        ],
+        "z": [
+          -0.6983428001403809,
+          0.6312798857688904
+        ]
+      },
+      "train_frames": 220,
+      "train_groups": 55,
+      "train_camera3_groups": 55,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          1.9908388691566175,
+          22.979964748098585
+        ],
+        "y": [
+          -19.3529370749597,
+          -2.54689936588406
+        ],
+        "z": [
+          2.290738649955677,
+          2.631427910608395
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268150748017538",
+        "1720268181747951491"
+      ],
+      "group_id_range": [
+        "1720268150748017538",
+        "1720268181747951491"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 55,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 55,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 55,
+            "min": 7.0,
+            "median": 87.0,
+            "p95": 255.89999999999998,
+            "max": 274.0,
+            "mean": 92.61818181818182
+          }
+        },
+        "6": {
+          "groups_with_support": 55,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 55,
+            "min": 80.0,
+            "median": 346.0,
+            "p95": 722.9999999999999,
+            "max": 756.0,
+            "mean": 353.41818181818184
+          }
+        },
+        "8": {
+          "groups_with_support": 55,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 55,
+            "min": 272.0,
+            "median": 529.0,
+            "p95": 996.8999999999999,
+            "max": 1074.0,
+            "mean": 564.9272727272727
+          }
+        },
+        "12": {
+          "groups_with_support": 55,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 55,
+            "min": 725.0,
+            "median": 1002.0,
+            "p95": 1381.8,
+            "max": 1399.0,
+            "mean": 1035.490909090909
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 55,
+        "min": 0.07707358399340164,
+        "median": 1.1903634094734317,
+        "p95": 1.9863028173149695,
+        "max": 2.2804354745305746,
+        "mean": 1.1834118378429077
+      },
+      "nearest_eligible_3d_m": {
+        "count": 55,
+        "min": 2.1367895499413194,
+        "median": 2.443443511835494,
+        "p95": 2.88923846286803,
+        "max": 3.097860383906848,
+        "mean": 2.4648490412848174
+      }
+    },
+    {
+      "block_id": "block_010",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_010/lidar_reference.npz",
+      "reference_sha256": "0eed55800bf88ed41ba443b21ecf308005c8e1d59cbf6aef5979113285f60642",
+      "transforms_path": "data/garage_surface_v1/block_010/transforms.json",
+      "transforms_sha256": "f42e6caa1899e6fc75ce4a788225ddf7a49d228da91f501d4a9afca9b4bd3824",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 283934,
+      "trusted_finite_normal_points": 283934,
+      "trusted_horizontal_points": 105503,
+      "reference_xyz_range_m": {
+        "x": [
+          0.9674407243728638,
+          60.753360748291016
+        ],
+        "y": [
+          -37.21624755859375,
+          15.632828712463379
+        ],
+        "z": [
+          -2.600253105163574,
+          10.439610481262207
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          0.9696452617645264,
+          60.751502990722656
+        ],
+        "y": [
+          -37.21347427368164,
+          15.63259220123291
+        ],
+        "z": [
+          -2.5971672534942627,
+          10.437480926513672
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 39029,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          0.9696452617645264,
+          60.751502990722656
+        ],
+        "y": [
+          -34.31085205078125,
+          15.632513046264648
+        ],
+        "z": [
+          -0.7757870554924011,
+          3.3432507514953613
+        ]
+      },
+      "train_frames": 216,
+      "train_groups": 54,
+      "train_camera3_groups": 54,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          19.055170673801758,
+          42.82611784563605
+        ],
+        "y": [
+          -19.19610053899776,
+          -2.290639029942706
+        ],
+        "z": [
+          2.290738649955677,
+          5.343386122143029
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268175747868676",
+        "1720268206247785847"
+      ],
+      "group_id_range": [
+        "1720268175747868676",
+        "1720268206247785847"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 54,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 51,
+          "groups_without_support": 3,
+          "with_support_fraction": 0.9444444444444444,
+          "without_support_fraction": 0.05555555555555555,
+          "point_count_per_group": {
+            "count": 54,
+            "min": 0.0,
+            "median": 169.0,
+            "p95": 1057.1999999999996,
+            "max": 1241.0,
+            "mean": 320.5925925925926
+          }
+        },
+        "6": {
+          "groups_with_support": 54,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 54,
+            "min": 8.0,
+            "median": 485.5,
+            "p95": 3858.75,
+            "max": 3905.0,
+            "mean": 1108.4444444444443
+          }
+        },
+        "8": {
+          "groups_with_support": 54,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 54,
+            "min": 20.0,
+            "median": 699.5,
+            "p95": 5475.299999999999,
+            "max": 5846.0,
+            "mean": 1672.9814814814815
+          }
+        },
+        "12": {
+          "groups_with_support": 54,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 54,
+            "min": 34.0,
+            "median": 1295.0,
+            "p95": 8622.65,
+            "max": 9296.0,
+            "mean": 2941.8703703703704
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 54,
+        "min": 0.010017962530387288,
+        "median": 0.6083977560083114,
+        "p95": 2.9834611150853796,
+        "max": 3.940253831780709,
+        "mean": 0.9683638553134514
+      },
+      "nearest_eligible_3d_m": {
+        "count": 54,
+        "min": 2.0340163465973804,
+        "median": 2.477285985358519,
+        "p95": 3.700650332460398,
+        "max": 4.575881019972311,
+        "mean": 2.567851619154546
+      }
+    },
+    {
+      "block_id": "block_011",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_011/lidar_reference.npz",
+      "reference_sha256": "4badc7fe93f309088078b171a6618aac7202931836ece011fd92a18cd9c4a5fb",
+      "transforms_path": "data/garage_surface_v1/block_011/transforms.json",
+      "transforms_sha256": "33037717a06616e6d7678a3d6bda0a30b9d6ea6334bb88a555f1836c9a0c4d47",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 289118,
+      "trusted_finite_normal_points": 289118,
+      "trusted_horizontal_points": 113901,
+      "reference_xyz_range_m": {
+        "x": [
+          20.937166213989258,
+          68.36752319335938
+        ],
+        "y": [
+          -23.284536361694336,
+          34.69606399536133
+        ],
+        "z": [
+          -0.11113429069519043,
+          11.103271484375
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          20.93718719482422,
+          68.30427551269531
+        ],
+        "y": [
+          -23.28082847595215,
+          34.69606399536133
+        ],
+        "z": [
+          -0.11113429069519043,
+          11.103257179260254
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 16263,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          20.93992042541504,
+          59.510433197021484
+        ],
+        "y": [
+          -23.22855567932129,
+          26.34739112854004
+        ],
+        "z": [
+          1.5466132164001465,
+          3.9537177085876465
+        ]
+      },
+      "train_frames": 236,
+      "train_groups": 59,
+      "train_camera3_groups": 59,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          39.383528126356644,
+          50.36839005525241
+        ],
+        "y": [
+          -4.911008646229584,
+          16.73255129210711
+        ],
+        "z": [
+          4.846575661304078,
+          5.996431142874637
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268201247825062",
+        "1720268234247547286"
+      ],
+      "group_id_range": [
+        "1720268201247825062",
+        "1720268234247547286"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 59,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 28,
+          "groups_without_support": 31,
+          "with_support_fraction": 0.4745762711864407,
+          "without_support_fraction": 0.5254237288135594,
+          "point_count_per_group": {
+            "count": 59,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 24.099999999999994,
+            "max": 26.0,
+            "mean": 5.88135593220339
+          }
+        },
+        "6": {
+          "groups_with_support": 33,
+          "groups_without_support": 26,
+          "with_support_fraction": 0.559322033898305,
+          "without_support_fraction": 0.4406779661016949,
+          "point_count_per_group": {
+            "count": 59,
+            "min": 0.0,
+            "median": 3.0,
+            "p95": 79.7999999999995,
+            "max": 206.0,
+            "mean": 29.8135593220339
+          }
+        },
+        "8": {
+          "groups_with_support": 53,
+          "groups_without_support": 6,
+          "with_support_fraction": 0.8983050847457628,
+          "without_support_fraction": 0.1016949152542373,
+          "point_count_per_group": {
+            "count": 59,
+            "min": 0.0,
+            "median": 26.0,
+            "p95": 466.1999999999992,
+            "max": 917.0,
+            "mean": 87.45762711864407
+          }
+        },
+        "12": {
+          "groups_with_support": 59,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 59,
+            "min": 21.0,
+            "median": 69.0,
+            "p95": 1865.8999999999985,
+            "max": 4220.0,
+            "mean": 370.52542372881356
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 59,
+        "min": 0.20345032815831066,
+        "median": 4.170966640767037,
+        "p95": 8.24179204774769,
+        "max": 8.92550121255598,
+        "mean": 4.516013976259954
+      },
+      "nearest_eligible_3d_m": {
+        "count": 59,
+        "min": 2.0340163465973804,
+        "median": 4.677250185012735,
+        "p95": 8.503682579776855,
+        "max": 9.172071232258412,
+        "mean": 5.216778597121103
+      }
+    },
+    {
+      "block_id": "block_012",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_012/lidar_reference.npz",
+      "reference_sha256": "02649d45e5a8479ea319c2e3c4a82de310545cbfe244ceabd15a957bc95fa638",
+      "transforms_path": "data/garage_surface_v1/block_012/transforms.json",
+      "transforms_sha256": "f0969552f042924e35ac82a7bfa518674ca5a61596984f86baf424ee6f0aaf82",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 291231,
+      "trusted_finite_normal_points": 291231,
+      "trusted_horizontal_points": 121326,
+      "reference_xyz_range_m": {
+        "x": [
+          5.0442795753479,
+          64.94004821777344
+        ],
+        "y": [
+          -13.994389533996582,
+          35.12986373901367
+        ],
+        "z": [
+          1.0540302991867065,
+          11.582277297973633
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          5.045339107513428,
+          64.93025207519531
+        ],
+        "y": [
+          -13.994367599487305,
+          35.129600524902344
+        ],
+        "z": [
+          1.0540308952331543,
+          11.582276344299316
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 3500,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          5.045939922332764,
+          59.510433197021484
+        ],
+        "y": [
+          -13.994293212890625,
+          26.34739112854004
+        ],
+        "z": [
+          2.6498496532440186,
+          4.474097728729248
+        ]
+      },
+      "train_frames": 252,
+      "train_groups": 63,
+      "train_camera3_groups": 63,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          22.98390184260829,
+          46.87713258409683
+        ],
+        "y": [
+          3.93517701701902,
+          17.138283465068184
+        ],
+        "z": [
+          5.946537482433542,
+          6.474873460903985
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268229247584558",
+        "1720268264247204920"
+      ],
+      "group_id_range": [
+        "1720268229247584558",
+        "1720268264247204920"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 63,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 21,
+          "groups_without_support": 42,
+          "with_support_fraction": 0.3333333333333333,
+          "without_support_fraction": 0.6666666666666666,
+          "point_count_per_group": {
+            "count": 63,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 4.0,
+            "max": 6.0,
+            "mean": 0.8888888888888888
+          }
+        },
+        "6": {
+          "groups_with_support": 53,
+          "groups_without_support": 10,
+          "with_support_fraction": 0.8412698412698413,
+          "without_support_fraction": 0.15873015873015872,
+          "point_count_per_group": {
+            "count": 63,
+            "min": 0.0,
+            "median": 1.0,
+            "p95": 39.39999999999998,
+            "max": 56.0,
+            "mean": 7.603174603174603
+          }
+        },
+        "8": {
+          "groups_with_support": 63,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 63,
+            "min": 1.0,
+            "median": 9.0,
+            "p95": 62.0,
+            "max": 73.0,
+            "mean": 15.0
+          }
+        },
+        "12": {
+          "groups_with_support": 63,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 63,
+            "min": 4.0,
+            "median": 26.0,
+            "p95": 106.29999999999998,
+            "max": 120.0,
+            "mean": 37.523809523809526
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 63,
+        "min": 0.3662038398131966,
+        "median": 3.811537169735561,
+        "p95": 7.427107248844113,
+        "max": 7.551360740970373,
+        "mean": 4.021477210308611
+      },
+      "nearest_eligible_3d_m": {
+        "count": 63,
+        "min": 2.7119889871638225,
+        "median": 4.542489033637901,
+        "p95": 7.717658253901921,
+        "max": 7.832545434008452,
+        "mean": 4.901843675845664
+      }
+    },
+    {
+      "block_id": "block_013",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_013/lidar_reference.npz",
+      "reference_sha256": "9803301d01d21fd82481df3c6fc17119be588c4d9e34aa32ba17fb50655da7e1",
+      "transforms_path": "data/garage_surface_v1/block_013/transforms.json",
+      "transforms_sha256": "717dd23c58d5018edd3f75467899288b0472d0c570762271de55eb3d996db607",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 291263,
+      "trusted_finite_normal_points": 291263,
+      "trusted_horizontal_points": 119001,
+      "reference_xyz_range_m": {
+        "x": [
+          -8.427680969238281,
+          44.573246002197266
+        ],
+        "y": [
+          -31.96314811706543,
+          24.83407211303711
+        ],
+        "z": [
+          1.5201817750930786,
+          11.806058883666992
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -8.427558898925781,
+          44.573246002197266
+        ],
+        "y": [
+          -31.954437255859375,
+          24.777145385742188
+        ],
+        "z": [
+          1.5201817750930786,
+          11.806050300598145
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 19944,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          -8.427427291870117,
+          44.3669319152832
+        ],
+        "y": [
+          -29.99559211730957,
+          22.81914520263672
+        ],
+        "z": [
+          3.112978219985962,
+          4.6974921226501465
+        ]
+      },
+      "train_frames": 260,
+      "train_groups": 65,
+      "train_camera3_groups": 65,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          9.563773185887053,
+          26.512820025009034
+        ],
+        "y": [
+          -14.030749014522243,
+          6.763578903614682
+        ],
+        "z": [
+          6.412972695321174,
+          6.697506550471441
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268259247299866",
+        "1720268295746835973"
+      ],
+      "group_id_range": [
+        "1720268259247299866",
+        "1720268295746835973"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 65,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 65,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 65,
+            "min": 2.0,
+            "median": 93.0,
+            "p95": 1980.4,
+            "max": 2272.0,
+            "mean": 540.123076923077
+          }
+        },
+        "6": {
+          "groups_with_support": 65,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 65,
+            "min": 25.0,
+            "median": 193.0,
+            "p95": 5120.8,
+            "max": 5576.0,
+            "mean": 1558.4615384615386
+          }
+        },
+        "8": {
+          "groups_with_support": 65,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 65,
+            "min": 38.0,
+            "median": 497.0,
+            "p95": 7164.4,
+            "max": 7608.0,
+            "mean": 2454.107692307692
+          }
+        },
+        "12": {
+          "groups_with_support": 65,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 65,
+            "min": 95.0,
+            "median": 4650.0,
+            "p95": 11077.6,
+            "max": 11105.0,
+            "mean": 4948.323076923077
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 65,
+        "min": 0.013415917333057277,
+        "median": 0.3184480950119465,
+        "p95": 1.6066132838960916,
+        "max": 2.3751855683095795,
+        "mean": 0.5178807892726155
+      },
+      "nearest_eligible_3d_m": {
+        "count": 65,
+        "min": 2.0034506858652756,
+        "median": 2.176327255573854,
+        "p95": 3.117269323218206,
+        "max": 3.563599038245867,
+        "mean": 2.3704186441199417
+      }
+    },
+    {
+      "block_id": "block_014",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_014/lidar_reference.npz",
+      "reference_sha256": "d8bff1a657dc844ed6dd19778ac29bb161a1f2d0695eae6de45a966a9dda7fa4",
+      "transforms_path": "data/garage_surface_v1/block_014/transforms.json",
+      "transforms_sha256": "099f9c44fc161e28236b174695d9d1a0df78e2a992f2f0ee95742bd625a1e869",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 275827,
+      "trusted_finite_normal_points": 275827,
+      "trusted_horizontal_points": 121876,
+      "reference_xyz_range_m": {
+        "x": [
+          -8.276955604553223,
+          49.44449996948242
+        ],
+        "y": [
+          -37.47307586669922,
+          8.178985595703125
+        ],
+        "z": [
+          1.697797417640686,
+          13.226131439208984
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          -8.276955604553223,
+          49.44449996948242
+        ],
+        "y": [
+          -37.470970153808594,
+          8.178662300109863
+        ],
+        "z": [
+          1.697829246520996,
+          12.825578689575195
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 27635,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          -8.276955604553223,
+          48.24979782104492
+        ],
+        "y": [
+          -29.84334945678711,
+          8.178285598754883
+        ],
+        "z": [
+          3.289466381072998,
+          6.129560470581055
+        ]
+      },
+      "train_frames": 248,
+      "train_groups": 62,
+      "train_camera3_groups": 62,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          9.86181601738929,
+          31.513917648327425
+        ],
+        "y": [
+          -19.479797992087224,
+          -10.284314423956303
+        ],
+        "z": [
+          6.589350455377945,
+          8.129830548050656
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268289246910156",
+        "1720268323736979134"
+      ],
+      "group_id_range": [
+        "1720268289246910156",
+        "1720268323736979134"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 62,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 62,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 62,
+            "min": 934.0,
+            "median": 1615.5,
+            "p95": 2118.35,
+            "max": 2129.0,
+            "mean": 1644.5806451612902
+          }
+        },
+        "6": {
+          "groups_with_support": 62,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 62,
+            "min": 3404.0,
+            "median": 4126.5,
+            "p95": 5235.0,
+            "max": 5427.0,
+            "mean": 4279.306451612903
+          }
+        },
+        "8": {
+          "groups_with_support": 62,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 62,
+            "min": 4670.0,
+            "median": 5815.0,
+            "p95": 6763.599999999999,
+            "max": 6909.0,
+            "mean": 5748.967741935484
+          }
+        },
+        "12": {
+          "groups_with_support": 62,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 62,
+            "min": 5918.0,
+            "median": 8224.0,
+            "p95": 9687.5,
+            "max": 9720.0,
+            "mean": 8233.193548387097
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 62,
+        "min": 0.012207469970562523,
+        "median": 0.06271634557518438,
+        "p95": 0.13994469147360233,
+        "max": 0.20815761447095832,
+        "mean": 0.06634494520882148
+      },
+      "nearest_eligible_3d_m": {
+        "count": 62,
+        "min": 2.004688063104869,
+        "median": 2.075867556541552,
+        "p95": 2.199578867026572,
+        "max": 2.2646998245285053,
+        "mean": 2.084871896506238
+      }
+    },
+    {
+      "block_id": "block_015",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_015/lidar_reference.npz",
+      "reference_sha256": "7a70275da62adee30b7e2cbbc81255630aca0b0e68a2200eca03076dbd490727",
+      "transforms_path": "data/garage_surface_v1/block_015/transforms.json",
+      "transforms_sha256": "c504d5e8432edca832c3ccffad91e138c7c6ab95eb6c89b57809af13fb945324",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 271200,
+      "trusted_finite_normal_points": 271200,
+      "trusted_horizontal_points": 107833,
+      "reference_xyz_range_m": {
+        "x": [
+          10.3641996383667,
+          68.19112396240234
+        ],
+        "y": [
+          -31.306488037109375,
+          21.72989273071289
+        ],
+        "z": [
+          2.798748731613159,
+          15.403388023376465
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          10.3641996383667,
+          68.18956756591797
+        ],
+        "y": [
+          -31.305484771728516,
+          21.729158401489258
+        ],
+        "z": [
+          2.8020455837249756,
+          15.403388023376465
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 47890,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          10.364238739013672,
+          61.020362854003906
+        ],
+        "y": [
+          -29.84334945678711,
+          21.729158401489258
+        ],
+        "z": [
+          4.475021839141846,
+          8.294678688049316
+        ]
+      },
+      "train_frames": 280,
+      "train_groups": 70,
+      "train_camera3_groups": 70,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          28.926593354113365,
+          50.26752406393294
+        ],
+        "y": [
+          -12.874575877039721,
+          3.7812031973773417
+        ],
+        "z": [
+          7.774944542006195,
+          10.294688537609227
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268321234685945",
+        "1720268372246204510"
+      ],
+      "group_id_range": [
+        "1720268321234685945",
+        "1720268372246204510"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 70,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 70,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 808.0,
+            "median": 915.0,
+            "p95": 1560.0,
+            "max": 1651.0,
+            "mean": 1023.3285714285714
+          }
+        },
+        "6": {
+          "groups_with_support": 70,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 2680.0,
+            "median": 2971.0,
+            "p95": 5537.45,
+            "max": 5693.0,
+            "mean": 3230.2
+          }
+        },
+        "8": {
+          "groups_with_support": 70,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 3546.0,
+            "median": 3973.5,
+            "p95": 8279.45,
+            "max": 8472.0,
+            "mean": 4426.9
+          }
+        },
+        "12": {
+          "groups_with_support": 70,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 5317.0,
+            "median": 5592.5,
+            "p95": 12180.9,
+            "max": 12395.0,
+            "mean": 6795.885714285714
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 70,
+        "min": 0.012207469970562523,
+        "median": 0.23514291965477696,
+        "p95": 0.4590330652440151,
+        "max": 0.5811460556780863,
+        "mean": 0.2418843728179246
+      },
+      "nearest_eligible_3d_m": {
+        "count": 70,
+        "min": 2.006709226454567,
+        "median": 2.034537550017495,
+        "p95": 2.0782081274284163,
+        "max": 2.1117540563867543,
+        "mean": 2.039100583671977
+      }
+    },
+    {
+      "block_id": "block_016",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_016/lidar_reference.npz",
+      "reference_sha256": "01ec4d0a18998f47618ac55fa4fdde03f6b71044bfb7b79f7bc71e3b958c716e",
+      "transforms_path": "data/garage_surface_v1/block_016/transforms.json",
+      "transforms_sha256": "4091d790e9b0ed73268d5c026c89d18377cd38c3a61a418fd6c19a69e8e68c57",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 269123,
+      "trusted_finite_normal_points": 269123,
+      "trusted_horizontal_points": 105416,
+      "reference_xyz_range_m": {
+        "x": [
+          28.185373306274414,
+          75.37066650390625
+        ],
+        "y": [
+          -29.071205139160156,
+          22.19752311706543
+        ],
+        "z": [
+          5.189207077026367,
+          15.552569389343262
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          28.185373306274414,
+          75.36680603027344
+        ],
+        "y": [
+          -29.07087516784668,
+          22.190420150756836
+        ],
+        "z": [
+          5.1896867752075195,
+          15.552569389343262
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 34558,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          28.185422897338867,
+          73.54227447509766
+        ],
+        "y": [
+          -26.27097511291504,
+          22.190420150756836
+        ],
+        "z": [
+          6.7889323234558105,
+          8.445281028747559
+        ]
+      },
+      "train_frames": 272,
+      "train_groups": 68,
+      "train_camera3_groups": 68,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          46.24872595728702,
+          57.41335065991376
+        ],
+        "y": [
+          -11.138999564551376,
+          4.227245170135975
+        ],
+        "z": [
+          10.088876358580164,
+          10.445322535285301
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268366746174849",
+        "1720268405246135510"
+      ],
+      "group_id_range": [
+        "1720268366746174849",
+        "1720268405246135510"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 68,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 32,
+          "groups_without_support": 36,
+          "with_support_fraction": 0.47058823529411764,
+          "without_support_fraction": 0.5294117647058824,
+          "point_count_per_group": {
+            "count": 68,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 2348.85,
+            "max": 2396.0,
+            "mean": 662.8088235294117
+          }
+        },
+        "6": {
+          "groups_with_support": 68,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 68,
+            "min": 32.0,
+            "median": 757.0,
+            "p95": 7892.5,
+            "max": 8119.0,
+            "mean": 2443.294117647059
+          }
+        },
+        "8": {
+          "groups_with_support": 68,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 68,
+            "min": 1159.0,
+            "median": 2267.5,
+            "p95": 11698.85,
+            "max": 11979.0,
+            "mean": 4487.132352941177
+          }
+        },
+        "12": {
+          "groups_with_support": 68,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 68,
+            "min": 5265.0,
+            "median": 8112.5,
+            "p95": 17292.7,
+            "max": 17609.0,
+            "mean": 10098.882352941177
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 68,
+        "min": 0.020943842053079552,
+        "median": 3.5561737075236985,
+        "p95": 5.6600634617453,
+        "max": 5.793023489748066,
+        "mean": 2.847865778460965
+      },
+      "nearest_eligible_3d_m": {
+        "count": 68,
+        "min": 2.006709226454567,
+        "median": 4.3730162976310964,
+        "p95": 6.361847668368226,
+        "max": 6.476711710376193,
+        "mean": 4.091272418783596
+      }
+    },
+    {
+      "block_id": "block_017",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_017/lidar_reference.npz",
+      "reference_sha256": "2f3170ff2672ae452fe655338d1f6379440235a5098113d73784ebf1247c08ad",
+      "transforms_path": "data/garage_surface_v1/block_017/transforms.json",
+      "transforms_sha256": "bf79ed65254df09059b3a6ab7e8baa00355a828a786c91358d024c46ca8da7bf",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 270791,
+      "trusted_finite_normal_points": 270791,
+      "trusted_horizontal_points": 105028,
+      "reference_xyz_range_m": {
+        "x": [
+          15.679771423339844,
+          68.55682373046875
+        ],
+        "y": [
+          -47.31856155395508,
+          9.579717636108398
+        ],
+        "z": [
+          5.48763370513916,
+          15.766327857971191
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          15.681699752807617,
+          68.5565414428711
+        ],
+        "y": [
+          -47.31437301635742,
+          9.57810115814209
+        ],
+        "z": [
+          5.487699508666992,
+          15.766294479370117
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 23105,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          15.681699752807617,
+          60.45545959472656
+        ],
+        "y": [
+          -47.31437301635742,
+          9.57810115814209
+        ],
+        "z": [
+          7.080583095550537,
+          8.657642364501953
+        ]
+      },
+      "train_frames": 224,
+      "train_groups": 56,
+      "train_camera3_groups": 56,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          33.67799853452324,
+          50.500524227874855
+        ],
+        "y": [
+          -28.923612583858542,
+          -8.494149874101813
+        ],
+        "z": [
+          10.380440678441218,
+          10.65772014408798
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268401246131833",
+        "1720268432245744474"
+      ],
+      "group_id_range": [
+        "1720268401246131833",
+        "1720268432240741474"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 56,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 5003000.0,
+        "max": 5003000.0,
+        "mean": 982732.1428571428
+      },
+      "camera3_timestamp_differs_from_group_rows": 11,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 0,
+          "groups_without_support": 56,
+          "with_support_fraction": 0.0,
+          "without_support_fraction": 1.0,
+          "point_count_per_group": {
+            "count": 56,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        },
+        "6": {
+          "groups_with_support": 25,
+          "groups_without_support": 31,
+          "with_support_fraction": 0.44642857142857145,
+          "without_support_fraction": 0.5535714285714286,
+          "point_count_per_group": {
+            "count": 56,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 49.75,
+            "max": 72.0,
+            "mean": 10.178571428571429
+          }
+        },
+        "8": {
+          "groups_with_support": 49,
+          "groups_without_support": 7,
+          "with_support_fraction": 0.875,
+          "without_support_fraction": 0.125,
+          "point_count_per_group": {
+            "count": 56,
+            "min": 0.0,
+            "median": 133.0,
+            "p95": 1102.5,
+            "max": 1143.0,
+            "mean": 297.875
+          }
+        },
+        "12": {
+          "groups_with_support": 56,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 56,
+            "min": 14.0,
+            "median": 976.0,
+            "p95": 5352.25,
+            "max": 5739.0,
+            "mean": 1668.142857142857
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 56,
+        "min": 4.670938765163626,
+        "median": 6.232654399927857,
+        "p95": 9.01768935341615,
+        "max": 9.386556432490048,
+        "mean": 6.6022677416434385
+      },
+      "nearest_eligible_3d_m": {
+        "count": 56,
+        "min": 5.095013763490737,
+        "median": 6.713846262736299,
+        "p95": 9.413602537488552,
+        "max": 9.934057869494053,
+        "mean": 7.113158382066104
+      }
+    },
+    {
+      "block_id": "block_018",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_018/lidar_reference.npz",
+      "reference_sha256": "a7f017b3da0399065a7e729fab347912958faf84bbabd42a0c25a001f5d304cf",
+      "transforms_path": "data/garage_surface_v1/block_018/transforms.json",
+      "transforms_sha256": "57c684836e0b14e51c788fb3d8e092f2e648bece2e04b3df1fbf297e2c0483e4",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 279980,
+      "trusted_finite_normal_points": 279980,
+      "trusted_horizontal_points": 91684,
+      "reference_xyz_range_m": {
+        "x": [
+          15.899150848388672,
+          72.80707550048828
+        ],
+        "y": [
+          -58.30717086791992,
+          -7.15658712387085
+        ],
+        "z": [
+          5.540616512298584,
+          15.920936584472656
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          15.899248123168945,
+          72.80499267578125
+        ],
+        "y": [
+          -51.754661560058594,
+          -7.156678199768066
+        ],
+        "z": [
+          5.5408034324646,
+          15.920919418334961
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 10866,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          15.90070915222168,
+          58.77699661254883
+        ],
+        "y": [
+          -50.95595169067383,
+          -7.1605610847473145
+        ],
+        "z": [
+          7.131706714630127,
+          8.823561668395996
+        ]
+      },
+      "train_frames": 216,
+      "train_groups": 54,
+      "train_camera3_groups": 54,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          33.92233306449764,
+          54.88014948547715
+        ],
+        "y": [
+          -40.90850279354832,
+          -25.250630010216778
+        ],
+        "z": [
+          10.431450723672205,
+          10.82359075045327
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268428245960360",
+        "1720268458745635522"
+      ],
+      "group_id_range": [
+        "1720268428240957360",
+        "1720268458745635522"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 54,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 5003000.0,
+        "max": 5003000.0,
+        "mean": 741185.1851851852
+      },
+      "camera3_timestamp_differs_from_group_rows": 8,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 32,
+          "groups_without_support": 22,
+          "with_support_fraction": 0.5925925925925926,
+          "without_support_fraction": 0.4074074074074074,
+          "point_count_per_group": {
+            "count": 54,
+            "min": 0.0,
+            "median": 11.5,
+            "p95": 63.799999999999955,
+            "max": 76.0,
+            "mean": 23.22222222222222
+          }
+        },
+        "6": {
+          "groups_with_support": 51,
+          "groups_without_support": 3,
+          "with_support_fraction": 0.9444444444444444,
+          "without_support_fraction": 0.05555555555555555,
+          "point_count_per_group": {
+            "count": 54,
+            "min": 0.0,
+            "median": 71.5,
+            "p95": 289.44999999999993,
+            "max": 299.0,
+            "mean": 107.25925925925925
+          }
+        },
+        "8": {
+          "groups_with_support": 54,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 54,
+            "min": 11.0,
+            "median": 161.0,
+            "p95": 399.79999999999995,
+            "max": 418.0,
+            "mean": 170.37037037037038
+          }
+        },
+        "12": {
+          "groups_with_support": 54,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 54,
+            "min": 34.0,
+            "median": 436.0,
+            "p95": 573.2499999999993,
+            "max": 1174.0,
+            "mean": 370.5740740740741
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 54,
+        "min": 0.08642226597077639,
+        "median": 1.5850732893760735,
+        "p95": 5.995764468912726,
+        "max": 7.192380400591152,
+        "mean": 2.249103760210362
+      },
+      "nearest_eligible_3d_m": {
+        "count": 54,
+        "min": 2.011515641775526,
+        "median": 2.6702010113074555,
+        "p95": 6.352389627502585,
+        "max": 7.492846990277477,
+        "mean": 3.385418358757663
+      }
+    },
+    {
+      "block_id": "block_019",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_019/lidar_reference.npz",
+      "reference_sha256": "d87c8cd045548f0ffd5b3bfdfff0a0f3ad334a3ea3c40922b3fa9daedfa542fd",
+      "transforms_path": "data/garage_surface_v1/block_019/transforms.json",
+      "transforms_sha256": "a12a9e84ebaa62a016e8c8c45d51c3da28fbf407c966b131b918698f5142ed3a",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 277530,
+      "trusted_finite_normal_points": 277530,
+      "trusted_horizontal_points": 105128,
+      "reference_xyz_range_m": {
+        "x": [
+          32.79636001586914,
+          92.85498046875
+        ],
+        "y": [
+          -58.06801986694336,
+          -4.926639080047607
+        ],
+        "z": [
+          5.5773515701293945,
+          18.652538299560547
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          32.79644775390625,
+          92.84732818603516
+        ],
+        "y": [
+          -57.7095832824707,
+          -4.926833152770996
+        ],
+        "z": [
+          5.577426910400391,
+          18.652538299560547
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 3758,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          33.242733001708984,
+          83.2826156616211
+        ],
+        "y": [
+          -50.940185546875,
+          -4.926905155181885
+        ],
+        "z": [
+          7.173941135406494,
+          11.554132461547852
+        ]
+      },
+      "train_frames": 212,
+      "train_groups": 53,
+      "train_camera3_groups": 53,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          50.87868675919334,
+          74.92307272244952
+        ],
+        "y": [
+          -40.017177324531325,
+          -22.84992417034083
+        ],
+        "z": [
+          10.473802805327644,
+          13.554262332284255
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268453745695596",
+        "1720268483245415429"
+      ],
+      "group_id_range": [
+        "1720268453745695596",
+        "1720268483245415429"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 53,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 53,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 53,
+            "min": 16.0,
+            "median": 54.0,
+            "p95": 199.39999999999998,
+            "max": 224.0,
+            "mean": 82.54716981132076
+          }
+        },
+        "6": {
+          "groups_with_support": 53,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 53,
+            "min": 65.0,
+            "median": 161.0,
+            "p95": 424.8,
+            "max": 432.0,
+            "mean": 207.9056603773585
+          }
+        },
+        "8": {
+          "groups_with_support": 53,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 53,
+            "min": 113.0,
+            "median": 228.0,
+            "p95": 520.0,
+            "max": 537.0,
+            "mean": 281.35849056603774
+          }
+        },
+        "12": {
+          "groups_with_support": 53,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 53,
+            "min": 199.0,
+            "median": 358.0,
+            "p95": 639.0,
+            "max": 651.0,
+            "mean": 403.75471698113205
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 53,
+        "min": 0.03885742070314571,
+        "median": 0.3011966457275855,
+        "p95": 0.7370802436738231,
+        "max": 1.0879533670242736,
+        "mean": 0.3519795505772665
+      },
+      "nearest_eligible_3d_m": {
+        "count": 53,
+        "min": 2.0245444750515986,
+        "median": 2.096011346567962,
+        "p95": 2.233893322209211,
+        "max": 2.348059629134564,
+        "mean": 2.1102264727829154
+      }
+    },
+    {
+      "block_id": "block_020",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_020/lidar_reference.npz",
+      "reference_sha256": "70c35818db2902c8c214f6f875cee8825ab63cfc472708496b308c7c8e7c4969",
+      "transforms_path": "data/garage_surface_v1/block_020/transforms.json",
+      "transforms_sha256": "f616659d9d30e31d14a4f33ccf46061f6f05bb99028811e6638eff5792a3e20d",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 291306,
+      "trusted_finite_normal_points": 291306,
+      "trusted_horizontal_points": 96376,
+      "reference_xyz_range_m": {
+        "x": [
+          52.38996505737305,
+          97.74159240722656
+        ],
+        "y": [
+          -43.5688362121582,
+          12.814620971679688
+        ],
+        "z": [
+          8.183311462402344,
+          19.070390701293945
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          52.390037536621094,
+          97.48481750488281
+        ],
+        "y": [
+          -43.567718505859375,
+          12.804162979125977
+        ],
+        "z": [
+          8.183311462402344,
+          19.070390701293945
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 12998,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          52.390342712402344,
+          80.75402069091797
+        ],
+        "y": [
+          -43.51194763183594,
+          12.804162979125977
+        ],
+        "z": [
+          9.787127494812012,
+          11.957202911376953
+        ]
+      },
+      "train_frames": 228,
+      "train_groups": 57,
+      "train_camera3_groups": 57,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          70.30408967050477,
+          79.73651704911998
+        ],
+        "y": [
+          -25.493276739506296,
+          -5.182250475088087
+        ],
+        "z": [
+          13.08579831042352,
+          13.963801902876963
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268478745530912",
+        "1720268510740214115"
+      ],
+      "group_id_range": [
+        "1720268478745530912",
+        "1720268510740214115"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 57,
+        "min": -5003000.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": -1667666.6666666667
+      },
+      "camera3_timestamp_differs_from_group_rows": 19,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 45,
+          "groups_without_support": 12,
+          "with_support_fraction": 0.7894736842105263,
+          "without_support_fraction": 0.21052631578947367,
+          "point_count_per_group": {
+            "count": 57,
+            "min": 0.0,
+            "median": 3.0,
+            "p95": 57.39999999999995,
+            "max": 92.0,
+            "mean": 12.701754385964913
+          }
+        },
+        "6": {
+          "groups_with_support": 57,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 57,
+            "min": 1.0,
+            "median": 16.0,
+            "p95": 189.99999999999997,
+            "max": 215.0,
+            "mean": 46.1578947368421
+          }
+        },
+        "8": {
+          "groups_with_support": 57,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 57,
+            "min": 6.0,
+            "median": 45.0,
+            "p95": 274.7999999999999,
+            "max": 348.0,
+            "mean": 84.08771929824562
+          }
+        },
+        "12": {
+          "groups_with_support": 57,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 57,
+            "min": 36.0,
+            "median": 196.0,
+            "p95": 1006.1999999999988,
+            "max": 2002.0,
+            "mean": 295.49122807017545
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 57,
+        "min": 0.1894361188938804,
+        "median": 1.8901455947167207,
+        "p95": 4.932883980703526,
+        "max": 5.6005629974421485,
+        "mean": 2.153601988685772
+      },
+      "nearest_eligible_3d_m": {
+        "count": 57,
+        "min": 2.0135769231553735,
+        "median": 3.4725171153442633,
+        "p95": 5.540837432241876,
+        "max": 6.105703218336409,
+        "mean": 3.451814452545975
+      }
+    },
+    {
+      "block_id": "block_021",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_021/lidar_reference.npz",
+      "reference_sha256": "b48c1515745452170635492dd7cd4e4efcc82c1deb42b078d1268f454f54da41",
+      "transforms_path": "data/garage_surface_v1/block_021/transforms.json",
+      "transforms_sha256": "444d993e1222a87c5b34c0c0dd2732308d1f893d6255c0ba503099782b04e80b",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 259845,
+      "trusted_finite_normal_points": 259845,
+      "trusted_horizontal_points": 115163,
+      "reference_xyz_range_m": {
+        "x": [
+          32.07207107543945,
+          92.46484375
+        ],
+        "y": [
+          -38.17391586303711,
+          12.814620971679688
+        ],
+        "z": [
+          9.003311157226562,
+          19.43023109436035
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          32.07223892211914,
+          92.44662475585938
+        ],
+        "y": [
+          -38.17391586303711,
+          12.804162979125977
+        ],
+        "z": [
+          9.004971504211426,
+          19.430152893066406
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 26021,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          32.079959869384766,
+          84.45156860351562
+        ],
+        "y": [
+          -38.17325210571289,
+          11.2893648147583
+        ],
+        "z": [
+          10.597576141357422,
+          12.317968368530273
+        ]
+      },
+      "train_frames": 248,
+      "train_groups": 62,
+      "train_camera3_groups": 62,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          50.41441699278942,
+          74.38216486213727
+        ],
+        "y": [
+          -19.941491092169084,
+          -5.182250475088087
+        ],
+        "z": [
+          13.895994941766837,
+          14.317969560867846
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268505740285624",
+        "1720268540245018013"
+      ],
+      "group_id_range": [
+        "1720268505745288624",
+        "1720268540245018013"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 62,
+        "min": -5003000.0,
+        "median": 0.0,
+        "p95": 5003000.0,
+        "max": 5003000.0,
+        "mean": 484161.29032258067
+      },
+      "camera3_timestamp_differs_from_group_rows": 8,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 59,
+          "groups_without_support": 3,
+          "with_support_fraction": 0.9516129032258065,
+          "without_support_fraction": 0.04838709677419355,
+          "point_count_per_group": {
+            "count": 62,
+            "min": 0.0,
+            "median": 58.5,
+            "p95": 97.79999999999998,
+            "max": 107.0,
+            "mean": 50.5
+          }
+        },
+        "6": {
+          "groups_with_support": 62,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 62,
+            "min": 4.0,
+            "median": 409.0,
+            "p95": 508.95,
+            "max": 548.0,
+            "mean": 333.66129032258067
+          }
+        },
+        "8": {
+          "groups_with_support": 62,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 62,
+            "min": 25.0,
+            "median": 1076.0,
+            "p95": 1249.75,
+            "max": 1295.0,
+            "mean": 843.1774193548387
+          }
+        },
+        "12": {
+          "groups_with_support": 62,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 62,
+            "min": 146.0,
+            "median": 3698.0,
+            "p95": 3983.6,
+            "max": 3999.0,
+            "mean": 3070.6290322580644
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 62,
+        "min": 0.22462637795831508,
+        "median": 0.8344645194941787,
+        "p95": 2.978868421522947,
+        "max": 3.8187251761926606,
+        "mean": 1.156953543705738
+      },
+      "nearest_eligible_3d_m": {
+        "count": 62,
+        "min": 2.1813611444224272,
+        "median": 2.999521842117482,
+        "p95": 4.3948750696464405,
+        "max": 5.000120177917722,
+        "mean": 3.086562147450411
+      }
+    },
+    {
+      "block_id": "block_022",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_022/lidar_reference.npz",
+      "reference_sha256": "f4a27dc673c50c2e1e3b0e1c7db0f3ce057f8e5032021ae64fa40e8e3e6fe55e",
+      "transforms_path": "data/garage_surface_v1/block_022/transforms.json",
+      "transforms_sha256": "f5d709499361e817b54385e631240492d7555d46f59aa33f7a593422b7775d68",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 267573,
+      "trusted_finite_normal_points": 267573,
+      "trusted_horizontal_points": 113846,
+      "reference_xyz_range_m": {
+        "x": [
+          21.417009353637695,
+          71.81161499023438
+        ],
+        "y": [
+          -56.95232009887695,
+          0.654171884059906
+        ],
+        "z": [
+          9.373676300048828,
+          19.57041358947754
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          21.533687591552734,
+          71.81118774414062
+        ],
+        "y": [
+          -56.942806243896484,
+          0.6538286805152893
+        ],
+        "z": [
+          9.373976707458496,
+          19.570220947265625
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 27102,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          21.533687591552734,
+          71.78258514404297
+        ],
+        "y": [
+          -51.64278793334961,
+          0.6538286805152893
+        ],
+        "z": [
+          10.96748161315918,
+          12.462281227111816
+        ]
+      },
+      "train_frames": 268,
+      "train_groups": 67,
+      "train_camera3_groups": 67,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          39.41205830563264,
+          53.75006519263246
+        ],
+        "y": [
+          -39.015999471464134,
+          -17.41518085011867
+        ],
+        "z": [
+          14.26628988755161,
+          14.462293982156845
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268535245031657",
+        "1720268573244692796"
+      ],
+      "group_id_range": [
+        "1720268535245031657",
+        "1720268573244692796"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 67,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 67,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 67,
+            "min": 32.0,
+            "median": 182.0,
+            "p95": 294.9,
+            "max": 323.0,
+            "mean": 161.91044776119404
+          }
+        },
+        "6": {
+          "groups_with_support": 67,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 67,
+            "min": 477.0,
+            "median": 908.0,
+            "p95": 1584.0,
+            "max": 1597.0,
+            "mean": 931.4179104477612
+          }
+        },
+        "8": {
+          "groups_with_support": 67,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 67,
+            "min": 1097.0,
+            "median": 1555.0,
+            "p95": 2856.7999999999997,
+            "max": 2935.0,
+            "mean": 1786.641791044776
+          }
+        },
+        "12": {
+          "groups_with_support": 67,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 67,
+            "min": 2325.0,
+            "median": 3937.0,
+            "p95": 5199.2,
+            "max": 5256.0,
+            "mean": 4166.537313432836
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 67,
+        "min": 0.03535243418966663,
+        "median": 0.5505354774785498,
+        "p95": 1.117504267377161,
+        "max": 1.380454185164948,
+        "mean": 0.5706327441991748
+      },
+      "nearest_eligible_3d_m": {
+        "count": 67,
+        "min": 2.0441984431915055,
+        "median": 2.458384807383048,
+        "p95": 2.9839677134731373,
+        "max": 3.1569212908382087,
+        "mean": 2.4966997322711886
+      }
+    },
+    {
+      "block_id": "block_023",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_023/lidar_reference.npz",
+      "reference_sha256": "ae9c0ec8517fa2f3d3f6c66527b242ffb80d76bccd038bb38535c4ec5404b64c",
+      "transforms_path": "data/garage_surface_v1/block_023/transforms.json",
+      "transforms_sha256": "1d7f24bb2689234c5a3f501f52b1740c98d828807174c641e59c121aa13c5aaa",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 270040,
+      "trusted_finite_normal_points": 270040,
+      "trusted_horizontal_points": 115620,
+      "reference_xyz_range_m": {
+        "x": [
+          23.119176864624023,
+          82.17472076416016
+        ],
+        "y": [
+          -59.16874694824219,
+          -12.592907905578613
+        ],
+        "z": [
+          9.47282600402832,
+          20.954626083374023
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          23.123842239379883,
+          82.17424774169922
+        ],
+        "y": [
+          -59.14781188964844,
+          -12.59335994720459
+        ],
+        "z": [
+          9.47675609588623,
+          20.931453704833984
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 31991,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          23.123842239379883,
+          80.4778060913086
+        ],
+        "y": [
+          -50.532630920410156,
+          -12.593863487243652
+        ],
+        "z": [
+          11.065713882446289,
+          14.288700103759766
+        ]
+      },
+      "train_frames": 244,
+      "train_groups": 61,
+      "train_camera3_groups": 61,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          41.173481857481164,
+          64.24391724212902
+        ],
+        "y": [
+          -41.17372079614411,
+          -30.51430630790422
+        ],
+        "z": [
+          14.365519436802538,
+          16.2889674993287
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268567244759948",
+        "1720268601744570630"
+      ],
+      "group_id_range": [
+        "1720268567244759948",
+        "1720268601744570630"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 61,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 0,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 61,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 61,
+            "min": 213.0,
+            "median": 666.0,
+            "p95": 967.0,
+            "max": 1045.0,
+            "mean": 577.1803278688525
+          }
+        },
+        "6": {
+          "groups_with_support": 61,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 61,
+            "min": 859.0,
+            "median": 2067.0,
+            "p95": 2911.0,
+            "max": 3001.0,
+            "mean": 1812.967213114754
+          }
+        },
+        "8": {
+          "groups_with_support": 61,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 61,
+            "min": 1163.0,
+            "median": 3163.0,
+            "p95": 3798.0,
+            "max": 4008.0,
+            "mean": 2517.0491803278687
+          }
+        },
+        "12": {
+          "groups_with_support": 61,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 61,
+            "min": 1624.0,
+            "median": 4680.0,
+            "p95": 6622.0,
+            "max": 6708.0,
+            "mean": 4074.4262295081967
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 61,
+        "min": 0.04787792321378016,
+        "median": 0.3255088895690447,
+        "p95": 0.7763235966091091,
+        "max": 0.8652723750336103,
+        "mean": 0.3681773092405451
+      },
+      "nearest_eligible_3d_m": {
+        "count": 61,
+        "min": 2.0213233267362423,
+        "median": 2.103362496927972,
+        "p95": 2.560544980443742,
+        "max": 2.6647092620378046,
+        "mean": 2.1775020434212524
+      }
+    },
+    {
+      "block_id": "block_024",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_024/lidar_reference.npz",
+      "reference_sha256": "a32162c005c76d0a46c1e3b632ac642848781543b2d339573ca76f820458d65c",
+      "transforms_path": "data/garage_surface_v1/block_024/transforms.json",
+      "transforms_sha256": "4e60801c0b7b876556858e0e424770e7e5123f11e14a0d3963d525c4f57ebf0e",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 268677,
+      "trusted_finite_normal_points": 268677,
+      "trusted_horizontal_points": 122425,
+      "reference_xyz_range_m": {
+        "x": [
+          42.855709075927734,
+          102.53630828857422
+        ],
+        "y": [
+          -51.23436737060547,
+          -0.3034195303916931
+        ],
+        "z": [
+          10.89659309387207,
+          22.30729103088379
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          42.856388092041016,
+          99.27577209472656
+        ],
+        "y": [
+          -51.23307418823242,
+          -0.3034195303916931
+        ],
+        "z": [
+          10.896601676940918,
+          20.931453704833984
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 36492,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          42.85639572143555,
+          96.13496398925781
+        ],
+        "y": [
+          -50.662750244140625,
+          -0.30779626965522766
+        ],
+        "z": [
+          12.501896858215332,
+          16.177602767944336
+        ]
+      },
+      "train_frames": 264,
+      "train_groups": 66,
+      "train_camera3_groups": 66,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          60.926237446765185,
+          84.62537366554858
+        ],
+        "y": [
+          -33.15656792313538,
+          -18.270323777084343
+        ],
+        "z": [
+          15.801887002759262,
+          18.177607848142802
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268596244438924",
+        "1720268633739099700"
+      ],
+      "group_id_range": [
+        "1720268596244438924",
+        "1720268633739099700"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 66,
+        "min": -5003000.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": -1440257.5757575757
+      },
+      "camera3_timestamp_differs_from_group_rows": 19,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 66,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 66,
+            "min": 518.0,
+            "median": 929.0,
+            "p95": 1867.75,
+            "max": 1947.0,
+            "mean": 1031.3181818181818
+          }
+        },
+        "6": {
+          "groups_with_support": 66,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 66,
+            "min": 2205.0,
+            "median": 2947.0,
+            "p95": 5866.0,
+            "max": 6023.0,
+            "mean": 3343.6969696969695
+          }
+        },
+        "8": {
+          "groups_with_support": 66,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 66,
+            "min": 3035.0,
+            "median": 4132.0,
+            "p95": 8305.5,
+            "max": 8536.0,
+            "mean": 4710.80303030303
+          }
+        },
+        "12": {
+          "groups_with_support": 66,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 66,
+            "min": 4391.0,
+            "median": 5863.0,
+            "p95": 11971.75,
+            "max": 12164.0,
+            "mean": 7101.227272727273
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 66,
+        "min": 0.010142866830271276,
+        "median": 0.2122124730421146,
+        "p95": 0.55961106595406,
+        "max": 0.7318264189488495,
+        "mean": 0.24012673785493038
+      },
+      "nearest_eligible_3d_m": {
+        "count": 66,
+        "min": 2.002134221684738,
+        "median": 2.064128890685997,
+        "p95": 2.139176465751433,
+        "max": 2.226831419033792,
+        "mean": 2.0700955965355154
+      }
+    },
+    {
+      "block_id": "block_025",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_025/lidar_reference.npz",
+      "reference_sha256": "a9d3dd0d2166ba393f60fa5032cce3bbac06b4bb6d99f504623252e19065cbe5",
+      "transforms_path": "data/garage_surface_v1/block_025/transforms.json",
+      "transforms_sha256": "b5105854d69192bf6d3a328e463cc7b1f652f9b85123a45acdd15bd366a65db8",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 275183,
+      "trusted_finite_normal_points": 275183,
+      "trusted_horizontal_points": 124103,
+      "reference_xyz_range_m": {
+        "x": [
+          53.729225158691406,
+          104.45336151123047
+        ],
+        "y": [
+          -54.977333068847656,
+          -0.3047935664653778
+        ],
+        "z": [
+          13.228438377380371,
+          22.30729103088379
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          53.729270935058594,
+          99.96391296386719
+        ],
+        "y": [
+          -54.976871490478516,
+          -0.3063870668411255
+        ],
+        "z": [
+          13.228485107421875,
+          20.944868087768555
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 32712,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          53.73017120361328,
+          96.13496398925781
+        ],
+        "y": [
+          -54.02098846435547,
+          -0.3063870668411255
+        ],
+        "z": [
+          14.81960391998291,
+          16.194196701049805
+        ]
+      },
+      "train_frames": 280,
+      "train_groups": 70,
+      "train_camera3_groups": 70,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          71.67087365268046,
+          86.50037218957696
+        ],
+        "y": [
+          -37.04783966742237,
+          -18.270323777084343
+        ],
+        "z": [
+          18.11956521719819,
+          18.194216201924903
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268628239246543",
+        "1720268667744000249"
+      ],
+      "group_id_range": [
+        "1720268628244249543",
+        "1720268667744000249"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 70,
+        "min": -5003000.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": -1072071.4285714286
+      },
+      "camera3_timestamp_differs_from_group_rows": 15,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 19,
+          "groups_without_support": 51,
+          "with_support_fraction": 0.2714285714285714,
+          "without_support_fraction": 0.7285714285714285,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 2127.9999999999995,
+            "max": 2711.0,
+            "mean": 298.4
+          }
+        },
+        "6": {
+          "groups_with_support": 54,
+          "groups_without_support": 16,
+          "with_support_fraction": 0.7714285714285715,
+          "without_support_fraction": 0.22857142857142856,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 0.0,
+            "median": 36.5,
+            "p95": 6908.699999999999,
+            "max": 8603.0,
+            "mean": 1263.7428571428572
+          }
+        },
+        "8": {
+          "groups_with_support": 70,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 196.0,
+            "median": 1825.0,
+            "p95": 10318.099999999999,
+            "max": 12143.0,
+            "mean": 3106.8714285714286
+          }
+        },
+        "12": {
+          "groups_with_support": 70,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 2574.0,
+            "median": 8677.5,
+            "p95": 15932.55,
+            "max": 17590.0,
+            "mean": 8934.885714285714
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 70,
+        "min": 0.012958490080520467,
+        "median": 4.299323736902709,
+        "p95": 6.075422082128536,
+        "max": 6.138957119879526,
+        "mean": 3.817120664091045
+      },
+      "nearest_eligible_3d_m": {
+        "count": 70,
+        "min": 2.0653630710388575,
+        "median": 4.777244545634501,
+        "p95": 6.605832323499959,
+        "max": 6.682408771257561,
+        "mean": 4.628365954096401
+      }
+    },
+    {
+      "block_id": "block_026",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_026/lidar_reference.npz",
+      "reference_sha256": "d148b1761f3810d1dbc1a38290ee94bf4c3352ba161e9162093c10937ffe4cb3",
+      "transforms_path": "data/garage_surface_v1/block_026/transforms.json",
+      "transforms_sha256": "6808b7c58be819c7cb642f885b9d2ac1696edc4034f5e98f4bcd23aefb03643b",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 279722,
+      "trusted_finite_normal_points": 279722,
+      "trusted_horizontal_points": 125941,
+      "reference_xyz_range_m": {
+        "x": [
+          34.2735710144043,
+          93.30492401123047
+        ],
+        "y": [
+          -70.69686126708984,
+          -16.054439544677734
+        ],
+        "z": [
+          13.270492553710938,
+          22.30729103088379
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          34.28034210205078,
+          93.30203247070312
+        ],
+        "y": [
+          -70.68531799316406,
+          -16.054569244384766
+        ],
+        "z": [
+          13.270564079284668,
+          20.950040817260742
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 20767,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          34.28034210205078,
+          92.88400268554688
+        ],
+        "y": [
+          -70.68531799316406,
+          -16.055072784423828
+        ],
+        "z": [
+          14.861736297607422,
+          16.198163986206055
+        ]
+      },
+      "train_frames": 280,
+      "train_groups": 70,
+      "train_camera3_groups": 70,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          52.217035518788016,
+          75.24448942083045
+        ],
+        "y": [
+          -52.765427025042776,
+          -34.1271159195106
+        ],
+        "z": [
+          18.161618501920664,
+          18.19816715835109
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268661744043637",
+        "1720268701238678265"
+      ],
+      "group_id_range": [
+        "1720268661744043637",
+        "1720268701243681265"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 70,
+        "min": -5003000.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": -571771.4285714285
+      },
+      "camera3_timestamp_differs_from_group_rows": 8,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 55,
+          "groups_without_support": 15,
+          "with_support_fraction": 0.7857142857142857,
+          "without_support_fraction": 0.21428571428571427,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 0.0,
+            "median": 4.0,
+            "p95": 13.549999999999997,
+            "max": 18.0,
+            "mean": 4.9714285714285715
+          }
+        },
+        "6": {
+          "groups_with_support": 70,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 3.0,
+            "median": 29.0,
+            "p95": 70.55,
+            "max": 76.0,
+            "mean": 34.3
+          }
+        },
+        "8": {
+          "groups_with_support": 70,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 43.0,
+            "median": 97.0,
+            "p95": 737.8499999999998,
+            "max": 973.0,
+            "mean": 168.4
+          }
+        },
+        "12": {
+          "groups_with_support": 70,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 70,
+            "min": 246.0,
+            "median": 691.5,
+            "p95": 4001.6999999999994,
+            "max": 4832.0,
+            "mean": 1169.3285714285714
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 70,
+        "min": 0.1669233969716501,
+        "median": 2.5852240363711187,
+        "p95": 3.6772926424739727,
+        "max": 4.393355111622861,
+        "mean": 2.405756533838714
+      },
+      "nearest_eligible_3d_m": {
+        "count": 70,
+        "min": 2.144309018671805,
+        "median": 3.3328710720863017,
+        "p95": 4.25067185502631,
+        "max": 4.888303486637772,
+        "mean": 3.248193606732709
+      }
+    },
+    {
+      "block_id": "block_027",
+      "floor_id": null,
+      "floor_verified": false,
+      "reference_path": "data/garage_surface_v1/block_027/lidar_reference.npz",
+      "reference_sha256": "989917cd34afa6400f687eb2c02e967a601a21dc67ff218e6bd98995b0bf62b8",
+      "transforms_path": "data/garage_surface_v1/block_027/transforms.json",
+      "transforms_sha256": "65e442a14139baf12950801d5d0e10ac464c095b296f325f380c6ed664c25aa2",
+      "reference_points": 400000,
+      "finite_reference_points": 400000,
+      "normal_valid_flag_points": 303886,
+      "trusted_finite_normal_points": 303886,
+      "trusted_horizontal_points": 127394,
+      "reference_xyz_range_m": {
+        "x": [
+          33.75821304321289,
+          74.06216430664062
+        ],
+        "y": [
+          -71.10787963867188,
+          -31.68747901916504
+        ],
+        "z": [
+          13.264398574829102,
+          22.30729103088379
+        ]
+      },
+      "trusted_horizontal_xyz_range_m": {
+        "x": [
+          33.758235931396484,
+          74.06195068359375
+        ],
+        "y": [
+          -71.10637664794922,
+          -31.687686920166016
+        ],
+        "z": [
+          13.264432907104492,
+          20.93270492553711
+        ]
+      },
+      "eligible_for_any_train_camera3_unique_reference_points": 8604,
+      "eligible_union_xyz_range_m": {
+        "x": [
+          33.758235931396484,
+          73.95510864257812
+        ],
+        "y": [
+          -71.10637664794922,
+          -31.68777084350586
+        ],
+        "z": [
+          14.921431541442871,
+          16.177017211914062
+        ]
+      },
+      "train_frames": 80,
+      "train_groups": 20,
+      "train_camera3_groups": 20,
+      "train_camera3_xyz_range_m": {
+        "x": [
+          51.70005922206874,
+          56.003310117025016
+        ],
+        "y": [
+          -53.186713565422394,
+          -49.75651133192939
+        ],
+        "z": [
+          18.15514698469021,
+          18.17725757645404
+        ]
+      },
+      "camera3_timestamp_ns_range": [
+        "1720268694243758384",
+        "1720268705238731726"
+      ],
+      "group_id_range": [
+        "1720268694243758384",
+        "1720268705243734726"
+      ],
+      "camera3_timestamp_minus_group_ns": {
+        "count": 20,
+        "min": -5003000.0,
+        "median": -5003000.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mean": -3752250.0
+      },
+      "camera3_timestamp_differs_from_group_rows": 15,
+      "groups_without_any_eligible_point": 0,
+      "radius_support": {
+        "3": {
+          "groups_with_support": 20,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 20,
+            "min": 8.0,
+            "median": 11.5,
+            "p95": 16.05,
+            "max": 17.0,
+            "mean": 11.55
+          }
+        },
+        "6": {
+          "groups_with_support": 20,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 20,
+            "min": 58.0,
+            "median": 66.0,
+            "p95": 92.0,
+            "max": 92.0,
+            "mean": 74.1
+          }
+        },
+        "8": {
+          "groups_with_support": 20,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 20,
+            "min": 110.0,
+            "median": 211.5,
+            "p95": 355.0,
+            "max": 355.0,
+            "mean": 225.55
+          }
+        },
+        "12": {
+          "groups_with_support": 20,
+          "groups_without_support": 0,
+          "with_support_fraction": 1.0,
+          "without_support_fraction": 0.0,
+          "point_count_per_group": {
+            "count": 20,
+            "min": 1850.0,
+            "median": 1926.5,
+            "p95": 2042.1,
+            "max": 2044.0,
+            "mean": 1946.45
+          }
+        }
+      },
+      "nearest_eligible_xy_m": {
+        "count": 20,
+        "min": 1.545731546757878,
+        "median": 2.2470560534011526,
+        "p95": 2.708397173669961,
+        "max": 2.7170728538302247,
+        "mean": 2.1136143976012365
+      },
+      "nearest_eligible_3d_m": {
+        "count": 20,
+        "min": 2.568728466445577,
+        "median": 3.0492058883134763,
+        "p95": 3.421092938326594,
+        "max": 3.4253585604648893,
+        "mean": 2.9791683046376343
+      }
+    }
+  ],
+  "csv": {
+    "path": "reports/all28_low_surface_reference_coverage.csv",
+    "sha256": "c2eeb7705584e9a3591a5cfad87ec8672462c43eb9c2451dc26d30f30b11f21b",
+    "rows": 1708
+  },
+  "input_files": {
+    "scripts/screen_low_surface_reference_coverage.py": {
+      "sha256": "9c15df82b7997415ec52133f49a8a1157d876022dd541fa57d75752d311bba29",
+      "bytes": 18832
+    },
+    "data/garage_surface_v1/block_000/transforms.json": {
+      "sha256": "3ca4b4989c9dd6d25af02595fc43ec7711c02630430c6b4fecae2a7a3ad380bb",
+      "bytes": 424655
+    },
+    "data/garage_surface_v1/block_000/lidar_reference.npz": {
+      "sha256": "2548a3c95307709c60560e56372949f4a75c7018908ae02c20977d19dd76261f",
+      "bytes": 8870151
+    },
+    "data/garage_surface_v1/block_001/transforms.json": {
+      "sha256": "59ec6d0a6eafcc15f8468ecb521b3ab767ab43bdb44270ad892105d7888cee40",
+      "bytes": 326375
+    },
+    "data/garage_surface_v1/block_001/lidar_reference.npz": {
+      "sha256": "d9e3c48273961334d3c5363306ff6834c5428e5cda3dd14ca04b7fe2671e9725",
+      "bytes": 8879999
+    },
+    "data/garage_surface_v1/block_002/transforms.json": {
+      "sha256": "6b9ac93937d42144261046e98274f5d6d8f1ba5332ca119770df092b021252c2",
+      "bytes": 347756
+    },
+    "data/garage_surface_v1/block_002/lidar_reference.npz": {
+      "sha256": "5d4e64df00c81e1a06ab5231a5411a485419dd5f1b54bdd684c132a4e0be617c",
+      "bytes": 8890663
+    },
+    "data/garage_surface_v1/block_003/transforms.json": {
+      "sha256": "147d76322c94a7a9c6590cc4a654e2ba93583923b15341e457e3328ed87e41e1",
+      "bytes": 358978
+    },
+    "data/garage_surface_v1/block_003/lidar_reference.npz": {
+      "sha256": "1e23307aa395ad4e3b3244f7bad1af6675e244b5296cbcaae675ba9c703b48ec",
+      "bytes": 8888482
+    },
+    "data/garage_surface_v1/block_004/transforms.json": {
+      "sha256": "8725adcb59cbb039765ef1a1a77672a0801a0a9ad3f648ace3ac388069a31060",
+      "bytes": 396875
+    },
+    "data/garage_surface_v1/block_004/lidar_reference.npz": {
+      "sha256": "1189884dc11b3ca589a5dd6a2a9a57bd85a26fbc7806b8b29c93876709a0a721",
+      "bytes": 8888433
+    },
+    "data/garage_surface_v1/block_005/transforms.json": {
+      "sha256": "ac6d57c8e478a7a6a6dff9018d586d5ee3bf21352243aec140b955ad0b312889",
+      "bytes": 401968
+    },
+    "data/garage_surface_v1/block_005/lidar_reference.npz": {
+      "sha256": "2ea008e5055fd687253405d70c0003470e35512ea098bcafbf8a110b3031e474",
+      "bytes": 8873342
+    },
+    "data/garage_surface_v1/block_006/transforms.json": {
+      "sha256": "0c5bec6acc2300d8fd694fa2a5c5eadfef194239a0deaef6405bd935cef636cf",
+      "bytes": 352528
+    },
+    "data/garage_surface_v1/block_006/lidar_reference.npz": {
+      "sha256": "9c71a1d88ae6de2fe30db81171e0ec351a33b0fc8f3866dc67e30ad26dbcfa7a",
+      "bytes": 8848077
+    },
+    "data/garage_surface_v1/block_007/transforms.json": {
+      "sha256": "3287ef37200140ba6a3e19fbb1eb9a91a149f87f79a897c75a7acf3aca69d77e",
+      "bytes": 500019
+    },
+    "data/garage_surface_v1/block_007/lidar_reference.npz": {
+      "sha256": "56ccfbe80ff5d7000bfd702a87686eff1b07c3f29a28277fb7aee0994a1686b7",
+      "bytes": 8846902
+    },
+    "data/garage_surface_v1/block_008/transforms.json": {
+      "sha256": "c8adc8d6856666b69d3e8b5c56aaa6822446b6927c4a55212592e9bf9ec7d6cd",
+      "bytes": 467237
+    },
+    "data/garage_surface_v1/block_008/lidar_reference.npz": {
+      "sha256": "70a6eacef62f16784deb68f4d8f071363f2811945dcd9341e5817b7c9c9c0653",
+      "bytes": 8829777
+    },
+    "data/garage_surface_v1/block_009/transforms.json": {
+      "sha256": "35f2c28801a38c1202138a7c68e43228b70c48556de4f3f12b1b27b311e864d2",
+      "bytes": 342445
+    },
+    "data/garage_surface_v1/block_009/lidar_reference.npz": {
+      "sha256": "26f8386714b8a273a23a02fa43538c5b96d40f769bcb116716ae87b8b44fd107",
+      "bytes": 8851812
+    },
+    "data/garage_surface_v1/block_010/transforms.json": {
+      "sha256": "f42e6caa1899e6fc75ce4a788225ddf7a49d228da91f501d4a9afca9b4bd3824",
+      "bytes": 336734
+    },
+    "data/garage_surface_v1/block_010/lidar_reference.npz": {
+      "sha256": "0eed55800bf88ed41ba443b21ecf308005c8e1d59cbf6aef5979113285f60642",
+      "bytes": 8833010
+    },
+    "data/garage_surface_v1/block_011/transforms.json": {
+      "sha256": "33037717a06616e6d7678a3d6bda0a30b9d6ea6334bb88a555f1836c9a0c4d47",
+      "bytes": 369214
+    },
+    "data/garage_surface_v1/block_011/lidar_reference.npz": {
+      "sha256": "4badc7fe93f309088078b171a6618aac7202931836ece011fd92a18cd9c4a5fb",
+      "bytes": 8811622
+    },
+    "data/garage_surface_v1/block_012/transforms.json": {
+      "sha256": "f0969552f042924e35ac82a7bfa518674ca5a61596984f86baf424ee6f0aaf82",
+      "bytes": 385623
+    },
+    "data/garage_surface_v1/block_012/lidar_reference.npz": {
+      "sha256": "02649d45e5a8479ea319c2e3c4a82de310545cbfe244ceabd15a957bc95fa638",
+      "bytes": 8791342
+    },
+    "data/garage_surface_v1/block_013/transforms.json": {
+      "sha256": "717dd23c58d5018edd3f75467899288b0472d0c570762271de55eb3d996db607",
+      "bytes": 402357
+    },
+    "data/garage_surface_v1/block_013/lidar_reference.npz": {
+      "sha256": "9803301d01d21fd82481df3c6fc17119be588c4d9e34aa32ba17fb50655da7e1",
+      "bytes": 8794169
+    },
+    "data/garage_surface_v1/block_014/transforms.json": {
+      "sha256": "099f9c44fc161e28236b174695d9d1a0df78e2a992f2f0ee95742bd625a1e869",
+      "bytes": 385887
+    },
+    "data/garage_surface_v1/block_014/lidar_reference.npz": {
+      "sha256": "d8bff1a657dc844ed6dd19778ac29bb161a1f2d0695eae6de45a966a9dda7fa4",
+      "bytes": 8787849
+    },
+    "data/garage_surface_v1/block_015/transforms.json": {
+      "sha256": "c504d5e8432edca832c3ccffad91e138c7c6ab95eb6c89b57809af13fb945324",
+      "bytes": 434248
+    },
+    "data/garage_surface_v1/block_015/lidar_reference.npz": {
+      "sha256": "7a70275da62adee30b7e2cbbc81255630aca0b0e68a2200eca03076dbd490727",
+      "bytes": 8786544
+    },
+    "data/garage_surface_v1/block_016/transforms.json": {
+      "sha256": "4091d790e9b0ed73268d5c026c89d18377cd38c3a61a418fd6c19a69e8e68c57",
+      "bytes": 423872
+    },
+    "data/garage_surface_v1/block_016/lidar_reference.npz": {
+      "sha256": "01ec4d0a18998f47618ac55fa4fdde03f6b71044bfb7b79f7bc71e3b958c716e",
+      "bytes": 8790959
+    },
+    "data/garage_surface_v1/block_017/transforms.json": {
+      "sha256": "bf79ed65254df09059b3a6ab7e8baa00355a828a786c91358d024c46ca8da7bf",
+      "bytes": 348544
+    },
+    "data/garage_surface_v1/block_017/lidar_reference.npz": {
+      "sha256": "2f3170ff2672ae452fe655338d1f6379440235a5098113d73784ebf1247c08ad",
+      "bytes": 8781525
+    },
+    "data/garage_surface_v1/block_018/transforms.json": {
+      "sha256": "57c684836e0b14e51c788fb3d8e092f2e648bece2e04b3df1fbf297e2c0483e4",
+      "bytes": 337029
+    },
+    "data/garage_surface_v1/block_018/lidar_reference.npz": {
+      "sha256": "a7f017b3da0399065a7e729fab347912958faf84bbabd42a0c25a001f5d304cf",
+      "bytes": 8763715
+    },
+    "data/garage_surface_v1/block_019/transforms.json": {
+      "sha256": "a12a9e84ebaa62a016e8c8c45d51c3da28fbf407c966b131b918698f5142ed3a",
+      "bytes": 325925
+    },
+    "data/garage_surface_v1/block_019/lidar_reference.npz": {
+      "sha256": "d87c8cd045548f0ffd5b3bfdfff0a0f3ad334a3ea3c40922b3fa9daedfa542fd",
+      "bytes": 8758710
+    },
+    "data/garage_surface_v1/block_020/transforms.json": {
+      "sha256": "f616659d9d30e31d14a4f33ccf46061f6f05bb99028811e6638eff5792a3e20d",
+      "bytes": 353421
+    },
+    "data/garage_surface_v1/block_020/lidar_reference.npz": {
+      "sha256": "70c35818db2902c8c214f6f875cee8825ab63cfc472708496b308c7c8e7c4969",
+      "bytes": 8783639
+    },
+    "data/garage_surface_v1/block_021/transforms.json": {
+      "sha256": "444d993e1222a87c5b34c0c0dd2732308d1f893d6255c0ba503099782b04e80b",
+      "bytes": 386460
+    },
+    "data/garage_surface_v1/block_021/lidar_reference.npz": {
+      "sha256": "b48c1515745452170635492dd7cd4e4efcc82c1deb42b078d1268f454f54da41",
+      "bytes": 8773334
+    },
+    "data/garage_surface_v1/block_022/transforms.json": {
+      "sha256": "f5d709499361e817b54385e631240492d7555d46f59aa33f7a593422b7775d68",
+      "bytes": 418914
+    },
+    "data/garage_surface_v1/block_022/lidar_reference.npz": {
+      "sha256": "f4a27dc673c50c2e1e3b0e1c7db0f3ce057f8e5032021ae64fa40e8e3e6fe55e",
+      "bytes": 8765484
+    },
+    "data/garage_surface_v1/block_023/transforms.json": {
+      "sha256": "1d7f24bb2689234c5a3f501f52b1740c98d828807174c641e59c121aa13c5aaa",
+      "bytes": 380335
+    },
+    "data/garage_surface_v1/block_023/lidar_reference.npz": {
+      "sha256": "ae9c0ec8517fa2f3d3f6c66527b242ffb80d76bccd038bb38535c4ec5404b64c",
+      "bytes": 8751100
+    },
+    "data/garage_surface_v1/block_024/transforms.json": {
+      "sha256": "4e60801c0b7b876556858e0e424770e7e5123f11e14a0d3963d525c4f57ebf0e",
+      "bytes": 412746
+    },
+    "data/garage_surface_v1/block_024/lidar_reference.npz": {
+      "sha256": "a32162c005c76d0a46c1e3b632ac642848781543b2d339573ca76f820458d65c",
+      "bytes": 8751413
+    },
+    "data/garage_surface_v1/block_025/transforms.json": {
+      "sha256": "b5105854d69192bf6d3a328e463cc7b1f652f9b85123a45acdd15bd366a65db8",
+      "bytes": 434890
+    },
+    "data/garage_surface_v1/block_025/lidar_reference.npz": {
+      "sha256": "a9d3dd0d2166ba393f60fa5032cce3bbac06b4bb6d99f504623252e19065cbe5",
+      "bytes": 8759686
+    },
+    "data/garage_surface_v1/block_026/transforms.json": {
+      "sha256": "6808b7c58be819c7cb642f885b9d2ac1696edc4034f5e98f4bcd23aefb03643b",
+      "bytes": 435059
+    },
+    "data/garage_surface_v1/block_026/lidar_reference.npz": {
+      "sha256": "d148b1761f3810d1dbc1a38290ee94bf4c3352ba161e9162093c10937ffe4cb3",
+      "bytes": 8751440
+    },
+    "data/garage_surface_v1/block_027/transforms.json": {
+      "sha256": "65e442a14139baf12950801d5d0e10ac464c095b296f325f380c6ed664c25aa2",
+      "bytes": 125411
+    },
+    "data/garage_surface_v1/block_027/lidar_reference.npz": {
+      "sha256": "989917cd34afa6400f687eb2c02e967a601a21dc67ff218e6bd98995b0bf62b8",
+      "bytes": 8727458
+    }
+  },
+  "implementation": {
+    "path": "scripts/screen_low_surface_reference_coverage.py",
+    "sha256": "9c15df82b7997415ec52133f49a8a1157d876022dd541fa57d75752d311bba29"
+  },
+  "execution": {
+    "cpu_thread_limit": 3,
+    "cpu_affinity": [
+      0,
+      1,
+      2
+    ],
+    "address_space_limit_bytes": 3221225472,
+    "process_peak_rss_bytes": 452116480,
+    "elapsed_seconds": 5.6899119399968185,
+    "gpu_used": false
+  },
+  "limitations": [
+    "This is spatial point presence in prepared, cropped/capped references (observed400000rows/block), not original map or bag completeness. Sampling/cropping and invalid normals can remove otherwise real support.",
+    "Normal_valid comes from prepared local PCA confidence; abs(unit_nz)>=.85 describes orientation, not semantic ground or an independently verified normal.",
+    "World+Z and metres are inherited camera_init coordinates; a[-3.3,-2.0]m band below each camera3 is a wide screening condition, not a measured mounting height or floor plane.",
+    "Ramps, multiple levels, nearby platforms/vehicles and changing camera Z can affect membership; no true floor assignment or six-floor acceptance is inferred.",
+    "XY proximity does not prove visibility, line of sight, density sufficiency, contemporaneous LiDAR capture, or recoverable image texture. One point counts as presence only.",
+    "Overlapping blocks repeat groups and may repeat reference points; overall fractions use block-group observations, not unique samples or area coverage.",
+    "The earlier first-six-scan angles/15.8m conditional ray intersection/21.6m observed returns describe only block000 start and were not recomputed or generalized here."
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "status": "HISTORICAL_RESUME_ADAM_COUNTER_AUDIT",
+  "block_id": "block_006",
+  "training_result_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/block_006/training_result.json",
+  "training_result_sha256": "39f72a6e1f68c23b68075a425498d9bb3ea8dd1cbdd0da1ac687100a0b61c44a",
+  "checkpoint": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runs/garage_surface_v1/block_006/block_006/splatfacto/2026-10-06_214143/nerfstudio_models/step-000011999.ckpt",
+  "checkpoint_sha256": "82183b9795621cf806b5f8979fd5a786b26edca447fd942e0e5b2fe8aee2b21a",
+  "checkpoint_step": 11999,
+  "declared_iterations": 12000,
+  "resumed_from": {
+    "status": "checkpoint_verified",
+    "checkpoint": "runs/garage_surface_v1/block_006/block_006/splatfacto/2026-10-06_214143/nerfstudio_models/step-000011000.ckpt",
+    "sha256": "0cdc13b00f513e8f641c98e552860ccb6fc3d8c29118ab43a81a17663d547d0e",
+    "checkpoint_step": 11000,
+    "target_iterations": 12000,
+    "remaining_iterations": 999,
+    "optimizer_groups": [
+      "features_dc",
+      "features_rest",
+      "means",
+      "opacities",
+      "quats",
+      "scales"
+    ],
+    "scheduler_groups": [
+      "means"
+    ],
+    "note": "Restores model/optimizers/schedulers/scaler; image shuffle RNG is reseeded."
+  },
+  "optimizers": {
+    "means": [
+      {
+        "step": 11001,
+        "exp_avg_shape": [
+          400192,
+          3
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "step": 11001,
+        "exp_avg_shape": [
+          400192,
+          3
+        ]
+      }
+    ],
+    "quats": [
+      {
+        "step": 11001,
+        "exp_avg_shape": [
+          400192,
+          4
+        ]
+      }
+    ],
+    "features_dc": [
+      {
+        "step": 11001,
+        "exp_avg_shape": [
+          400192,
+          3
+        ]
+      }
+    ],
+    "features_rest": [
+      {
+        "step": 11001,
+        "exp_avg_shape": [
+          400192,
+          15,
+          3
+        ]
+      }
+    ],
+    "opacities": [
+      {
+        "step": 11001,
+        "exp_avg_shape": [
+          400192,
+          1
+        ]
+      }
+    ]
+  },
+  "all_optimizer_steps_match_final_iteration": false,
+  "all_optimizer_steps_unchanged_from_resume": true,
+  "gpu_used": false,
+  "original_files_modified": false,
+  "peak_rss_mb": 677.40234375,
+  "script_sha256": "ae0175f913811df8a5ead18e71e72b58927df88dc422b6b4cbbf317a9dd8b207",
+  "interpretation": "Frozen historical appearance measurements and exported parameter equality remain valid. Completed loop count alone does not prove optimizer progress. Compare exact Adam counters with saved step; hard surface projection may still mutate means/quats without Adam updates.",
+  "scope": "Only historical training_result.json files explicitly marking resumed_from were searched; one original block006 matched. No claim that every possible undocumented resume is detected."
+}

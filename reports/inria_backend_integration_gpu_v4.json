@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "gpu_used": true,
+  "lock": "runtime/core_joint_gpu.lock",
+  "command": [
+    "/home/chaoszzss/dataset/rosbag/3D-Gaussian/.venv-train/bin/python",
+    "scripts/probe_inria_backend_integration.py",
+    "--lock-fd",
+    "9",
+    "--output",
+    "reports/inria_backend_integration_gpu_v4.json"
+  ],
+  "optimizer_steps": 0,
+  "training_iterations": 0,
+  "parameters_restored_bitwise": true,
+  "forward_model_images_bitwise_equal": true,
+  "rgb_alpha_parameter_gradients_bitwise_equal": true,
+  "cases": [
+    {
+      "variant": "original",
+      "model_step": 11999,
+      "active_sh_degree": 3,
+      "known_pixels": 1,
+      "relative_depth_loss": 0.005076596979051828,
+      "means_x_autograd": -2.1174004416479875e-07,
+      "means_x_finite_difference": -0.1616380177438259,
+      "parameter_gradients_finite": true,
+      "parameters_restored_bitwise": true,
+      "parameter_gradients": {
+        "means": [
+          [
+            -2.1174004416479875e-07,
+            0.0,
+            -0.01666666567325592
+          ]
+        ],
+        "scales": [
+          [
+            0.0075765931978821754,
+            0.0,
+            0.0
+          ]
+        ],
+        "opacities": [
+          [
+            -2.7407458524919548e-09
+          ]
+        ],
+        "quats": [
+          [
+            -0.0008956519886851311,
+            0.0,
+            0.0009774323552846909,
+            0.0
+          ]
+        ]
+      },
+      "renderer_provenance": {
+        "schema_version": 1,
+        "variant": "original",
+        "module": "diff_surfel_rasterization",
+        "adapter_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/src/orbvi_gaussian/inria_surfel_backend.py",
+        "adapter_sha256": "9338aba492af4fee756156659ef4c6c1ba37f02a6d9c1ca46e37a772ba608382",
+        "wrapper_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/.venv-train/lib/python3.10/site-packages/diff_surfel_rasterization/__init__.py",
+        "wrapper_sha256": "046c1c81f22969b9ca5de2352061c2973c611c475257d938ab15d33c7836839a",
+        "extension_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/.venv-train/lib/python3.10/site-packages/diff_surfel_rasterization/_C.cpython-310-x86_64-linux-gnu.so",
+        "extension_sha256": "d3b9040e301cb88f84f9c62e3a571a7295fe4a9e95526e37d97cd34f18e53603",
+        "source_directory": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_src",
+        "source_sha256": {
+          "cuda_rasterizer/forward.cu": "5f99ca4953baf8ce3699e0ded25f9c10ab94f3e3a697ff87e2502a36559cce53",
+          "cuda_rasterizer/backward.cu": "fccec0f96fcf71aee4e412138bb30777913d672f3b2b17e6260dcadb1658489f",
+          "cuda_rasterizer/rasterizer_impl.cu": "3fb83843fb8b0725d0265f22a72f80e3a330cfd122514af0e7ea26590a55ddd7",
+          "cuda_rasterizer/auxiliary.h": "dfef626b19f0828b6ebf3fb486a95a386db5f72a1b04a40031643c27eaa41442",
+          "rasterize_points.cu": "38a02baf5bf43f76b40749d0663d7ffb16b5845d90342393d93bab8bc24e1b37",
+          "rasterize_points.h": "7a5d6b93e25887fc8edefe166907178fd169cd6b9afacb18e14d13388f84ab11",
+          "ext.cpp": "102d6ca2a07cf57717e5828c49a7100841cc0147f7373de768070f06bc4909ef",
+          "setup.py": "b72115d8346aeac7b4c41623d184cd55da4ce2ea800c5341424b27b1578ee1bd"
+        },
+        "forward_contract": "original ray-plane depth and low-pass coverage; no center-depth fallback",
+        "validation": null
+      }
+    },
+    {
+      "variant": "aa-depth-vjp",
+      "model_step": 11999,
+      "active_sh_degree": 3,
+      "known_pixels": 1,
+      "relative_depth_loss": 0.005076596979051828,
+      "means_x_autograd": -0.16163420677185059,
+      "means_x_finite_difference": -0.1616380177438259,
+      "parameter_gradients_finite": true,
+      "parameters_restored_bitwise": true,
+      "parameter_gradients": {
+        "means": [
+          [
+            -0.16163420677185059,
+            0.0,
+            -0.014141134917736053
+          ]
+        ],
+        "scales": [
+          [
+            -9.436788017680442e-10,
+            -6.646043437807947e-11,
+            0.0
+          ]
+        ],
+        "opacities": [
+          [
+            -2.7407458524919548e-09
+          ]
+        ],
+        "quats": [
+          [
+            -0.10004211962223053,
+            0.0,
+            0.10917681455612183,
+            0.0
+          ]
+        ]
+      },
+      "renderer_provenance": {
+        "schema_version": 1,
+        "variant": "aa-depth-vjp",
+        "module": "diff_surfel_rasterization_aa_depth_vjp",
+        "adapter_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/src/orbvi_gaussian/inria_surfel_backend.py",
+        "adapter_sha256": "9338aba492af4fee756156659ef4c6c1ba37f02a6d9c1ca46e37a772ba608382",
+        "wrapper_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src/diff_surfel_rasterization_aa_depth_vjp/__init__.py",
+        "wrapper_sha256": "046c1c81f22969b9ca5de2352061c2973c611c475257d938ab15d33c7836839a",
+        "extension_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src/diff_surfel_rasterization_aa_depth_vjp/_C.cpython-310-x86_64-linux-gnu.so",
+        "extension_sha256": "b13ddb468db970047c47d0620b2e6cc68a69cc073156ef04476d8c6d91cd0f16",
+        "source_directory": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src",
+        "source_sha256": {
+          "cuda_rasterizer/forward.cu": "5f99ca4953baf8ce3699e0ded25f9c10ab94f3e3a697ff87e2502a36559cce53",
+          "cuda_rasterizer/backward.cu": "2cc8e3b0a53bda733875bcf6a9a45e1ec2097514bd745a33b530622e6be0485e",
+          "cuda_rasterizer/rasterizer_impl.cu": "3fb83843fb8b0725d0265f22a72f80e3a330cfd122514af0e7ea26590a55ddd7",
+          "cuda_rasterizer/auxiliary.h": "dfef626b19f0828b6ebf3fb486a95a386db5f72a1b04a40031643c27eaa41442",
+          "rasterize_points.cu": "38a02baf5bf43f76b40749d0663d7ffb16b5845d90342393d93bab8bc24e1b37",
+          "rasterize_points.h": "7a5d6b93e25887fc8edefe166907178fd169cd6b9afacb18e14d13388f84ab11",
+          "ext.cpp": "102d6ca2a07cf57717e5828c49a7100841cc0147f7373de768070f06bc4909ef",
+          "setup.py": "1a67565d6982bc9124114c0d2260ec232b72cca26f21ec114dd6d18304585185"
+        },
+        "forward_contract": "original ray-plane depth and low-pass coverage; no center-depth fallback",
+        "validation": {
+          "validation_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src/aa_depth_vjp_validation.json",
+          "validation_sha256": "37ede1e15e230769c6945d31e9af699a2e0746e320a95c09c0682a2eb2cddeed",
+          "finite_difference_report": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/surfel_aa_depth_fd_gpu.json",
+          "finite_difference_report_sha256": "12ec7967aa7190cb2dfffb647a9111bf95eb7402653d550542364353cfd09303",
+          "build_manifest_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src/aa_depth_vjp_provenance.json",
+          "build_manifest_sha256": "7259acd20c7728aa327d2e20544205148e2b59f9ab68a5a8b95134d06b7b8312",
+          "forward_source_byte_identical": true,
+          "tested_forward_arrays_bitwise_equal": true,
+          "tested_rgb_alpha_parameter_gradients_bitwise_equal": true,
+          "original_extension_sha256": "d3b9040e301cb88f84f9c62e3a571a7295fe4a9e95526e37d97cd34f18e53603"
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "scripts/probe_inria_backend_integration.py": "5dec6bdabd4b55a8deb1f22d772c763623d1ec0e71d8ac697ac3852858fd5019",
+    "src/orbvi_gaussian/inria_surfel_backend.py": "9338aba492af4fee756156659ef4c6c1ba37f02a6d9c1ca46e37a772ba608382",
+    "src/orbvi_gaussian/lidar_splatfacto.py": "82e7228f03ae11b681d3116d8cdec2403514027e6a5e9c3d81c617ba897254d4",
+    "scripts/train_lidar_block.py": "b6eb5d1a718c05c51d8888e047d94d49cc3e360ee46dcdc8f2cf6bbeac54500f",
+    "src/orbvi_gaussian/scale_annealing.py": "dc8e821af80fbfb705dbd8af0fc0ea269be5f0731978372228c95916a8fd2bc2",
+    "scripts/evaluate_reconstruction.py": "688a245108d2ae8b7ebcbe451586a56bc320798d6d5330e017a416c6a02dab1d",
+    "scripts/evaluate_gaussian_ply.py": "fd5903b714128c420903ebc94c9ff57f622d8304ddcab5db822a4520cb081d4e",
+    "scripts/native_gaussian_visibility.py": "5b22f1a2880665b429f480b9538458f5c3cb5fbe32874ebad7589f4c32591965"
+  },
+  "elapsed_seconds": 4.566580074999365,
+  "peak_cuda_allocated_bytes": 9011712,
+  "scope": "Real LidarSplatfactoModel.get_outputs/get_loss_dict with one Gaussian, full SH3, fixed tiny TRAIN camera. No optimizer/refinement steps. Local backend integration only, not reconstruction acceptance."
+}

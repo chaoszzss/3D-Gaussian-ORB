@@ -1,0 +1,12 @@
+{
+  "completed_at": "2026-10-09T09:21:14.581707+00:00",
+  "deleted_files_and_symlinks": 314308,
+  "deleted_empty_directories": 9941,
+  "skipped_changed_files": [],
+  "plan_sha256": "d502bfd0fc96b050d10b758d7fec7adc988e0cb4f8565da4b0b8f5612506f63c",
+  "after": {
+    "project_allocated_bytes": 19781292032,
+    "filesystem_free_bytes": 1043977134080,
+    "at": "2026-10-09T09:21:14.663965+00:00"
+  }
+}

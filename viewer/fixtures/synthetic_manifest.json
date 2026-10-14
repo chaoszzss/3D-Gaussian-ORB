@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "title": "合成 Gaussian 自检 · 非实景",
+  "dataset_kind": "synthetic",
+  "coordinates": "camera_init",
+  "units": "m",
+  "camera_up": [
+    0,
+    0,
+    1
+  ],
+  "blocks": [
+    {
+      "id": "synthetic_a",
+      "label": "合成自检 A",
+      "floor_id": "selftest_lower",
+      "floor_verified": false,
+      "path": "viewer/fixtures/synthetic_a.ply",
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -2.4,
+          -2.4,
+          -0.7
+        ],
+        "max": [
+          2.4,
+          2.4,
+          2.7
+        ]
+      },
+      "training": {
+        "status": "synthetic",
+        "method": "procedural_test_fixture",
+        "not_real_data": true
+      },
+      "eval": {
+        "status": "not_evaluated",
+        "note": "Rendering self-test only, not reconstruction accuracy"
+      },
+      "lidar": {
+        "path": "viewer/fixtures/synthetic_lidar.ply",
+        "coordinates": "camera_init",
+        "alignment_verified": true,
+        "source": "SYNTHETIC geometric test points, not measured LiDAR"
+      }
+    },
+    {
+      "id": "synthetic_b",
+      "label": "合成自检 B",
+      "floor_id": "selftest_lower",
+      "floor_verified": false,
+      "path": "viewer/fixtures/synthetic_b.ply",
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          5.6,
+          -2.4,
+          -0.7
+        ],
+        "max": [
+          10.4,
+          2.4,
+          2.7
+        ]
+      },
+      "training": {
+        "status": "synthetic",
+        "method": "procedural_test_fixture",
+        "not_real_data": true
+      },
+      "eval": {
+        "status": "not_evaluated",
+        "note": "Rendering self-test only, not reconstruction accuracy"
+      }
+    },
+    {
+      "id": "synthetic_c",
+      "label": "合成自检 C",
+      "floor_id": "selftest_upper",
+      "floor_verified": false,
+      "path": "viewer/fixtures/synthetic_c.ply",
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          -2.4,
+          -2.4,
+          4.3
+        ],
+        "max": [
+          2.4,
+          2.4,
+          7.7
+        ]
+      },
+      "training": {
+        "status": "synthetic",
+        "method": "procedural_test_fixture",
+        "not_real_data": true
+      },
+      "eval": {
+        "status": "not_evaluated",
+        "note": "Rendering self-test only, not reconstruction accuracy"
+      }
+    },
+    {
+      "id": "synthetic_d",
+      "label": "合成自检 D",
+      "floor_id": null,
+      "floor_verified": false,
+      "path": "viewer/fixtures/synthetic_d.ply",
+      "coordinates": "camera_init",
+      "bbox_m": {
+        "min": [
+          5.6,
+          -2.4,
+          4.3
+        ],
+        "max": [
+          10.4,
+          2.4,
+          7.7
+        ]
+      },
+      "training": {
+        "status": "synthetic",
+        "method": "procedural_test_fixture",
+        "not_real_data": true
+      },
+      "eval": {
+        "status": "not_evaluated",
+        "note": "Rendering self-test only, not reconstruction accuracy"
+      }
+    }
+  ]
+}

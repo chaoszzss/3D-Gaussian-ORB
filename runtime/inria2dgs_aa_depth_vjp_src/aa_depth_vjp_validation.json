@@ -1,0 +1,12 @@
+{
+  "status": "LOCAL_CUDA_DEPTH_VJP_FINITE_DIFFERENCE_PASS",
+  "verified_utc": "2026-10-09T04:00:47.615993+00:00",
+  "report": "reports/surfel_aa_depth_fd_gpu.json",
+  "report_sha256": "12ec7967aa7190cb2dfffb647a9111bf95eb7402653d550542364353cfd09303",
+  "candidate_extension_sha256": "b13ddb468db970047c47d0620b2e6cc68a69cc073156ef04476d8c6d91cd0f16",
+  "original_extension_sha256": "d3b9040e301cb88f84f9c62e3a571a7295fe4a9e95526e37d97cd34f18e53603",
+  "forward_source_sha256": "5f99ca4953baf8ce3699e0ded25f9c10ab94f3e3a697ff87e2502a36559cce53",
+  "forward_bitwise_equal": true,
+  "rgb_alpha_parameter_gradients_bitwise_equal": true,
+  "scope": "Synthetic local derivative consistency only. No scene quality claim; no default backend change."
+}

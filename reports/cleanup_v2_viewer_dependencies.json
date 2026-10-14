@@ -1,0 +1,2289 @@
+{
+  "schema_version": 1,
+  "status": "READ_ONLY_DEPENDENCY_AUDIT_PASS",
+  "created_at_utc": "2026-10-09T09:09:15.743304+00:00",
+  "scope": {
+    "GPU_used": false,
+    "browser_launched": false,
+    "server_started_restarted_stopped": false,
+    "existing_files_modified_or_deleted": false,
+    "new_output_files": [
+      "reports/cleanup_v2_viewer_dependencies.json",
+      "reports/cleanup_v2_viewer_dependencies.md"
+    ],
+    "global_disk_scan_performed": false
+  },
+  "runtime": {
+    "python": "System Python 3.8+ standard library only; no training venv, CUDA, Torch, npm dev server or Node process required.",
+    "browser": "Existing user WebGL2 browser; viewer/runtime bundled test Chromium is not used by the live endpoints.",
+    "minimum_nonmodel_keep": [
+      "scripts/serve_map.py",
+      "maps/garage_reference_views.json",
+      "viewer/index.html",
+      "viewer/app.js",
+      "viewer/style.css",
+      "viewer/gaussian_sh_restore.js",
+      "viewer/gaussian_direction_support.js",
+      "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js",
+      "viewer/node_modules/three/build/three.module.js",
+      "viewer/node_modules/three/build/three.core.js",
+      "viewer/node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "viewer/node_modules/three/examples/jsm/loaders/PLYLoader.js",
+      "viewer/node_modules/three/examples/jsm/postprocessing/Pass.js",
+      "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+      "maps/garage_fidelity_v2_full_preview/overview_manifest.json",
+      "maps/garage_fidelity_v2_full_preview/manifest.json",
+      "reports/full_preview_v2/index.html",
+      "reports/full_preview_v2/overview.png",
+      "reports/full_preview_v2/overview_side.png",
+      "reports/full_preview_v2/f6_block_027.png",
+      "reports/full_preview_v2_viewer.json",
+      "reports/full_preview_v2_viewer.md",
+      "maps/garage_fidelity_v2_full_preview/assembly.json",
+      "reports/full_preview_v2_source_audit.json"
+    ],
+    "runtime_file_descriptors": [
+      {
+        "path": "scripts/serve_map.py",
+        "bytes": 27387,
+        "sha256": "df987b06d999c933b8f9397a372101a544119d2dc96189327e499dc8783f69ec"
+      },
+      {
+        "path": "maps/garage_reference_views.json",
+        "bytes": 94412,
+        "sha256": "906135c6b2b65add66b871a5e2e04364bddd315420e8c563a023e10c18f6fee4"
+      },
+      {
+        "path": "viewer/index.html",
+        "bytes": 4130,
+        "sha256": "24b9233242debded319028f600eb7f0d10195422bdc4023acff42190ace246a5"
+      },
+      {
+        "path": "viewer/app.js",
+        "bytes": 27918,
+        "sha256": "bccfe4d8f7a3b1add35d8b426eb68ba0e1571eabaa89c351934766d241687e3d"
+      },
+      {
+        "path": "viewer/style.css",
+        "bytes": 6116,
+        "sha256": "46d37b1d62ded9d409917cf325b2a98e34894ea1f8541bbcacfe843441c8fb56"
+      },
+      {
+        "path": "viewer/gaussian_sh_restore.js",
+        "bytes": 8991,
+        "sha256": "3e6b3321273a4da87440db8c4dbccedd7f2a56045a8c07716c21545dae1218b7"
+      },
+      {
+        "path": "viewer/gaussian_direction_support.js",
+        "bytes": 25288,
+        "sha256": "1a04304943ec9ba37501557d6b8fcd6e49132b2d55c6b48f84be65875aa8bb9d"
+      },
+      {
+        "path": "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js",
+        "bytes": 2816188,
+        "sha256": "2de375d5e489692f976abe3199c8435ecc00f97fabaf35e489eb7d368e1f6f60"
+      },
+      {
+        "path": "viewer/node_modules/three/build/three.module.js",
+        "bytes": 603113,
+        "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+      },
+      {
+        "path": "viewer/node_modules/three/build/three.core.js",
+        "bytes": 1403455,
+        "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+      },
+      {
+        "path": "viewer/node_modules/three/examples/jsm/controls/OrbitControls.js",
+        "bytes": 38703,
+        "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+      },
+      {
+        "path": "viewer/node_modules/three/examples/jsm/loaders/PLYLoader.js",
+        "bytes": 17700,
+        "sha256": "b824a6dda90cbfb37cabf8e5462ed1673e7693852bc1a6a7bab0465d7b634dfb"
+      },
+      {
+        "path": "viewer/node_modules/three/examples/jsm/postprocessing/Pass.js",
+        "bytes": 4218,
+        "sha256": "444b409c235ead986893c472e720da1b779a56985c7d10b279c7944b52bd61c5"
+      }
+    ],
+    "live_services": [
+      {
+        "port": 8768,
+        "manifest": {
+          "path": "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+          "bytes": 6596,
+          "sha256": "53b70f4e4576ab34ab9390fe5f3bc5c50426ff3d9ecb89fd7444b9ac21c58a9c"
+        },
+        "limits": {
+          "max_loaded_blocks": 1,
+          "max_splats": 2500000,
+          "max_file_bytes": 671088640,
+          "max_lidar_points": 300000,
+          "max_lidar_bytes": 33554432
+        },
+        "assets": [
+          {
+            "url": "http://127.0.0.1:8768/api/blocks/block_000/model",
+            "status": 200,
+            "content_length": 618943622,
+            "id": "block_000",
+            "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply",
+            "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+            "gaussians": 2495734,
+            "reference_views": 4
+          }
+        ]
+      },
+      {
+        "port": 8769,
+        "manifest": {
+          "path": "maps/garage_fidelity_v2_full_preview/overview_manifest.json",
+          "bytes": 4910,
+          "sha256": "ac1ac0f329ea91e4638d52026bdf259067f2614431e2af0d0f04fbd58be08b7c"
+        },
+        "limits": {
+          "max_loaded_blocks": 3,
+          "max_splats": 1500000,
+          "max_file_bytes": 536870912,
+          "max_lidar_points": 300000,
+          "max_lidar_bytes": 33554432
+        },
+        "assets": [
+          {
+            "url": "http://127.0.0.1:8769/api/blocks/garage_overview/model",
+            "status": 200,
+            "content_length": 297601595,
+            "id": "garage_overview",
+            "path": "maps/garage_fidelity_v2_full_preview/gaussians_overview.ply",
+            "sha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+            "gaussians": 1200000,
+            "reference_views": 0
+          }
+        ]
+      },
+      {
+        "port": 8770,
+        "manifest": {
+          "path": "maps/garage_fidelity_v2_full_preview/manifest.json",
+          "bytes": 44638,
+          "sha256": "b75c1f983608cba43cc2393ccf2c03b45183b3000584a610d3d288a6c7440ecb"
+        },
+        "limits": {
+          "max_loaded_blocks": 4,
+          "max_splats": 4000000,
+          "max_file_bytes": 671088640,
+          "max_lidar_points": 300000,
+          "max_lidar_bytes": 33554432
+        },
+        "assets": [
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_000/model",
+            "status": 200,
+            "content_length": 618943622,
+            "id": "block_000",
+            "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply",
+            "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+            "gaussians": 2495734,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_001/model",
+            "status": 200,
+            "content_length": 85034589,
+            "id": "block_001",
+            "path": "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply",
+            "sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+            "gaussians": 342875,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_002/model",
+            "status": 200,
+            "content_length": 90492077,
+            "id": "block_002",
+            "path": "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply",
+            "sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+            "gaussians": 364881,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_003/model",
+            "status": 200,
+            "content_length": 91487797,
+            "id": "block_003",
+            "path": "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply",
+            "sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+            "gaussians": 368896,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_004/model",
+            "status": 200,
+            "content_length": 95308981,
+            "id": "block_004",
+            "path": "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply",
+            "sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+            "gaussians": 384304,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_005/model",
+            "status": 200,
+            "content_length": 101507493,
+            "id": "block_005",
+            "path": "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply",
+            "sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+            "gaussians": 409298,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_006/model",
+            "status": 200,
+            "content_length": 99249205,
+            "id": "block_006",
+            "path": "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply",
+            "sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+            "gaussians": 400192,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_007/model",
+            "status": 200,
+            "content_length": 96656117,
+            "id": "block_007",
+            "path": "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply",
+            "sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+            "gaussians": 389736,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_008/model",
+            "status": 200,
+            "content_length": 93760717,
+            "id": "block_008",
+            "path": "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply",
+            "sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+            "gaussians": 378061,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_009/model",
+            "status": 200,
+            "content_length": 93886205,
+            "id": "block_009",
+            "path": "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply",
+            "sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+            "gaussians": 378567,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_010/model",
+            "status": 200,
+            "content_length": 89539757,
+            "id": "block_010",
+            "path": "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply",
+            "sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+            "gaussians": 361041,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_011/model",
+            "status": 200,
+            "content_length": 91748197,
+            "id": "block_011",
+            "path": "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply",
+            "sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+            "gaussians": 369946,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_012/model",
+            "status": 200,
+            "content_length": 91946349,
+            "id": "block_012",
+            "path": "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply",
+            "sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+            "gaussians": 370745,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_013/model",
+            "status": 200,
+            "content_length": 91414637,
+            "id": "block_013",
+            "path": "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply",
+            "sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+            "gaussians": 368601,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_015/model",
+            "status": 200,
+            "content_length": 619713166,
+            "id": "block_015",
+            "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply",
+            "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+            "gaussians": 2498837,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_017/model",
+            "status": 200,
+            "content_length": 88792781,
+            "id": "block_017",
+            "path": "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply",
+            "sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+            "gaussians": 358029,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_018/model",
+            "status": 200,
+            "content_length": 85075757,
+            "id": "block_018",
+            "path": "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply",
+            "sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+            "gaussians": 343041,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_019/model",
+            "status": 200,
+            "content_length": 75151293,
+            "id": "block_019",
+            "path": "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply",
+            "sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+            "gaussians": 303023,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_020/model",
+            "status": 200,
+            "content_length": 90364853,
+            "id": "block_020",
+            "path": "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply",
+            "sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+            "gaussians": 364368,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_021/model",
+            "status": 200,
+            "content_length": 85111717,
+            "id": "block_021",
+            "path": "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply",
+            "sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+            "gaussians": 343186,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_022/model",
+            "status": 200,
+            "content_length": 89361693,
+            "id": "block_022",
+            "path": "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply",
+            "sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+            "gaussians": 360323,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_023/model",
+            "status": 200,
+            "content_length": 89929117,
+            "id": "block_023",
+            "path": "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply",
+            "sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+            "gaussians": 362611,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_024/model",
+            "status": 200,
+            "content_length": 82325437,
+            "id": "block_024",
+            "path": "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply",
+            "sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+            "gaussians": 331951,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_025/model",
+            "status": 200,
+            "content_length": 100681405,
+            "id": "block_025",
+            "path": "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply",
+            "sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+            "gaussians": 405967,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_026/model",
+            "status": 200,
+            "content_length": 97042997,
+            "id": "block_026",
+            "path": "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply",
+            "sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+            "gaussians": 391296,
+            "reference_views": 4
+          },
+          {
+            "url": "http://127.0.0.1:8770/api/blocks/block_027/model",
+            "status": 200,
+            "content_length": 58465853,
+            "id": "block_027",
+            "path": "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply",
+            "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+            "gaussians": 235743,
+            "reference_views": 4
+          }
+        ]
+      }
+    ],
+    "landing_http": [
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2/index.html",
+        "status": 200,
+        "content_length": 7559
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2/overview.png",
+        "status": 200,
+        "content_length": 201239
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2/overview_side.png",
+        "status": 200,
+        "content_length": 151930
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2/f6_block_027.png",
+        "status": 200,
+        "content_length": 897322
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2_viewer.json",
+        "status": 200,
+        "content_length": 53607
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2_viewer.md",
+        "status": 200,
+        "content_length": 4617
+      }
+    ],
+    "static_http": [
+      {
+        "url": "http://127.0.0.1:8769/",
+        "path": "viewer/index.html",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/index.html",
+        "path": "viewer/index.html",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/app.js",
+        "path": "viewer/app.js",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/style.css",
+        "path": "viewer/style.css",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/gaussian_sh_restore.js",
+        "path": "viewer/gaussian_sh_restore.js",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/gaussian_direction_support.js",
+        "path": "viewer/gaussian_direction_support.js",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/vendor/spark.js",
+        "path": "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/vendor/three/build/three.module.js",
+        "path": "viewer/node_modules/three/build/three.module.js",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/vendor/three/build/three.core.js",
+        "path": "viewer/node_modules/three/build/three.core.js",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/vendor/three/addons/controls/OrbitControls.js",
+        "path": "viewer/node_modules/three/examples/jsm/controls/OrbitControls.js",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/vendor/three/addons/loaders/PLYLoader.js",
+        "path": "viewer/node_modules/three/examples/jsm/loaders/PLYLoader.js",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      },
+      {
+        "url": "http://127.0.0.1:8769/vendor/three/addons/postprocessing/Pass.js",
+        "path": "viewer/node_modules/three/examples/jsm/postprocessing/Pass.js",
+        "status": 200,
+        "served_bytes_match_local_sha256": true
+      }
+    ],
+    "model_keep": {
+      "overview": {
+        "path": "maps/garage_fidelity_v2_full_preview/gaussians_overview.ply",
+        "gaussians": 1200000,
+        "file_bytes": 297601595,
+        "sha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+        "header_bytes": 1595,
+        "bbox_m": {
+          "min": [
+            -38.333412170410156,
+            -71.10166931152344,
+            -11.911044120788574
+          ],
+          "max": [
+            104.46508026123047,
+            80.288818359375,
+            21.79330825805664
+          ]
+        }
+      },
+      "full_download": {
+        "path": "maps/garage_fidelity_v2_full_preview/gaussians_full.ply",
+        "gaussians": 13681252,
+        "file_bytes": 3392952092,
+        "sha256": "d1f458d96d4b33865c817e5eb1b5e1db80720ec1eaba8fdcdeeb184fa66c0c83",
+        "header_bytes": 1596,
+        "bbox_m": {
+          "min": [
+            -38.333412170410156,
+            -71.57218170166016,
+            -12.985081672668457
+          ],
+          "max": [
+            104.46508026123047,
+            80.49833679199219,
+            21.970640182495117
+          ]
+        }
+      },
+      "detail_original_assets": [
+        {
+          "id": "block_000",
+          "source_blocks": [
+            "block_000"
+          ],
+          "floor_id": "F1",
+          "from": "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_000.ply",
+          "bytes": 618943622,
+          "gaussians": 2495734,
+          "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_000].path"
+            },
+            {
+              "manifest": "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+              "field": "blocks[0].path"
+            },
+            {
+              "manifest": "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+              "field": "source_export.path"
+            }
+          ]
+        },
+        {
+          "id": "block_001",
+          "source_blocks": [
+            "block_001"
+          ],
+          "floor_id": "F1",
+          "from": "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_001.ply",
+          "bytes": 85034589,
+          "gaussians": 342875,
+          "sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_001].path"
+            }
+          ]
+        },
+        {
+          "id": "block_002",
+          "source_blocks": [
+            "block_002"
+          ],
+          "floor_id": "F1",
+          "from": "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_002.ply",
+          "bytes": 90492077,
+          "gaussians": 364881,
+          "sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_002].path"
+            }
+          ]
+        },
+        {
+          "id": "block_003",
+          "source_blocks": [
+            "block_003"
+          ],
+          "floor_id": "F1",
+          "from": "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_003.ply",
+          "bytes": 91487797,
+          "gaussians": 368896,
+          "sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_003].path"
+            }
+          ]
+        },
+        {
+          "id": "block_004",
+          "source_blocks": [
+            "block_004"
+          ],
+          "floor_id": "F1",
+          "from": "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_004.ply",
+          "bytes": 95308981,
+          "gaussians": 384304,
+          "sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_004].path"
+            }
+          ]
+        },
+        {
+          "id": "block_005",
+          "source_blocks": [
+            "block_005"
+          ],
+          "floor_id": "坡道 F1-F2",
+          "from": "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_005.ply",
+          "bytes": 101507493,
+          "gaussians": 409298,
+          "sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_005].path"
+            }
+          ]
+        },
+        {
+          "id": "block_006",
+          "source_blocks": [
+            "block_006"
+          ],
+          "floor_id": "坡道 F1-F2",
+          "from": "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_006.ply",
+          "bytes": 99249205,
+          "gaussians": 400192,
+          "sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_006].path"
+            }
+          ]
+        },
+        {
+          "id": "block_007",
+          "source_blocks": [
+            "block_007"
+          ],
+          "floor_id": "F2",
+          "from": "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_007.ply",
+          "bytes": 96656117,
+          "gaussians": 389736,
+          "sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_007].path"
+            }
+          ]
+        },
+        {
+          "id": "block_008",
+          "source_blocks": [
+            "block_008"
+          ],
+          "floor_id": "F2",
+          "from": "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_008.ply",
+          "bytes": 93760717,
+          "gaussians": 378061,
+          "sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_008].path"
+            }
+          ]
+        },
+        {
+          "id": "block_009",
+          "source_blocks": [
+            "block_009"
+          ],
+          "floor_id": "F2",
+          "from": "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_009.ply",
+          "bytes": 93886205,
+          "gaussians": 378567,
+          "sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_009].path"
+            }
+          ]
+        },
+        {
+          "id": "block_010",
+          "source_blocks": [
+            "block_010"
+          ],
+          "floor_id": "坡道 F2-F3",
+          "from": "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_010.ply",
+          "bytes": 89539757,
+          "gaussians": 361041,
+          "sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_010].path"
+            }
+          ]
+        },
+        {
+          "id": "block_011",
+          "source_blocks": [
+            "block_011"
+          ],
+          "floor_id": "坡道 F2-F3",
+          "from": "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_011.ply",
+          "bytes": 91748197,
+          "gaussians": 369946,
+          "sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_011].path"
+            }
+          ]
+        },
+        {
+          "id": "block_012",
+          "source_blocks": [
+            "block_012"
+          ],
+          "floor_id": "F3",
+          "from": "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_012.ply",
+          "bytes": 91946349,
+          "gaussians": 370745,
+          "sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_012].path"
+            }
+          ]
+        },
+        {
+          "id": "block_013",
+          "source_blocks": [
+            "block_013"
+          ],
+          "floor_id": "F3",
+          "from": "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_013.ply",
+          "bytes": 91414637,
+          "gaussians": 368601,
+          "sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_013].path"
+            }
+          ]
+        },
+        {
+          "id": "block_015",
+          "source_blocks": [
+            "block_014",
+            "block_015",
+            "block_016"
+          ],
+          "floor_id": "坡道 F3-F4 / F4",
+          "from": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_015.ply",
+          "bytes": 619713166,
+          "gaussians": 2498837,
+          "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_015].path"
+            }
+          ]
+        },
+        {
+          "id": "block_017",
+          "source_blocks": [
+            "block_017"
+          ],
+          "floor_id": "F4",
+          "from": "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_017.ply",
+          "bytes": 88792781,
+          "gaussians": 358029,
+          "sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_017].path"
+            }
+          ]
+        },
+        {
+          "id": "block_018",
+          "source_blocks": [
+            "block_018"
+          ],
+          "floor_id": "坡道 F4-F5",
+          "from": "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_018.ply",
+          "bytes": 85075757,
+          "gaussians": 343041,
+          "sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_018].path"
+            }
+          ]
+        },
+        {
+          "id": "block_019",
+          "source_blocks": [
+            "block_019"
+          ],
+          "floor_id": "坡道 F4-F5",
+          "from": "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_019.ply",
+          "bytes": 75151293,
+          "gaussians": 303023,
+          "sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_019].path"
+            }
+          ]
+        },
+        {
+          "id": "block_020",
+          "source_blocks": [
+            "block_020"
+          ],
+          "floor_id": "坡道 F4-F5",
+          "from": "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_020.ply",
+          "bytes": 90364853,
+          "gaussians": 364368,
+          "sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_020].path"
+            }
+          ]
+        },
+        {
+          "id": "block_021",
+          "source_blocks": [
+            "block_021"
+          ],
+          "floor_id": "F5",
+          "from": "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_021.ply",
+          "bytes": 85111717,
+          "gaussians": 343186,
+          "sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_021].path"
+            }
+          ]
+        },
+        {
+          "id": "block_022",
+          "source_blocks": [
+            "block_022"
+          ],
+          "floor_id": "F5",
+          "from": "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_022.ply",
+          "bytes": 89361693,
+          "gaussians": 360323,
+          "sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_022].path"
+            }
+          ]
+        },
+        {
+          "id": "block_023",
+          "source_blocks": [
+            "block_023"
+          ],
+          "floor_id": "坡道 F5-F6",
+          "from": "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_023.ply",
+          "bytes": 89929117,
+          "gaussians": 362611,
+          "sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_023].path"
+            }
+          ]
+        },
+        {
+          "id": "block_024",
+          "source_blocks": [
+            "block_024"
+          ],
+          "floor_id": "坡道 F5-F6",
+          "from": "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_024.ply",
+          "bytes": 82325437,
+          "gaussians": 331951,
+          "sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_024].path"
+            }
+          ]
+        },
+        {
+          "id": "block_025",
+          "source_blocks": [
+            "block_025"
+          ],
+          "floor_id": "F6",
+          "from": "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_025.ply",
+          "bytes": 100681405,
+          "gaussians": 405967,
+          "sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_025].path"
+            }
+          ]
+        },
+        {
+          "id": "block_026",
+          "source_blocks": [
+            "block_026"
+          ],
+          "floor_id": "F6",
+          "from": "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_026.ply",
+          "bytes": 97042997,
+          "gaussians": 391296,
+          "sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_026].path"
+            }
+          ]
+        },
+        {
+          "id": "block_027",
+          "source_blocks": [
+            "block_027"
+          ],
+          "floor_id": "F6",
+          "from": "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply",
+          "to": "maps/garage_fidelity_v2_full_preview/blocks/block_027.ply",
+          "bytes": 58465853,
+          "gaussians": 235743,
+          "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+          "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+          "update_required": [
+            {
+              "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+              "field": "blocks[id=block_027].path"
+            }
+          ]
+        }
+      ],
+      "latest000_shares_detail_asset": true,
+      "unique_ply_count": 28,
+      "total_model_bytes": 7083545499,
+      "full_download_scope": "Full PLY required by landing final-artifact download; browser preview itself uses overview + 26 detail exports."
+    },
+    "reference_views": {
+      "path": "maps/garage_reference_views.json",
+      "keep_for_existing_enter_region_UI": true,
+      "source_metadata_paths_are_provenance_only": true,
+      "delete_effect": "Rendering still starts, but all existing capture-camera navigation disappears."
+    },
+    "sidecars_or_lidar_required": false
+  },
+  "javascript": {
+    "dependency_graph": {
+      "viewer/index.html": [
+        "viewer/style.css",
+        "viewer/app.js"
+      ],
+      "viewer/app.js": [
+        "viewer/node_modules/three/build/three.module.js",
+        "viewer/node_modules/three/examples/jsm/controls/OrbitControls.js",
+        "viewer/node_modules/three/examples/jsm/loaders/PLYLoader.js",
+        "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js",
+        "viewer/gaussian_sh_restore.js",
+        "viewer/gaussian_direction_support.js"
+      ],
+      "viewer/node_modules/three/build/three.module.js": [
+        "viewer/node_modules/three/build/three.core.js"
+      ],
+      "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js": [
+        "viewer/node_modules/three/build/three.module.js",
+        "viewer/node_modules/three/examples/jsm/postprocessing/Pass.js"
+      ],
+      "viewer/node_modules/three/examples/jsm/controls/OrbitControls.js": [
+        "viewer/node_modules/three/build/three.module.js"
+      ],
+      "viewer/node_modules/three/examples/jsm/loaders/PLYLoader.js": [
+        "viewer/node_modules/three/build/three.module.js"
+      ],
+      "viewer/node_modules/three/examples/jsm/postprocessing/Pass.js": [
+        "viewer/node_modules/three/build/three.module.js"
+      ]
+    },
+    "served_module_files": [
+      {
+        "path": "viewer/app.js",
+        "bytes": 27918,
+        "sha256": "bccfe4d8f7a3b1add35d8b426eb68ba0e1571eabaa89c351934766d241687e3d"
+      },
+      {
+        "path": "viewer/gaussian_sh_restore.js",
+        "bytes": 8991,
+        "sha256": "3e6b3321273a4da87440db8c4dbccedd7f2a56045a8c07716c21545dae1218b7"
+      },
+      {
+        "path": "viewer/gaussian_direction_support.js",
+        "bytes": 25288,
+        "sha256": "1a04304943ec9ba37501557d6b8fcd6e49132b2d55c6b48f84be65875aa8bb9d"
+      },
+      {
+        "path": "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js",
+        "bytes": 2816188,
+        "sha256": "2de375d5e489692f976abe3199c8435ecc00f97fabaf35e489eb7d368e1f6f60"
+      },
+      {
+        "path": "viewer/node_modules/three/build/three.module.js",
+        "bytes": 603113,
+        "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+      },
+      {
+        "path": "viewer/node_modules/three/build/three.core.js",
+        "bytes": 1403455,
+        "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+      },
+      {
+        "path": "viewer/node_modules/three/examples/jsm/controls/OrbitControls.js",
+        "bytes": 38703,
+        "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+      },
+      {
+        "path": "viewer/node_modules/three/examples/jsm/loaders/PLYLoader.js",
+        "bytes": 17700,
+        "sha256": "b824a6dda90cbfb37cabf8e5462ed1673e7693852bc1a6a7bab0465d7b634dfb"
+      },
+      {
+        "path": "viewer/node_modules/three/examples/jsm/postprocessing/Pass.js",
+        "bytes": 4218,
+        "sha256": "444b409c235ead986893c472e720da1b779a56985c7d10b279c7944b52bd61c5"
+      }
+    ],
+    "spark_wasm": "Embedded base64 in spark.module.js line2922, WebAssembly.compile line2925; no external WASM file needed for this bundle.",
+    "spark_worker": "Embedded jsContent line2942, Blob worker line2949; no separate worker file needed.",
+    "safest_recommendation": "Keep all viewer/node_modules unchanged (~57.31 MiB), plus package files/lock/licenses. Saves little to prune and preserves measured versions.",
+    "node_modules_bytes": 60098645,
+    "node_modules_files": 1711,
+    "packaging_keep": [
+      {
+        "path": "viewer/package.json",
+        "bytes": 373,
+        "sha256": "92a69a389a266c9797a694f9b49cbd17e29fcb96560b320702de3d325b03a804"
+      },
+      {
+        "path": "viewer/package-lock.json",
+        "bytes": 2842,
+        "sha256": "b1a474f10f157385a3c72b91b9352d7c3fae08774867e73d65decffa98a946fb"
+      },
+      {
+        "path": "viewer/node_modules/@sparkjsdev/spark/package.json",
+        "bytes": 3292,
+        "sha256": "376a8ca629e1cd1c65b69a9ec9356ab9caafa2f4adad95afe74ae3a4316a612c"
+      },
+      {
+        "path": "viewer/node_modules/@sparkjsdev/spark/LICENSE",
+        "bytes": 1088,
+        "sha256": "51829693e5dccd9ca1daa093991faac3aaa93238eb8fd5f5cb4130af85791d64"
+      },
+      {
+        "path": "viewer/node_modules/three/package.json",
+        "bytes": 4635,
+        "sha256": "aa42494664dba4cf76d89c6975ee38321a402f09a048672e190bad6f13beec93"
+      },
+      {
+        "path": "viewer/node_modules/three/LICENSE",
+        "bytes": 1081,
+        "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+      }
+    ],
+    "minimum_module_closure_note": "STATIC/import graph was read and each route byte-matched locally; a physically pruned installation was not created or browser-tested in this task."
+  },
+  "migration": {
+    "performed": false,
+    "schema_validation_in_memory": "PASS for rewritten 8770/8768 paths; destination files and migrated routes not yet created/tested.",
+    "mapping": [
+      {
+        "id": "block_000",
+        "source_blocks": [
+          "block_000"
+        ],
+        "floor_id": "F1",
+        "from": "runs/fidelity_v2/block000_measuredseed_anneal_v1/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_000.ply",
+        "bytes": 618943622,
+        "gaussians": 2495734,
+        "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_000].path"
+          },
+          {
+            "manifest": "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+            "field": "blocks[0].path"
+          },
+          {
+            "manifest": "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json",
+            "field": "source_export.path"
+          }
+        ]
+      },
+      {
+        "id": "block_001",
+        "source_blocks": [
+          "block_001"
+        ],
+        "floor_id": "F1",
+        "from": "runs/garage_surface_v1/block_001/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_001.ply",
+        "bytes": 85034589,
+        "gaussians": 342875,
+        "sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_001].path"
+          }
+        ]
+      },
+      {
+        "id": "block_002",
+        "source_blocks": [
+          "block_002"
+        ],
+        "floor_id": "F1",
+        "from": "runs/garage_surface_v1/block_002/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_002.ply",
+        "bytes": 90492077,
+        "gaussians": 364881,
+        "sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_002].path"
+          }
+        ]
+      },
+      {
+        "id": "block_003",
+        "source_blocks": [
+          "block_003"
+        ],
+        "floor_id": "F1",
+        "from": "runs/garage_surface_v1/block_003/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_003.ply",
+        "bytes": 91487797,
+        "gaussians": 368896,
+        "sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_003].path"
+          }
+        ]
+      },
+      {
+        "id": "block_004",
+        "source_blocks": [
+          "block_004"
+        ],
+        "floor_id": "F1",
+        "from": "runs/garage_surface_v1/block_004/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_004.ply",
+        "bytes": 95308981,
+        "gaussians": 384304,
+        "sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_004].path"
+          }
+        ]
+      },
+      {
+        "id": "block_005",
+        "source_blocks": [
+          "block_005"
+        ],
+        "floor_id": "坡道 F1-F2",
+        "from": "runs/garage_surface_v1/block_005/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_005.ply",
+        "bytes": 101507493,
+        "gaussians": 409298,
+        "sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_005].path"
+          }
+        ]
+      },
+      {
+        "id": "block_006",
+        "source_blocks": [
+          "block_006"
+        ],
+        "floor_id": "坡道 F1-F2",
+        "from": "runs/garage_surface_v1/block_006/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_006.ply",
+        "bytes": 99249205,
+        "gaussians": 400192,
+        "sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_006].path"
+          }
+        ]
+      },
+      {
+        "id": "block_007",
+        "source_blocks": [
+          "block_007"
+        ],
+        "floor_id": "F2",
+        "from": "runs/garage_surface_v1/block_007/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_007.ply",
+        "bytes": 96656117,
+        "gaussians": 389736,
+        "sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_007].path"
+          }
+        ]
+      },
+      {
+        "id": "block_008",
+        "source_blocks": [
+          "block_008"
+        ],
+        "floor_id": "F2",
+        "from": "runs/garage_surface_v1/block_008/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_008.ply",
+        "bytes": 93760717,
+        "gaussians": 378061,
+        "sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_008].path"
+          }
+        ]
+      },
+      {
+        "id": "block_009",
+        "source_blocks": [
+          "block_009"
+        ],
+        "floor_id": "F2",
+        "from": "runs/garage_surface_v1/block_009/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_009.ply",
+        "bytes": 93886205,
+        "gaussians": 378567,
+        "sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_009].path"
+          }
+        ]
+      },
+      {
+        "id": "block_010",
+        "source_blocks": [
+          "block_010"
+        ],
+        "floor_id": "坡道 F2-F3",
+        "from": "runs/garage_surface_v1/block_010/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_010.ply",
+        "bytes": 89539757,
+        "gaussians": 361041,
+        "sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_010].path"
+          }
+        ]
+      },
+      {
+        "id": "block_011",
+        "source_blocks": [
+          "block_011"
+        ],
+        "floor_id": "坡道 F2-F3",
+        "from": "runs/garage_surface_v1/block_011/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_011.ply",
+        "bytes": 91748197,
+        "gaussians": 369946,
+        "sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_011].path"
+          }
+        ]
+      },
+      {
+        "id": "block_012",
+        "source_blocks": [
+          "block_012"
+        ],
+        "floor_id": "F3",
+        "from": "runs/garage_surface_v1/block_012/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_012.ply",
+        "bytes": 91946349,
+        "gaussians": 370745,
+        "sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_012].path"
+          }
+        ]
+      },
+      {
+        "id": "block_013",
+        "source_blocks": [
+          "block_013"
+        ],
+        "floor_id": "F3",
+        "from": "runs/garage_surface_v1/block_013/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_013.ply",
+        "bytes": 91414637,
+        "gaussians": 368601,
+        "sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_013].path"
+          }
+        ]
+      },
+      {
+        "id": "block_015",
+        "source_blocks": [
+          "block_014",
+          "block_015",
+          "block_016"
+        ],
+        "floor_id": "坡道 F3-F4 / F4",
+        "from": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_015.ply",
+        "bytes": 619713166,
+        "gaussians": 2498837,
+        "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_015].path"
+          }
+        ]
+      },
+      {
+        "id": "block_017",
+        "source_blocks": [
+          "block_017"
+        ],
+        "floor_id": "F4",
+        "from": "runs/garage_surface_v1/block_017/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_017.ply",
+        "bytes": 88792781,
+        "gaussians": 358029,
+        "sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_017].path"
+          }
+        ]
+      },
+      {
+        "id": "block_018",
+        "source_blocks": [
+          "block_018"
+        ],
+        "floor_id": "坡道 F4-F5",
+        "from": "runs/garage_surface_v1/block_018/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_018.ply",
+        "bytes": 85075757,
+        "gaussians": 343041,
+        "sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_018].path"
+          }
+        ]
+      },
+      {
+        "id": "block_019",
+        "source_blocks": [
+          "block_019"
+        ],
+        "floor_id": "坡道 F4-F5",
+        "from": "runs/garage_surface_v1/block_019/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_019.ply",
+        "bytes": 75151293,
+        "gaussians": 303023,
+        "sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_019].path"
+          }
+        ]
+      },
+      {
+        "id": "block_020",
+        "source_blocks": [
+          "block_020"
+        ],
+        "floor_id": "坡道 F4-F5",
+        "from": "runs/garage_surface_v1/block_020/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_020.ply",
+        "bytes": 90364853,
+        "gaussians": 364368,
+        "sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_020].path"
+          }
+        ]
+      },
+      {
+        "id": "block_021",
+        "source_blocks": [
+          "block_021"
+        ],
+        "floor_id": "F5",
+        "from": "runs/garage_surface_v1/block_021/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_021.ply",
+        "bytes": 85111717,
+        "gaussians": 343186,
+        "sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_021].path"
+          }
+        ]
+      },
+      {
+        "id": "block_022",
+        "source_blocks": [
+          "block_022"
+        ],
+        "floor_id": "F5",
+        "from": "runs/garage_surface_v1/block_022/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_022.ply",
+        "bytes": 89361693,
+        "gaussians": 360323,
+        "sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_022].path"
+          }
+        ]
+      },
+      {
+        "id": "block_023",
+        "source_blocks": [
+          "block_023"
+        ],
+        "floor_id": "坡道 F5-F6",
+        "from": "runs/garage_surface_v1/block_023/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_023.ply",
+        "bytes": 89929117,
+        "gaussians": 362611,
+        "sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_023].path"
+          }
+        ]
+      },
+      {
+        "id": "block_024",
+        "source_blocks": [
+          "block_024"
+        ],
+        "floor_id": "坡道 F5-F6",
+        "from": "runs/garage_surface_v1/block_024/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_024.ply",
+        "bytes": 82325437,
+        "gaussians": 331951,
+        "sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_024].path"
+          }
+        ]
+      },
+      {
+        "id": "block_025",
+        "source_blocks": [
+          "block_025"
+        ],
+        "floor_id": "F6",
+        "from": "runs/garage_surface_v1/block_025/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_025.ply",
+        "bytes": 100681405,
+        "gaussians": 405967,
+        "sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_025].path"
+          }
+        ]
+      },
+      {
+        "id": "block_026",
+        "source_blocks": [
+          "block_026"
+        ],
+        "floor_id": "F6",
+        "from": "runs/garage_surface_v1/block_026/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_026.ply",
+        "bytes": 97042997,
+        "gaussians": 391296,
+        "sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_026].path"
+          }
+        ]
+      },
+      {
+        "id": "block_027",
+        "source_blocks": [
+          "block_027"
+        ],
+        "floor_id": "F6",
+        "from": "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply",
+        "to": "maps/garage_fidelity_v2_full_preview/blocks/block_027.ply",
+        "bytes": 58465853,
+        "gaussians": 235743,
+        "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+        "hash_evidence": "Declared by manifest/assembly; independently verified in existing full_preview_v2_viewer.json CPU audit; not rehashed in this bounded dependency audit.",
+        "update_required": [
+          {
+            "manifest": "maps/garage_fidelity_v2_full_preview/manifest.json",
+            "field": "blocks[id=block_027].path"
+          }
+        ]
+      }
+    ],
+    "symlinks_allowed": false,
+    "symlink_reason": "serve_map.open_local applies O_NOFOLLOW to every directory and file; use real files or same-filesystem hardlinks during staging, not symlink shims.",
+    "endpoint_paths_unchanged": [
+      "/api/manifest",
+      "/api/blocks/{id}/model"
+    ],
+    "required_manifest_edits": [
+      "8770 blocks[].path",
+      "8768 blocks[0].path",
+      "8768 source_export.path (metadata consistency)"
+    ],
+    "values_preserve": [
+      "id",
+      "source_blocks",
+      "floor_id and unverified labels",
+      "bbox_m",
+      "renderer inria_2dgs_v3",
+      "PLY sha256",
+      "Gaussian counts",
+      "high_fidelity_accepted=false",
+      "existing historical scores"
+    ],
+    "live_reloading": "MapStore.read/public/asset re-read the manifest for each request. Existing server processes need no restart for path-only edits; browser Refresh reloads manifest and unloads current models.",
+    "transition": "Stage real destination files first, byte-SHA verify, atomically replace manifests, verify all live asset routes, then remove old runs paths. Keep old paths during transition for in-flight clients. No mutation executed by this audit.",
+    "historical_manifests_not_automatically_fixed": [
+      "maps/garage_manifest.json",
+      "maps/garage_fidelity_v2_viewer/manifest.json",
+      "maps/garage_fidelity_v2_joint015_diagnostic/manifest.json",
+      "reports/viewer_parity_v2_aa015_full_manifest.json"
+    ],
+    "retire_note": "Only the four selected live entrypoints are retained. Legacy manifests/test jobs/offline PNG review may have runs/data references; archive/label them historical instead of retaining those trees recursively."
+  },
+  "hash_impact": {
+    "preserved_if_bytes_unchanged": [
+      "26 source PLY SHA256 and counts",
+      "full and overview PLY SHA256",
+      "renderer code SHA256",
+      "existing screenshot and reference-view JSON hashes"
+    ],
+    "changes": [
+      "8770 manifest SHA256",
+      "8768 manifest SHA256",
+      "any assembly/report text edited to add relocated paths"
+    ],
+    "historical_evidence": "Existing full_preview_v2_viewer.json and capacity/native reports pin pre-relocation manifests/source paths. Preserve originals as historical observations; do not silently rewrite hashes or claim they are post-migration tests.",
+    "recommended_new_evidence": "Main migration record should map old path -> current path with unchanged PLY SHA/count, before/after manifest hashes and fresh CPU route results.",
+    "assembly_policy": "Prefer keeping original assembly.json immutable as build provenance; add relocation map/documentation. If updating assembly.sources[].path, archive original bytes first, retain original_path and record both SHA256 values."
+  },
+  "historical_provenance": {
+    "runtime_requires_recursive_retention": false,
+    "direct_small_json_files": [
+      {
+        "path": "runs/fidelity_v2/train_block000_measuredseed_anneal_v1/training_result.json",
+        "bytes": 28714,
+        "sha256": "f930d7f2c7202bae88e02f73fdc1af5e1e94324a7a57a765ac1ead1285189e1d",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json.blocks[0].training.report",
+          "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json.training_result.path",
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[0].training.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/fidelity_v2/train_block000_measuredseed_anneal_v1/training_result.json"
+      },
+      {
+        "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1/metrics.json",
+        "bytes": 118156,
+        "sha256": "35c7959aa8529be6ecb33fd5bcc2136ead454da98f9dd61cd27c1dae81c47358",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json.blocks[0].eval.report",
+          "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json.evaluation_report.path",
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[0].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/fidelity_v2/block000_measuredseed_anneal_v1/metrics.json"
+      },
+      {
+        "path": "runs/fidelity_v2/block000_measuredseed_anneal_v1_resolution/metrics.json",
+        "bytes": 119266,
+        "sha256": "b985119fe403b6cc32e5334c5a0107ea2b79c0b42b9794449f358573fa91f8db",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json.resolution_evaluation_report.path"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/fidelity_v2/block000_measuredseed_anneal_v1_resolution/metrics.json"
+      },
+      {
+        "path": "reports/block000_measuredseed_anneal_v1_checkpoint.json",
+        "bytes": 15113,
+        "sha256": "ef51f8c011d404ba2d3b6ca95a51bcd1d534ca162d1f3a8592206301b746b699",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json.checkpoint_export_proof.path"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/block000_measuredseed_anneal_v1_checkpoint.json"
+      },
+      {
+        "path": "reports/surface_quality_v2_block000_measuredseed_anneal_v1.json",
+        "bytes": 298221,
+        "sha256": "d0cc1b47be61f2bf1189ff86cb51cfc3c63b614b6d9b5a8d84e1beb1f3576eac",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json.geometry_report.path"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/surface_quality_v2_block000_measuredseed_anneal_v1.json"
+      },
+      {
+        "path": "reports/viewer_block000_anneal_capacity_v2_result.json",
+        "bytes": 3212,
+        "sha256": "07135fa46d8216526e7d1fe3c389eaff65a2b90b428873284e2e040e61f8f0c0",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json.viewer_validation.result.path"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/viewer_block000_anneal_capacity_v2_result.json"
+      },
+      {
+        "path": "reports/viewer_block000_anneal_capacity_v2/manifest_input.json",
+        "bytes": 5860,
+        "sha256": "de7df72bf036bf62e487eeb9dc72f92fe29dc54048c535e6f2a1b66a71d79bd9",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_block000_anneal_diagnostic/manifest.json.viewer_validation.measured_manifest.path"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/viewer_block000_anneal_capacity_v2/manifest_input.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_001/eval_test/metrics.json",
+        "bytes": 7082,
+        "sha256": "601f7120bd903eb9e24570f014db33453019b294caf12a85b1c4be390fff0cfa",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[1].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_001/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_002/eval_test/metrics.json",
+        "bytes": 9009,
+        "sha256": "36af098300e36b010d51b923ce0305565aa063a394fe4dc7d46f433e2ca49269",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[2].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_002/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_003/eval_test/metrics.json",
+        "bytes": 9012,
+        "sha256": "3bc5d0772aba24d8671cb3f158f33933129e19e0c1006bffb3f881ac6922c5c3",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[3].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_003/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_004/eval_test/metrics.json",
+        "bytes": 10925,
+        "sha256": "80ae9b5b642ccfc94d7123c080d6aaf5e4548fdad8048a59ac4c34b9d6fec079",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[4].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_004/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_005/eval_test/metrics.json",
+        "bytes": 10930,
+        "sha256": "e00cd7156563590816d8f171a399fffaad52e13390c1cc9c5284916c8ff4537d",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[5].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_005/eval_test/metrics.json"
+      },
+      {
+        "path": "reports/historical_block006_resume_audit.json",
+        "bytes": 2870,
+        "sha256": "9c40e2f2b2ff39bcd91c2b7be93695e41c471be550c1e5e2fe39b47121f4121b",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[6].training.historical_resume_correction"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/historical_block006_resume_audit.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_006/eval_test/metrics.json",
+        "bytes": 9020,
+        "sha256": "ef266d4f17d282b4625a391702eaa428eec2d2b96fbb07f93667d3a3ffc21c0d",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[6].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_006/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_007/eval_test/metrics.json",
+        "bytes": 12857,
+        "sha256": "2ff25e0f3ea11d1a32999576a593fc59df73244ae93860fb9a02a087d488405a",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[7].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_007/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_008/eval_test/metrics.json",
+        "bytes": 12855,
+        "sha256": "f847180aa41c16da62f9ff35c3a31e51b2d6f3a8877fa9daea2140461ee6b0eb",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[8].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_008/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_009/eval_test/metrics.json",
+        "bytes": 9003,
+        "sha256": "5075139b9653b49bdbac1188ee91a363b6f924bd5e5d5f1ac6883a2e0ef11813",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[9].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_009/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_010/eval_test/metrics.json",
+        "bytes": 9004,
+        "sha256": "1daf2eea8580f18097f75b4b8e0dd03d72800f13628620097ae0f003c29d75ea",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[10].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_010/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_011/eval_test/metrics.json",
+        "bytes": 10912,
+        "sha256": "3d12cd7615ceb6ab3c9ffade5f2c67b6c3d8cf50cfd2aef324ec0feeb58870c5",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[11].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_011/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_012/eval_test/metrics.json",
+        "bytes": 9006,
+        "sha256": "3de770ecc8c61a4dbea26caaa208dd949007eb72d6b70d036f13c7c85e3364f8",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[12].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_012/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_013/eval_test/metrics.json",
+        "bytes": 8998,
+        "sha256": "8682a99d2610a991b2824f0448a2b372142c4e88a94b4d51987b35bc73946f77",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[13].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_013/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/fidelity_v2/train_joint015_depthv3_aa_metric_cap003/training_result.json",
+        "bytes": 26373,
+        "sha256": "6fdd4812f66b191f077bc5fe8ebfe3afddca7c3e32554cf00d90a0829a5c90d4",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[14].training.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/fidelity_v2/train_joint015_depthv3_aa_metric_cap003/training_result.json"
+      },
+      {
+        "path": "runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json",
+        "bytes": 118405,
+        "sha256": "a26aae2c1eab6ec9b931e6ef8af03f3ccf9506a27afa2c5dd03f8933c14f29bc",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[14].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/fidelity_v2/joint015_aa_cap003_acceptance/block_015/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_017/eval_test/metrics.json",
+        "bytes": 8993,
+        "sha256": "ca0adfd8f91baadc3804f357bfca786c6cf5380e1d8a4effa43d4dec2e6f13d7",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[15].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_017/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_018/eval_test/metrics.json",
+        "bytes": 9006,
+        "sha256": "884d4d5f7201879b290c3ce7e0fd4f3f27d4f1fbcf6a8cd081b34bfcaadd07a4",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[16].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_018/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_019/eval_test/metrics.json",
+        "bytes": 7076,
+        "sha256": "9b7270bca2088e9ca8c80761595b7c44bbe63d96888499e1f1d3fecf281ee6ba",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[17].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_019/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_020/eval_test/metrics.json",
+        "bytes": 8998,
+        "sha256": "a315963aaf7c5c25a9f392eaa988156ac89640e8dd57858ae1ae4a31e18b5cc4",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[18].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_020/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_021/eval_test/metrics.json",
+        "bytes": 10928,
+        "sha256": "1a9272322fc572589ae3997e7331cbea00cc2492724a025eeb51791d66ed6cdf",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[19].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_021/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_022/eval_test/metrics.json",
+        "bytes": 10918,
+        "sha256": "4c63c81b4afa6dfecc661a2568ca689fcf773a7e7f864bc1775e516ff4e11c73",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[20].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_022/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_023/eval_test/metrics.json",
+        "bytes": 9003,
+        "sha256": "977215a69a6007c18f38d848a45229f69f5d88622cd846e55575f57a7696911b",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[21].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_023/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_024/eval_test/metrics.json",
+        "bytes": 10924,
+        "sha256": "56897f433f275059124765eb5464d930b29b78ef492aac2f59d7efde6b8c9c9a",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[22].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_024/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_025/eval_test/metrics.json",
+        "bytes": 10940,
+        "sha256": "5da73cd60f87ace9dc8ecebefb7595c4e099dbe1e49dcac9d81644f2ac4c2f3f",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[23].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_025/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_026/eval_test/metrics.json",
+        "bytes": 10921,
+        "sha256": "ac7ab8ee35609d0e7624c2aaba84c2d3fb87f4917dbc75e7d4bf8df2d1661c66",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[24].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_026/eval_test/metrics.json"
+      },
+      {
+        "path": "runs/garage_surface_v1/block_027/eval_test/metrics.json",
+        "bytes": 3232,
+        "sha256": "e62462e1a6b0f941a649c2ddf317e7836e93d6c98f2b3a6438c341322139542b",
+        "referenced_by": [
+          "maps/garage_fidelity_v2_full_preview/manifest.json.blocks[25].eval.report"
+        ],
+        "runtime_dependency": false,
+        "follow_embedded_paths_recursively": false,
+        "suggested_archive_path": "reports/cleanup_v2_history/runs/garage_surface_v1/block_027/eval_test/metrics.json"
+      }
+    ],
+    "direct_json_total_bytes": 965742,
+    "additional_evidence_to_archive": [
+      {
+        "path": "reports/full_preview_v2_source_audit.json",
+        "bytes": 184939,
+        "sha256": "fc64b3305be0b6bca0264c0fb3d9f1fe9f6c1f647a7a935e347c7bb4f43d1bf3"
+      },
+      {
+        "path": "reports/full_preview_v2_source_audit.md",
+        "bytes": 4442,
+        "sha256": "34bac26d2b0271e65cc06ae84ee659415214b56ebd2ebb503a62d76b57550006"
+      },
+      {
+        "path": "reports/viewer_parity_v2_aa015_full_result.json",
+        "bytes": 20158,
+        "sha256": "ae6d85da92288ebc04d28ab0997033b9984f2c6ca22d41afe1fdf89b7daf96b3"
+      },
+      {
+        "path": "reports/viewer_parity_v2_aa015_full_audit.json",
+        "bytes": 20490,
+        "sha256": "55c2aa6ae6a96ee4624db43aed2149bfa5e8040ebaca5ddf3ba25acec3a85758"
+      },
+      {
+        "path": "reports/viewer_parity_v2_aa015_full_manifest.json",
+        "bytes": 1046,
+        "sha256": "ff320c593dfd356f6ab278e1f6a7af622aec55d4f01affa09781add96f5de39e"
+      },
+      {
+        "path": "reports/viewer_parity_v2_aa015_full/browser_capture.json",
+        "bytes": 87429,
+        "sha256": "9f991adaaac2372e83e4b0aa7212f6c7e0130c661906bf47906ee819432948bc"
+      },
+      {
+        "path": "reports/viewer_joint015_capacity_v2_result.json",
+        "bytes": 2387,
+        "sha256": "4c33939ed439e2d91154682995799573204cbc1ef72fec7a7ef43d9cabe716ad"
+      },
+      {
+        "path": "reports/viewer_joint015_capacity_v2/browser_capture.json",
+        "bytes": 5372,
+        "sha256": "5bd21fc1b83640b41be99292e9b7707df3df30c5ab81c86ce10347457f05abfe"
+      },
+      {
+        "path": "reports/viewer_block000_anneal_capacity_v2/browser_capture.json",
+        "bytes": 5387,
+        "sha256": "ccaed97451311bd42f2c77b508a84b72e92cf31809d02ae90a524b300d01003d"
+      },
+      {
+        "path": "reports/viewer_parity_v2_block000_anneal_review.md",
+        "bytes": 6442,
+        "sha256": "b4f64d49a5d4f752686044606b571f6f2ba3c121a6010a72bcf08f39e4a6b796"
+      },
+      {
+        "path": "reports/joint015_aa_cap003_checkpoint.json",
+        "bytes": 15141,
+        "sha256": "66b706ef5428407375a02b5ce8fd97290bd8d60b5100344d96e98490ab4d109a"
+      },
+      {
+        "path": "reports/surface_quality_v2_joint015_aa_cap003.json",
+        "bytes": 300994,
+        "sha256": "79ceec12a63d571128ef760bdbdd1851059d213c20a99309e08937141031f14b"
+      },
+      {
+        "path": "maps/garage_manifest.json",
+        "bytes": 35003,
+        "sha256": "31ed136caf3c5822cdbeb9d33b81fa299e599b1e405d4f9d6cd27e4c46540734"
+      }
+    ],
+    "required_label": "历史训练/评估中间文件已清理；本文件为当时记录。现存模型位置见迁移清单，历史分数和PLY内容哈希不变。",
+    "do_not_follow": [
+      "metrics frame images/masks/float .npz",
+      "training config/checkpoint/dataset paths",
+      "reference_views source_metadata",
+      "assembly input_sha256 paths",
+      "source audit provenance object chains"
+    ],
+    "runs_json_archive": "Small directly referenced metrics/training_result JSON can be copied to reports/cleanup_v2_history/runs/... with original_path/sha mapping; does not require retaining runs itself."
+  },
+  "not_required_by_selected_live_entrypoints": [
+    {
+      "path": "viewer/runtime",
+      "bytes": 1052805819,
+      "reason": "Downloaded test Chromium/browsers/cache only; removal prevents old automated smoke reruns until reinstalled, not user browser viewing."
+    },
+    {
+      "path": "viewer/tests",
+      "reason": "Regression/parity harness only, not imported by index/app/serve_map."
+    },
+    {
+      "path": ".venv-train",
+      "reason": "Training and historical scoring/harness environment; live servers are system Python stdlib. Main decides other retained workflows."
+    },
+    {
+      "path": "runs/** except the 26 current PLY until migrated",
+      "reason": "No live dependency after migration. Archive chosen small evidence JSON separately, not checkpoint/image/float trees."
+    },
+    {
+      "path": "data/** and runtime/build_fidelity_visual_review.py",
+      "reason": "Not used by the four selected final entrypoints. Old fidelity_v2_visual_review.html comparisons require their own images and should be retired/labeled separately."
+    }
+  ],
+  "limits_after_migration": {
+    "8768": {
+      "max_splats": 2500000,
+      "max_file_bytes": 671088640,
+      "max_loaded_blocks": 1
+    },
+    "8769": {
+      "max_splats": 1500000,
+      "max_file_bytes": 536870912,
+      "max_loaded_blocks": 3
+    },
+    "8770": {
+      "max_splats": 4000000,
+      "max_file_bytes": 671088640,
+      "max_loaded_blocks": 4
+    }
+  },
+  "limitations": [
+    "Dependency and HTTP audit only; no file deletion, model migration, pruned install GPU test, browser launch or server lifecycle action.",
+    "Reconstructed non-Gaussian point clouds and global training-source preservation are outside this viewer audit; main owns that retention policy.",
+    "Reports and manifests are pre-migration snapshots. No high-fidelity acceptance or new native/browser parity is claimed."
+  ],
+  "elapsed_s": 0.14059688300039852
+}

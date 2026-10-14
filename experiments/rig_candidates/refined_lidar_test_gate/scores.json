@@ -1,0 +1,192 @@
+{
+  "status": "projection_diagnostic",
+  "split": "test",
+  "frames": [
+    {
+      "visible_points": 12036,
+      "reflectance_luma_spearman": 0.03531025169937551,
+      "normalized_mutual_information": 0.12704073171290012,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_2",
+      "image_header_ns": 1720267885250305325,
+      "scan_header_ns": 1720267885000286579,
+      "source_image": "images/camera_2/000087_1720267885250305325.jpg",
+      "source_scan": "livox_1720267885000286579.npz"
+    },
+    {
+      "visible_points": 12037,
+      "reflectance_luma_spearman": 0.2713755069643604,
+      "normalized_mutual_information": 0.15098734758320997,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_3",
+      "image_header_ns": 1720267885250305325,
+      "scan_header_ns": 1720267885000286579,
+      "source_image": "images/camera_3/000087_1720267885250305325.jpg",
+      "source_scan": "livox_1720267885000286579.npz"
+    },
+    {
+      "visible_points": 12381,
+      "reflectance_luma_spearman": 0.1676549694751671,
+      "normalized_mutual_information": 0.12293000707186374,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_4",
+      "image_header_ns": 1720267885250305325,
+      "scan_header_ns": 1720267885000286579,
+      "source_image": "images/camera_4/000087_1720267885250305325.jpg",
+      "source_scan": "livox_1720267885000286579.npz"
+    },
+    {
+      "visible_points": 12140,
+      "reflectance_luma_spearman": 0.38603082865118343,
+      "normalized_mutual_information": 0.16965242007667233,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_5",
+      "image_header_ns": 1720267885250305325,
+      "scan_header_ns": 1720267885000286579,
+      "source_image": "images/camera_5/000087_1720267885250305325.jpg",
+      "source_scan": "livox_1720267885000286579.npz"
+    },
+    {
+      "visible_points": 12255,
+      "reflectance_luma_spearman": 0.10640677927168217,
+      "normalized_mutual_information": 0.13445877756962105,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_2",
+      "image_header_ns": 1720267889250206146,
+      "scan_header_ns": 1720267889200409412,
+      "source_image": "images/camera_2/000167_1720267889250206146.jpg",
+      "source_scan": "livox_1720267889200409412.npz"
+    },
+    {
+      "visible_points": 12150,
+      "reflectance_luma_spearman": 0.27330290786106354,
+      "normalized_mutual_information": 0.12300765109249975,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_3",
+      "image_header_ns": 1720267889250206146,
+      "scan_header_ns": 1720267889200409412,
+      "source_image": "images/camera_3/000167_1720267889250206146.jpg",
+      "source_scan": "livox_1720267889200409412.npz"
+    },
+    {
+      "visible_points": 12311,
+      "reflectance_luma_spearman": 0.28679783830549543,
+      "normalized_mutual_information": 0.11845249364808687,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_4",
+      "image_header_ns": 1720267889250206146,
+      "scan_header_ns": 1720267889200409412,
+      "source_image": "images/camera_4/000167_1720267889250206146.jpg",
+      "source_scan": "livox_1720267889200409412.npz"
+    },
+    {
+      "visible_points": 12162,
+      "reflectance_luma_spearman": 0.3600815613825941,
+      "normalized_mutual_information": 0.15790982690173785,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_5",
+      "image_header_ns": 1720267889250206146,
+      "scan_header_ns": 1720267889200409412,
+      "source_image": "images/camera_5/000167_1720267889250206146.jpg",
+      "source_scan": "livox_1720267889200409412.npz"
+    },
+    {
+      "visible_points": 12213,
+      "reflectance_luma_spearman": 0.2754528406236659,
+      "normalized_mutual_information": 0.1436428006322935,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_2",
+      "image_header_ns": 1720267893250076298,
+      "scan_header_ns": 1720267893400392532,
+      "source_image": "images/camera_2/000247_1720267893250076298.jpg",
+      "source_scan": "livox_1720267893400392532.npz"
+    },
+    {
+      "visible_points": 12187,
+      "reflectance_luma_spearman": 0.29942997871107047,
+      "normalized_mutual_information": 0.10923921007800967,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_3",
+      "image_header_ns": 1720267893250076298,
+      "scan_header_ns": 1720267893400392532,
+      "source_image": "images/camera_3/000247_1720267893250076298.jpg",
+      "source_scan": "livox_1720267893400392532.npz"
+    },
+    {
+      "visible_points": 11494,
+      "reflectance_luma_spearman": 0.25520661567638986,
+      "normalized_mutual_information": 0.13703034340030137,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_4",
+      "image_header_ns": 1720267893250076298,
+      "scan_header_ns": 1720267893400392532,
+      "source_image": "images/camera_4/000247_1720267893250076298.jpg",
+      "source_scan": "livox_1720267893400392532.npz"
+    },
+    {
+      "visible_points": 11844,
+      "reflectance_luma_spearman": 0.246065126545788,
+      "normalized_mutual_information": 0.11773433055707516,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_5",
+      "image_header_ns": 1720267893250076298,
+      "scan_header_ns": 1720267893400392532,
+      "source_image": "images/camera_5/000247_1720267893250076298.jpg",
+      "source_scan": "livox_1720267893400392532.npz"
+    },
+    {
+      "visible_points": 12274,
+      "reflectance_luma_spearman": 0.33736445492226236,
+      "normalized_mutual_information": 0.18745215456683095,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_2",
+      "image_header_ns": 1720267897250262007,
+      "scan_header_ns": 1720267897400435448,
+      "source_image": "images/camera_2/000327_1720267897250262007.jpg",
+      "source_scan": "livox_1720267897400435448.npz"
+    },
+    {
+      "visible_points": 12138,
+      "reflectance_luma_spearman": 0.3432874995752977,
+      "normalized_mutual_information": 0.17338809125306734,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_3",
+      "image_header_ns": 1720267897250262007,
+      "scan_header_ns": 1720267897400435448,
+      "source_image": "images/camera_3/000327_1720267897250262007.jpg",
+      "source_scan": "livox_1720267897400435448.npz"
+    },
+    {
+      "visible_points": 11584,
+      "reflectance_luma_spearman": 0.320838598768721,
+      "normalized_mutual_information": 0.12236686245311669,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_4",
+      "image_header_ns": 1720267897250262007,
+      "scan_header_ns": 1720267897400435448,
+      "source_image": "images/camera_4/000327_1720267897250262007.jpg",
+      "source_scan": "livox_1720267897400435448.npz"
+    },
+    {
+      "visible_points": 12004,
+      "reflectance_luma_spearman": 0.3433856347073693,
+      "normalized_mutual_information": 0.1557060462564645,
+      "metric_note": "Weak cross-modality alignment score; not pixel correspondence or absolute calibration accuracy",
+      "camera_id": "camera_5",
+      "image_header_ns": 1720267897250262007,
+      "scan_header_ns": 1720267897400435448,
+      "source_image": "images/camera_5/000327_1720267897250262007.jpg",
+      "source_scan": "livox_1720267897400435448.npz"
+    }
+  ],
+  "mean_nmi": 0.14068744342835943,
+  "mean_spearman": 0.26924946207134287,
+  "mosaics": [
+    "overlay_1720267885050286546.jpg",
+    "overlay_1720267889250409402.jpg",
+    "overlay_1720267893450392534.jpg",
+    "overlay_1720267897450435500.jpg"
+  ],
+  "pose_csv": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/data/all_lio_candidate/odometry.csv",
+  "time_assumption": "inherited common device time; per-point 1ms deskew bins; image timestamps unchanged"
+}

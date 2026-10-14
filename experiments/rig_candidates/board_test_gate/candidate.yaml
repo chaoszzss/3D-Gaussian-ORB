@@ -1,0 +1,274 @@
+schema_version: 1
+verified: false
+calibration_id: direct-lio-fast-board-candidate
+provenance:
+  chain: T_world_camera = T_world_body @ T_body_lidar @ inv(T_camera_lidar)
+  body_semantics: LIO _state emitted by /aft_mapped_to_init; extR/extT used by pointBodyToWorld
+  physical_cross_imu_calibration: inherited LIO assumption; not newly measured
+  capture_map: /home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/maps/CZY_DATA/height_continuity_release/czy_joint_raw_map.pcd
+  status: source chain recovered, raw-topic mapping and reprojection pending validation
+  sources_sha256:
+    ? /home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v2/maps/CZY_DATA/height_continuity_release/runtime_parameters.yaml
+    : c777315bc25b4ebd5bb236fa029fdac55d278cbc73b433bcc06dc8411aeb2786
+    /home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/qr_params.yaml: b5b04c2cb9b7fcdabc02f14f92c25edb59428683e74eea01483a0651e8ff804b
+    /home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_lioslam_fusion_CZY_v6/maps/board-calib-backup/camera_config.yaml: 1651d01dfd2d2d949888ecf99334d551b0a5675ef5249d5bea83b80e0eb7f55f
+    /home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam1_multi_calib_result.txt: 1c81e9541c49aad145f11f44c109256369a74df831b30791f775b881ff0d5dd2
+    /home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam0_multi_calib_result.txt: c11fa353c4cf0db5d830b5c5899a17cab02c4c98f075352518488735aa923931
+    /home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam2_multi_calib_result.txt: 697c4f03dc98272d715b0e0def27a1b99ac13e52607e4e946bd6422c8b246ce8
+    /home/chaoszzss/orbvi_proj_ws/src/orbvi_omni_livo2_avp/fast-calib_final/cam3_multi_calib_result.txt: 08744cc4addef692e4181144a5bfc3c35b0e8a1df7e2f3f008dc33d0cc67c60f
+pose:
+  source: external_csv
+  timestamp_basis: header_ns
+  world_frame: camera_init
+  body_frame: aft_mapped
+  frame_semantics_verified: true
+lidar:
+  T_body_lidar:
+  - - 1.0
+    - 0.0
+    - 0.0
+    - -0.011
+  - - 0.0
+    - -1.0
+    - 0.0
+    - -0.02329
+  - - 0.0
+    - 0.0
+    - -1.0
+    - 0.04412
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+  time_offset_ns: 0
+cameras:
+  camera_2:
+    topic: /orbvi/raw/camera_2/image/compressed
+    source_camera_id: cam1
+    topic_mapping_verified: false
+    model: triple_sphere
+    width: 1280
+    height: 1080
+    intrinsics:
+      fx: 619.4516369911747
+      fy: 623.8318793772733
+      cx: 625.4384133188223
+      cy: 528.6066604837657
+    distortion:
+    - -0.20534996288752175
+    - -0.06223490122989943
+    - 0.5927662823683536
+    - 0.0
+    - 0.0
+    T_body_camera:
+    - - -0.7221017475972022
+      - 0.014392351048602401
+      - 0.6916371348824178
+      - 0.04711596302392468
+    - - 0.6916690529064626
+      - -0.003430125091352647
+      - 0.7222064493573389
+      - 0.025513667113092293
+    - - 0.01276665063918689
+      - 0.9998905412459661
+      - -0.007477844495941372
+      - 0.10182129325341235
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    time_offset_ns: 0
+    T_camera_lidar_source:
+    - - -0.7221017475972026
+      - -0.6916690529064629
+      - -0.012766650639186958
+      - 0.007473
+    - - 0.014392351048602346
+      - 0.003430125091352626
+      - -0.9998905412459665
+      - -0.058364
+    - - 0.6916371348824181
+      - -0.7222064493573389
+      - 0.007477844495941403
+      - -0.07501
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    rotation_roundoff_repair:
+      input_orthogonality_error: 9.286539999209253e-07
+      max_roundoff_correction: 4.587540334277662e-07
+  camera_3:
+    topic: /orbvi/raw/camera_3/image/compressed
+    source_camera_id: cam0
+    topic_mapping_verified: false
+    model: triple_sphere
+    width: 1280
+    height: 1080
+    intrinsics:
+      fx: 619.9727239894911
+      fy: 624.4998924652682
+      cx: 645.7782703700892
+      cy: 495.9183750677029
+    distortion:
+    - -0.20175555452665106
+    - -0.06626053321791386
+    - 0.5923404737884012
+    - 0.0
+    - 0.0
+    T_body_camera:
+    - - 0.6794198755788796
+      - 0.030320569763410906
+      - 0.7331229744849096
+      - 0.03722723642861443
+    - - 0.7336108461604379
+      - -0.00863274173938725
+      - -0.6795149756744341
+      - -0.08512330072367562
+    - - -0.014274419923280131
+      - 0.999502945878241
+      - -0.028108755158681876
+      - 0.10723730451369107
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    time_offset_ns: 0
+    T_camera_lidar_source:
+    - - 0.6794198755788795
+      - -0.733610846160438
+      - 0.014274419923279547
+      - 0.013496
+    - - 0.030320569763411576
+      - 0.008632741739387051
+      - -0.9995029458782423
+      - -0.065082
+    - - 0.7331229744849104
+      - 0.6795149756744349
+      - 0.02810875515868158
+      - -0.075599
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    rotation_roundoff_repair:
+      input_orthogonality_error: 1.1439469999978413e-06
+      max_roundoff_correction: 5.800767204529322e-07
+  camera_4:
+    topic: /orbvi/raw/camera_4/image/compressed
+    source_camera_id: cam2
+    topic_mapping_verified: false
+    model: triple_sphere
+    width: 1280
+    height: 1080
+    intrinsics:
+      fx: 611.8474424353568
+      fy: 616.0585479272831
+      cx: 663.2107012959423
+      cy: 527.4684575249128
+    distortion:
+    - -0.2058475096185161
+    - -0.0666656732903091
+    - 0.5916003663479583
+    - 0.0
+    - 0.0
+    T_body_camera:
+    - - -0.6708140870071696
+      - -0.012216938131439325
+      - -0.7415249200771544
+      - -0.05561934998618978
+    - - -0.7415081597716581
+      - -0.0067409688055024295
+      - 0.6709099852674816
+      - 0.039179456567720344
+    - - -0.013195062136520445
+      - 0.9999026481424359
+      - -0.0045370224770810335
+      - 0.10313273781942003
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    time_offset_ns: 0
+    T_camera_lidar_source:
+    - - -0.6708140870071695
+      - 0.7415081597716582
+      - 0.013195062136520469
+      - 0.017169
+    - - -0.01221693813143944
+      - 0.00674096880550229
+      - -0.9999026481424357
+      - -0.059131
+    - - -0.7415249200771542
+      - -0.6709099852674816
+      - 0.004537022477080849
+      - -0.07473
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    rotation_roundoff_repair:
+      input_orthogonality_error: 7.01802999936163e-07
+      max_roundoff_correction: 3.5185756430688997e-07
+  camera_5:
+    topic: /orbvi/raw/camera_5/image/compressed
+    source_camera_id: cam3
+    topic_mapping_verified: false
+    model: triple_sphere
+    width: 1280
+    height: 1080
+    intrinsics:
+      fx: 617.002888139925
+      fy: 621.2673806624962
+      cx: 673.9909251670115
+      cy: 538.3565479494226
+    distortion:
+    - -0.20503092348711907
+    - -0.06438105715179476
+    - 0.5912882359716404
+    - 0.0
+    - 0.0
+    T_body_camera:
+    - - 0.7154851675307028
+      - -0.014889199376709175
+      - -0.6984692454113374
+      - -0.06275460434929216
+    - - -0.6985568252217605
+      - -0.0009839100870042128
+      - -0.7155539070238073
+      - -0.07416799465493924
+    - - 0.009966793850438225
+      - 0.9998886656337601
+      - -0.011104924920122938
+      - 0.09373287962354339
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    time_offset_ns: 0
+    T_camera_lidar_source:
+    - - 0.7154851675307025
+      - 0.6985568252217604
+      - -0.00996679385043825
+      - 0.000994
+    - - -0.014889199376709017
+      - 0.0009839100870040925
+      - -0.9998886656337602
+      - -0.050428
+    - - -0.6984692454113373
+      - 0.7155539070238072
+      - 0.011104924920123133
+      - -0.072004
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    rotation_roundoff_repair:
+      input_orthogonality_error: 6.744350000698063e-07
+      max_roundoff_correction: 3.3436623980698243e-07
+virtual_views:
+- name: center
+  width: 640
+  height: 540
+  fov_horizontal_deg: 90.0
+  yaw_deg: 0.0

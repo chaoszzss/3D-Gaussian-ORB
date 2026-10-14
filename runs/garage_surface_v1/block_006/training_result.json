@@ -1,0 +1,28 @@
+{
+  "status": "trained",
+  "iterations_requested": 12000,
+  "configs": [
+    "runs/garage_surface_v1/block_006/block_006/splatfacto/2026-10-06_214143/config.yml"
+  ],
+  "resumed_from": {
+    "status": "checkpoint_verified",
+    "checkpoint": "runs/garage_surface_v1/block_006/block_006/splatfacto/2026-10-06_214143/nerfstudio_models/step-000011000.ckpt",
+    "sha256": "0cdc13b00f513e8f641c98e552860ccb6fc3d8c29118ab43a81a17663d547d0e",
+    "checkpoint_step": 11000,
+    "target_iterations": 12000,
+    "remaining_iterations": 999,
+    "optimizer_groups": [
+      "features_dc",
+      "features_rest",
+      "means",
+      "opacities",
+      "quats",
+      "scales"
+    ],
+    "scheduler_groups": [
+      "means"
+    ],
+    "note": "Restores model/optimizers/schedulers/scaler; image shuffle RNG is reseeded."
+  },
+  "note": "Held-out appearance and conditioned geometry still require evaluation"
+}

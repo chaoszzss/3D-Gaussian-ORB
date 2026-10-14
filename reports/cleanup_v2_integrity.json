@@ -1,0 +1,3006 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-10-09T09:21:40.822204+00:00",
+  "retained_files": [
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_000.ply",
+      "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+      "bytes": 618943622,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_001.ply",
+      "sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+      "bytes": 85034589,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_002.ply",
+      "sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+      "bytes": 90492077,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_003.ply",
+      "sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+      "bytes": 91487797,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_004.ply",
+      "sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+      "bytes": 95308981,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_005.ply",
+      "sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+      "bytes": 101507493,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_006.ply",
+      "sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+      "bytes": 99249205,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_007.ply",
+      "sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+      "bytes": 96656117,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_008.ply",
+      "sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+      "bytes": 93760717,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_009.ply",
+      "sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+      "bytes": 93886205,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_010.ply",
+      "sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+      "bytes": 89539757,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_011.ply",
+      "sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+      "bytes": 91748197,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_012.ply",
+      "sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+      "bytes": 91946349,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_013.ply",
+      "sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+      "bytes": 91414637,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_015.ply",
+      "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+      "bytes": 619713166,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_017.ply",
+      "sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+      "bytes": 88792781,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_018.ply",
+      "sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+      "bytes": 85075757,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_019.ply",
+      "sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+      "bytes": 75151293,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_020.ply",
+      "sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+      "bytes": 90364853,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_021.ply",
+      "sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+      "bytes": 85111717,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_022.ply",
+      "sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+      "bytes": 89361693,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_023.ply",
+      "sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+      "bytes": 89929117,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_024.ply",
+      "sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+      "bytes": 82325437,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_025.ply",
+      "sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+      "bytes": 100681405,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_026.ply",
+      "sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+      "bytes": 97042997,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/blocks/block_027.ply",
+      "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+      "bytes": 58465853,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/block_000/step-000014999.ckpt",
+      "sha256": "cfb20371011a5d4c7832183fef5e9a0cdd9403566ecd576f374418379d6241cf",
+      "bytes": 1776903634,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/block_000/config.yml",
+      "sha256": "4503231b5f34bbdb82cdb336253907964ffcbef8a2299ba5f01f64f392763ee3",
+      "bytes": 9774,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/block_000/training_result.json",
+      "sha256": "f930d7f2c7202bae88e02f73fdc1af5e1e94324a7a57a765ac1ead1285189e1d",
+      "bytes": 28714,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/block_000/launch.json",
+      "sha256": "3e22a5ca5382c599f298e949a771ad7abc3ee94e4a2b14cad546ddb145a6b9f8",
+      "bytes": 4583,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/block_000/refinement.json",
+      "sha256": "bd981ce54426435bd2b3ea57457caaf3bc3768a649adceec53194f998dfce6a7",
+      "bytes": 20253,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/block_000/resume_events.jsonl",
+      "sha256": "5b38601351f66ac2ae8ae08688b4deaebbf86f4937941041f18adb6a205875f4",
+      "bytes": 1428,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/joint_014_016/step-000014999.ckpt",
+      "sha256": "8c969f712d8d3b3588a9ef3fbfe4a8cd8612e79daf6a9ceed0da9979436dc3fa",
+      "bytes": 1779081106,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/joint_014_016/config.yml",
+      "sha256": "6ca082b02790129188521fef722d860b96c22c3e863d4da60302a4cd107960da",
+      "bytes": 9672,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/joint_014_016/training_result.json",
+      "sha256": "6fdd4812f66b191f077bc5fe8ebfe3afddca7c3e32554cf00d90a0829a5c90d4",
+      "bytes": 26373,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/joint_014_016/launch.json",
+      "sha256": "379d7af83fb518abe95be16713d9359839702fe681413770dcad532f0ad552f5",
+      "bytes": 4403,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/checkpoints/joint_014_016/refinement.json",
+      "sha256": "d0b0143368a30307fd200b114bf6d0fabbce2f61e6d8c7cfcd9132686be1a637",
+      "bytes": 20116,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/000_candidate.png",
+      "sha256": "dcc370e81179cea487e7a36c699fa7161ea30c572869dec5117b2a89ac01c01c",
+      "bytes": 501491,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/000_comparison.jpg",
+      "sha256": "215566fc1eac3e17e3c480bf5afcd873ec7e4664a86f13dbb4cff4f1e868553b",
+      "bytes": 423065,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/000_error.png",
+      "sha256": "b8439d636b315baac53529e85600b25747f8cb34e77f65037ea6dab38747c7e1",
+      "bytes": 722271,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/000_gt.png",
+      "sha256": "202a21cbaa90eda5f3221fbee52c01b225b2a6ac578e50acde454a242fc4d075",
+      "bytes": 397015,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/001_candidate.png",
+      "sha256": "b1663599189a39690b29b25d449e4ef0ba8e67a2d70110b9a19dc0b6b59edb4c",
+      "bytes": 437499,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/001_comparison.jpg",
+      "sha256": "f5bd85f8e2ce0192f62c80d8e1d79e69793a1a0d44828893ed771dbd1881684c",
+      "bytes": 384653,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/001_error.png",
+      "sha256": "a377f43fae2d1b577a9fd1cef6667096b462bced062087c38fa527a16d9adc7a",
+      "bytes": 640361,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/001_gt.png",
+      "sha256": "4d27a609986ed784fdf7efee1ae7cb813672f30535d251e852050270ce225ffb",
+      "bytes": 387857,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/002_candidate.png",
+      "sha256": "81c775f7c4138d69158114c1871359aa120d80b6e17be6d14d0f6ae9b8bcfacf",
+      "bytes": 438021,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/002_comparison.jpg",
+      "sha256": "5e48112c5b005c24fa66f7eb09966746cb000887392c21abd266d1c5422c3eec",
+      "bytes": 362292,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/002_error.png",
+      "sha256": "a5d8498ced970e36b9c91b86d2987a03a520f2fc9606d4c19e6518bccd920c62",
+      "bytes": 629213,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/002_gt.png",
+      "sha256": "fe85bffdc3f0dc614a87cfdf5a69243fcd1fbaf8820a2fedba3d820162d5c1c4",
+      "bytes": 359069,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/003_candidate.png",
+      "sha256": "64cc860ff36a1aa76092043c963dac88da858b42822f842198737854327ef370",
+      "bytes": 387485,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/003_comparison.jpg",
+      "sha256": "ab8abcd348fd288eb6223f679de55d1b1e5c784a3119505239ffa9971375c4b1",
+      "bytes": 342309,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/003_error.png",
+      "sha256": "24f087e977411f171e3810375e531d8d5a4733158897c9725ebb80be027f41f8",
+      "bytes": 617823,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/003_gt.png",
+      "sha256": "6a95acbbb8185235f16dd43aaded54e6f9b01bf2e6b24d228b2955991fc1c1c7",
+      "bytes": 306476,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/004_candidate.png",
+      "sha256": "936922f861c8a03439f59d04be435bf4516e8afc5ac72b77fa1a31f05545d94d",
+      "bytes": 489027,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/004_comparison.jpg",
+      "sha256": "ec83414814f37b10fc04e83bfb9ec84a321d2619667d3aac0c25a98f95e19b94",
+      "bytes": 419166,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/004_error.png",
+      "sha256": "4af6445b7500a458a7623741eafdd2850044d85a385f87b04176375209fcf0c3",
+      "bytes": 753646,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/004_gt.png",
+      "sha256": "4da166e33ea6a1acfc23b42a6b27c811a8fd50722450a5a0a116a4023ecda267",
+      "bytes": 364950,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/005_candidate.png",
+      "sha256": "ff1f59472ba84b33efc4385a9c725038714cf90daec13802511543a3634840da",
+      "bytes": 463670,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/005_comparison.jpg",
+      "sha256": "82eb1ae1751766ae3805c1e38d22a8c01e52771a2b30580a0664669a8c24563c",
+      "bytes": 421708,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/005_error.png",
+      "sha256": "eae39e1faf7bca56611f39f0e1822b2e9fd118f105e2fa97f77a401785a88756",
+      "bytes": 714830,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/005_gt.png",
+      "sha256": "c9078cdb0d7d0d5f6328b57d5ea47ce0b1c26da516491ced0b4fe28a0164d85c",
+      "bytes": 392216,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/006_candidate.png",
+      "sha256": "e8b2cc4d65cf86b2556fd2ee7f491456b9bbbbf1730ef67169bff5751a939e44",
+      "bytes": 441850,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/006_comparison.jpg",
+      "sha256": "728a197a6d64acf854d1356912b2b95ee0b4f3105decdee147fd17f280dd1777",
+      "bytes": 388440,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/006_error.png",
+      "sha256": "68c354c9db67791b8cb61399b993897c83adb768b31094cb71b398088e438e31",
+      "bytes": 664290,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/006_gt.png",
+      "sha256": "facaceeb25ab9bb77e4c01c04851fc38a7260f4bb23fb0f44f7c00e70a241deb",
+      "bytes": 342833,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/007_candidate.png",
+      "sha256": "68d550fb5a171a5e5fe94590c88e0c94efc6fd568f45f3b91e251d8770bf1330",
+      "bytes": 477295,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/007_comparison.jpg",
+      "sha256": "d0828f71fc3ad829307f5ff14d0be2161a29106e6bb9fad20881309ae89e6c46",
+      "bytes": 444145,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/007_error.png",
+      "sha256": "98d0f65d39d27f5406f5753c8574d7055b970914d8a8f06c66cc2900ab1de387",
+      "bytes": 748595,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/007_gt.png",
+      "sha256": "4cb9b402d8c43182b135acb5735f701b6703c521318d7d1593d92251eaf466c6",
+      "bytes": 367523,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/008_candidate.png",
+      "sha256": "36e9cb00d393e784478f665073bcb546499ea6de26f2658f6bd41b609ceeb27f",
+      "bytes": 428028,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/008_comparison.jpg",
+      "sha256": "64dadd1d21487b83bc1b5cd27e5b42750280ec0d9799aeac63c8639626169434",
+      "bytes": 382762,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/008_error.png",
+      "sha256": "60bef6c7b324070e092ddc8c8ae37815c9e1a0f730fe4483e3693e2184698d4a",
+      "bytes": 691956,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/008_gt.png",
+      "sha256": "f4936ffb01e33513528f77c6b86c408efde3b4cf7f251bd38fc700022141f8fd",
+      "bytes": 343970,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/009_candidate.png",
+      "sha256": "afaca2c452bea4aefa18532388d222a17ae7a47935b02a7cb8be2c3f7de89c42",
+      "bytes": 478942,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/009_comparison.jpg",
+      "sha256": "b6a0f98c79e36d05d3b7ccf4c8f906911ad1aee0081a1d78f7bebe47d837af79",
+      "bytes": 434471,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/009_error.png",
+      "sha256": "a02499f4ec02196cf8a3ca2338fdfe402d45ac67409fa8865c85ba42e34fe0f1",
+      "bytes": 718844,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/009_gt.png",
+      "sha256": "f0260138ab64c77f4e4c2c1ec6f17c54d6b9ab35b4469d524cbc68b4c12f6463",
+      "bytes": 390336,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/010_candidate.png",
+      "sha256": "ee2ded3c0cc58748c41f94a43a04b4d37a4a1a626755cc51fbdf840e4d9bcbab",
+      "bytes": 426742,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/010_comparison.jpg",
+      "sha256": "416c64dcdcda7bb323c63925ce3048d4447594d068f53a9e8daf1c9fa99ae8bb",
+      "bytes": 394218,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/010_error.png",
+      "sha256": "1d26991dffb4d78170c54e389a530ed6c6709dd585a2495ca79ff1311d88183d",
+      "bytes": 681948,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/010_gt.png",
+      "sha256": "294e37a39cd35f0c1321db474642b339222992b22eb4dc126ae538849da7b9e3",
+      "bytes": 340027,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/011_candidate.png",
+      "sha256": "3b51a0e23b5c35aa711d1e05c80c3f2d43df196ca8886359bdcbaef514aa4863",
+      "bytes": 484741,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/011_comparison.jpg",
+      "sha256": "00cd1b9fadfd6a2f90d7a53233e6b2a764ae68d8bee2c68f5ca6651d8dac58c4",
+      "bytes": 460116,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/011_error.png",
+      "sha256": "3ab00f0ccfdc55b4bed93bb6041c0d33b33f8096b735ab38f378b2c8569d73de",
+      "bytes": 756394,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/011_gt.png",
+      "sha256": "1c9ebb570b86ceb2796cd26849e0860a06639628db324bf7fae856903934cf91",
+      "bytes": 410203,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/012_candidate.png",
+      "sha256": "04b32a4025fd2e2558c92092bd62b8ee2ebddfce8a8847e3a83f416914646599",
+      "bytes": 468796,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/012_comparison.jpg",
+      "sha256": "fc709fb41e6e8f782a452e1910435cef9796e346912ad70bb762067f0fff726c",
+      "bytes": 433988,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/012_error.png",
+      "sha256": "3aa63727c13d27a25a15064c9b01493c3f028953d9fbb7c5007bdc1136542440",
+      "bytes": 770965,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/012_gt.png",
+      "sha256": "1efc53227b62449e08e099e70870b6efcf1130740862890976a8d05e23aed2e1",
+      "bytes": 397657,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/013_candidate.png",
+      "sha256": "18db21bf4f68fef50a6488aff30f27c4a821dc99f28b813cb5ae93fef9118993",
+      "bytes": 467529,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/013_comparison.jpg",
+      "sha256": "d411d1609d76d98c344f45c34bc66c58b94483c56ad25e26eabaa4c48a4cbeff",
+      "bytes": 430672,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/013_error.png",
+      "sha256": "976a36554150697bf64788ba06387c72d909f92674f53232f5bb00a9b77d1afc",
+      "bytes": 731591,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/013_gt.png",
+      "sha256": "f157e0cb159982f68fed21662deb7181f1e564cfde7d0f0971bfb7b57d3ff5e9",
+      "bytes": 406878,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/014_candidate.png",
+      "sha256": "42c1bb2c55f63465306d587375ed567bb5427dc39044940945fd201f082ded39",
+      "bytes": 451118,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/014_comparison.jpg",
+      "sha256": "f881591a8f210357b9232d340ff2c56b2ca75dcb4bf7adb1cae491bf16ae775f",
+      "bytes": 419294,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/014_error.png",
+      "sha256": "8c2062f1c91e15cf97fd342e13ed86a83486a7645151c00d26e68e423384deb0",
+      "bytes": 698153,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/014_gt.png",
+      "sha256": "bab7d04550cf746437996bc9d19f41581ea1d3d933a0252c90237b225a722478",
+      "bytes": 393072,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/015_candidate.png",
+      "sha256": "d074472c6ad6b7f8f3a15bd48b643962497d2382a5300cf2247be502462cb270",
+      "bytes": 458210,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/015_comparison.jpg",
+      "sha256": "0f336e4dac4be67a84c9c65ca3d8548728fe5904d80dfb6865cb3987130cbbdb",
+      "bytes": 429177,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/015_error.png",
+      "sha256": "e3630f7094741946be8a5b5d35726a673ed39866d8844ba99b74a75bcbb50f85",
+      "bytes": 731194,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/015_gt.png",
+      "sha256": "178ee1bc501c07499dad7af0f75a60952df786adc94c1f1d460c9cd93c2eace9",
+      "bytes": 381422,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/016_candidate.png",
+      "sha256": "b74d78ae5b8922bd3fb44fa696b608ac01d3ebb0db46f35e93d2dabeb4b4689d",
+      "bytes": 418463,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/016_comparison.jpg",
+      "sha256": "ad2e3870a52b2213619156b68d54f59787d678246c4f306ae5ab37a593ed86f8",
+      "bytes": 389620,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/016_error.png",
+      "sha256": "7cd72ecf8cfed6d536bbe987abb4164c162e21ef626d95670f9aaf08a4ab83f5",
+      "bytes": 733391,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/016_gt.png",
+      "sha256": "07423b6d71b58e8a057bd59cd03cf836be3e9a89bc51f45d8b61787c65fb19b3",
+      "bytes": 327009,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/017_candidate.png",
+      "sha256": "84a0bb1211d3da7461fe068fa165db8791b924798370b319cc81530f199b6b62",
+      "bytes": 436767,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/017_comparison.jpg",
+      "sha256": "63261ab0cb57f8f85c1a8a15d55e4f00ce52d0e06f8bce3e2d274170aee829de",
+      "bytes": 408025,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/017_error.png",
+      "sha256": "3ea623904b4e4281c264490a84242a34de7b39ca468b05f6ae6ec5f41a6dbd7f",
+      "bytes": 711053,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/017_gt.png",
+      "sha256": "deed25ed64c1182f336ba7c888629cd864747fd63539a42566d48c6b3da9e969",
+      "bytes": 348114,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/018_candidate.png",
+      "sha256": "e1fcea1eb43336616a8bceebe0c6b96e7e581a6e296522810b5bc15707a25dbb",
+      "bytes": 447003,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/018_comparison.jpg",
+      "sha256": "f4998e905faa0c59659d2140a0894dd63607a6999d41eff4a798f676c6818c96",
+      "bytes": 409618,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/018_error.png",
+      "sha256": "4274172860b07706660ba4f224679696ee273192cbe6555fcac8171917ce57f5",
+      "bytes": 698213,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/018_gt.png",
+      "sha256": "b203197043cfc6d054d176955eff3d7859af4c539fac713a0cd17e677fbb6452",
+      "bytes": 383826,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/019_candidate.png",
+      "sha256": "f07a976ad6ae58ee6f167eb46d7e726a517ddfc39049d7fa03b032b32994b430",
+      "bytes": 485571,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/019_comparison.jpg",
+      "sha256": "a0b356d02c7242cf4dfeaebebedcf6a146c4901c3b2b641733a75b46288dbc11",
+      "bytes": 431766,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/019_error.png",
+      "sha256": "aa5f6d0736fb66ed2e2ac61df31928272f730e9a55c35647818b1fdc48fc6841",
+      "bytes": 746867,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/019_gt.png",
+      "sha256": "5355fb793de52760bffa11508c07f8a4a6ed51efbf07bd053c6b52e9dea9d3f3",
+      "bytes": 392132,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1/metrics.json",
+      "sha256": "35c7959aa8529be6ecb33fd5bcc2136ead454da98f9dd61cd27c1dae81c47358",
+      "bytes": 118156,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/000_candidate.png",
+      "sha256": "dde073c499fb55e25845fbc5b51c35d33e35d4c21badf66ed441fc773a0fd968",
+      "bytes": 1565973,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/000_comparison.jpg",
+      "sha256": "fcb1f74b20b519035714147a777acc69d365df4d6b8386adf54b2aee26cafb23",
+      "bytes": 1220972,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/000_error.png",
+      "sha256": "25df6f11498e7bec5b2059fc2a57484b0a729178f49e01465bc0e994468b4aa3",
+      "bytes": 2492749,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/000_gt.png",
+      "sha256": "9c539f868eaf10a8ce7451335d8fb696db5702cb85bbf12b4753c39c82dc7511",
+      "bytes": 1131885,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/001_candidate.png",
+      "sha256": "61e05b91cf9833f4f270234b4e16891fe8c1da015696226687391c8184aa83ca",
+      "bytes": 1410715,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/001_comparison.jpg",
+      "sha256": "651580854670f5626ac563f8c08d31cbe843e488a5c10456e3abf38805673795",
+      "bytes": 1127327,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/001_error.png",
+      "sha256": "90ab32c698341c5ee5e2b8bc3c2c8e0ea78233d48b0eac1b87894a30bf5b2feb",
+      "bytes": 2215724,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/001_gt.png",
+      "sha256": "784ef29a0d5e04a77e38c8e54485b84c74b19613b3d436ba118b5a3c41be9b3e",
+      "bytes": 1094074,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/002_candidate.png",
+      "sha256": "d06eb8da45e2f221a952b66ab6471ebfc4d6bf68843fdf971bb8b824e0c05e54",
+      "bytes": 1401497,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/002_comparison.jpg",
+      "sha256": "292783383551aa41dd70a702651b317f6e6be0b86fb5e131642f2ebd0dba0b97",
+      "bytes": 1068852,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/002_error.png",
+      "sha256": "863da92c8f1de98d2b7edb2ad6ea45fbf3624a8f898f39ff83ab02dcee84f0ac",
+      "bytes": 2188983,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/002_gt.png",
+      "sha256": "1e8c41e97ed74666781d80e9c79c07fe4bdf990f440e0d0a90efb72c33181d3d",
+      "bytes": 1005397,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/003_candidate.png",
+      "sha256": "f6f78b957f69ff253850a3e72e7130a8765c8efe893e8bcb99a6e0f08964a13d",
+      "bytes": 1275379,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/003_comparison.jpg",
+      "sha256": "69bd29c4d23a62f6023525733511f562de1a1ee629c7391f4e3285496794adff",
+      "bytes": 1040486,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/003_error.png",
+      "sha256": "24d6e802a5fe51d3160fa5cdfca53b636b7b21f6daf08ce80700166514006dde",
+      "bytes": 2155250,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/003_gt.png",
+      "sha256": "a6f9b9059d23459cf011483acda10cfad53982229a17195fcf2472cec01f10a2",
+      "bytes": 834610,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/004_candidate.png",
+      "sha256": "467578e5e5df95d1345a6c8222a1b6e9b18ff94fa5a51b63037f2b19dbe8b733",
+      "bytes": 1513065,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/004_comparison.jpg",
+      "sha256": "82a0e2c8836fd737f5043ebb6870357f09d0e3b6e95e70ce9d609e42de37613f",
+      "bytes": 1181485,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/004_error.png",
+      "sha256": "cb9e70a838ec5f9cf88b2a389c863463c1ff9da3755318f1d69e3876c6b68a3f",
+      "bytes": 2581849,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/004_gt.png",
+      "sha256": "c7aabb35877573d5538faed048bb5ba161b081a11e340e26d527b31740e3f389",
+      "bytes": 1011409,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/005_candidate.png",
+      "sha256": "4e8d05ee4783a8f01e64278f384aa81618787ed542952ad2ae2882858243807b",
+      "bytes": 1531084,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/005_comparison.jpg",
+      "sha256": "fa70c201b4b63e6661b3360ff0d2f306e6ad696e6740ca587b63f1b7b22c94f8",
+      "bytes": 1240412,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/005_error.png",
+      "sha256": "323902e203a4ddc3d6e5900ffa63e83e90dc84719f49f02a22ff6520307abd00",
+      "bytes": 2517275,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/005_gt.png",
+      "sha256": "2acd7fbb41f7e03e25e21fa213f43efbb50cb589a0c0b53893b9bde14fd41a89",
+      "bytes": 1098803,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/006_candidate.png",
+      "sha256": "8a243171cb574135a3ff3407c9c06ce9e8d7fcec8c69a1956aedbbc1b4a1c9ec",
+      "bytes": 1449336,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/006_comparison.jpg",
+      "sha256": "df5c4624eb0ac351d6a3fa0a86679df1a813a11709968335f33c736da45c2a82",
+      "bytes": 1151801,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/006_error.png",
+      "sha256": "189145a84d4e1ee1635d2491c11acfec64bd3723039cfa1e3b09b27ab91da726",
+      "bytes": 2310271,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/006_gt.png",
+      "sha256": "11c54a978d2f2c625bd26ff808486ce39421c035adb2a19c6be34363e55f9e98",
+      "bytes": 962830,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/007_candidate.png",
+      "sha256": "161118f3d032a76b5a9ebf839d0e82315e5891222c872535b3727c92f8654c32",
+      "bytes": 1578452,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/007_comparison.jpg",
+      "sha256": "3c79854f7a826ced7b3967cf1a795980475b65d85a6ae717f34c698554b4f3b0",
+      "bytes": 1325116,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/007_error.png",
+      "sha256": "de7275ae9ee83f85c99180b9adc418b45c57faf8e4b93a47c12bded38714c4b4",
+      "bytes": 2620425,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/007_gt.png",
+      "sha256": "c05424fcc20710851bc7f9ae4b37e5d753f23a164aa966c8ae3be32ec40e346d",
+      "bytes": 1030316,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/008_candidate.png",
+      "sha256": "16f1fee091f79aeef8bd2efb840f367f53e7d01f83975b1899917f28131e312e",
+      "bytes": 1269764,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/008_comparison.jpg",
+      "sha256": "30a61f492b114bdb3a81f7585850d7652ab55d1c834f7c1127e7f948eff56cba",
+      "bytes": 1053588,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/008_error.png",
+      "sha256": "7e34165237b4391550355278d8597e5587ac06f461f8cc58e9c89f48e738e021",
+      "bytes": 2298749,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/008_gt.png",
+      "sha256": "930473ff70a1aa772152bffcb205831d900511b4e8d38c171a394c7174c32519",
+      "bytes": 951644,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/009_candidate.png",
+      "sha256": "5d38b4725be57cbe837456dd473c1ce29a297d942884be1143406edd468a7c0d",
+      "bytes": 1563543,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/009_comparison.jpg",
+      "sha256": "5a44364819fc259c024bb42356dae99f3368123ec4b25571b21b05cd0148d45b",
+      "bytes": 1277159,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/009_error.png",
+      "sha256": "195ef08048d7568c9e6058d723fe2b2b83311c079d3a34da7404c14d34b93044",
+      "bytes": 2534156,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/009_gt.png",
+      "sha256": "45a30acd13e6f625c2bbd2d83454f397b30b8553f47565990158edd201d19e4a",
+      "bytes": 1115927,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/010_candidate.png",
+      "sha256": "88a48bc218cd8b109a0f0b174186de678deab8085359b3bde24488974d8e3834",
+      "bytes": 1420223,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/010_comparison.jpg",
+      "sha256": "a9f7c867e67d138a6c35e6c6d0272368637cf5a290db78e02ef54bc2175524d4",
+      "bytes": 1174542,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/010_error.png",
+      "sha256": "f721ce26a3322328fdd048e3815a19413482a7a0cb4eba8fcc64bb3b40c433e5",
+      "bytes": 2388668,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/010_gt.png",
+      "sha256": "c214a636a22e1e6304e13d0aeaa1fa677c094089e1a639c3f73cbdf109d39f83",
+      "bytes": 936695,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/011_candidate.png",
+      "sha256": "e81408d776620f7e2196a776b7ee1dbc24b123f15be30630be12b450addc9150",
+      "bytes": 1625682,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/011_comparison.jpg",
+      "sha256": "10b911cdaa2e4c9be505601dd0b77a72da6126beb7d48480e1d543c359e44642",
+      "bytes": 1397630,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/011_error.png",
+      "sha256": "6ee46b94ebea761d93f78d484384d66fc11cc49dbc6beb4436869e31efece309",
+      "bytes": 2667233,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/011_gt.png",
+      "sha256": "424c25b6364357a439b5dc95d9a4eb03491c548954cb57a39f4159c92bf0e293",
+      "bytes": 1152052,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/012_candidate.png",
+      "sha256": "05d8b5e5db73da851b0082a2bf3e95fda8daf09f130e0de73ed913c40497742d",
+      "bytes": 1428925,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/012_comparison.jpg",
+      "sha256": "49d93fe9114b01b460cb397da79d84959fea950031da697cfed3fcdec8886e39",
+      "bytes": 1237654,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/012_error.png",
+      "sha256": "feb2f426e9ac846a30d34bb84ee99ff43c70939acb2678e4345f1c970c21ef50",
+      "bytes": 2673521,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/012_gt.png",
+      "sha256": "4ce5789ceb744831bac712bf631b4b52c34279582053400f338ee2f34e88f483",
+      "bytes": 1082128,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/013_candidate.png",
+      "sha256": "00029fd2f9419c5a465c8683f8c7462c6088f68ce19f475e9ffa792e01cf4594",
+      "bytes": 1468822,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/013_comparison.jpg",
+      "sha256": "38ae9c94e7511d51e3f9ab3d84f8dc752a68c724167a0488486f97486b930e9c",
+      "bytes": 1246008,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/013_error.png",
+      "sha256": "b70ee2580772cb951d551f92708cd3459af29e04c70cff47ada377ddb264ae93",
+      "bytes": 2557077,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/013_gt.png",
+      "sha256": "0c42d7635a171d444bdb2a9b9614ff23edb88b2b3d8c2d9e870e8607b0886602",
+      "bytes": 1134929,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/014_candidate.png",
+      "sha256": "6bdb252c1bf8b99df9da713d41f9ec28e74274d24dff6c8aff79defa18c20acd",
+      "bytes": 1494359,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/014_comparison.jpg",
+      "sha256": "206d00fa7374764894491ee854a206cd4784f1601e222634e9cc62bd9cc21827",
+      "bytes": 1256144,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/014_error.png",
+      "sha256": "ca5ff1d3b94f1742b4ad69c649762e1ce94b3266fd5c759443d8ca56c99678e4",
+      "bytes": 2460235,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/014_gt.png",
+      "sha256": "d813c4bef433c2cfe7d15eb3eb7bdb54690f141b6260a6faff5e74bcdf894077",
+      "bytes": 1099067,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/015_candidate.png",
+      "sha256": "0b89d74b6d2a865b8c258766ea34aa90af735102a55d5726031072f140b52b30",
+      "bytes": 1523337,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/015_comparison.jpg",
+      "sha256": "1e8a84687788ff517003423bbdc3d4f24df5f40075e6952060c03556aac4289a",
+      "bytes": 1295890,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/015_error.png",
+      "sha256": "c56491c702ffa96c316759d5969e2ce6d06a60292a58e8c174972f5a918542ca",
+      "bytes": 2553838,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/015_gt.png",
+      "sha256": "b1131ffc22680b308f7e539bfeede25c862d6b96dd1d653151e63fe6df55c783",
+      "bytes": 1068375,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/016_candidate.png",
+      "sha256": "9280ce8a35582e9282c69a5ef6bb5cdf3bdaee77525f42bd6afe61de74412c55",
+      "bytes": 1269342,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/016_comparison.jpg",
+      "sha256": "0037c1cfad82c58448edf96b30873e92d2214cae30b969b4fee33d9b5ae92eab",
+      "bytes": 1089161,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/016_error.png",
+      "sha256": "a804fd52837438d29d214be15373e9f6194456862e0efbfc5cbe4e00bbf92e06",
+      "bytes": 2476705,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/016_gt.png",
+      "sha256": "9748ff915640aa949a605403b16fd10fd8a41942e5b62ffac7925aead1683527",
+      "bytes": 894950,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/017_candidate.png",
+      "sha256": "cfe88d8a754da75b7e8dac6e752afc746e496dcd740add542290f2d0495b55bd",
+      "bytes": 1410297,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/017_comparison.jpg",
+      "sha256": "88100c933e393d273a5aecc5e8ed1236b79276e8f59582b5c3b2f3062a2e4aa1",
+      "bytes": 1188022,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/017_error.png",
+      "sha256": "65048c6c728d83fd40cc2407df1b2705445613d0cfb600375370ebc2e893994f",
+      "bytes": 2479110,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/017_gt.png",
+      "sha256": "792be7d432c0b370571161ffe9bef017dbda462576ce5ff87a01af2cfcfaf1cf",
+      "bytes": 954891,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/018_candidate.png",
+      "sha256": "8ed688e2dc84b44aee6c2a6d25a365d0229493bea2e017b160d7f7f532c42359",
+      "bytes": 1461641,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/018_comparison.jpg",
+      "sha256": "26e18592afcda454925dbe555062000631607c66a4cca2f59e0d244bab509ac3",
+      "bytes": 1208484,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/018_error.png",
+      "sha256": "3ea70c9dfa7feb4b0d204d4f6fc63ed5eaba68a85e4f24acf7479cb3db6b18e3",
+      "bytes": 2452098,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/018_gt.png",
+      "sha256": "8c6ac79bb765746dc14f3031420f7e57082bf0b01300097179bfab7dc0e2bbb3",
+      "bytes": 1079387,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/019_candidate.png",
+      "sha256": "92b28b39e4272e7dcd5498ff4fee9af70661a5d3a5486bc5e4694033565fd9b0",
+      "bytes": 1597544,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/019_comparison.jpg",
+      "sha256": "56092dcda09aae9b5e1bec7e0bc2be841841c43396c8e7de4ef852e12e5240b9",
+      "bytes": 1291674,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/019_error.png",
+      "sha256": "3c3409253eecacc34a3b2041fe89bce2d42ab26294e20a25f03faa99667feae7",
+      "bytes": 2629269,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/019_gt.png",
+      "sha256": "a6abedc8ec0ad88c1f160f744fbb4c48ca39cf3e36d89f542c7aba80c9547a94",
+      "bytes": 1102511,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/block000_measuredseed_anneal_v1_resolution/metrics.json",
+      "sha256": "b985119fe403b6cc32e5334c5a0107ea2b79c0b42b9794449f358573fa91f8db",
+      "bytes": 119266,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/004_candidate.png",
+      "sha256": "4e589e8a02d485128f2c746fe5c2d0384290d08b4cc9924975c476b52d0d4cdc",
+      "bytes": 352894,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/004_comparison.jpg",
+      "sha256": "a0930e5542400c0c8877819064cc6dcabfcfde61091d7ae3a298bc1d2f30b95a",
+      "bytes": 340720,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/004_error.png",
+      "sha256": "3d986ee8ffdf0e81a0de7ae93c9f0392308084246c12ae4100d535af5967b14f",
+      "bytes": 674994,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/004_gt.png",
+      "sha256": "1f344cf9d80e5cc8796714b42be5157d9ec038c9585a75855bd2ad4fd8517dd7",
+      "bytes": 315826,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/005_candidate.png",
+      "sha256": "95efcc4bfd6bbf9cf172445919c8f000b315eadec6545e950dec144d3df5d5ef",
+      "bytes": 394786,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/005_comparison.jpg",
+      "sha256": "78bacf748d03150d4c821e2862d04dc51ced034d2fcb8384a3b780ade21f18eb",
+      "bytes": 364550,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/005_error.png",
+      "sha256": "abd3add23a87e89ef3869e1664c5e65af7a8e33d6e33d3a03f411f2083973e65",
+      "bytes": 651298,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/005_gt.png",
+      "sha256": "f86a00f97d104c5b93bd6ec128e8ec9d08fbe2f9e187ff899a3499ed9c53575a",
+      "bytes": 301054,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/006_candidate.png",
+      "sha256": "f1a14c4435d1ee583a929a7de8afa819b083627ea576229102ac20aa4667f81a",
+      "bytes": 363202,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/006_comparison.jpg",
+      "sha256": "3b9ade1ebb4c0f1b18272e8ee17f50a9be5d0a29f65d727bb2800b3cd6525464",
+      "bytes": 329675,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/006_error.png",
+      "sha256": "be38f13073103c6f0f4a4124dabbe93e4dcc22212b30b77112206d9288aba1ed",
+      "bytes": 617902,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/006_gt.png",
+      "sha256": "6d8710b8d0d03cc284bb89ecb4c757d359bc8a66d1bf1332a4eae18da089a963",
+      "bytes": 292553,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/007_candidate.png",
+      "sha256": "04f37e4463121b5d78a910e0cf3d47c919bfad60a4ad4ed821bd0eed46aba303",
+      "bytes": 397172,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/007_comparison.jpg",
+      "sha256": "3029323223b4102271ed612a65e1314ce56d5e51cb2b9b144a1da2319c3626a7",
+      "bytes": 369642,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/007_error.png",
+      "sha256": "59b127d3fe1887b5bbf27ac84c8ef1f6b182446ca72d04e25efa8379cf441cef",
+      "bytes": 687514,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/007_gt.png",
+      "sha256": "d3e8e1965224cb798d9cdc640ad210fb382f06f466e433a3c3120ee7a6f18a5c",
+      "bytes": 326069,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/008_candidate.png",
+      "sha256": "1f574910f1eaeda1dceff1474e4dec3d8e66633521381102721a8933e54243f9",
+      "bytes": 380159,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/008_comparison.jpg",
+      "sha256": "005bc2fd9880a4c80d1c0a9a938f4316d6594f1caf439b6132aa74fa2c8ef892",
+      "bytes": 331637,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/008_error.png",
+      "sha256": "daa45096ef203d6e286f4ce304d607d4ca0ab226076a42a81cb8f51c376895d3",
+      "bytes": 660663,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/008_gt.png",
+      "sha256": "d22be1cd53f84684825dc5a3aa58030f576229362385e6dc9a2ddad3aa402344",
+      "bytes": 271962,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/009_candidate.png",
+      "sha256": "f38de4a4f7932fb57f114bb0ad84f7e527a2cac544be9e6ad55b48e229836a83",
+      "bytes": 373082,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/009_comparison.jpg",
+      "sha256": "f8fe6c50e81f57e890e9d4233c5924382a5c3a01cec39e215610f98e33d1d613",
+      "bytes": 338661,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/009_error.png",
+      "sha256": "8d16d3b2f04f3975c090a6bac6f3b16998e2f82dbb8b4a0d536fb3ab66c8b502",
+      "bytes": 637663,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/009_gt.png",
+      "sha256": "312b10739fe64ae9b9ff94272df9a50ad48890a9656d454b81f4f30822ed2562",
+      "bytes": 265716,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/010_candidate.png",
+      "sha256": "68660ff8ffd8d5d1099e653003f39dba24fd0553056d6bb3f72fafe76f785495",
+      "bytes": 316702,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/010_comparison.jpg",
+      "sha256": "508fda3060fd33db756bbf1a5cb17e94e20e3a471788981223b0ee1da0a0dac5",
+      "bytes": 306226,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/010_error.png",
+      "sha256": "0c070197d893766ab033bb0c55968408b8873ecb3f989bf0536a51892ed04c00",
+      "bytes": 592233,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/010_gt.png",
+      "sha256": "6cc0f7a9afae402418425236c97b701672de6d80d356d73d05370abd32bacbd9",
+      "bytes": 272033,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/011_candidate.png",
+      "sha256": "c6de63ba612490a037289a942bf7f1c6895a02ac73a0edba691be6de49dc325c",
+      "bytes": 404389,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/011_comparison.jpg",
+      "sha256": "2f378aab544f7777ca1bda4d590ca453509d1be84a662f06f540782ca2b3b07d",
+      "bytes": 360381,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/011_error.png",
+      "sha256": "e05547a657de05905232814027387b2e9392dffd4485cbd719ff6c35a917ca5a",
+      "bytes": 698023,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/011_gt.png",
+      "sha256": "f7f85d3091b405b38fcff232d9d177059ff1648aeaac270e60b6d154bdbfe139",
+      "bytes": 317994,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/012_candidate.png",
+      "sha256": "e286934da16e8f1f4109cf3b83cbae29e0a27e9ee5c3cb1a67fc05700246f886",
+      "bytes": 343561,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/012_comparison.jpg",
+      "sha256": "059030604da663a61f43c31f2dbeb6fd398f60801957cd23ff129c5f9c96a258",
+      "bytes": 316896,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/012_error.png",
+      "sha256": "dab7bc0672294b3ce09dc2f67e7fc66ec8996c4be086a7951d39537184bfaf27",
+      "bytes": 641440,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/012_gt.png",
+      "sha256": "a836aaf05b146b6ed8bd1b94b40972c2d25e19eac8e7b7445bba4b48c5ca49f9",
+      "bytes": 258693,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/013_candidate.png",
+      "sha256": "8bff7fddd79ddeb62c4a7030f467e9b50ca7a2f91e67a8fc282ebbe0997703be",
+      "bytes": 358286,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/013_comparison.jpg",
+      "sha256": "4061ca554ccd8708087bdbd631aacee21ec914dcbcebf3bab9bd2cc7a3de58c5",
+      "bytes": 336479,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/013_error.png",
+      "sha256": "7c5dc63c03dfcb2c37f2f62057bec1d8c6cb93c25b811dff69d98f11f34af3fe",
+      "bytes": 622827,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/013_gt.png",
+      "sha256": "560d925c715efae2ef12e38ee1470b8a6bc1a90a876a585482cea8de64e07c0b",
+      "bytes": 282699,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/014_candidate.png",
+      "sha256": "999566d39bb9c163eb35c70a2ca2250bb57cad4b70f2c89d746fcd97d5001a35",
+      "bytes": 301385,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/014_comparison.jpg",
+      "sha256": "6ef7cff8ea9aced34c26f7205ab85989b639436d2161038c521f6eb0a41b38ad",
+      "bytes": 296315,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/014_error.png",
+      "sha256": "81772e63d57353f5f0c2250e663af750b5c05109584ad36129ddca0e83d0d7f0",
+      "bytes": 586385,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/014_gt.png",
+      "sha256": "546ab030be242dfc89fb91a3a9667cca8c259d248a5003b4f34a265a138269a9",
+      "bytes": 263536,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/015_candidate.png",
+      "sha256": "9335a3aa6f1f48ec2ce8be62b83c9875b0b0ac2bf127462f83ec0bb0139504b7",
+      "bytes": 350669,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/015_comparison.jpg",
+      "sha256": "7f7b15e4df6021e235e4cc52c9679a7af6162837eaa9c61c76d96261170f6b19",
+      "bytes": 326460,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/015_error.png",
+      "sha256": "b6f20f9938ce412bcdfa0cf77d5657855da8e899bef86791c850bf0bb54652ea",
+      "bytes": 642677,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/015_gt.png",
+      "sha256": "50de8ac6f76edac8b98791792da5fb5336fd6e41a2dfb108c8706b267dbe1d06",
+      "bytes": 277904,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_014/metrics.json",
+      "sha256": "c38eba81a4b1d1890cf49ad429cda7e669cc813976dac7fcd63da9652ed3865a",
+      "bytes": 73747,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/000_candidate.png",
+      "sha256": "82e719a5f52949d12f9ad66737b8d09f40453bbe378475e37d6e0a5091223dfd",
+      "bytes": 383396,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/000_comparison.jpg",
+      "sha256": "024c25134e8b265c6e794ed9e6cbfd715a9f66f06b7b722215e8278cf3db2dd6",
+      "bytes": 329743,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/000_error.png",
+      "sha256": "7821e84cde0411ae6ae0a4dd2c5eb9559d8ff17b84bf02cb7eded66ed19bfa07",
+      "bytes": 658095,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/000_gt.png",
+      "sha256": "1598cabd6dd72bb67976d361dbcc02735702400d1be31b3e652cee4ca2a9ec55",
+      "bytes": 256483,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/001_candidate.png",
+      "sha256": "d88388109a316c3e41c3a2dec1aa23b3a98d9c6d9099ff1c7dc01294d76659d2",
+      "bytes": 433907,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/001_comparison.jpg",
+      "sha256": "28aafef089c12e64232ff9462bd0aae63421ebadabd4650c23d14ea6b1a9eca4",
+      "bytes": 377749,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/001_error.png",
+      "sha256": "5d99d0b2f1313d5e41ddb7c994726cb160e1ada52ee85d8aa19c6b43a60fb5f1",
+      "bytes": 673527,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/001_gt.png",
+      "sha256": "b2d7fbcd73b662d049ef9d38bc84b3006757f1f72b1a3b8bc6f4a961d77c16f0",
+      "bytes": 287880,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/002_candidate.png",
+      "sha256": "c158f41a590a8663c182eaaf1f555c0ab8d36b9ac96875cf1ccfa3be900c8dd4",
+      "bytes": 337639,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/002_comparison.jpg",
+      "sha256": "7c6ec21147e531d1d8ec36e83c7a9ba49891cbee152fc474424d6d2756db985a",
+      "bytes": 293636,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/002_error.png",
+      "sha256": "57894d80b109e992d42951ca6d90b68ae1a65c3d213626d6f87203ad472236ec",
+      "bytes": 578216,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/002_gt.png",
+      "sha256": "6eb0de7bc236f3843ca7e58813f14687ce837a353fde5d9b83b9c26e71e06dec",
+      "bytes": 253323,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/003_candidate.png",
+      "sha256": "fa738317f415ce0c5f1228eba8bd88f8da8bba87142d330ccc7cf71d530f4c8f",
+      "bytes": 419666,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/003_comparison.jpg",
+      "sha256": "09aa466e2daa1848fd51fad845a4618fe38ebc9a683bfab2c4f599ad92dcf0ee",
+      "bytes": 345524,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/003_error.png",
+      "sha256": "479460db95dd0a091c847eb31c1e61b383ed2a37a949a8263af8827ea56916ba",
+      "bytes": 681273,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/003_gt.png",
+      "sha256": "7eff8f110fd5b731ebe234312cd74d70f41e45a95aea02331d1ce87d97902c03",
+      "bytes": 261080,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/004_candidate.png",
+      "sha256": "d09cb453bb35794bdc87344d656f894a6ff61515fd2c458208fa23bd941b0dc2",
+      "bytes": 295076,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/004_comparison.jpg",
+      "sha256": "4ef4cfc0c423e53cedd92c5484a87eb962de0ff74fdc27f20907406c73a43f75",
+      "bytes": 288590,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/004_error.png",
+      "sha256": "48c33dcf923ee9523b0dbc62507ce9c529ab14389962067d9abbe107b890ae47",
+      "bytes": 592386,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/004_gt.png",
+      "sha256": "03cfaa31fc8577ef26e23effecb8b8dc7af70b4408f94191cd2a851d1a0f0e34",
+      "bytes": 259241,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/005_candidate.png",
+      "sha256": "8c32382123aac60af6228415860845d25f18eaf129beb0070f2741de2caf6f04",
+      "bytes": 332523,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/005_comparison.jpg",
+      "sha256": "82cf2c2b52ff7e9cf68acd6da472b582959bf2f8c8b665c219b23e0b43168768",
+      "bytes": 316602,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/005_error.png",
+      "sha256": "e1a5c19f45250949d2ca160b8b531626d01ad841560c40e4deed51fe5265b8dd",
+      "bytes": 582929,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/005_gt.png",
+      "sha256": "b5d7d08a3806ef9e54df9f2acf2e9ed4d54c8bdb74cf854eb251c2084609d2b0",
+      "bytes": 293357,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/006_candidate.png",
+      "sha256": "54ab514f8b3235bae19b42998d747d04db7bc050ca5991b1d78a55bbcba0a3f4",
+      "bytes": 328942,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/006_comparison.jpg",
+      "sha256": "b4431827ff7c05516055e5ba328eef9ae5ac6520e6c2ad995a8550eee2c9eecd",
+      "bytes": 289549,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/006_error.png",
+      "sha256": "6350c6df4166db1ea036d741a190ca42baed9832024ce788deee19e93184cacd",
+      "bytes": 581251,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/006_gt.png",
+      "sha256": "d2b05c0e9b3176e61fb41f721ed5e49eda35695e18f649696b8a5349c7a3f41d",
+      "bytes": 253104,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/007_candidate.png",
+      "sha256": "e8e2135a54aac6c48b484118066c7a8202dd8b9be1d96ebd137ce64979783251",
+      "bytes": 307846,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/007_comparison.jpg",
+      "sha256": "58c1a8c6b9a76f242b07596ce389ad767eddb5ba6ce4a558cbb1996617a05e66",
+      "bytes": 292462,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/007_error.png",
+      "sha256": "d7043cf69dcecdf7cf368f7e391948d76be0baf42ce6a7a3cdda4de799042922",
+      "bytes": 589903,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/007_gt.png",
+      "sha256": "0d4a06beb03dc37f28571ced6513fc8762d452938d4b01335f04885d04ee50c3",
+      "bytes": 282227,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/008_candidate.png",
+      "sha256": "0506586976b96768bf1e04831e10987037c57dbce50df550736b558431b9a7f7",
+      "bytes": 305314,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/008_comparison.jpg",
+      "sha256": "54db97d89ba63c1a91ad1684aecdb1be89d7cd67351f376f0173db5a7cfc1f59",
+      "bytes": 302152,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/008_error.png",
+      "sha256": "0f858cde90cbf01884b3bd7df39f89db9b4ed537ec500a0f1f3724bc9d97a9a7",
+      "bytes": 622442,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/008_gt.png",
+      "sha256": "2335386e48ba9b06375396df6db4d63ff47e7b3625572fe02541a0d55680b907",
+      "bytes": 260132,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/009_candidate.png",
+      "sha256": "c8c25350bbb28b97134ac4ee10171290b0224447c2d3b8fbdecf093e856d3dfb",
+      "bytes": 337510,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/009_comparison.jpg",
+      "sha256": "1aeb3d688656e8edfe214aeb9d7878a8521177c7531f09732279b0bc2652bee2",
+      "bytes": 332832,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/009_error.png",
+      "sha256": "897e0c99f34a6bcaf442a97979098416c2cad3f5e83e4d294a9f3f56fa8d90b6",
+      "bytes": 622860,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/009_gt.png",
+      "sha256": "d56d531f6128cd7d774661d202d1b0f5321ccbe8603803f6f0c8f521f21053ba",
+      "bytes": 290611,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/010_candidate.png",
+      "sha256": "fc070317b2083336ad75910460e0974b69bf73728fea15e71479b4de8d29d61b",
+      "bytes": 334719,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/010_comparison.jpg",
+      "sha256": "ae8fef17a62caa8c69a84bd1cee86cae657185952b524c07a5f01b8ea1a94588",
+      "bytes": 301929,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/010_error.png",
+      "sha256": "5278988f4b2dfcd005a08bcc4b0307f1613affeffceaadcfa1e2a9f63e899d57",
+      "bytes": 605424,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/010_gt.png",
+      "sha256": "2712bd9ecb66a19917d4e64d203a862356810e3a14719536156f56dead1ff4af",
+      "bytes": 253412,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/011_candidate.png",
+      "sha256": "40be5521dbbd81017ac714112e6acc7aa8259b7ed3bb83ff1afc72682a750c64",
+      "bytes": 314458,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/011_comparison.jpg",
+      "sha256": "da63f2b775fa04d445b1c8325a18922a37f16d75ef0ee1df9e1ee8e854aa0cac",
+      "bytes": 307464,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/011_error.png",
+      "sha256": "448a1a2252c36fca90fa30bedce4bb40b050512a93cd4b1338f6efc175fd27a7",
+      "bytes": 627982,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/011_gt.png",
+      "sha256": "f2952ec468ba009a7ebf284a77ba3803169be7aaae55853193ee5013d6576d0b",
+      "bytes": 286494,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/012_candidate.png",
+      "sha256": "101f00be1670d3c1159f982afd742affb925eba5b98794e31f0581f3f32f0c49",
+      "bytes": 329604,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/012_comparison.jpg",
+      "sha256": "65e563733fd59ea1c9554d03f7fd86439a40c4d1963c3587aa77bbcdf02b5377",
+      "bytes": 313613,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/012_error.png",
+      "sha256": "f09b72bfdcc58023c93df87d60589407c77cc83eb7f3578cb4c455fa92ee2db8",
+      "bytes": 633444,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/012_gt.png",
+      "sha256": "996211d800045bc2d590ca7257a69b2cd9dd837409167211be799e7f9802e825",
+      "bytes": 255764,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/013_candidate.png",
+      "sha256": "6d13d6a8a1da743fc1533af1a0472e392e29759b3403daf00ba1caae9991c566",
+      "bytes": 368762,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/013_comparison.jpg",
+      "sha256": "26d5a8271e14ef87e54338bf5080dd055686572ce066ec0ac0cb4aa2f31fe096",
+      "bytes": 350330,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/013_error.png",
+      "sha256": "a72d3e51c3d2599445b4d310830a3179dff9b64c405ea725b3f1723fa5f1eda9",
+      "bytes": 631622,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/013_gt.png",
+      "sha256": "30ce480812e14180a00f5d0e8c173edacfd21d3ca430b17ce4849ec2e49dc552",
+      "bytes": 287898,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/014_candidate.png",
+      "sha256": "cf5c4acbd76872ef04ddad47a1b819542b834cd017873bfac9ac2f415a557327",
+      "bytes": 342326,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/014_comparison.jpg",
+      "sha256": "d47a44083699f0bf73a598ef3a005103c8b1e86bd368ef5b1b387752e02182b6",
+      "bytes": 305693,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/014_error.png",
+      "sha256": "0b7180b33e792cd177b29ae6f66438bdd4cea112850906ad1f8ae301e8adfab5",
+      "bytes": 601861,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/014_gt.png",
+      "sha256": "1e3fbae424def7c1d8337762fea0ffa3f878aa0b6ea8577e5c02865c696b0a6c",
+      "bytes": 256256,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/015_candidate.png",
+      "sha256": "bf5370573f9de55c5f717770396121e68063854784ed9f333c3e189076a4bdc2",
+      "bytes": 326443,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/015_comparison.jpg",
+      "sha256": "8f8ce1f41589efa105bb1520d6d4ffc056f95be9fdb08621d53d5a500274cd86",
+      "bytes": 314562,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/015_error.png",
+      "sha256": "0e9807228728035de89903320fab7c10dfb1b55787a4dec23012439551019123",
+      "bytes": 621976,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/015_gt.png",
+      "sha256": "0c390b47f6da72f46d51e095c5e0489952a148c8508ce92a0c861a1ebfa63637",
+      "bytes": 269486,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/016_candidate.png",
+      "sha256": "b7f4bb55d7b71f1ec06b45728a5a907e49ab13307a498f80f4efaeb034b2bbf9",
+      "bytes": 341288,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/016_comparison.jpg",
+      "sha256": "e357b25efad88609c9685420638ee7520f90d4ea8905dd59f382770236172089",
+      "bytes": 323202,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/016_error.png",
+      "sha256": "0b3166f3da1b5f9bf8b75760349f78e6d550fae697dce2153fb993894e81dcbd",
+      "bytes": 645085,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/016_gt.png",
+      "sha256": "bd8ce30a391514e194df39370c65557577fc4ea1874875b38a2c08038f5cd386",
+      "bytes": 260710,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/017_candidate.png",
+      "sha256": "2e09b8a366db5e5b5681ac3da015da870ec4ba4171e5990b40c6a949aad9b0c0",
+      "bytes": 359998,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/017_comparison.jpg",
+      "sha256": "d60d34c4b205a059aec16d8b77aed2cd984f1153245a809ebb2440b883690aed",
+      "bytes": 357819,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/017_error.png",
+      "sha256": "6a07a41218e354327000f3c64e9e243a11f0fc8bad64a01a64f802845e931514",
+      "bytes": 634259,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/017_gt.png",
+      "sha256": "ba2d55949f44dee8dae426fcc2b669f67391bfb22397a673eecd134678621c7f",
+      "bytes": 315362,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/018_candidate.png",
+      "sha256": "c4be1c3406103921a3038247fe697827425c2c2fcfd20c4a483746dafdc8f485",
+      "bytes": 315473,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/018_comparison.jpg",
+      "sha256": "64b66f36bb450ccd76952c59d2a0cb24a2ba5caee7ae6831a7b0935dafd32cba",
+      "bytes": 296282,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/018_error.png",
+      "sha256": "b49fb54f7c4525eaea5b2d361a550eccc96287feee683fde92bc1f30c3718bfd",
+      "bytes": 585483,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/018_gt.png",
+      "sha256": "e1ed81f8c9122b7264d1e165110cb16416d57fa52bc4080354e64381f8857519",
+      "bytes": 262305,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/019_candidate.png",
+      "sha256": "d0e93e67c499bfa4af0c5e21c9d71395c85fd15558a3f1a072bec34f9885aa06",
+      "bytes": 324059,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/019_comparison.jpg",
+      "sha256": "d9df277c73baf4001429316d7ababd476755740cd770a56b45b9444cfe5b0397",
+      "bytes": 315401,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/019_error.png",
+      "sha256": "f1f65de7e99a3529f3a2efdba85fb90d9af7ffdd7faefacb3a94977b45c2b4fc",
+      "bytes": 628074,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/019_gt.png",
+      "sha256": "7bed92ae0535bba8bba890f29279f6c8b951bdd4a17aa2596415832953e63e4e",
+      "bytes": 269810,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_015/metrics.json",
+      "sha256": "a26aae2c1eab6ec9b931e6ef8af03f3ccf9506a27afa2c5dd03f8933c14f29bc",
+      "bytes": 118405,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/004_candidate.png",
+      "sha256": "a8b744d18bcfa5ecfbe23ccbde89a1a862ffeea5a34e53485ea88c7214bf7c8e",
+      "bytes": 343341,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/004_comparison.jpg",
+      "sha256": "503eb0ec0d945fe3ed49883c5973fd91344d6c2a223d225e2dbd37f8c477ee6e",
+      "bytes": 339370,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/004_error.png",
+      "sha256": "f4f4954397f3c8bc5a964256f9cb6325c9e0b3db545fffe96933a4b472926db8",
+      "bytes": 662591,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/004_gt.png",
+      "sha256": "c60a63dfb47e83a0e620c6b86a8fb1cd9fe4bf12beb2a761b1eaaa36f5545205",
+      "bytes": 312409,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/005_candidate.png",
+      "sha256": "45ee4bf8166cc030f1d945ed2f847f546ca16f273c33711416b59ecc8416f6b7",
+      "bytes": 348815,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/005_comparison.jpg",
+      "sha256": "fbd9d68bfd252be376803fa7cdc41840959b0e4345b829fc156e455ca6a14245",
+      "bytes": 357800,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/005_error.png",
+      "sha256": "e57a268bfa5193bdecbe2fe0964e9d0d5591b50a11c3874b85b8eef94759b2cb",
+      "bytes": 638943,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/005_gt.png",
+      "sha256": "86c498279e38cd00fbbecd42d4093fe6fe92b15ea5ce0e510e3049c58fb539f6",
+      "bytes": 342435,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/006_candidate.png",
+      "sha256": "465ac4d9ba66293e731325069e0060dbe5cf2925a789c71b45869380cb954a9a",
+      "bytes": 281456,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/006_comparison.jpg",
+      "sha256": "ef3807e306f6ad094b89e7ab6467e37bfa9ca615e45fbfaa1cd73ef28422912c",
+      "bytes": 275482,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/006_error.png",
+      "sha256": "1acae412f99d639ef4dc8dfa3ec26b138b5fc2f46391cd4130a4ed75fabd4495",
+      "bytes": 555272,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/006_gt.png",
+      "sha256": "b9934df7fc8e22049f6a2e6df1b9989620d748c9dca102f2b0385c759a1cb308",
+      "bytes": 248690,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/007_candidate.png",
+      "sha256": "440dca9c92e45716a47f802b1cfee8d0bcd6527644e63fa6c99187f759bcae29",
+      "bytes": 376925,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/007_comparison.jpg",
+      "sha256": "4b6271644b4177132f97420f3d6df5110b5d9e7f4cc03b52ee619a683f96369a",
+      "bytes": 363317,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/007_error.png",
+      "sha256": "439d58518d8b7e488301e1072b6e2841b9be1a9f7c1337cf7c7d723bcf50ff77",
+      "bytes": 656490,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/007_gt.png",
+      "sha256": "4a55fd57e7b89d3611ead15434491f75ac0233495ae09c11df8000bff79224a1",
+      "bytes": 311657,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/008_candidate.png",
+      "sha256": "771f203453800659e8d2b0673290858f0da87cf90f3f7b7c671a593b696873d7",
+      "bytes": 355531,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/008_comparison.jpg",
+      "sha256": "9ea78601751d3c7ccc5c01ee3627ecc45811539f7ccc0725727bb3cc2ffb7742",
+      "bytes": 341877,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/008_error.png",
+      "sha256": "8c31e56ec9735d452a423a8985a8842306f0ffa84e2fb62995e760879c07d424",
+      "bytes": 660855,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/008_gt.png",
+      "sha256": "ec86d90e0422a1b313de5ba0f2c9436ed857e3a33ccc2f557770152fd8ce45d5",
+      "bytes": 329213,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/009_candidate.png",
+      "sha256": "d8b634af6f0bebf26ec0a241ed695cd44b465eabf311da306f4d10907b5eabec",
+      "bytes": 338380,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/009_comparison.jpg",
+      "sha256": "c887a2a0bfa751e51c01ddb1dcd155d76f3a205ecfa16fbe06a6352a345c6f11",
+      "bytes": 361302,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/009_error.png",
+      "sha256": "2f0e79a55ee5203777135f8f8ddda3289d94a8797a0bbbc79b919b62e84c6bb1",
+      "bytes": 648417,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/009_gt.png",
+      "sha256": "13d1313e1a596db8737cc77d9aa96524fc5aa3e1f1bdf6f2e63039a2ce4129db",
+      "bytes": 338043,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/010_candidate.png",
+      "sha256": "56f97b4333a5212cea89095f2a392138e7465d8f261a3d3e389b59119a49b1ea",
+      "bytes": 306640,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/010_comparison.jpg",
+      "sha256": "34854548c2abb9b4c5824b1d0fb40e6d3e202afb3cdbe2e8c43a4552e039e435",
+      "bytes": 303579,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/010_error.png",
+      "sha256": "0ffab6b57799a68673333d07fedefbfc652121ba1ad907c69e783fa48e2a2c2a",
+      "bytes": 590560,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/010_gt.png",
+      "sha256": "9ae928ceb46376f7ab89e64430cb100eb3b1f10d3440b65daa20b5cb309e6dcf",
+      "bytes": 264430,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/011_candidate.png",
+      "sha256": "953c4e179749decd3c8dfb8082a7ea5b267249c9013bd5daff3957f78d5d66ad",
+      "bytes": 370736,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/011_comparison.jpg",
+      "sha256": "9096a72571945279032ba72a97e5a74ea23e91040a89ebb3e417e1b83b5a591c",
+      "bytes": 351875,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/011_error.png",
+      "sha256": "79670f1ff076f67bcfd546aba9eac160a50395d9e19f723813ee8d9766ced120",
+      "bytes": 670946,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/011_gt.png",
+      "sha256": "ba181d5df842573e55e95e32bc9758d4e4b0e657836616461f0a2c308e470098",
+      "bytes": 318758,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/012_candidate.png",
+      "sha256": "b6bded4bc216ea22c734613bc628baece330986d772a9e5aefa16b2741d4d61c",
+      "bytes": 334623,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/012_comparison.jpg",
+      "sha256": "512d279b74981b9d2cb534d52285982ec7b3fbe551cbbed23270bd9bce134a0e",
+      "bytes": 320813,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/012_error.png",
+      "sha256": "1a917195859862de1747d0a8702fd94294345eae9757af19e30f8995b9905125",
+      "bytes": 647079,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/012_gt.png",
+      "sha256": "1c862d28d07652167bb8e73253683f533067e7ec65faa161a8806c4de7bf2742",
+      "bytes": 274901,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/013_candidate.png",
+      "sha256": "f4bf45f21a0ae8ca7dee9858d5c2d6b77b17204599a821861e0865f0a254c4b7",
+      "bytes": 362419,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/013_comparison.jpg",
+      "sha256": "75e049b0c3432ed411f6d910a8a98ea3cd16a17950fc627d6644eb38a5fbb873",
+      "bytes": 373251,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/013_error.png",
+      "sha256": "452f1a481d66b447279080759db393f50ae002bea54acc9bddecf6a651f7d9fc",
+      "bytes": 648076,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/013_gt.png",
+      "sha256": "ea24b06f29d598b15f83c9644c4034fe4dec6bc90cb8f3d4daeaa31b11518b19",
+      "bytes": 358568,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/014_candidate.png",
+      "sha256": "14219b9ffa1e8b7c03ba6d90dfbedcb8218cf6cdbee720f576d75fafa4810791",
+      "bytes": 349935,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/014_comparison.jpg",
+      "sha256": "579cbe01d3dcbdf56b590b421d40897c4583880a0e10cfb140ec00626a9f3bc6",
+      "bytes": 335444,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/014_error.png",
+      "sha256": "e3c072ad83d6e792a8b6015f480f53b7803b63aa3aa71b8c2f061cbb8d58f494",
+      "bytes": 623140,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/014_gt.png",
+      "sha256": "803cf0a473ad02c787c559feee64f78a90941d69316276f6cd50869f4edb1aff",
+      "bytes": 297320,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/015_candidate.png",
+      "sha256": "477894826fe2f03de55f0e2509b6b06a8a371f9a353b249f7872efbbaca41999",
+      "bytes": 407285,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/015_comparison.jpg",
+      "sha256": "e61e6583977ee43eb42b3e5a1f6db8d5a5a548a1fa885cf7d45c49f3f66eb7e1",
+      "bytes": 381366,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/015_error.png",
+      "sha256": "c7ed98e079d332f72dd0ee3eb476b7c20f3c0266d305e7c564a79e239b98249e",
+      "bytes": 711343,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/015_gt.png",
+      "sha256": "43bd296dbce0bb8c88d26d3c07bf0b3e8de0b8b349f9277f0f37f850fda7f25e",
+      "bytes": 323954,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/016_candidate.png",
+      "sha256": "f9322829eb214b384fadb74049438c12b0d43810db4c386c47ef721fffda6285",
+      "bytes": 351147,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/016_comparison.jpg",
+      "sha256": "4c978f533c9444205e938f94dfbc343a0974e1968d400cf0226be19e47d82c8b",
+      "bytes": 333681,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/016_error.png",
+      "sha256": "56a2499501dd2139f7578eb2b959389f270b97d10650798be1ba7c2b0de83953",
+      "bytes": 664016,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/016_gt.png",
+      "sha256": "2289ff8b707766b71cf53e4e6ed0a2fc5729f01058f6e742c60c191a1f14d8c4",
+      "bytes": 278621,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/017_candidate.png",
+      "sha256": "90b1a05f27f8ba3d6916e5552d15cfc7775f8d064c6ca4dd344ac8db6ffd4818",
+      "bytes": 406220,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/017_comparison.jpg",
+      "sha256": "f7bf89e7c5b2746eb32330fccb696ad5c679da6918c937518f965d76396747e3",
+      "bytes": 386798,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/017_error.png",
+      "sha256": "4ea7a0cba724b6b7a70de7dcc56f08d69ce0c14e7fea78add1b9309eeb650eef",
+      "bytes": 663801,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/017_gt.png",
+      "sha256": "9e0b313b371ff9291bc9a99e0e6f8da4377f7800960ba6e0e157a3178f0a4b02",
+      "bytes": 348873,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/018_candidate.png",
+      "sha256": "a3e8b7c9d3c9d27338660e83a82fec22cb296a92c3fc99f6cfa15a0f4d9bcf7e",
+      "bytes": 372589,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/018_comparison.jpg",
+      "sha256": "2d8e4290b954570065211d03689a00ce2eb5fe761968e66c4c2b7f78590205e6",
+      "bytes": 350212,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/018_error.png",
+      "sha256": "f6d29e03e9faa466d6c019472e4b9b190d72984c46e89f748d9fb965609cad5a",
+      "bytes": 634186,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/018_gt.png",
+      "sha256": "3f8b73f23f03e8633c4f790a438c70491dbf1ae3e01167f2a9b3116c8478a798",
+      "bytes": 330097,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/019_candidate.png",
+      "sha256": "fe13c002d82c385c6c288a189f4fd950caa5133c38b56b2c098c72b2c313f49c",
+      "bytes": 412848,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/019_comparison.jpg",
+      "sha256": "ccc38bd6ec18103ee6c66f9213847e24e9448451ed59b4266662d72fccc849ed",
+      "bytes": 393030,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/019_error.png",
+      "sha256": "1dc2dddae908643e18832cf3d97b475d976cc884f24e19990f0538d312b44525",
+      "bytes": 702883,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/019_gt.png",
+      "sha256": "cb7fa7cc38419d0c29c7bc8bf28856353a2549682e980f721f2862bf3eeb20b0",
+      "bytes": 351318,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_acceptance/block_016/metrics.json",
+      "sha256": "d48c5c1c89fe114f52127c31b6b48b69cc60db0654f50944242cf8deb1589425",
+      "bytes": 95811,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/000_candidate.png",
+      "sha256": "a646921a2e23629348e146d7bc0d41efe1ff5d7ddc63b5e809dcd01e07b2e0b5",
+      "bytes": 1217343,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/000_comparison.jpg",
+      "sha256": "6a6d39885e2e1a665f4ca22de734df5e02dcc141d0ed37091994c5a795bf78b5",
+      "bytes": 941143,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/000_error.png",
+      "sha256": "d98267f8abe054467fc354e489d33d00b95759d01db3b3f66748ae0954eb3748",
+      "bytes": 2175325,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/000_gt.png",
+      "sha256": "f81d41664796d8776dd3e0719250129925c4ff677ce13c0fcbb36de76c2e24dc",
+      "bytes": 706522,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/001_candidate.png",
+      "sha256": "1c928f393280d5245e02cb531ab6b83d1dee29973283962f5d4dbfc4dd8e1ad8",
+      "bytes": 1431678,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/001_comparison.jpg",
+      "sha256": "bf39108d5038e5052108ddf6cbe8403a801b5bc122d4b34e36d576aa7da2a62e",
+      "bytes": 1107069,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/001_error.png",
+      "sha256": "088fb56beec9992affc9abf05eafb9b60411f2127c8e9e6df6b81070e2b15966",
+      "bytes": 2330093,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/001_gt.png",
+      "sha256": "106740045932d1467f58204683475127b1ddcf679673ddee698ce0fb725e5cdd",
+      "bytes": 803748,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/002_candidate.png",
+      "sha256": "c404dfdeeea28c981ef2cd4df8f83bf057255a2d5030ab7c06dcfff3ab22e2cc",
+      "bytes": 1131992,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/002_comparison.jpg",
+      "sha256": "e87dc0480d86996b501f7f969fb1d168dbb84b78cd8b2b7ac8ed3c9f44cc36fe",
+      "bytes": 860847,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/002_error.png",
+      "sha256": "6d5c653efeb36bdac99a1d2d81dce3a46dc3586cda93fcf7a312fc06aea5857f",
+      "bytes": 1948061,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/002_gt.png",
+      "sha256": "8a3074c758190cc5cdf9b4a7564401f7ef697cd3d1b8fe226da19b3a3f55d78e",
+      "bytes": 708142,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/003_candidate.png",
+      "sha256": "bc431a7c9efc45fe2b29751ecb3ff92490b47252937ce7bdddedcbdba8607aa2",
+      "bytes": 1314787,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/003_comparison.jpg",
+      "sha256": "42870b2cc85354a3b75e957858d0184184f18f34c922c918603112b9f112fd53",
+      "bytes": 972235,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/003_error.png",
+      "sha256": "7fcc3a17724f7fb0fb3ea920b36d1df3ba41fc30cc71de6679d68509bab75071",
+      "bytes": 2275994,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/003_gt.png",
+      "sha256": "d9a11490585348f03328725a68f51c88259e1ade6d7db97a7c0dd91c01907d70",
+      "bytes": 717901,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/004_candidate.png",
+      "sha256": "f1e1be80ea6147ddb94378b867f603b79ffc7634bacfc913941bd0bcbe0ad907",
+      "bytes": 981707,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/004_comparison.jpg",
+      "sha256": "715c4a88d157cd456474def0a76436c1a398ef13ca15bbf68235a45950f9f322",
+      "bytes": 839673,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/004_error.png",
+      "sha256": "6b5fdb110d8247d49308e5e5f9699ccf093e980990f2d17bf0e2fd12a30eedf3",
+      "bytes": 1955336,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/004_gt.png",
+      "sha256": "a9ce4826fd961a80045742a6f1ab4c4bef31fce012351524266da7aaa08f90da",
+      "bytes": 717689,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/005_candidate.png",
+      "sha256": "eba4a56397a39707c77b3567b3b20476794f2a1d9c1ee62b72e6c9dfec6c0743",
+      "bytes": 1078426,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/005_comparison.jpg",
+      "sha256": "b94d2d07144e4bcd18499bf482b6518a3dbcb665ada16fb81539565c8c89ec0e",
+      "bytes": 920323,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/005_error.png",
+      "sha256": "106a32bf3ff47f4382c3fd0df2133c2d0ba7220f96b035c783ccf9bad8964876",
+      "bytes": 1965947,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/005_gt.png",
+      "sha256": "28e4b3bce6997db1a7863232c094446696ad1c08423805ddbad77fed1a6650d7",
+      "bytes": 812266,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/006_candidate.png",
+      "sha256": "25146d53750f9a319ed8b3a607bb50810b91dd8b224a8c7aa4d4246de776543b",
+      "bytes": 1136544,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/006_comparison.jpg",
+      "sha256": "28307c9a4c690b96977e2222e1e201e4121cf7f02371093987885f2e07bd4ea4",
+      "bytes": 878900,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/006_error.png",
+      "sha256": "86c2e748922405fd1f98ff18fd8936e99bf952f0ed2e7e6352b44df1f9dc8464",
+      "bytes": 2013214,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/006_gt.png",
+      "sha256": "27c75fe73fc9bb9f406bf7b01bbcae58489541e867c7dc65bbc90094773808b5",
+      "bytes": 697678,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/007_candidate.png",
+      "sha256": "be27baae36fa238383e72730b71bc4620ed6ec2a3b054bc5eead1801a45e1fce",
+      "bytes": 971916,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/007_comparison.jpg",
+      "sha256": "f8b27cd4ab33837376b57837137b4cdb4c51d224bd6741a615c2da592401fa84",
+      "bytes": 829321,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/007_error.png",
+      "sha256": "ad5fe75fddc06791bfb44bdfed253c15a12ec1610be25b4c4bd2bc26a2c22cde",
+      "bytes": 1938545,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/007_gt.png",
+      "sha256": "a0746556b0e562419e380a4e8fb28558954077e1ac0177d7cf4f08971414845d",
+      "bytes": 777132,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/008_candidate.png",
+      "sha256": "bbf3bce9d2149d8f573d5e34bf07c3168fd5040f585a1f3bc29f4900baf7b1d6",
+      "bytes": 1006297,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/008_comparison.jpg",
+      "sha256": "f5c27c6060ebab6c030170c3f1849b3aa19aca1180ec7f33404e66259b4b6844",
+      "bytes": 870129,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/008_error.png",
+      "sha256": "88ae2530aeb753298f6163a27fe7bcfec04265ae9dd1e61d9f27134ada491042",
+      "bytes": 2049590,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/008_gt.png",
+      "sha256": "1553c35fc8305a9e741ea4d24c2b05dbbd1fd2b39625fe2101844f3db8af449a",
+      "bytes": 721680,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/009_candidate.png",
+      "sha256": "9e30e68fc3eac736f84f694894d6041c111d4ebcfe29e591b870e9eb1a4a420b",
+      "bytes": 1100739,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/009_comparison.jpg",
+      "sha256": "8786591c5daa733f27081b9bd9743b18d517a180057d1893a78cdb80c01c7eb1",
+      "bytes": 962392,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/009_error.png",
+      "sha256": "8cea0ffb092d1830760c47cba7cc97ba34c66a8ff513b0248935e371c7540bca",
+      "bytes": 2103927,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/009_gt.png",
+      "sha256": "34f7e7a8e8a2f522b25f454419e2189f4eb618a74e5afa0df9b11fbb735ead23",
+      "bytes": 808739,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/010_candidate.png",
+      "sha256": "9f2679567facc33b3781943aec254ead3c5ce6f1a20b124891380e4dde31e006",
+      "bytes": 1153734,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/010_comparison.jpg",
+      "sha256": "8fe412a07e694e6310462d99186df3fe290c302d4b6c757dd6ae43c15e9cb71f",
+      "bytes": 909097,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/010_error.png",
+      "sha256": "5cfa8d5329d82d1610be08d7197632fab97bf777148464e187b5f8679ed8218c",
+      "bytes": 2089673,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/010_gt.png",
+      "sha256": "cc09e2393dbbf68c1d582a2d01f20cc3e408b064769eedf154de676ed6377570",
+      "bytes": 700132,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/011_candidate.png",
+      "sha256": "adfb6d4c490776e791da7e7beb0db0ec87eccb95cc8b7d63950e4578c8b10adb",
+      "bytes": 984129,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/011_comparison.jpg",
+      "sha256": "0ff4878071e8a471c1459f4f59792b6f5467022023a7eb3408a24ecf360b9b3f",
+      "bytes": 855643,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/011_error.png",
+      "sha256": "11b3c007cdd43e071d43052a503e0e062234b29b54799b3d22514af51c5b35a7",
+      "bytes": 2051957,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/011_gt.png",
+      "sha256": "ef611b19174130f1ea93b16e0e2ff1af8824b8aebb77cbbf25ef3bfa6cd63366",
+      "bytes": 785929,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/012_candidate.png",
+      "sha256": "f3ecbb69ff7047e7521f837fc3098e25be45157a56a4e8d99ec9649f4fab524f",
+      "bytes": 1061974,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/012_comparison.jpg",
+      "sha256": "5ad86a7ab6958a314909d12d1232d6e8fec77ddc44caab19eff52bfa5514cf13",
+      "bytes": 893500,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/012_error.png",
+      "sha256": "d75d60fe2105becf7a979b3f06285a70d1850433a48f5f76c99dae41d92e3ab2",
+      "bytes": 2080768,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/012_gt.png",
+      "sha256": "61c6d61a489483b249b5fc98a944eed895719eabea597b15f7338f67d045fdb6",
+      "bytes": 703710,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/013_candidate.png",
+      "sha256": "0f39572b445a66617367090ef6d8052d2faacd2cb335feece27d625122c556e5",
+      "bytes": 1214477,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/013_comparison.jpg",
+      "sha256": "c24984e0d8dce72342414e756e59664805e152fde9a6352b67da5b1846eea2b0",
+      "bytes": 1016000,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/013_error.png",
+      "sha256": "c4f701ec2a4e9d5b7e9587cdeea56bd903e05221a0717cb62b55ab31761599b5",
+      "bytes": 2132812,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/013_gt.png",
+      "sha256": "f10c1e9a105644a68dac3cf17024ff5734066ac147f3d8521636adf0ad3e274a",
+      "bytes": 804915,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/014_candidate.png",
+      "sha256": "d9fe3b39570ad5cae50c64ebe9048997b2ef639f4a577248795049b15d8f1f48",
+      "bytes": 1149090,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/014_comparison.jpg",
+      "sha256": "4ddac744b04458783d446ab777e65ed275a76be958387324922abaea51ec87de",
+      "bytes": 906286,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/014_error.png",
+      "sha256": "2dbb6792c3c642eaf6fc8ae07f34a42cb549950f2378cca6c9c6516bba9b0f48",
+      "bytes": 2049012,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/014_gt.png",
+      "sha256": "720740f6c3d3eb13bf98e0f9735407d8e42eea68ae155a80408e14ffb617b178",
+      "bytes": 705686,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/015_candidate.png",
+      "sha256": "f95ad34fcca942f21e1a23a200bc5ce8651ebc39cff110da56a66dc5c697f0d9",
+      "bytes": 1018811,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/015_comparison.jpg",
+      "sha256": "3342cc755f4e4f507725567e453211c9d0e63682941d0d9691a2c75a4a4f5e4c",
+      "bytes": 874068,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/015_error.png",
+      "sha256": "a011c00696155227ace57f0f1f6578441a02107d6aba75f70db58904242bce1b",
+      "bytes": 2024547,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/015_gt.png",
+      "sha256": "f64470fdba275eeebf542756c9bc6f6bf57a48590dda6f982a3c944ce77476f7",
+      "bytes": 743573,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/016_candidate.png",
+      "sha256": "0b0ba710cb8539b4dddddef3f3a6c2748b9816873dd64d189b43113152228bd0",
+      "bytes": 1105894,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/016_comparison.jpg",
+      "sha256": "1fee8170be89360c1bf3534defe0aa6c3b91b1b3911c05a5d0e4ce785de724ce",
+      "bytes": 928801,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/016_error.png",
+      "sha256": "f110ee508fcb41deea54f5b26bd58082160ce9613e0e83ab7ef62ba591b03508",
+      "bytes": 2137833,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/016_gt.png",
+      "sha256": "4342ea73747b98836bb8dbcdeba1da48506af1fb86481ec2558133282ff61558",
+      "bytes": 722468,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/017_candidate.png",
+      "sha256": "36483903d1cd0dc74065f4c90d5e2c51d478ee73a090ae110d9d1be5286190e8",
+      "bytes": 1155303,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/017_comparison.jpg",
+      "sha256": "e722ff35305095b36c205f5449767b2437f64dda90c2ea35542944804c305ce6",
+      "bytes": 1025460,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/017_error.png",
+      "sha256": "8bdb5de628523aa3ca411322ea689368784685ea52af3d2b2606303bbafc95f4",
+      "bytes": 2114898,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/017_gt.png",
+      "sha256": "3623b6189141ce0b82f3bcb6da1969d6ae6d01d563193571b16d1db1408c1025",
+      "bytes": 894890,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/018_candidate.png",
+      "sha256": "42a9b387e69d630593aabde7b8c4c10a2dc9e1a8d16c4e9e6ca95f88a2ab9bd2",
+      "bytes": 1053304,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/018_comparison.jpg",
+      "sha256": "5a267bc9249a141fb380f37f81325141cf0ce815a69c7a6673cdd9866fbf6c92",
+      "bytes": 862949,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/018_error.png",
+      "sha256": "d1f469fbb0174b2f3ae5924758e9ce8fe2ed85c2301a389150ef07440db9c041",
+      "bytes": 1966578,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/018_gt.png",
+      "sha256": "d20d4bad7db2f024cad1ec23b7c40ce923238301ad9dd82a1461a849168fb9f3",
+      "bytes": 724947,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/019_candidate.png",
+      "sha256": "7ec7d6653c29236b60dd0e73eff9e3dadd8b3925e0f2ee165bf8be241b7fe8af",
+      "bytes": 1007458,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/019_comparison.jpg",
+      "sha256": "5c82bb4cc5c1eac1577b254baa984745500c9438d1909442164c0a7864268667",
+      "bytes": 873354,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/019_error.png",
+      "sha256": "8999c27699a1ea2dde8ce9ba10d67b60368e14d4d99a772e3e60aa64a6f8046a",
+      "bytes": 2044688,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/019_gt.png",
+      "sha256": "e4107f4fad002454a07a3e7755ba2dff1d9453fd3438413ea4ed31cb3b7d48dd",
+      "bytes": 739035,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/evaluation/joint015_aa_cap003_resolution/metrics.json",
+      "sha256": "19561f603e835262d7dbf2e3c992e9a4e463a0d2d760f395e2e3b00e414cea36",
+      "bytes": 119219,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/gaussians_full.ply",
+      "sha256": "d1f458d96d4b33865c817e5eb1b5e1db80720ec1eaba8fdcdeeb184fa66c0c83",
+      "bytes": 3392952092,
+      "verified": true
+    },
+    {
+      "path": "maps/garage_fidelity_v2_full_preview/gaussians_overview.ply",
+      "sha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+      "bytes": 297601595,
+      "verified": true
+    }
+  ],
+  "canonical_reference_files_verified": [
+    "data/garage_surface_v1/block_000/lidar_reference.npz",
+    "data/garage_surface_v1/block_000/points3D.ply",
+    "data/garage_surface_v1/block_001/lidar_reference.npz",
+    "data/garage_surface_v1/block_001/points3D.ply",
+    "data/garage_surface_v1/block_002/lidar_reference.npz",
+    "data/garage_surface_v1/block_002/points3D.ply",
+    "data/garage_surface_v1/block_003/lidar_reference.npz",
+    "data/garage_surface_v1/block_003/points3D.ply",
+    "data/garage_surface_v1/block_004/lidar_reference.npz",
+    "data/garage_surface_v1/block_004/points3D.ply",
+    "data/garage_surface_v1/block_005/lidar_reference.npz",
+    "data/garage_surface_v1/block_005/points3D.ply",
+    "data/garage_surface_v1/block_006/lidar_reference.npz",
+    "data/garage_surface_v1/block_006/points3D.ply",
+    "data/garage_surface_v1/block_007/lidar_reference.npz",
+    "data/garage_surface_v1/block_007/points3D.ply",
+    "data/garage_surface_v1/block_008/lidar_reference.npz",
+    "data/garage_surface_v1/block_008/points3D.ply",
+    "data/garage_surface_v1/block_009/lidar_reference.npz",
+    "data/garage_surface_v1/block_009/points3D.ply",
+    "data/garage_surface_v1/block_010/lidar_reference.npz",
+    "data/garage_surface_v1/block_010/points3D.ply",
+    "data/garage_surface_v1/block_011/lidar_reference.npz",
+    "data/garage_surface_v1/block_011/points3D.ply",
+    "data/garage_surface_v1/block_012/lidar_reference.npz",
+    "data/garage_surface_v1/block_012/points3D.ply",
+    "data/garage_surface_v1/block_013/lidar_reference.npz",
+    "data/garage_surface_v1/block_013/points3D.ply",
+    "data/garage_surface_v1/block_014/lidar_reference.npz",
+    "data/garage_surface_v1/block_014/points3D.ply",
+    "data/garage_surface_v1/block_015/lidar_reference.npz",
+    "data/garage_surface_v1/block_015/points3D.ply",
+    "data/garage_surface_v1/block_016/lidar_reference.npz",
+    "data/garage_surface_v1/block_016/points3D.ply",
+    "data/garage_surface_v1/block_017/lidar_reference.npz",
+    "data/garage_surface_v1/block_017/points3D.ply",
+    "data/garage_surface_v1/block_018/lidar_reference.npz",
+    "data/garage_surface_v1/block_018/points3D.ply",
+    "data/garage_surface_v1/block_019/lidar_reference.npz",
+    "data/garage_surface_v1/block_019/points3D.ply",
+    "data/garage_surface_v1/block_020/lidar_reference.npz",
+    "data/garage_surface_v1/block_020/points3D.ply",
+    "data/garage_surface_v1/block_021/lidar_reference.npz",
+    "data/garage_surface_v1/block_021/points3D.ply",
+    "data/garage_surface_v1/block_022/lidar_reference.npz",
+    "data/garage_surface_v1/block_022/points3D.ply",
+    "data/garage_surface_v1/block_023/lidar_reference.npz",
+    "data/garage_surface_v1/block_023/points3D.ply",
+    "data/garage_surface_v1/block_024/lidar_reference.npz",
+    "data/garage_surface_v1/block_024/points3D.ply",
+    "data/garage_surface_v1/block_025/lidar_reference.npz",
+    "data/garage_surface_v1/block_025/points3D.ply",
+    "data/garage_surface_v1/block_026/lidar_reference.npz",
+    "data/garage_surface_v1/block_026/points3D.ply",
+    "data/garage_surface_v1/block_027/lidar_reference.npz",
+    "data/garage_surface_v1/block_027/points3D.ply",
+    "data/reference_map_voxel01.npz"
+  ],
+  "unchanged_tracked_files": 77,
+  "native_imports_cpu_only": {
+    "python": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/.venv-train/bin/python",
+    "torch": "2.4.0+cu124",
+    "backends": [
+      {
+        "schema_version": 1,
+        "variant": "original",
+        "module": "diff_surfel_rasterization",
+        "adapter_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/src/orbvi_gaussian/inria_surfel_backend.py",
+        "adapter_sha256": "9338aba492af4fee756156659ef4c6c1ba37f02a6d9c1ca46e37a772ba608382",
+        "wrapper_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/.venv-train/lib/python3.10/site-packages/diff_surfel_rasterization/__init__.py",
+        "wrapper_sha256": "046c1c81f22969b9ca5de2352061c2973c611c475257d938ab15d33c7836839a",
+        "extension_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/.venv-train/lib/python3.10/site-packages/diff_surfel_rasterization/_C.cpython-310-x86_64-linux-gnu.so",
+        "extension_sha256": "d3b9040e301cb88f84f9c62e3a571a7295fe4a9e95526e37d97cd34f18e53603",
+        "source_directory": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_src",
+        "source_sha256": {
+          "cuda_rasterizer/forward.cu": "5f99ca4953baf8ce3699e0ded25f9c10ab94f3e3a697ff87e2502a36559cce53",
+          "cuda_rasterizer/backward.cu": "fccec0f96fcf71aee4e412138bb30777913d672f3b2b17e6260dcadb1658489f",
+          "cuda_rasterizer/rasterizer_impl.cu": "3fb83843fb8b0725d0265f22a72f80e3a330cfd122514af0e7ea26590a55ddd7",
+          "cuda_rasterizer/auxiliary.h": "dfef626b19f0828b6ebf3fb486a95a386db5f72a1b04a40031643c27eaa41442",
+          "rasterize_points.cu": "38a02baf5bf43f76b40749d0663d7ffb16b5845d90342393d93bab8bc24e1b37",
+          "rasterize_points.h": "7a5d6b93e25887fc8edefe166907178fd169cd6b9afacb18e14d13388f84ab11",
+          "ext.cpp": "102d6ca2a07cf57717e5828c49a7100841cc0147f7373de768070f06bc4909ef",
+          "setup.py": "b72115d8346aeac7b4c41623d184cd55da4ce2ea800c5341424b27b1578ee1bd"
+        },
+        "forward_contract": "original ray-plane depth and low-pass coverage; no center-depth fallback",
+        "validation": null
+      },
+      {
+        "schema_version": 1,
+        "variant": "aa-depth-vjp",
+        "module": "diff_surfel_rasterization_aa_depth_vjp",
+        "adapter_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/src/orbvi_gaussian/inria_surfel_backend.py",
+        "adapter_sha256": "9338aba492af4fee756156659ef4c6c1ba37f02a6d9c1ca46e37a772ba608382",
+        "wrapper_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src/diff_surfel_rasterization_aa_depth_vjp/__init__.py",
+        "wrapper_sha256": "046c1c81f22969b9ca5de2352061c2973c611c475257d938ab15d33c7836839a",
+        "extension_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src/diff_surfel_rasterization_aa_depth_vjp/_C.cpython-310-x86_64-linux-gnu.so",
+        "extension_sha256": "b13ddb468db970047c47d0620b2e6cc68a69cc073156ef04476d8c6d91cd0f16",
+        "source_directory": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src",
+        "source_sha256": {
+          "cuda_rasterizer/forward.cu": "5f99ca4953baf8ce3699e0ded25f9c10ab94f3e3a697ff87e2502a36559cce53",
+          "cuda_rasterizer/backward.cu": "2cc8e3b0a53bda733875bcf6a9a45e1ec2097514bd745a33b530622e6be0485e",
+          "cuda_rasterizer/rasterizer_impl.cu": "3fb83843fb8b0725d0265f22a72f80e3a330cfd122514af0e7ea26590a55ddd7",
+          "cuda_rasterizer/auxiliary.h": "dfef626b19f0828b6ebf3fb486a95a386db5f72a1b04a40031643c27eaa41442",
+          "rasterize_points.cu": "38a02baf5bf43f76b40749d0663d7ffb16b5845d90342393d93bab8bc24e1b37",
+          "rasterize_points.h": "7a5d6b93e25887fc8edefe166907178fd169cd6b9afacb18e14d13388f84ab11",
+          "ext.cpp": "102d6ca2a07cf57717e5828c49a7100841cc0147f7373de768070f06bc4909ef",
+          "setup.py": "1a67565d6982bc9124114c0d2260ec232b72cca26f21ec114dd6d18304585185"
+        },
+        "forward_contract": "original ray-plane depth and low-pass coverage; no center-depth fallback",
+        "validation": {
+          "validation_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src/aa_depth_vjp_validation.json",
+          "validation_sha256": "37ede1e15e230769c6945d31e9af699a2e0746e320a95c09c0682a2eb2cddeed",
+          "finite_difference_report": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/reports/surfel_aa_depth_fd_gpu.json",
+          "finite_difference_report_sha256": "12ec7967aa7190cb2dfffb647a9111bf95eb7402653d550542364353cfd09303",
+          "build_manifest_path": "/home/chaoszzss/dataset/rosbag/3D-Gaussian/runtime/inria2dgs_aa_depth_vjp_src/aa_depth_vjp_provenance.json",
+          "build_manifest_sha256": "7259acd20c7728aa327d2e20544205148e2b59f9ab68a5a8b95134d06b7b8312",
+          "forward_source_byte_identical": true,
+          "tested_forward_arrays_bitwise_equal": true,
+          "tested_rgb_alpha_parameter_gradients_bitwise_equal": true,
+          "original_extension_sha256": "d3b9040e301cb88f84f9c62e3a571a7295fe4a9e95526e37d97cd34f18e53603"
+        }
+      }
+    ]
+  },
+  "before": {
+    "project_allocated_bytes": 271464292352,
+    "filesystem_free_bytes": 792306208768,
+    "at": "2026-10-09T09:15:50.734825+00:00"
+  },
+  "after": {
+    "project_allocated_bytes": 19781296128,
+    "filesystem_free_bytes": 1043973451776,
+    "at": "2026-10-09T09:21:40.822183+00:00"
+  },
+  "project_allocated_bytes_reduced": 251682996224,
+  "filesystem_free_bytes_increase": 251667243008,
+  "limits": "Integrity and dependency checks only; no new training, render-quality acceptance or raw bag rehash."
+}

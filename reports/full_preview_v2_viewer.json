@@ -1,0 +1,1784 @@
+{
+  "status": "VIEWER_SMOKE_PASS",
+  "high_fidelity_accepted": false,
+  "user_servers_owned_by_main": true,
+  "user_browsers_must_be_preserved": true,
+  "urls": {
+    "landing": "http://127.0.0.1:8767/reports/full_preview_v2/",
+    "overview": "http://127.0.0.1:8769/",
+    "detail": "http://127.0.0.1:8770/"
+  },
+  "cpu": {
+    "status": "PASS",
+    "scope": "Local source hashes plus live API/HEAD/Range; existing independent source audit reused, no repeated quality scoring.",
+    "source_audit": "reports/full_preview_v2_source_audit.json",
+    "source_audit_sha256": "fc64b3305be0b6bca0264c0fb3d9f1fe9f6c1f647a7a935e347c7bb4f43d1bf3",
+    "assembly_sha256": "6ef93513474e48e39e418052305fac64d71d54232e21168cc4048e4bddbb04bc",
+    "manifest_sha256": {
+      "manifest.json": "b75c1f983608cba43cc2393ccf2c03b45183b3000584a610d3d288a6c7440ecb",
+      "overview_manifest.json": "ac1ac0f329ea91e4638d52026bdf259067f2614431e2af0d0f04fbd58be08b7c"
+    },
+    "full": {
+      "path": "maps/garage_fidelity_v2_full_preview/gaussians_full.ply",
+      "gaussians": 13681252,
+      "file_bytes": 3392952092,
+      "sha256": "d1f458d96d4b33865c817e5eb1b5e1db80720ec1eaba8fdcdeeb184fa66c0c83",
+      "header_bytes": 1596,
+      "bbox_m": {
+        "min": [
+          -38.333412170410156,
+          -71.57218170166016,
+          -12.985081672668457
+        ],
+        "max": [
+          104.46508026123047,
+          80.49833679199219,
+          21.970640182495117
+        ]
+      }
+    },
+    "overview": {
+      "path": "maps/garage_fidelity_v2_full_preview/gaussians_overview.ply",
+      "gaussians": 1200000,
+      "file_bytes": 297601595,
+      "sha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+      "header_bytes": 1595,
+      "bbox_m": {
+        "min": [
+          -38.333412170410156,
+          -71.10166931152344,
+          -11.911044120788574
+        ],
+        "max": [
+          104.46508026123047,
+          80.288818359375,
+          21.79330825805664
+        ]
+      }
+    },
+    "covered_source_blocks": 28,
+    "assets": 26,
+    "routes": [
+      {
+        "id": "garage_overview",
+        "url": "http://127.0.0.1:8769/api/blocks/garage_overview/model",
+        "gaussians": 1200000,
+        "sha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_000",
+        "url": "http://127.0.0.1:8770/api/blocks/block_000/model",
+        "gaussians": 2495734,
+        "sha256": "450121da2b23919aa3831d7ee41e893e28b93b2d78d35bae6b07110a4e227bfc",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_001",
+        "url": "http://127.0.0.1:8770/api/blocks/block_001/model",
+        "gaussians": 342875,
+        "sha256": "3785efef2d38b5d42e78c5459a2b591aa35aafa98d018fcec7b8ff443207187f",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_002",
+        "url": "http://127.0.0.1:8770/api/blocks/block_002/model",
+        "gaussians": 364881,
+        "sha256": "e0bdd8a676fb5f9ce5f6183e57e69b8628fd29167b4f71bba1951cf6e42fc100",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_003",
+        "url": "http://127.0.0.1:8770/api/blocks/block_003/model",
+        "gaussians": 368896,
+        "sha256": "a8994bbfcf73dde83ce417788a86e48d17beac785f6731a44dcd8a964f3cd6ec",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_004",
+        "url": "http://127.0.0.1:8770/api/blocks/block_004/model",
+        "gaussians": 384304,
+        "sha256": "0e3b74ffda27ba810cfe2df96f529857a20425767644b2a090876d090f13e8f7",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_005",
+        "url": "http://127.0.0.1:8770/api/blocks/block_005/model",
+        "gaussians": 409298,
+        "sha256": "52c5fbcf93d96569899b5011a2d067abfdb0eb01d3fd9d51f09ccac9b7416f24",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_006",
+        "url": "http://127.0.0.1:8770/api/blocks/block_006/model",
+        "gaussians": 400192,
+        "sha256": "e66cd2217726eb5740b3a3565f3061417cf7b19be63d07d647e6b18837532e1c",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_007",
+        "url": "http://127.0.0.1:8770/api/blocks/block_007/model",
+        "gaussians": 389736,
+        "sha256": "c52388c31b3483517305ff8258fbc3da9118ff01a486435bc4cbfa9cd7c746a0",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_008",
+        "url": "http://127.0.0.1:8770/api/blocks/block_008/model",
+        "gaussians": 378061,
+        "sha256": "e6babdf6effef3f561d7029eff8cc122058de3fcf15f1b30b478ac24ad9ddf69",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_009",
+        "url": "http://127.0.0.1:8770/api/blocks/block_009/model",
+        "gaussians": 378567,
+        "sha256": "b1bf5b73294f71968fed0828a0f93a4f511304caf64d6a8de26ab5d13adebc51",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_010",
+        "url": "http://127.0.0.1:8770/api/blocks/block_010/model",
+        "gaussians": 361041,
+        "sha256": "b2ad7dded0ead1b9e5dd9a347bd38c01e25ab458223b6ab4bdbb1fd500842696",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_011",
+        "url": "http://127.0.0.1:8770/api/blocks/block_011/model",
+        "gaussians": 369946,
+        "sha256": "cf4df8161f9c58762925bf70a23a3a7217d481084c1aeb5fe157acb9ef62ec06",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_012",
+        "url": "http://127.0.0.1:8770/api/blocks/block_012/model",
+        "gaussians": 370745,
+        "sha256": "98b51e2de919d6bc9727167bc265982736bdde0be58a3f37e885257d2a5e8242",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_013",
+        "url": "http://127.0.0.1:8770/api/blocks/block_013/model",
+        "gaussians": 368601,
+        "sha256": "136c01fca355a1a862477651201af2c6f92a94e71b4896d33bfd501f182f41ba",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_015",
+        "url": "http://127.0.0.1:8770/api/blocks/block_015/model",
+        "gaussians": 2498837,
+        "sha256": "870258a2a53790fe9571d46a423b0e9b6d5b37afd9f0ad55b3a85369e9700eba",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_017",
+        "url": "http://127.0.0.1:8770/api/blocks/block_017/model",
+        "gaussians": 358029,
+        "sha256": "05c16010823c3896a3c010cedf50b16e2863b1e7f1ac37b7fa0ec650600c6f30",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_018",
+        "url": "http://127.0.0.1:8770/api/blocks/block_018/model",
+        "gaussians": 343041,
+        "sha256": "af2a59435a0fd684ff9a5bc062dd80966456ec72210fb3d08808ae95dd46e796",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_019",
+        "url": "http://127.0.0.1:8770/api/blocks/block_019/model",
+        "gaussians": 303023,
+        "sha256": "5302cc005bf085ba0df91728f01dfa511009b9001543c49467ac86dd0bb7ff0a",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_020",
+        "url": "http://127.0.0.1:8770/api/blocks/block_020/model",
+        "gaussians": 364368,
+        "sha256": "1da513fafc87d7a1ab7d196ffa9d57eece720bcb18f9f0936818af130a0bcd3b",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_021",
+        "url": "http://127.0.0.1:8770/api/blocks/block_021/model",
+        "gaussians": 343186,
+        "sha256": "7bdae5fe622432ce4f5e24387d0c296d3f41a0ef2e38a377eb7bdf1e01bc12b7",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_022",
+        "url": "http://127.0.0.1:8770/api/blocks/block_022/model",
+        "gaussians": 360323,
+        "sha256": "dd2a5a50fbf240b2fb723b2a05a98f7ffdf5d78c174dd98a388eb688a63919b5",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_023",
+        "url": "http://127.0.0.1:8770/api/blocks/block_023/model",
+        "gaussians": 362611,
+        "sha256": "3388513577b698d0203d42b4b4025f67fa460dd9b72261cd6d3fe2dbd886a71a",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_024",
+        "url": "http://127.0.0.1:8770/api/blocks/block_024/model",
+        "gaussians": 331951,
+        "sha256": "b6eeb699a224c4369a3908e6c0aa0ad2fa9bb5b6b8d0ff5822013c19c5a19cb6",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_025",
+        "url": "http://127.0.0.1:8770/api/blocks/block_025/model",
+        "gaussians": 405967,
+        "sha256": "6cb2162815604b07cfa21c812d89da8056d746915be8cddeb3e32da3ebdb694e",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_026",
+        "url": "http://127.0.0.1:8770/api/blocks/block_026/model",
+        "gaussians": 391296,
+        "sha256": "e5c7fee6cd401eda38d7ff2249f89cc4d8a9c4a0cd59bd55a4cff2bac8004d1e",
+        "head": 200,
+        "range": 206
+      },
+      {
+        "id": "block_027",
+        "url": "http://127.0.0.1:8770/api/blocks/block_027/model",
+        "gaussians": 235743,
+        "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+        "head": 200,
+        "range": 206
+      }
+    ],
+    "limits": {
+      "8769": {
+        "max_loaded_blocks": 3,
+        "max_splats": 1500000,
+        "max_file_bytes": 536870912,
+        "max_lidar_points": 300000,
+        "max_lidar_bytes": 33554432
+      },
+      "8770": {
+        "max_loaded_blocks": 4,
+        "max_splats": 4000000,
+        "max_file_bytes": 671088640,
+        "max_lidar_points": 300000,
+        "max_lidar_bytes": 33554432
+      }
+    },
+    "overview_model": {
+      "path": "maps/garage_fidelity_v2_full_preview/gaussians_overview.ply",
+      "gaussians": 1200000,
+      "file_bytes": 297601595,
+      "sha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+      "header_bytes": 1595,
+      "bbox_m": {
+        "min": [
+          -38.333412170410156,
+          -71.10166931152344,
+          -11.911044120788574
+        ],
+        "max": [
+          104.46508026123047,
+          80.288818359375,
+          21.79330825805664
+        ]
+      },
+      "id": "garage_overview"
+    },
+    "f6_model": {
+      "source_index": 25,
+      "id": "block_027",
+      "source_blocks": [
+        "block_027"
+      ],
+      "generation": "historical",
+      "path": "runs/garage_surface_v1/block_027/eval_dev/gaussians.ply",
+      "sha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+      "gaussians": 235743,
+      "source_header_bytes": 1589,
+      "record_stride_bytes": 248,
+      "full_row_start": 13445509,
+      "full_row_stop": 13681252,
+      "overview_row_start": 1157143,
+      "overview_row_stop": 1200000,
+      "overview_gaussians": 42857,
+      "bbox_m": {
+        "min": [
+          33.75968551635742,
+          -71.57218170166016,
+          10.187739372253418
+        ],
+        "max": [
+          74.22704315185547,
+          -31.65999984741211,
+          21.471588134765625
+        ]
+      }
+    },
+    "sample_bbox_within_full": true,
+    "sample_extreme_preservation_claimed": false,
+    "renderer_sha256": {
+      "viewer/app.js": "bccfe4d8f7a3b1add35d8b426eb68ba0e1571eabaa89c351934766d241687e3d",
+      "viewer/gaussian_direction_support.js": "1a04304943ec9ba37501557d6b8fcd6e49132b2d55c6b48f84be65875aa8bb9d",
+      "viewer/gaussian_sh_restore.js": "3e6b3321273a4da87440db8c4dbccedd7f2a56045a8c07716c21545dae1218b7",
+      "viewer/node_modules/@sparkjsdev/spark/dist/spark.module.js": "2de375d5e489692f976abe3199c8435ecc00f97fabaf35e489eb7d368e1f6f60"
+    },
+    "elapsed_s": 2.6255826499982504
+  },
+  "gpu": {
+    "status": "PASS",
+    "errors": [],
+    "screenshots": [
+      {
+        "path": "reports/full_preview_v2/overview.png",
+        "sha256": "6f0ac4905b2592cd32b28b0a9494cb5f86365690e43d0ece4cd6760fb290f2b5",
+        "snapshot": {
+          "frame": null,
+          "renderer": {
+            "mode": "inria_2dgs_v3",
+            "spark": {
+              "enable2DGS": true,
+              "sortRadial": false,
+              "accumExtSplats": true,
+              "enableLod": false,
+              "maxStdDev": 3,
+              "minAlpha": 0.00392156862745098,
+              "blurAmount": 0,
+              "preBlurAmount": 0,
+              "maxPixelRadius": 512
+            },
+            "surfaceScaleAxis": 2,
+            "compositing": "image_domain_rgba32f_final_clamp",
+            "coverage": "native_tiled_aabb_rho_union_v1"
+          },
+          "compositing": {
+            "target": "RGBA32F",
+            "radianceDomain": "image_rgb",
+            "encodeLinear": false,
+            "clamp": "once_after_blending",
+            "alphaModification": false
+          },
+          "nativeAa": {
+            "mode": "native_tiled_aabb_rho_union_v1",
+            "passes": 1,
+            "lowpassInverseVariance": 2,
+            "aabbCutoff": 3,
+            "tileSize": 16,
+            "centerNear": 0.2,
+            "rayNear": 0.2,
+            "rayFar": null,
+            "perFragmentAlphaCap": 0.99,
+            "sourceOpacityChanged": false,
+            "limitation": "Spark back-to-front blending retains its ordering; native front-to-back early termination is not emulated"
+          },
+          "sorting": true,
+          "sortDirty": true,
+          "sortedCenter": [
+            -124.68138633481897,
+            -192.7209479301165,
+            142.52159708761187
+          ],
+          "sortedDirection": [
+            0.5481509678620322,
+            0.6851887098275267,
+            -0.47963209687927144
+          ],
+          "viewport": [
+            1120,
+            710
+          ],
+          "camera_to_world_column_major": [
+            0.7808688094430241,
+            -0.6246950475544321,
+            -5.551115123125783e-17,
+            0,
+            0.2996237955686284,
+            0.3745297444607777,
+            0.8774696870224029,
+            0,
+            -0.5481509678620324,
+            -0.6851887098275268,
+            0.4796320968792712,
+            0,
+            -124.68138633481894,
+            -192.72094793011638,
+            142.52159708761175,
+            1
+          ],
+          "projection_column_major": [
+            1.3594642085373094,
+            0,
+            0,
+            0,
+            0,
+            2.1445069205095586,
+            0,
+            0,
+            0,
+            0,
+            -1.0000173744972642,
+            -1,
+            0,
+            0,
+            -0.10000086872486322,
+            0
+          ],
+          "models": [
+            {
+              "id": "garage_overview",
+              "count": 1200000,
+              "visible": true,
+              "plySha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+              "shRestore": {
+                "vertices": 1200000,
+                "degree": 3,
+                "coefficients": 54000000,
+                "changedWords": 17752909,
+                "maxAbsoluteError": 0.0038891357534072135,
+                "maxQuantizationErrorBound": 0.00392156862745098,
+                "maxFloat32DecodeErrorBound": 0.003921807046037187,
+                "texturesMarkedDirty": 0
+              },
+              "surface": {
+                "mode": "inria_2dgs_v1",
+                "zeroScaleAxis": 2,
+                "directionSupport": false,
+                "normalSource": null,
+                "metadataSha256": null,
+                "plySha256": null,
+                "renderGrazingCosine": null,
+                "observedCosineMin": null,
+                "histogram": null,
+                "textureBytes": 0,
+                "nativeParityMeasured": false
+              }
+            }
+          ]
+        },
+        "gl": {
+          "error": 0,
+          "context_lost": false
+        }
+      },
+      {
+        "path": "reports/full_preview_v2/overview_side.png",
+        "sha256": "220b3c416828340579c11397690a7c92c4b8c01bbc2c1a645cd36b6a14ea5066",
+        "snapshot": {
+          "frame": null,
+          "renderer": {
+            "mode": "inria_2dgs_v3",
+            "spark": {
+              "enable2DGS": true,
+              "sortRadial": false,
+              "accumExtSplats": true,
+              "enableLod": false,
+              "maxStdDev": 3,
+              "minAlpha": 0.00392156862745098,
+              "blurAmount": 0,
+              "preBlurAmount": 0,
+              "maxPixelRadius": 512
+            },
+            "surfaceScaleAxis": 2,
+            "compositing": "image_domain_rgba32f_final_clamp",
+            "coverage": "native_tiled_aabb_rho_union_v1"
+          },
+          "compositing": {
+            "target": "RGBA32F",
+            "radianceDomain": "image_rgb",
+            "encodeLinear": false,
+            "clamp": "once_after_blending",
+            "alphaModification": false
+          },
+          "nativeAa": {
+            "mode": "native_tiled_aabb_rho_union_v1",
+            "passes": 1,
+            "lowpassInverseVariance": 2,
+            "aabbCutoff": 3,
+            "tileSize": 16,
+            "centerNear": 0.2,
+            "rayNear": 0.2,
+            "rayFar": null,
+            "perFragmentAlphaCap": 0.99,
+            "sourceOpacityChanged": false,
+            "limitation": "Spark back-to-front blending retains its ordering; native front-to-back early termination is not emulated"
+          },
+          "sorting": false,
+          "sortDirty": false,
+          "sortedCenter": [
+            -254.714776824433,
+            4.463077545165998,
+            4.492779254913348
+          ],
+          "sortedDirection": [
+            1,
+            0,
+            0
+          ],
+          "viewport": [
+            1120,
+            710
+          ],
+          "camera_to_world_column_major": [
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -254.714776824433,
+            4.463077545165998,
+            4.492779254913348,
+            1
+          ],
+          "projection_column_major": [
+            1.3594642085373094,
+            0,
+            0,
+            0,
+            0,
+            2.1445069205095586,
+            0,
+            0,
+            0,
+            0,
+            -1.0000173744972642,
+            -1,
+            0,
+            0,
+            -0.10000086872486322,
+            0
+          ],
+          "models": [
+            {
+              "id": "garage_overview",
+              "count": 1200000,
+              "visible": true,
+              "plySha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+              "shRestore": {
+                "vertices": 1200000,
+                "degree": 3,
+                "coefficients": 54000000,
+                "changedWords": 17752909,
+                "maxAbsoluteError": 0.0038891357534072135,
+                "maxQuantizationErrorBound": 0.00392156862745098,
+                "maxFloat32DecodeErrorBound": 0.003921807046037187,
+                "texturesMarkedDirty": 0
+              },
+              "surface": {
+                "mode": "inria_2dgs_v1",
+                "zeroScaleAxis": 2,
+                "directionSupport": false,
+                "normalSource": null,
+                "metadataSha256": null,
+                "plySha256": null,
+                "renderGrazingCosine": null,
+                "observedCosineMin": null,
+                "histogram": null,
+                "textureBytes": 0,
+                "nativeParityMeasured": false
+              }
+            }
+          ]
+        },
+        "gl": {
+          "error": 0,
+          "context_lost": false
+        }
+      },
+      {
+        "path": "reports/full_preview_v2/f6_block_027.png",
+        "sha256": "9b9b1967e23d88df9e8ff49ab105de53a3b102f5d9bc6192c51e87f49e97115e",
+        "snapshot": {
+          "frame": null,
+          "renderer": {
+            "mode": "inria_2dgs_v3",
+            "spark": {
+              "enable2DGS": true,
+              "sortRadial": false,
+              "accumExtSplats": true,
+              "enableLod": false,
+              "maxStdDev": 3,
+              "minAlpha": 0.00392156862745098,
+              "blurAmount": 0,
+              "preBlurAmount": 0,
+              "maxPixelRadius": 512
+            },
+            "surfaceScaleAxis": 2,
+            "compositing": "image_domain_rgba32f_final_clamp",
+            "coverage": "native_tiled_aabb_rho_union_v1"
+          },
+          "compositing": {
+            "target": "RGBA32F",
+            "radianceDomain": "image_rgb",
+            "encodeLinear": false,
+            "clamp": "once_after_blending",
+            "alphaModification": false
+          },
+          "nativeAa": {
+            "mode": "native_tiled_aabb_rho_union_v1",
+            "passes": 1,
+            "lowpassInverseVariance": 2,
+            "aabbCutoff": 3,
+            "tileSize": 16,
+            "centerNear": 0.2,
+            "rayNear": 0.2,
+            "rayFar": null,
+            "perFragmentAlphaCap": 0.99,
+            "sourceOpacityChanged": false,
+            "limitation": "Spark back-to-front blending retains its ordering; native front-to-back early termination is not emulated"
+          },
+          "sorting": false,
+          "sortDirty": false,
+          "sortedCenter": [
+            52.97581640431123,
+            -52.16087608604245,
+            18.165023015555963
+          ],
+          "sortedDirection": [
+            -0.8848477456083219,
+            -0.4658795180605595,
+            -0.0008612453375639317
+          ],
+          "viewport": [
+            1120,
+            710
+          ],
+          "camera_to_world_column_major": [
+            -0.4656777371698597,
+            0.8844069690797252,
+            0.03112166685081802,
+            0,
+            0.0137372557750714,
+            -0.027938999532464592,
+            0.9995152325547096,
+            0,
+            0.8848477456083219,
+            0.4658795180605595,
+            0.0008612453375639317,
+            0,
+            52.97581640431123,
+            -52.16087608604245,
+            18.165023015555963,
+            1
+          ],
+          "projection_column_major": [
+            0.7513227513227514,
+            0,
+            0,
+            0,
+            0,
+            1.1851851851851853,
+            0,
+            0,
+            0,
+            0,
+            -1.0000500012500313,
+            -1,
+            0,
+            0,
+            -0.10000250006250155,
+            0
+          ],
+          "models": [
+            {
+              "id": "block_027",
+              "count": 235743,
+              "visible": true,
+              "plySha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+              "shRestore": {
+                "vertices": 235743,
+                "degree": 3,
+                "coefficients": 10608435,
+                "changedWords": 3408498,
+                "maxAbsoluteError": 0.0033268381567561622,
+                "maxQuantizationErrorBound": 0.00392156862745098,
+                "maxFloat32DecodeErrorBound": 0.003921807046037187,
+                "texturesMarkedDirty": 0
+              },
+              "surface": {
+                "mode": "inria_2dgs_v1",
+                "zeroScaleAxis": 2,
+                "directionSupport": false,
+                "normalSource": null,
+                "metadataSha256": null,
+                "plySha256": null,
+                "renderGrazingCosine": null,
+                "observedCosineMin": null,
+                "histogram": null,
+                "textureBytes": 0,
+                "nativeParityMeasured": false
+              }
+            }
+          ]
+        },
+        "gl": {
+          "error": 0,
+          "context_lost": false
+        }
+      }
+    ],
+    "scope": "Overview and one F6 asset load/UI smoke only; no native parity or geometry acceptance.",
+    "browser_version": "141.0.7390.37",
+    "gpu": {
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2, OpenGL 4.5.0)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+    },
+    "overview": {
+      "frame": null,
+      "renderer": {
+        "mode": "inria_2dgs_v3",
+        "spark": {
+          "enable2DGS": true,
+          "sortRadial": false,
+          "accumExtSplats": true,
+          "enableLod": false,
+          "maxStdDev": 3,
+          "minAlpha": 0.00392156862745098,
+          "blurAmount": 0,
+          "preBlurAmount": 0,
+          "maxPixelRadius": 512
+        },
+        "surfaceScaleAxis": 2,
+        "compositing": "image_domain_rgba32f_final_clamp",
+        "coverage": "native_tiled_aabb_rho_union_v1"
+      },
+      "compositing": {
+        "target": "RGBA32F",
+        "radianceDomain": "image_rgb",
+        "encodeLinear": false,
+        "clamp": "once_after_blending",
+        "alphaModification": false
+      },
+      "nativeAa": {
+        "mode": "native_tiled_aabb_rho_union_v1",
+        "passes": 1,
+        "lowpassInverseVariance": 2,
+        "aabbCutoff": 3,
+        "tileSize": 16,
+        "centerNear": 0.2,
+        "rayNear": 0.2,
+        "rayFar": null,
+        "perFragmentAlphaCap": 0.99,
+        "sourceOpacityChanged": false,
+        "limitation": "Spark back-to-front blending retains its ordering; native front-to-back early termination is not emulated"
+      },
+      "sorting": false,
+      "sortDirty": false,
+      "sortedCenter": [
+        -124.68138633481789,
+        -192.72094793002253,
+        142.52159708754212
+      ],
+      "sortedDirection": [
+        0.548150967862216,
+        0.6851887098274345,
+        -0.47963209687919295
+      ],
+      "viewport": [
+        1120,
+        710
+      ],
+      "camera_to_world_column_major": [
+        0.7808688094428812,
+        -0.6246950475546107,
+        0,
+        0,
+        0.29962379556866514,
+        0.37452974446064813,
+        0.8774696870224454,
+        0,
+        -0.548150967862216,
+        -0.6851887098274345,
+        0.47963209687919295,
+        0,
+        -124.68138633481789,
+        -192.72094793002253,
+        142.52159708754212,
+        1
+      ],
+      "projection_column_major": [
+        1.3594642085373094,
+        0,
+        0,
+        0,
+        0,
+        2.1445069205095586,
+        0,
+        0,
+        0,
+        0,
+        -1.0000173744972642,
+        -1,
+        0,
+        0,
+        -0.10000086872486322,
+        0
+      ],
+      "models": [
+        {
+          "id": "garage_overview",
+          "count": 1200000,
+          "visible": true,
+          "plySha256": "d3df427141a27568e6812733467d48d465891754bb93613aabc58be4f2d5ec18",
+          "shRestore": {
+            "vertices": 1200000,
+            "degree": 3,
+            "coefficients": 54000000,
+            "changedWords": 17752909,
+            "maxAbsoluteError": 0.0038891357534072135,
+            "maxQuantizationErrorBound": 0.00392156862745098,
+            "maxFloat32DecodeErrorBound": 0.003921807046037187,
+            "texturesMarkedDirty": 0
+          },
+          "surface": {
+            "mode": "inria_2dgs_v1",
+            "zeroScaleAxis": 2,
+            "directionSupport": false,
+            "normalSource": null,
+            "metadataSha256": null,
+            "plySha256": null,
+            "renderGrazingCosine": null,
+            "observedCosineMin": null,
+            "histogram": null,
+            "textureBytes": 0,
+            "nativeParityMeasured": false
+          }
+        }
+      ]
+    },
+    "overview_frustum": {
+      "all_full_bbox_corners_in_frustum": true,
+      "ndc_corners": [
+        [
+          -0.05475998338017511,
+          -0.6823689815455543,
+          0.9995293927713349
+        ],
+        [
+          -0.05963929799468511,
+          -0.393590331937518,
+          0.9994859118164485
+        ],
+        [
+          -0.4540817806907649,
+          -0.057245266405961046,
+          0.9996938774201597
+        ],
+        [
+          -0.48012200447101583,
+          0.16446124514356145,
+          0.9996753258361979
+        ],
+        [
+          0.4956444229620153,
+          -0.16977830257666557,
+          0.9996642673502049
+        ],
+        [
+          0.5268335082593759,
+          0.06641694473188585,
+          0.9996420476127913
+        ],
+        [
+          0.028967054081156563,
+          0.1911684545996915,
+          0.9997592408717028
+        ],
+        [
+          0.030277399809916443,
+          0.3772893488426431,
+          0.9997475640096802
+        ]
+      ],
+      "scope": "Camera framing only; sampled points are not required to preserve full extrema."
+    },
+    "side_frustum": {
+      "all_full_bbox_corners_in_frustum": true,
+      "ndc_corners": [
+        [
+          0.477708483344635,
+          -0.17321913915661202,
+          0.9995552234756881
+        ],
+        [
+          0.477708483344635,
+          0.17321913915661172,
+          0.9995552234756881
+        ],
+        [
+          -0.47770848334463517,
+          -0.17321913915661202,
+          0.9995552234756881
+        ],
+        [
+          -0.47770848334463517,
+          0.17321913915661172,
+          0.9995552234756881
+        ],
+        [
+          0.2877867772753828,
+          -0.10435271626594467,
+          0.9997389600295481
+        ],
+        [
+          0.2877867772753828,
+          0.10435271626594447,
+          0.9997389600295481
+        ],
+        [
+          -0.28778677727538293,
+          -0.10435271626594467,
+          0.9997389600295481
+        ],
+        [
+          -0.28778677727538293,
+          0.10435271626594447,
+          0.9997389600295481
+        ]
+      ],
+      "scope": "Camera framing only; sampled points are not required to preserve full extrema."
+    },
+    "floor_options": [
+      {
+        "value": "all",
+        "label": "\u5168\u90e8\u697c\u5c42"
+      },
+      {
+        "value": "floor:F1",
+        "label": "F1"
+      },
+      {
+        "value": "floor:F2",
+        "label": "F2"
+      },
+      {
+        "value": "floor:F3",
+        "label": "F3"
+      },
+      {
+        "value": "floor:F4",
+        "label": "F4"
+      },
+      {
+        "value": "floor:F5",
+        "label": "F5"
+      },
+      {
+        "value": "floor:F6",
+        "label": "F6"
+      },
+      {
+        "value": "floor:\u5761\u9053 F1-F2",
+        "label": "\u5761\u9053 F1-F2"
+      },
+      {
+        "value": "floor:\u5761\u9053 F2-F3",
+        "label": "\u5761\u9053 F2-F3"
+      },
+      {
+        "value": "floor:\u5761\u9053 F3-F4 / F4",
+        "label": "\u5761\u9053 F3-F4 / F4"
+      },
+      {
+        "value": "floor:\u5761\u9053 F4-F5",
+        "label": "\u5761\u9053 F4-F5"
+      },
+      {
+        "value": "floor:\u5761\u9053 F5-F6",
+        "label": "\u5761\u9053 F5-F6"
+      }
+    ],
+    "f6_listed_ids": [
+      "block_025",
+      "block_026",
+      "block_027"
+    ],
+    "f6": {
+      "frame": null,
+      "renderer": {
+        "mode": "inria_2dgs_v3",
+        "spark": {
+          "enable2DGS": true,
+          "sortRadial": false,
+          "accumExtSplats": true,
+          "enableLod": false,
+          "maxStdDev": 3,
+          "minAlpha": 0.00392156862745098,
+          "blurAmount": 0,
+          "preBlurAmount": 0,
+          "maxPixelRadius": 512
+        },
+        "surfaceScaleAxis": 2,
+        "compositing": "image_domain_rgba32f_final_clamp",
+        "coverage": "native_tiled_aabb_rho_union_v1"
+      },
+      "compositing": {
+        "target": "RGBA32F",
+        "radianceDomain": "image_rgb",
+        "encodeLinear": false,
+        "clamp": "once_after_blending",
+        "alphaModification": false
+      },
+      "nativeAa": {
+        "mode": "native_tiled_aabb_rho_union_v1",
+        "passes": 1,
+        "lowpassInverseVariance": 2,
+        "aabbCutoff": 3,
+        "tileSize": 16,
+        "centerNear": 0.2,
+        "rayNear": 0.2,
+        "rayFar": null,
+        "perFragmentAlphaCap": 0.99,
+        "sourceOpacityChanged": false,
+        "limitation": "Spark back-to-front blending retains its ordering; native front-to-back early termination is not emulated"
+      },
+      "sorting": false,
+      "sortDirty": false,
+      "sortedCenter": [
+        10.776366944437086,
+        -105.63733751162059,
+        53.64453646946885
+      ],
+      "sortedDirection": [
+        0.5481509678620405,
+        0.6851887098275223,
+        -0.47963209687926844
+      ],
+      "viewport": [
+        1120,
+        710
+      ],
+      "camera_to_world_column_major": [
+        0.7808688094430177,
+        -0.6246950475544399,
+        5.551115123125783e-17,
+        0,
+        0.2996237955686302,
+        0.3745297444607725,
+        0.8774696870224044,
+        0,
+        -0.5481509678620404,
+        -0.6851887098275222,
+        0.47963209687926833,
+        0,
+        10.776366944437086,
+        -105.63733751162059,
+        53.64453646946885,
+        1
+      ],
+      "projection_column_major": [
+        1.3594642085373094,
+        0,
+        0,
+        0,
+        0,
+        2.1445069205095586,
+        0,
+        0,
+        0,
+        0,
+        -1.0000500012500313,
+        -1,
+        0,
+        0,
+        -0.10000250006250155,
+        0
+      ],
+      "models": [
+        {
+          "id": "block_027",
+          "count": 235743,
+          "visible": true,
+          "plySha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+          "shRestore": {
+            "vertices": 235743,
+            "degree": 3,
+            "coefficients": 10608435,
+            "changedWords": 3408498,
+            "maxAbsoluteError": 0.0033268381567561622,
+            "maxQuantizationErrorBound": 0.00392156862745098,
+            "maxFloat32DecodeErrorBound": 0.003921807046037187,
+            "texturesMarkedDirty": 0
+          },
+          "surface": {
+            "mode": "inria_2dgs_v1",
+            "zeroScaleAxis": 2,
+            "directionSupport": false,
+            "normalSource": null,
+            "metadataSha256": null,
+            "plySha256": null,
+            "renderGrazingCosine": null,
+            "observedCosineMin": null,
+            "histogram": null,
+            "textureBytes": 0,
+            "nativeParityMeasured": false
+          }
+        }
+      ]
+    },
+    "f6_reference": {
+      "frame": null,
+      "renderer": {
+        "mode": "inria_2dgs_v3",
+        "spark": {
+          "enable2DGS": true,
+          "sortRadial": false,
+          "accumExtSplats": true,
+          "enableLod": false,
+          "maxStdDev": 3,
+          "minAlpha": 0.00392156862745098,
+          "blurAmount": 0,
+          "preBlurAmount": 0,
+          "maxPixelRadius": 512
+        },
+        "surfaceScaleAxis": 2,
+        "compositing": "image_domain_rgba32f_final_clamp",
+        "coverage": "native_tiled_aabb_rho_union_v1"
+      },
+      "compositing": {
+        "target": "RGBA32F",
+        "radianceDomain": "image_rgb",
+        "encodeLinear": false,
+        "clamp": "once_after_blending",
+        "alphaModification": false
+      },
+      "nativeAa": {
+        "mode": "native_tiled_aabb_rho_union_v1",
+        "passes": 1,
+        "lowpassInverseVariance": 2,
+        "aabbCutoff": 3,
+        "tileSize": 16,
+        "centerNear": 0.2,
+        "rayNear": 0.2,
+        "rayFar": null,
+        "perFragmentAlphaCap": 0.99,
+        "sourceOpacityChanged": false,
+        "limitation": "Spark back-to-front blending retains its ordering; native front-to-back early termination is not emulated"
+      },
+      "sorting": false,
+      "sortDirty": false,
+      "sortedCenter": [
+        52.97581640431123,
+        -52.16087608604245,
+        18.165023015555963
+      ],
+      "sortedDirection": [
+        -0.8848477456083219,
+        -0.4658795180605595,
+        -0.0008612453375639317
+      ],
+      "viewport": [
+        1120,
+        710
+      ],
+      "camera_to_world_column_major": [
+        -0.4656777371698597,
+        0.8844069690797252,
+        0.03112166685081802,
+        0,
+        0.0137372557750714,
+        -0.027938999532464592,
+        0.9995152325547096,
+        0,
+        0.8848477456083219,
+        0.4658795180605595,
+        0.0008612453375639317,
+        0,
+        52.97581640431123,
+        -52.16087608604245,
+        18.165023015555963,
+        1
+      ],
+      "projection_column_major": [
+        0.7513227513227514,
+        0,
+        0,
+        0,
+        0,
+        1.1851851851851853,
+        0,
+        0,
+        0,
+        0,
+        -1.0000500012500313,
+        -1,
+        0,
+        0,
+        -0.10000250006250155,
+        0
+      ],
+      "models": [
+        {
+          "id": "block_027",
+          "count": 235743,
+          "visible": true,
+          "plySha256": "119085e52d23426528da10ca6abb2c195a0c6ef565948806ed9044518f0bf11e",
+          "shRestore": {
+            "vertices": 235743,
+            "degree": 3,
+            "coefficients": 10608435,
+            "changedWords": 3408498,
+            "maxAbsoluteError": 0.0033268381567561622,
+            "maxQuantizationErrorBound": 0.00392156862745098,
+            "maxFloat32DecodeErrorBound": 0.003921807046037187,
+            "texturesMarkedDirty": 0
+          },
+          "surface": {
+            "mode": "inria_2dgs_v1",
+            "zeroScaleAxis": 2,
+            "directionSupport": false,
+            "normalSource": null,
+            "metadataSha256": null,
+            "plySha256": null,
+            "renderGrazingCosine": null,
+            "observedCosineMin": null,
+            "histogram": null,
+            "textureBytes": 0,
+            "nativeParityMeasured": false
+          }
+        }
+      ]
+    },
+    "f6_reference_selection": "1",
+    "own_browser_closed_before_unlock": true,
+    "lifecycle": {
+      "lock_owner_pid": 187726,
+      "lock": "runtime/core_joint_gpu.lock",
+      "held_entire_browser_lifecycle": true,
+      "all_owned_processes_closed": true,
+      "user_servers_started_or_stopped": false,
+      "existing_user_browsers_touched": false,
+      "timed_out": false,
+      "returncode": 0,
+      "elapsed_s": 39.35196729999734,
+      "memory_samples": [
+        {
+          "elapsed_s": 0,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1385",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 0.12481369899978745,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1385",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 0.6496379639975203,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1367",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 1.184403265997389,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1332",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 1.799088520998339,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1327",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 2.3523490730003687,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1524",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 2.8768341109971516,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1546",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 3.4250642489969323,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1597",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 3.9688165569968987,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1568",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 4.513497130999895,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1565",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 5.0583025719970465,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1469",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 5.6212308519970975,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1449",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 6.166737618998013,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1437",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 6.72908006599755,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1407",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 7.292771090997121,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1407",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 7.838281636999454,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1366",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 8.36444706399925,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1360",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 8.891589976999967,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1349",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 9.495932360998268,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1343",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 10.041180997999618,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1342",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 10.584722202998819,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1386",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 11.148569266999402,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1606",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 11.713179968999611,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1603",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 12.296446999996988,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1632",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 12.841220607999276,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1600",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 13.385769568998512,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1530",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 13.929547476000153,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1602",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 14.570387441999628,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1840",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 15.095560849000321,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 2068",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 15.720726913998078,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 2069",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 16.269214864998503,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 2061",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 16.880172452998522,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 2060",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 17.425851089999924,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 2054",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 18.026364083998487,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 2046",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 18.593116174997704,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 2071",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 19.17912741699911,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1975",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 19.726312847000372,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1963",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 20.323739806997764,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1916",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 20.868639652999263,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1902",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 21.48442551399785,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1899",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 22.044486839997262,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1888",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 22.606256119997852,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1899",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 23.13115266999739,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1916",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 23.656223488997057,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1921",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 24.202156587998616,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1843",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 24.764682686000015,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1850",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 25.353115904999868,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1864",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 25.916547369997716,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1852",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 26.444868806996965,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1819",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 26.969889216998126,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1807",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 27.55248316899815,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1826",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 28.14240174599763,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1844",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 28.700342088999605,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1836",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 29.29438282800038,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1826",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 29.837534860998858,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1818",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 30.40073458199913,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1670",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 30.946068017998186,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1663",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 31.49339427999803,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1646",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 32.05664071299907,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1661",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 32.62002766799924,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1649",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 33.164539896999486,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1674",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 33.72823478399732,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1496",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 34.27310082799886,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1499",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 34.79752464899866,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1389",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 35.34097967499838,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1376",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 35.92484279999917,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1422",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 36.50516220799909,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1421",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 37.06508607899741,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1421",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 37.602273923999746,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1420",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 38.174376806997316,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1420",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 38.72218674399846,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1419",
+          "stderr": ""
+        },
+        {
+          "elapsed_s": 39.27520808499685,
+          "returncode": 0,
+          "gpu_memory_csv": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188, 1134",
+          "stderr": ""
+        }
+      ],
+      "memory_scope": "Sampled whole-board usage includes any user browser; not allocator peak.",
+      "lock_released": true
+    }
+  },
+  "user_servers_after_test": {
+    "8767": 200,
+    "8768": 200,
+    "8769": 200,
+    "8770": 200
+  },
+  "landing_validation": {
+    "status": "PASS",
+    "links": [
+      {
+        "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/assembly.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8767/maps/garage_fidelity_v2_full_preview/gaussians_full.ply",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2/",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2/f6_block_027.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2/overview.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2/overview_side.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2_source_audit.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2_viewer.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8767/reports/full_preview_v2_viewer.md",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8769/",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:8770/",
+        "status": 200
+      }
+    ],
+    "screenshots_sha_verified": true,
+    "renderer_unchanged_after_test": true,
+    "static_browser_cache_removed": true,
+    "actual_inline_javascript_CPU_VM": "PASS: passed branch, full/overview counts, screenshot target; no browser/GPU launched"
+  }
+}
